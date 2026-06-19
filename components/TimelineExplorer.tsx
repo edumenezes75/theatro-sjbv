@@ -2,6 +2,7 @@
 import { useMemo, useState } from 'react';
 import type { Evento } from '@/lib/data';
 import SeloEvidencia from './SeloEvidencia';
+import Reveal from './Reveal';
 
 export default function TimelineExplorer({ eventos }: { eventos: Evento[] }) {
   const eras = useMemo(() => ['todas', ...Array.from(new Set(eventos.map((e) => e.era)))], [eventos]);
@@ -35,18 +36,20 @@ export default function TimelineExplorer({ eventos }: { eventos: Evento[] }) {
         {filtered.map((e) => (
           <li key={e.id} className="relative mb-10">
             <span className="absolute -left-[1.85rem] top-1.5 h-3 w-3 rotate-45 border-2 border-curtain bg-cream dark:border-gold dark:bg-night sm:-left-[2.9rem]" aria-hidden />
-            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-              <span className="font-display text-lg font-medium text-curtain dark:text-gold">{e.display}</span>
-              <SeloEvidencia status={e.status} />
-            </div>
-            <h2 className="mt-1 font-display text-xl leading-tight">{e.title}</h2>
-            <p className="mt-2 max-w-reading font-sans text-[0.97rem] leading-relaxed text-ink/80 dark:text-cream/80">{e.summary}</p>
-            <div className="mt-2 flex flex-wrap items-center gap-2">
-              {e.tags.map((t) => (
-                <button key={t} onClick={() => setQ(t)} className="font-sans text-[0.65rem] uppercase tracking-wide text-ink/45 hover:text-curtain dark:text-cream/45 dark:hover:text-gold">#{t}</button>
-              ))}
-            </div>
-            <p className="mt-1.5 font-sans text-xs italic text-ink/45 dark:text-cream/45">{e.sources.join('; ')}</p>
+            <Reveal>
+              <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                <span className="font-display text-lg font-medium text-curtain dark:text-gold">{e.display}</span>
+                <SeloEvidencia status={e.status} />
+              </div>
+              <h2 className="mt-1 font-display text-xl leading-tight">{e.title}</h2>
+              <p className="mt-2 max-w-reading font-sans text-[0.97rem] leading-relaxed text-ink/80 dark:text-cream/80">{e.summary}</p>
+              <div className="mt-2 flex flex-wrap items-center gap-2">
+                {e.tags.map((t) => (
+                  <button key={t} onClick={() => setQ(t)} className="font-sans text-[0.65rem] uppercase tracking-wide text-ink/45 hover:text-curtain dark:text-cream/45 dark:hover:text-gold">#{t}</button>
+                ))}
+              </div>
+              <p className="mt-1.5 font-sans text-xs italic text-ink/45 dark:text-cream/45">{e.sources.join('; ')}</p>
+            </Reveal>
           </li>
         ))}
       </ol>

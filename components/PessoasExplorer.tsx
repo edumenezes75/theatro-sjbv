@@ -23,7 +23,7 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
 
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {filtered.map((p) => (
-          <article key={p.id} id={p.id} className="flex flex-col rounded-sm border border-ink/10 p-6 transition-colors hover:border-gold/50 dark:border-cream/10">
+          <article key={p.id} id={p.id} className="card-lift flex flex-col rounded-sm border border-ink/10 p-6 hover:border-gold/50 dark:border-cream/10">
             <div className="flex items-center justify-between gap-2">
               <span className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
               <SeloEvidencia status={p.status} />

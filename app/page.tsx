@@ -43,8 +43,8 @@ export default function Home() {
               <span className="h-7 w-px bg-gold" />
               <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">História, arte e memória</p>
             </div>
-            <h1 className="mt-6 max-w-5xl font-display text-[3.3rem] font-medium leading-[0.96] sm:text-8xl md:text-[8.5rem]">
-              Um palco construído<br /><em className="font-normal italic text-gold">pela cidade</em>
+            <h1 className="kinetic-title mt-6 max-w-5xl font-display text-[3.3rem] font-medium leading-[0.96] sm:text-8xl md:text-[8.5rem]">
+              Um palco construído<br /><em className="line-2 font-normal italic text-gold">pela cidade</em>
             </h1>
             <div className="mt-10 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
               <p className="max-w-md font-sans text-lg leading-relaxed text-cream/85">
@@ -146,6 +146,19 @@ export default function Home() {
               <p>A história do Theatro não pertence somente aos nomes famosos que passaram pelo palco. Por isso, este site não organiza o passado apenas por datas: permite seguir pessoas, objetos, ambientes e lembranças.</p>
               <p>Uma fotografia de baile conduz à sala em ferradura. Um cartaz leva ao elenco de uma peça. Um depoimento sobre cinema se liga ao antigo bar, à bilheteria e às sessões de domingo.</p>
             </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* FULL-BLEED — imagem + frase */}
+      <section className="relative h-[78vh] min-h-[460px] overflow-hidden grain">
+        <Image src="/fotos/hr-sala-50.jpg" alt="Sala do Theatro Municipal restaurada." fill className="object-cover" sizes="100vw" />
+        <div className="absolute inset-0 bg-gradient-to-t from-night/85 via-night/30 to-night/10" />
+        <div className="relative mx-auto flex h-full max-w-6xl items-end px-5 pb-16">
+          <Reveal>
+            <p className="max-w-2xl font-display text-3xl italic leading-tight text-cream sm:text-4xl md:text-5xl">
+              Para algumas gerações, foi teatro. Para outras, o Cine Theatro. Para todas, o coração da cidade.
+            </p>
           </Reveal>
         </div>
       </section>

@@ -17,7 +17,7 @@ export default function HeroVideo() {
       poster="/video/hero-theatro-poster.jpg" aria-hidden
       className="absolute inset-0 h-full w-full object-cover"
     >
-      <source src="/video/hero-theatro.mp4" type="video/mp4" />
+      <source src="/video/hero-theatro-loop.mp4" type="video/mp4" />
     </video>
   );
 }
