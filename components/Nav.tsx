@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import ThemeToggle from './ThemeToggle';
+import Mark from './Mark';
 
 const LINKS = [
   { href: '/o-theatro', label: 'O Theatro' },
@@ -34,9 +35,12 @@ export default function Nav() {
   return (
     <header className={`fixed top-0 z-50 w-full transition-colors duration-500 ${scrolled || open ? 'bg-cream/90 backdrop-blur-md border-b border-gold/20 dark:bg-night/90' : 'bg-transparent'}`}>
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
-        <Link href="/" className="group flex flex-col leading-none">
-          <span className="font-display text-lg tracking-tight">Theatro Municipal</span>
-          <span className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain dark:text-gold">São João da Boa Vista</span>
+        <Link href="/" className="group flex items-center gap-2.5 leading-none">
+          <Mark className="text-curtain transition-colors group-hover:text-gold dark:text-gold" size={30} />
+          <span className="flex flex-col">
+            <span className="font-display text-lg tracking-tight">Theatro Municipal</span>
+            <span className="font-sans text-[0.58rem] uppercase tracking-eyebrow text-ink/60 dark:text-cream/60">São João da Boa Vista</span>
+          </span>
         </Link>
         <nav className="hidden items-center gap-5 xl:flex" aria-label="Navegação principal">
           {LINKS.map((l) => {

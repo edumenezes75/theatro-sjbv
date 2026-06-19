@@ -57,3 +57,38 @@ body {
 
 article[id]:target { box-shadow: 0 0 0 2px theme('colors.curtain'); border-radius: 2px; }
 .dark article[id]:target { box-shadow: 0 0 0 2px theme('colors.gold'); }
+
+/* ===== R1 — refinamento do sistema visual ===== */
+
+/* foco elegante e consistente */
+*:focus { outline: none; }
+*:focus-visible {
+  outline: 2px solid theme('colors.curtain');
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+.dark *:focus-visible { outline-color: theme('colors.gold'); }
+
+/* tipografia display (Bodoni Moda) — mais drama, sem perder leitura */
+.prose-theatro h2 { letter-spacing: -0.005em; line-height: 1.08; font-weight: 600; }
+.prose-theatro h3 { letter-spacing: 0; font-weight: 600; }
+.prose-theatro p { font-size: 1.06rem; line-height: 1.78; }
+
+/* blockquote mais leve e editorial (menos moldura) */
+.prose-theatro blockquote {
+  border-left-width: 2px;
+  background: transparent;
+  padding: 0.2rem 0 0.2rem 1.4rem;
+  font-style: italic;
+  color: theme('colors.ink');
+}
+.dark .prose-theatro blockquote { color: #ECE6DA; }
+
+/* fios dourados ornamentais, nunca como texto sobre creme */
+.rule-gold { height: 1px; background: theme('colors.gold'); opacity: 0.5; border: 0; }
+
+/* links de leitura com sublinhado fino e elegante */
+.prose-theatro a { text-decoration-thickness: 1px; text-underline-offset: 4px; }
+
+/* seleção */
+::selection { background: theme('colors.curtain'); color: theme('colors.cream'); }

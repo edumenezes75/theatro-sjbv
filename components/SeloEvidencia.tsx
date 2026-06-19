@@ -15,7 +15,7 @@ const LABEL: Record<Kind, string> = {
   servico: 'Informação de serviço',
 };
 const STYLE: Record<Kind, string> = {
-  documentado: 'border-gold/60 text-gold',
+  documentado: 'border-gold/70 text-[#7d6428] dark:text-gold',
   memoria: 'border-curtain/50 text-curtain dark:text-gold',
   pesquisa: 'border-moss/60 text-moss',
   servico: 'border-ink/30 text-ink/70 dark:border-cream/30 dark:text-cream/70',

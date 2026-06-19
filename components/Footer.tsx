@@ -1,10 +1,12 @@
 import Link from 'next/link';
+import Mark from './Mark';
 
 export default function Footer() {
   return (
     <footer className="mt-24 border-t border-gold/25 bg-ink text-cream dark:bg-black">
       <div className="mx-auto max-w-6xl px-5 py-16">
-        <p className="max-w-2xl font-display text-xl italic leading-snug text-gold">
+        <Mark className="text-gold" size={36} />
+        <p className="mt-5 max-w-2xl font-display text-2xl italic leading-snug text-cream">
           Um edifício construído pela cidade, transformado por seus usos, salvo pela mobilização popular e mantido vivo pela cultura.
         </p>
         <div className="mt-12 grid gap-10 sm:grid-cols-3">
