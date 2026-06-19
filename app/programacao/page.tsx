@@ -22,7 +22,7 @@ function Card({ e }: { e: ReturnType<typeof getEventos>[number] }) {
       <div className="sm:w-40">
         <p className="font-display text-2xl leading-none text-curtain dark:text-gold">{data}</p>
         <p className="mt-1 font-sans text-xs capitalize text-ink/55 dark:text-cream/55">{dia} · {hora}</p>
-        {e.categoria && <span className="mt-2 inline-block rounded-full border border-gold/40 px-2.5 py-0.5 font-sans text-[0.6rem] uppercase tracking-eyebrow text-gold">{e.categoria}</span>}
+        {e.categoria && <span className="mt-2 inline-block rounded-full border border-curtain/30 px-2.5 py-0.5 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain dark:border-gold/40 dark:text-gold">{e.categoria}</span>}
       </div>
       <div>
         <h3 className="font-display text-xl leading-tight">{e.title}</h3>

@@ -11,7 +11,7 @@ export default function Reveal({ children, className = '', delay = 0 }: { childr
     if (reduce) { setShown(true); return; }
     const obs = new IntersectionObserver(
       ([e]) => { if (e.isIntersecting) { setShown(true); obs.disconnect(); } },
-      { threshold: 0.12 }
+      { threshold: 0.1 }
     );
     obs.observe(el);
     return () => obs.disconnect();
@@ -20,7 +20,7 @@ export default function Reveal({ children, className = '', delay = 0 }: { childr
     <div
       ref={ref}
       className={className}
-      style={{ opacity: shown ? 1 : 0, transform: shown ? 'none' : 'translateY(18px)', transition: `opacity .8s cubic-bezier(.22,1,.36,1) ${delay}ms, transform .8s cubic-bezier(.22,1,.36,1) ${delay}ms` }}
+      style={{ opacity: shown ? 1 : 0, transform: shown ? 'none' : 'translateY(10px)', transition: `opacity .6s cubic-bezier(.22,1,.36,1) ${delay}ms, transform .6s cubic-bezier(.22,1,.36,1) ${delay}ms` }}
     >
       {children}
     </div>
