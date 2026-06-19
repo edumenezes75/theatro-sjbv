@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import CurtainIntro from '@/components/CurtainIntro';
 import { fotosList } from '@/lib/data';
+import Mark from '@/components/Mark';
 import Reveal from '@/components/Reveal';
 
 const FACTS = [
@@ -37,17 +38,25 @@ export default function Home() {
         </div>
         <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-5 pb-20 pt-40 text-cream">
           <Reveal>
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">História, arte e memória</p>
-            <h1 className="mt-5 max-w-4xl font-display text-5xl leading-[1.02] sm:text-7xl md:text-8xl">Um palco construído pela cidade</h1>
-            <p className="mt-7 max-w-xl font-sans text-lg leading-relaxed text-cream/85">
-              Em 1914, São João da Boa Vista não inaugurou apenas um edifício. Inaugurou uma ambição: colocar a arte no centro da vida da cidade.
-            </p>
-            <div className="mt-9 flex flex-wrap gap-3">
-              <Link href="/historia" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03]">Explorar a história</Link>
-              <Link href="/documentario" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Assistir ao documentário</Link>
-              <Link href="/visite" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Planejar uma visita</Link>
+            <div className="flex items-center gap-3">
+              <span className="h-7 w-px bg-gold" />
+              <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">História, arte e memória</p>
+            </div>
+            <h1 className="mt-6 max-w-5xl font-display text-[3.3rem] font-medium leading-[0.96] sm:text-8xl md:text-[8.5rem]">
+              Um palco construído<br /><em className="font-normal italic text-gold">pela cidade</em>
+            </h1>
+            <div className="mt-10 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
+              <p className="max-w-md font-sans text-lg leading-relaxed text-cream/85">
+                Em 1914, São João da Boa Vista não inaugurou apenas um edifício. Inaugurou uma ambição: colocar a arte no centro da vida da cidade.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/historia" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03]">Explorar a história</Link>
+                <Link href="/documentario" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Documentário</Link>
+                <Link href="/visite" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Visitar</Link>
+              </div>
             </div>
           </Reveal>
+          <span className="pointer-events-none absolute right-6 top-44 hidden font-display text-sm italic tracking-wide text-cream/40 lg:block">desde 1914</span>
         </div>
       </section>
 
@@ -56,7 +65,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-6xl grid-cols-2 divide-x divide-gold/20 px-5 md:grid-cols-4">
           {FACTS.map(([y, l], i) => (
             <Reveal key={y} delay={i * 90} className={`px-5 py-9 ${i >= 2 ? 'border-t border-gold/20 md:border-t-0' : ''}`}>
-              <p className="font-display text-4xl text-curtain dark:text-gold">{y}</p>
+              <p className="font-display text-5xl text-curtain dark:text-gold">{y}</p>
               <p className="mt-2 font-sans text-sm leading-snug text-ink/70 dark:text-cream/70">{l}</p>
             </Reveal>
           ))}
@@ -95,15 +104,29 @@ export default function Home() {
         </div>
       </section>
 
-      {/* IMAGE FEATURE */}
-      <section className="mx-auto max-w-6xl px-5 py-24">
+      {/* FRASE-EIXO — faixa editorial assimétrica */}
+      <section className="bg-night text-cream">
+        <div className="mx-auto max-w-6xl px-5 py-28 sm:py-36">
+          <Reveal>
+            <Mark className="text-gold" size={40} />
+            <blockquote className="mt-8 max-w-4xl font-display text-3xl italic leading-[1.12] sm:text-5xl md:text-[3.6rem]">
+              Um edifício construído pela cidade, transformado por seus usos, salvo pela mobilização popular e mantido vivo pela cultura.
+            </blockquote>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* IMAGE FEATURE — sangria com legenda deslocada */}
+      <section className="py-24">
         <Reveal>
           <figure>
-            <div className="relative aspect-[16/9] w-full overflow-hidden rounded-sm">
+            <div className="relative aspect-[16/9] w-full overflow-hidden sm:aspect-[21/9] sm:rounded-sm md:mx-auto md:max-w-[88rem]">
               <Image src="/media/fachada-decada-1920.png" alt="Fachada histórica do Theatro Municipal na década de 1920." fill className="object-cover" sizes="100vw" />
             </div>
-            <figcaption className="mt-3 max-w-2xl font-sans text-sm italic text-ink/60 dark:text-cream/60">
-              Fachada do Theatro na década de 1920. A praça, as portas e a escala do edifício ajudam a compreender o impacto da nova construção na paisagem urbana. <span className="not-italic">— Livro, p. 40.</span>
+            <figcaption className="mx-auto mt-4 max-w-6xl px-5 sm:flex sm:justify-end">
+              <span className="block max-w-sm font-sans text-sm italic leading-relaxed text-ink/60 dark:text-cream/60">
+                Fachada do Theatro na década de 1920 — a praça, as portas e a escala do edifício revelam o impacto da nova construção na paisagem urbana. <span className="not-italic">Livro, p. 40.</span>
+              </span>
             </figcaption>
           </figure>
         </Reveal>
