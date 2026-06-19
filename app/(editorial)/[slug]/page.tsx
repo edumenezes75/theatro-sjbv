@@ -29,6 +29,8 @@ const ANTES_DEPOIS = new Set(['restauracao', 'arquitetura']);
 export default function EditorialPage({ params }: { params: { slug: string } }) {
   const page = getPageBySlug('/' + params.slug);
   if (!page) notFound();
+  const words = page.html.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+  const readMin = Math.max(1, Math.round(words / 200));
   const gal = GALLERIES[params.slug];
   const galFotos = gal ? fotosList.filter((f) => gal.cats.includes(f.category)).slice(0, 16) : [];
   const showAD = ANTES_DEPOIS.has(params.slug);
@@ -37,6 +39,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
     <article>
       <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={page.meta.status} />
       <div className="mx-auto max-w-6xl px-5 py-14">
+        <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/45 dark:text-cream/45">{readMin} min de leitura</p>
         <Reveal>
           <div className="prose-theatro mx-auto" dangerouslySetInnerHTML={{ __html: page.html }} />
         </Reveal>

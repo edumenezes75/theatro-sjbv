@@ -3,6 +3,7 @@ import { Bodoni_Moda, Hanken_Grotesk } from 'next/font/google';
 import './globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import SmoothScroll from '@/components/SmoothScroll';
 
 const display = Bodoni_Moda({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800'], style: ['normal', 'italic'], variable: '--font-display', display: 'swap' });
 const sans = Hanken_Grotesk({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700'], variable: '--font-sans', display: 'swap' });
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className="font-sans antialiased">
         <a href="#conteudo" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded focus:bg-curtain focus:px-4 focus:py-2 focus:text-cream">Pular para o conteúdo</a>
+        <SmoothScroll />
         <Nav />
         <main id="conteudo">{children}</main>
         <Footer />

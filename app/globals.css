@@ -101,3 +101,49 @@ article[id]:target { box-shadow: 0 0 0 2px theme('colors.curtain'); border-radiu
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 @media (prefers-reduced-motion: reduce) { .grain::after { opacity: 0.04; } }
+
+/* ===== R6 — Lenis + leitura premium (calm design) ===== */
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+/* leitura: medida confortável, ritmo generoso */
+.prose-theatro { font-size: 1.09rem; line-height: 1.82; }
+.prose-theatro p { margin: 1.25rem 0; }
+.prose-theatro p + p { text-indent: 0; }
+
+/* capitular (drop-cap) na abertura — toque editorial clássico */
+.prose-theatro > p:first-of-type::first-letter {
+  font-family: var(--font-display);
+  float: left;
+  font-size: 3.6rem;
+  line-height: 0.82;
+  padding: 0.35rem 0.7rem 0 0;
+  color: theme('colors.curtain');
+  font-weight: 600;
+}
+.dark .prose-theatro > p:first-of-type::first-letter { color: theme('colors.gold'); }
+
+/* links com sublinhado que cresce (sutil, caro) */
+.prose-theatro a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px; background-repeat: no-repeat; background-position: 0 1.15em;
+  text-decoration: none; transition: background-size .4s cubic-bezier(.22,1,.36,1);
+}
+.prose-theatro a:hover { background-size: 100% 1px; }
+
+/* citação-destaque (pull quote) mais editorial */
+.prose-theatro blockquote {
+  margin: 2.4rem 0; padding-left: 1.6rem; border-left-width: 2px;
+  font-size: 1.45rem; line-height: 1.4;
+}
+.prose-theatro blockquote p { margin: .3rem 0; }
+
+/* "Em um minuto" e notas — destaque calmo */
+.prose-theatro h2 { margin-top: 3rem; }
+.prose-theatro h2:first-child { margin-top: 0; }
+
+/* tempo de leitura / meta editorial */
+.read-meta { font-variant-numeric: tabular-nums; }
