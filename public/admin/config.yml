@@ -1,30 +1,30 @@
 backend:
-  name: github
-  repo: edumenezes75/theatro-sjbv   # <-- ajustar para o repositório real
-  branch: main
-  base_url: https://theatrosjbv.vercel.app   # endpoint OAuth (função serverless)
-  auth_endpoint: api/auth
+ endpoint OAuth (função serverless)name: github
+ endpoint OAuth (função serverless)repo: edumenezes75/theatro-sjbv <-- ajustar para o repositório real# <-- ajustar para o repositório real
+ endpoint OAuth (função serverless)branch: main
+ endpoint OAuth (função serverless)base_url: https://theatrosjbv.vercel.app <-- ajustar para o repositório real# endpoint OAuth (função serverless)
+ endpoint OAuth (função serverless)auth_endpoint: api/auth
 
 locale: pt
 media_folder: "public/fotos/eventos"
 public_folder: "/fotos/eventos"
 
 collections:
-  - name: eventos
-    label: "Programação / Eventos"
-    label_singular: "Evento"
-    description: "Agenda de espetáculos, concertos e eventos do Theatro."
-    folder: "content/eventos"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    summary: "{{title}} — {{date}}"
-    sortable_fields: [date, title]
-    fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Data e hora", name: "date", widget: "datetime", date_format: "DD/MM/YYYY", time_format: "HH:mm" }
-      - { label: "Local", name: "local", widget: "string", required: false, default: "Sala principal — Theatro Municipal" }
-      - { label: "Categoria", name: "categoria", widget: "select", options: ["Música", "Dança", "Teatro", "Cinema", "Festival", "Palestra", "Outro"] }
-      - { label: "Link de ingressos", name: "ingresso", widget: "string", required: false }
-      - { label: "Status", name: "status", widget: "select", options: ["agendado", "realizado"], default: "agendado" }
-      - { label: "Destaque na home", name: "destaque", widget: "boolean", default: false, required: false }
-      - { label: "Descrição", name: "body", widget: "markdown", required: false }
+ endpoint OAuth (função serverless)- name: eventos
+ <-- ajustar para o repositório real label: "Programação / Eventos"
+ <-- ajustar para o repositório real label_singular: "Evento"
+ <-- ajustar para o repositório real description: "Agenda de espetáculos, concertos e eventos do Theatro."
+ <-- ajustar para o repositório real folder: "content/eventos"
+ <-- ajustar para o repositório real create: true
+ <-- ajustar para o repositório real slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+ <-- ajustar para o repositório real summary: "{{title}} — {{date}}"
+ <-- ajustar para o repositório real sortable_fields: [date, title]
+ <-- ajustar para o repositório real fields:
+ <-- ajustar para o repositório real endpoint OAuth (função serverless) - { label: "Título", name: "title", widget: "string" }
+ <-- ajustar para o repositório real endpoint OAuth (função serverless) - { label: "Data e hora", name: "date", widget: "datetime", date_format: "DD/MM/YYYY", time_format: "HH:mm" }
+ <-- ajustar para o repositório real endpoint OAuth (função serverless) - { label: "Local", name: "local", widget: "string", required: false, default: "Sala principal — Theatro Municipal" }
+ <-- ajustar para o repositório real endpoint OAuth (função serverless) - { label: "Categoria", name: "categoria", widget: "select", options: ["Música", "Dança", "Teatro", "Cinema", "Festival", "Palestra", "Outro"] }
+ <-- ajustar para o repositório real endpoint OAuth (função serverless) - { label: "Link de ingressos", name: "ingresso", widget: "string", required: false }
+ <-- ajustar para o repositório real endpoint OAuth (função serverless) - { label: "Status", name: "status", widget: "select", options: ["agendado", "realizado"], default: "agendado" }
+ <-- ajustar para o repositório real endpoint OAuth (função serverless) - { label: "Destaque na home", name: "destaque", widget: "boolean", default: false, required: false }
+ <-- ajustar para o repositório real endpoint OAuth (função serverless) - { label: "Descrição", name: "body", widget: "markdown", required: false }
