@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import type { Imagem } from '@/lib/data';
+import { IconClose } from './Icons';
 
 export default function Galeria({ imagens }: { imagens: Imagem[] }) {
   const [open, setOpen] = useState<Imagem | null>(null);
@@ -19,7 +20,7 @@ export default function Galeria({ imagens }: { imagens: Imagem[] }) {
       </div>
       {open && (
         <div className="fixed inset-0 z-[120] flex items-center justify-center bg-ink/90 p-5" onClick={() => setOpen(null)} role="dialog" aria-modal="true" aria-label={open.alt}>
-          <button onClick={() => setOpen(null)} aria-label="Fechar" className="absolute right-5 top-5 text-3xl text-cream/80 hover:text-gold">×</button>
+          <button onClick={() => setOpen(null)} aria-label="Fechar" className="absolute right-5 top-5 text-cream/80 hover:text-gold"><IconClose size={26} /></button>
           <figure className="max-h-full max-w-4xl" onClick={(e) => e.stopPropagation()}>
             <Image src={`/media/${open.file}`} alt={open.alt} width={1400} height={1000} className="max-h-[78vh] w-auto rounded-sm object-contain" />
             <figcaption className="mt-3 font-sans text-sm text-cream/80">

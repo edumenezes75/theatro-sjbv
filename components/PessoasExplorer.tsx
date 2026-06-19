@@ -2,6 +2,7 @@
 import { useMemo, useState } from 'react';
 import type { Pessoa } from '@/lib/data';
 import SeloEvidencia from './SeloEvidencia';
+import { IconClose } from './Icons';
 
 export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
   const cats = useMemo(() => ['todas', ...Array.from(new Set(pessoas.map((p) => p.category)))], [pessoas]);
@@ -22,7 +23,7 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
 
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {filtered.map((p) => (
-          <article key={p.id} id={p.id} className="flex flex-col rounded-sm border border-gold/25 bg-cream/60 p-6 dark:bg-night/40">
+          <article key={p.id} id={p.id} className="flex flex-col rounded-sm border border-ink/10 p-6 transition-colors hover:border-gold/50 dark:border-cream/10">
             <div className="flex items-center justify-between gap-2">
               <span className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
               <SeloEvidencia status={p.status} />
@@ -54,7 +55,7 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
       {open && (
         <div className="fixed inset-0 z-[120] flex items-start justify-center overflow-y-auto bg-ink/85 p-4 sm:p-10" onClick={() => setOpen(null)} role="dialog" aria-modal="true" aria-label={open.name}>
           <div className="relative my-auto w-full max-w-2xl rounded-sm bg-cream p-7 sm:p-10 dark:bg-night" onClick={(e) => e.stopPropagation()}>
-            <button onClick={() => setOpen(null)} aria-label="Fechar" className="absolute right-4 top-3 text-2xl text-ink/50 hover:text-curtain dark:text-cream/50">×</button>
+            <button onClick={() => setOpen(null)} aria-label="Fechar" className="absolute right-4 top-3 text-ink/50 hover:text-curtain dark:text-cream/50"><IconClose size={22} /></button>
             <div className="flex items-center gap-3">
               <span className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{open.category}</span>
               <SeloEvidencia status={open.status} />

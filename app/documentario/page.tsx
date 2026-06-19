@@ -49,7 +49,7 @@ export default function DocumentarioPage() {
           </ol>
         </section>
 
-        <section className="mt-16 rounded-sm border border-gold/25 bg-cream/50 p-7 dark:bg-night/40">
+        <section className="mt-16 rounded-sm border border-ink/10 p-7 dark:bg-night/40">
           <div className="flex items-center gap-3">
             <h2 className="font-display text-2xl">Transcrição pesquisável</h2>
             <SeloEvidencia status="em pesquisa" label="Em produção" />

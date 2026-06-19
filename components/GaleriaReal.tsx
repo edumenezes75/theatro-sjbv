@@ -2,6 +2,7 @@
 import { useMemo, useState } from 'react';
 import Image from 'next/image';
 import type { Foto } from '@/lib/data';
+import { IconClose } from './Icons';
 
 export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[]; withFilter?: boolean }) {
   const cats = useMemo(() => {
@@ -59,7 +60,7 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
           aria-modal="true"
           aria-label={open.alt}
         >
-          <button onClick={() => setOpen(null)} aria-label="Fechar" className="absolute right-5 top-4 text-3xl text-cream/80 hover:text-gold">×</button>
+          <button onClick={() => setOpen(null)} aria-label="Fechar" className="absolute right-5 top-4 text-cream/80 hover:text-gold"><IconClose size={26} /></button>
           <figure className="max-h-full max-w-5xl" onClick={(e) => e.stopPropagation()}>
             <Image src={`/${open.file}`} alt={open.alt} width={open.w} height={open.h} className="max-h-[78vh] w-auto rounded-sm object-contain" />
             <figcaption className="mt-3 max-w-2xl font-sans text-sm text-cream/85">

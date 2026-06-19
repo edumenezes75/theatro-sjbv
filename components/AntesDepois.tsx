@@ -1,6 +1,7 @@
 'use client';
 import { useRef, useState } from 'react';
 import Image from 'next/image';
+import { IconArrowsLR } from './Icons';
 
 type Par = { id: string; title: string; caption: string; antes: string; depois: string; w: number; h: number; credit: string };
 
@@ -30,7 +31,7 @@ function Slider({ par }: { par: Par }) {
         <span className="pointer-events-none absolute right-3 top-3 rounded-full bg-ink/70 px-2.5 py-1 font-sans text-[0.6rem] uppercase tracking-eyebrow text-cream">Restaurado</span>
         <div className="pointer-events-none absolute inset-y-0" style={{ left: `${pos}%`, transform: 'translateX(-50%)' }}>
           <div className="mx-auto h-full w-0.5 bg-cream/90" />
-          <div className="absolute top-1/2 left-1/2 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-2 border-cream bg-curtain text-cream shadow-lg">⟷</div>
+          <div className="absolute top-1/2 left-1/2 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-2 border-cream bg-curtain text-cream shadow-lg"><IconArrowsLR size={16} /></div>
         </div>
         <input
           type="range" min={0} max={100} value={pos} onChange={(e) => setPos(Number(e.target.value))}
