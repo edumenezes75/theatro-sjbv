@@ -4,7 +4,7 @@ title: "Pesquisa e fontes"
 eyebrow: "Como esta história foi construída"
 seo_title: "Fontes e pesquisa sobre o Theatro Municipal"
 seo_description: "Conheça livros, documentos, jornais, processos, acervos e critérios usados na pesquisa histórica do Theatro Municipal."
-hero_image: "../media/projeto-fachada-j-pucci.png"
+hero_image: "/fotos/hr-historicas-15.jpg"
 hero_alt: "Projeto histórico da fachada do Theatro Municipal."
 status: "transparência editorial"
 ---

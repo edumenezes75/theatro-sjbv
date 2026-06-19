@@ -4,7 +4,7 @@ title: "Memórias e curiosidades"
 eyebrow: "O Theatro visto por quem esteve lá"
 seo_title: "Memórias e curiosidades do Theatro Municipal"
 seo_description: "Descubra histórias de cinema, bailes, rádio, biblioteca, bar, bastidores e personagens do Theatro Municipal."
-hero_image: "../media/baile-no-theatro.png"
+hero_image: "/fotos/hr-eventos-11.jpg"
 hero_alt: "Salão do Theatro ocupado por um grande baile, com público na plateia e galerias."
 status: "texto público"
 ---

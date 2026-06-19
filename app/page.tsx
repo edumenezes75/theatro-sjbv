@@ -20,7 +20,7 @@ const PILLARS = [
 ];
 
 export default function Home() {
-  const strip = ['fachada', 'sala', 'ornamentos', 'restauro', 'foyer', 'historicas']
+  const strip = ['fachada', 'sala', 'ornamentos', 'pessoas', 'restauro', 'eventos']
     .map((c) => fotosList.find((f) => f.category === c))
     .filter(Boolean)
     .slice(0, 6) as typeof fotosList;
@@ -31,7 +31,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative min-h-[100svh] overflow-hidden">
         <div className="absolute inset-0 grain">
-          <Image src="/media/aquarela-theatro.png" alt="Aquarela da fachada histórica do Theatro Municipal de São João da Boa Vista." fill priority className="object-cover" sizes="100vw" />
+          <Image src="/fotos/hr-sala-50.jpg" alt="Sala do Theatro Municipal restaurada, com a plateia e as galerias em ferradura." fill priority className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-t from-night via-night/40 to-night/10" />
           <div className="absolute inset-0 bg-gradient-to-r from-night/65 via-night/20 to-transparent" />
           <div className="absolute inset-0" style={{ background: 'radial-gradient(130% 90% at 70% 10%, rgba(110,27,34,0.28), transparent 55%)' }} />

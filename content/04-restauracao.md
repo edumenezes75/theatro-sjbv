@@ -4,7 +4,7 @@ title: "Preservação e restauro"
 eyebrow: "A cidade que decidiu não perder seu Theatro"
 seo_title: "Restauração do Theatro Municipal de São João da Boa Vista"
 seo_description: "Conheça a mobilização popular, o tombamento e a longa restauração que salvaram o Theatro Municipal."
-hero_image: "../media/escavacao-subsolo.png"
+hero_image: "/fotos/hr-restauro-41.jpg"
 hero_alt: "Retroescavadeira no interior do Theatro durante o rebaixamento do subsolo."
 status: "texto público"
 ---

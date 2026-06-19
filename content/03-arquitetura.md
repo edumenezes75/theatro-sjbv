@@ -4,7 +4,7 @@ title: "Arquitetura"
 eyebrow: "Uma sala em ferradura, muitas camadas de tempo"
 seo_title: "Arquitetura do Theatro Municipal de São João da Boa Vista"
 seo_description: "Explore a fachada, a sala em ferradura, o palco e as transformações arquitetônicas do Theatro Municipal."
-hero_image: "../media/interior-ferradura.png"
+hero_image: "/fotos/hr-sala-36.jpg"
 hero_alt: "Interior histórico do Theatro com plateia e galerias sobrepostas em forma de ferradura."
 status: "texto público"
 ---

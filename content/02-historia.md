@@ -4,7 +4,7 @@ title: "História"
 eyebrow: "De um projeto ousado a um patrimônio vivo"
 seo_title: "História do Theatro Municipal de São João da Boa Vista"
 seo_description: "Percorra a história do Theatro Municipal desde a idealização, em 1911, até a preservação, o restauro e a programação contemporânea."
-hero_image: "../media/projeto-fachada-j-pucci.png"
+hero_image: "/fotos/hr-historicas-07.jpg"
 hero_alt: "Desenho do projeto histórico da fachada do Theatro Municipal, assinado por J. Pucci."
 status: "texto público"
 ---
