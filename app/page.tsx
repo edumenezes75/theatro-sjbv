@@ -29,10 +29,11 @@ export default function Home() {
 
       {/* HERO */}
       <section className="relative min-h-[100svh] overflow-hidden">
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 grain">
           <Image src="/media/aquarela-theatro.png" alt="Aquarela da fachada histórica do Theatro Municipal de São João da Boa Vista." fill priority className="object-cover" sizes="100vw" />
-          <div className="absolute inset-0 bg-gradient-to-b from-ink/75 via-ink/45 to-cream dark:to-night" />
-          <div className="absolute inset-0 mix-blend-multiply" style={{ background: 'radial-gradient(120% 80% at 50% 0%, rgba(142,43,32,0.35), transparent 60%)' }} />
+          <div className="absolute inset-0 bg-gradient-to-t from-night via-night/40 to-night/10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-night/65 via-night/20 to-transparent" />
+          <div className="absolute inset-0" style={{ background: 'radial-gradient(130% 90% at 70% 10%, rgba(110,27,34,0.28), transparent 55%)' }} />
         </div>
         <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-5 pb-20 pt-40 text-cream">
           <Reveal>

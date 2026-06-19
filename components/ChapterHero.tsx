@@ -5,15 +5,17 @@ export default function ChapterHero({ eyebrow, title, image, alt, status }: { ey
   return (
     <header className="relative overflow-hidden">
       {image && (
-        <div className="absolute inset-0">
+        <div className="absolute inset-0 grain">
           <Image src={image} alt={alt || ''} fill priority className="object-cover" sizes="100vw" />
-          <div className="absolute inset-0 bg-gradient-to-b from-ink/70 via-ink/55 to-cream dark:to-night" />
+          {/* gradiente direcional: escuro embaixo p/ leitura, imagem viva em cima */}
+          <div className="absolute inset-0 bg-gradient-to-t from-night via-night/45 to-night/5" />
+          <div className="absolute inset-0 bg-gradient-to-r from-night/55 to-transparent" />
         </div>
       )}
-      <div className={`relative mx-auto max-w-6xl px-5 ${image ? 'pb-16 pt-44 text-cream' : 'pb-10 pt-40'}`}>
-        {eyebrow && <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">{eyebrow}</p>}
-        <h1 className="mt-4 max-w-3xl font-display text-4xl leading-[1.05] sm:text-6xl">{title}</h1>
-        {status && <div className="mt-5"><SeloEvidencia status={status} /></div>}
+      <div className={`relative mx-auto max-w-6xl px-5 ${image ? 'pb-14 pt-48 text-cream' : 'pb-10 pt-44'}`}>
+        {eyebrow && <p className="font-sans text-[0.7rem] font-medium uppercase tracking-eyebrow text-gold">{eyebrow}</p>}
+        <h1 className="mt-5 max-w-3xl font-display text-5xl font-semibold leading-[1.02] sm:text-7xl">{title}</h1>
+        {status && <div className="mt-6"><SeloEvidencia status={status} /></div>}
       </div>
     </header>
   );
