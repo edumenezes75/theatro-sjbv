@@ -1,0 +1,782 @@
+[
+ {
+  "id": "f001",
+  "file": "fotos/fachada-01-mvc-871s.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 1240,
+  "h": 412,
+  "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f002",
+  "file": "fotos/fachada-02-mvc-870s.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 640,
+  "h": 480,
+  "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f003",
+  "file": "fotos/fachada-03-mvc-869s.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 480,
+  "h": 640,
+  "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f004",
+  "file": "fotos/fachada-04-mvc-868s.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 640,
+  "h": 480,
+  "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f005",
+  "file": "fotos/fachada-05-mvc-715f.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 640,
+  "h": 480,
+  "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f006",
+  "file": "fotos/fachada-06-mvc-714f.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 640,
+  "h": 480,
+  "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f007",
+  "file": "fotos/fachada-07-mvc-713f.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 640,
+  "h": 480,
+  "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f008",
+  "file": "fotos/fachada-08-fachada.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 1333,
+  "h": 950,
+  "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f009",
+  "file": "fotos/fachada-09-fachada-iluminada.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 640,
+  "h": 456,
+  "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f010",
+  "file": "fotos/fachada-10-teatro-municipa.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 1312,
+  "h": 920,
+  "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f011",
+  "file": "fotos/sala-01-vista-geral.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f012",
+  "file": "fotos/sala-02-vista-camarotes.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f013",
+  "file": "fotos/sala-03-foto-5.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f014",
+  "file": "fotos/sala-04-camarote.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f015",
+  "file": "fotos/sala-05-camaroetes4.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f016",
+  "file": "fotos/sala-06-assoalho.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f017",
+  "file": "fotos/sala-07-mvc-864s.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 480,
+  "h": 640,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f018",
+  "file": "fotos/sala-08-mvc-850s.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f019",
+  "file": "fotos/sala-09-mvc-849s.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 480,
+  "h": 640,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f020",
+  "file": "fotos/sala-10-mvc-848s.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f021",
+  "file": "fotos/sala-11-mvc-745f.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f022",
+  "file": "fotos/sala-12-mvc-743f.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f023",
+  "file": "fotos/sala-13-mvc-817s.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f024",
+  "file": "fotos/sala-14-mvc-812s.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 480,
+  "h": 640,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f025",
+  "file": "fotos/sala-15-mvc-811s.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f026",
+  "file": "fotos/sala-16-mvc-810s.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f027",
+  "file": "fotos/sala-17-mvc-867s.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f028",
+  "file": "fotos/sala-18-mvc-744f.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f029",
+  "file": "fotos/sala-19-mvc-742f.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 480,
+  "h": 640,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f030",
+  "file": "fotos/sala-20-mvc-741f.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 480,
+  "h": 640,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f031",
+  "file": "fotos/detalhes-01-foto-8.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f032",
+  "file": "fotos/detalhes-02-foto-6.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f033",
+  "file": "fotos/detalhes-03-vistainterna.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f034",
+  "file": "fotos/detalhes-04-pintura1.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f035",
+  "file": "fotos/detalhes-05-mvc-857s.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f036",
+  "file": "fotos/detalhes-06-mvc-853s.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f037",
+  "file": "fotos/detalhes-07-mvc-852s.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f038",
+  "file": "fotos/detalhes-08-mvc-850s.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f039",
+  "file": "fotos/detalhes-09-mvc-816s.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f040",
+  "file": "fotos/detalhes-10-mvc-815s.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f041",
+  "file": "fotos/detalhes-11-mvc-814s.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f042",
+  "file": "fotos/detalhes-12-mvc-813s.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f043",
+  "file": "fotos/detalhes-13-mvc-809s.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f044",
+  "file": "fotos/detalhes-14-foto-7.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f045",
+  "file": "fotos/detalhes-15-foto-22.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f046",
+  "file": "fotos/detalhes-16-foto-21.jpg",
+  "category": "detalhes",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f047",
+  "file": "fotos/foyer-01-pintura-foyer.jpg",
+  "category": "foyer",
+  "categoryLabel": "Foyer e múltiplo uso",
+  "w": 640,
+  "h": 480,
+  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f048",
+  "file": "fotos/foyer-02-marceneiros2.jpg",
+  "category": "foyer",
+  "categoryLabel": "Foyer e múltiplo uso",
+  "w": 640,
+  "h": 480,
+  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f049",
+  "file": "fotos/foyer-03-marceneiros.jpg",
+  "category": "foyer",
+  "categoryLabel": "Foyer e múltiplo uso",
+  "w": 640,
+  "h": 480,
+  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f050",
+  "file": "fotos/foyer-04-degraus.jpg",
+  "category": "foyer",
+  "categoryLabel": "Foyer e múltiplo uso",
+  "w": 640,
+  "h": 480,
+  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f051",
+  "file": "fotos/foyer-05-mvc-732f.jpg",
+  "category": "foyer",
+  "categoryLabel": "Foyer e múltiplo uso",
+  "w": 480,
+  "h": 640,
+  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f052",
+  "file": "fotos/foyer-06-mvc-731f.jpg",
+  "category": "foyer",
+  "categoryLabel": "Foyer e múltiplo uso",
+  "w": 640,
+  "h": 480,
+  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f053",
+  "file": "fotos/foyer-07-mvc-730f.jpg",
+  "category": "foyer",
+  "categoryLabel": "Foyer e múltiplo uso",
+  "w": 640,
+  "h": 480,
+  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f054",
+  "file": "fotos/foyer-08-mvc-729f.jpg",
+  "category": "foyer",
+  "categoryLabel": "Foyer e múltiplo uso",
+  "w": 640,
+  "h": 480,
+  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f055",
+  "file": "fotos/foyer-09-mvc-808s.jpg",
+  "category": "foyer",
+  "categoryLabel": "Foyer e múltiplo uso",
+  "w": 640,
+  "h": 480,
+  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f056",
+  "file": "fotos/foyer-10-mvc-806s.jpg",
+  "category": "foyer",
+  "categoryLabel": "Foyer e múltiplo uso",
+  "w": 480,
+  "h": 640,
+  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f057",
+  "file": "fotos/restauro-01-mvc-912f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f058",
+  "file": "fotos/restauro-02-mvc-910f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f059",
+  "file": "fotos/restauro-03-mvc-908f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f060",
+  "file": "fotos/restauro-04-mvc-904f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f061",
+  "file": "fotos/restauro-05-mvc-903f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f062",
+  "file": "fotos/restauro-06-mvc-901f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f063",
+  "file": "fotos/restauro-07-mvc-900f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f064",
+  "file": "fotos/restauro-08-mvc-899f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f065",
+  "file": "fotos/restauro-09-mvc-898f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f066",
+  "file": "fotos/restauro-10-mvc-895f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f067",
+  "file": "fotos/restauro-11-mvc-894f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f068",
+  "file": "fotos/restauro-12-mvc-893f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f069",
+  "file": "fotos/restauro-13-mvc-891f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f070",
+  "file": "fotos/restauro-14-mvc-890f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f071",
+  "file": "fotos/restauro-15-mvc-712f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f072",
+  "file": "fotos/restauro-16-mvc-711f.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f073",
+  "file": "fotos/historicas-01-festa-junina-anos-30.jpg",
+  "category": "historicas",
+  "categoryLabel": "Históricas e documentos",
+  "w": 1939,
+  "h": 1287,
+  "alt": "Imagens e documentos históricos do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f074",
+  "file": "fotos/historicas-02-plateia-teatro-22111940.jpg",
+  "category": "historicas",
+  "categoryLabel": "Históricas e documentos",
+  "w": 1311,
+  "h": 941,
+  "alt": "Imagens e documentos históricos do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f075",
+  "file": "fotos/historicas-03-decada-de-1950-theatro-e-posto-de-combustivel-sh.jpg",
+  "category": "historicas",
+  "categoryLabel": "Históricas e documentos",
+  "w": 2000,
+  "h": 1215,
+  "alt": "Imagens e documentos históricos do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f076",
+  "file": "fotos/historicas-04-theatro-postal.jpg",
+  "category": "historicas",
+  "categoryLabel": "Históricas e documentos",
+  "w": 2000,
+  "h": 1275,
+  "alt": "Imagens e documentos históricos do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f077",
+  "file": "fotos/historicas-05-theatro-e-praca.jpg",
+  "category": "historicas",
+  "categoryLabel": "Históricas e documentos",
+  "w": 1680,
+  "h": 1100,
+  "alt": "Imagens e documentos históricos do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "f078",
+  "file": "fotos/historicas-06-projeto-fachada-1913-planta-teatro-sjbv.jpg",
+  "category": "historicas",
+  "categoryLabel": "Históricas e documentos",
+  "w": 2000,
+  "h": 1339,
+  "alt": "Imagens e documentos históricos do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — créditos a confirmar."
+ }
+]

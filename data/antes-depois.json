@@ -1,0 +1,32 @@
+[
+ {
+  "id": "galerias",
+  "title": "A sala em ferradura",
+  "caption": "As galerias e a plateia durante a obra e depois do restauro.",
+  "antes": "fotos/antes-depois/galerias-antes.jpg",
+  "depois": "fotos/antes-depois/galerias-depois.jpg",
+  "w": 1000,
+  "h": 750,
+  "credit": "Acervo do Theatro Municipal / Prefeitura de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "palco",
+  "title": "O palco e a boca de cena",
+  "caption": "A caixa cênica vazia na obra e o palco recuperado, com a plateia restaurada.",
+  "antes": "fotos/antes-depois/palco-antes.jpg",
+  "depois": "fotos/antes-depois/palco-depois.jpg",
+  "w": 1000,
+  "h": 750,
+  "credit": "Acervo do Theatro Municipal / Prefeitura de São João da Boa Vista — créditos a confirmar."
+ },
+ {
+  "id": "camarotes",
+  "title": "Frisas e camarotes",
+  "caption": "Os camarotes em restauração e já recuperados, com as poltronas vermelhas.",
+  "antes": "fotos/antes-depois/camarotes-antes.jpg",
+  "depois": "fotos/antes-depois/camarotes-depois.jpg",
+  "w": 1000,
+  "h": 750,
+  "credit": "Acervo do Theatro Municipal / Prefeitura de São João da Boa Vista — créditos a confirmar."
+ }
+]
