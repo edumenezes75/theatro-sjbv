@@ -140,6 +140,56 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
  },
  {
+  "id": "h061",
+  "file": "fotos/hr2-sala-01.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
+  "w": 1800,
+  "h": 1279,
+  "alt": "Sala de multiplo uso.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h062",
+  "file": "fotos/hr2-sala-02.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
+  "w": 1800,
+  "h": 1282,
+  "alt": "Sala de Multiplo uso 1.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h063",
+  "file": "fotos/hr2-sala-03.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
+  "w": 640,
+  "h": 456,
+  "alt": "Multiplo uso.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h064",
+  "file": "fotos/hr2-sala-04.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
+  "w": 640,
+  "h": 456,
+  "alt": "Ante-sala múltiplo uso.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h065",
+  "file": "fotos/hr2-sala-05.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
+  "w": 1800,
+  "h": 704,
+  "alt": "Plateia.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
   "id": "h016",
   "file": "fotos/hr-ornamentos-16.jpg",
   "category": "ornamentos",
@@ -217,6 +267,16 @@
   "w": 1800,
   "h": 1200,
   "alt": "img0024.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h066",
+  "file": "fotos/hr2-ornamentos-06.jpg",
+  "category": "ornamentos",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 640,
+  "h": 456,
+  "alt": "Teto multiplo uso.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
  },
  {
@@ -310,6 +370,46 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
  },
  {
+  "id": "h070",
+  "file": "fotos/hr2-pessoas-10.jpg",
+  "category": "pessoas",
+  "categoryLabel": "Pessoas",
+  "w": 1800,
+  "h": 1381,
+  "alt": "Oliveira Neto : D. Celisa.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h071",
+  "file": "fotos/hr2-pessoas-11.jpg",
+  "category": "pessoas",
+  "categoryLabel": "Pessoas",
+  "w": 1800,
+  "h": 1332,
+  "alt": "Oliveira Netto : Col. Santo André.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h072",
+  "file": "fotos/hr2-pessoas-12.jpg",
+  "category": "pessoas",
+  "categoryLabel": "Pessoas",
+  "w": 1800,
+  "h": 1170,
+  "alt": "BEraldo Oliveira.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h073",
+  "file": "fotos/hr2-pessoas-13.jpg",
+  "category": "pessoas",
+  "categoryLabel": "Pessoas",
+  "w": 1800,
+  "h": 1315,
+  "alt": "Conj Vime.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
   "id": "h004",
   "file": "fotos/hr-restauro-04.jpg",
   "category": "restauro",
@@ -377,6 +477,36 @@
   "w": 1800,
   "h": 1172,
   "alt": "Reforma do Theatro.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h067",
+  "file": "fotos/hr2-restauro-07.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1800,
+  "h": 1263,
+  "alt": "Marcas de antigos grupos na lateral do palco.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h068",
+  "file": "fotos/hr2-restauro-08.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1755,
+  "h": 1173,
+  "alt": "Sustentação do palco.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h069",
+  "file": "fotos/hr2-restauro-09.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1167,
+  "h": 1700,
+  "alt": "Entrada dos vergalhões que sustentam o palco.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
  },
  {
@@ -477,6 +607,16 @@
   "w": 1800,
   "h": 1314,
   "alt": "Teatro Deteriorado.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h080",
+  "file": "fotos/hr2-historicas-20.jpg",
+  "category": "historicas",
+  "categoryLabel": "Históricas e cidade",
+  "w": 1800,
+  "h": 1148,
+  "alt": "Theatro Postal.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
  },
  {
@@ -597,6 +737,66 @@
   "w": 1800,
   "h": 1382,
   "alt": "Sociedade Cultural de Debates.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h074",
+  "file": "fotos/hr2-cartazes-14.jpg",
+  "category": "eventos",
+  "categoryLabel": "Palco e cultura",
+  "w": 720,
+  "h": 424,
+  "alt": "Theatro 99 anos.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h075",
+  "file": "fotos/hr2-cartazes-15.jpg",
+  "category": "eventos",
+  "categoryLabel": "Palco e cultura",
+  "w": 1800,
+  "h": 1271,
+  "alt": "Theatro Jazz Sinfonica.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h076",
+  "file": "fotos/hr2-cartazes-16.jpg",
+  "category": "eventos",
+  "categoryLabel": "Palco e cultura",
+  "w": 1800,
+  "h": 1097,
+  "alt": "Theatro Tistu.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h077",
+  "file": "fotos/hr2-cartazes-17.jpg",
+  "category": "eventos",
+  "categoryLabel": "Palco e cultura",
+  "w": 1800,
+  "h": 947,
+  "alt": "MONTE CASTELO Legião Urbana.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h078",
+  "file": "fotos/hr2-cartazes-18.jpg",
+  "category": "eventos",
+  "categoryLabel": "Palco e cultura",
+  "w": 1800,
+  "h": 881,
+  "alt": "Camerata Fukuda.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
+ },
+ {
+  "id": "h079",
+  "file": "fotos/hr2-cartazes-19.jpg",
+  "category": "eventos",
+  "categoryLabel": "Palco e cultura",
+  "w": 1800,
+  "h": 1198,
+  "alt": "Barbatuques.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista."
  }
 ]
