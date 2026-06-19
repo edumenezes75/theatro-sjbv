@@ -100,6 +100,26 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
  },
  {
+  "id": "f033",
+  "file": "fotos/detalhes-03-vistainterna.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
+  "id": "f042",
+  "file": "fotos/detalhes-12-mvc-813s.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala em ferradura",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
   "id": "f011",
   "file": "fotos/sala-01-vista-geral.jpg",
   "category": "sala",
@@ -170,16 +190,6 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
  },
  {
-  "id": "f018",
-  "file": "fotos/sala-08-mvc-850s.jpg",
-  "category": "sala",
-  "categoryLabel": "Sala em ferradura",
-  "w": 640,
-  "h": 480,
-  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
   "id": "f019",
   "file": "fotos/sala-09-mvc-849s.jpg",
   "category": "sala",
@@ -212,46 +222,6 @@
  {
   "id": "f022",
   "file": "fotos/sala-12-mvc-743f.jpg",
-  "category": "sala",
-  "categoryLabel": "Sala em ferradura",
-  "w": 640,
-  "h": 480,
-  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f023",
-  "file": "fotos/sala-13-mvc-817s.jpg",
-  "category": "sala",
-  "categoryLabel": "Sala em ferradura",
-  "w": 640,
-  "h": 480,
-  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f024",
-  "file": "fotos/sala-14-mvc-812s.jpg",
-  "category": "sala",
-  "categoryLabel": "Sala em ferradura",
-  "w": 480,
-  "h": 640,
-  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f025",
-  "file": "fotos/sala-15-mvc-811s.jpg",
-  "category": "sala",
-  "categoryLabel": "Sala em ferradura",
-  "w": 640,
-  "h": 480,
-  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f026",
-  "file": "fotos/sala-16-mvc-810s.jpg",
   "category": "sala",
   "categoryLabel": "Sala em ferradura",
   "w": 640,
@@ -302,7 +272,7 @@
  {
   "id": "f031",
   "file": "fotos/detalhes-01-foto-8.jpg",
-  "category": "detalhes",
+  "category": "ornamentos",
   "categoryLabel": "Ornamentos e medalhão",
   "w": 640,
   "h": 480,
@@ -312,127 +282,7 @@
  {
   "id": "f032",
   "file": "fotos/detalhes-02-foto-6.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f033",
-  "file": "fotos/detalhes-03-vistainterna.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f034",
-  "file": "fotos/detalhes-04-pintura1.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f035",
-  "file": "fotos/detalhes-05-mvc-857s.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f036",
-  "file": "fotos/detalhes-06-mvc-853s.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f037",
-  "file": "fotos/detalhes-07-mvc-852s.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f038",
-  "file": "fotos/detalhes-08-mvc-850s.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f039",
-  "file": "fotos/detalhes-09-mvc-816s.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f040",
-  "file": "fotos/detalhes-10-mvc-815s.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f041",
-  "file": "fotos/detalhes-11-mvc-814s.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f042",
-  "file": "fotos/detalhes-12-mvc-813s.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f043",
-  "file": "fotos/detalhes-13-mvc-809s.jpg",
-  "category": "detalhes",
-  "categoryLabel": "Ornamentos e medalhão",
-  "w": 640,
-  "h": 480,
-  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f044",
-  "file": "fotos/detalhes-14-foto-7.jpg",
-  "category": "detalhes",
+  "category": "ornamentos",
   "categoryLabel": "Ornamentos e medalhão",
   "w": 640,
   "h": 480,
@@ -442,7 +292,7 @@
  {
   "id": "f045",
   "file": "fotos/detalhes-15-foto-22.jpg",
-  "category": "detalhes",
+  "category": "ornamentos",
   "categoryLabel": "Ornamentos e medalhão",
   "w": 640,
   "h": 480,
@@ -452,7 +302,7 @@
  {
   "id": "f046",
   "file": "fotos/detalhes-16-foto-21.jpg",
-  "category": "detalhes",
+  "category": "ornamentos",
   "categoryLabel": "Ornamentos e medalhão",
   "w": 640,
   "h": 480,
@@ -462,36 +312,6 @@
  {
   "id": "f047",
   "file": "fotos/foyer-01-pintura-foyer.jpg",
-  "category": "foyer",
-  "categoryLabel": "Foyer e múltiplo uso",
-  "w": 640,
-  "h": 480,
-  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f048",
-  "file": "fotos/foyer-02-marceneiros2.jpg",
-  "category": "foyer",
-  "categoryLabel": "Foyer e múltiplo uso",
-  "w": 640,
-  "h": 480,
-  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f049",
-  "file": "fotos/foyer-03-marceneiros.jpg",
-  "category": "foyer",
-  "categoryLabel": "Foyer e múltiplo uso",
-  "w": 640,
-  "h": 480,
-  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f050",
-  "file": "fotos/foyer-04-degraus.jpg",
   "category": "foyer",
   "categoryLabel": "Foyer e múltiplo uso",
   "w": 640,
@@ -520,10 +340,50 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
  },
  {
-  "id": "f053",
-  "file": "fotos/foyer-07-mvc-730f.jpg",
-  "category": "foyer",
-  "categoryLabel": "Foyer e múltiplo uso",
+  "id": "f036",
+  "file": "fotos/detalhes-06-mvc-853s.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
+  "id": "f040",
+  "file": "fotos/detalhes-10-mvc-815s.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
+  "id": "f043",
+  "file": "fotos/detalhes-13-mvc-809s.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
+  "id": "f044",
+  "file": "fotos/detalhes-14-foto-7.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "Ornamentos, pinturas e o medalhão de Carlos Gomes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
+  "id": "f048",
+  "file": "fotos/foyer-02-marceneiros2.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
   "w": 640,
   "h": 480,
   "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
@@ -532,18 +392,8 @@
  {
   "id": "f054",
   "file": "fotos/foyer-08-mvc-729f.jpg",
-  "category": "foyer",
-  "categoryLabel": "Foyer e múltiplo uso",
-  "w": 640,
-  "h": 480,
-  "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "f055",
-  "file": "fotos/foyer-09-mvc-808s.jpg",
-  "category": "foyer",
-  "categoryLabel": "Foyer e múltiplo uso",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
   "w": 640,
   "h": 480,
   "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
@@ -552,8 +402,8 @@
  {
   "id": "f056",
   "file": "fotos/foyer-10-mvc-806s.jpg",
-  "category": "foyer",
-  "categoryLabel": "Foyer e múltiplo uso",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
   "w": 480,
   "h": 640,
   "alt": "Foyer, antigo bar e Sala de Múltiplo Uso.",
@@ -717,6 +567,56 @@
   "w": 640,
   "h": 480,
   "alt": "Etapas da restauração do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
+  "id": "f018",
+  "file": "fotos/sala-08-mvc-850s.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
+  "id": "f023",
+  "file": "fotos/sala-13-mvc-817s.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
+  "id": "f024",
+  "file": "fotos/sala-14-mvc-812s.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 480,
+  "h": 640,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
+  "id": "f025",
+  "file": "fotos/sala-15-mvc-811s.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
+  "id": "f026",
+  "file": "fotos/sala-16-mvc-810s.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 640,
+  "h": 480,
+  "alt": "A sala em ferradura: plateia, frisas, camarotes e galerias.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
  },
  {

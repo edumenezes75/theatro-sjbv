@@ -32,7 +32,7 @@ export default function AcervoPage() {
         <GaleriaReal fotos={fotosList} />
 
         <section className="mt-20 border-t border-gold/25 pt-12">
-          <h2 className="font-display text-2xl">Documentos do livro do centenário</h2>
+          <h2 className="font-display text-3xl">Documentos do livro do centenário</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             Imagens extraídas de <em>Theatro Municipal, 100 anos</em> (2014), com indicação de página.
           </p>

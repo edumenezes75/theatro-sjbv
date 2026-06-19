@@ -20,7 +20,7 @@ const PILLARS = [
 ];
 
 export default function Home() {
-  const strip = ['fachada', 'sala', 'detalhes', 'restauro', 'foyer', 'historicas']
+  const strip = ['fachada', 'sala', 'ornamentos', 'restauro', 'foyer', 'historicas']
     .map((c) => fotosList.find((f) => f.category === c))
     .filter(Boolean)
     .slice(0, 6) as typeof fotosList;

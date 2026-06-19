@@ -36,7 +36,7 @@ export default function TimelineExplorer({ eventos }: { eventos: Evento[] }) {
           <li key={e.id} className="relative mb-10">
             <span className="absolute -left-[1.85rem] top-1.5 h-3 w-3 rotate-45 border-2 border-curtain bg-cream dark:border-gold dark:bg-night sm:-left-[2.9rem]" aria-hidden />
             <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-              <span className="font-display text-lg text-curtain dark:text-gold">{e.display}</span>
+              <span className="font-display text-lg font-medium text-curtain dark:text-gold">{e.display}</span>
               <SeloEvidencia status={e.status} />
             </div>
             <h2 className="mt-1 font-display text-xl leading-tight">{e.title}</h2>

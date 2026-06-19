@@ -22,7 +22,7 @@ export default function CurtainIntro() {
     >
       <div className={`flex flex-col items-center gap-4 transition-opacity duration-500 ${lift ? 'opacity-0' : 'opacity-100'}`}>
         <Mark className="text-gold" size={56} />
-        <span className="font-display text-lg italic text-cream/90">Theatro Municipal</span>
+        <span className="font-display text-lg font-medium italic text-cream/90">Theatro Municipal</span>
       </div>
       <span className="absolute bottom-0 left-0 h-px w-full bg-gold/40" />
     </div>

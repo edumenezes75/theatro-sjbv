@@ -40,7 +40,7 @@ function Slider({ par }: { par: Par }) {
         />
       </div>
       <figcaption className="mt-3 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">
-        <span className="font-display text-base text-ink dark:text-cream">{par.title}.</span> {par.caption}
+        <span className="font-display text-base font-medium text-ink dark:text-cream">{par.title}.</span> {par.caption}
         <span className="mt-0.5 block text-xs italic text-ink/45 dark:text-cream/45">{par.credit}</span>
       </figcaption>
     </figure>

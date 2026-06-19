@@ -21,8 +21,8 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 
 const GALLERIES: Record<string, { title: string; cats: string[] }> = {
   'o-theatro': { title: 'O Theatro em imagens', cats: ['fachada', 'sala'] },
-  arquitetura: { title: 'A arquitetura em imagens', cats: ['sala', 'detalhes'] },
-  restauracao: { title: 'O restauro em imagens', cats: ['restauro', 'detalhes'] },
+  arquitetura: { title: 'A arquitetura em imagens', cats: ['sala', 'ornamentos'] },
+  restauracao: { title: 'O restauro em imagens', cats: ['restauro', 'ornamentos'] },
 };
 const ANTES_DEPOIS = new Set(['restauracao', 'arquitetura']);
 
@@ -43,7 +43,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
 
         {showAD && antesDepoisList.length > 0 && (
           <section className="mt-16 border-t border-gold/25 pt-12">
-            <h2 className="mb-2 font-display text-2xl">Antes e depois do restauro</h2>
+            <h2 className="mb-2 font-display text-3xl">Antes e depois do restauro</h2>
             <p className="mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
               Arraste a divisória para comparar o edifício durante a obra e depois da restauração.
             </p>
@@ -53,7 +53,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
 
         {gal && galFotos.length > 0 && (
           <section className="mt-16 border-t border-gold/25 pt-12">
-            <h2 className="mb-2 font-display text-2xl">{gal.title}</h2>
+            <h2 className="mb-2 font-display text-3xl">{gal.title}</h2>
             <p className="mb-8 max-w-reading font-sans text-sm italic text-ink/55 dark:text-cream/55">
               Acervo do Theatro Municipal — Prefeitura de São João da Boa Vista.
             </p>
@@ -63,7 +63,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
 
         {params.slug === 'memorias' && curiosidadesList.length > 0 && (
           <section className="mt-16 border-t border-gold/25 pt-12">
-            <h2 className="mb-8 font-display text-2xl">Você sabia?</h2>
+            <h2 className="mb-8 font-display text-3xl">Você sabia?</h2>
             <Curiosidades itens={curiosidadesList} />
           </section>
         )}
