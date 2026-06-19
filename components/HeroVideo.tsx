@@ -9,16 +9,15 @@ export default function HeroVideo() {
   if (!play) {
     // respeita reduced-motion: imagem estática
     // eslint-disable-next-line @next/next/no-img-element
-    return <img src="/video/hero-cidade-poster.jpg" alt="" aria-hidden className="absolute inset-0 h-full w-full object-cover" />;
+    return <img src="/video/hero-theatro-poster.jpg" alt="" aria-hidden className="absolute inset-0 h-full w-full object-cover" />;
   }
   return (
     <video
       autoPlay muted loop playsInline preload="metadata"
-      poster="/video/hero-cidade-poster.jpg" aria-hidden
+      poster="/video/hero-theatro-poster.jpg" aria-hidden
       className="absolute inset-0 h-full w-full object-cover"
     >
-      <source src="/video/hero-cidade.webm" type="video/webm" />
-      <source src="/video/hero-cidade.mp4" type="video/mp4" />
+      <source src="/video/hero-theatro.mp4" type="video/mp4" />
     </video>
   );
 }
