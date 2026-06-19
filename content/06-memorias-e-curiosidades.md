@@ -95,7 +95,7 @@ No final dos anos 1950 e início dos 1960, frequentadores do Bar Theatro aliment
 
 ![Interior do antigo Bar Theatro.](../media/bar-theatro-interior.png)
 
-A história do cão pertence à memória afetiva e deve ser apresentada como tal — sem tentar convertê-la em prova documental rígida.
+A história do cão pertence à memória afetiva, e é assim que a guardamos — sem tentar convertê-la em prova documental.
 
 ## Os fantasmas do Theatro
 
@@ -129,6 +129,6 @@ O site pode convidar moradores a enviar relatos, fotografias e documentos. Para 
 
 As contribuições não devem entrar automaticamente no acervo público. Uma equipe precisa verificar procedência, direitos, grafia e contexto.
 
-[Enviar uma memória — formulário futuro](#) · [Explorar o acervo](./acervo)
+[Explorar o acervo](./acervo) · [Visite o Theatro](./visite)
 
 <!-- Fontes principais: Menezes, 2014, pp. 68–78, 109–118, 162, 217–246; crônicas de Clineida Andrade Junqueira Jacomini, Antônio Carlos Antoniazzi, Clovis Vieira e outros autores. -->

@@ -19,7 +19,7 @@ Este site parte de uma convicção simples: uma história envolvente não precis
 
 Editado por Neusa Maria Soares de Menezes, o livro do centenário reúne narrativa histórica, cronologia, fotografias, programas, cartazes, plantas, listas de pessoas, depoimentos e crônicas.
 
-O material é a espinha dorsal do projeto. Como várias peças reproduzidas pertencem a acervos ou autores diferentes, cada item deve manter seu crédito e sua autorização específica.
+O material é a espinha dorsal do projeto. Como várias peças reproduzidas pertencem a acervos ou autores diferentes, cada uma preserva seu crédito e sua autorização específica.
 
 ## Fonte audiovisual
 
@@ -89,16 +89,11 @@ O livro registra fabricação na Bélgica. A afirmação deve ser confirmada por
 
 ### Qual foi o dia exato da reabertura de 2002?
 
-O livro registra a abertura durante a 25ª Semana Guiomar Novaes, com referências internas a datas diferentes. Até o confronto com programas e jornais, a redação pública deve usar “setembro de 2002”.
+O livro registra a abertura durante a 25ª Semana Guiomar Novaes, com referências internas a datas diferentes. Até o confronto com programas e jornais, adotamos “setembro de 2002”.
 
 ## Política de correções
 
-Toda página deve mostrar a data da última revisão. Quando uma nova fonte alterar uma informação, o site deve:
-
-1. corrigir o texto;
-2. registrar o que mudou;
-3. citar a nova evidência;
-4. preservar versões anteriores quando tiverem interesse historiográfico.
+Cada página indica a data de sua última revisão. Quando uma nova fonte altera uma informação, o nosso compromisso é corrigir o texto, registrar o que mudou, citar a nova evidência e preservar versões anteriores quando tiverem interesse historiográfico.
 
 ## Referências digitais iniciais
 

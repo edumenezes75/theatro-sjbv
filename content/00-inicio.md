@@ -65,7 +65,7 @@ Por isso, este site não organiza o passado apenas por datas. Ele permite seguir
 
 ## Assista a esta história
 
-O documentário **Música & Drama — A História do Theatro Municipal de São João da Boa Vista**, dirigido por Eduardo Menezes, reúne imagens, documentos e vozes ligadas ao edifício. No site, o filme deve funcionar como uma porta de entrada para o acervo: cada capítulo poderá se conectar a pessoas, lugares e episódios da linha do tempo.
+O documentário **Música & Drama — A História do Theatro Municipal de São João da Boa Vista**, dirigido por Eduardo Menezes, reúne imagens, documentos e vozes ligadas ao edifício. O filme funciona como uma porta de entrada para o acervo: cada capítulo se conecta a pessoas, lugares e episódios da linha do tempo.
 
 [Assistir e explorar o documentário](./documentario)
 

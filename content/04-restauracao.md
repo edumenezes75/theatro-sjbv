@@ -119,7 +119,7 @@ Em 1995, o show *Relembranças* reuniu público em uma sala com piso bruto e cad
 
 A recuperação do Theatro demonstra que preservar é escolher coletivamente. Exige conhecimento técnico, recursos, negociação, paciência e conflito. Também exige uso: depois de salvo, o edifício precisava voltar a produzir encontros.
 
-O site deve honrar não apenas autoridades e especialistas, mas também trabalhadores de obra, desenhistas, eletricistas, carpinteiros, restauradores, funcionários, artistas, doadores e voluntários.
+Essa história honra não apenas autoridades e especialistas, mas também trabalhadores de obra, desenhistas, eletricistas, carpinteiros, restauradores, funcionários, artistas, doadores e voluntários.
 
 > **O restauro devolveu a forma. A programação devolveu a vida.**
 

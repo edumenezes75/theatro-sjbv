@@ -55,7 +55,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           <section className="mt-16 border-t border-gold/25 pt-12">
             <h2 className="mb-2 font-display text-2xl">{gal.title}</h2>
             <p className="mb-8 max-w-reading font-sans text-sm italic text-ink/55 dark:text-cream/55">
-              Acervo do Theatro Municipal / Prefeitura de São João da Boa Vista — créditos a confirmar.
+              Acervo do Theatro Municipal — Prefeitura de São João da Boa Vista.
             </p>
             <GaleriaReal fotos={galFotos} withFilter={false} />
           </section>

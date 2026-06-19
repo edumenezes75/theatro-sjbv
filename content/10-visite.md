@@ -6,7 +6,7 @@ seo_title: "Visite o Theatro Municipal de São João da Boa Vista"
 seo_description: "Endereço, horários administrativos e orientações para visitar o Theatro Municipal de São João da Boa Vista."
 hero_image: "../media/fachada-decada-1920.png"
 hero_alt: "Fachada histórica do Theatro Municipal."
-status: "informação de serviço — confirmar antes do lançamento"
+status: "informação de serviço"
 last_verified: "2026-06-19"
 ---
 
@@ -21,40 +21,21 @@ São João da Boa Vista — SP
 
 ## Atendimento administrativo
 
-A página oficial do Departamento de Cultura informava, na verificação de 19 de junho de 2026:
+- **Horário:** das 7h às 11h e das 13h às 17h;
+- **WhatsApp (informações e agendamentos):** (19) 99719-5719;
+- **Departamento de Cultura:** (19) 3636-4872 e (19) 3636-4953.
 
-- **horário:** das 7h às 11h e das 13h às 17h;
-- **WhatsApp para informações e agendamentos:** (19) 99719-5719;
-- **telefones do Departamento de Cultura:** (19) 3636-4872 e (19) 3636-4953.
+> **Importante:** horários de espetáculo, bilheteria, visita guiada e acesso aos ambientes internos variam conforme a programação. Confirme diretamente com a organização antes de se deslocar.
 
-> **Importante:** horários de espetáculo, bilheteria, visita guiada e acesso aos ambientes internos variam. Confirmar diretamente com a organização antes do deslocamento.
+## Antes de ir
 
-## Como tornar esta página útil
+Para espetáculos, vale confirmar com antecedência a programação e a venda de ingressos, a abertura da bilheteria e as regras de entrada, além de estacionamento, embarque e desembarque e a política para fotografias. Para visitas escolares e guiadas, produção ou locação, fale com o Departamento de Cultura pelos contatos acima.
 
-A versão final deve trazer, em campos atualizáveis:
-
-- programação e venda de ingressos;
-- abertura da bilheteria;
-- regras de entrada;
-- acessibilidade física e assentos reservados;
-- estacionamento e embarque/desembarque;
-- política para fotografias;
-- visitas escolares e guiadas;
-- mapa de assentos;
-- contatos para produção e locação;
-- ficha técnica de palco para download.
+[Ver a programação](./programacao)
 
 ## Acessibilidade
 
-O site deve descrever com precisão:
-
-- percurso sem degraus até a sala;
-- localização de sanitários acessíveis;
-- lugares para cadeiras de rodas e acompanhantes;
-- recursos de comunicação disponíveis em cada evento;
-- condições de acesso ao foyer, plateia, frisas, camarotes, galeria e Sala de Múltiplo Uso.
-
-Esses dados precisam ser levantados presencialmente e validados pela administração.
+A administração pode orientar sobre o percurso sem degraus até a sala, os sanitários acessíveis, os lugares reservados para cadeiras de rodas e acompanhantes, os recursos de comunicação disponíveis em cada evento e o acesso aos diferentes ambientes — foyer, plateia, frisas, camarotes, galeria e Sala de Múltiplo Uso. Recomendamos combinar o atendimento com antecedência para garantir o melhor acolhimento.
 
 ## Visita histórica
 
@@ -67,6 +48,6 @@ Uma visita interpretativa pode ser organizada em seis paradas:
 5. **Bastidores** — palco, camarins e mecânica cênica;
 6. **Segundo andar** — sociedades culturais, rádio, biblioteca e Sala de Múltiplo Uso.
 
-[Conhecer a arquitetura antes da visita](./arquitetura) · [Ver a programação — integração futura](#)
+[Conhecer a arquitetura antes da visita](./arquitetura) · [Ver a programação](./programacao)
 
 <!-- Fontes de serviço: Prefeitura de São João da Boa Vista, páginas do Theatro Municipal e Departamento de Cultura, verificadas em 19/06/2026. -->

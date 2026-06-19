@@ -8,4 +8,4 @@ status: "agendado"
 destaque: true
 exemplo: true
 ---
-Alunos e professores do Conservatório Guiomar Novaes apresentam um recital de piano e canto. (Evento de exemplo — substitua pela programação real no painel.)
+Alunos e professores do Conservatório Guiomar Novaes apresentam um recital de piano e canto.

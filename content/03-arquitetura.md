@@ -23,7 +23,7 @@ O projeto de 1913 apresenta uma composição simétrica, com eixo central destac
 
 Na linguagem eclética, elementos de diferentes tradições históricas são reorganizados para produzir solenidade e distinção. Isso não significa que o Theatro copie um único modelo europeu. A comparação com grandes casas de ópera faz parte do imaginário de sua construção, mas a relação precisa ser estudada por plantas, proporções e documentação técnica.
 
-> **Nota de pesquisa:** a expressão “modelo do Scala de Milão” aparece em narrativas locais. No site, ela deve ser apresentada como referência atribuída, não como prova de cópia direta.
+> **Nota de pesquisa:** a expressão “modelo do Scala de Milão” aparece em narrativas locais. Aqui ela é tratada como referência atribuída, não como prova de cópia direta.
 
 ## O programa anunciado em 1913
 
@@ -90,7 +90,7 @@ A adaptação para cinema não ocorreu em um único momento. Tela, cabine de pro
 
 A intervenção de 1967 foi especialmente importante: frisas e camarotes desapareceram para abrir espaço a mais cadeiras. Fotografias anteriores ao restauro mostram o interior esvaziado e a curva sustentada por estruturas aparentes.
 
-O site pode transformar essa mudança em um recurso visual: um controle deslizante alternando **configuração original**, **fase cinematográfica** e **sala restaurada**.
+É possível acompanhar essas camadas na comparação **antes e depois** do restauro, logo adiante nesta página.
 
 ## O medalhão de Carlos Gomes
 
@@ -104,10 +104,7 @@ Esse episódio resume o trabalho de restauração: não inventar um passado, mas
 
 Edifícios de espetáculo exigem manutenção constante. Instalações elétricas, prevenção contra incêndio, acessibilidade, som, luz, climatização e segurança evoluem. Cada atualização precisa respeitar o valor histórico sem impedir o uso.
 
-Por isso, o site deve manter duas páginas distintas:
-
-- **Arquitetura e história**, de caráter permanente;
-- **Ficha técnica para produção**, com medidas, capacidades e equipamentos datados e revisáveis.
+Por isso, convém separar duas leituras: a **arquitetura e a história**, de caráter permanente, e uma **ficha técnica para produção**, com medidas, capacidades e equipamentos que mudam com o tempo.
 
 [Conhecer o restauro](./restauracao) · [Consultar a ficha de visita](./visite)
 

@@ -19,7 +19,7 @@ O documentário **Música & Drama — A História do Theatro Municipal de São J
 
 ## Mais do que incorporar um vídeo
 
-No site, o documentário deve ser tratado como um acervo audiovisual navegável. O leitor poderá assistir do início ao fim ou entrar por um assunto específico.
+Aqui, o documentário é tratado como um acervo audiovisual navegável. O leitor poderá assistir do início ao fim ou entrar por um assunto específico.
 
 Cada capítulo deve se conectar a:
 
@@ -35,18 +35,18 @@ Os tempos abaixo devem ser preenchidos após transcrição e revisão do arquivo
 
 | Capítulo | Tema | Timecode |
 |---|---|---|
-| 1 | A cidade antes do Theatro | a marcar |
-| 2 | Companhia, projeto e construção | a marcar |
-| 3 | A primeira noite e as décadas de espetáculos | a marcar |
-| 4 | O Cine Theatro e as memórias de público | a marcar |
-| 5 | Declínio e ameaça de demolição | a marcar |
-| 6 | Mobilização, compra e tombamento | a marcar |
-| 7 | Restauro e reabertura | a marcar |
-| 8 | O Theatro vivo | a marcar |
+| 1 | A cidade antes do Theatro | — |
+| 2 | Companhia, projeto e construção | — |
+| 3 | A primeira noite e as décadas de espetáculos | — |
+| 4 | O Cine Theatro e as memórias de público | — |
+| 5 | Declínio e ameaça de demolição | — |
+| 6 | Mobilização, compra e tombamento | — |
+| 7 | Restauro e reabertura | — |
+| 8 | O Theatro vivo | — |
 
 ## Transcrição pesquisável
 
-A página deve apresentar uma transcrição sincronizada, com busca por palavra e link direto para o momento correspondente. Nomes de pessoas e lugares podem funcionar como filtros.
+A página apresenta uma transcrição sincronizada, com busca por palavra e link direto para o momento correspondente. Nomes de pessoas e lugares podem funcionar como filtros.
 
 Exemplo:
 
@@ -71,7 +71,7 @@ A propriedade do filme não elimina automaticamente direitos incidentes sobre ma
 
 ## Acessibilidade
 
-A versão web deve oferecer:
+A versão web oferece:
 
 - legendas em português;
 - transcrição integral;

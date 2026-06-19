@@ -33,7 +33,7 @@ Esses números pertencem ao projeto anunciado e não devem ser confundidos com a
 
 ![Projeto histórico da fachada do Theatro Municipal.](../media/projeto-fachada-j-pucci.png)
 
-*Projeto da fachada apresentado em 1913. A identificação completa de J. Pucci continua sendo objeto de pesquisa; o site deve evitar associá-lo automaticamente a homônimos sem comprovação.*
+*Projeto da fachada apresentado em 1913. A identificação completa de J. Pucci ainda é objeto de pesquisa — por isso evitamos associá-lo a homônimos sem comprovação.*
 
 ## 2. Pedra, metal e memória — 1913 a 1914
 
@@ -59,7 +59,7 @@ Uma ausência, porém, marcou a cerimônia. José Evangelista de Almeida, aponta
 
 A data de 31 de outubro é sustentada pelo livro do centenário e por edições contemporâneas do jornal *O Município*: uma delas anunciava a primeira apresentação para aquela noite; outra, publicada em 7 de novembro, referia-se à inauguração ocorrida no dia 31.
 
-Uma versão posterior, de 8 de novembro, circulou em páginas institucionais. O site deve adotar 31 de outubro e oferecer uma nota curta sobre a divergência, demonstrando como a pesquisa histórica trabalha com fontes.
+Uma versão posterior, de 8 de novembro, circulou em páginas institucionais. Aqui adotamos **31 de outubro**, registrando a divergência — um lembrete de como a pesquisa histórica trabalha com fontes.
 
 ## 4. A cidade inteira encontra um palco — 1914 a 1936
 

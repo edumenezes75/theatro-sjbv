@@ -70,7 +70,7 @@ Esse caráter múltiplo ajuda a explicar a força de suas lembranças. Muitas pe
 
 Músicos e regentes deixaram comentários entusiasmados sobre a acústica da sala. A forma em ferradura, a madeira e a proximidade entre público e palco são frequentemente associadas à qualidade sonora.
 
-O site deve apresentar esses elogios como **testemunhos de artistas**, não como substitutos de um laudo técnico. A experiência de escuta é parte importante da identidade da casa, mas comparações absolutas exigem medições especializadas.
+Vale tomar esses elogios como **testemunhos de artistas**, e não como um laudo técnico: a experiência de escuta é parte importante da identidade da casa, mas comparações absolutas exigiriam medições especializadas.
 
 > **Voz do Theatro:** em 2014, o violinista e maestro Emmanuele Baldini descreveu a sala como uma joia bem cuidada e destacou sua acústica entre as melhores que encontrara no país.
 

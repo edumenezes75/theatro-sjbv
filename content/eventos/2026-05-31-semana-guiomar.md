@@ -8,4 +8,4 @@ status: "realizado"
 destaque: false
 exemplo: true
 ---
-Edição da tradicional Semana Guiomar Novaes, com concertos e homenagens. (Evento de exemplo.)
+Edição da tradicional Semana Guiomar Novaes, com concertos e homenagens.

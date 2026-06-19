@@ -18,7 +18,6 @@ export default function Footer() {
             <p className="mt-3 text-sm leading-relaxed text-cream/70">
               WhatsApp (19) 99719-5719<br />(19) 3636-4872 · (19) 3636-4953
             </p>
-            <p className="mt-2 text-[0.7rem] text-cream/50">Dados de serviço a confirmar antes da publicação.</p>
           </div>
           <div>
             <h3 className="font-sans text-[0.65rem] uppercase tracking-eyebrow text-gold">Navegação</h3>
@@ -38,7 +37,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-cream/15 pt-6 text-[0.7rem] leading-relaxed text-cream/50">
-          <p>Fontes editoriais: <em>Theatro Municipal, 100 anos</em> (2014) e o documentário <em>Música &amp; Drama — A História do Theatro Municipal de São João da Boa Vista</em>, de Eduardo Menezes. Créditos de imagens a confirmar antes da publicação.</p>
+          <p>Fontes editoriais: <em>Theatro Municipal, 100 anos</em> (2014) e o documentário <em>Música &amp; Drama — A História do Theatro Municipal de São João da Boa Vista</em>, de Eduardo Menezes.</p>
           <p className="mt-2">© {new Date().getFullYear()} Theatro Municipal de São João da Boa Vista. História, arte e memória.</p>
         </div>
       </div>

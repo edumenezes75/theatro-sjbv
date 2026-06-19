@@ -111,7 +111,7 @@ Uma crônica lembra que, diante de um filme cujo cartaz não trazia título em p
 
 ### Os trabalhadores da restauração
 
-Pedreiros, serventes, eletricistas, carpinteiros, encanadores, mestres de obra e desenhistas aparecem em listas e fotografias. O site deve evitar agrupá-los como massa anônima. Sempre que possível, cada nome deve receber um registro básico, função e etapa da obra.
+Pedreiros, serventes, eletricistas, carpinteiros, encanadores, mestres de obra e desenhistas aparecem em listas e fotografias. Procuramos não agrupá-los como massa anônima: sempre que possível, cada nome recebe um registro básico, com função e etapa da obra.
 
 A preservação do patrimônio também é história do trabalho.
 
@@ -163,7 +163,7 @@ Seu trabalho é a base documental deste site. A melhor homenagem não é apenas 
 
 Responsável pela capa e arte-final do livro e diretor do documentário *Música & Drama*, Eduardo Menezes levou a história do Theatro para a linguagem visual e audiovisual.
 
-No site, o documentário pode funcionar como eixo de navegação: trechos ligados a capítulos, entrevistados, documentos e lugares. Os arquivos de edição, imagens originais e materiais de produção devem ser preservados como parte do próprio acervo histórico.
+No site, o documentário pode funcionar como eixo de navegação: trechos ligados a capítulos, entrevistados, documentos e lugares. Os arquivos de edição, imagens originais e materiais de produção integram o próprio acervo histórico.
 
 ### AMITE e seus voluntários
 

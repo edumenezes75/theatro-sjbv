@@ -29,7 +29,6 @@ function Card({ e }: { e: ReturnType<typeof getEventos>[number] }) {
         {e.local && <p className="mt-1 font-sans text-sm text-ink/60 dark:text-cream/60">{e.local}</p>}
         {e.html && <div className="prose-theatro mt-2 max-w-none text-sm" dangerouslySetInnerHTML={{ __html: e.html }} />}
         {e.ingresso && <a href={e.ingresso} target="_blank" rel="noopener" className="mt-3 inline-block rounded-full bg-curtain px-4 py-1.5 font-sans text-xs font-medium text-cream hover:opacity-90">Ingressos ↗</a>}
-        {e.exemplo && <p className="mt-2 font-sans text-[0.7rem] italic text-ink/40 dark:text-cream/40">Evento de exemplo — editável no painel.</p>}
       </div>
     </article>
   );
