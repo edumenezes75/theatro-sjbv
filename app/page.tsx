@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import CurtainIntro from '@/components/CurtainIntro';
 import { fotosList } from '@/lib/data';
+import HeroVideo from '@/components/HeroVideo';
 import Mark from '@/components/Mark';
 import Reveal from '@/components/Reveal';
 
@@ -31,7 +32,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative min-h-[100svh] overflow-hidden">
         <div className="absolute inset-0 grain">
-          <Image src="/fotos/hr-sala-50.jpg" alt="Sala do Theatro Municipal restaurada, com a plateia e as galerias em ferradura." fill priority className="object-cover" sizes="100vw" />
+          <HeroVideo />
           <div className="absolute inset-0 bg-gradient-to-t from-night via-night/40 to-night/10" />
           <div className="absolute inset-0 bg-gradient-to-r from-night/65 via-night/20 to-transparent" />
           <div className="absolute inset-0" style={{ background: 'radial-gradient(130% 90% at 70% 10%, rgba(110,27,34,0.28), transparent 55%)' }} />
