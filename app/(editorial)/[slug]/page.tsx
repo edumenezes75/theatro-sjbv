@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { getAllPages, getEditorialSlugs, getPageBySlug } from '@/lib/content';
 import { fotosList, antesDepoisList, curiosidadesList } from '@/lib/data';
 import ChapterHero from '@/components/ChapterHero';
+import MapaVisita from '@/components/MapaVisita';
 import FontesDaPagina from '@/components/FontesDaPagina';
 import GaleriaReal from '@/components/GaleriaReal';
 import AntesDepois from '@/components/AntesDepois';
@@ -63,6 +64,8 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
             <GaleriaReal fotos={galFotos} withFilter={false} />
           </section>
         )}
+
+        {params.slug === 'visite' && <MapaVisita />}
 
         {params.slug === 'memorias' && curiosidadesList.length > 0 && (
           <section className="mt-16 border-t border-gold/25 pt-12">

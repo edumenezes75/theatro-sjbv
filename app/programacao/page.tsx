@@ -59,6 +59,13 @@ export default function ProgramacaoPage() {
             <div className="mt-4 opacity-75">{passados.map((e) => <Card key={e.slug} e={e} />)}</div>
           </>
         )}
+
+        <aside className="mt-16 rounded-sm border border-gold/25 bg-ink/[0.03] p-8 text-center dark:bg-cream/[0.03]">
+          <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Fique por dentro</p>
+          <h2 className="mx-auto mt-3 max-w-xl font-display text-2xl leading-snug">Receba a programação do Theatro pelo WhatsApp</h2>
+          <p className="mx-auto mt-3 max-w-md font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">Estreias, concertos e visitas guiadas, direto da organização do Theatro.</p>
+          <a href="https://wa.me/5519997195719?text=Ol%C3%A1!%20Gostaria%20de%20receber%20a%20programa%C3%A7%C3%A3o%20do%20Theatro%20Municipal." target="_blank" rel="noopener" className="mt-6 inline-block rounded-full bg-curtain px-7 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Falar no WhatsApp →</a>
+        </aside>
       </div>
     </article>
   );
