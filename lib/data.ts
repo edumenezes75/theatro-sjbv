@@ -27,3 +27,7 @@ export const fotosByCategory = (cat: string) => fotosList.filter((f) => f.catego
 import antesDepois from '@/data/antes-depois.json';
 export type ParAntesDepois = { id: string; title: string; caption: string; antes: string; depois: string; w: number; h: number; credit: string };
 export const antesDepoisList = antesDepois as ParAntesDepois[];
+
+import vozes from '@/data/vozes.json';
+export type Voz = { quote: string; author: string; role: string; source: string };
+export const vozesList = vozes as Voz[];

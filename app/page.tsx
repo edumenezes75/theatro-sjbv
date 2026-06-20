@@ -3,6 +3,8 @@ import Link from 'next/link';
 import CurtainIntro from '@/components/CurtainIntro';
 import { fotosList } from '@/lib/data';
 import HeroVideo from '@/components/HeroVideo';
+import Vozes from '@/components/Vozes';
+import { vozesList } from '@/lib/data';
 import Mark from '@/components/Mark';
 import Reveal from '@/components/Reveal';
 
@@ -182,6 +184,17 @@ export default function Home() {
           </div>
           <Link href="/acervo" className="mt-7 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Ver o acervo completo →</Link>
         </Reveal>
+      </section>
+
+      {/* VOZES DO THEATRO */}
+      <section className="border-t border-gold/20 bg-cream dark:bg-night">
+        <div className="mx-auto max-w-6xl px-5 py-24">
+          <Reveal>
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Vozes do Theatro</p>
+            <h2 className="mt-4 mb-12 max-w-2xl font-display text-3xl leading-tight sm:text-4xl">Quem passou pelo palco e pela plateia</h2>
+          </Reveal>
+          <Reveal delay={100}><Vozes vozes={vozesList} /></Reveal>
+        </div>
       </section>
 
       {/* DOCUMENTARIO CTA */}
