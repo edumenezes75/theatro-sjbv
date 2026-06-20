@@ -20,7 +20,7 @@ export const curiosidadesList = curiosidades as Curiosidade[];
 export const imagensList = imagens as Imagem[];
 
 import fotos from '@/data/fotos.json';
-export type Foto = { id: string; file: string; category: string; categoryLabel: string; w: number; h: number; alt: string; credit: string };
+export type Foto = { id: string; file: string; category: string; categoryLabel: string; w: number; h: number; alt: string; credit: string; epoca?: string };
 export const fotosList = fotos as Foto[];
 export const fotosByCategory = (cat: string) => fotosList.filter((f) => f.category === cat);
 

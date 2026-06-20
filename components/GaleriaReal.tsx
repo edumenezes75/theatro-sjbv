@@ -11,7 +11,9 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
     return [['todas', 'Todas'], ...Array.from(map.entries())] as [string, string][];
   }, [fotos]);
   const [cat, setCat] = useState('todas');
-  const list = useMemo(() => (cat === 'todas' ? fotos : fotos.filter((f) => f.category === cat)), [cat, fotos]);
+  const [ep, setEp] = useState('todas');
+  const epocas = useMemo(() => ['todas', ...Array.from(new Set(fotos.map((f) => f.epoca).filter(Boolean) as string[]))], [fotos]);
+  const list = useMemo(() => fotos.filter((f) => (cat === 'todas' || f.category === cat) && (ep === 'todas' || f.epoca === ep)), [cat, ep, fotos]);
   const [idx, setIdx] = useState<number | null>(null);
 
   const close = useCallback(() => setIdx(null), []);
@@ -39,6 +41,12 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
           {cats.map(([c, label]) => (
             <button key={c} onClick={() => setCat(c)} className={`rounded-full border px-3.5 py-1.5 font-sans text-xs transition-colors ${cat === c ? 'border-curtain bg-curtain text-cream dark:border-gold dark:bg-gold dark:text-ink' : 'border-ink/20 text-ink/70 hover:border-curtain dark:border-cream/20 dark:text-cream/70'}`}>
               {label}
+            </button>
+          ))}
+          <span className="mx-1 hidden w-px self-stretch bg-gold/25 sm:block" aria-hidden />
+          {epocas.map((e) => (
+            <button key={e} onClick={() => setEp(e)} className={`rounded-full px-3 py-1.5 font-sans text-xs transition-colors ${ep === e ? 'bg-ink text-cream dark:bg-cream dark:text-ink' : 'text-ink/55 hover:text-curtain dark:text-cream/55 dark:hover:text-gold'}`}>
+              {e === 'todas' ? 'Todas as épocas' : e}
             </button>
           ))}
         </div>
