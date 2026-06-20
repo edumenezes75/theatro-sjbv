@@ -4,7 +4,7 @@ title: "Linha do tempo"
 eyebrow: "Mais de um século em movimento"
 seo_title: "Linha do tempo do Theatro Municipal"
 seo_description: "Veja os principais marcos da história do Theatro Municipal, da idealização em 1911 à programação contemporânea."
-hero_image: "../media/fachada-decada-1920.png"
+hero_image: "/fotos/hr-historicas-81.jpg"
 hero_alt: "Fachada do Theatro Municipal na década de 1920."
 status: "texto público + dados estruturados"
 ---

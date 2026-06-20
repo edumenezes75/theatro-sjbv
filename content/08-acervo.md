@@ -4,7 +4,7 @@ title: "Acervo digital"
 eyebrow: "Documentos que devolvem detalhes à história"
 seo_title: "Acervo digital do Theatro Municipal"
 seo_description: "Explore fotografias, programas, cartazes, plantas, jornais, partituras e depoimentos ligados ao Theatro Municipal."
-hero_image: "../media/abaixo-assinado.png"
+hero_image: "/fotos/hr-fachada-56.jpg"
 hero_alt: "Documento de abaixo-assinado em defesa da preservação do Theatro."
 status: "arquitetura editorial"
 ---

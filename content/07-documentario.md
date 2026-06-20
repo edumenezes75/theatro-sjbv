@@ -4,7 +4,7 @@ title: "Música & Drama"
 eyebrow: "A história do Theatro em filme"
 seo_title: "Documentário Música & Drama — História do Theatro Municipal"
 seo_description: "Assista ao documentário Música & Drama e explore personagens, imagens e episódios da história do Theatro Municipal de São João da Boa Vista."
-hero_image: "../media/aquarela-theatro.png"
+hero_image: "/fotos/hr-sala-36.jpg"
 hero_alt: "Aquarela da fachada do Theatro Municipal."
 status: "texto público com produção pendente"
 ---

@@ -4,7 +4,7 @@ title: "Pessoas"
 eyebrow: "Quem construiu, ocupou, salvou e manteve o Theatro vivo"
 seo_title: "Pessoas da história do Theatro Municipal"
 seo_description: "Conheça fundadores, artistas, educadores, técnicos, gestores e cidadãos ligados à história do Theatro Municipal de São João da Boa Vista."
-hero_image: "../media/banda-internacional.png"
+hero_image: "/fotos/hr-pessoas-26.jpg"
 hero_alt: "Integrantes da Banda Internacional, regida pelo maestro Joaquim Azevedo."
 status: "texto público"
 ---
