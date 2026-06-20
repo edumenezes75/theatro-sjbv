@@ -41,7 +41,7 @@ A pedra fundamental foi assentada em 13 de maio de 1913. A cerimônia reuniu aut
 
 Esse gesto transformava a construção em mensagem para o futuro. O edifício ainda não existia, mas seus responsáveis já imaginavam que alguém, décadas depois, desejaria saber quem eram e como viviam.
 
-A obra avançou sob fiscalização associada ao construtor Antônio Lanzac. O livro do centenário registra o uso de estrutura metálica pré-fabricada e numerada na Bélgica. Essa procedência deve ser confirmada em documentos de compra, marcas das peças ou registros de importação antes de receber formulação definitiva no site.
+A obra avançou sob fiscalização associada ao construtor Antônio Lanzac. O livro do centenário registra o uso de estrutura metálica pré-fabricada e numerada na Bélgica — uma procedência que a pesquisa ainda busca confirmar em documentos de compra, marcas das peças ou registros de importação.
 
 O custo superou o capital inicial. Empréstimos e debêntures foram necessários, e as dívidas acompanharam a Companhia por anos. O Theatro nasceu, portanto, de entusiasmo, mas também de uma engenharia financeira difícil.
 

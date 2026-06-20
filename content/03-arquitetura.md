@@ -59,13 +59,11 @@ Historicamente, essa disposição também organizava diferenças sociais. Os set
 
 Fotografias e relatos destacam a presença de madeira na sala e estruturas metálicas na sustentação. A geometria e os materiais são frequentemente associados à boa projeção sonora.
 
-O Theatro acumulou elogios de músicos, mas a página de arquitetura deve distinguir três camadas:
+O Theatro acumulou elogios de músicos ao longo de gerações. Vale distinguir o que é **observável** — forma, materiais, volume e a proximidade entre palco e plateia —, o que são **testemunhos de artistas** e o que dependeria de **medições acústicas** para se afirmar com rigor. Mas os testemunhos, por si, já dizem muito:
 
-1. **características físicas observáveis** — forma, materiais, volume e proximidade;
-2. **depoimentos de artistas** — impressões de quem tocou ou regeu no espaço;
-3. **dados técnicos** — medições acústicas, caso venham a ser realizadas.
-
-Essa separação torna o conteúdo mais confiável e ainda preserva o encanto dos testemunhos.
+> Descobri, quase atrás de casa, uma jóia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.
+>
+> — **Emmanuele Baldini**, spalla da Osesp, após concerto no Theatro (2014)
 
 ## O palco e a caixa cênica
 
@@ -88,7 +86,7 @@ A restauração criou nova estrutura metálica, áreas de manobra, contrapesos, 
 
 A adaptação para cinema não ocorreu em um único momento. Tela, cabine de projeção, poltronas, iluminação e circulação foram modificadas conforme as necessidades e os recursos disponíveis.
 
-A intervenção de 1967 foi especialmente importante: frisas e camarotes desapareceram para abrir espaço a mais cadeiras. Fotografias anteriores ao restauro mostram o interior esvaziado e a curva sustentada por estruturas aparentes.
+A intervenção de **fevereiro de 1967** foi especialmente importante: frisas e camarotes desapareceram para abrir espaço a mais cadeiras — o gesto que mais descaracterizou a sala antes do restauro. Fotografias anteriores ao restauro mostram o interior esvaziado e a curva sustentada por estruturas aparentes.
 
 É possível acompanhar essas camadas na comparação **antes e depois** do restauro, logo adiante nesta página.
 
