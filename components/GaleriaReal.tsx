@@ -5,14 +5,24 @@ import type { Foto } from '@/lib/data';
 import { IconClose, IconChevron } from './Icons';
 
 export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[]; withFilter?: boolean }) {
+  const CAT_ORDER = ['fachada', 'sala', 'ornamentos', 'eventos', 'pessoas', 'historicas', 'restauro'];
+  const EP_ORDER = ['Histórico', 'Restauro', 'Atual'];
   const cats = useMemo(() => {
-    const map = new Map<string, string>();
-    fotos.forEach((f) => map.set(f.category, f.categoryLabel));
-    return [['todas', 'Todas'], ...Array.from(map.entries())] as [string, string][];
+    const label = new Map<string, string>();
+    const count = new Map<string, number>();
+    fotos.forEach((f) => { label.set(f.category, f.categoryLabel); count.set(f.category, (count.get(f.category) || 0) + 1); });
+    const present = Array.from(label.keys());
+    const ordered = [...CAT_ORDER.filter((c) => label.has(c)), ...present.filter((c) => !CAT_ORDER.includes(c))];
+    return [['todas', 'Todas', fotos.length], ...ordered.map((c) => [c, label.get(c)!, count.get(c)!])] as [string, string, number][];
   }, [fotos]);
   const [cat, setCat] = useState('todas');
   const [ep, setEp] = useState('todas');
-  const epocas = useMemo(() => ['todas', ...Array.from(new Set(fotos.map((f) => f.epoca).filter(Boolean) as string[]))], [fotos]);
+  const epocas = useMemo(() => {
+    const count = new Map<string, number>();
+    fotos.forEach((f) => { if (f.epoca) count.set(f.epoca, (count.get(f.epoca) || 0) + 1); });
+    const ordered = EP_ORDER.filter((e) => count.has(e));
+    return [['todas', 'Todas as épocas', fotos.length], ...ordered.map((e) => [e, e, count.get(e)!])] as [string, string, number][];
+  }, [fotos]);
   const list = useMemo(() => fotos.filter((f) => (cat === 'todas' || f.category === cat) && (ep === 'todas' || f.epoca === ep)), [cat, ep, fotos]);
   const [idx, setIdx] = useState<number | null>(null);
 
@@ -38,15 +48,15 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
     <div>
       {withFilter && (
         <div className="mb-8 flex flex-wrap gap-2">
-          {cats.map(([c, label]) => (
+          {cats.map(([c, label, n]) => (
             <button key={c} onClick={() => setCat(c)} aria-pressed={cat === c} className={`rounded-full border px-3.5 py-1.5 font-sans text-xs transition-colors ${cat === c ? 'border-curtain bg-curtain text-cream dark:border-gold dark:bg-gold dark:text-ink' : 'border-ink/20 text-ink/70 hover:border-curtain dark:border-cream/20 dark:text-cream/70'}`}>
-              {label}
+              {label}<span className="ml-1.5 tabular-nums opacity-50">{n}</span>
             </button>
           ))}
           <span className="mx-1 hidden w-px self-stretch bg-gold/25 sm:block" aria-hidden />
-          {epocas.map((e) => (
+          {epocas.map(([e, label, n]) => (
             <button key={e} onClick={() => setEp(e)} aria-pressed={ep === e} className={`rounded-full border px-3 py-1.5 font-sans text-xs transition-colors ${ep === e ? 'border-ink bg-ink text-cream dark:border-cream dark:bg-cream dark:text-ink' : 'border-ink/20 text-ink/70 hover:border-curtain hover:text-curtain dark:border-cream/20 dark:text-cream/70 dark:hover:text-gold'}`}>
-              {e === 'todas' ? 'Todas as épocas' : e}
+              {label}<span className="ml-1.5 tabular-nums opacity-50">{n}</span>
             </button>
           ))}
         </div>

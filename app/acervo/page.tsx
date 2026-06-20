@@ -18,7 +18,7 @@ export default function AcervoPage() {
       <ChapterHero
         eyebrow="Fachada, sala, ornamentos, restauro e história"
         title="Acervo"
-        image={`/${fotosList.find((f) => f.category === 'fachada')?.file ?? 'media/baile-no-theatro.png'}`}
+        image={`/${(fotosList.find((f) => f.category === 'fachada' && f.epoca === 'Atual') ?? fotosList.find((f) => f.category === 'fachada'))?.file ?? 'media/baile-no-theatro.png'}`}
         alt="Fachada do Theatro Municipal de São João da Boa Vista."
       />
       <div className="mx-auto max-w-6xl px-5 py-14">

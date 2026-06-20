@@ -11,6 +11,39 @@
     "epoca": "Histórico"
   },
   {
+    "id": "h048",
+    "file": "fotos/hr-fachada-48.jpg",
+    "category": "fachada",
+    "categoryLabel": "Fachada",
+    "w": 1800,
+    "h": 1451,
+    "alt": "A fachada em vista frontal — a simetria e o frontão anunciam a função do edifício antes mesmo de se entrar.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico"
+  },
+  {
+    "id": "h049",
+    "file": "fotos/hr-fachada-49.jpg",
+    "category": "fachada",
+    "categoryLabel": "Fachada",
+    "w": 1800,
+    "h": 1160,
+    "alt": "Registro antigo da fachada, ainda com a pintura original — uma das muitas camadas de tempo do edifício.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico"
+  },
+  {
+    "id": "h055",
+    "file": "fotos/hr-fachada-55.jpg",
+    "category": "fachada",
+    "categoryLabel": "Fachada",
+    "w": 1800,
+    "h": 1205,
+    "alt": "O projeto original da fachada, 1913 — o desenho eclético com eixo central, frontão e as inscrições à música, ao teatro e ao drama.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico"
+  },
+  {
     "id": "h024",
     "file": "fotos/hr-fachada-24.jpg",
     "category": "fachada",
@@ -44,28 +77,6 @@
     "epoca": "Atual"
   },
   {
-    "id": "h048",
-    "file": "fotos/hr-fachada-48.jpg",
-    "category": "fachada",
-    "categoryLabel": "Fachada",
-    "w": 1800,
-    "h": 1451,
-    "alt": "A fachada em vista frontal — a simetria e o frontão anunciam a função do edifício antes mesmo de se entrar.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Histórico"
-  },
-  {
-    "id": "h049",
-    "file": "fotos/hr-fachada-49.jpg",
-    "category": "fachada",
-    "categoryLabel": "Fachada",
-    "w": 1800,
-    "h": 1160,
-    "alt": "Registro antigo da fachada, ainda com a pintura original — uma das muitas camadas de tempo do edifício.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Histórico"
-  },
-  {
     "id": "h051",
     "file": "fotos/hr-fachada-51.jpg",
     "category": "fachada",
@@ -95,6 +106,17 @@
     "w": 1800,
     "h": 1106,
     "alt": "Vista parcial de São João da Boa Vista, a cidade que ergueu o Theatro por subscrição popular.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h056",
+    "file": "fotos/hr-fachada-56.jpg",
+    "category": "fachada",
+    "categoryLabel": "Fachada",
+    "w": 1800,
+    "h": 1128,
+    "alt": "A fachada iluminada ao entardecer — o frontão e as arcadas sob a luz do fim de tarde.",
     "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
     "epoca": "Atual"
   },
@@ -275,6 +297,193 @@
     "epoca": "Atual"
   },
   {
+    "id": "h010",
+    "file": "fotos/hr-eventos-10.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1762,
+    "h": 1174,
+    "alt": "A porta do antigo Bar Theatro, ponto de encontro ligado às sessões de cinema.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico"
+  },
+  {
+    "id": "h011",
+    "file": "fotos/hr-eventos-11.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1186,
+    "alt": "O antigo Bar Theatro — memória afetiva de gerações.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico"
+  },
+  {
+    "id": "h044",
+    "file": "fotos/hr-eventos-44.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1382,
+    "alt": "A Sociedade Cultural de Debates, no segundo andar — vida intelectual da cidade.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico"
+  },
+  {
+    "id": "h008",
+    "file": "fotos/hr-eventos-08.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1305,
+    "alt": "Badi Assad em cena — a música de câmara que segue viva no palco.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h012",
+    "file": "fotos/hr-eventos-12.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1270,
+    "alt": "A biblioteca abrigada no edifício — o Theatro também como casa de leitura.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h013",
+    "file": "fotos/hr-eventos-13.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1279,
+    "alt": "A bilheteria — porta de entrada para as noites de espetáculo e cinema.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h014",
+    "file": "fotos/hr-eventos-14.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1350,
+    "alt": "Branca de Neve, 2009 — o teatro infantil no palco restaurado.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h025",
+    "file": "fotos/hr-eventos-25.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1256,
+    "alt": "O foyer — área de recepção e convivência antes da entrada na sala.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h034",
+    "file": "fotos/hr-eventos-34.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1254,
+    "alt": "Cena de espetáculo com Lucila — a 'prata da casa' no palco.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h035",
+    "file": "fotos/hr-eventos-35.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1337,
+    "alt": "Espetáculo no palco do Theatro.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h042",
+    "file": "fotos/hr-eventos-42.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1259,
+    "alt": "A Semana Guiomar Novaes — festival criado em 1977 em homenagem à pianista.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h043",
+    "file": "fotos/hr-eventos-43.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1205,
+    "alt": "Concerto da Semana Guiomar Novaes, tradição que reabriu o Theatro restaurado em 2002.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h075",
+    "file": "fotos/hr2-cartazes-15.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1271,
+    "alt": "Jazz Sinfônica no palco — o repertório contemporâneo na casa centenária.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h076",
+    "file": "fotos/hr2-cartazes-16.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1097,
+    "alt": "O espetáculo infantil Tistu, no palco do Theatro.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h077",
+    "file": "fotos/hr2-cartazes-17.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 947,
+    "alt": "Monte Castelo / Legião Urbana — tributo no palco.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h078",
+    "file": "fotos/hr2-cartazes-18.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 881,
+    "alt": "A Camerata Fukuda na Semana Assad, 2012.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h079",
+    "file": "fotos/hr2-cartazes-19.jpg",
+    "category": "eventos",
+    "categoryLabel": "Palco e cultura",
+    "w": 1800,
+    "h": 1198,
+    "alt": "Os Barbatuques na Semana Assad, 2012 — a percussão corporal no palco.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
     "id": "h003",
     "file": "fotos/hr-pessoas-03.jpg",
     "category": "pessoas",
@@ -317,17 +526,6 @@
     "alt": "Guiomar Novaes, pianista nascida em São João e uma das maiores do século XX; a Semana e o Conservatório levam seu nome.",
     "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
     "epoca": "Histórico"
-  },
-  {
-    "id": "h029",
-    "file": "fotos/hr-pessoas-29.jpg",
-    "category": "pessoas",
-    "categoryLabel": "Pessoas",
-    "w": 1800,
-    "h": 1191,
-    "alt": "João Batista Merlin, engenheiro e restaurador — o grande mentor técnico da recuperação do edifício.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro"
   },
   {
     "id": "h030",
@@ -418,101 +616,13 @@
     "epoca": "Histórico"
   },
   {
-    "id": "h018",
-    "file": "fotos/hr-restauro-18.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
-    "w": 1529,
-    "h": 1011,
-    "alt": "O corte das árvores na rua lateral, em 1986 — episódio da mobilização em torno do edifício.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro"
-  },
-  {
-    "id": "h020",
-    "file": "fotos/hr-restauro-20.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
+    "id": "h029",
+    "file": "fotos/hr-pessoas-29.jpg",
+    "category": "pessoas",
+    "categoryLabel": "Pessoas",
     "w": 1800,
-    "h": 1335,
-    "alt": "Decapagem — a remoção controlada das camadas de tinta que escondiam pinturas e ornamentos.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro"
-  },
-  {
-    "id": "h022",
-    "file": "fotos/hr-restauro-22.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
-    "w": 1800,
-    "h": 970,
-    "alt": "A equipe de restauração, que conciliou preservação histórica e funcionamento contemporâneo.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro"
-  },
-  {
-    "id": "h023",
-    "file": "fotos/hr-restauro-23.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
-    "w": 1496,
-    "h": 1030,
-    "alt": "A escavação do fosso da orquestra, sob o palco, durante as obras.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro"
-  },
-  {
-    "id": "h033",
-    "file": "fotos/hr-restauro-33.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
-    "w": 1800,
-    "h": 1259,
-    "alt": "O palco logo após a retirada da tela de cinema — reaparecendo a caixa cênica original.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro"
-  },
-  {
-    "id": "h041",
-    "file": "fotos/hr-restauro-41.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
-    "w": 1800,
-    "h": 1172,
-    "alt": "Uma das etapas da reforma e restauração do edifício.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro"
-  },
-  {
-    "id": "h067",
-    "file": "fotos/hr2-restauro-07.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
-    "w": 1800,
-    "h": 1263,
-    "alt": "Marcas de antigas companhias gravadas na lateral do palco — assinaturas de quem passou pela casa.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro"
-  },
-  {
-    "id": "h068",
-    "file": "fotos/hr2-restauro-08.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
-    "w": 1755,
-    "h": 1173,
-    "alt": "A nova estrutura de sustentação do palco, instalada durante o restauro.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro"
-  },
-  {
-    "id": "h069",
-    "file": "fotos/hr2-restauro-09.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
-    "w": 1167,
-    "h": 1700,
-    "alt": "Os vergalhões que sustentam o palco, na reestruturação da caixa cênica.",
+    "h": 1191,
+    "alt": "João Batista Merlin, engenheiro e restaurador — o grande mentor técnico da recuperação do edifício.",
     "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
     "epoca": "Restauro"
   },
@@ -638,215 +748,6 @@
     "epoca": "Histórico"
   },
   {
-    "id": "h008",
-    "file": "fotos/hr-eventos-08.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1305,
-    "alt": "Badi Assad em cena — a música de câmara que segue viva no palco.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h010",
-    "file": "fotos/hr-eventos-10.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1762,
-    "h": 1174,
-    "alt": "A porta do antigo Bar Theatro, ponto de encontro ligado às sessões de cinema.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Histórico"
-  },
-  {
-    "id": "h011",
-    "file": "fotos/hr-eventos-11.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1186,
-    "alt": "O antigo Bar Theatro — memória afetiva de gerações.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Histórico"
-  },
-  {
-    "id": "h012",
-    "file": "fotos/hr-eventos-12.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1270,
-    "alt": "A biblioteca abrigada no edifício — o Theatro também como casa de leitura.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h013",
-    "file": "fotos/hr-eventos-13.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1279,
-    "alt": "A bilheteria — porta de entrada para as noites de espetáculo e cinema.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h014",
-    "file": "fotos/hr-eventos-14.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1350,
-    "alt": "Branca de Neve, 2009 — o teatro infantil no palco restaurado.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h025",
-    "file": "fotos/hr-eventos-25.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1256,
-    "alt": "O foyer — área de recepção e convivência antes da entrada na sala.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h034",
-    "file": "fotos/hr-eventos-34.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1254,
-    "alt": "Cena de espetáculo com Lucila — a 'prata da casa' no palco.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h035",
-    "file": "fotos/hr-eventos-35.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1337,
-    "alt": "Espetáculo no palco do Theatro.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h042",
-    "file": "fotos/hr-eventos-42.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1259,
-    "alt": "A Semana Guiomar Novaes — festival criado em 1977 em homenagem à pianista.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h043",
-    "file": "fotos/hr-eventos-43.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1205,
-    "alt": "Concerto da Semana Guiomar Novaes, tradição que reabriu o Theatro restaurado em 2002.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h044",
-    "file": "fotos/hr-eventos-44.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1382,
-    "alt": "A Sociedade Cultural de Debates, no segundo andar — vida intelectual da cidade.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Histórico"
-  },
-  {
-    "id": "h075",
-    "file": "fotos/hr2-cartazes-15.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1271,
-    "alt": "Jazz Sinfônica no palco — o repertório contemporâneo na casa centenária.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h076",
-    "file": "fotos/hr2-cartazes-16.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1097,
-    "alt": "O espetáculo infantil Tistu, no palco do Theatro.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h077",
-    "file": "fotos/hr2-cartazes-17.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 947,
-    "alt": "Monte Castelo / Legião Urbana — tributo no palco.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h078",
-    "file": "fotos/hr2-cartazes-18.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 881,
-    "alt": "A Camerata Fukuda na Semana Assad, 2012.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h079",
-    "file": "fotos/hr2-cartazes-19.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 1800,
-    "h": 1198,
-    "alt": "Os Barbatuques na Semana Assad, 2012 — a percussão corporal no palco.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h055",
-    "file": "fotos/hr-fachada-55.jpg",
-    "category": "fachada",
-    "categoryLabel": "Fachada",
-    "w": 1800,
-    "h": 1205,
-    "alt": "O projeto original da fachada, 1913 — o desenho eclético com eixo central, frontão e as inscrições à música, ao teatro e ao drama.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Histórico"
-  },
-  {
-    "id": "h056",
-    "file": "fotos/hr-fachada-56.jpg",
-    "category": "fachada",
-    "categoryLabel": "Fachada",
-    "w": 1800,
-    "h": 1128,
-    "alt": "A fachada iluminada ao entardecer — o frontão e as arcadas sob a luz do fim de tarde.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
     "id": "h081",
     "file": "fotos/hr-historicas-81.jpg",
     "category": "historicas",
@@ -867,5 +768,104 @@
     "alt": "Um grande baile nos anos 1930 — a plateia esvaziada de cadeiras virou salão de dança sob os camarotes decorados.",
     "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
     "epoca": "Histórico"
+  },
+  {
+    "id": "h018",
+    "file": "fotos/hr-restauro-18.jpg",
+    "category": "restauro",
+    "categoryLabel": "Restauro",
+    "w": 1529,
+    "h": 1011,
+    "alt": "O corte das árvores na rua lateral, em 1986 — episódio da mobilização em torno do edifício.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Restauro"
+  },
+  {
+    "id": "h020",
+    "file": "fotos/hr-restauro-20.jpg",
+    "category": "restauro",
+    "categoryLabel": "Restauro",
+    "w": 1800,
+    "h": 1335,
+    "alt": "Decapagem — a remoção controlada das camadas de tinta que escondiam pinturas e ornamentos.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Restauro"
+  },
+  {
+    "id": "h022",
+    "file": "fotos/hr-restauro-22.jpg",
+    "category": "restauro",
+    "categoryLabel": "Restauro",
+    "w": 1800,
+    "h": 970,
+    "alt": "A equipe de restauração, que conciliou preservação histórica e funcionamento contemporâneo.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Restauro"
+  },
+  {
+    "id": "h023",
+    "file": "fotos/hr-restauro-23.jpg",
+    "category": "restauro",
+    "categoryLabel": "Restauro",
+    "w": 1496,
+    "h": 1030,
+    "alt": "A escavação do fosso da orquestra, sob o palco, durante as obras.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Restauro"
+  },
+  {
+    "id": "h033",
+    "file": "fotos/hr-restauro-33.jpg",
+    "category": "restauro",
+    "categoryLabel": "Restauro",
+    "w": 1800,
+    "h": 1259,
+    "alt": "O palco logo após a retirada da tela de cinema — reaparecendo a caixa cênica original.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Restauro"
+  },
+  {
+    "id": "h041",
+    "file": "fotos/hr-restauro-41.jpg",
+    "category": "restauro",
+    "categoryLabel": "Restauro",
+    "w": 1800,
+    "h": 1172,
+    "alt": "Uma das etapas da reforma e restauração do edifício.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Restauro"
+  },
+  {
+    "id": "h067",
+    "file": "fotos/hr2-restauro-07.jpg",
+    "category": "restauro",
+    "categoryLabel": "Restauro",
+    "w": 1800,
+    "h": 1263,
+    "alt": "Marcas de antigas companhias gravadas na lateral do palco — assinaturas de quem passou pela casa.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Restauro"
+  },
+  {
+    "id": "h068",
+    "file": "fotos/hr2-restauro-08.jpg",
+    "category": "restauro",
+    "categoryLabel": "Restauro",
+    "w": 1755,
+    "h": 1173,
+    "alt": "A nova estrutura de sustentação do palco, instalada durante o restauro.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Restauro"
+  },
+  {
+    "id": "h069",
+    "file": "fotos/hr2-restauro-09.jpg",
+    "category": "restauro",
+    "categoryLabel": "Restauro",
+    "w": 1167,
+    "h": 1700,
+    "alt": "Os vergalhões que sustentam o palco, na reestruturação da caixa cênica.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Restauro"
   }
 ]
