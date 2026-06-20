@@ -39,7 +39,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
     <article>
       <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={page.meta.status} />
       <div className="mx-auto max-w-6xl px-5 py-14">
-        <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/45 dark:text-cream/45">{readMin} min de leitura</p>
+        <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">{readMin} min de leitura</p>
         <Reveal>
           <div className="prose-theatro mx-auto" dangerouslySetInnerHTML={{ __html: page.html }} />
         </Reveal>
@@ -57,7 +57,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         {gal && galFotos.length > 0 && (
           <section className="mt-16 border-t border-gold/25 pt-12">
             <h2 className="mb-2 font-display text-3xl">{gal.title}</h2>
-            <p className="mb-8 max-w-reading font-sans text-sm italic text-ink/55 dark:text-cream/55">
+            <p className="mb-8 max-w-reading font-sans text-sm italic text-ink/70 dark:text-cream/70">
               Acervo do Theatro Municipal — Prefeitura de São João da Boa Vista.
             </p>
             <GaleriaReal fotos={galFotos} withFilter={false} />

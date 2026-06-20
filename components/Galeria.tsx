@@ -14,7 +14,7 @@ export default function Galeria({ imagens }: { imagens: Imagem[] }) {
             <span className="relative block">
               <Image src={`/media/${img.file}`} alt={img.alt} width={600} height={420} className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]" sizes="(max-width:640px) 100vw, 33vw" />
             </span>
-            <span className="mt-1.5 block font-sans text-xs text-ink/55 dark:text-cream/55">{img.alt} <span className="italic">— {img.source}, p. {img.page}.</span></span>
+            <span className="mt-1.5 block font-sans text-xs text-ink/70 dark:text-cream/70">{img.alt} <span className="italic">— {img.source}, p. {img.page}.</span></span>
           </button>
         ))}
       </div>

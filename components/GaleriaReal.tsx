@@ -39,13 +39,13 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
       {withFilter && (
         <div className="mb-8 flex flex-wrap gap-2">
           {cats.map(([c, label]) => (
-            <button key={c} onClick={() => setCat(c)} className={`rounded-full border px-3.5 py-1.5 font-sans text-xs transition-colors ${cat === c ? 'border-curtain bg-curtain text-cream dark:border-gold dark:bg-gold dark:text-ink' : 'border-ink/20 text-ink/70 hover:border-curtain dark:border-cream/20 dark:text-cream/70'}`}>
+            <button key={c} onClick={() => setCat(c)} aria-pressed={cat === c} className={`rounded-full border px-3.5 py-1.5 font-sans text-xs transition-colors ${cat === c ? 'border-curtain bg-curtain text-cream dark:border-gold dark:bg-gold dark:text-ink' : 'border-ink/20 text-ink/70 hover:border-curtain dark:border-cream/20 dark:text-cream/70'}`}>
               {label}
             </button>
           ))}
           <span className="mx-1 hidden w-px self-stretch bg-gold/25 sm:block" aria-hidden />
           {epocas.map((e) => (
-            <button key={e} onClick={() => setEp(e)} className={`rounded-full px-3 py-1.5 font-sans text-xs transition-colors ${ep === e ? 'bg-ink text-cream dark:bg-cream dark:text-ink' : 'text-ink/55 hover:text-curtain dark:text-cream/55 dark:hover:text-gold'}`}>
+            <button key={e} onClick={() => setEp(e)} aria-pressed={ep === e} className={`rounded-full border px-3 py-1.5 font-sans text-xs transition-colors ${ep === e ? 'border-ink bg-ink text-cream dark:border-cream dark:bg-cream dark:text-ink' : 'border-ink/20 text-ink/70 hover:border-curtain hover:text-curtain dark:border-cream/20 dark:text-cream/70 dark:hover:text-gold'}`}>
               {e === 'todas' ? 'Todas as épocas' : e}
             </button>
           ))}
@@ -70,15 +70,15 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
             <button onClick={close} aria-label="Fechar" className="text-cream/70 hover:text-gold"><IconClose size={24} /></button>
           </div>
           <div className="relative flex flex-1 items-center justify-center px-4 pb-2 sm:px-16" onClick={close}>
-            <button onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Anterior" className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full p-2 text-cream/60 transition-colors hover:text-gold sm:left-4"><IconChevron size={30} className="rotate-180" /></button>
+            <button onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Anterior" className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-night/50 p-3 text-cream/85 transition-colors hover:bg-night/70 hover:text-gold sm:left-4"><IconChevron size={30} className="rotate-180" /></button>
             <figure className="max-h-full" onClick={(e) => e.stopPropagation()}>
               <Image src={`/${open.file}`} alt={open.alt} width={open.w} height={open.h} className="max-h-[78vh] w-auto rounded-sm object-contain" priority />
             </figure>
-            <button onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Próxima" className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full p-2 text-cream/60 transition-colors hover:text-gold sm:right-4"><IconChevron size={30} /></button>
+            <button onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Próxima" className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-night/50 p-3 text-cream/85 transition-colors hover:bg-night/70 hover:text-gold sm:right-4"><IconChevron size={30} /></button>
           </div>
           <figcaption className="mx-auto max-w-2xl px-6 pb-7 pt-2 text-center font-sans text-sm text-cream/85">
             <span className="font-medium text-gold">{open.categoryLabel}.</span> {open.alt}
-            <span className="mt-1 block text-xs text-cream/45">{open.credit}</span>
+            <span className="mt-1 block text-xs text-cream/65">{open.credit}</span>
           </figcaption>
         </div>
       )}

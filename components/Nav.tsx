@@ -53,12 +53,12 @@ export default function Nav() {
           <Mark className="text-curtain transition-colors group-hover:text-gold dark:text-gold" size={30} />
           <span className="flex flex-col">
             <span className="font-display text-lg font-medium tracking-tight">Theatro Municipal</span>
-            <span className="font-sans text-[0.58rem] uppercase tracking-eyebrow text-ink/60 dark:text-cream/60">São João da Boa Vista</span>
+            <span className="font-sans text-[0.64rem] uppercase tracking-eyebrow text-ink/70 dark:text-cream/70">São João da Boa Vista</span>
           </span>
         </Link>
 
         <nav className="hidden items-center gap-6 lg:flex" aria-label="Navegação principal">
-          {PRIMARY.map((l) => <Link key={l.href} href={l.href} className={linkCls(pathname === l.href)}>{l.label}</Link>)}
+          {PRIMARY.map((l) => <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className={linkCls(pathname === l.href)}>{l.label}</Link>)}
           <div className="relative" ref={moreRef}>
             <button onClick={() => setMore(!more)} className={`flex items-center gap-1 ${linkCls(MORE.some((m) => m.href === pathname))}`} aria-expanded={more}>
               Mais <IconChevron size={12} className={`transition-transform ${more ? 'rotate-90' : ''}`} />
@@ -85,7 +85,7 @@ export default function Nav() {
       {open && (
         <nav className="max-h-[80vh] overflow-y-auto border-t border-gold/20 bg-cream px-5 pb-8 pt-2 dark:bg-night lg:hidden" aria-label="Navegação móvel">
           {[...PRIMARY, ...MORE].map((l) => (
-            <Link key={l.href} href={l.href} className="block border-b border-ink/5 py-3 font-sans text-base text-ink/80 dark:border-cream/10 dark:text-cream/80">{l.label}</Link>
+            <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className="block border-b border-ink/5 py-3 font-sans text-base text-ink/80 dark:border-cream/10 dark:text-cream/80">{l.label}</Link>
           ))}
         </nav>
       )}

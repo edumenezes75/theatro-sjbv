@@ -21,7 +21,7 @@ function Card({ e }: { e: ReturnType<typeof getEventos>[number] }) {
     <article className="grid gap-4 border-b border-gold/20 py-7 sm:grid-cols-[auto_1fr] sm:gap-8">
       <div className="sm:w-40">
         <p className="font-display text-2xl leading-none text-curtain dark:text-gold">{data}</p>
-        <p className="mt-1 font-sans text-xs capitalize text-ink/55 dark:text-cream/55">{dia} · {hora}</p>
+        <p className="mt-1 font-sans text-xs capitalize text-ink/70 dark:text-cream/70">{dia} · {hora}</p>
         {e.categoria && <span className="mt-2 inline-block rounded-full border border-curtain/30 px-2.5 py-0.5 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain dark:border-gold/40 dark:text-gold">{e.categoria}</span>}
       </div>
       <div>
@@ -55,7 +55,7 @@ export default function ProgramacaoPage() {
 
         {passados.length > 0 && (
           <>
-            <h2 className="mt-16 font-sans text-xs uppercase tracking-eyebrow text-ink/50 dark:text-cream/50">Já aconteceu</h2>
+            <h2 className="mt-16 font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">Já aconteceu</h2>
             <div className="mt-4 opacity-75">{passados.map((e) => <Card key={e.slug} e={e} />)}</div>
           </>
         )}

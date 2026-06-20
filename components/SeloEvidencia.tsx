@@ -12,7 +12,7 @@ const DOT: Record<Kind, string> = { documentado: 'bg-gold', memoria: 'bg-curtain
 export default function SeloEvidencia({ status, label }: { status: string; label?: string }) {
   const k = classify(status);
   return (
-    <span className="inline-flex items-center gap-1.5 font-sans text-[0.58rem] font-medium uppercase tracking-[0.16em] text-ink/45 dark:text-cream/45" title={label || status}>
+    <span className="inline-flex items-center gap-1.5 font-sans text-[0.7rem] font-medium uppercase tracking-[0.14em] text-ink/65 dark:text-cream/65" title={label || status}>
       <span className={`inline-block h-1.5 w-1.5 rounded-full ${DOT[k]}`} aria-hidden />
       {label || LABEL[k]}
     </span>

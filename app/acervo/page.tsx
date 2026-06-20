@@ -25,7 +25,7 @@ export default function AcervoPage() {
         <p className="mb-3 max-w-reading font-sans text-lg leading-relaxed text-ink/85 dark:text-cream/85">
           Mais de setenta fotografias do edifício — da fachada eclética à sala em ferradura, dos ornamentos restaurados às obras de recuperação. Filtre por tema e clique para ampliar.
         </p>
-        <p className="mb-10 max-w-reading font-sans text-sm italic text-ink/55 dark:text-cream/55">
+        <p className="mb-10 max-w-reading font-sans text-sm italic text-ink/70 dark:text-cream/70">
           Imagens do acervo do Theatro Municipal e da Prefeitura de São João da Boa Vista.
         </p>
 

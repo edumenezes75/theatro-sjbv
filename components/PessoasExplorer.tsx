@@ -38,7 +38,7 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
             )}
             {p.related?.length > 0 && (
               <div className="mt-4 border-t border-gold/20 pt-3">
-                <span className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-ink/50 dark:text-cream/50">Relacionados</span>
+                <span className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">Relacionados</span>
                 <div className="mt-1.5 flex flex-wrap gap-1.5">
                   {p.related.map((rid) => byId[rid] && (
                     <a key={rid} href={`#${rid}`} className="rounded-full border border-curtain/30 px-2.5 py-0.5 font-sans text-xs text-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold">
@@ -55,7 +55,7 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
       {open && (
         <div className="fixed inset-0 z-[120] flex items-start justify-center overflow-y-auto bg-ink/85 p-4 sm:p-10" onClick={() => setOpen(null)} role="dialog" aria-modal="true" aria-label={open.name}>
           <div className="relative my-auto w-full max-w-2xl rounded-sm bg-cream p-7 sm:p-10 dark:bg-night" onClick={(e) => e.stopPropagation()}>
-            <button onClick={() => setOpen(null)} aria-label="Fechar" className="absolute right-4 top-3 text-ink/50 hover:text-curtain dark:text-cream/50"><IconClose size={22} /></button>
+            <button onClick={() => setOpen(null)} aria-label="Fechar" className="absolute right-4 top-3 text-ink/65 hover:text-curtain dark:text-cream/65"><IconClose size={22} /></button>
             <div className="flex items-center gap-3">
               <span className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{open.category}</span>
               <SeloEvidencia status={open.status} />
@@ -67,10 +67,10 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
                 <p key={i} className="font-sans text-[1.02rem] leading-relaxed text-ink/85 dark:text-cream/85">{para}</p>
               ))}
             </div>
-            {open.source && <p className="mt-5 border-t border-gold/25 pt-3 font-sans text-xs italic text-ink/55 dark:text-cream/55">Fonte: {open.source}</p>}
+            {open.source && <p className="mt-5 border-t border-gold/25 pt-3 font-sans text-xs italic text-ink/70 dark:text-cream/70">Fonte: {open.source}</p>}
             {open.related?.length > 0 && (
               <div className="mt-4">
-                <span className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-ink/50 dark:text-cream/50">Relacionados</span>
+                <span className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">Relacionados</span>
                 <div className="mt-2 flex flex-wrap gap-1.5">
                   {open.related.map((rid) => byId[rid] && (
                     <button key={rid} onClick={() => setOpen(byId[rid])} className="rounded-full border border-curtain/30 px-2.5 py-0.5 font-sans text-xs text-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold">

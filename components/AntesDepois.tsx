@@ -18,7 +18,7 @@ function Slider({ par }: { par: Par }) {
     <figure>
       <div
         ref={ref}
-        className="relative aspect-[4/3] w-full touch-none select-none overflow-hidden rounded-sm bg-ink"
+        className="relative aspect-[4/3] w-full [touch-action:pan-y] select-none overflow-hidden rounded-sm bg-ink"
         onPointerDown={(e) => { dragging.current = true; (e.currentTarget as HTMLElement).setPointerCapture?.(e.pointerId); setFromX(e.clientX); }}
         onPointerMove={(e) => { if (dragging.current) setFromX(e.clientX); }}
         onPointerUp={() => { dragging.current = false; }}
@@ -41,7 +41,7 @@ function Slider({ par }: { par: Par }) {
       </div>
       <figcaption className="mt-3 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">
         <span className="font-display text-base font-medium text-ink dark:text-cream">{par.title}.</span> {par.caption}
-        <span className="mt-0.5 block text-xs italic text-ink/45 dark:text-cream/45">{par.credit}</span>
+        <span className="mt-0.5 block text-xs italic text-ink/65 dark:text-cream/65">{par.credit}</span>
       </figcaption>
     </figure>
   );
