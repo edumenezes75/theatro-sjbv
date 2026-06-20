@@ -176,28 +176,6 @@
     "epoca": "Atual"
   },
   {
-    "id": "h063",
-    "file": "fotos/hr2-sala-03.jpg",
-    "category": "sala",
-    "categoryLabel": "Sala e plateia",
-    "w": 640,
-    "h": 456,
-    "alt": "O salão de múltiplo uso, no segundo andar — sociedades culturais, rádio e biblioteca passaram por aqui.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h064",
-    "file": "fotos/hr2-sala-04.jpg",
-    "category": "sala",
-    "categoryLabel": "Sala e plateia",
-    "w": 640,
-    "h": 456,
-    "alt": "A antessala do múltiplo uso, no segundo andar do edifício.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
     "id": "h065",
     "file": "fotos/hr2-sala-05.jpg",
     "category": "sala",
@@ -293,17 +271,6 @@
     "w": 1800,
     "h": 1200,
     "alt": "Detalhe dos ornamentos da sala, em close.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
-    "id": "h066",
-    "file": "fotos/hr2-ornamentos-06.jpg",
-    "category": "ornamentos",
-    "categoryLabel": "Ornamentos e medalhão",
-    "w": 640,
-    "h": 456,
-    "alt": "O forro ornamentado da Sala de Múltiplo Uso.",
     "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
     "epoca": "Atual"
   },
@@ -449,17 +416,6 @@
     "alt": "Conjunto Vime — um dos grupos da vida musical sanjoanense.",
     "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
     "epoca": "Histórico"
-  },
-  {
-    "id": "h004",
-    "file": "fotos/hr-restauro-04.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
-    "w": 639,
-    "h": 479,
-    "alt": "Andaimes na recuperação do medalhão de Carlos Gomes, sobre a boca de cena.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro"
   },
   {
     "id": "h018",
@@ -814,17 +770,6 @@
     "epoca": "Histórico"
   },
   {
-    "id": "h074",
-    "file": "fotos/hr2-cartazes-14.jpg",
-    "category": "eventos",
-    "categoryLabel": "Palco e cultura",
-    "w": 720,
-    "h": 424,
-    "alt": "Os 99 anos do Theatro, às vésperas do centenário.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Atual"
-  },
-  {
     "id": "h075",
     "file": "fotos/hr2-cartazes-15.jpg",
     "category": "eventos",
@@ -878,5 +823,49 @@
     "alt": "Os Barbatuques na Semana Assad, 2012 — a percussão corporal no palco.",
     "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
     "epoca": "Atual"
+  },
+  {
+    "id": "h055",
+    "file": "fotos/hr-fachada-55.jpg",
+    "category": "fachada",
+    "categoryLabel": "Fachada",
+    "w": 1800,
+    "h": 1205,
+    "alt": "O projeto original da fachada, 1913 — o desenho eclético com eixo central, frontão e as inscrições à música, ao teatro e ao drama.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico"
+  },
+  {
+    "id": "h056",
+    "file": "fotos/hr-fachada-56.jpg",
+    "category": "fachada",
+    "categoryLabel": "Fachada",
+    "w": 1800,
+    "h": 1128,
+    "alt": "A fachada iluminada ao entardecer — o frontão e as arcadas sob a luz do fim de tarde.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Atual"
+  },
+  {
+    "id": "h081",
+    "file": "fotos/hr-historicas-81.jpg",
+    "category": "historicas",
+    "categoryLabel": "Históricas e cidade",
+    "w": 1311,
+    "h": 941,
+    "alt": "A plateia lotada em 22 de novembro de 1940 — a sala em ferradura cheia, do palco às galerias.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico"
+  },
+  {
+    "id": "h082",
+    "file": "fotos/hr-historicas-82.jpg",
+    "category": "historicas",
+    "categoryLabel": "Históricas e cidade",
+    "w": 1800,
+    "h": 1195,
+    "alt": "Um grande baile nos anos 1930 — a plateia esvaziada de cadeiras virou salão de dança sob os camarotes decorados.",
+    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico"
   }
 ]

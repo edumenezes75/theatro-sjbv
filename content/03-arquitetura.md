@@ -21,6 +21,10 @@ Essa relação entre cena e espectadores é uma das marcas da tradição teatral
 
 O projeto de 1913 apresenta uma composição simétrica, com eixo central destacado, aberturas altas, ornamentos, frontão e inscrições relacionadas à música, ao teatro e ao drama. O edifício foi concebido para se afirmar na praça e comunicar sua função antes mesmo de o público entrar.
 
+![O projeto original da fachada, 1913 — composição simétrica com eixo central, frontão e inscrições à música, ao teatro e ao drama.](/fotos/hr-fachada-55.jpg)
+
+*O desenho original da fachada, 1913 — o Theatro no papel antes de existir em pedra.*
+
 Na linguagem eclética, elementos de diferentes tradições históricas são reorganizados para produzir solenidade e distinção. Isso não significa que o Theatro copie um único modelo europeu. A comparação com grandes casas de ópera faz parte do imaginário de sua construção, mas a relação precisa ser estudada por plantas, proporções e documentação técnica.
 
 > **Nota de pesquisa:** a expressão “modelo do Scala de Milão” aparece em narrativas locais. Aqui ela é tratada como referência atribuída, não como prova de cópia direta.
