@@ -202,7 +202,7 @@ export default function Home() {
         <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'repeating-linear-gradient(90deg,#6E1F17,#6E1F17 18px,#5A1812 18px,#5A1812 36px)' }} />
         <div className="relative mx-auto max-w-6xl px-5 py-24 text-center">
           <Reveal>
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">Documentário</p>
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-[#D8C089]">Documentário</p>
             <h2 className="mx-auto mt-4 max-w-3xl font-display text-3xl leading-tight sm:text-5xl">Música &amp; Drama</h2>
             <p className="mx-auto mt-6 max-w-xl font-sans text-lg italic leading-relaxed text-cream/85">
               “Antes de ser um filme sobre um prédio, Música &amp; Drama é um filme sobre as pessoas que deram voz, corpo e futuro a esse palco.”
