@@ -31,10 +31,6 @@ Em maio de 1913, foi apresentado um projeto assinado por **J. Pucci**. O program
 
 Esses números pertencem ao projeto anunciado e não devem ser confundidos com a lotação atual. O valor documental está em mostrar a escala da ambição: tratava-se de um edifício pensado para receber grandes públicos e diferentes tipos de espetáculo.
 
-![Projeto histórico da fachada do Theatro Municipal.](../media/projeto-fachada-j-pucci.png)
-
-*Projeto da fachada apresentado em 1913. A identificação completa de J. Pucci ainda é objeto de pesquisa — por isso evitamos associá-lo a homônimos sem comprovação.*
-
 ## 2. Pedra, metal e memória — 1913 a 1914
 
 A pedra fundamental foi assentada em 13 de maio de 1913. A cerimônia reuniu autoridades, dirigentes da Companhia, profissionais e moradores. Sob a entrada principal, uma caixa recebeu documentos e objetos de seu tempo: ata de fundação, estatutos, jornais, revistas, dinheiro e cartões de visita.
@@ -53,8 +49,6 @@ O público ocupou plateia, frisas, camarotes e galeria. Para a cidade, aquela no
 
 Uma ausência, porém, marcou a cerimônia. José Evangelista de Almeida, apontado pelos jornais como iniciador das obras, havia se transferido para Santos por razões profissionais. Sua participação permaneceu registrada na história da Companhia e na imprensa.
 
-![Fachada do Theatro na década de 1920.](../media/fachada-decada-1920.png)
-
 ### A data correta
 
 A data de 31 de outubro é sustentada pelo livro do centenário e por edições contemporâneas do jornal *O Município*: uma delas anunciava a primeira apresentação para aquela noite; outra, publicada em 7 de novembro, referia-se à inauguração ocorrida no dia 31.
@@ -72,8 +66,6 @@ Mulheres tiveram papel decisivo nessa vida cultural. Gabriela de Oliveira Costa,
 ### Festas, política e experimentação
 
 O edifício não tinha uso único. Em 1915, recebeu seu primeiro baile de Carnaval. Houve festas juninas, formaturas, comícios e reuniões cívicas. Em 1919, um grande encontro político em apoio à candidatura de Rui Barbosa lotou a sala e deixou uma fotografia importante para o futuro restauro do medalhão de Carlos Gomes.
-
-![Comício político realizado no Theatro em 1919.](../media/comicio-1919.png)
 
 Em determinado momento, a sala chegou a funcionar como rinque de patinação. A hipótese de transformar dependências em cassino também foi cogitada diante das dificuldades financeiras, mas não se consolidou.
 
@@ -97,8 +89,6 @@ Mesmo na fase cinematográfica, o edifício continuou a receber apresentações.
 
 O segundo andar tornou-se um laboratório cultural. Ali funcionaram a Sociedade de Cultura Artística, a Sociedade Cultural de Debates, o Teatro-Escola, a Rádio Difusora ZYJ-6 e, posteriormente, a Biblioteca Municipal. O mesmo ambiente abrigou livros, conferências, recitais, programas de rádio e ensaios.
 
-![Rádio Difusora no segundo andar do Theatro.](../media/radio-difusora.png)
-
 ### A reforma de 1967
 
 Em fevereiro de 1967, frisas e camarotes foram retirados para aumentar o número de assentos do cinema. A intervenção alterou profundamente a leitura original da sala. Para o público, isso significou mais lugares; para o edifício histórico, significou a perda de elementos importantes.
@@ -114,8 +104,6 @@ Em 1981, a Lei Municipal nº 219 declarou o imóvel de utilidade pública. A med
 Artistas e moradores intensificaram a mobilização. Houve manifestações, happenings, entrevistas e coleta de assinaturas. Ronaldo Marin anunciou que faria greve de fome no alto do prédio caso nenhuma decisão fosse tomada. Zeza Freitas e outros participantes lembram a campanha como um momento de urgência, criatividade e confronto público.
 
 Mais de duas mil assinaturas foram reunidas em apoio à preservação e à ativação cultural do espaço.
-
-![Página do abaixo-assinado pela preservação.](../media/abaixo-assinado.png)
 
 ### A compra
 
@@ -133,8 +121,6 @@ Arquitetos, engenheiros, artistas e técnicos visitaram teatros no Rio de Janeir
 
 A obra incluiu consolidação estrutural, rebaixamento do subsolo, nova estrutura de palco, camarins, escadas, sistemas de incêndio, instalações, cobertura, fachadas, frisas, camarotes e tratamento de ornamentos.
 
-![Escavação do subsolo durante a restauração.](../media/escavacao-subsolo.png)
-
 A imagem de uma retroescavadeira dentro da sala resume a escala do desafio. Para criar espaço sob o palco e corrigir níveis, foi necessário escavar no interior do edifício, sob acompanhamento técnico.
 
 ### Aberturas por etapas
@@ -142,8 +128,6 @@ A imagem de uma retroescavadeira dentro da sala resume a escala do desafio. Para
 O foyer foi inaugurado em dezembro de 1992. Mesmo incompleto, o Theatro voltou a receber exposições, música e eventos em áreas possíveis. Em 1995, o show *Relembranças* ocupou um palco ainda cercado por sinais de obra. Em 1996, a Semana Guiomar Novaes voltou ao edifício com cadeiras emprestadas.
 
 A Fundação Oliveira Neto, criada em 1998, ajudou a captar recursos por incentivos e campanhas. Em setembro de 2002, durante a 25ª Semana Guiomar Novaes, o público reencontrou a sala principal.
-
-![Show Relembranças em 1995, com o edifício ainda em obras.](../media/show-relembrancas-1995.png)
 
 ## 8. O Theatro volta a pertencer ao cotidiano — 2003 em diante
 

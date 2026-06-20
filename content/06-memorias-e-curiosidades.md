@@ -37,8 +37,6 @@ O mesmo espaço que recebia companhias dramáticas podia ser preparado para pati
 
 Mesas, decoração, música e dança ocupavam o lugar das cadeiras. As galerias permaneciam cheias, e a sala inteira funcionava como cenário social.
 
-![Baile realizado no Theatro.](../media/baile-no-theatro.png)
-
 As imagens dos bailes são especialmente úteis para uma experiência digital. Um recurso de ampliação pode convidar o público a observar roupas, músicos, decoração, iluminação e ocupação das galerias.
 
 ## O cinema tinha seu próprio ritual
@@ -75,8 +73,6 @@ A história pode se transformar em um pequeno módulo interativo: o cartaz imagi
 
 Entre 1958 e 1963, a Rádio Difusora ZYJ-6 funcionou no segundo andar. O auditório recebia apresentações ao vivo, conjuntos musicais e recitais de alunos.
 
-![Músicos e operadores da Rádio Difusora.](../media/radio-difusora.png)
-
 O mesmo espaço já havia abrigado sociedades culturais e depois receberia a Biblioteca Municipal. Poucos ambientes do edifício concentraram tantos usos diferentes.
 
 ## O Theatro também foi biblioteca
@@ -93,8 +89,6 @@ Essa experiência amplia a definição de público: o Theatro formava leitores, 
 
 No final dos anos 1950 e início dos 1960, frequentadores do Bar Theatro alimentavam um cão chamado Amigo. Segundo a lembrança, ele esperava o sino da Matriz anunciar uma morte e acompanhava o cortejo até o cemitério.
 
-![Interior do antigo Bar Theatro.](../media/bar-theatro-interior.png)
-
 A história do cão pertence à memória afetiva, e é assim que a guardamos — sem tentar convertê-la em prova documental.
 
 ## Os fantasmas do Theatro
@@ -110,8 +104,6 @@ A crônica não deve ser tratada como relato paranormal. Seu valor está na met�
 **Selo: fotografia e depoimento**
 
 Em 1995, o show *Relembranças* ocorreu com a sala incompleta, piso bruto e cadeiras emprestadas. A cantora temia que ninguém aparecesse. O público lotou o espaço, e parte das pessoas ficou em pé.
-
-![Show Relembranças, realizado durante as obras.](../media/show-relembrancas-1995.png)
 
 A lembrança mostra que a reabertura cultural não esperou a perfeição. A vontade de usar o Theatro antecipou sua conclusão física.
 

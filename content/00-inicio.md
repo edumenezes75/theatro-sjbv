@@ -53,10 +53,6 @@ A compra pelo município, o tombamento, a restauração por etapas e o trabalho 
 
 <!-- component: image-feature -->
 
-![Fachada histórica do Theatro Municipal na década de 1920.](../media/fachada-decada-1920.png)
-
-*Fachada do Theatro na década de 1920. A praça, as portas e a escala do edifício ajudam a compreender o impacto que a nova construção produziu na paisagem urbana.*
-
 ## Uma história contada por pessoas
 
 A história do Theatro não pertence somente aos nomes famosos que passaram pelo palco. Ela também é feita por quem afinou instrumentos, pintou cenários, vendeu ingressos, operou projetores, ensinou crianças, escreveu críticas, carregou cadeiras, restaurou ornamentos, assinou petições ou simplesmente ocupou uma poltrona.

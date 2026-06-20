@@ -124,11 +124,11 @@ export default function Home() {
         <Reveal>
           <figure>
             <div className="relative aspect-[16/9] w-full overflow-hidden sm:aspect-[21/9] sm:rounded-sm md:mx-auto md:max-w-[88rem]">
-              <Image src="/media/fachada-decada-1920.png" alt="Fachada histórica do Theatro Municipal na década de 1920." fill className="object-cover" sizes="100vw" />
+              <Image src="/fotos/hr-fachada-49.jpg" alt="Registro antigo da fachada do Theatro Municipal." width={1800} height={1160} className="h-full w-full object-cover" sizes="100vw" />
             </div>
             <figcaption className="mx-auto mt-4 max-w-6xl px-5 sm:flex sm:justify-end">
               <span className="block max-w-sm font-sans text-sm italic leading-relaxed text-ink/60 dark:text-cream/60">
-                Fachada do Theatro na década de 1920 — a praça, as portas e a escala do edifício revelam o impacto da nova construção na paisagem urbana. <span className="not-italic">Livro, p. 40.</span>
+                A fachada do Theatro em registro antigo — a praça, as portas e a escala do edifício na paisagem do centro histórico.
               </span>
             </figcaption>
           </figure>

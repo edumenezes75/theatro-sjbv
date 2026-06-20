@@ -55,10 +55,6 @@ A sala curva distribui o público ao redor da plateia e aproxima os níveis supe
 
 Historicamente, essa disposição também organizava diferenças sociais. Os setores tinham preços, acessos e experiências distintas. A galeria podia receber grande público; frisas e camarotes ofereciam visibilidade e representação social; a plateia concentrava cadeiras classificadas por categoria.
 
-![Interior histórico em forma de ferradura.](../media/interior-ferradura.png)
-
-*Registro anterior ao restauro. A curva das galerias ajuda a compreender tanto a arquitetura quanto a vida social da sala.*
-
 ## Madeira, metal e som
 
 Fotografias e relatos destacam a presença de madeira na sala e estruturas metálicas na sustentação. A geometria e os materiais são frequentemente associados à boa projeção sonora.
@@ -97,8 +93,6 @@ A intervenção de **fevereiro de 1967** foi especialmente importante: frisas e 
 ## O medalhão de Carlos Gomes
 
 Sobre a boca de cena, camadas de tinta escondiam o retrato de Carlos Gomes. Durante o restauro, uma prospecção delicada revelou a figura. A recuperação envolveu remoção controlada das camadas, reintegração de lacunas e proteção final.
-
-![Etapas do restauro do medalhão de Carlos Gomes.](../media/medalhao-carlos-gomes.png)
 
 Esse episódio resume o trabalho de restauração: não inventar um passado, mas procurar evidências, interpretar marcas e devolver leitura ao que sobreviveu.
 

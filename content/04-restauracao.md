@@ -33,8 +33,6 @@ Zeza Freitas recorda que jovens artistas percorriam casas e ruas em busca de apo
 
 Mais de duas mil assinaturas deram força política à compra.
 
-![Abaixo-assinado em apoio à preservação.](../media/abaixo-assinado.png)
-
 > **Patrimônio em ação:** o documento pedia não apenas conservação, mas “ativação de um espaço cultural”. A luta era para salvar o prédio e devolver-lhe função.
 
 ## A aquisição em duas etapas
@@ -85,8 +83,6 @@ As intervenções incluíram:
 - reconstrução de frisas, camarotes, portas e janelas;
 - recuperação de fachadas, ornatos e pinturas.
 
-![Retroescavadeira durante a escavação do subsolo.](../media/escavacao-subsolo.png)
-
 O rebaixamento das fundações foi executado lentamente. Relatos técnicos registram controle rigoroso do recalque e a necessidade de laudos para responder ao temor de que a escavação pudesse comprometer o edifício.
 
 ## Restauro artístico
@@ -95,15 +91,11 @@ A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos.
 
 Na boca de cena, o medalhão de Carlos Gomes foi revelado sob sucessivas pinturas. Cézar Roberto Olandim, Maércio Mazzi e Elias Gervasi aparecem associados às etapas de descoberta e reintegração da obra.
 
-![Restauro do medalhão de Carlos Gomes.](../media/medalhao-carlos-gomes.png)
-
 ## Uma obra atravessada por governos e gerações
 
 A restauração durou mais que um mandato. Diferentes administrações contribuíram para etapas específicas, com recursos municipais, estaduais, federais, campanhas e incentivos.
 
 Em dezembro de 1992, o foyer foi inaugurado. O espaço passou a receber exposições e recitais, mesmo enquanto o restante permanecia em obra.
-
-![Foyer em uso durante a fase de reabertura parcial.](../media/foyer-1992-1993.png)
 
 Em 1998, a Fundação Oliveira Neto foi criada para captar recursos. Campanhas públicas e a Lei Rouanet ajudaram a avançar. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
 
@@ -112,8 +104,6 @@ Em 1998, a Fundação Oliveira Neto foi criada para captar recursos. Campanhas p
 O período de restauro não foi de silêncio absoluto. A Escola de Música funcionou em dependências possíveis. O Coral Vozes de São João ensaiou no espaço. Exposições, semanas culturais e apresentações ocuparam áreas ainda inacabadas.
 
 Em 1995, o show *Relembranças* reuniu público em uma sala com piso bruto e cadeiras emprestadas. Essa imagem é valiosa porque recusa uma divisão simples entre “ruína” e “obra pronta”: a cultura persistiu durante a transformação.
-
-![Show Relembranças, 1995.](../media/show-relembrancas-1995.png)
 
 ## O que a restauração ensina
 
