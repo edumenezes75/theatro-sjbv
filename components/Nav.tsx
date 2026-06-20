@@ -7,18 +7,18 @@ import Mark from './Mark';
 import { IconChevron, IconMenu, IconClose } from './Icons';
 
 const PRIMARY = [
-  { href: '/o-theatro', label: 'O Theatro' },
   { href: '/historia', label: 'História' },
   { href: '/arquitetura', label: 'Arquitetura' },
+  { href: '/restauracao', label: 'Restauro' },
   { href: '/pessoas', label: 'Pessoas' },
+  { href: '/acervo', label: 'Acervo' },
+  { href: '/documentario', label: 'Documentário' },
   { href: '/programacao', label: 'Programação' },
   { href: '/visite', label: 'Visite' },
 ];
 const MORE = [
-  { href: '/restauracao', label: 'Preservação e restauro' },
+  { href: '/o-theatro', label: 'O Theatro' },
   { href: '/memorias', label: 'Memórias e curiosidades' },
-  { href: '/documentario', label: 'Documentário' },
-  { href: '/acervo', label: 'Acervo' },
   { href: '/linha-do-tempo', label: 'Linha do tempo' },
   { href: '/fontes', label: 'Pesquisa e fontes' },
 ];
@@ -44,7 +44,7 @@ export default function Nav() {
   }, []);
 
   const linkCls = (active: boolean) =>
-    `font-sans text-[0.82rem] transition-colors hover:text-curtain dark:hover:text-gold ${active ? 'text-curtain dark:text-gold' : 'text-ink/75 dark:text-cream/75'}`;
+    `font-sans text-[0.8rem] transition-colors hover:text-curtain dark:hover:text-gold ${active ? 'text-curtain dark:text-gold' : 'text-ink/75 dark:text-cream/75'}`;
 
   return (
     <header className={`fixed top-0 z-50 w-full transition-colors duration-500 ${scrolled || open ? 'border-b border-gold/20 bg-cream/90 backdrop-blur-md dark:bg-night/90' : 'bg-transparent'}`}>
@@ -57,7 +57,7 @@ export default function Nav() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-6 lg:flex" aria-label="Navegação principal">
+        <nav className="hidden items-center gap-5 lg:flex" aria-label="Navegação principal">
           {PRIMARY.map((l) => <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className={linkCls(pathname === l.href)}>{l.label}</Link>)}
           <div className="relative" ref={moreRef}>
             <button onClick={() => setMore(!more)} className={`flex items-center gap-1 ${linkCls(MORE.some((m) => m.href === pathname))}`} aria-expanded={more}>
