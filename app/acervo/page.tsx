@@ -12,6 +12,8 @@ export const metadata: Metadata = {
 
 export default function AcervoPage() {
   const page = getPageBySlug('/acervo');
+  const destaqueIds = ['h048', 'h055', 'h036', 'h016', 'h011', 'h009', 'h023', 'h026', 'h081', 'h008'];
+  const destaque = destaqueIds.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList;
   return (
     <article>
       <ChapterHero
@@ -22,13 +24,31 @@ export default function AcervoPage() {
       />
       <div className="mx-auto max-w-6xl px-5 py-14">
         <p className="mb-3 max-w-reading font-sans text-lg leading-relaxed text-ink/85 dark:text-cream/85">
-          Mais de setenta fotografias do edifício — da fachada eclética à sala em ferradura, dos ornamentos restaurados às obras de recuperação. Filtre por tema e clique para ampliar.
+          O acervo reúne imagens do edifício, da sala, dos ornamentos, do palco, do período do cinema, da ameaça de demolição, do restauro e da vida cultural que mantém o Theatro em uso. Mais do que ilustrar a história, essas imagens ajudam a ver como a cidade se reconheceu nesse edifício.
         </p>
         <p className="mb-10 max-w-reading font-sans text-sm italic text-ink/70 dark:text-cream/70">
           Imagens do acervo do Theatro Municipal e da Prefeitura de São João da Boa Vista.
         </p>
 
-        <GaleriaReal fotos={fotosList} />
+        <section>
+          <div className="flex items-center gap-3">
+            <span className="h-6 w-px bg-curtain dark:bg-gold" />
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Comece por aqui</p>
+          </div>
+          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Comece por estes registros</h2>
+          <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+            Uma seleção para entender, em poucas imagens, a construção, a sala em ferradura, o cinema, a ameaça de demolição, o restauro e a vida cultural do Theatro.
+          </p>
+          <GaleriaReal fotos={destaque} withFilter={false} />
+        </section>
+
+        <section className="mt-16 border-t border-gold/25 pt-12">
+          <h2 className="font-display text-2xl leading-tight sm:text-3xl">O acervo completo</h2>
+          <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+            Mais de setenta fotografias, da fachada eclética às obras de recuperação. Filtre por tema e época; clique para ampliar.
+          </p>
+          <GaleriaReal fotos={fotosList} />
+        </section>
 
         <FontesDaPagina fontes={page?.fontes ?? null} />
       </div>
