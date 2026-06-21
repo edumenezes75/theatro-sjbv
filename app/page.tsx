@@ -22,6 +22,13 @@ const PILLARS = [
   { t: 'Voltou a viver', d: 'A compra pelo município, o tombamento e a restauração por etapas devolveram o edifício à cidade — e ao palco.' },
 ];
 
+const GUIA = [
+  { href: '/historia', tag: 'História', t: 'A história completa', d: 'Da ideia de 1911 ao patrimônio vivo de hoje, década a década.', cta: 'Ler a história' },
+  { href: '/arquitetura', tag: 'Arquitetura', t: 'A sala em ferradura', d: 'Fachada, plateia, frisas, camarotes, palco e ornamentos.', cta: 'Conhecer o edifício' },
+  { href: '/restauracao', tag: 'Restauro', t: 'A luta contra a demolição', d: 'Da retroescavadeira no palco à reabertura, pela mobilização da cidade.', cta: 'Ver a restauração' },
+  { href: '/documentario', tag: 'Documentário', t: 'Música & Drama', d: 'A memória do Theatro contada por quem a viveu.', cta: 'Assistir ao filme' },
+];
+
 export default function Home() {
   const strip = ['fachada', 'sala', 'ornamentos', 'pessoas', 'restauro', 'eventos']
     .map((c) => fotosList.find((f) => f.category === c && f.epoca === 'Atual') ?? fotosList.find((f) => f.category === c))
@@ -73,6 +80,29 @@ export default function Home() {
             </Reveal>
           ))}
         </div>
+      </section>
+
+      {/* COMECE POR AQUI */}
+      <section className="mx-auto max-w-6xl px-5 py-20">
+        <Reveal>
+          <div className="flex items-center gap-3">
+            <span className="h-6 w-px bg-curtain dark:bg-gold" />
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Comece por aqui</p>
+          </div>
+          <h2 className="mt-3 max-w-2xl font-display text-3xl leading-tight sm:text-4xl">Quatro caminhos para conhecer o Theatro</h2>
+        </Reveal>
+        <Reveal delay={120}>
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {GUIA.map((g) => (
+              <Link key={g.href} href={g.href} className="card-lift group flex flex-col rounded-sm border border-ink/10 p-6 hover:border-gold/50 dark:border-cream/10">
+                <span className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{g.tag}</span>
+                <h3 className="mt-2 font-display text-xl leading-tight">{g.t}</h3>
+                <p className="mt-2 flex-1 font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">{g.d}</p>
+                <span className="mt-4 font-sans text-sm text-curtain dark:text-gold">{g.cta} →</span>
+              </Link>
+            ))}
+          </div>
+        </Reveal>
       </section>
 
       {/* CASA DE MUITAS VIDAS */}
