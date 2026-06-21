@@ -4,6 +4,8 @@ import { getPageBySlug } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
 import LiteYouTube from '@/components/LiteYouTube';
+import TranscricaoFilme from '@/components/TranscricaoFilme';
+import transcricao from '@/data/transcricao.json';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/documentario' },
@@ -48,16 +50,19 @@ export default function DocumentarioPage() {
           </ol>
         </section>
 
-        <section className="mt-16 rounded-sm border border-ink/10 p-7 dark:bg-night/40">
-          <h2 className="font-display text-3xl">Transcrição em preparação</h2>
+        <section className="mt-16">
+          <h2 className="font-display text-3xl">Transcrição navegável</h2>
           <p className="mt-3 max-w-reading font-sans text-[0.97rem] leading-relaxed text-ink/80 dark:text-cream/80">
-            A transcrição integral do documentário será incorporada ao site para permitir busca por nomes, temas, lugares e depoimentos, com ligação direta ao momento correspondente no filme e às páginas temáticas. Até lá, esta página apresenta a estrutura narrativa do filme e sua relação com a pesquisa histórica do Theatro.
+            Transcrição do documentário gerada a partir das legendas e revisada nos nomes próprios. Busque por palavra, nome ou tema — e clique no minuto para abrir o filme exatamente naquele ponto.
           </p>
+          <div className="mt-7">
+            <TranscricaoFilme segs={transcricao} youtubeId="e2stgoHtlAQ" />
+          </div>
         </section>
 
         <section className="mt-16">
           <h2 className="font-display text-3xl">Acessibilidade</h2>
-          <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">Alguns recursos já estão disponíveis no player do YouTube; outros estão em preparação, junto com a transcrição.</p>
+          <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">A transcrição navegável já está disponível acima; legendas e controles vêm do player do YouTube; recursos como audiodescrição seguem em preparação.</p>
           <ul className="mt-5 grid gap-2 sm:grid-cols-2">
             {ACESS.map((a) => (
               <li key={a} className="flex items-center gap-2.5 font-sans text-[0.95rem] text-ink/80 dark:text-cream/80">
