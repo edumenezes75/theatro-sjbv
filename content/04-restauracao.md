@@ -43,7 +43,7 @@ Em janeiro de 1984, a Prefeitura comprou a primeira parte do imóvel. O palco e 
 
 A segunda negociação foi concluída em 1985. A compra integral permitiu pensar caixa cênica, camarins, bastidores e acessos de forma coerente.
 
-A aquisição em duas etapas não foi um acaso burocrático: comprar primeiro a frente e, depois, o palco e os fundos foi o que tornou possível pensar o teatro como um conjunto coerente — caixa cênica, camarins e bastidores à altura da sala. Por isso o terreno posterior era decisivo.
+A aquisição em duas etapas não foi um acaso burocrático: comprar primeiro a frente e, depois, o palco e os fundos foi o que tornou possível pensar o Theatro como um conjunto coerente — caixa cênica, camarins e bastidores à altura da sala. Por isso o terreno posterior era decisivo.
 
 ## A equipe e a aprendizagem
 

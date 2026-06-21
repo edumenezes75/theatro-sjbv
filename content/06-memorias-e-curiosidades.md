@@ -37,7 +37,7 @@ O mesmo espaço que recebia companhias dramáticas podia ser preparado para pati
 
 Mesas, decoração, música e dança ocupavam o lugar das cadeiras. As galerias permaneciam cheias, e a sala inteira funcionava como cenário social.
 
-As imagens dos bailes são especialmente úteis para uma experiência digital. Um recurso de ampliação pode convidar o público a observar roupas, músicos, decoração, iluminação e ocupação das galerias.
+As imagens dos bailes recompensam o olhar atento: roupas, músicos, decoração, iluminação e a ocupação das galerias contam, nos detalhes, como a cidade vivia o Theatro.
 
 ## O cinema tinha seu próprio ritual
 

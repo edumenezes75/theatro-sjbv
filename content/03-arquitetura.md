@@ -47,7 +47,7 @@ A notícia publicada por ocasião da pedra fundamental descreveu:
 | Proscênio | abertura anunciada de 11 m por 8 m |
 | Fosso | espaço para orquestra, com número divergente entre fontes |
 
-Esses dados mostram o projeto idealizado. A execução, a lotação autorizada e a configuração atual devem ser apresentadas em colunas separadas.
+Esses números mostram o projeto idealizado. A execução, a lotação autorizada e a configuração atual nem sempre coincidiram com ele — por isso são tratadas como pontos a confirmar, e não como medidas definitivas.
 
 ## A ferradura
 
