@@ -17,6 +17,8 @@ A imagem parece impossível: uma máquina pesada escavando onde antes havia plat
 
 Antes da máquina, porém, veio a mobilização. O restauro começou quando a cidade disse que o prédio não poderia desaparecer.
 
+> **Em um minuto:** no início dos anos 1980, o Theatro corria risco de demolição. A reação de artistas e moradores levou o município a comprar o imóvel em duas etapas — 1984 e 1985 —, e o tombamento estadual veio em 1987. A restauração avançou por fases, atravessando governos e gerações, até a reabertura em 2002.
+
 ## O risco de demolição
 
 No início dos anos 1980, o Theatro era propriedade particular e estava em decadência. Partes do palco haviam sido destruídas ou adaptadas; o interior perdera frisas e camarotes; instalações estavam deterioradas; rachaduras e infiltrações ameaçavam o uso.

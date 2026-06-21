@@ -95,6 +95,12 @@ O livro registra a abertura durante a 25ª Semana Guiomar Novaes, com referênci
 
 Cada página indica a data de sua última revisão. Quando uma nova fonte altera uma informação, o nosso compromisso é corrigir o texto, registrar o que mudou, citar a nova evidência e preservar versões anteriores quando tiverem interesse historiográfico.
 
+## Como contribuir
+
+O Theatro pertence à cidade, e sua memória também. Se você guarda fotografias antigas, programas, cartazes, ingressos, documentos, recortes de jornal ou lembranças ligadas ao Theatro — ou se reconhece alguém em uma imagem ainda sem identificação —, sua contribuição ajuda a corrigir, ampliar e enriquecer esta pesquisa.
+
+Fale com a organização do Theatro pelo WhatsApp **(19) 99719-5719** ou pelos canais da Prefeitura Municipal. Correções e novas evidências são sempre bem-vindas, e a procedência de cada contribuição é registrada.
+
 ## Referências digitais iniciais
 
 - Documentário: https://www.youtube.com/watch?v=e2stgoHtlAQ
@@ -103,7 +109,5 @@ Cada página indica a data de sua última revisão. Quando uma nova fonte altera
 - Revitalização de 2024: https://saojoao.sp.gov.br/noticias/obras-e-servicos-publicos/theatro-municipal-de-sao-joao-da-boa-vista-ganha-nova-vida-preservando-a-historia
 - Hemeroteca Digital: https://bndigital.bn.gov.br/hemeroteca-digital/
 - Arquivo Público do Estado: https://www.arquivoestado.sp.gov.br/
-
-A planilha de pesquisa entregue junto ao pacote reúne fontes, status, prioridade e próxima ação.
 
 <!-- Documento operacional: pesquisa/Base_Pesquisa_Theatro_Municipal_SJBV_v1.xlsx -->
