@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { getEventos } from '@/lib/content';
 import { getEventosPrefeitura } from '@/lib/agendaPrefeitura';
+import { getNoticiasTheatro } from '@/lib/noticiasTheatro';
 import ChapterHero from '@/components/ChapterHero';
 
 export const revalidate = 21600; // 6h — agenda se renova sozinha
@@ -44,6 +45,7 @@ const chave = (e: { title: string; date: string }) =>
 export default async function ProgramacaoPage() {
   const manuais = getEventos().filter((e) => !e.exemplo);
   const oficiais = await getEventosPrefeitura();
+  const noticias = await getNoticiasTheatro();
   // Eventos cadastrados à mão (CMS) têm prioridade; os da Prefeitura entram se não duplicarem
   const vistos = new Set(manuais.map(chave));
   const reais = [...manuais, ...oficiais.filter((e) => (vistos.has(chave(e)) ? false : (vistos.add(chave(e)), true)))];
@@ -79,6 +81,28 @@ export default async function ProgramacaoPage() {
         <div className="mt-4">
           {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="max-w-reading py-6 font-sans text-ink/70 dark:text-cream/70">O Theatro segue ativo. Quando há eventos com data confirmada, eles aparecem aqui automaticamente. Para a agenda mais recente, consulte os canais oficiais abaixo.</p>}
         </div>
+
+        {noticias.length > 0 && (
+          <section className="mt-14">
+            <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">O Theatro na imprensa</h2>
+            <p className="mt-2 max-w-reading font-sans text-sm text-ink/65 dark:text-cream/65">Notícias recentes da Prefeitura que mencionam o Theatro — atualizadas automaticamente.</p>
+            <div className="mt-5 grid gap-4 sm:grid-cols-2">
+              {noticias.map((n) => (
+                <a key={n.link} href={n.link} target="_blank" rel="noopener" className="card-lift flex flex-col overflow-hidden rounded-sm border border-ink/10 hover:border-gold/50 dark:border-cream/10">
+                  {n.img && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={n.img} alt="" loading="lazy" className="aspect-video w-full object-cover" />
+                  )}
+                  <div className="flex flex-1 flex-col p-4">
+                    {n.date && <p className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{new Date(n.date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}</p>}
+                    <p className="mt-1 font-display text-lg leading-tight">{n.title}</p>
+                    <span className="mt-2 font-sans text-xs text-ink/55 dark:text-cream/55">Ler na Prefeitura →</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
 
         <section className="mt-14">
           <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Canais oficiais</h2>
