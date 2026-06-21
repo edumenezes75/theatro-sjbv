@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { getPageBySlug } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
-import SeloEvidencia from '@/components/SeloEvidencia';
 import LiteYouTube from '@/components/LiteYouTube';
 
 export const metadata: Metadata = {
@@ -49,20 +48,15 @@ export default function DocumentarioPage() {
         </section>
 
         <section className="mt-16 rounded-sm border border-ink/10 p-7 dark:bg-night/40">
-          <div className="flex items-center gap-3">
-            <h2 className="font-display text-3xl">Transcrição pesquisável</h2>
-            <SeloEvidencia status="em pesquisa" label="Em breve" />
-          </div>
+          <h2 className="font-display text-3xl">Transcrição em preparação</h2>
           <p className="mt-3 max-w-reading font-sans text-[0.97rem] leading-relaxed text-ink/80 dark:text-cream/80">
-            Em breve, esta página trará uma transcrição navegável do filme, com busca por palavra e ligação direta ao momento correspondente — conectando cada depoimento à linha do tempo e às páginas temáticas.
-          </p>
-          <p className="mt-4 border-l-2 border-curtain pl-4 font-display text-lg font-medium italic dark:border-gold">
-            00:37:12 — Trecho de depoimento… <Link href="/pessoas" className="text-sm not-italic text-curtain dark:text-gold">[Ver pessoa]</Link>
+            A transcrição integral do documentário será incorporada ao site para permitir busca por nomes, temas, lugares e depoimentos, com ligação direta ao momento correspondente no filme e às páginas temáticas. Até lá, esta página apresenta a estrutura narrativa do filme e sua relação com a pesquisa histórica do Theatro.
           </p>
         </section>
 
         <section className="mt-16">
           <h2 className="font-display text-3xl">Acessibilidade</h2>
+          <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">Alguns recursos já estão disponíveis no player do YouTube; outros estão em preparação, junto com a transcrição.</p>
           <ul className="mt-5 grid gap-2 sm:grid-cols-2">
             {ACESS.map((a) => (
               <li key={a} className="flex items-center gap-2.5 font-sans text-[0.95rem] text-ink/80 dark:text-cream/80">
