@@ -4,7 +4,6 @@ import { getPageBySlug } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
 import TimelineExplorer from '@/components/TimelineExplorer';
-import NoPalco from '@/components/NoPalco';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/linha-do-tempo' },
@@ -17,11 +16,8 @@ export default function LinhaDoTempoPage() {
   return (
     <article>
       <ChapterHero eyebrow="Da pedra fundamental ao patrimônio vivo" title="Linha do tempo" />
-      <div className="mx-auto max-w-6xl px-5 pt-14">
-        <NoPalco />
-      </div>
       <div className="mx-auto max-w-3xl px-5 pb-14">
-        <div className="mt-16 border-t border-gold/25 pt-12">
+        <div className="pt-2">
           <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Ano a ano</p>
           <h2 className="mt-2 font-display text-3xl leading-tight">A história completa, com fontes</h2>
           <p className="mt-3 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
