@@ -15,8 +15,8 @@ export type Curiosidade = { id: string; title: string; text: string; type: strin
 export type Imagem = { file: string; alt: string; source: string; page: number; rights_note: string };
 
 export const eventos = linhaDoTempo as Evento[];
-export const pessoasList = pessoas as Pessoa[];
-export const curiosidadesList = curiosidades as Curiosidade[];
+export const pessoasList = (pessoas as { items: Pessoa[] }).items;
+export const curiosidadesList = (curiosidades as { items: Curiosidade[] }).items;
 export const imagensList = imagens as Imagem[];
 
 import fotos from '@/data/fotos.json';
@@ -30,4 +30,4 @@ export const antesDepoisList = antesDepois as ParAntesDepois[];
 
 import vozes from '@/data/vozes.json';
 export type Voz = { quote: string; author: string; role: string; source: string };
-export const vozesList = vozes as Voz[];
+export const vozesList = (vozes as { items: Voz[] }).items;

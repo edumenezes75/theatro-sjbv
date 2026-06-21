@@ -28,3 +28,63 @@ collections:
       - { label: "Status", name: "status", widget: "select", options: ["agendado", "realizado"], default: "agendado" }
       - { label: "Destaque na home", name: "destaque", widget: "boolean", default: false, required: false }
       - { label: "Descrição", name: "body", widget: "markdown", required: false }
+
+  - name: pessoas
+    label: "Pessoas"
+    description: "Personagens da história do Theatro."
+    files:
+      - name: pessoas
+        label: "Lista de pessoas"
+        file: "data/pessoas.json"
+        fields:
+          - label: "Pessoas"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", hint: "ex.: p023 (único)" }
+              - { label: "Nome", name: "name", widget: "string" }
+              - { label: "Categoria", name: "category", widget: "string", hint: "fundação, música, restauro, pesquisa, etc." }
+              - { label: "Papel", name: "role", widget: "string" }
+              - { label: "Resumo", name: "summary", widget: "text" }
+              - { label: "Biografia", name: "bio", widget: "markdown", required: false }
+              - { label: "Relacionados (IDs)", name: "related", widget: "list", required: false }
+              - { label: "Selo", name: "status", widget: "select", options: ["documentado","corroborado","memória","em pesquisa"], default: "documentado" }
+              - { label: "Fonte", name: "source", widget: "string", required: false }
+
+  - name: vozes
+    label: "Vozes do Theatro"
+    description: "Citações de quem viveu o Theatro."
+    files:
+      - name: vozes
+        label: "Lista de vozes"
+        file: "data/vozes.json"
+        fields:
+          - label: "Vozes"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.author}}"
+            fields:
+              - { label: "Citação", name: "quote", widget: "text" }
+              - { label: "Autor", name: "author", widget: "string" }
+              - { label: "Papel", name: "role", widget: "string", required: false }
+              - { label: "Fonte", name: "source", widget: "string", required: false }
+
+  - name: curiosidades
+    label: "Memórias e curiosidades"
+    description: "Episódios e curiosidades ('Você sabia?')."
+    files:
+      - name: curiosidades
+        label: "Lista de curiosidades"
+        file: "data/curiosidades.json"
+        fields:
+          - label: "Curiosidades"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "ID", name: "id", widget: "string", hint: "ex.: c015 (único)" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Texto", name: "text", widget: "text" }
+              - { label: "Tipo/Selo", name: "type", widget: "string", required: false }
+              - { label: "Fonte", name: "source", widget: "string", required: false }
