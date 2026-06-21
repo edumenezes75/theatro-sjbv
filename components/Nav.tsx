@@ -12,15 +12,15 @@ const PRIMARY = [
   { href: '/restauracao', label: 'Restauro' },
   { href: '/pessoas', label: 'Pessoas' },
   { href: '/acervo', label: 'Acervo' },
-  { href: '/documentario', label: 'Documentário' },
-  { href: '/programacao', label: 'Programação' },
   { href: '/visite', label: 'Visite' },
 ];
 const MORE = [
+  { href: '/documentario', label: 'Documentário' },
+  { href: '/programacao', label: 'Programação' },
   { href: '/visita-guiada', label: 'Visita guiada' },
-  { href: '/o-theatro', label: 'O Theatro' },
-  { href: '/memorias', label: 'Memórias e curiosidades' },
   { href: '/linha-do-tempo', label: 'Linha do tempo' },
+  { href: '/memorias', label: 'Memórias e curiosidades' },
+  { href: '/o-theatro', label: 'O Theatro' },
   { href: '/fontes', label: 'Pesquisa e fontes' },
 ];
 
