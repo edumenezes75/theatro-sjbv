@@ -41,7 +41,7 @@ Em janeiro de 1984, a Prefeitura comprou a primeira parte do imóvel. O palco e 
 
 A segunda negociação foi concluída em 1985. A compra integral permitiu pensar caixa cênica, camarins, bastidores e acessos de forma coerente.
 
-Esse processo deve ser mostrado no site com um mapa simples das duas parcelas. A visualização ajuda o leitor a entender por que a aquisição não foi um ato único e por que o terreno posterior era decisivo.
+A aquisição em duas etapas não foi um acaso burocrático: comprar primeiro a frente e, depois, o palco e os fundos foi o que tornou possível pensar o teatro como um conjunto coerente — caixa cênica, camarins e bastidores à altura da sala. Por isso o terreno posterior era decisivo.
 
 ## A equipe e a aprendizagem
 
@@ -65,7 +65,7 @@ O tombamento não financiou sozinho a obra nem resolveu todos os problemas. Sua 
 - Resolução de tombamento: **SC nº 03, de 19 de janeiro de 1987**
 - Livro do Tombo Histórico: inscrição associada ao bem
 
-O processo completo deve ser digitalizado, indexado e disponibilizado no acervo do site, com uma introdução em linguagem simples.
+Esses documentos — o processo, a resolução de tombamento e a inscrição no Livro do Tombo — formam a base legal da preservação: foi o tombamento estadual que protegeu o edifício de novas descaracterizações e abriu caminho para o restauro.
 
 ## A obra estrutural
 

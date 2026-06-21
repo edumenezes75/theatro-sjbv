@@ -45,7 +45,7 @@ export default function ProgramacaoPage() {
       <ChapterHero eyebrow="Agenda de espetáculos, concertos e eventos" title="Programação" />
       <div className="mx-auto max-w-4xl px-5 py-14">
         <p className="mb-10 max-w-reading font-sans text-lg leading-relaxed text-ink/85 dark:text-cream/85">
-          O Theatro continua vivo. Veja o que está por vir e o que já passou pelo palco. Horários de bilheteria e regras de entrada variam — confirme com a organização antes de ir.
+          O Theatro continua vivo. Veja o que está por vir e o que já passou pelo palco. A programação está sujeita a alteração — confirme sempre datas, horários e ingressos pelos canais oficiais do Theatro e da Prefeitura antes de ir.
         </p>
 
         <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Próximos eventos</h2>

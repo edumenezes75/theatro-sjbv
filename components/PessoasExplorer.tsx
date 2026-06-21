@@ -39,9 +39,9 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
             {p.related?.length > 0 && (
               <div className="mt-4 border-t border-gold/20 pt-3">
                 <span className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">Relacionados</span>
-                <div className="mt-1.5 flex flex-wrap gap-1.5">
+                <div className="mt-2 flex flex-wrap gap-2">
                   {p.related.map((rid) => byId[rid] && (
-                    <a key={rid} href={`#${rid}`} className="rounded-full border border-curtain/30 px-2.5 py-0.5 font-sans text-xs text-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold">
+                    <a key={rid} href={`#${rid}`} className="rounded-full border border-curtain/30 bg-curtain/5 px-3 py-1 font-sans text-xs text-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:bg-gold/5 dark:text-gold">
                       {byId[rid].name}
                     </a>
                   ))}
@@ -71,9 +71,9 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
             {open.related?.length > 0 && (
               <div className="mt-4">
                 <span className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">Relacionados</span>
-                <div className="mt-2 flex flex-wrap gap-1.5">
+                <div className="mt-2 flex flex-wrap gap-2">
                   {open.related.map((rid) => byId[rid] && (
-                    <button key={rid} onClick={() => setOpen(byId[rid])} className="rounded-full border border-curtain/30 px-2.5 py-0.5 font-sans text-xs text-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold">
+                    <button key={rid} onClick={() => setOpen(byId[rid])} className="rounded-full border border-curtain/30 bg-curtain/5 px-3 py-1 font-sans text-xs text-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:bg-gold/5 dark:text-gold">
                       {byId[rid].name}
                     </button>
                   ))}
