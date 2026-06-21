@@ -4,6 +4,7 @@ import ChapterHero from '@/components/ChapterHero';
 import Reveal from '@/components/Reveal';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/visita-guiada' },
   title: 'Visita guiada',
   description: 'Caminhos para conhecer o Theatro Municipal de São João da Boa Vista conforme o seu tempo e o seu interesse — em 3 minutos, em 10 minutos, pelo edifício, pela preservação, pela pesquisa ou para visitar.',
 };

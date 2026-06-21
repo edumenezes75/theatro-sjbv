@@ -34,7 +34,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const page = getPageBySlug('/' + params.slug);
   if (!page) return {};
-  return { title: page.meta.title, description: page.meta.seo_description };
+  return { title: page.meta.title, description: page.meta.seo_description, alternates: { canonical: '/' + params.slug } };
 }
 
 const GALLERIES: Record<string, { title: string; cats: string[] }> = {

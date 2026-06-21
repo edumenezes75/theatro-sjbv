@@ -6,6 +6,7 @@ import FontesDaPagina from '@/components/FontesDaPagina';
 import LiteYouTube from '@/components/LiteYouTube';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/documentario' },
   title: 'Documentário Música & Drama',
   description: 'Assista ao documentário Música & Drama e explore personagens, imagens e episódios da história do Theatro Municipal de São João da Boa Vista.',
 };

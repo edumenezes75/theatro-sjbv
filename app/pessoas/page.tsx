@@ -6,6 +6,7 @@ import FontesDaPagina from '@/components/FontesDaPagina';
 import PessoasExplorer from '@/components/PessoasExplorer';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/pessoas' },
   title: 'Pessoas',
   description: 'Fundadores, artistas, professores, restauradores e moradores que deram vida ao Theatro Municipal de São João da Boa Vista.',
 };

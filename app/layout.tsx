@@ -17,15 +17,46 @@ export const metadata: Metadata = {
   description: 'Conheça a história do Theatro Municipal de São João da Boa Vista, inaugurado em 1914, preservado pela mobilização da cidade e ainda vivo como palco de arte e cultura.',
   openGraph: { type: 'website', locale: 'pt_BR', siteName: 'Theatro Municipal de São João da Boa Vista', images: [{ url: '/og-theatro.jpg', width: 1200, height: 630, alt: 'Fachada histórica do Theatro Municipal de São João da Boa Vista' }] },
   twitter: { card: 'summary_large_image', images: ['/og-theatro.jpg'] },
+  alternates: { canonical: '/' },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large' } },
 };
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'PerformingArtsTheater',
-  name: 'Theatro Municipal de São João da Boa Vista',
-  foundingDate: '1914-10-31',
-  address: { '@type': 'PostalAddress', streetAddress: 'Praça da Catedral, 22 — Centro', addressLocality: 'São João da Boa Vista', addressRegion: 'SP', addressCountry: 'BR' },
-  url: SITE,
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': SITE + '/#website',
+      name: 'Theatro Municipal de São João da Boa Vista',
+      url: SITE,
+      inLanguage: 'pt-BR',
+      publisher: { '@id': SITE + '/#theatro' },
+    },
+    {
+      '@type': ['PerformingArtsTheater', 'TouristAttraction', 'LandmarksOrHistoricalBuildings'],
+      '@id': SITE + '/#theatro',
+      name: 'Theatro Municipal de São João da Boa Vista',
+      alternateName: 'Theatro Municipal',
+      url: SITE,
+      image: SITE + '/og-theatro.jpg',
+      logo: SITE + '/icon.svg',
+      description: 'Casa de espetáculos histórica inaugurada em 1914, em São João da Boa Vista (SP). Sala em ferradura de tradição italiana, preservada pela mobilização popular, tombada e restaurada — palco de música, teatro, dança e cinema.',
+      foundingDate: '1914-10-31',
+      telephone: '+55-19-3636-4872',
+      address: { '@type': 'PostalAddress', streetAddress: 'Praça da Catedral, 22 — Centro', addressLocality: 'São João da Boa Vista', addressRegion: 'SP', addressCountry: 'BR' },
+      geo: { '@type': 'GeoCoordinates', latitude: -21.9693, longitude: -46.7976 },
+      hasMap: 'https://www.google.com/maps/search/?api=1&query=Theatro%20Municipal%20de%20S%C3%A3o%20Jo%C3%A3o%20da%20Boa%20Vista',
+      openingHoursSpecification: [
+        { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '07:00', closes: '11:00' },
+        { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '13:00', closes: '17:00' },
+      ],
+      sameAs: [
+        'https://www.saojoao.sp.gov.br/equipamentos-culturais/theatro-municipal',
+        'https://pt.wikipedia.org/wiki/Teatro_Municipal_de_S%C3%A3o_Jo%C3%A3o_da_Boa_Vista',
+        'https://www.youtube.com/watch?v=e2stgoHtlAQ',
+      ],
+    },
+  ],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

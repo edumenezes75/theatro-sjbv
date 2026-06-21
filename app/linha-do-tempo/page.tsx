@@ -7,6 +7,7 @@ import TimelineExplorer from '@/components/TimelineExplorer';
 import NoPalco from '@/components/NoPalco';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/linha-do-tempo' },
   title: 'Linha do tempo',
   description: 'Mais de um século da história do Theatro Municipal de São João da Boa Vista, da ideia de 1911 ao patrimônio vivo de hoje.',
 };

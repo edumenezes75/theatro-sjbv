@@ -6,6 +6,7 @@ import FontesDaPagina from '@/components/FontesDaPagina';
 import GaleriaReal from '@/components/GaleriaReal';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/acervo' },
   title: 'Acervo',
   description: 'Fotografias do Theatro Municipal de São João da Boa Vista — fachada, sala em ferradura, ornamentos, restauro e imagens históricas, com procedência.',
 };
@@ -14,8 +15,20 @@ export default function AcervoPage() {
   const page = getPageBySlug('/acervo');
   const destaqueIds = ['h048', 'h055', 'h036', 'h016', 'h011', 'h009', 'h023', 'h026', 'h081', 'h008'];
   const destaque = destaqueIds.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList;
+  const SITE = 'https://www.theatromunicipalsjbv.com.br';
+  const ldGallery = {
+    '@context': 'https://schema.org',
+    '@type': 'ImageGallery',
+    name: 'Acervo de imagens do Theatro Municipal de São João da Boa Vista',
+    description: 'Fotografias da fachada, da sala em ferradura, dos ornamentos, do palco, do restauro e da vida cultural do Theatro Municipal.',
+    url: SITE + '/acervo',
+    inLanguage: 'pt-BR',
+    isPartOf: { '@type': 'WebSite', '@id': SITE + '/#website' },
+    image: destaque.map((f) => ({ '@type': 'ImageObject', contentUrl: `${SITE}/${f.file}`, caption: f.alt, creditText: f.credit })),
+  };
   return (
     <article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ldGallery) }} />
       <ChapterHero
         eyebrow="Fachada, sala, ornamentos, restauro e história"
         title="Acervo"
