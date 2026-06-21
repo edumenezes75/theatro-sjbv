@@ -56,7 +56,7 @@ export default function Home() {
               Um palco construído<br /><em className="line-2 font-normal italic text-gold">pela cidade</em>
             </h1>
             <div className="mt-10 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
-              <p className="max-w-md font-sans text-lg leading-relaxed text-cream/85">
+              <p className="max-w-md font-read text-lg leading-relaxed text-cream/85">
                 Em 1914, São João da Boa Vista não inaugurou apenas um edifício. Inaugurou uma ambição: colocar a arte no centro da vida da cidade.
               </p>
               <div className="flex flex-wrap gap-3">
@@ -113,7 +113,7 @@ export default function Home() {
             <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">Teatro, cinema, baile, rádio, escola e ponto de encontro</h2>
           </Reveal>
           <Reveal delay={120}>
-            <div className="max-w-reading space-y-4 font-sans text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
+            <div className="max-w-reading space-y-4 font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
               <p>O Theatro nasceu para receber companhias dramáticas, música e grandes espetáculos. Logo passou a servir a quase tudo o que mobilizava a cidade: festivais beneficentes, formaturas, comícios, bailes, festas juninas, sessões de cinema, aulas e programas de rádio.</p>
               <p>Para algumas gerações, foi sobretudo teatro. Para outras, o Cine Theatro, com matinês e bomboniere. Para quem viveu o abandono, uma presença ameaçada. Para quem restaurou, a prova de que uma comunidade pode salvar aquilo que reconhece como seu.</p>
             </div>
@@ -174,7 +174,7 @@ export default function Home() {
             <Link href="/pessoas" className="mt-7 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Conhecer as pessoas do Theatro →</Link>
           </Reveal>
           <Reveal delay={120}>
-            <div className="max-w-reading space-y-4 font-sans text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
+            <div className="max-w-reading space-y-4 font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
               <p>A história do Theatro não pertence somente aos nomes famosos que passaram pelo palco. Por isso, este site não organiza o passado apenas por datas: permite seguir pessoas, objetos, ambientes e lembranças.</p>
               <p>Uma fotografia de baile conduz à sala em ferradura. Um cartaz leva ao elenco de uma peça. Um depoimento sobre cinema se liga ao antigo bar, à bilheteria e às sessões de domingo.</p>
             </div>
@@ -234,7 +234,7 @@ export default function Home() {
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-[#D8C089]">Documentário</p>
             <h2 className="mx-auto mt-4 max-w-3xl font-display text-3xl leading-tight sm:text-5xl">Música &amp; Drama</h2>
-            <p className="mx-auto mt-6 max-w-xl font-sans text-lg italic leading-relaxed text-cream/85">
+            <p className="mx-auto mt-6 max-w-xl font-read text-lg italic leading-relaxed text-cream/85">
               “Antes de ser um filme sobre um prédio, Música &amp; Drama é um filme sobre as pessoas que deram voz, corpo e futuro a esse palco.”
             </p>
             <Link href="/documentario" className="mt-9 inline-block rounded-full bg-gold px-7 py-3 font-sans text-sm font-medium text-ink transition-transform hover:scale-[1.03]">Assistir e explorar o documentário</Link>
