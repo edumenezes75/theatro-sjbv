@@ -25,6 +25,9 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
   }, [fotos]);
   const list = useMemo(() => fotos.filter((f) => (cat === 'todas' || f.category === cat) && (ep === 'todas' || f.epoca === ep)), [cat, ep, fotos]);
   const [idx, setIdx] = useState<number | null>(null);
+  const STEP = 24;
+  const [limit, setLimit] = useState(STEP);
+  useEffect(() => { setLimit(STEP); }, [cat, ep]);
 
   const close = useCallback(() => setIdx(null), []);
   const prev = useCallback(() => setIdx((i) => (i === null ? i : (i - 1 + list.length) % list.length)), [list.length]);
@@ -63,7 +66,7 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
       )}
 
       <div className="columns-2 gap-3 sm:gap-4 md:columns-3 lg:columns-4 [&>*]:mb-3 sm:[&>*]:mb-4">
-        {list.map((f, i) => (
+        {list.slice(0, limit).map((f, i) => (
           <button key={f.id} onClick={() => setIdx(i)} className="group relative block w-full overflow-hidden rounded-sm bg-ink/5">
             <Image src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h} className="h-auto w-full object-cover transition-transform duration-[1.2s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.05]" sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw" />
             <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent p-2 pt-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -72,6 +75,14 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
           </button>
         ))}
       </div>
+
+      {list.length > limit && (
+        <div className="mt-8 flex justify-center">
+          <button onClick={() => setLimit((n) => n + STEP)} className="rounded-full border border-curtain/40 px-6 py-2.5 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">
+            Ver mais imagens <span className="tabular-nums opacity-60">({list.length - limit})</span>
+          </button>
+        </div>
+      )}
 
       {open && (
         <div className="fixed inset-0 z-[120] flex flex-col bg-night/96 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={open.alt}>
