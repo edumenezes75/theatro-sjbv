@@ -52,8 +52,24 @@ export default async function ProgramacaoPage() {
   const futuros = reais.filter((e) => e.date >= now || e.status === 'agendado').sort((a, b) => (a.date > b.date ? 1 : -1));
   const passados = reais.filter((e) => !(e.date >= now || e.status === 'agendado')).sort((a, b) => (a.date > b.date ? -1 : 1));
 
+  const SITE = 'https://www.theatromunicipalsjbv.com.br';
+  const ldEventos = futuros.length ? {
+    '@context': 'https://schema.org',
+    '@graph': futuros.map((e) => ({
+      '@type': 'Event',
+      name: e.title,
+      startDate: e.date,
+      eventStatus: 'https://schema.org/EventScheduled',
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      location: { '@type': 'Place', name: 'Theatro Municipal de São João da Boa Vista', address: { '@type': 'PostalAddress', streetAddress: 'Praça da Catedral, 22 — Centro', addressLocality: 'São João da Boa Vista', addressRegion: 'SP', addressCountry: 'BR' } },
+      ...(e.categoria ? { description: e.categoria } : {}),
+      organizer: { '@type': 'Organization', name: 'Theatro Municipal de São João da Boa Vista', url: SITE },
+    })),
+  } : null;
+
   return (
     <article>
+      {ldEventos && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ldEventos) }} />}
       <ChapterHero eyebrow="Agenda de espetáculos, concertos e eventos" title="Programação" />
       <div className="mx-auto max-w-4xl px-5 py-14">
         <p className="mb-10 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
@@ -62,8 +78,30 @@ export default async function ProgramacaoPage() {
 
         <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Próximos eventos</h2>
         <div className="mt-4">
-          {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="max-w-reading py-6 font-sans text-ink/70 dark:text-cream/70">A próxima agenda ainda não foi publicada aqui. Para saber o que está por vir, fale com a organização do Theatro pelo WhatsApp abaixo ou acompanhe os canais oficiais da Prefeitura.</p>}
+          {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="max-w-reading py-6 font-sans text-ink/70 dark:text-cream/70">O Theatro segue ativo. Quando há eventos com data confirmada, eles aparecem aqui automaticamente. Para a agenda mais recente, consulte os canais oficiais abaixo.</p>}
         </div>
+        <section className="mt-12">
+          <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Canais oficiais</h2>
+          <p className="mt-2 max-w-reading font-sans text-sm text-ink/65 dark:text-cream/65">Onde encontrar a programação atualizada e falar com a organização do Theatro.</p>
+          <div className="mt-5 grid gap-4 sm:grid-cols-3">
+            <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
+              <p className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Prefeitura</p>
+              <p className="mt-2 font-display text-lg leading-tight">Agenda cultural oficial</p>
+              <p className="mt-1 font-sans text-sm text-ink/60 dark:text-cream/60">Programação de eventos do município →</p>
+            </a>
+            <a href="https://www.instagram.com/prefeitura.saojoao" target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
+              <p className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Instagram</p>
+              <p className="mt-2 font-display text-lg leading-tight">@prefeitura.saojoao</p>
+              <p className="mt-1 font-sans text-sm text-ink/60 dark:text-cream/60">Divulgações e estreias do dia a dia →</p>
+            </a>
+            <a href="https://wa.me/5519997195719?text=Ol%C3%A1!%20Gostaria%20de%20saber%20a%20programa%C3%A7%C3%A3o%20do%20Theatro%20Municipal." target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
+              <p className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">WhatsApp</p>
+              <p className="mt-2 font-display text-lg leading-tight">Falar com o Theatro</p>
+              <p className="mt-1 font-sans text-sm text-ink/60 dark:text-cream/60">Informações, agendamentos e visitas →</p>
+            </a>
+          </div>
+        </section>
+
         {temOficiais && (
           <p className="mt-4 font-sans text-xs text-ink/50 dark:text-cream/50">
             Agenda atualizada automaticamente a partir da{' '}

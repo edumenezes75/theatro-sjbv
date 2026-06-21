@@ -143,7 +143,7 @@ export default function Home() {
           <Reveal>
             <Mark className="text-gold" size={40} />
             <blockquote className="mt-8 max-w-4xl font-display text-3xl italic leading-[1.12] sm:text-5xl md:text-[3.6rem]">
-              Um edifício construído pela cidade, transformado por seus usos, salvo pela mobilização popular e mantido vivo pela cultura.
+              A cidade ergueu este Theatro, reinventou seus usos a cada geração e, diante da ameaça de demolição, recusou-se a perdê-lo. Hoje, é a arte que o mantém de pé.
             </blockquote>
           </Reveal>
         </div>
