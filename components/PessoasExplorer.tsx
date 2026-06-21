@@ -2,6 +2,8 @@
 import { useMemo, useState } from 'react';
 import type { Pessoa } from '@/lib/data';
 import SeloEvidencia from './SeloEvidencia';
+
+const slugify = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 import { IconClose } from './Icons';
 
 const GROUPS: { title: string; sub: string; cats: string[] }[] = [
@@ -58,7 +60,7 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
   return (
     <div>
       {grouped.map((g) => (
-        <section key={g.title} className="mt-14 first:mt-0">
+        <section key={g.title} id={slugify(g.title)} className="mt-14 scroll-mt-24 first:mt-0">
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
             <h2 className="font-display text-2xl leading-tight sm:text-3xl">{g.title}</h2>
@@ -82,7 +84,7 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
             <p className="mt-1 font-sans text-sm font-medium text-ink/65 dark:text-cream/65">{open.role}</p>
             <div className="prose-theatro mt-5 max-w-none">
               {open.bio!.split('\n\n').map((para, i) => (
-                <p key={i} className="font-sans text-[1.02rem] leading-relaxed text-ink/85 dark:text-cream/85">{para}</p>
+                <p key={i} className="font-read text-[1.02rem] leading-relaxed text-ink/85 dark:text-cream/85">{para}</p>
               ))}
             </div>
             {open.source && <p className="mt-5 border-t border-gold/25 pt-3 font-sans text-xs italic text-ink/70 dark:text-cream/70">Fonte: {open.source}</p>}

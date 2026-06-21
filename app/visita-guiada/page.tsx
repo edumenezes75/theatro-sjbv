@@ -53,7 +53,7 @@ export default function VisitaGuiadaPage() {
         alt="A sala em ferradura do Theatro Municipal de São João da Boa Vista."
       />
       <div className="mx-auto max-w-6xl px-5 py-14">
-        <p className="mb-12 max-w-reading font-sans text-lg leading-relaxed text-ink/85 dark:text-cream/85">
+        <p className="mb-12 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
           Não há uma ordem certa para conhecer o Theatro. Escolha um caminho conforme o seu tempo e o seu interesse — e siga os links na sequência sugerida.
         </p>
         <div className="grid gap-5 sm:grid-cols-2">

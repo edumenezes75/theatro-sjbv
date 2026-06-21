@@ -36,7 +36,7 @@ export default function AcervoPage() {
         alt="Fachada do Theatro Municipal de São João da Boa Vista."
       />
       <div className="mx-auto max-w-6xl px-5 py-14">
-        <p className="mb-3 max-w-reading font-sans text-lg leading-relaxed text-ink/85 dark:text-cream/85">
+        <p className="mb-3 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
           O acervo reúne imagens do edifício, da sala, dos ornamentos, do palco, do período do cinema, da ameaça de demolição, do restauro e da vida cultural que mantém o Theatro em uso. Mais do que ilustrar a história, essas imagens ajudam a ver como a cidade se reconheceu nesse edifício.
         </p>
         <p className="mb-10 max-w-reading font-sans text-sm italic text-ink/70 dark:text-cream/70">

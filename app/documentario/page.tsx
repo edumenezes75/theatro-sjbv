@@ -76,7 +76,7 @@ export default function DocumentarioPage() {
       <ChapterHero eyebrow="A história do Theatro em filme" title="Música & Drama" status="texto público com produção pendente" />
       <div className="mx-auto max-w-4xl px-5 py-10">
         <LiteYouTube id="e2stgoHtlAQ" title="Música & Drama — A História do Theatro Municipal de São João da Boa Vista" />
-        <p className="mt-4 max-w-reading font-sans text-lg leading-relaxed text-ink/85 dark:text-cream/85">
+        <p className="mt-4 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
           Dirigido por Eduardo Menezes, o filme reúne imagens, documentos e depoimentos sobre a trajetória do edifício, ampliando a pesquisa do livro do centenário e preservando vozes que não cabem em uma cronologia escrita.
         </p>
         <a href="https://www.youtube.com/watch?v=e2stgoHtlAQ" target="_blank" rel="noopener" className="mt-3 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Abrir no YouTube ↗</a>
