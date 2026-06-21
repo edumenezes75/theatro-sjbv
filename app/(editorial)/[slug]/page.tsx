@@ -10,6 +10,23 @@ import AntesDepois from '@/components/AntesDepois';
 import Curiosidades from '@/components/Curiosidades';
 import Reveal from '@/components/Reveal';
 
+const LABELS: Record<string, string> = {
+  '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
+  '/restauracao': 'Restauração', '/pessoas': 'Pessoas', '/acervo': 'Acervo',
+  '/documentario': 'Documentário', '/programacao': 'Programação', '/linha-do-tempo': 'Linha do tempo',
+  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades',
+};
+const RELATED: Record<string, string[]> = {
+  'o-theatro': ['/historia', '/arquitetura', '/acervo'],
+  historia: ['/restauracao', '/arquitetura', '/linha-do-tempo', '/fontes'],
+  arquitetura: ['/acervo', '/restauracao', '/historia'],
+  restauracao: ['/pessoas', '/acervo', '/documentario', '/fontes'],
+  memorias: ['/historia', '/pessoas', '/acervo'],
+  visite: ['/programacao', '/acervo', '/historia'],
+  fontes: ['/acervo', '/pessoas', '/documentario'],
+};
+
+
 export function generateStaticParams() {
   return getEditorialSlugs().map((slug) => ({ slug }));
 }
@@ -99,6 +116,19 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           <section className="mt-16 border-t border-gold/25 pt-12">
             <h2 className="mb-8 font-display text-3xl">Você sabia?</h2>
             <Curiosidades itens={curiosidadesList} />
+          </section>
+        )}
+
+        {RELATED[params.slug] && (
+          <section className="mt-16 border-t border-gold/25 pt-10">
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Continue explorando</p>
+            <div className="mt-4 flex flex-wrap gap-3">
+              {RELATED[params.slug].map((href) => (
+                <a key={href} href={href} className="card-lift rounded-sm border border-ink/12 px-5 py-3 font-sans text-sm text-ink/80 hover:border-gold/50 hover:text-curtain dark:border-cream/12 dark:text-cream/80 dark:hover:text-gold">
+                  {LABELS[href] ?? href} →
+                </a>
+              ))}
+            </div>
           </section>
         )}
 
