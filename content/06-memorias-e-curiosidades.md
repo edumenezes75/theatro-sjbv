@@ -13,7 +13,7 @@ status: "texto público"
 
 A história oficial costuma registrar datas, leis e grandes nomes. A memória guarda outras coisas: o barulho dos pés no assoalho, o doce comprado antes da sessão, a escada para a galeria, o cheiro do foyer, o medo diante de um filme de piratas, a primeira vez no palco.
 
-Esta página reúne episódios documentados e lembranças pessoais. Cada história recebe um selo para indicar sua natureza.
+Esta página reúne episódios apoiados em documentos e lembranças pessoais. Quando uma história nasce sobretudo de memória ou crônica, um selo indica sua natureza.
 
 ## O Theatro quase virou cassino
 

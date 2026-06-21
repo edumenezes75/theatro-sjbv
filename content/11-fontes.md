@@ -63,7 +63,6 @@ Artigos derivados aprofundam construção, imprensa, memória, uso e participaç
 
 | Selo | Significado |
 |---|---|
-| **Documentado** | Sustentado por fonte primária ou convergência forte. |
 | **Corroborado** | Presente em mais de uma fonte consistente, mas sem documento central digitalizado. |
 | **Memória** | Relato pessoal, crônica ou tradição oral identificada. |
 | **Em pesquisa** | Há versões diferentes ou falta documentação conclusiva. |
