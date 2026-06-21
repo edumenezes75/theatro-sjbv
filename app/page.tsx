@@ -227,17 +227,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* DOCUMENTARIO CTA */}
-      <section className="relative overflow-hidden bg-curtaindark text-cream">
-        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'repeating-linear-gradient(90deg,#6E1F17,#6E1F17 18px,#5A1812 18px,#5A1812 36px)' }} />
-        <div className="relative mx-auto max-w-6xl px-5 py-24 text-center">
+      {/* DOCUMENTARIO CTA — cinematográfico */}
+      <section className="relative overflow-hidden text-cream">
+        <Image src="/fotos/hr-sala-36.jpg" alt="" aria-hidden fill sizes="100vw" className="object-cover object-center" />
+        <div className="absolute inset-0 bg-gradient-to-t from-night via-night/85 to-night/65" />
+        <div className="absolute inset-0 bg-curtaindark/35 mix-blend-multiply" aria-hidden />
+        <div className="absolute inset-0 grain opacity-50" aria-hidden />
+        <div className="relative mx-auto max-w-4xl px-5 py-28 text-center sm:py-32">
           <Reveal>
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-[#D8C089]">Documentário</p>
-            <h2 className="mx-auto mt-4 max-w-3xl font-display text-3xl leading-tight sm:text-5xl">Música &amp; Drama</h2>
-            <p className="mx-auto mt-6 max-w-xl font-read text-lg italic leading-relaxed text-cream/85">
-              “Antes de ser um filme sobre um prédio, Música &amp; Drama é um filme sobre as pessoas que deram voz, corpo e futuro a esse palco.”
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">Documentário</p>
+            <h2 className="mx-auto mt-4 font-display text-4xl leading-[1.04] sm:text-6xl">Música &amp; Drama</h2>
+            <p className="mx-auto mt-5 max-w-xl font-sans text-base leading-relaxed text-cream/80 sm:text-lg">
+              A história do Theatro contada por quem a viveu. O filme completo, dividido em capítulos e momentos, com transcrição navegável.
             </p>
-            <Link href="/documentario" className="mt-9 inline-block rounded-full bg-gold px-7 py-3 font-sans text-sm font-medium text-ink transition-transform hover:scale-[1.03]">Assistir e explorar o documentário</Link>
+            <Link href="/documentario" className="group mt-9 inline-flex items-center gap-3 rounded-full bg-gold px-7 py-3.5 font-sans text-sm font-semibold text-ink transition-transform hover:scale-[1.03]">
+              <span className="grid h-7 w-7 place-items-center rounded-full bg-ink/15">
+                <svg width="11" height="12" viewBox="0 0 11 12" fill="currentColor" aria-hidden><path d="M0 0v12l11-6z" /></svg>
+              </span>
+              Assistir o documentário
+            </Link>
           </Reveal>
         </div>
       </section>
