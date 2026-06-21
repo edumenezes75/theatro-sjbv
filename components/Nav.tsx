@@ -17,6 +17,7 @@ const PRIMARY = [
   { href: '/visite', label: 'Visite' },
 ];
 const MORE = [
+  { href: '/visita-guiada', label: 'Visita guiada' },
   { href: '/o-theatro', label: 'O Theatro' },
   { href: '/memorias', label: 'Memórias e curiosidades' },
   { href: '/linha-do-tempo', label: 'Linha do tempo' },

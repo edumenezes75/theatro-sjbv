@@ -36,8 +36,36 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
   const galFotos = gal ? fotosList.filter((f) => gal.cats.includes(f.category)).slice(0, 16) : [];
   const showAD = ANTES_DEPOIS.has(params.slug);
 
+  const SITE = 'https://www.theatromunicipalsjbv.com.br';
+  const url = `${SITE}/${params.slug}`;
+  const img = page.meta.hero_image ? (page.meta.hero_image.startsWith('http') ? page.meta.hero_image : SITE + page.meta.hero_image) : `${SITE}/og-theatro.jpg`;
+  const ld = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        headline: page.meta.title,
+        description: page.meta.seo_description || undefined,
+        image: img,
+        inLanguage: 'pt-BR',
+        isPartOf: { '@type': 'WebSite', name: 'Theatro Municipal de São João da Boa Vista', url: SITE },
+        author: { '@type': 'Organization', name: 'Theatro Municipal de São João da Boa Vista' },
+        publisher: { '@type': 'Organization', name: 'Theatro Municipal de São João da Boa Vista' },
+        mainEntityOfPage: url,
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Início', item: SITE + '/' },
+          { '@type': 'ListItem', position: 2, name: page.meta.title, item: url },
+        ],
+      },
+    ],
+  };
+
   return (
     <article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={page.meta.status} />
       <div className="mx-auto max-w-6xl px-5 py-14">
         <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">{readMin} min de leitura</p>
