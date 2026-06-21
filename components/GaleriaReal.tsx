@@ -85,7 +85,7 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
       )}
 
       {open && (
-        <div className="fixed inset-0 z-[120] flex flex-col bg-night/96 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={open.alt}>
+        <div className="fixed inset-0 z-[120] flex flex-col bg-night" role="dialog" aria-modal="true" aria-label={open.alt}>
           <div className="flex items-center justify-between px-5 py-4 text-cream/70">
             <span className="read-meta font-sans text-xs uppercase tracking-eyebrow">{(idx ?? 0) + 1} / {list.length}</span>
             <button onClick={close} aria-label="Fechar" className="text-cream/70 hover:text-gold"><IconClose size={24} /></button>
@@ -97,9 +97,9 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
             </figure>
             <button onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Próxima" className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-night/50 p-3 text-cream/85 transition-colors hover:bg-night/70 hover:text-gold sm:right-4"><IconChevron size={30} /></button>
           </div>
-          <figcaption className="mx-auto max-w-2xl px-6 pb-7 pt-2 text-center font-sans text-sm text-cream/85">
-            <span className="font-medium text-gold">{open.categoryLabel}.</span> {open.alt}
-            <span className="mt-1 block text-xs text-cream/65">{open.credit}</span>
+          <figcaption className="border-t border-cream/10 bg-night px-6 pb-7 pt-4 text-center font-sans text-[0.95rem] leading-relaxed text-cream">
+            <span className="mx-auto block max-w-2xl"><span className="font-semibold text-gold">{open.categoryLabel}.</span> {open.alt}</span>
+            <span className="mt-1.5 block text-xs text-cream/70">{open.credit}</span>
           </figcaption>
         </div>
       )}
