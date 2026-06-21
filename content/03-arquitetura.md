@@ -61,7 +61,7 @@ Fotografias e relatos destacam a presença de madeira na sala e estruturas metá
 
 O Theatro acumulou elogios de músicos ao longo de gerações. Vale distinguir o que é **observável** — forma, materiais, volume e a proximidade entre palco e plateia —, o que são **testemunhos de artistas** e o que dependeria de **medições acústicas** para se afirmar com rigor. Mas os testemunhos, por si, já dizem muito:
 
-> Descobri, quase atrás de casa, uma jóia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.
+> Descobri, quase atrás de casa, uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.
 >
 > — **Emmanuele Baldini**, spalla da Osesp, após concerto no Theatro (2014)
 
