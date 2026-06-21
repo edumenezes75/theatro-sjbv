@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { getEventos } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
 
+export const revalidate = 21600; // 6h — agenda se renova sozinha
+
 export const metadata: Metadata = {
   title: 'Programação',
   description: 'Agenda de espetáculos, concertos e eventos do Theatro Municipal de São João da Boa Vista.',
