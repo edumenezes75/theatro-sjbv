@@ -22,7 +22,7 @@ export default function Footer() {
           <div>
             <h3 className="font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold">Navegação</h3>
             <ul className="mt-3 space-y-1.5 text-sm">
-              {[['/o-theatro','O Theatro'],['/historia','História'],['/arquitetura','Arquitetura'],['/restauracao','Restauro'],['/pessoas','Pessoas'],['/linha-do-tempo','Linha do tempo']].map(([h,l]) => (
+              {[['/o-theatro','O Theatro'],['/historia','História'],['/arquitetura','Arquitetura'],['/restauracao','Preservação e restauro'],['/pessoas','Pessoas'],['/programacao','Programação'],['/visite','Visite']].map(([h,l]) => (
                 <li key={h}><Link href={h} className="text-cream/80 hover:text-gold">{l}</Link></li>
               ))}
             </ul>
@@ -30,7 +30,7 @@ export default function Footer() {
           <div>
             <h3 className="font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold">Acervo & filme</h3>
             <ul className="mt-3 space-y-1.5 text-sm">
-              {[['/documentario','Documentário Música & Drama'],['/acervo','Acervo de imagens'],['/memorias','Memórias e curiosidades'],['/fontes','Pesquisa e fontes']].map(([h,l]) => (
+              {[['/acervo','Acervo de imagens'],['/documentario','Documentário Música & Drama'],['/linha-do-tempo','Linha do tempo'],['/memorias','Memórias e curiosidades'],['/visita-guiada','Visita guiada'],['/fontes','Pesquisa e fontes']].map(([h,l]) => (
                 <li key={h}><Link href={h} className="text-cream/80 hover:text-gold">{l}</Link></li>
               ))}
             </ul>

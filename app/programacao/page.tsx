@@ -37,8 +37,9 @@ function Card({ e }: { e: ReturnType<typeof getEventos>[number] }) {
 export default function ProgramacaoPage() {
   const eventos = getEventos();
   const now = new Date().toISOString();
-  const futuros = eventos.filter((e) => e.date >= now || e.status === 'agendado').sort((a, b) => (a.date > b.date ? 1 : -1));
-  const passados = eventos.filter((e) => !(e.date >= now || e.status === 'agendado'));
+  const reais = eventos.filter((e) => !e.exemplo);
+  const futuros = reais.filter((e) => e.date >= now || e.status === 'agendado').sort((a, b) => (a.date > b.date ? 1 : -1));
+  const passados = reais.filter((e) => !(e.date >= now || e.status === 'agendado'));
 
   return (
     <article>
@@ -50,7 +51,7 @@ export default function ProgramacaoPage() {
 
         <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Próximos eventos</h2>
         <div className="mt-4">
-          {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="py-8 font-sans text-ink/60 dark:text-cream/60">Nenhum evento agendado no momento.</p>}
+          {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="max-w-reading py-6 font-sans text-ink/70 dark:text-cream/70">A próxima agenda ainda não foi publicada aqui. Para saber o que está por vir, fale com a organização do Theatro pelo WhatsApp abaixo ou acompanhe os canais oficiais da Prefeitura.</p>}
         </div>
 
         {passados.length > 0 && (
