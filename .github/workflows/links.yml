@@ -1,19 +1,18 @@
-name: Lighthouse (performance e acessibilidade)
+name: Verificar links externos
 on:
+  push:
+    branches: [main]
+    paths: ['content/**', 'app/**', 'components/**']
   schedule:
-    - cron: '0 7 * * 1'   # toda segunda, 07:00 UTC
+    - cron: '0 6 * * 1'
   workflow_dispatch:
 jobs:
-  lighthouse:
+  links:
     runs-on: ubuntu-latest
     steps:
-      - name: Rodar Lighthouse na produção
-        uses: treosh/lighthouse-ci-action@v12
+      - uses: actions/checkout@v4
+      - name: Lychee (links das fontes/markdown)
+        uses: lycheeverse/lychee-action@v2
         with:
-          urls: |
-            https://www.theatromunicipalsjbv.com.br/
-            https://www.theatromunicipalsjbv.com.br/historia
-            https://www.theatromunicipalsjbv.com.br/acervo
-            https://www.theatromunicipalsjbv.com.br/programacao
-          uploadArtifacts: true
-          temporaryPublicStorage: true
+          args: --no-progress --exclude '^/' --exclude '^#' --exclude 'mailto:' 'content/**/*.md'
+          fail: false
