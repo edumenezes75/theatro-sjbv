@@ -26,6 +26,8 @@ export const imagensList = imagens as Imagem[];
 import fotos from '@/data/fotos.json';
 export type Foto = { id: string; file: string; category: string; categoryLabel: string; w: number; h: number; alt: string; credit: string; epoca?: string };
 export const fotosList = fotos as Foto[];
+export const fotoById = (id: string) => fotosList.find((f) => f.id === id);
+export const fotoTitulo = (alt: string) => { const t = alt.split('—')[0].trim(); return t.length > 75 ? t.slice(0, 72).trim() + '…' : t; };
 export const fotosByCategory = (cat: string) => fotosList.filter((f) => f.category === cat);
 
 import antesDepois from '@/data/antes-depois.json';

@@ -1,6 +1,7 @@
 'use client';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import type { Foto } from '@/lib/data';
 import { IconClose, IconChevron } from './Icons';
 
@@ -99,6 +100,7 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
           </div>
           <figcaption className="border-t border-cream/10 bg-night px-6 pb-6 pt-3.5 text-center font-sans text-[0.8rem] leading-relaxed text-cream/90">
             <span className="mx-auto block max-w-2xl"><span className="font-semibold text-gold">{open.categoryLabel}.</span> {open.alt}</span>
+            <Link href={`/acervo/${open.id}`} className="mt-2 inline-block font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold/90 underline decoration-gold/40 underline-offset-2 hover:text-gold">Ver ficha completa →</Link>
           </figcaption>
         </div>
       )}

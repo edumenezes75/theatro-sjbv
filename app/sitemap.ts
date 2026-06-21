@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { pessoasList, pessoaSlug } from '@/lib/data';
+import { pessoasList, pessoaSlug, fotosList } from '@/lib/data';
 
 const BASE = 'https://www.theatromunicipalsjbv.com.br';
 
@@ -35,5 +35,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'yearly' as const,
     priority: 0.5,
   }));
-  return [...fixas, ...pessoas];
+  const acervo = fotosList.map((f) => ({
+    url: `${BASE}/acervo/${f.id}`,
+    lastModified: now,
+    changeFrequency: 'yearly' as const,
+    priority: 0.4,
+  }));
+  return [...fixas, ...pessoas, ...acervo];
 }
