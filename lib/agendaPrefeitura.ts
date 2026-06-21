@@ -12,7 +12,6 @@ const BASE = 'https://www.saojoao.sp.gov.br';
 const VENUE = /theatro\s+municipal/i;
 const REVALIDATE = 21600; // 6h, alinhado à página
 const MESES_A_FRENTE = 3; // mês atual + próximos 3
-const MESES_ATRAS = 3; // e os 3 meses anteriores (eventos recentes)
 const MAX_DETALHES = 30; // teto de requisições de detalhe por atualização
 
 async function getText(url: string): Promise<string | null> {
@@ -126,18 +125,18 @@ export async function getEventosPrefeitura(): Promise<Evento[]> {
     const hojeISO = now.toISOString().slice(0, 10);
 
     const cards: Card[] = [];
-    for (let i = -MESES_ATRAS; i <= MESES_A_FRENTE; i++) {
+    for (let i = 0; i <= MESES_A_FRENTE; i++) {
       const d = new Date(now.getFullYear(), now.getMonth() + i, 1);
       const html = await getText(BASE + '/eventos?mes=' + (d.getMonth() + 1) + '&ano=' + d.getFullYear());
       if (html) cards.push(...parseListing(html));
     }
 
-    // dedup por slug e prioriza os eventos mais próximos de hoje (passados recentes + próximos)
+    // dedup por slug; só eventos de hoje em diante (datas passadas não entram)
     const vistos = new Set<string>();
-    const hojeMs = now.getTime();
     const candidatos = cards
+      .filter((c) => iso(c).slice(0, 10) >= hojeISO)
       .filter((c) => (vistos.has(c.slug) ? false : (vistos.add(c.slug), true)))
-      .sort((a, b) => Math.abs(new Date(iso(a)).getTime() - hojeMs) - Math.abs(new Date(iso(b)).getTime() - hojeMs))
+      .sort((a, b) => (iso(a) < iso(b) ? -1 : 1))
       .slice(0, MAX_DETALHES);
 
     const resultados = await Promise.allSettled(candidatos.map((c) => fetchDetalhe(c.slug, c)));

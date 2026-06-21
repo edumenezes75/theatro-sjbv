@@ -49,9 +49,7 @@ export default async function ProgramacaoPage() {
   const reais = [...manuais, ...oficiais.filter((e) => (vistos.has(chave(e)) ? false : (vistos.add(chave(e)), true)))];
   const temOficiais = oficiais.length > 0;
   const now = new Date().toISOString();
-  const futuros = reais.filter((e) => e.date >= now || e.status === 'agendado').sort((a, b) => (a.date > b.date ? 1 : -1));
-  const passados = reais.filter((e) => !(e.date >= now || e.status === 'agendado')).sort((a, b) => (a.date > b.date ? -1 : 1));
-  const recentes = passados.slice(0, 6);
+  const futuros = reais.filter((e) => e.date >= now).sort((a, b) => (a.date > b.date ? 1 : -1));
 
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const ldEventos = futuros.length ? {
@@ -81,13 +79,6 @@ export default async function ProgramacaoPage() {
         <div className="mt-4">
           {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="max-w-reading py-6 font-sans text-ink/70 dark:text-cream/70">O Theatro segue ativo. Quando há eventos com data confirmada, eles aparecem aqui automaticamente. Para a agenda mais recente, consulte os canais oficiais abaixo.</p>}
         </div>
-
-        {recentes.length > 0 && (
-          <section className="mt-14">
-            <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Últimos eventos no Theatro</h2>
-            <div className="mt-4 opacity-90">{recentes.map((e) => <Card key={e.slug} e={e} />)}</div>
-          </section>
-        )}
 
         <section className="mt-14">
           <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Canais oficiais</h2>
