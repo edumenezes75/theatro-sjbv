@@ -51,6 +51,7 @@ export default async function ProgramacaoPage() {
   const now = new Date().toISOString();
   const futuros = reais.filter((e) => e.date >= now || e.status === 'agendado').sort((a, b) => (a.date > b.date ? 1 : -1));
   const passados = reais.filter((e) => !(e.date >= now || e.status === 'agendado')).sort((a, b) => (a.date > b.date ? -1 : 1));
+  const recentes = passados.slice(0, 6);
 
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const ldEventos = futuros.length ? {
@@ -80,7 +81,15 @@ export default async function ProgramacaoPage() {
         <div className="mt-4">
           {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="max-w-reading py-6 font-sans text-ink/70 dark:text-cream/70">O Theatro segue ativo. Quando há eventos com data confirmada, eles aparecem aqui automaticamente. Para a agenda mais recente, consulte os canais oficiais abaixo.</p>}
         </div>
-        <section className="mt-12">
+
+        {recentes.length > 0 && (
+          <section className="mt-14">
+            <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Últimos eventos no Theatro</h2>
+            <div className="mt-4 opacity-90">{recentes.map((e) => <Card key={e.slug} e={e} />)}</div>
+          </section>
+        )}
+
+        <section className="mt-14">
           <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Canais oficiais</h2>
           <p className="mt-2 max-w-reading font-sans text-sm text-ink/65 dark:text-cream/65">Onde encontrar a programação atualizada e falar com a organização do Theatro.</p>
           <div className="mt-5 grid gap-4 sm:grid-cols-3">
@@ -107,13 +116,6 @@ export default async function ProgramacaoPage() {
             Agenda atualizada automaticamente a partir da{' '}
             <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener" className="underline decoration-gold/40 underline-offset-2 hover:text-curtain dark:hover:text-gold">programação oficial da Prefeitura</a>. Confirme sempre datas e ingressos pelos canais oficiais.
           </p>
-        )}
-
-        {passados.length > 0 && (
-          <>
-            <h2 className="mt-16 font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">Já aconteceu</h2>
-            <div className="mt-4 opacity-75">{passados.map((e) => <Card key={e.slug} e={e} />)}</div>
-          </>
         )}
 
         <aside className="mt-16 rounded-sm border border-gold/25 bg-ink/[0.03] p-8 text-center dark:bg-cream/[0.03]">
