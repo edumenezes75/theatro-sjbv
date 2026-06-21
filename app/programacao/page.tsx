@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { getEventos } from '@/lib/content';
+import { getEventosPrefeitura } from '@/lib/agendaPrefeitura';
 import ChapterHero from '@/components/ChapterHero';
 
 export const revalidate = 21600; // 6h — agenda se renova sozinha
@@ -37,12 +38,19 @@ function Card({ e }: { e: ReturnType<typeof getEventos>[number] }) {
   );
 }
 
-export default function ProgramacaoPage() {
-  const eventos = getEventos();
+const chave = (e: { title: string; date: string }) =>
+  e.title.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]/g, '') + '|' + e.date.slice(0, 10);
+
+export default async function ProgramacaoPage() {
+  const manuais = getEventos().filter((e) => !e.exemplo);
+  const oficiais = await getEventosPrefeitura();
+  // Eventos cadastrados à mão (CMS) têm prioridade; os da Prefeitura entram se não duplicarem
+  const vistos = new Set(manuais.map(chave));
+  const reais = [...manuais, ...oficiais.filter((e) => (vistos.has(chave(e)) ? false : (vistos.add(chave(e)), true)))];
+  const temOficiais = oficiais.length > 0;
   const now = new Date().toISOString();
-  const reais = eventos.filter((e) => !e.exemplo);
   const futuros = reais.filter((e) => e.date >= now || e.status === 'agendado').sort((a, b) => (a.date > b.date ? 1 : -1));
-  const passados = reais.filter((e) => !(e.date >= now || e.status === 'agendado'));
+  const passados = reais.filter((e) => !(e.date >= now || e.status === 'agendado')).sort((a, b) => (a.date > b.date ? -1 : 1));
 
   return (
     <article>
@@ -56,6 +64,12 @@ export default function ProgramacaoPage() {
         <div className="mt-4">
           {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="max-w-reading py-6 font-sans text-ink/70 dark:text-cream/70">A próxima agenda ainda não foi publicada aqui. Para saber o que está por vir, fale com a organização do Theatro pelo WhatsApp abaixo ou acompanhe os canais oficiais da Prefeitura.</p>}
         </div>
+        {temOficiais && (
+          <p className="mt-4 font-sans text-xs text-ink/50 dark:text-cream/50">
+            Agenda atualizada automaticamente a partir da{' '}
+            <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener" className="underline decoration-gold/40 underline-offset-2 hover:text-curtain dark:hover:text-gold">programação oficial da Prefeitura</a>. Confirme sempre datas e ingressos pelos canais oficiais.
+          </p>
+        )}
 
         {passados.length > 0 && (
           <>
