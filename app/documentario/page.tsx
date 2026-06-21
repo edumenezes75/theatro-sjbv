@@ -63,7 +63,6 @@ export default function DocumentarioPage() {
     director: { '@type': 'Person', name: 'Eduardo Menezes' },
     about: { '@type': 'PerformingArtsTheater', name: 'Theatro Municipal de São João da Boa Vista', '@id': SITE + '/#theatro' },
     mainEntityOfPage: SITE + '/documentario',
-    transcript: (transcricao as { t: string; s: number; text: string }[]).map((x) => x.text).join(' '),
     hasPart: momentos.map(([sec, name]) => ({
       '@type': 'Clip',
       name,
