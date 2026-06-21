@@ -22,7 +22,7 @@ body {
 ::selection { background: theme('colors.curtain'); color: theme('colors.cream'); }
 
 /* Editorial prose */
-.prose-theatro { max-width: 38rem; }
+.prose-theatro { max-width: 38rem; font-family: var(--font-read); }
 .prose-theatro p { margin: 1.1rem 0; line-height: 1.75; font-size: 1.075rem; }
 .prose-theatro h2 {
   font-family: var(--font-display); font-size: clamp(1.6rem, 3.2vw, 2.2rem);

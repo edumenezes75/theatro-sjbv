@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Bodoni_Moda, Hanken_Grotesk } from 'next/font/google';
+import { Bodoni_Moda, Hanken_Grotesk, Literata } from 'next/font/google';
 import './globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
@@ -8,6 +8,7 @@ import { Analytics } from '@vercel/analytics/next';
 
 const display = Bodoni_Moda({ subsets: ['latin'], weight: ['400', '500', '600'], style: ['normal', 'italic'], variable: '--font-display', display: 'swap' });
 const sans = Hanken_Grotesk({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-sans', display: 'swap' });
+const read = Literata({ subsets: ['latin'], weight: ['400', '600'], style: ['normal', 'italic'], variable: '--font-read', display: 'swap' });
 
 const SITE = 'https://www.theatromunicipalsjbv.com.br';
 
@@ -61,7 +62,7 @@ const jsonLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${display.variable} ${sans.variable}`} suppressHydrationWarning>
+    <html lang="pt-BR" className={`${display.variable} ${sans.variable} ${read.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: "try{var t=localStorage.getItem('theatro-theme');var d=t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark');}catch(e){}" }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
