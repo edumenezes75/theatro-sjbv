@@ -59,6 +59,8 @@ export function getAllPages(): Page[] {
     const { data, content } = matter(raw);
     const { body, fontes } = extractFontes(content);
     let html = marked.parse(fixImagePaths(body)) as string;
+    // converte sintaxe {#id} ao fim de titulos em atributo id real (marked nao faz isso)
+    html = html.replace(/<(h[1-6])([^>]*)>([\s\S]*?)\s*\{#([\w-]+)\}\s*<\/\1>/g, '<$1$2 id="$4">$3</$1>');
     html = html.replace(/<h1[^>]*>[\s\S]*?<\/h1>/i, '');
     const meta = { ...(data as PageMeta), slug: normalizeSlug((data as PageMeta).slug) };
     return { meta, html, fontes };
