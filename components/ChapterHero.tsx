@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import SeloEvidencia from './SeloEvidencia';
+import SeloEvidencia, { temSelo } from './SeloEvidencia';
 
 export default function ChapterHero({ eyebrow, title, image, alt, status }: { eyebrow?: string; title: string; image?: string; alt?: string; status?: string }) {
   return (
@@ -20,7 +20,7 @@ export default function ChapterHero({ eyebrow, title, image, alt, status }: { ey
           </div>
         )}
         <h1 className="mt-5 max-w-3xl font-display text-5xl font-semibold leading-[1.02] sm:text-7xl">{title}</h1>
-        {status && <div className="mt-6"><SeloEvidencia status={status} /></div>}
+        {status && temSelo(status) && <div className="mt-6"><SeloEvidencia status={status} /></div>}
       </div>
     </header>
   );

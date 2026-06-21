@@ -17,7 +17,7 @@ Esta página reúne episódios documentados e lembranças pessoais. Cada histór
 
 ## O Theatro quase virou cassino
 
-**Selo: documentado no livro do centenário**
+**Selo: registrado no livro do centenário**
 
 As dificuldades financeiras levaram a Companhia a considerar diferentes formas de uso. No final dos anos 1920, a hipótese de transformar salões em cassino chegou a ser discutida, inspirada pelo sucesso de Poços de Caldas.
 
@@ -25,7 +25,7 @@ A ideia não se concretizou. Pouco depois, a diretoria informava que as debêntu
 
 ## Houve um rinque de patinação
 
-**Selo: documentado em cronologia e imprensa**
+**Selo: registrado em cronologia e imprensa**
 
 Em 1929, a sala foi utilizada como rinque. A transformação parece estranha hoje, mas revela como o edifício era adaptado a modas e necessidades de receita.
 
@@ -77,7 +77,7 @@ O mesmo espaço já havia abrigado sociedades culturais e depois receberia a Bib
 
 ## O Theatro também foi biblioteca
 
-**Selo: documentado e lembrado por frequentadores**
+**Selo: registrado e lembrado por frequentadores**
 
 A partir da década de 1960, a Biblioteca Municipal ocupou dependências superiores. Alguns moradores lembram que entraram no edifício primeiro para ler, e só depois para assistir a espetáculos.
 
