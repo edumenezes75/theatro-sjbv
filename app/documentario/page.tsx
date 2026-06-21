@@ -29,25 +29,26 @@ export default function DocumentarioPage() {
   const page = getPageBySlug('/documentario');
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const YT = 'e2stgoHtlAQ';
-  const momentos: [number, string][] = [
-    [34, 'A primeira ida ao teatro'],
-    [195, 'A arte e a cultura como genética sanjoanense'],
-    [499, 'O Teatro Apolo e a ideia de uma casa de espetáculos'],
-    [697, 'A Companhia Teatral Sanjoanense e a pedra fundamental (1913)'],
-    [741, 'A inauguração de 31 de outubro de 1914'],
-    [799, 'A fachada eclética e os medalhões dos compositores'],
-    [955, 'A estrutura metálica vinda da Bélgica'],
-    [1067, 'A acústica e a referência ao Scala'],
-    [1205, 'As grandes companhias e a Branca de Neve'],
-    [1547, 'Villa-Lobos e a Sociedade de Cultura Artística'],
-    [2046, 'Roberto Carlos e a Jovem Guarda'],
-    [2298, 'Decadência e ameaça de demolição'],
-    [2636, 'A greve de fome contra a venda do Theatro'],
-    [2876, 'O abaixo-assinado e o tombamento'],
-    [3502, 'A escavadeira no subsolo e o restauro estrutural'],
-    [4324, 'O restauro do medalhão de Carlos Gomes'],
-    [4609, 'A reabertura em 2002, na Semana Guiomar Novaes'],
-    [4913, 'A criação da AMITE e a gestão do Theatro'],
+  const TEMA: Record<string, string> = { '/historia': 'História', '/arquitetura': 'Arquitetura', '/restauracao': 'Restauro', '/linha-do-tempo': 'Linha do tempo', '/memorias': 'Memórias', '/pessoas': 'Pessoas' };
+  const momentos: [number, string, string][] = [
+    [34, 'A primeira ida ao teatro', '/memorias'],
+    [195, 'A arte e a cultura como genética sanjoanense', '/historia'],
+    [499, 'O Teatro Apolo e a ideia de uma casa de espetáculos', '/historia'],
+    [697, 'A Companhia Teatral Sanjoanense e a pedra fundamental (1913)', '/historia'],
+    [741, 'A inauguração de 31 de outubro de 1914', '/historia'],
+    [799, 'A fachada eclética e os medalhões dos compositores', '/arquitetura'],
+    [955, 'A estrutura metálica vinda da Bélgica', '/arquitetura'],
+    [1067, 'A acústica e a referência ao Scala', '/arquitetura'],
+    [1205, 'As grandes companhias e a Branca de Neve', '/linha-do-tempo'],
+    [1547, 'Villa-Lobos e a Sociedade de Cultura Artística', '/linha-do-tempo'],
+    [2046, 'Roberto Carlos e a Jovem Guarda', '/linha-do-tempo'],
+    [2298, 'Decadência e ameaça de demolição', '/restauracao'],
+    [2636, 'A greve de fome contra a venda do Theatro', '/restauracao'],
+    [2876, 'O abaixo-assinado e o tombamento', '/restauracao'],
+    [3502, 'A escavadeira no subsolo e o restauro estrutural', '/restauracao'],
+    [4324, 'O restauro do medalhão de Carlos Gomes', '/arquitetura'],
+    [4609, 'A reabertura em 2002, na Semana Guiomar Novaes', '/restauracao'],
+    [4913, 'A criação da AMITE e a gestão do Theatro', '/pessoas'],
   ];
   const ldVideo = {
     '@context': 'https://schema.org',
@@ -98,12 +99,13 @@ export default function DocumentarioPage() {
           <h2 className="font-display text-3xl">Momentos do filme</h2>
           <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">Pontos-chave do documentário — clique para abrir cada momento no YouTube.</p>
           <ol className="mt-6 grid gap-x-8 gap-y-1 sm:grid-cols-2">
-            {momentos.map(([sec, name]) => (
-              <li key={sec}>
-                <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener" className="group flex items-baseline gap-3 border-b border-gold/15 py-2.5 hover:text-curtain dark:hover:text-gold">
-                  <span className="shrink-0 font-display text-sm tabular-nums text-curtain dark:text-gold">{`${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`}</span>
-                  <span className="font-sans text-[0.95rem] text-ink/85 dark:text-cream/85">{name}</span>
+            {momentos.map(([sec, name, tema]) => (
+              <li key={sec} className="flex items-baseline gap-3 border-b border-gold/15 py-2.5">
+                <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener" title="Abrir o filme neste momento" className="shrink-0 font-display text-sm tabular-nums text-curtain hover:opacity-70 dark:text-gold">
+                  {`${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`}
                 </a>
+                <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener" className="font-sans text-[0.95rem] text-ink/85 hover:text-curtain dark:text-cream/85 dark:hover:text-gold">{name}</a>
+                <Link href={tema} className="ml-auto shrink-0 self-center rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-[0.62rem] uppercase tracking-eyebrow text-ink/55 hover:border-curtain hover:text-curtain dark:text-cream/55 dark:hover:border-gold dark:hover:text-gold" title={`Ir para ${TEMA[tema]}`}>{TEMA[tema]}</Link>
               </li>
             ))}
           </ol>
