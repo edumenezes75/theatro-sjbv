@@ -27,8 +27,52 @@ const ACESS = ['Legendas em português', 'Transcrição integral', 'Identificaç
 
 export default function DocumentarioPage() {
   const page = getPageBySlug('/documentario');
+  const SITE = 'https://www.theatromunicipalsjbv.com.br';
+  const YT = 'e2stgoHtlAQ';
+  const momentos: [number, string][] = [
+    [34, 'A primeira ida ao teatro'],
+    [195, 'A arte e a cultura como genética sanjoanense'],
+    [499, 'O Teatro Apolo e a ideia de uma casa de espetáculos'],
+    [697, 'A Companhia Teatral Sanjoanense e a pedra fundamental (1913)'],
+    [741, 'A inauguração de 31 de outubro de 1914'],
+    [799, 'A fachada eclética e os medalhões dos compositores'],
+    [955, 'A estrutura metálica vinda da Bélgica'],
+    [1067, 'A acústica e a referência ao Scala'],
+    [1205, 'As grandes companhias e a Branca de Neve'],
+    [1547, 'Villa-Lobos e a Sociedade de Cultura Artística'],
+    [2046, 'Roberto Carlos e a Jovem Guarda'],
+    [2298, 'Decadência e ameaça de demolição'],
+    [2636, 'A greve de fome contra a venda do Theatro'],
+    [2876, 'O abaixo-assinado e o tombamento'],
+    [3502, 'A escavadeira no subsolo e o restauro estrutural'],
+    [4324, 'O restauro do medalhão de Carlos Gomes'],
+    [4609, 'A reabertura em 2002, na Semana Guiomar Novaes'],
+    [4913, 'A criação da AMITE e a gestão do Theatro'],
+  ];
+  const ldVideo = {
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name: 'Música & Drama — A História do Theatro Municipal de São João da Boa Vista',
+    description: 'Documentário de Eduardo Menezes sobre a história do Theatro Municipal de São João da Boa Vista: a construção em 1913–1914, as décadas de espetáculos e cinema, a ameaça de demolição, a mobilização popular, o tombamento, o restauro e a vida cultural do edifício.',
+    inLanguage: 'pt-BR',
+    thumbnailUrl: [`https://img.youtube.com/vi/${YT}/maxresdefault.jpg`],
+    duration: 'PT1H45M',
+    embedUrl: `https://www.youtube.com/embed/${YT}`,
+    contentUrl: `https://www.youtube.com/watch?v=${YT}`,
+    director: { '@type': 'Person', name: 'Eduardo Menezes' },
+    about: { '@type': 'PerformingArtsTheater', name: 'Theatro Municipal de São João da Boa Vista', '@id': SITE + '/#theatro' },
+    mainEntityOfPage: SITE + '/documentario',
+    transcript: (transcricao as { t: string; s: number; text: string }[]).map((x) => x.text).join(' '),
+    hasPart: momentos.map(([sec, name]) => ({
+      '@type': 'Clip',
+      name,
+      startOffset: sec,
+      url: `https://www.youtube.com/watch?v=${YT}&t=${sec}s`,
+    })),
+  };
   return (
     <article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ldVideo) }} />
       <ChapterHero eyebrow="A história do Theatro em filme" title="Música & Drama" status="texto público com produção pendente" />
       <div className="mx-auto max-w-4xl px-5 py-10">
         <LiteYouTube id="e2stgoHtlAQ" title="Música & Drama — A História do Theatro Municipal de São João da Boa Vista" />
@@ -45,6 +89,21 @@ export default function DocumentarioPage() {
               <li key={c} className="flex items-baseline gap-4 py-3.5">
                 <span className="font-display text-lg font-medium text-curtain dark:text-gold">{String(i + 1).padStart(2, '0')}</span>
                 <span className="flex-1 font-sans text-[0.97rem]">{c}</span>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        <section className="mt-16">
+          <h2 className="font-display text-3xl">Momentos do filme</h2>
+          <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">Pontos-chave do documentário — clique para abrir cada momento no YouTube.</p>
+          <ol className="mt-6 grid gap-x-8 gap-y-1 sm:grid-cols-2">
+            {momentos.map(([sec, name]) => (
+              <li key={sec}>
+                <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener" className="group flex items-baseline gap-3 border-b border-gold/15 py-2.5 hover:text-curtain dark:hover:text-gold">
+                  <span className="shrink-0 font-display text-sm tabular-nums text-curtain dark:text-gold">{`${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`}</span>
+                  <span className="font-sans text-[0.95rem] text-ink/85 dark:text-cream/85">{name}</span>
+                </a>
               </li>
             ))}
           </ol>
