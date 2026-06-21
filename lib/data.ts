@@ -16,6 +16,10 @@ export type Imagem = { file: string; alt: string; source: string; page: number; 
 
 export const eventos = linhaDoTempo as Evento[];
 export const pessoasList = (pessoas as { items: Pessoa[] }).items;
+const _pslug = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+export const pessoaSlug = (p: Pessoa) => _pslug(p.name);
+export const pessoaBySlug = (slug: string) => pessoasList.find((p) => _pslug(p.name) === slug);
+export const pessoaById = (id: string) => pessoasList.find((p) => p.id === id);
 export const curiosidadesList = (curiosidades as { items: Curiosidade[] }).items;
 export const imagensList = imagens as Imagem[];
 

@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
+import { pessoasList, pessoaSlug } from '@/lib/data';
 
 const BASE = 'https://www.theatromunicipalsjbv.com.br';
 
@@ -22,10 +23,17 @@ const ROUTES: [string, number, MetadataRoute.Sitemap[number]['changeFrequency']]
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  return ROUTES.map(([r, priority, changeFrequency]) => ({
+  const fixas = ROUTES.map(([r, priority, changeFrequency]) => ({
     url: BASE + r,
     lastModified: now,
     changeFrequency,
     priority,
   }));
+  const pessoas = pessoasList.map((p) => ({
+    url: `${BASE}/pessoas/${pessoaSlug(p)}`,
+    lastModified: now,
+    changeFrequency: 'yearly' as const,
+    priority: 0.5,
+  }));
+  return [...fixas, ...pessoas];
 }
