@@ -64,16 +64,6 @@ Além do livro do centenário, a memória do Theatro está registrada em obras l
 | **Em pesquisa** | Há versões diferentes ou falta documentação conclusiva. |
 | **Informação de serviço** | Dado operacional, com data de verificação. |
 
-## Política de correções
-
-Cada página indica a data de sua última revisão. Quando uma nova fonte altera uma informação, o nosso compromisso é corrigir o texto, registrar o que mudou, citar a nova evidência e preservar versões anteriores quando tiverem interesse historiográfico.
-
-## Como contribuir
-
-O Theatro pertence à cidade, e sua memória também. Se você guarda fotografias antigas, programas, cartazes, ingressos, documentos, recortes de jornal ou lembranças ligadas ao Theatro — ou se reconhece alguém em uma imagem ainda sem identificação —, sua contribuição ajuda a corrigir, ampliar e enriquecer esta pesquisa.
-
-Fale com a organização do Theatro pelo WhatsApp **(19) 99719-5719** ou pelos canais da Prefeitura Municipal. Correções e novas evidências são sempre bem-vindas, e a procedência de cada contribuição é registrada.
-
 ## Referências digitais iniciais
 
 - Documentário: https://www.youtube.com/watch?v=e2stgoHtlAQ
