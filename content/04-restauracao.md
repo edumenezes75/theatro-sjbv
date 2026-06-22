@@ -33,7 +33,7 @@ A classe artística transformou a preservação em assunto público. Houve passe
 
 Zeza Freitas recorda que jovens artistas percorriam casas e ruas em busca de apoio. O movimento não era nostalgia passiva. Defendia a ativação de um espaço cultural que pudesse voltar a ser usado.
 
-Mais de duas mil assinaturas deram força política à compra.
+Quatro abaixo-assinados reuniram 1.026 assinaturas, e uma consulta popular sobre o destino do prédio mobilizou 1.651 participantes — força política decisiva para a compra.
 
 > **Patrimônio em ação:** o documento pedia não apenas conservação, mas “ativação de um espaço cultural”. A luta era para salvar o prédio e devolver-lhe função.
 
@@ -57,17 +57,18 @@ Essa capacidade de aprender é parte importante da história. O restauro não fo
 
 ## Tombamento
 
-Em 19 de janeiro de 1987, o CONDEPHAAT formalizou o tombamento estadual. O processo reconheceu o edifício como bem histórico e passou a exigir acompanhamento das intervenções.
+O Conselho do CONDEPHAAT aprovou o tombamento em 16 de dezembro de 1985, por unanimidade; a formalização veio com a resolução de 19 de janeiro de 1987. O processo reconheceu o edifício como bem histórico e passou a exigir acompanhamento das intervenções.
 
 O tombamento não financiou sozinho a obra nem resolveu todos os problemas. Sua importância foi jurídica e simbólica: estabeleceu que o Theatro não era apenas uma propriedade disponível para qualquer transformação.
 
 ### Documento-chave
 
-- Processo CONDEPHAAT: **23.125/84**
+- Processo CONDEPHAAT: **23.125/1984**
+- Aprovação do Conselho: **16 de dezembro de 1985** (por unanimidade)
 - Resolução de tombamento: **SC nº 03, de 19 de janeiro de 1987**
-- Livro do Tombo Histórico: inscrição associada ao bem
+- Livro do Tombo Histórico: **inscrição nº 261, p. 68**
 
-Esses documentos — o processo, a resolução de tombamento e a inscrição no Livro do Tombo — formam a base legal da preservação: foi o tombamento estadual que protegeu o edifício de novas descaracterizações e abriu caminho para o restauro.
+Esses documentos formam a base legal da preservação estadual, somada à proteção municipal. No âmbito federal, o processo aberto no IPHAN foi analisado e arquivado em 2017, sem tombamento nacional — a proteção do Theatro é, portanto, estadual e municipal.
 
 ## A obra estrutural
 

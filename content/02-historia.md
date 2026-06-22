@@ -21,7 +21,7 @@ No início do século XX, São João da Boa Vista já possuía salões, cinemas 
 
 A ideia encontrou apoio político. Em 1912, a Câmara aprovou incentivos para a empresa que construísse um teatro, incluindo isenção de impostos e garantia de juros sobre parte do capital. Não era um empreendimento simples. Exigia reunir dinheiro, definir a sociedade, adquirir terreno, escolher projeto e contratar a execução.
 
-Joaquim Cândido de Oliveira e José Evangelista de Almeida aparecem como figuras centrais dessa mobilização. Em fevereiro de 1913, a Companhia Teatral Sanjoanense foi constituída. O livro do centenário registra 113 acionistas e apresenta uma longa relação de nomes, empresas e famílias. A documentação deve ser tratada como uma rede: não apenas uma lista, mas um retrato da sociedade que decidiu investir em cultura.
+Joaquim Cândido de Oliveira e José Evangelista de Almeida aparecem como figuras centrais dessa mobilização. Em fevereiro de 1913, a Companhia Teatral Sanjoanense foi constituída. Os números variam conforme a fonte: a ata de constituição registra 103 sócios representados — 78 presentes e 25 por procuração — e 677 ações naquele ato, enquanto a reconstrução das subscrições aponta cerca de 196 acionistas e mil ações. A documentação deve ser tratada como uma rede: não apenas uma lista, mas um retrato da sociedade que decidiu investir em cultura.
 
 > **Você sabia?** A assembleia de constituição terminou ao som da Banda Internacional, regida pelo maestro Joaquim Azevedo. Música e administração já dividiam a mesma noite.
 
@@ -103,7 +103,7 @@ Em 1981, a Lei Municipal nº 219 declarou o imóvel de utilidade pública. A med
 
 Artistas e moradores intensificaram a mobilização. Houve manifestações, happenings, entrevistas e coleta de assinaturas. Ronaldo Marin anunciou que faria greve de fome no alto do prédio caso nenhuma decisão fosse tomada. Zeza Freitas e outros participantes lembram a campanha como um momento de urgência, criatividade e confronto público.
 
-Mais de duas mil assinaturas foram reunidas em apoio à preservação e à ativação cultural do espaço.
+Quatro abaixo-assinados reuniram 1.026 assinaturas em apoio à preservação e à ativação cultural do espaço, e uma consulta popular sobre o destino do prédio mobilizou 1.651 participantes.
 
 ### A compra
 
@@ -133,7 +133,7 @@ A Fundação Oliveira Neto, criada em 1998, ajudou a captar recursos por incenti
 
 A reabertura trouxe um novo desafio: não bastava conservar o edifício; era necessário ocupá-lo com qualidade e continuidade.
 
-A AMITE — Associação dos Amigos do Theatro Municipal — foi criada em 2003. A entidade participou da programação, da administração e da construção de projetos que aproximavam artistas e público. Concertos, cinema, teatro amador, festivais, ensaios, formação musical e semanas especiais passaram a conviver no calendário.
+A AMITE — Associação dos Amigos do Theatro Municipal — foi criada em 2003. A entidade participou da programação, da administração e da construção de projetos que aproximavam artistas e público. Concertos, cinema, teatro amador, festivais, ensaios, formação musical e semanas especiais passaram a conviver no calendário. Por convênio autorizado em 2003, a AMITE administrou o Theatro por cerca de dezoito anos; em 2021, a Lei municipal nº 4.898 encerrou esse convênio, e a gestão voltou a ser feita diretamente pela Prefeitura, pelo Departamento de Cultura.
 
 Entre os projetos registrados no livro estão o Cineclube Beloca, Concertos Matinais, Teatro de Quinta, Som do Sábado, festivais de teatro amador, a Semana Guiomar Novaes, o Festival Assad e o projeto de cordas 1º Movimento.
 

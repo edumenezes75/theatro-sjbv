@@ -31,7 +31,16 @@ Documentário dirigido por Eduardo Menezes, disponível no YouTube. O filme reú
 
 A dissertação de Luis Pedro Dragão Jeronimo, apresentada à Universidade de São Paulo em 2020, é uma referência crítica importante. O trabalho consulta cartórios, jornais, arquivos, plantas e documentação de restauro, permitindo revisar versões consagradas.
 
-Artigos derivados aprofundam construção, imprensa, memória, uso e participação popular.
+Artigos derivados (2021–2023) aprofundam construção, imprensa, memória, uso e participação popular.
+
+## Outras obras de referência
+
+Além do livro do centenário, a memória do Theatro está registrada em obras locais que se complementam:
+
+- **Sidney Beraldo**, *90 anos — Teatro Municipal* (2004) — memória da aquisição e da recuperação;
+- **Jonathas Mattos Jr.**, *Theatro Municipal e Trajetória das Artes em São João da Boa Vista* (2000);
+- **Maria Célia de Campos Marcondes**, *Arte e Cultura em São João da Boa Vista* (2011);
+- **Luis Pedro Dragão Jeronimo**, dissertação de mestrado (USP, 2020, em dois volumes) — o levantamento acadêmico mais extenso disponível, base para revisar datas e números consagrados.
 
 ## Fontes primárias prioritárias
 

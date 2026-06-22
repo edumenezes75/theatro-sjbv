@@ -25,6 +25,8 @@ O projeto de 1913 apresenta uma composição simétrica, com eixo central destac
 
 *O desenho original da fachada, 1913 — o Theatro no papel antes de existir em pedra.*
 
+Acima dos vãos laterais, quatro medalhões alinham um compositor brasileiro a três cânones europeus — **Carlos Gomes, Giuseppe Verdi, Richard Wagner e Charles Gounod** —, num gesto deliberadamente cosmopolita. As molduras incorporam ramos de café, costurando a cultura erudita internacional à economia que ergueu o edifício. As inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*, em grafia historicizante, anunciam a função antes mesmo de o público entrar.
+
 Na linguagem eclética, elementos de diferentes tradições históricas são reorganizados para produzir solenidade e distinção. Isso não significa que o Theatro copie um único modelo europeu. A comparação com grandes casas de ópera faz parte do imaginário de sua construção, mas a relação precisa ser estudada por plantas, proporções e documentação técnica.
 
 > **Nota de pesquisa:** a expressão “modelo do Scala de Milão” aparece em narrativas locais. Aqui ela é tratada como referência atribuída, não como prova de cópia direta.
@@ -92,7 +94,7 @@ A intervenção de **fevereiro de 1967** foi especialmente importante: frisas e 
 
 ## O medalhão de Carlos Gomes
 
-Sobre a boca de cena, camadas de tinta escondiam o retrato de Carlos Gomes. Durante o restauro, uma prospecção delicada revelou a figura. A recuperação envolveu remoção controlada das camadas, reintegração de lacunas e proteção final.
+Sobre a boca de cena, o retrato de Carlos Gomes — obra original do pintor italiano Ettore Adriano Fabri — fora encoberto por camadas de tinta. Durante o restauro, uma prospecção delicada revelou a figura. A recuperação envolveu remoção controlada das camadas, reintegração de lacunas e proteção final.
 
 Esse episódio resume o trabalho de restauração: não inventar um passado, mas procurar evidências, interpretar marcas e devolver leitura ao que sobreviveu.
 
