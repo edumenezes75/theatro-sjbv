@@ -15,14 +15,19 @@ const PRIMARY = [
   { href: '/programacao', label: 'Programação' },
   { href: '/visite', label: 'Visite' },
 ];
-const MORE = [
-  { href: '/documentario', label: 'Documentário' },
-  { href: '/visita-guiada', label: 'Visita guiada' },
-  { href: '/linha-do-tempo', label: 'Linha do tempo' },
-  { href: '/memorias', label: 'Memórias e curiosidades' },
-  { href: '/o-theatro', label: 'O Theatro' },
-  { href: '/fontes', label: 'Pesquisa e fontes' },
+const MORE_GROUPS = [
+  { title: 'Explorar', items: [
+    { href: '/documentario', label: 'Documentário' },
+    { href: '/linha-do-tempo', label: 'Linha do tempo' },
+    { href: '/memorias', label: 'Memórias e curiosidades' },
+    { href: '/visita-guiada', label: 'Visita guiada' },
+  ] },
+  { title: 'Sobre', items: [
+    { href: '/o-theatro', label: 'O Theatro' },
+    { href: '/fontes', label: 'Pesquisa e fontes' },
+  ] },
 ];
+const MORE = MORE_GROUPS.flatMap((g) => g.items);
 
 export default function Nav() {
   const pathname = usePathname();
@@ -73,9 +78,14 @@ export default function Nav() {
               Mais <IconChevron size={12} className={`transition-transform ${more ? 'rotate-90' : ''}`} />
             </button>
             {more && (
-              <div className="absolute right-0 top-full mt-3 w-60 rounded-sm border border-gold/25 bg-cream p-2 shadow-xl dark:bg-nightsoft">
-                {MORE.map((l) => (
-                  <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className="block rounded-sm px-3 py-2 font-sans text-sm text-ink/80 hover:bg-gold/10 dark:text-cream/80">{l.label}</Link>
+              <div className="absolute right-0 top-full mt-3 w-64 rounded-sm border border-gold/25 bg-cream p-2 shadow-xl dark:bg-nightsoft">
+                {MORE_GROUPS.map((g, gi) => (
+                  <div key={g.title} className={gi > 0 ? 'mt-1 border-t border-gold/15 pt-1' : ''}>
+                    <p className="px-3 pb-1 pt-2 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{g.title}</p>
+                    {g.items.map((l) => (
+                      <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className="block rounded-sm px-3 py-2 font-sans text-sm text-ink/80 hover:bg-gold/10 dark:text-cream/80">{l.label}</Link>
+                    ))}
+                  </div>
                 ))}
               </div>
             )}
