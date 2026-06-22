@@ -110,6 +110,14 @@ O período de restauro não foi de silêncio absoluto. A Escola de Música funci
 
 Em 1995, o show *Relembranças* reuniu público em uma sala com piso bruto e cadeiras emprestadas. Essa imagem é valiosa porque recusa uma divisão simples entre “ruína” e “obra pronta”: a cultura persistiu durante a transformação.
 
+## Conservação: um cuidado que continua
+
+Preservar não termina com a reabertura. O último grande ciclo de acabamentos foi o de 2002; desde então, a casa recebeu manutenções pontuais. Em 2021, a Prefeitura contratou um estudo técnico de preservação e pintura, reconhecendo a necessidade de retomar um cuidado mais amplo.
+
+Reportagens locais entre 2023 e 2024 registraram pontos a enfrentar — entre eles a entrada de água da chuva por portas laterais e a fragilidade de esquadrias — e listaram demandas de pintura, palco, camarins, instalações, acessibilidade, som e luz. Em 2024, obras externas e internas avançaram com pintura de fachada, palco e foyer; parte das intervenções, porém, ficou inacabada, e a manutenção preventiva permanece como agenda aberta.
+
+Esse é o estágio honesto de um edifício de mais de cem anos: vivo e em uso, mas exigindo atenção contínua. A própria história do Theatro mostra que sua conservação sempre dependeu de vontade pública e mobilização — e segue dependendo.
+
 ## O que a restauração ensina
 
 A recuperação do Theatro demonstra que preservar é escolher coletivamente. Exige conhecimento técnico, recursos, negociação, paciência e conflito. Também exige uso: depois de salvo, o edifício precisava voltar a produzir encontros.
@@ -120,4 +128,4 @@ Essa história honra não apenas autoridades e especialistas, mas também trabal
 
 [Conhecer as pessoas do restauro](./pessoas#preservacao-e-restauro) · [Ver documentos no acervo](./acervo)
 
-<!-- Fontes principais: Menezes, 2014, pp. 113–170; Processo CONDEPHAAT 23.125/84; depoimentos de Ana Laura Zenun e Nilson Zenun; estudos de Luis Pedro Dragão Jeronimo. -->
+<!-- Fontes principais: Menezes, 2014, pp. 113–170; Processo CONDEPHAAT 23.125/84; depoimentos de Ana Laura Zenun e Nilson Zenun; estudos de Luis Pedro Dragão Jeronimo. Conservação recente: jornal O Município (2024) e comunicações da Prefeitura (2021–2024). -->
