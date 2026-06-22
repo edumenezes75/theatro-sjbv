@@ -1,7 +1,7 @@
 'use client';
 import { useMemo, useState } from 'react';
 
-type Seg = { t: string; s: number; text: string };
+type Seg = { t: string; s: number; text: string; link?: { href: string; label: string } };
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
 export default function TranscricaoFilme({ segs, youtubeId }: { segs: Seg[]; youtubeId: string }) {
@@ -39,7 +39,12 @@ export default function TranscricaoFilme({ segs, youtubeId }: { segs: Seg[]; you
             >
               ▸ {x.t}
             </a>
-            <p className="font-sans text-[0.97rem] leading-relaxed text-ink/85 dark:text-cream/85">{x.text}</p>
+            <div className="min-w-0">
+              <p className="font-sans text-[0.97rem] leading-relaxed text-ink/85 dark:text-cream/85">{x.text}</p>
+              {x.link && (
+                <a href={x.link.href} className="mt-1.5 inline-block font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain hover:text-gold dark:text-gold">ver: {x.link.label} →</a>
+              )}
+            </div>
           </li>
         ))}
         {list.length === 0 && (
