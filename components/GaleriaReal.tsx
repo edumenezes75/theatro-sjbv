@@ -39,9 +39,6 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
 
   const [idx, setIdx] = useState<number | null>(null);
   const [playing, setPlaying] = useState(false);
-  const STEP = 24;
-  const [limit, setLimit] = useState(STEP);
-  useEffect(() => { setLimit(STEP); }, [cat, ep]);
 
   const close = useCallback(() => { setIdx(null); setPlaying(false); }, []);
   const prev = useCallback(() => setIdx((i) => (i === null ? i : (i - 1 + list.length) % list.length)), [list.length]);
@@ -100,7 +97,7 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
       )}
 
       <div className="columns-2 gap-3 sm:gap-4 md:columns-3 lg:columns-4 [&>*]:mb-3 sm:[&>*]:mb-4">
-        {list.slice(0, limit).map((f, i) => (
+        {list.map((f, i) => (
           <button key={f.id} onClick={() => setIdx(i)} className="group relative block w-full overflow-hidden rounded-sm bg-ink/10 dark:bg-cream/5">
             <Image
               src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h}
@@ -115,13 +112,6 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
         ))}
       </div>
 
-      {list.length > limit && (
-        <div className="mt-8 flex justify-center">
-          <button onClick={() => setLimit((n) => n + STEP)} className="rounded-full border border-curtain/40 px-6 py-2.5 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">
-            Ver mais imagens <span className="tabular-nums opacity-60">({list.length - limit})</span>
-          </button>
-        </div>
-      )}
 
       {open && (
         <div className="fixed inset-0 z-[120] flex flex-col bg-night" role="dialog" aria-modal="true" aria-label={open.alt}>
