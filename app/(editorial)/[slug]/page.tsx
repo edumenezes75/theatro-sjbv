@@ -13,6 +13,7 @@ import ReadingProgress from '@/components/ReadingProgress';
 import ChapterIndex from '@/components/ChapterIndex';
 import VisitaInfo from '@/components/VisitaInfo';
 import RestauroResumo from '@/components/RestauroResumo';
+import FerraduraDiagrama from '@/components/FerraduraDiagrama';
 
 const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
@@ -116,6 +117,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         )}
 
         {params.slug === 'restauracao' && <RestauroResumo />}
+        {params.slug === 'arquitetura' && <FerraduraDiagrama />}
 
         {showAD && antesDepoisList.length > 0 && (
           <section className="mt-16 border-t border-gold/25 pt-12">
