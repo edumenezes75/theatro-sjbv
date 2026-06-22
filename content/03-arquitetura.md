@@ -49,7 +49,7 @@ A notícia publicada por ocasião da pedra fundamental descreveu:
 | Proscênio | abertura anunciada de 11 m por 8 m |
 | Fosso | espaço para orquestra, com número divergente entre fontes |
 
-Esses números mostram o projeto idealizado. A execução, a lotação autorizada e a configuração atual nem sempre coincidiram com ele — por isso são tratadas como pontos a confirmar, e não como medidas definitivas. Hoje, os mapas de assentos disponíveis somam cerca de 714 lugares (plateia 295, frisas 108, camarotes 124, galerias 167 e 20 cadeiras superiores), mas trazem anotações manuscritas e ainda dependem de uma ficha técnica oficial atualizada para fixar a lotação licenciada.
+Esses números mostram o projeto idealizado. A execução, a lotação autorizada e a configuração atual nem sempre coincidiram com ele — por isso são tratadas como pontos a confirmar, e não como medidas definitivas. Hoje, os mapas de assentos disponíveis somam cerca de 714 lugares (plateia 295, frisas 108, camarotes 124, galerias 167 e 20 cadeiras superiores), mas trazem anotações manuscritas e ainda dependem de uma ficha técnica oficial atualizada para fixar a lotação licenciada. Outros números também variam entre as fontes: o fosso de orquestra, anunciado para até 80 “figuras” em 1913, é hoje descrito para cerca de 39 músicos; e uma estatística de 1919 registrava aproximadamente 250 lâmpadas iluminando a casa.
 
 ## A ferradura
 

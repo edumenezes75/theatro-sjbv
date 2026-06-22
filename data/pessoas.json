@@ -253,7 +253,7 @@
       "related": [],
       "status": "documentado; situação institucional deve ser atualizada",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 151–162.",
-      "bio": "A Associação dos Amigos do Theatro Municipal nasceu em 2003, do mesmo espírito de mobilização que salvou o edifício. Por convênio autorizado naquele ano, administrou o Theatro por cerca de dezoito anos — programação, bilheteria, manutenção e apoio técnico — até a Lei municipal nº 4.898, de 2021, encerrar o convênio e devolver a gestão à Prefeitura, pelo Departamento de Cultura."
+      "bio": "A Associação dos Amigos do Theatro Municipal nasceu em 2003, do mesmo espírito de mobilização que salvou o edifício. Por convênio autorizado naquele ano, administrou o Theatro por cerca de dezoito anos — programação, bilheteria, manutenção e apoio técnico — até a Lei municipal nº 4.898, de 2021, encerrar o convênio e devolver a gestão à Prefeitura, pelo Departamento de Cultura. A associação foi declarada de utilidade pública municipal pela Lei nº 2.537/2009 e, em estudo de 2019, reunia cerca de 280 associados contribuintes."
     },
     {
       "id": "jacana-altair",
@@ -364,6 +364,17 @@
       "status": "documentado",
       "source": "Jeronimo, 2020/2021; Menezes, 2014.",
       "bio": "Assumiu a administração do Cine Theatro em 1957, na fase em que a sala disputava público com novos cinemas da cidade, a televisão e novas formas de lazer — período que antecede o declínio e o fechamento de 1982."
+    },
+    {
+      "id": "p028",
+      "name": "Rodolfo Mossello",
+      "category": "construção",
+      "role": "Cenografia da estreia",
+      "summary": "Assinou a cenografia de Uma Causa Célebre, na noite inaugural de 1914.",
+      "related": [],
+      "status": "corroborado",
+      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+      "bio": "A ele se atribui a cenografia de *Uma Causa Célebre*, a peça que abriu o Theatro na noite de 31 de outubro de 1914 — o primeiro cenário a ocupar o palco que a cidade acabara de erguer."
     }
   ]
 }

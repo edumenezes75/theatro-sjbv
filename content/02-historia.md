@@ -45,7 +45,7 @@ O custo superou o capital inicial. Empréstimos e debêntures foram necessários
 
 ## 3. Uma noite de gala — 31 de outubro de 1914 {#uma-noite-de-gala}
 
-A inauguração ocorreu em **31 de outubro de 1914**. A banda do maestro Joaquim Azevedo abriu a cerimônia. Antônio Cândido de Oliveira Filho discursou em nome dos responsáveis pelo empreendimento. Depois, a Companhia Santos Silva apresentou a peça *Uma Causa Célebre*.
+A inauguração ocorreu em **31 de outubro de 1914**. A banda do maestro Joaquim Azevedo abriu a cerimônia. Antônio Cândido de Oliveira Filho discursou em nome dos responsáveis pelo empreendimento. Depois, a Companhia Santos Silva apresentou a peça *Uma Causa Célebre*, com cenografia atribuída a Rodolfo Mossello.
 
 O público ocupou plateia, frisas, camarotes e galeria. Para a cidade, aquela noite representava mais do que entretenimento. O novo prédio era apresentado como sinal de progresso e capacidade coletiva.
 
@@ -59,7 +59,7 @@ Uma versão posterior, de 8 de novembro, circulou em páginas institucionais. Aq
 
 ## 4. A cidade inteira encontra um palco — 1914 a 1936
 
-Nos primeiros anos, o Theatro recebeu companhias que percorriam circuitos entre São Paulo, cidades do interior e Poços de Caldas. Algumas permaneciam por vários dias e apresentavam repertórios extensos. Teatro, opereta, concertos e cinema dividiam a programação.
+Nos primeiros anos, o Theatro recebeu companhias que percorriam circuitos entre São Paulo, cidades do interior e Poços de Caldas. Algumas permaneciam por vários dias e apresentavam repertórios extensos. Teatro, opereta, concertos e cinema dividiam a programação. Um levantamento do jornal *O Município* entre 1913 e 1925 examinou 576 edições e encontrou o Theatro em 433 delas — cerca de 75% —, com 553 menções (476 anúncios, 39 notas e 38 crônicas) e ao menos 67 eventos ao vivo não cinematográficos. O edifício não era atração episódica: era parte da rotina da cidade.
 
 Ao mesmo tempo, a população local apropriou-se do edifício. Festivais beneficentes reuniam música, declamação, bailados e comédias. A renda ajudava a Matriz, a Santa Casa, escolas, bandas e instituições de assistência. O palco transformava talento artístico em mobilização comunitária.
 
@@ -95,7 +95,7 @@ O segundo andar tornou-se um laboratório cultural. Ali funcionaram a Sociedade 
 
 Em fevereiro de 1967, frisas e camarotes foram retirados para aumentar o número de assentos do cinema. A intervenção alterou profundamente a leitura original da sala. Para o público, isso significou mais lugares; para o edifício histórico, significou a perda de elementos importantes.
 
-Ainda ocorreram shows, entre eles Roberto Carlos, em 1968, e apresentações de Dercy Gonçalves e Agnaldo Rayol, em 1982. Mas a concorrência de outras salas, a televisão, o desgaste físico e as dificuldades econômicas aceleraram o declínio.
+Ainda ocorreram shows, entre eles Roberto Carlos, em 1968, e apresentações de Dercy Gonçalves e Agnaldo Rayol, em 1982. Nomes como Jorge Goulart e Carlos Galhardo aparecem com frequência nas memórias do circuito artístico que passou pelo palco. Mas a concorrência de outras salas, a televisão, o desgaste físico e as dificuldades econômicas aceleraram o declínio.
 
 ## 6. O prédio que a cidade se recusou a perder — 1981 a 1987
 

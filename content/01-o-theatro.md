@@ -83,6 +83,8 @@ O tombamento protege o edifício e reconhece seu valor histórico. Mas o patrim�
 
 A restauração salvou paredes, estruturas e ornamentos. A programação, por sua vez, devolveu sentido a esses elementos. Um teatro vazio pode ser um monumento; um teatro ocupado volta a ser encontro.
 
+Por isso, a preservação não termina na pedra: completa-se quando o edifício é apropriado por públicos diversos. Estudos e crônicas entre 2012 e 2014 discutiram a baixa frequência em certas atrações e o risco de o prédio se tornar um “elefante branco” — e apontaram barreiras concretas: distância dos bairros periféricos, preço, comunicação, transporte e hábitos culturais. Reconhecer essas tensões é parte de cuidar do Theatro: o desafio contemporâneo é menos salvar o prédio do que torná-lo, de fato, de toda a cidade.
+
 ## O Theatro hoje
 
 O edifício permanece ativo e integrado à programação cultural de São João da Boa Vista. Em 2024, recebeu nova etapa de revitalização, com intervenções anunciadas no palco, foyer e pintura externa. Em 2025 e 2026, continuou a sediar música, teatro, dança e eventos públicos.

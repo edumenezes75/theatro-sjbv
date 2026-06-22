@@ -33,6 +33,8 @@ A classe artística transformou a preservação em assunto público. Houve passe
 
 Zeza Freitas recorda que jovens artistas percorriam casas e ruas em busca de apoio. O movimento não era nostalgia passiva. Defendia a ativação de um espaço cultural que pudesse voltar a ser usado.
 
+A campanha, porém, não foi consenso. Crônicas contrárias acusavam os preservacionistas de querer “tomar” propriedade alheia, minimizavam o risco de demolição e lembravam o alto custo da recuperação. Em abril de 1983, a *Folha de S.Paulo* noticiou o risco de demolição, ampliando a repercussão. Registrar esse conflito — entre direito de propriedade, restrição orçamentária e valor coletivo — é parte da honestidade da história, muitas vezes apagada nas versões apenas celebratórias.
+
 Quatro abaixo-assinados reuniram 1.026 assinaturas, e uma consulta popular sobre o destino do prédio mobilizou 1.651 participantes — força política decisiva para a compra.
 
 > **Patrimônio em ação:** o documento pedia não apenas conservação, mas “ativação de um espaço cultural”. A luta era para salvar o prédio e devolver-lhe função.
@@ -41,7 +43,7 @@ Quatro abaixo-assinados reuniram 1.026 assinaturas, e uma consulta popular sobre
 
 Em janeiro de 1984, a Prefeitura comprou a primeira parte do imóvel. O palco e a área posterior permaneceram inicialmente com o proprietário. A equipe técnica logo percebeu que um teatro funcional exigia o conjunto completo.
 
-A segunda negociação foi concluída em 1985. A compra integral permitiu pensar caixa cênica, camarins, bastidores e acessos de forma coerente.
+A segunda negociação, baseada na Lei municipal nº 241, de 27 de maio de 1985, foi concluída no dia 28 daquele mês. A compra integral permitiu pensar caixa cênica, camarins, bastidores e acessos de forma coerente. Fontes secundárias citam valores de Cr$ 45 milhões na primeira etapa — em dinheiro e lotes — e Cr$ 100 milhões na segunda; números que devem ser lidos com cautela, sem conversão simples para hoje, já que não há prestação de contas consolidada disponível.
 
 A aquisição em duas etapas não foi um acaso burocrático: comprar primeiro a frente e, depois, o palco e os fundos foi o que tornou possível pensar o Theatro como um conjunto coerente — caixa cênica, camarins e bastidores à altura da sala. Por isso o terreno posterior era decisivo.
 
@@ -68,7 +70,7 @@ O tombamento não financiou sozinho a obra nem resolveu todos os problemas. Sua 
 - Resolução de tombamento: **SC nº 03, de 19 de janeiro de 1987**
 - Livro do Tombo Histórico: **inscrição nº 261, p. 68**
 
-Esses documentos formam a base legal da preservação estadual, somada à proteção municipal. No âmbito federal, o processo aberto no IPHAN foi analisado e arquivado em 2017, sem tombamento nacional — a proteção do Theatro é, portanto, estadual e municipal.
+Esses documentos formam a base legal da preservação estadual, somada à proteção municipal. No âmbito federal, o processo aberto no IPHAN foi analisado e arquivado em 2017, sem tombamento nacional — a proteção do Theatro é, portanto, estadual e municipal. No plano local, a salvaguarda apoia-se em atos como o processo municipal nº 1.556/08, o Decreto nº 3.334 e o Plano Diretor de 2019, que enquadra o centro histórico e seus bens em parâmetros próprios de preservação.
 
 ## A obra estrutural
 
@@ -102,7 +104,7 @@ A restauração durou mais que um mandato. Diferentes administrações contribu�
 
 Em dezembro de 1992, o foyer foi inaugurado. O espaço passou a receber exposições e recitais, mesmo enquanto o restante permanecia em obra.
 
-Em 1998, a Fundação Oliveira Neto foi criada para captar recursos, com Laert de Lima Teixeira entre os articuladores do impulso final. Campanhas comunitárias deram visibilidade à causa: a “Dê para São João parte do Leão”, voltada ao incentivo fiscal, e a “Vestindo a Camisa” (1999), que mobilizou estudantes, professores e moradores. Em 2000, Badi Assad e Simone Sou apresentaram-se num palco improvisado, transformando o canteiro de obras em programação cultural. As somas publicadas da restauração variam entre cerca de R$ 695,7 mil e R$ 732,2 mil, conforme o recorte contábil — recursos do Estado, do Ministério da Cultura/IPHAN, do município, da Fundação e de campanhas. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
+Em 1998, a Fundação Oliveira Neto foi criada para captar recursos, com Laert de Lima Teixeira entre os articuladores do impulso final. Campanhas comunitárias deram visibilidade à causa: a “Dê para São João parte do Leão”, voltada ao incentivo fiscal, e a “Vestindo a Camisa” (1999), que mobilizou estudantes, professores e moradores. Em 2000, Badi Assad e Simone Sou apresentaram-se num palco improvisado, transformando o canteiro de obras em programação cultural. As somas publicadas da restauração variam entre cerca de R$ 695,7 mil e R$ 732,2 mil, conforme o recorte contábil. Entre os componentes citados estão R$ 250 mil estaduais, R$ 152.230 federais, R$ 170 mil da Fundação Oliveira Neto e R$ 160 mil municipais — recursos somados ao longo de quase dezessete anos, sem prestação de contas consolidada que permita fechar o total com precisão. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
 
 ## O edifício continuou vivo durante as obras
 
@@ -112,7 +114,7 @@ Em 1995, o show *Relembranças* reuniu público em uma sala com piso bruto e cad
 
 ## Conservação: um cuidado que continua
 
-Preservar não termina com a reabertura. O último grande ciclo de acabamentos foi o de 2002; desde então, a casa recebeu manutenções pontuais. Em 2021, a Prefeitura contratou um estudo técnico de preservação e pintura, reconhecendo a necessidade de retomar um cuidado mais amplo.
+Preservar não termina com a reabertura. O último grande ciclo de acabamentos foi o de 2002; desde então, a casa recebeu manutenções pontuais. Em 2021, a Prefeitura contratou um estudo técnico de preservação e pintura — conduzido por Lorette Arquitetos, com Antonio Carlos Lorette e Alisson Tavares —, reconhecendo a necessidade de retomar um cuidado mais amplo. Notícias do período registraram, ainda, emendas destinadas à reforma, como R$ 170 mil e, em 2024, R$ 200 mil.
 
 Reportagens locais entre 2023 e 2024 registraram pontos a enfrentar — entre eles a entrada de água da chuva por portas laterais e a fragilidade de esquadrias — e listaram demandas de pintura, palco, camarins, instalações, acessibilidade, som e luz. Em 2024, obras externas e internas avançaram com pintura de fachada, palco e foyer; parte das intervenções, porém, ficou inacabada, e a manutenção preventiva permanece como agenda aberta.
 

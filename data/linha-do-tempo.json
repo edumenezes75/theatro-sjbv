@@ -389,7 +389,7 @@
     "date": "1930-06",
     "display": "jun. 1930",
     "title": "Villa-Lobos e Souza Lima",
-    "summary": "Música de concerto ocupa o Theatro e a Sociedade de Cultura Artística.",
+    "summary": "A passagem do conjunto de Villa-Lobos, com Souza Lima ao piano; Lucília e Anita Villa-Lobos são associadas ao episódio.",
     "era": "primeiras décadas",
     "tags": [
       "música"
@@ -429,6 +429,21 @@
     "status": "documentado",
     "sources": [
       "Menezes 2014, \"Theatro Municipal, 100 anos\""
+    ]
+  },
+  {
+    "id": "t087",
+    "date": "1931",
+    "display": "1931",
+    "title": "Conferência de Guilherme de Almeida",
+    "summary": "O poeta modernista realiza conferência no Theatro.",
+    "era": "primeiras décadas",
+    "tags": [
+      "literatura"
+    ],
+    "status": "documentado",
+    "sources": [
+      "Jeronimo, 2020"
     ]
   },
   {
@@ -493,6 +508,22 @@
     "status": "corroborado",
     "sources": [
       "Menezes 2014, p. 73"
+    ]
+  },
+  {
+    "id": "t088",
+    "date": "1944",
+    "display": "1944",
+    "title": "Cine Avenida amplia a concorrência",
+    "summary": "A inauguração de outro cinema na cidade aumenta a disputa por público.",
+    "era": "cine theatro",
+    "tags": [
+      "cinema",
+      "cidade"
+    ],
+    "status": "documentado",
+    "sources": [
+      "Jeronimo, 2020"
     ]
   },
   {
@@ -1200,6 +1231,22 @@
     "status": "documentado",
     "sources": [
       "Menezes 2014, \"Theatro Municipal, 100 anos\""
+    ]
+  },
+  {
+    "id": "t089",
+    "date": "2009",
+    "display": "2009",
+    "title": "AMITE de utilidade pública",
+    "summary": "A associação é declarada de utilidade pública municipal pela Lei nº 2.537.",
+    "era": "contemporâneo",
+    "tags": [
+      "AMITE",
+      "gestão"
+    ],
+    "status": "documentado",
+    "sources": [
+      "Lei municipal nº 2.537/2009"
     ]
   },
   {
