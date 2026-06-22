@@ -867,5 +867,192 @@
   "alt": "Os vergalhões que sustentam o palco, na reestruturação da caixa cênica.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro"
+ },
+ {
+  "id": "h083",
+  "file": "fotos/hr3-restauro-01.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1800,
+  "h": 1350,
+  "alt": "O artista Olandim na recuperação da pintura do medalhão de Carlos Gomes, sobre a boca de cena, durante o restauro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Restauro"
+ },
+ {
+  "id": "h084",
+  "file": "fotos/hr3-restauro-02.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1800,
+  "h": 1334,
+  "alt": "Decapagem — a remoção controlada das camadas de tinta que recobriam a pintura decorativa da sala.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Restauro"
+ },
+ {
+  "id": "h085",
+  "file": "fotos/hr3-restauro-03.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1800,
+  "h": 1361,
+  "alt": "O restaurador Elias na recuperação da pintura ornamental da sala, durante as obras.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Restauro"
+ },
+ {
+  "id": "h086",
+  "file": "fotos/hr3-restauro-04.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1258,
+  "h": 1800,
+  "alt": "A estrutura metálica instalada no restauro, conciliando segurança e preservação do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Restauro"
+ },
+ {
+  "id": "h087",
+  "file": "fotos/hr3-restauro-05.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1490,
+  "h": 1032,
+  "alt": "A escavação do fosso da orquestra, sob o palco, com a boca de cena ao fundo, durante as obras.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Restauro"
+ },
+ {
+  "id": "h088",
+  "file": "fotos/hr3-restauro-06.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1800,
+  "h": 1223,
+  "alt": "O escoramento das paredes do fosso da orquestra, na reestruturação do palco.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Restauro"
+ },
+ {
+  "id": "h089",
+  "file": "fotos/hr3-restauro-07.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1800,
+  "h": 1332,
+  "alt": "O restaurador Maércio na recuperação dos ornatos pintados da sala.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Restauro"
+ },
+ {
+  "id": "h090",
+  "file": "fotos/hr3-restauro-08.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1760,
+  "h": 1422,
+  "alt": "Marcas e assinaturas de antigas companhias na lateral do palco, reveladas durante o restauro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Restauro"
+ },
+ {
+  "id": "h091",
+  "file": "fotos/hr3-restauro-09.jpg",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
+  "w": 1800,
+  "h": 1227,
+  "alt": "A fachada em recuperação, com o revestimento externo e a estrutura de andaimes.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Restauro"
+ },
+ {
+  "id": "h092",
+  "file": "fotos/hr3-ornamentos-01.jpg",
+  "category": "ornamentos",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 1800,
+  "h": 1200,
+  "alt": "A inscrição “Municipal” na cornija da fachada — parte do programa decorativo eclético do edifício.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Atual"
+ },
+ {
+  "id": "h093",
+  "file": "fotos/hr3-ornamentos-02.jpg",
+  "category": "ornamentos",
+  "categoryLabel": "Ornamentos e medalhão",
+  "w": 1800,
+  "h": 1200,
+  "alt": "Relevo alegórico do programa decorativo da sala, no estilo eclético do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Atual"
+ },
+ {
+  "id": "h094",
+  "file": "fotos/hr3-fachada-01.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 1800,
+  "h": 1193,
+  "alt": "Vista aérea do Theatro e do entorno, no centro de São João da Boa Vista.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Atual"
+ },
+ {
+  "id": "h095",
+  "file": "fotos/hr3-eventos-01.jpg",
+  "category": "eventos",
+  "categoryLabel": "Palco e cultura",
+  "w": 1800,
+  "h": 1286,
+  "alt": "Recital ao piano no palco do Theatro — a música de concerto na casa centenária.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Atual"
+ },
+ {
+  "id": "h096",
+  "file": "fotos/hr3-sala-01.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
+  "w": 1800,
+  "h": 1254,
+  "alt": "A sala vista da plateia — a boca de cena, o forro decorado e a curva das galerias.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Atual"
+ },
+ {
+  "id": "h097",
+  "file": "fotos/hr3-eventos-02.jpg",
+  "category": "eventos",
+  "categoryLabel": "Palco e cultura",
+  "w": 1800,
+  "h": 1189,
+  "alt": "Abertura da Semana Furlanetto, 1998 — a sala ocupada para a festa.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Histórico"
+ },
+ {
+  "id": "h098",
+  "file": "fotos/hr3-eventos-03.jpg",
+  "category": "eventos",
+  "categoryLabel": "Palco e cultura",
+  "w": 1800,
+  "h": 1334,
+  "alt": "O conjunto Nin e seus Rocketes no palco do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Histórico"
+ },
+ {
+  "id": "h099",
+  "file": "fotos/hr3-eventos-04.jpg",
+  "category": "eventos",
+  "categoryLabel": "Palco e cultura",
+  "w": 1800,
+  "h": 1205,
+  "alt": "Recital ao piano com Cláudio Richerme, no palco do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Atual"
  }
 ]
