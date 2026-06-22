@@ -47,7 +47,7 @@ A aquisição em duas etapas não foi um acaso burocrático: comprar primeiro a 
 
 ## A equipe e a aprendizagem
 
-Após a compra, o município reuniu profissionais de arquitetura, engenharia e artes. Entre os nomes associados ao núcleo inicial estão João Batista Merlin, Ana Laura Barcellos do Amaral Zenun, Nilson Zenun, Joaquim Augusto Azevedo Costa e Mello e José Marcondes.
+O **Projeto de Restauração e Reciclagem**, datado de janeiro de 1986, foi coordenado pela arquiteta Ana Laura Barcellos do Amaral Zenun e pelo engenheiro Nilson Zenun. A proposta não era congelar o prédio em 1914, mas recuperar sua espacialidade histórica e adaptá-la ao funcionamento contemporâneo. Após a compra, o município reuniu profissionais de arquitetura, engenharia e artes. Entre os nomes associados ao núcleo inicial estão João Batista Merlin, Ana Laura Barcellos do Amaral Zenun, Nilson Zenun, Joaquim Augusto Azevedo Costa e Mello e José Marcondes.
 
 A equipe não partiu da ideia de que já sabia tudo. Visitou teatros no Rio de Janeiro e em outras cidades, conheceu áreas técnicas, acompanhou espetáculos e conversou com especialistas em cenotecnia, acústica, estrutura e equipamentos.
 
@@ -92,7 +92,9 @@ O rebaixamento das fundações foi executado lentamente. Relatos técnicos regis
 
 A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos. Amostras de camadas antigas foram analisadas para buscar tons compatíveis. Capitéis e detalhes receberam tratamento e douração.
 
-Na boca de cena, o medalhão de Carlos Gomes foi revelado sob sucessivas pinturas. Cézar Roberto Olandim, Maércio Mazzi e Elias Gervasi aparecem associados às etapas de descoberta e reintegração da obra.
+Na boca de cena, o medalhão de Carlos Gomes — obra original do pintor italiano Ettore Adriano Fabri — foi revelado sob sucessivas pinturas. Cézar Roberto Olandim, Maércio Mazzi e Elias Gervasi aparecem associados às etapas de descoberta e reintegração da obra; Romeu Paulucci Buzon Filho atuou na recuperação dos ornamentos da fachada, em 1992.
+
+Algumas decisões foram interpretativas, e a honestidade pede registrá-las como tais: seis espelhos no foyer e as pinturas de ramos de café nas tabeiras foram acréscimos do restauro, inspirados em casas como o Theatro Municipal de São Paulo e o São Pedro — não remanescentes comprovados de 1914.
 
 ## Uma obra atravessada por governos e gerações
 
@@ -100,7 +102,7 @@ A restauração durou mais que um mandato. Diferentes administrações contribu�
 
 Em dezembro de 1992, o foyer foi inaugurado. O espaço passou a receber exposições e recitais, mesmo enquanto o restante permanecia em obra.
 
-Em 1998, a Fundação Oliveira Neto foi criada para captar recursos. Campanhas públicas e a Lei Rouanet ajudaram a avançar. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
+Em 1998, a Fundação Oliveira Neto foi criada para captar recursos, com Laert de Lima Teixeira entre os articuladores do impulso final. Campanhas comunitárias deram visibilidade à causa: a “Dê para São João parte do Leão”, voltada ao incentivo fiscal, e a “Vestindo a Camisa” (1999), que mobilizou estudantes, professores e moradores. Em 2000, Badi Assad e Simone Sou apresentaram-se num palco improvisado, transformando o canteiro de obras em programação cultural. As somas publicadas da restauração variam entre cerca de R$ 695,7 mil e R$ 732,2 mil, conforme o recorte contábil — recursos do Estado, do Ministério da Cultura/IPHAN, do município, da Fundação e de campanhas. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
 
 ## O edifício continuou vivo durante as obras
 

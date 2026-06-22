@@ -283,6 +283,87 @@
       ],
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 79."
+    },
+    {
+      "id": "p021",
+      "name": "Ettore Adriano Fabri",
+      "category": "construção",
+      "role": "Pintor do medalhão de Carlos Gomes",
+      "summary": "Pintor italiano, autor do medalhão de Carlos Gomes sobre o proscênio.",
+      "related": [],
+      "status": "documentado",
+      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+      "bio": "Pintor italiano, é o autor do medalhão de Carlos Gomes que coroa a boca de cena. A obra ficou encoberta por camadas de tinta ao longo da fase de cinema e só voltou à luz na prospecção delicada do restauro, que a revelou e reintegrou."
+    },
+    {
+      "id": "p022",
+      "name": "Antenor de Almeida",
+      "category": "construção",
+      "role": "Pintura e decoração interna",
+      "summary": "Responsável pela pintura e decoração interna originais do Theatro.",
+      "related": [
+        "p021"
+      ],
+      "status": "documentado",
+      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+      "bio": "Responsável pela pintura e pela decoração interna originais do Theatro, na construção de 1913–1914 — os ornatos, arabescos e acabamentos que dariam à sala seu caráter eclético e que o restauro, décadas depois, precisaria estudar e reconstituir."
+    },
+    {
+      "id": "p023",
+      "name": "Joaquim José de Oliveira Neto",
+      "category": "cultura local",
+      "role": "Proprietário na fase Cine Theatro",
+      "summary": "Adquiriu a maioria das ações em 1937 e reorganizou o prédio como Cine Theatro.",
+      "related": [],
+      "status": "documentado",
+      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+      "bio": "Em 1937 adquiriu a maioria das ações da Companhia e reestruturou o edifício como Cine Theatro, com novos equipamentos de projeção e nova organização de assentos. Foi proprietário decisivo na fase cinematográfica e nas negociações que, décadas mais tarde, abririam caminho para a compra pública. A Fundação Oliveira Neto, criada em 1998, leva o nome da família."
+    },
+    {
+      "id": "p024",
+      "name": "Romeu Paulucci Buzon Filho",
+      "category": "restauro",
+      "role": "Recuperação de ornamentos da fachada",
+      "summary": "Atuou na recuperação dos ornamentos da fachada durante o restauro.",
+      "related": [],
+      "status": "documentado",
+      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+      "bio": "Trabalhou na recuperação dos ornamentos da fachada durante a restauração, em etapa registrada por volta de 1992 — o trabalho minucioso de moldes e recomposições que devolveu à frente do edifício seus relevos, cornijas e detalhes perdidos."
+    },
+    {
+      "id": "p025",
+      "name": "Laert de Lima Teixeira",
+      "category": "preservação",
+      "role": "Captação e Fundação Oliveira Neto",
+      "summary": "Articulador do impulso final da restauração e da captação via Fundação Oliveira Neto.",
+      "related": [],
+      "status": "documentado",
+      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+      "bio": "Aparece entre os articuladores do impulso final da restauração, ligado à Fundação Oliveira Neto e às campanhas de captação que ajudaram a concluir a obra e a chegar à reabertura de 2002."
+    },
+    {
+      "id": "p026",
+      "name": "Sidney Estanislau Beraldo",
+      "category": "preservação",
+      "role": "Prefeito na aquisição municipal",
+      "summary": "Prefeito no período da compra pública e do início do projeto de recuperação.",
+      "related": [],
+      "status": "documentado",
+      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+      "bio": "Prefeito de São João da Boa Vista no período da aquisição pública do Theatro e do início do projeto de recuperação. É também autor de *90 anos — Teatro Municipal* (2004), registro da compra, da preservação e da recuperação do edifício."
+    },
+    {
+      "id": "p027",
+      "name": "Braz Nicola Sabino",
+      "category": "trabalho",
+      "role": "Administrador do Cine Theatro a partir de 1957",
+      "summary": "Assumiu a administração do Cine Theatro em 1957.",
+      "related": [
+        "p023"
+      ],
+      "status": "documentado",
+      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+      "bio": "Assumiu a administração do Cine Theatro em 1957, na fase em que a sala disputava público com novos cinemas da cidade, a televisão e novas formas de lazer — período que antecede o declínio e o fechamento de 1982."
     }
   ]
 }

@@ -241,6 +241,22 @@
     ]
   },
   {
+    "id": "t085",
+    "date": "1924",
+    "display": "1924",
+    "title": "Rádio e guarda no edifício",
+    "summary": "Durante a Revolução de 1924, os pavimentos superiores abrigam a Rádio Cultura e a Guarda Municipal Provisória — o teatro como infraestrutura pública em tempo de crise.",
+    "era": "primeiras décadas",
+    "tags": [
+      "rádio",
+      "cidade"
+    ],
+    "status": "documentado",
+    "sources": [
+      "Jeronimo, 2020, pp. 130–149"
+    ]
+  },
+  {
     "id": "t009",
     "date": "1926-03-09",
     "display": "9 mar. 1926",
@@ -713,6 +729,21 @@
     "status": "documentado",
     "sources": [
       "Menezes 2014, \"Theatro Municipal, 100 anos\""
+    ]
+  },
+  {
+    "id": "t086",
+    "date": "1966",
+    "display": "1966",
+    "title": "Cacilda Becker e Walmor Chagas",
+    "summary": "Dois grandes nomes do teatro brasileiro sobem ao palco sanjoanense.",
+    "era": "declínio",
+    "tags": [
+      "teatro"
+    ],
+    "status": "documentado",
+    "sources": [
+      "Jeronimo, 2020"
     ]
   },
   {

@@ -121,6 +121,27 @@ export default function DocumentarioPage() {
         </section>
 
         <section className="mt-16">
+          <h2 className="font-display text-3xl">Ficha técnica</h2>
+          <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">Lançado em 2015, com cerca de 108 minutos.</p>
+          <dl className="mt-5 grid gap-x-8 gap-y-2.5 sm:grid-cols-2">
+            {[
+              ['Direção e edição', 'Eduardo Menezes'],
+              ['Roteiro', 'Neusa Menezes'],
+              ['Fotografia', 'Marcelo Gonçalves'],
+              ['Produção', 'Adriana Torati'],
+              ['Áudio', 'Diogo Felipe'],
+              ['Assistência de câmera', 'Filipe Della Torre'],
+              ['Imagens adicionais', 'Leonardo Nogueira e Leonardo Beraldo'],
+            ].map(([k, v]) => (
+              <div key={k} className="flex items-baseline justify-between gap-3 border-b border-gold/15 py-2">
+                <dt className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{k}</dt>
+                <dd className="text-right font-sans text-[0.95rem] text-ink/85 dark:text-cream/85">{v}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+
+        <section className="mt-16">
           <h2 className="font-display text-3xl">Acessibilidade</h2>
           <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">A transcrição navegável já está disponível acima; legendas e controles vêm do player do YouTube; recursos como audiodescrição seguem em preparação.</p>
           <ul className="mt-5 grid gap-2 sm:grid-cols-2">

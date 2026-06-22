@@ -49,13 +49,13 @@ A notícia publicada por ocasião da pedra fundamental descreveu:
 | Proscênio | abertura anunciada de 11 m por 8 m |
 | Fosso | espaço para orquestra, com número divergente entre fontes |
 
-Esses números mostram o projeto idealizado. A execução, a lotação autorizada e a configuração atual nem sempre coincidiram com ele — por isso são tratadas como pontos a confirmar, e não como medidas definitivas.
+Esses números mostram o projeto idealizado. A execução, a lotação autorizada e a configuração atual nem sempre coincidiram com ele — por isso são tratadas como pontos a confirmar, e não como medidas definitivas. Hoje, os mapas de assentos disponíveis somam cerca de 714 lugares (plateia 295, frisas 108, camarotes 124, galerias 167 e 20 cadeiras superiores), mas trazem anotações manuscritas e ainda dependem de uma ficha técnica oficial atualizada para fixar a lotação licenciada.
 
 ## A ferradura
 
 A sala curva distribui o público ao redor da plateia e aproxima os níveis superiores do palco. Em vez de uma caixa retangular simples, o espaço cria continuidade visual entre frisas, camarotes e galerias.
 
-Historicamente, essa disposição também organizava diferenças sociais. Os setores tinham preços, acessos e experiências distintas. A galeria podia receber grande público; frisas e camarotes ofereciam visibilidade e representação social; a plateia concentrava cadeiras classificadas por categoria.
+Historicamente, essa disposição também organizava diferenças sociais. Os setores tinham preços, acessos e experiências distintas. A galeria podia receber grande público; frisas e camarotes ofereciam visibilidade e representação social; a plateia concentrava cadeiras classificadas por categoria. Os preços traduziam a hierarquia: num benefício de 1916, a galeria custava 500 réis, a plateia 1$000, o camarote 5$000 e a frisa 6$000 — mais de dez vezes de diferença entre o lugar mais alto e o mais distinto.
 
 ## Madeira, metal e som
 

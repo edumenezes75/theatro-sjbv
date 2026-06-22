@@ -19,7 +19,7 @@ A história do Theatro Municipal pode ser lida como uma peça em sete atos. Há 
 
 No início do século XX, São João da Boa Vista já possuía salões, cinemas e grupos dramáticos. O crescimento econômico, a circulação de imigrantes e o contato de moradores com grandes centros alimentavam, porém, o desejo de uma casa de espetáculos maior e mais preparada.
 
-A ideia encontrou apoio político. Em 1912, a Câmara aprovou incentivos para a empresa que construísse um teatro, incluindo isenção de impostos e garantia de juros sobre parte do capital. Não era um empreendimento simples. Exigia reunir dinheiro, definir a sociedade, adquirir terreno, escolher projeto e contratar a execução.
+A ideia encontrou apoio político. Em 1911, a Câmara autorizou um empréstimo de mil contos de réis para dívidas e melhoramentos urbanos, incluindo o teatro; em 1912, consolidou os incentivos a quem construísse um teatro ou *polytheama* — isenção de impostos e garantia de 8% de juros ao ano, por dez anos, sobre capital de até 80 contos. Não era um empreendimento simples. Exigia reunir dinheiro, definir a sociedade, adquirir terreno, escolher projeto e contratar a execução.
 
 Joaquim Cândido de Oliveira e José Evangelista de Almeida aparecem como figuras centrais dessa mobilização. Em fevereiro de 1913, a Companhia Teatral Sanjoanense foi constituída. Os números variam conforme a fonte: a ata de constituição registra 103 sócios representados — 78 presentes e 25 por procuração — e 677 ações naquele ato, enquanto a reconstrução das subscrições aponta cerca de 196 acionistas e mil ações. A documentação deve ser tratada como uma rede: não apenas uma lista, mas um retrato da sociedade que decidiu investir em cultura.
 
@@ -31,13 +31,15 @@ Em maio de 1913, foi apresentado um projeto assinado por **J. Pucci**. O program
 
 Esses números pertencem ao projeto anunciado e não devem ser confundidos com a lotação atual. O valor documental está em mostrar a escala da ambição: tratava-se de um edifício pensado para receber grandes públicos e diferentes tipos de espetáculo.
 
+O primeiro terreno, na região da atual Rua Oscar Janson, foi adquirido de Misael Tavares e depois trocado por uma área mais central — atrás da Matriz e junto à praça Coronel Joaquim José. A troca reforçava o acesso, o prestígio e a relação do edifício com o coração cívico da cidade.
+
 ## 2. Pedra, metal e memória — 1913 a 1914
 
 A pedra fundamental foi assentada em 13 de maio de 1913. A cerimônia reuniu autoridades, dirigentes da Companhia, profissionais e moradores. Sob a entrada principal, uma caixa recebeu documentos e objetos de seu tempo: ata de fundação, estatutos, jornais, revistas, dinheiro e cartões de visita.
 
 Esse gesto transformava a construção em mensagem para o futuro. O edifício ainda não existia, mas seus responsáveis já imaginavam que alguém, décadas depois, desejaria saber quem eram e como viviam.
 
-A obra avançou sob fiscalização associada ao construtor Antônio Lanzac. O livro do centenário registra o uso de estrutura metálica pré-fabricada e numerada na Bélgica — uma procedência que a pesquisa ainda busca confirmar em documentos de compra, marcas das peças ou registros de importação.
+A obra avançou sob fiscalização associada ao construtor espanhol Antônio Lanzac. Sobre a origem dos materiais, as fontes divergem: o livro do centenário registra estrutura metálica pré-fabricada e numerada na Bélgica, enquanto o processo de tombamento menciona estrutura e cimento de procedência alemã e telhas de Marselha. Ambas reforçam a dimensão industrial e transatlântica da obra — só notas fiscais, marcas das peças ou registros de importação poderiam fechar a questão.
 
 O custo superou o capital inicial. Empréstimos e debêntures foram necessários, e as dívidas acompanharam a Companhia por anos. O Theatro nasceu, portanto, de entusiasmo, mas também de uma engenharia financeira difícil.
 
@@ -137,7 +139,7 @@ A AMITE — Associação dos Amigos do Theatro Municipal — foi criada em 2003.
 
 Entre os projetos registrados no livro estão o Cineclube Beloca, Concertos Matinais, Teatro de Quinta, Som do Sábado, festivais de teatro amador, a Semana Guiomar Novaes, o Festival Assad e o projeto de cordas 1º Movimento.
 
-Em 2014, o centenário gerou o livro que sustenta grande parte deste site. Em 2015, o documentário *Música & Drama* reuniu a história em linguagem audiovisual. Em 2024, uma nova revitalização alcançou palco, foyer e pintura externa. A continuidade da programação mostra que o Theatro não é um capítulo encerrado.
+O reencontro com a sala traduziu-se em uso intenso: levantamentos acadêmicos contam cerca de **1.175 eventos entre 2004 e 2014** — 584 musicais, 338 cênicos, 102 de outras naturezas e 151 sessões do Cineclube Dona Beloca. Em 2014, o centenário mobilizou programação de fevereiro a novembro — com a Jazz Sinfônica, o Festival Leilah Assumpção e releituras de Shakespeare — e gerou o livro que sustenta grande parte deste site. Em 2015, o documentário *Música & Drama* reuniu a história em linguagem audiovisual. A Semana Guiomar Novaes, eixo da agenda cultural, foi institucionalizada por lei municipal em 2024, e nesse mesmo ano uma nova revitalização alcançou palco, foyer e pintura externa. A continuidade da programação mostra que o Theatro não é um capítulo encerrado.
 
 > **A história permanece aberta:** cada novo espetáculo acrescenta uma data à linha do tempo e uma lembrança à cidade.
 

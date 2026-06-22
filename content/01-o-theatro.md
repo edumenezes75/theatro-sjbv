@@ -29,13 +29,16 @@ Neste site, **Theatro** designa a instituição e o edifício. A palavra **teatr
 |---|---|
 | Nome | Theatro Municipal de São João da Boa Vista |
 | Localização | Praça da Catedral, 22, Centro, São João da Boa Vista, SP |
-| Construção | 1913–1914 |
-| Projeto | Assinado por J. Pucci |
-| Execução | Associada ao construtor Antônio Lanzac |
+| Construção | 1913–1914; pedra fundamental em 13 de maio de 1913 |
+| Área | cerca de 1.130 m² (cadastro patrimonial posterior: 1.136,78 m²) |
+| Projeto | Assinado por J. Pucci (Giuseppe/José Pucci) |
+| Execução | Construtor espanhol Antônio Lanzac (também grafado Lansac) |
 | Inauguração | 31 de outubro de 1914 |
 | Espetáculo inaugural | *Uma Causa Célebre*, pela Companhia Santos Silva |
 | Tipologia | Sala de tradição italiana, em ferradura, com galerias sobrepostas |
-| Proteção | Tombamento estadual pelo CONDEPHAAT, 19 de janeiro de 1987 |
+| Proteção | Tombamento estadual pelo CONDEPHAAT, 19 de janeiro de 1987; proteção municipal |
+| Proteção federal | Não tombado pelo IPHAN — processo federal arquivado em 2017 |
+| Administração atual | Departamento Municipal de Cultura (convênio com a AMITE revogado em 2021) |
 | Reabertura | Setembro de 2002, durante a 25ª Semana Guiomar Novaes |
 
 <!-- Nota editorial: a data de inauguração de 31/10/1914 é a recomendada. Uma página oficial reproduziu 08/11/1914; os jornais contemporâneos citados na pesquisa sustentam 31/10. -->
