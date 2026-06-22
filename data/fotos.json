@@ -342,7 +342,7 @@
   "categoryLabel": "Palco e cultura",
   "w": 1800,
   "h": 1186,
-  "alt": "O antigo Bar Theatro — memória afetiva de gerações.",
+  "alt": "A fachada do Theatro com o antigo Bar Theatro no térreo — ponto de encontro ligado às sessões de cinema.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2
@@ -542,11 +542,11 @@
  {
   "id": "h019",
   "file": "fotos/hr-pessoas-19.jpg",
-  "category": "pessoas",
-  "categoryLabel": "Pessoas",
+  "category": "historicas",
+  "categoryLabel": "Históricas e cidade",
   "w": 1800,
   "h": 1216,
-  "alt": "Dona Gertrudes — uma das figuras ligadas à vida social do Theatro.",
+  "alt": "Vista antiga da praça e do entorno do Theatro, no centro da cidade.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2
@@ -618,7 +618,7 @@
   "categoryLabel": "Pessoas",
   "w": 1800,
   "h": 1277,
-  "alt": "Heitor Villa-Lobos, ligado a um recital memorável na Sociedade de Cultura Artística, no segundo andar.",
+  "alt": "Reunião ligada à Sociedade de Cultura Artística, no 2º andar do Theatro — ambiente dos recitais que receberam nomes como o de Villa-Lobos.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2
@@ -630,7 +630,7 @@
   "categoryLabel": "Pessoas",
   "w": 1800,
   "h": 1381,
-  "alt": "D. Celisa, da família Oliveira Neto — entre os antigos proprietários do edifício.",
+  "alt": "Grupo reunido no Theatro — entre os presentes, D. Celisa, da família Oliveira Neto, antiga proprietária do edifício.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2
@@ -642,7 +642,7 @@
   "categoryLabel": "Pessoas",
   "w": 1800,
   "h": 1332,
-  "alt": "Coronel Santo André, da família Oliveira Neto, antiga proprietária do Theatro.",
+  "alt": "Grupo reunido no Theatro — entre os presentes, o Coronel Santo André, da família Oliveira Neto.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2
@@ -654,7 +654,7 @@
   "categoryLabel": "Pessoas",
   "w": 1800,
   "h": 1170,
-  "alt": "Beraldo Oliveira, ligado à história patrimonial da casa.",
+  "alt": "Grupo reunido no Theatro — entre os presentes, Beraldo Oliveira, ligado à história patrimonial da casa.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2
