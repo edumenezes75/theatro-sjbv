@@ -11,7 +11,7 @@ status: "texto público"
 
 # História do Theatro
 
-A história do Theatro Municipal pode ser lida como uma peça em sete atos. Há entusiasmo, risco, improviso, crise, silêncio, mobilização e reencontro. Em todos eles, a cidade aparece não apenas como cenário, mas como personagem.
+A história do Theatro Municipal pode ser lida como uma peça em oito atos. Há entusiasmo, risco, improviso, crise, silêncio, mobilização, reencontro e permanência. Em todos eles, a cidade aparece não apenas como cenário, mas como personagem.
 
 > **Em um minuto:** a vontade de construir uma grande casa de espetáculos ganhou forma entre 1911 e 1913. O prédio abriu em 1914, tornou-se palco de muitas artes e depois cinema. Descaracterizado e ameaçado, foi defendido pela população, adquirido pelo município, tombado e restaurado. Em 2002, a plateia voltou a ocupar a sala.
 
