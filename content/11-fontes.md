@@ -99,7 +99,7 @@ Fale com a organização do Theatro pelo WhatsApp **(19) 99719-5719** ou pelos c
 ## Referências digitais iniciais
 
 - Documentário: https://www.youtube.com/watch?v=e2stgoHtlAQ
-- Dissertação USP: https://teses.usp.br/teses/disponiveis/8/8138/tde-05082020-183625/pt-br.php
+- Dissertação USP: https://teses.usp.br/teses/disponiveis/8/8138/tde-05082020-183625/
 - Theatro — Prefeitura: https://saojoao.sp.gov.br/cultura/equipamentos-culturais/theatro-municipal
 - Revitalização de 2024: https://saojoao.sp.gov.br/noticias/obras-e-servicos-publicos/theatro-municipal-de-sao-joao-da-boa-vista-ganha-nova-vida-preservando-a-historia
 - Hemeroteca Digital: https://bndigital.bn.gov.br/hemeroteca-digital/
