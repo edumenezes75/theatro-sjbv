@@ -82,9 +82,6 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
         ))}
       </div>
 
-      {p.source && (
-        <p className="mt-7 border-t border-gold/20 pt-4 font-sans text-xs italic text-ink/60 dark:text-cream/60">Fonte: {p.source}</p>
-      )}
 
       {related.length > 0 && (
         <section className="mt-10">

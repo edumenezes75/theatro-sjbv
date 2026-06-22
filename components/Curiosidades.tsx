@@ -12,7 +12,6 @@ export default function Curiosidades({ itens }: { itens: Curiosidade[] }) {
           </div>
           <h3 className="mt-3 font-display text-lg font-medium leading-tight">{c.title}</h3>
           <p className="mt-2 flex-1 font-sans text-sm leading-relaxed text-ink/80 dark:text-cream/80">{c.text}</p>
-          {c.source && <p className="mt-3 font-sans text-xs italic text-ink/45 dark:text-cream/45">Fonte: {c.source}</p>}
         </article>
       ))}
     </div>
