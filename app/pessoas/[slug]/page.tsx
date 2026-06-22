@@ -82,6 +82,13 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
         ))}
       </div>
 
+      {p.vozFilme && (
+        <blockquote className="mt-8 border-l-2 border-gold/40 pl-5">
+          <p className="font-display text-xl italic leading-snug text-ink/90 dark:text-cream/90">“{p.vozFilme.quote}”</p>
+          <a href={`https://www.youtube.com/watch?v=e2stgoHtlAQ&t=${p.vozFilme.s}s`} target="_blank" rel="noopener" className="mt-3 inline-block font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain hover:text-gold dark:text-gold">No documentário Música &amp; Drama · {p.vozFilme.t} ↗</a>
+        </blockquote>
+      )}
+
 
       {related.length > 0 && (
         <section className="mt-10">

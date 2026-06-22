@@ -89,6 +89,9 @@ A Primeira Guerra Mundial, a epidemia de gripe, a geada e a crise de 1929 afetar
 
 Em 1930, o conjunto de Heitor Villa-Lobos passou pela cidade, e Souza Lima apresentou-se ao piano. Em 1932, a opereta *Branca de Neve*, composta pelo Padre Nicolau Miranda, reuniu músicos, cenários e artistas locais. As partituras são associadas ao acervo do Museu de Arte Sacra e merecem um dossiê próprio.
 
+
+> **Voz do filme** · “Quando a cortina abre, você entra num mundo de fantasia, você viaja pelo tempo. Essa foi a minha primeira experiência em teatro.” — [ouvir no documentário (02:11) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=131s)
+
 ## 5. Do palco à tela — 1937 a 1980
 
 Em 1937, o prédio, já deteriorado, foi fechado temporariamente. Joaquim José de Oliveira Neto adquiriu a maioria das ações da Companhia. Poltronas e equipamentos de projeção foram renovados, e o cinema passou a dominar o cotidiano do edifício.
@@ -112,6 +115,9 @@ Ainda ocorreram shows, entre eles Roberto Carlos, em 1968, e apresentações de 
 
 *A fachada na época do Cine Theatro, com cartazes de cinema no térreo.*
 
+
+> **Voz do filme** · “A gente entrava pelo bar; ali tinha uma abertura que dava no banheiro masculino — a gente pulava a parede e entrava no cinema sem pagar.” — [ouvir no documentário (05:41) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=341s)
+
 ## 6. O prédio que a cidade se recusou a perder — 1981 a 1987
 
 No início dos anos 1980, a possibilidade de venda e demolição deixou de ser boato distante. O prédio era particular, estava degradado e recebia propostas incompatíveis com sua preservação.
@@ -134,6 +140,9 @@ Em 19 de janeiro de 1987, o tombamento estadual pelo CONDEPHAAT reconheceu forma
 ![A sala esvaziada, antes do restauro — anos de abandono e risco de demolição.](/fotos/hr-historicas-45.jpg)
 
 *A sala esvaziada, antes do restauro — anos de abandono e risco de demolição.*
+
+
+> **Voz do filme** · “Passou por 30, 40 anos sem nenhuma reforma, sem nenhum investimento. Ele estava, eu diria, pronto para ser demolido.” — [ouvir no documentário (39:45) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=2385s)
 
 ## 7. Uma restauração longa — 1986 a 2002
 

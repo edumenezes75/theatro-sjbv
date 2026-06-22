@@ -1,380 +1,400 @@
 {
-  "items": [
-    {
-      "id": "p001",
-      "name": "Joaquim Cândido de Oliveira",
-      "category": "fundação",
-      "role": "Idealizador e primeiro presidente da Companhia Teatral Sanjoanense",
-      "summary": "Participou da mobilização que transformou o desejo de uma casa de espetáculos em empresa coletiva.",
-      "related": [
-        "p002"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 27–30.",
-      "bio": "Coronel de conhecida participação na vida da cidade, foi dele a convicção de que São João da Boa Vista merecia uma casa para a arte dramática, a dança e a música. Em torno dessa ideia reuniu apoios e assumiu a presidência da Companhia Teatral Sanjoanense — a sociedade que levantaria o Theatro."
-    },
-    {
-      "id": "p002",
-      "name": "José Evangelista de Almeida",
-      "category": "fundação",
-      "role": "Incorporador e diretor-gerente",
-      "summary": "Articulou capital e apoio para a construção; a imprensa o chamou de iniciador das obras.",
-      "related": [
-        "p001"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 27–30.",
-      "bio": "Gerente da Casa Bancária de Christiano Osório de Oliveira, foi o incorporador do projeto: transformou a ideia em empresa. Articulou a Câmara Municipal, que em 15 de abril de 1912 aprovou isenção de impostos por dez anos a quem construísse um teatro na cidade — e saiu à busca do capital que ergueria o edifício."
-    },
-    {
-      "id": "p003",
-      "name": "J. Pucci",
-      "category": "arquitetura",
-      "role": "Autor do projeto apresentado em 1913",
-      "summary": "Assinou o desenho da fachada e o programa arquitetônico; sua biografia completa permanece em pesquisa.",
-      "related": [],
-      "status": "corroborado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 34.",
-      "bio": "Identificado nas fontes como o paulista José Pucci — que assinava “J. Pucci” —, é o autor do projeto apresentado aos acionistas em 1913. Foi dele o programa detalhado do edifício: cerca de 1.130 m² de área, plateia para 480 cadeiras, 22 frisas, 30 camarotes, galeria para 500 pessoas e um palco de 22,6 m de largura."
-    },
-    {
-      "id": "p004",
-      "name": "Antônio Lanzac",
-      "category": "construção",
-      "role": "Construtor associado à execução e fiscalização da obra",
-      "summary": "Esteve presente na cerimônia da pedra fundamental e acompanhou o canteiro.",
-      "related": [],
-      "status": "corroborado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 36–37.",
-      "bio": "“Construtor de obras”, esteve ligado à execução do edifício. Seu nome aparece entre os presentes ao lançamento da pedra fundamental, quando, sob a porta principal, foi enterrada uma caixa de concreto com a ata de fundação, os estatutos da Companhia, jornais e moedas da época."
-    },
-    {
-      "id": "p005",
-      "name": "Gabriela de Oliveira Costa — Dona Beloca",
-      "category": "cultura local",
-      "role": "Produtora e organizadora de festivais",
-      "summary": "Reuniu artistas e crianças em espetáculos beneficentes durante décadas.",
-      "related": [
-        "p006",
-        "p007"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 86–89.",
-      "bio": "Por quase 25 anos, das décadas de 1930 a 1950, foi Dona Beloca quem transformou o palco do Theatro no palco da cidade. Gabriela de Oliveira Costa reunia moças e rapazes da sociedade sanjoanense e montava espetáculos de teatro, música, canto e bailado — quase sempre em benefício da Casa da Criança, do Asilo e da Santa Casa.\n\nMuitas peças eram do professor Herculano de Almeida e tratavam de passagens da própria vida da cidade. Em 1952, sua direção de “Sonhos de Fada” levou ao palco um grande número de crianças, com Lucila Martarello no papel da fada. Ao seu lado, nomes como as irmãs Zilah e Isaura Mattos, Roberto Balestrin e Nazaré Nogueira sustentaram, ano após ano, a vocação artística da comunidade."
-    },
-    {
-      "id": "p006",
-      "name": "Anésia Martins Mattos",
-      "category": "educação",
-      "role": "Professora e diretora de festivais escolares",
-      "summary": "Levou crianças ao palco com montagens cuidadosas, canto, figurino e coreografia.",
-      "related": [
-        "p005"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 60–64.",
-      "bio": "Professora de vocação artística, com formação em piano e canto, Anésia Martins Mattos esteve entre os nomes que mantiveram viva a cena sanjoanense nas primeiras décadas do Theatro, à frente de festivais escolares e de apresentações musicais que revelavam novos talentos da cidade."
-    },
-    {
-      "id": "p007",
-      "name": "Padre Nicolau Fulgêncio Miranda",
-      "category": "música",
-      "role": "Compositor e organizador",
-      "summary": "Compôs a opereta Branca de Neve, apresentada em 1932.",
-      "related": [
-        "p005"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 61–64.",
-      "bio": "Padre, compositor e organizador, levou ao palco do Theatro festivais que misturavam comédia e trechos de óperas como Il Trovatore, La Traviata e Favorita — algumas das peças de sua própria autoria. Foi um dos nomes que firmaram a música erudita na vida cultural sanjoanense."
-    },
-    {
-      "id": "p008",
-      "name": "Guiomar Novaes",
-      "category": "música",
-      "role": "Pianista",
-      "summary": "Apresentou-se no Theatro em 1946 e deu nome a uma semana cultural decisiva para a reabertura.",
-      "related": [
-        "marly-evangeline",
-        "p009"
-      ],
-      "status": "documentado",
-      "born": "1895",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 19.",
-      "bio": "É o nome mais célebre nascido em São João da Boa Vista. Guiomar Novaes tornou-se uma das maiores pianistas do século XX, aplaudida nas salas de concerto da Europa e das Américas por um toque inconfundível.\n\nA cidade nunca a esqueceu — e ela nunca esqueceu a cidade. Em 1977 foi criada a Semana Guiomar Novaes, e a pianista esteve presente nas edições de 1977 e 1978, pouco antes de falecer, em 1979. Foi durante a Semana Guiomar Novaes, em 2002, que o Theatro restaurado reabriu as portas. O Conservatório municipal leva o seu nome."
-    },
-    {
-      "id": "p009",
-      "name": "Miriam Pipano",
-      "category": "educação",
-      "role": "Professora e diretora do Conservatório Guiomar Novaes",
-      "summary": "Formou gerações e promoveu recitais, balé e música no Theatro.",
-      "related": [
-        "p008"
-      ],
-      "status": "documentado",
-      "born": "1926",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 90.",
-      "bio": "Nascida em Tel Aviv, Israel, em 1926, Miriam Pipano mudou-se ainda menina para São João da Boa Vista — e fez da música a sua vida. Diretora do Conservatório Guiomar Novaes, promoveu, na década de 1950, dezenas de espetáculos de balé e música com seus alunos.\n\nPor gerações, quem em São João se ligou à música passou, de algum modo, por ela. Nos anos 1980 criou o Madrigal São João, com apresentações por toda a região. Mulher moderna e atuante, seguia, em 2014, como professora voluntária de flauta doce nas escolas públicas."
-    },
-    {
-      "id": "p010",
-      "name": "Nascipe Atalla Murr",
-      "category": "música",
-      "role": "Violinista, professor e regente",
-      "summary": "Participou de festivais, corais e iniciativas educativas, incluindo um coral de 120 vozes em 1947.",
-      "related": [],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 60–61.",
-      "bio": "Violinista, professor e regente, era presença constante nos festivais e espetáculos da cidade — ora como solista, ora nos acompanhamentos orquestrais que davam corpo às noites do Theatro."
-    },
-    {
-      "id": "p011",
-      "name": "Flávio Nogueira",
-      "category": "trabalho",
-      "role": "Bilheteiro, porteiro e operador de projeção",
-      "summary": "Sua rotina reúne o trabalho invisível que mantinha o Cine Theatro funcionando.",
-      "related": [],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 109.",
-      "bio": "No Cine Theatro, Flávio Nogueira era o “faz tudo”: vendia ingressos, fazia as vezes de porteiro e, na falta do encarregado, operava o projetor. Recebia os rolos de filme — trazidos em estojos de metal por um charreteiro, vindos do escritório da Viação Cometa — e os conferia, emendando as fitas para que a sessão corresse sem cortes. Acabava assistindo a tudo antes do público.\n\nDaí nasceu a história mais lembrada: ao receber um faroeste sobre a Guerra Civil americana sem título em português, Flávio — que já vira o final — dispensou o “The Seven Friends” e escreveu o seu próprio letreiro: SÓ UM VOLTOU! Em vez de estragar o filme, criou suspense."
-    },
-    {
-      "id": "p012",
-      "name": "Ronaldo Marin",
-      "category": "preservação",
-      "role": "Ator e mobilizador",
-      "summary": "Participou da campanha contra a demolição e anunciou greve de fome no alto do prédio.",
-      "related": [
-        "p013"
-      ],
-      "status": "documentado por depoimento e imprensa",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 113.",
-      "bio": "Ator e mobilizador, esteve à frente das manifestações que reagiram à ameaça de demolição, ajudando a transformar a indignação da classe artística em pressão pública pela compra e pela preservação do Theatro."
-    },
-    {
-      "id": "p013",
-      "name": "Zeza Freitas",
-      "category": "preservação",
-      "role": "Bailarina, produtora e mobilizadora",
-      "summary": "Atuou na coleta de assinaturas, manifestações e em Aldeia de Cristal.",
-      "related": [
-        "p012"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 7, 113.",
-      "bio": "Bailarina, produtora e mobilizadora, Zeza Freitas esteve entre os artistas que lideraram a reação popular contra a ameaça de demolição e a favor da restauração do Theatro, quando a mobilização da cidade decidiu o futuro do edifício."
-    },
-    {
-      "id": "p014",
-      "name": "João Batista Merlin",
-      "category": "restauro",
-      "role": "Engenheiro, ator e articulador técnico",
-      "summary": "É lembrado como mentor importante dos projetos e das viagens técnicas da restauração.",
-      "related": [
-        "p015",
-        "p016"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 111–150.",
-      "bio": "Engenheiro e restaurador, foi o grande mentor técnico da restauração. Elaborou projetos e levou a equipe até o Rio de Janeiro em busca de soluções e profissionais, conciliando a recuperação do edifício histórico com seu funcionamento contemporâneo. É lembrado “in memoriam” como um dos nomes decisivos do resgate do Theatro."
-    },
-    {
-      "id": "p015",
-      "name": "Ana Laura Barcellos do Amaral Zenun",
-      "category": "restauro",
-      "role": "Arquiteta",
-      "summary": "Participou dos levantamentos, projetos, obra e documentação das etapas de restauração.",
-      "related": [
-        "p014",
-        "p016"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 129–150.",
-      "bio": "Arquiteta, integrou a equipe técnica responsável pela restauração do Theatro — trabalho que precisou conciliar a preservação do edifício histórico com a sua adaptação ao uso contemporâneo, da sala em ferradura ao palco e aos sistemas técnicos."
-    },
-    {
-      "id": "p016",
-      "name": "Nilson Zenun",
-      "category": "restauro",
-      "role": "Engenheiro civil",
-      "summary": "Acompanhou fundações, estruturas, escavações e decisões técnicas ao longo das obras.",
-      "related": [
-        "p014",
-        "p015"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 129–150.",
-      "bio": "Engenheiro civil e membro da equipe de restauração, participou do trabalho técnico que devolveu o edifício à cidade, ao lado dos demais profissionais que conduziram as obras."
-    },
-    {
-      "id": "p017",
-      "name": "José Marcondes",
-      "category": "artes e restauro",
-      "role": "Artista plástico e integrante da equipe",
-      "summary": "Atuou em projetos, artes visuais, cenários e iniciativas culturais.",
-      "related": [],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 133–150.",
-      "bio": "Artista plástico, integrou a equipe de restauração, atuando na recuperação de pinturas e ornamentos — o trabalho minucioso que devolveu leitura aos detalhes históricos da sala, como o medalhão de Carlos Gomes."
-    },
-    {
-      "id": "p018",
-      "name": "Neusa Maria Soares de Menezes",
-      "category": "pesquisa",
-      "role": "Historiadora e editora do livro do centenário",
-      "summary": "Reuniu documentos, fotografias, memórias e cronologias que formam a base deste site.",
-      "related": [
-        "p019"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
-      "bio": "Historiadora e membro da Academia de Letras de São João da Boa Vista, foi a editora de “Theatro Municipal, 100 anos” (2014) — a obra do centenário que reúne a pesquisa, os documentos e as memórias que dão base a este site."
-    },
-    {
-      "id": "p019",
-      "name": "Eduardo Menezes",
-      "category": "audiovisual",
-      "role": "Designer e diretor",
-      "summary": "Realizou a capa e arte-final do livro e dirigiu o documentário Música & Drama.",
-      "related": [
-        "p018"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014; documentário “Música & Drama”.",
-      "bio": "Designer e diretor, assina a capa e a arte final do livro do centenário e a direção do documentário “Música & Drama — A História do Theatro Municipal de São João da Boa Vista”, que reúne imagens, documentos e depoimentos sobre a trajetória do edifício."
-    },
-    {
-      "id": "p020",
-      "name": "AMITE",
-      "category": "instituição",
-      "role": "Associação dos Amigos do Theatro Municipal",
-      "summary": "Criada em 2003, contribuiu com programação, gestão, festivais e projetos de formação.",
-      "related": [],
-      "status": "documentado; situação institucional deve ser atualizada",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 151–162.",
-      "bio": "A Associação dos Amigos do Theatro Municipal nasceu em 2003, do mesmo espírito de mobilização que salvou o edifício. Por convênio autorizado naquele ano, administrou o Theatro por cerca de dezoito anos — programação, bilheteria, manutenção e apoio técnico — até a Lei municipal nº 4.898, de 2021, encerrar o convênio e devolver a gestão à Prefeitura, pelo Departamento de Cultura. A associação foi declarada de utilidade pública municipal pela Lei nº 2.537/2009 e, em estudo de 2019, reunia cerca de 280 associados contribuintes."
-    },
-    {
-      "id": "jacana-altair",
-      "name": "Professora Jaçanã Altair Pereira Guerrini",
-      "category": "educação",
-      "role": "Professora, poetisa e música",
-      "born": "1904",
-      "summary": "Professora, poetisa, soprano e escritora; introduziu o Teatro de Bonecos nas escolas e dá nome à Biblioteca Municipal.",
-      "bio": "Nasceu em São João da Boa Vista em 19 de julho de 1904, filha de Natanael Pereira e Lília Soares Pereira. Antes mesmo de se mudar para Piracicaba — onde se casou, em 1925, com Leandro Guerrini —, já encantava: tinha bela voz de soprano e tocava piano, violino, harmônica, violão e bandolim.\n\nProfessora primária formada em São Paulo, levou o Teatro de Bonecos às escolas. Foi poetisa, contista, articulista e oradora — e até professora de esperanto. Escreveu o romance “João Negrinho”, que virou filme nos anos 1950. Hoje dá nome à Biblioteca Municipal e é patrona da Cadeira nº 4 da Academia de Letras da cidade.",
-      "related": [
-        "p006",
-        "p009"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 56–59."
-    },
-    {
-      "id": "marly-evangeline",
-      "name": "Marly Evangeline Esteves Camargo",
-      "category": "música",
-      "role": "Menina prodígio e compositora",
-      "born": "1937",
-      "summary": "Menina prodígio da música; compôs sua primeira peça aos 4 anos e cerca de 20 músicas. Faleceu aos 11 anos, em 1948.",
-      "bio": "São João da Boa Vista viu nela uma segunda Guiomar Novaes. Marly Evangeline Esteves Camargo nasceu em 17 de novembro de 1937, filha de Benedita e Antônio Oliveira Camargo, e revelou cedo um talento espantoso: aos quatro anos compôs sua primeira peça, “Caixinha de Música”.\n\nChegou a compor cerca de vinte músicas antes de morrer, aos onze anos, deixando a cidade entristecida. Em dezembro de 1957, a revista Crepúsculo a chamou de “o gênio que a música perdeu”.",
-      "related": [
-        "p008"
-      ],
-      "status": "documentado",
-      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 79."
-    },
-    {
-      "id": "p021",
-      "name": "Ettore Adriano Fabri",
-      "category": "construção",
-      "role": "Pintor do medalhão de Carlos Gomes",
-      "summary": "Pintor italiano, autor do medalhão de Carlos Gomes sobre o proscênio.",
-      "related": [],
-      "status": "documentado",
-      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
-      "bio": "Pintor italiano, é o autor do medalhão de Carlos Gomes que coroa a boca de cena. A obra ficou encoberta por camadas de tinta ao longo da fase de cinema e só voltou à luz na prospecção delicada do restauro, que a revelou e reintegrou."
-    },
-    {
-      "id": "p022",
-      "name": "Antenor de Almeida",
-      "category": "construção",
-      "role": "Pintura e decoração interna",
-      "summary": "Responsável pela pintura e decoração interna originais do Theatro.",
-      "related": [
-        "p021"
-      ],
-      "status": "documentado",
-      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
-      "bio": "Responsável pela pintura e pela decoração interna originais do Theatro, na construção de 1913–1914 — os ornatos, arabescos e acabamentos que dariam à sala seu caráter eclético e que o restauro, décadas depois, precisaria estudar e reconstituir."
-    },
-    {
-      "id": "p023",
-      "name": "Joaquim José de Oliveira Neto",
-      "category": "cultura local",
-      "role": "Proprietário na fase Cine Theatro",
-      "summary": "Adquiriu a maioria das ações em 1937 e reorganizou o prédio como Cine Theatro.",
-      "related": [],
-      "status": "documentado",
-      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
-      "bio": "Em 1937 adquiriu a maioria das ações da Companhia e reestruturou o edifício como Cine Theatro, com novos equipamentos de projeção e nova organização de assentos. Foi proprietário decisivo na fase cinematográfica e nas negociações que, décadas mais tarde, abririam caminho para a compra pública. A Fundação Oliveira Neto, criada em 1998, leva o nome da família."
-    },
-    {
-      "id": "p024",
-      "name": "Romeu Paulucci Buzon Filho",
-      "category": "restauro",
-      "role": "Recuperação de ornamentos da fachada",
-      "summary": "Atuou na recuperação dos ornamentos da fachada durante o restauro.",
-      "related": [],
-      "status": "documentado",
-      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
-      "bio": "Trabalhou na recuperação dos ornamentos da fachada durante a restauração, em etapa registrada por volta de 1992 — o trabalho minucioso de moldes e recomposições que devolveu à frente do edifício seus relevos, cornijas e detalhes perdidos."
-    },
-    {
-      "id": "p025",
-      "name": "Laert de Lima Teixeira",
-      "category": "preservação",
-      "role": "Captação e Fundação Oliveira Neto",
-      "summary": "Articulador do impulso final da restauração e da captação via Fundação Oliveira Neto.",
-      "related": [],
-      "status": "documentado",
-      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
-      "bio": "Aparece entre os articuladores do impulso final da restauração, ligado à Fundação Oliveira Neto e às campanhas de captação que ajudaram a concluir a obra e a chegar à reabertura de 2002."
-    },
-    {
-      "id": "p026",
-      "name": "Sidney Estanislau Beraldo",
-      "category": "preservação",
-      "role": "Prefeito na aquisição municipal",
-      "summary": "Prefeito no período da compra pública e do início do projeto de recuperação.",
-      "related": [],
-      "status": "documentado",
-      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
-      "bio": "Prefeito de São João da Boa Vista no período da aquisição pública do Theatro e do início do projeto de recuperação. É também autor de *90 anos — Teatro Municipal* (2004), registro da compra, da preservação e da recuperação do edifício."
-    },
-    {
-      "id": "p027",
-      "name": "Braz Nicola Sabino",
-      "category": "trabalho",
-      "role": "Administrador do Cine Theatro a partir de 1957",
-      "summary": "Assumiu a administração do Cine Theatro em 1957.",
-      "related": [
-        "p023"
-      ],
-      "status": "documentado",
-      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
-      "bio": "Assumiu a administração do Cine Theatro em 1957, na fase em que a sala disputava público com novos cinemas da cidade, a televisão e novas formas de lazer — período que antecede o declínio e o fechamento de 1982."
-    },
-    {
-      "id": "p028",
-      "name": "Rodolfo Mossello",
-      "category": "construção",
-      "role": "Cenografia da estreia",
-      "summary": "Assinou a cenografia de Uma Causa Célebre, na noite inaugural de 1914.",
-      "related": [],
-      "status": "corroborado",
-      "source": "Jeronimo, 2020/2021; Menezes, 2014.",
-      "bio": "A ele se atribui a cenografia de *Uma Causa Célebre*, a peça que abriu o Theatro na noite de 31 de outubro de 1914 — o primeiro cenário a ocupar o palco que a cidade acabara de erguer."
-    }
-  ]
+ "items": [
+  {
+   "id": "p001",
+   "name": "Joaquim Cândido de Oliveira",
+   "category": "fundação",
+   "role": "Idealizador e primeiro presidente da Companhia Teatral Sanjoanense",
+   "summary": "Participou da mobilização que transformou o desejo de uma casa de espetáculos em empresa coletiva.",
+   "related": [
+    "p002"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 27–30.",
+   "bio": "Coronel de conhecida participação na vida da cidade, foi dele a convicção de que São João da Boa Vista merecia uma casa para a arte dramática, a dança e a música. Em torno dessa ideia reuniu apoios e assumiu a presidência da Companhia Teatral Sanjoanense — a sociedade que levantaria o Theatro."
+  },
+  {
+   "id": "p002",
+   "name": "José Evangelista de Almeida",
+   "category": "fundação",
+   "role": "Incorporador e diretor-gerente",
+   "summary": "Articulou capital e apoio para a construção; a imprensa o chamou de iniciador das obras.",
+   "related": [
+    "p001"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 27–30.",
+   "bio": "Gerente da Casa Bancária de Christiano Osório de Oliveira, foi o incorporador do projeto: transformou a ideia em empresa. Articulou a Câmara Municipal, que em 15 de abril de 1912 aprovou isenção de impostos por dez anos a quem construísse um teatro na cidade — e saiu à busca do capital que ergueria o edifício."
+  },
+  {
+   "id": "p003",
+   "name": "J. Pucci",
+   "category": "arquitetura",
+   "role": "Autor do projeto apresentado em 1913",
+   "summary": "Assinou o desenho da fachada e o programa arquitetônico; sua biografia completa permanece em pesquisa.",
+   "related": [],
+   "status": "corroborado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 34.",
+   "bio": "Identificado nas fontes como o paulista José Pucci — que assinava “J. Pucci” —, é o autor do projeto apresentado aos acionistas em 1913. Foi dele o programa detalhado do edifício: cerca de 1.130 m² de área, plateia para 480 cadeiras, 22 frisas, 30 camarotes, galeria para 500 pessoas e um palco de 22,6 m de largura."
+  },
+  {
+   "id": "p004",
+   "name": "Antônio Lanzac",
+   "category": "construção",
+   "role": "Construtor associado à execução e fiscalização da obra",
+   "summary": "Esteve presente na cerimônia da pedra fundamental e acompanhou o canteiro.",
+   "related": [],
+   "status": "corroborado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 36–37.",
+   "bio": "“Construtor de obras”, esteve ligado à execução do edifício. Seu nome aparece entre os presentes ao lançamento da pedra fundamental, quando, sob a porta principal, foi enterrada uma caixa de concreto com a ata de fundação, os estatutos da Companhia, jornais e moedas da época."
+  },
+  {
+   "id": "p005",
+   "name": "Gabriela de Oliveira Costa — Dona Beloca",
+   "category": "cultura local",
+   "role": "Produtora e organizadora de festivais",
+   "summary": "Reuniu artistas e crianças em espetáculos beneficentes durante décadas.",
+   "related": [
+    "p006",
+    "p007"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 86–89.",
+   "bio": "Por quase 25 anos, das décadas de 1930 a 1950, foi Dona Beloca quem transformou o palco do Theatro no palco da cidade. Gabriela de Oliveira Costa reunia moças e rapazes da sociedade sanjoanense e montava espetáculos de teatro, música, canto e bailado — quase sempre em benefício da Casa da Criança, do Asilo e da Santa Casa.\n\nMuitas peças eram do professor Herculano de Almeida e tratavam de passagens da própria vida da cidade. Em 1952, sua direção de “Sonhos de Fada” levou ao palco um grande número de crianças, com Lucila Martarello no papel da fada. Ao seu lado, nomes como as irmãs Zilah e Isaura Mattos, Roberto Balestrin e Nazaré Nogueira sustentaram, ano após ano, a vocação artística da comunidade."
+  },
+  {
+   "id": "p006",
+   "name": "Anésia Martins Mattos",
+   "category": "educação",
+   "role": "Professora e diretora de festivais escolares",
+   "summary": "Levou crianças ao palco com montagens cuidadosas, canto, figurino e coreografia.",
+   "related": [
+    "p005"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 60–64.",
+   "bio": "Professora de vocação artística, com formação em piano e canto, Anésia Martins Mattos esteve entre os nomes que mantiveram viva a cena sanjoanense nas primeiras décadas do Theatro, à frente de festivais escolares e de apresentações musicais que revelavam novos talentos da cidade."
+  },
+  {
+   "id": "p007",
+   "name": "Padre Nicolau Fulgêncio Miranda",
+   "category": "música",
+   "role": "Compositor e organizador",
+   "summary": "Compôs a opereta Branca de Neve, apresentada em 1932.",
+   "related": [
+    "p005"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 61–64.",
+   "bio": "Padre, compositor e organizador, levou ao palco do Theatro festivais que misturavam comédia e trechos de óperas como Il Trovatore, La Traviata e Favorita — algumas das peças de sua própria autoria. Foi um dos nomes que firmaram a música erudita na vida cultural sanjoanense."
+  },
+  {
+   "id": "p008",
+   "name": "Guiomar Novaes",
+   "category": "música",
+   "role": "Pianista",
+   "summary": "Apresentou-se no Theatro em 1946 e deu nome a uma semana cultural decisiva para a reabertura.",
+   "related": [
+    "marly-evangeline",
+    "p009"
+   ],
+   "status": "documentado",
+   "born": "1895",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 19.",
+   "bio": "É o nome mais célebre nascido em São João da Boa Vista. Guiomar Novaes tornou-se uma das maiores pianistas do século XX, aplaudida nas salas de concerto da Europa e das Américas por um toque inconfundível.\n\nA cidade nunca a esqueceu — e ela nunca esqueceu a cidade. Em 1977 foi criada a Semana Guiomar Novaes, e a pianista esteve presente nas edições de 1977 e 1978, pouco antes de falecer, em 1979. Foi durante a Semana Guiomar Novaes, em 2002, que o Theatro restaurado reabriu as portas. O Conservatório municipal leva o seu nome.",
+   "vozFilme": {
+    "quote": "Ela ouviu eu tocar o concerto de Tchaikovsky e, no dia seguinte, me deu uma aula de três, quatro horas — lembrava cada detalhe do que eu havia feito.",
+    "t": "42:07",
+    "s": 2527
+   }
+  },
+  {
+   "id": "p009",
+   "name": "Miriam Pipano",
+   "category": "educação",
+   "role": "Professora e diretora do Conservatório Guiomar Novaes",
+   "summary": "Formou gerações e promoveu recitais, balé e música no Theatro.",
+   "related": [
+    "p008"
+   ],
+   "status": "documentado",
+   "born": "1926",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 90.",
+   "bio": "Nascida em Tel Aviv, Israel, em 1926, Miriam Pipano mudou-se ainda menina para São João da Boa Vista — e fez da música a sua vida. Diretora do Conservatório Guiomar Novaes, promoveu, na década de 1950, dezenas de espetáculos de balé e música com seus alunos.\n\nPor gerações, quem em São João se ligou à música passou, de algum modo, por ela. Nos anos 1980 criou o Madrigal São João, com apresentações por toda a região. Mulher moderna e atuante, seguia, em 2014, como professora voluntária de flauta doce nas escolas públicas."
+  },
+  {
+   "id": "p010",
+   "name": "Nascipe Atalla Murr",
+   "category": "música",
+   "role": "Violinista, professor e regente",
+   "summary": "Participou de festivais, corais e iniciativas educativas, incluindo um coral de 120 vozes em 1947.",
+   "related": [],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 60–61.",
+   "bio": "Violinista, professor e regente, era presença constante nos festivais e espetáculos da cidade — ora como solista, ora nos acompanhamentos orquestrais que davam corpo às noites do Theatro."
+  },
+  {
+   "id": "p011",
+   "name": "Flávio Nogueira",
+   "category": "trabalho",
+   "role": "Bilheteiro, porteiro e operador de projeção",
+   "summary": "Sua rotina reúne o trabalho invisível que mantinha o Cine Theatro funcionando.",
+   "related": [],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 109.",
+   "bio": "No Cine Theatro, Flávio Nogueira era o “faz tudo”: vendia ingressos, fazia as vezes de porteiro e, na falta do encarregado, operava o projetor. Recebia os rolos de filme — trazidos em estojos de metal por um charreteiro, vindos do escritório da Viação Cometa — e os conferia, emendando as fitas para que a sessão corresse sem cortes. Acabava assistindo a tudo antes do público.\n\nDaí nasceu a história mais lembrada: ao receber um faroeste sobre a Guerra Civil americana sem título em português, Flávio — que já vira o final — dispensou o “The Seven Friends” e escreveu o seu próprio letreiro: SÓ UM VOLTOU! Em vez de estragar o filme, criou suspense."
+  },
+  {
+   "id": "p012",
+   "name": "Ronaldo Marin",
+   "category": "preservação",
+   "role": "Ator e mobilizador",
+   "summary": "Participou da campanha contra a demolição e anunciou greve de fome no alto do prédio.",
+   "related": [
+    "p013"
+   ],
+   "status": "documentado por depoimento e imprensa",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 113.",
+   "bio": "Ator e mobilizador, esteve à frente das manifestações que reagiram à ameaça de demolição, ajudando a transformar a indignação da classe artística em pressão pública pela compra e pela preservação do Theatro."
+  },
+  {
+   "id": "p013",
+   "name": "Zeza Freitas",
+   "category": "preservação",
+   "role": "Bailarina, produtora e mobilizadora",
+   "summary": "Atuou na coleta de assinaturas, manifestações e em Aldeia de Cristal.",
+   "related": [
+    "p012"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 7, 113.",
+   "bio": "Bailarina, produtora e mobilizadora, Zeza Freitas esteve entre os artistas que lideraram a reação popular contra a ameaça de demolição e a favor da restauração do Theatro, quando a mobilização da cidade decidiu o futuro do edifício."
+  },
+  {
+   "id": "p014",
+   "name": "João Batista Merlin",
+   "category": "restauro",
+   "role": "Engenheiro, ator e articulador técnico",
+   "summary": "É lembrado como mentor importante dos projetos e das viagens técnicas da restauração.",
+   "related": [
+    "p015",
+    "p016"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 111–150.",
+   "bio": "Engenheiro e restaurador, foi o grande mentor técnico da restauração. Elaborou projetos e levou a equipe até o Rio de Janeiro em busca de soluções e profissionais, conciliando a recuperação do edifício histórico com seu funcionamento contemporâneo. É lembrado “in memoriam” como um dos nomes decisivos do resgate do Theatro.",
+   "vozFilme": {
+    "quote": "Ele sabia que sozinho não poderia fazer nada, mas era um líder carismático que sabia envolver as pessoas — e em que fontes buscar o que faltava.",
+    "t": "53:20",
+    "s": 3200
+   }
+  },
+  {
+   "id": "p015",
+   "name": "Ana Laura Barcellos do Amaral Zenun",
+   "category": "restauro",
+   "role": "Arquiteta",
+   "summary": "Participou dos levantamentos, projetos, obra e documentação das etapas de restauração.",
+   "related": [
+    "p014",
+    "p016"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 129–150.",
+   "bio": "Arquiteta, integrou a equipe técnica responsável pela restauração do Theatro — trabalho que precisou conciliar a preservação do edifício histórico com a sua adaptação ao uso contemporâneo, da sala em ferradura ao palco e aos sistemas técnicos."
+  },
+  {
+   "id": "p016",
+   "name": "Nilson Zenun",
+   "category": "restauro",
+   "role": "Engenheiro civil",
+   "summary": "Acompanhou fundações, estruturas, escavações e decisões técnicas ao longo das obras.",
+   "related": [
+    "p014",
+    "p015"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 129–150.",
+   "bio": "Engenheiro civil e membro da equipe de restauração, participou do trabalho técnico que devolveu o edifício à cidade, ao lado dos demais profissionais que conduziram as obras."
+  },
+  {
+   "id": "p017",
+   "name": "José Marcondes",
+   "category": "artes e restauro",
+   "role": "Artista plástico e integrante da equipe",
+   "summary": "Atuou em projetos, artes visuais, cenários e iniciativas culturais.",
+   "related": [],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 133–150.",
+   "bio": "Artista plástico, integrou a equipe de restauração, atuando na recuperação de pinturas e ornamentos — o trabalho minucioso que devolveu leitura aos detalhes históricos da sala, como o medalhão de Carlos Gomes.",
+   "vozFilme": {
+    "quote": "Éramos três que a vida, na sua trama de ilusão perdida, uniu no mesmo afeto e na viuvez: um músico, um pintor e um poeta.",
+    "t": "50:55",
+    "s": 3055
+   }
+  },
+  {
+   "id": "p018",
+   "name": "Neusa Maria Soares de Menezes",
+   "category": "pesquisa",
+   "role": "Historiadora e editora do livro do centenário",
+   "summary": "Reuniu documentos, fotografias, memórias e cronologias que formam a base deste site.",
+   "related": [
+    "p019"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+   "bio": "Historiadora e membro da Academia de Letras de São João da Boa Vista, foi a editora de “Theatro Municipal, 100 anos” (2014) — a obra do centenário que reúne a pesquisa, os documentos e as memórias que dão base a este site."
+  },
+  {
+   "id": "p019",
+   "name": "Eduardo Menezes",
+   "category": "audiovisual",
+   "role": "Designer e diretor",
+   "summary": "Realizou a capa e arte-final do livro e dirigiu o documentário Música & Drama.",
+   "related": [
+    "p018"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014; documentário “Música & Drama”.",
+   "bio": "Designer e diretor, assina a capa e a arte final do livro do centenário e a direção do documentário “Música & Drama — A História do Theatro Municipal de São João da Boa Vista”, que reúne imagens, documentos e depoimentos sobre a trajetória do edifício."
+  },
+  {
+   "id": "p020",
+   "name": "AMITE",
+   "category": "instituição",
+   "role": "Associação dos Amigos do Theatro Municipal",
+   "summary": "Criada em 2003, contribuiu com programação, gestão, festivais e projetos de formação.",
+   "related": [],
+   "status": "documentado; situação institucional deve ser atualizada",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 151–162.",
+   "bio": "A Associação dos Amigos do Theatro Municipal nasceu em 2003, do mesmo espírito de mobilização que salvou o edifício. Por convênio autorizado naquele ano, administrou o Theatro por cerca de dezoito anos — programação, bilheteria, manutenção e apoio técnico — até a Lei municipal nº 4.898, de 2021, encerrar o convênio e devolver a gestão à Prefeitura, pelo Departamento de Cultura. A associação foi declarada de utilidade pública municipal pela Lei nº 2.537/2009 e, em estudo de 2019, reunia cerca de 280 associados contribuintes."
+  },
+  {
+   "id": "jacana-altair",
+   "name": "Professora Jaçanã Altair Pereira Guerrini",
+   "category": "educação",
+   "role": "Professora, poetisa e música",
+   "born": "1904",
+   "summary": "Professora, poetisa, soprano e escritora; introduziu o Teatro de Bonecos nas escolas e dá nome à Biblioteca Municipal.",
+   "bio": "Nasceu em São João da Boa Vista em 19 de julho de 1904, filha de Natanael Pereira e Lília Soares Pereira. Antes mesmo de se mudar para Piracicaba — onde se casou, em 1925, com Leandro Guerrini —, já encantava: tinha bela voz de soprano e tocava piano, violino, harmônica, violão e bandolim.\n\nProfessora primária formada em São Paulo, levou o Teatro de Bonecos às escolas. Foi poetisa, contista, articulista e oradora — e até professora de esperanto. Escreveu o romance “João Negrinho”, que virou filme nos anos 1950. Hoje dá nome à Biblioteca Municipal e é patrona da Cadeira nº 4 da Academia de Letras da cidade.",
+   "related": [
+    "p006",
+    "p009"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 56–59."
+  },
+  {
+   "id": "marly-evangeline",
+   "name": "Marly Evangeline Esteves Camargo",
+   "category": "música",
+   "role": "Menina prodígio e compositora",
+   "born": "1937",
+   "summary": "Menina prodígio da música; compôs sua primeira peça aos 4 anos e cerca de 20 músicas. Faleceu aos 11 anos, em 1948.",
+   "bio": "São João da Boa Vista viu nela uma segunda Guiomar Novaes. Marly Evangeline Esteves Camargo nasceu em 17 de novembro de 1937, filha de Benedita e Antônio Oliveira Camargo, e revelou cedo um talento espantoso: aos quatro anos compôs sua primeira peça, “Caixinha de Música”.\n\nChegou a compor cerca de vinte músicas antes de morrer, aos onze anos, deixando a cidade entristecida. Em dezembro de 1957, a revista Crepúsculo a chamou de “o gênio que a música perdeu”.",
+   "related": [
+    "p008"
+   ],
+   "status": "documentado",
+   "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 79."
+  },
+  {
+   "id": "p021",
+   "name": "Ettore Adriano Fabri",
+   "category": "construção",
+   "role": "Pintor do medalhão de Carlos Gomes",
+   "summary": "Pintor italiano, autor do medalhão de Carlos Gomes sobre o proscênio.",
+   "related": [],
+   "status": "documentado",
+   "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+   "bio": "Pintor italiano, é o autor do medalhão de Carlos Gomes que coroa a boca de cena. A obra ficou encoberta por camadas de tinta ao longo da fase de cinema e só voltou à luz na prospecção delicada do restauro, que a revelou e reintegrou."
+  },
+  {
+   "id": "p022",
+   "name": "Antenor de Almeida",
+   "category": "construção",
+   "role": "Pintura e decoração interna",
+   "summary": "Responsável pela pintura e decoração interna originais do Theatro.",
+   "related": [
+    "p021"
+   ],
+   "status": "documentado",
+   "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+   "bio": "Responsável pela pintura e pela decoração interna originais do Theatro, na construção de 1913–1914 — os ornatos, arabescos e acabamentos que dariam à sala seu caráter eclético e que o restauro, décadas depois, precisaria estudar e reconstituir."
+  },
+  {
+   "id": "p023",
+   "name": "Joaquim José de Oliveira Neto",
+   "category": "cultura local",
+   "role": "Proprietário na fase Cine Theatro",
+   "summary": "Adquiriu a maioria das ações em 1937 e reorganizou o prédio como Cine Theatro.",
+   "related": [],
+   "status": "documentado",
+   "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+   "bio": "Em 1937 adquiriu a maioria das ações da Companhia e reestruturou o edifício como Cine Theatro, com novos equipamentos de projeção e nova organização de assentos. Foi proprietário decisivo na fase cinematográfica e nas negociações que, décadas mais tarde, abririam caminho para a compra pública. A Fundação Oliveira Neto, criada em 1998, leva o nome da família."
+  },
+  {
+   "id": "p024",
+   "name": "Romeu Paulucci Buzon Filho",
+   "category": "restauro",
+   "role": "Recuperação de ornamentos da fachada",
+   "summary": "Atuou na recuperação dos ornamentos da fachada durante o restauro.",
+   "related": [],
+   "status": "documentado",
+   "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+   "bio": "Trabalhou na recuperação dos ornamentos da fachada durante a restauração, em etapa registrada por volta de 1992 — o trabalho minucioso de moldes e recomposições que devolveu à frente do edifício seus relevos, cornijas e detalhes perdidos."
+  },
+  {
+   "id": "p025",
+   "name": "Laert de Lima Teixeira",
+   "category": "preservação",
+   "role": "Captação e Fundação Oliveira Neto",
+   "summary": "Articulador do impulso final da restauração e da captação via Fundação Oliveira Neto.",
+   "related": [],
+   "status": "documentado",
+   "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+   "bio": "Aparece entre os articuladores do impulso final da restauração, ligado à Fundação Oliveira Neto e às campanhas de captação que ajudaram a concluir a obra e a chegar à reabertura de 2002."
+  },
+  {
+   "id": "p026",
+   "name": "Sidney Estanislau Beraldo",
+   "category": "preservação",
+   "role": "Prefeito na aquisição municipal",
+   "summary": "Prefeito no período da compra pública e do início do projeto de recuperação.",
+   "related": [],
+   "status": "documentado",
+   "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+   "bio": "Prefeito de São João da Boa Vista no período da aquisição pública do Theatro e do início do projeto de recuperação. É também autor de *90 anos — Teatro Municipal* (2004), registro da compra, da preservação e da recuperação do edifício.",
+   "vozFilme": {
+    "quote": "A gente passa e vê: aquilo não é meu, mas eu não quero que desmanche, porque é nosso — é um patrimônio do povo.",
+    "t": "46:30",
+    "s": 2790
+   }
+  },
+  {
+   "id": "p027",
+   "name": "Braz Nicola Sabino",
+   "category": "trabalho",
+   "role": "Administrador do Cine Theatro a partir de 1957",
+   "summary": "Assumiu a administração do Cine Theatro em 1957.",
+   "related": [
+    "p023"
+   ],
+   "status": "documentado",
+   "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+   "bio": "Assumiu a administração do Cine Theatro em 1957, na fase em que a sala disputava público com novos cinemas da cidade, a televisão e novas formas de lazer — período que antecede o declínio e o fechamento de 1982."
+  },
+  {
+   "id": "p028",
+   "name": "Rodolfo Mossello",
+   "category": "construção",
+   "role": "Cenografia da estreia",
+   "summary": "Assinou a cenografia de Uma Causa Célebre, na noite inaugural de 1914.",
+   "related": [],
+   "status": "corroborado",
+   "source": "Jeronimo, 2020/2021; Menezes, 2014.",
+   "bio": "A ele se atribui a cenografia de *Uma Causa Célebre*, a peça que abriu o Theatro na noite de 31 de outubro de 1914 — o primeiro cenário a ocupar o palco que a cidade acabara de erguer."
+  }
+ ]
 }

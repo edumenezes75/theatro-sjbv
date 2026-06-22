@@ -67,6 +67,9 @@ Historicamente, essa disposição também organizava diferenças sociais. Os set
 
 *A curva em ferradura, com frisas, camarotes e galerias envolvendo a plateia.*
 
+
+> **Voz do filme** · “Toda essa ferradura é feita de estrutura metálica; ela veio da Bélgica, de navio, e toda numerada para ser montada aqui.” — [ouvir no documentário (15:55) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=955s)
+
 ## Madeira, metal e som
 
 Fotografias e relatos destacam a presença de madeira na sala e estruturas metálicas na sustentação. A geometria e os materiais são frequentemente associados à boa projeção sonora.
@@ -76,6 +79,9 @@ O Theatro acumulou elogios de músicos ao longo de gerações. Vale distinguir o
 > Descobri, quase atrás de casa, uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.
 >
 > — **Emmanuele Baldini**, spalla da Osesp, após concerto no Theatro (2014)
+
+
+> **Voz do filme** · “Eu passei por vários teatros da Europa; o último foi o de Berlim. Este teatro não perde para nenhum daqueles.” — [ouvir no documentário (17:47) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=1067s)
 
 ## O palco e a caixa cênica
 

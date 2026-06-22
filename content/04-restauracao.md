@@ -44,6 +44,9 @@ Quatro abaixo-assinados reuniram 1.026 assinaturas, e uma consulta popular sobre
 
 > **Patrimônio em ação:** o documento pedia não apenas conservação, mas “ativação de um espaço cultural”. A luta era para salvar o prédio e devolver-lhe função.
 
+
+> **Voz do filme** · “Eu ameacei subir lá na janela, me amarrar e ficar fazendo greve de fome enquanto a ideia de demolir não fosse superada.” — [ouvir no documentário (45:49) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=2749s)
+
 ## A aquisição em duas etapas
 
 Em janeiro de 1984, a Prefeitura comprou a primeira parte do imóvel. O palco e a área posterior permaneceram inicialmente com o proprietário. A equipe técnica logo percebeu que um teatro funcional exigia o conjunto completo.
@@ -100,6 +103,9 @@ O rebaixamento das fundações foi executado lentamente. Relatos técnicos regis
 
 *A escavação do fosso da orquestra, sob o palco, durante as obras.*
 
+
+> **Voz do filme** · “A cidade inteira falava: vai cair, vai cair, porque a máquina está lá dentro e vibra. O recalque previsto era de até seis centímetros; deu menos de meio.” — [ouvir no documentário (58:22) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=3502s)
+
 ## Restauro artístico
 
 A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos. Amostras de camadas antigas foram analisadas para buscar tons compatíveis. Capitéis e detalhes receberam tratamento e douração.
@@ -112,6 +118,9 @@ Algumas decisões foram interpretativas, e a honestidade pede registrá-las como
 ![O artista César Roberto Olandim na recuperação da pintura do medalhão de Carlos Gomes.](/fotos/hr3-restauro-01.jpg)
 
 *O artista César Roberto Olandim na recuperação da pintura do medalhão de Carlos Gomes.*
+
+
+> **Voz do filme** · “O Olandim subiu no andaime e — aqui está a pintura! Foi uma alegria só: cada dia se descobria mais, que tinha cor, que tinha detalhes.” — [ouvir no documentário (1:13:55) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=4435s)
 
 ## Uma obra atravessada por governos e gerações
 
