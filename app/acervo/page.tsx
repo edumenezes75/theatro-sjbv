@@ -15,6 +15,9 @@ export default function AcervoPage() {
   const page = getPageBySlug('/acervo');
   const destaqueIds = ['h050', 'h001', 'h045', 'h020', 'h087', 'h083', 'h016', 'h028', 'h096', 'h024', 'h094', 'h095'];
   const destaque = destaqueIds.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList;
+  const hist = fotosList.filter((f) => f.epoca === 'Histórico');
+  const rest = fotosList.filter((f) => f.epoca === 'Restauro');
+  const hoje = fotosList.filter((f) => f.epoca === 'Atual');
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const ldGallery = {
     '@context': 'https://schema.org',
@@ -56,11 +59,37 @@ export default function AcervoPage() {
         </section>
 
         <section className="mt-16 border-t border-gold/25 pt-12">
-          <h2 className="font-display text-2xl leading-tight sm:text-3xl">O acervo completo</h2>
+          <div className="flex items-center gap-3">
+            <span className="h-6 w-px bg-curtain dark:bg-gold" />
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 1 · antes do restauro</p>
+          </div>
+          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">O Theatro histórico</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            Mais de 170 fotografias, da fachada eclética e da sala em ferradura às obras de recuperação, aos ornamentos e à vida cultural. As imagens aparecem por curadoria e em ordem cronológica — do histórico ao restauro e ao Theatro de hoje. Filtre por tema e época; clique para ampliar.
+            Da era do cinema aos bailes, da rádio à biblioteca e à ameaça de demolição — o edifício e a cidade em registros de outras décadas. <span className="text-curtain dark:text-gold">{hist.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
           </p>
-          <GaleriaReal fotos={fotosList} />
+          <GaleriaReal fotos={hist} showEpoca={false} />
+        </section>
+        <section className="mt-16 border-t border-gold/25 pt-12">
+          <div className="flex items-center gap-3">
+            <span className="h-6 w-px bg-curtain dark:bg-gold" />
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 2 · a recuperação</p>
+          </div>
+          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">O restauro, etapa por etapa</h2>
+          <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+            Andaimes por dentro e por fora, a escavação do fosso da orquestra, a decapagem e os artistas devolvendo cor aos ornatos. <span className="text-curtain dark:text-gold">{rest.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
+          </p>
+          <GaleriaReal fotos={rest} showEpoca={false} />
+        </section>
+        <section className="mt-16 border-t border-gold/25 pt-12">
+          <div className="flex items-center gap-3">
+            <span className="h-6 w-px bg-curtain dark:bg-gold" />
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 3 · o Theatro vivo</p>
+          </div>
+          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">O Theatro hoje</h2>
+          <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+            A sala em ferradura recuperada, os ornamentos, a fachada eclética e a vida cultural que segue no palco. <span className="text-curtain dark:text-gold">{hoje.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
+          </p>
+          <GaleriaReal fotos={hoje} showEpoca={false} />
         </section>
 
         <FontesDaPagina fontes={page?.fontes ?? null} />
