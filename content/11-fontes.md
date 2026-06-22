@@ -55,19 +55,6 @@ Além do livro do centenário, a memória do Theatro está registrada em obras l
 - programas, cartazes, partituras e borderôs;
 - entrevistas e acervos familiares.
 
-## Acervos a consultar
-
-- Arquivo Histórico Matildes Rezende Lopes Salomão;
-- Museu Histórico e Pedagógico Dr. Armando de Salles Oliveira;
-- Museu de Arte Sacra;
-- AMITE e administração do Theatro;
-- departamentos municipais de Cultura, Engenharia e Planejamento;
-- Cartório de Registro de Imóveis e tabelionatos;
-- CONDEPHAAT e Arquivo Público do Estado de São Paulo;
-- IPHAN;
-- Hemeroteca Digital da Biblioteca Nacional;
-- arquivos pessoais citados no livro e no documentário.
-
 ## Selos de evidência
 
 | Selo | Significado |
