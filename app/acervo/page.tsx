@@ -4,7 +4,6 @@ import { getPageBySlug } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
 import GaleriaReal from '@/components/GaleriaReal';
-import Livros from '@/components/Livros';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/acervo' },
@@ -62,18 +61,6 @@ export default function AcervoPage() {
             Mais de setenta fotografias, da fachada eclética às obras de recuperação. Filtre por tema e época; clique para ampliar.
           </p>
           <GaleriaReal fotos={fotosList} />
-        </section>
-
-        <section className="mt-16 border-t border-gold/25 pt-12">
-          <div className="flex items-center gap-3">
-            <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Bibliografia</p>
-          </div>
-          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Livros sobre o Theatro</h2>
-          <p className="mt-2 mb-8 max-w-reading font-read text-sm leading-relaxed text-ink/75 dark:text-cream/75">
-            A memória do Theatro foi registrada, ao longo das décadas, em livros locais que se complementam — do registro do centenário às histórias das artes na cidade e ao estudo acadêmico que sistematiza arquivos e controvérsias.
-          </p>
-          <Livros />
         </section>
 
         <FontesDaPagina fontes={page?.fontes ?? null} />
