@@ -24,7 +24,19 @@ export default function GaleriaReal({ fotos, withFilter = true }: { fotos: Foto[
     const ordered = EP_ORDER.filter((e) => count.has(e));
     return [['todas', 'Todas as épocas', fotos.length], ...ordered.map((e) => [e, e, count.get(e)!])] as [string, string, number][];
   }, [fotos]);
-  const list = useMemo(() => fotos.filter((f) => (cat === 'todas' || f.category === cat) && (ep === 'todas' || f.epoca === ep)), [cat, ep, fotos]);
+  const EP_RANK: Record<string, number> = { 'Histórico': 0, 'Restauro': 1, 'Atual': 2 };
+  const idNum = (id: string) => parseInt(id.replace(/\D/g, ''), 10) || 0;
+  const list = useMemo(() => {
+    const filtered = fotos.filter((f) => (cat === 'todas' || f.category === cat) && (ep === 'todas' || f.epoca === ep));
+    // Galeria completa: ordena por curadoria (rank) -> narrativa (epoca) -> id.
+    // Faixa de destaques (withFilter=false): preserva a ordem recebida.
+    if (!withFilter) return filtered;
+    return filtered.slice().sort((a, b) =>
+      (a.rank ?? 2) - (b.rank ?? 2) ||
+      (EP_RANK[a.epoca ?? ''] ?? 9) - (EP_RANK[b.epoca ?? ''] ?? 9) ||
+      idNum(a.id) - idNum(b.id),
+    );
+  }, [cat, ep, fotos, withFilter]);
   const [idx, setIdx] = useState<number | null>(null);
   const STEP = 24;
   const [limit, setLimit] = useState(STEP);

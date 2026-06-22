@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function AcervoPage() {
   const page = getPageBySlug('/acervo');
-  const destaqueIds = ['h048', 'h055', 'h036', 'h016', 'h011', 'h009', 'h023', 'h026', 'h081', 'h008'];
+  const destaqueIds = ['h050', 'h001', 'h045', 'h020', 'h087', 'h083', 'h016', 'h028', 'h096', 'h024', 'h094', 'h095'];
   const destaque = destaqueIds.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList;
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const ldGallery = {
@@ -58,7 +58,7 @@ export default function AcervoPage() {
         <section className="mt-16 border-t border-gold/25 pt-12">
           <h2 className="font-display text-2xl leading-tight sm:text-3xl">O acervo completo</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            Mais de setenta fotografias, da fachada eclética às obras de recuperação. Filtre por tema e época; clique para ampliar.
+            Mais de 170 fotografias, da fachada eclética e da sala em ferradura às obras de recuperação, aos ornamentos e à vida cultural. As imagens aparecem por curadoria e em ordem cronológica — do histórico ao restauro e ao Theatro de hoje. Filtre por tema e época; clique para ampliar.
           </p>
           <GaleriaReal fotos={fotosList} />
         </section>
