@@ -37,7 +37,6 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-cream/15 pt-6 text-[0.7rem] leading-relaxed text-cream/65">
-          <p>Fontes editoriais: <em>Theatro Municipal, 100 anos</em> (2014) e o documentário <em>Música &amp; Drama — A História do Theatro Municipal de São João da Boa Vista</em>, de Eduardo Menezes.</p>
           <p className="mt-2">© {new Date().getFullYear()} Theatro Municipal de São João da Boa Vista. História, arte e memória.</p>
         </div>
       </div>
