@@ -1,5 +1,15 @@
 [
  {
+  "id": "medalhao",
+  "title": "O medalhão de Carlos Gomes",
+  "caption": "Escondido sob camadas de tinta e revelado na prospecção do restauro; à direita, o retrato recuperado sobre a boca de cena.",
+  "antes": "fotos/antes-depois/medalhao-antes.jpg",
+  "depois": "fotos/antes-depois/medalhao-depois.jpg",
+  "w": 1200,
+  "h": 900,
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
+ },
+ {
   "id": "galerias",
   "title": "A sala em ferradura",
   "caption": "As galerias e a plateia durante a obra e depois do restauro.",
