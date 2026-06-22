@@ -43,6 +43,11 @@ A obra avançou sob fiscalização associada ao construtor espanhol Antônio Lan
 
 O custo superou o capital inicial. Empréstimos e debêntures foram necessários, e as dívidas acompanharam a Companhia por anos. O Theatro nasceu, portanto, de entusiasmo, mas também de uma engenharia financeira difícil.
 
+
+![O projeto original da fachada, 1913 — o desenho eclético, com eixo central, frontão e as inscrições à música e ao drama.](/fotos/hr-fachada-55.jpg)
+
+*O projeto original da fachada, 1913 — o desenho eclético, com eixo central, frontão e as inscrições à música e ao drama.*
+
 ## 3. Uma noite de gala — 31 de outubro de 1914 {#uma-noite-de-gala}
 
 A inauguração ocorreu em **31 de outubro de 1914**. A banda do maestro Joaquim Azevedo abriu a cerimônia. Antônio Cândido de Oliveira Filho discursou em nome dos responsáveis pelo empreendimento. Depois, a Companhia Santos Silva apresentou a peça *Uma Causa Célebre*, com cenografia atribuída a Rodolfo Mossello.
@@ -56,6 +61,11 @@ Uma ausência, porém, marcou a cerimônia. José Evangelista de Almeida, aponta
 A data de 31 de outubro é sustentada pelo livro do centenário e por edições contemporâneas do jornal *O Município*: uma delas anunciava a primeira apresentação para aquela noite; outra, publicada em 7 de novembro, referia-se à inauguração ocorrida no dia 31.
 
 Uma versão posterior, de 8 de novembro, circulou em páginas institucionais. Aqui adotamos **31 de outubro**, registrando a divergência — um lembrete de como a pesquisa histórica trabalha com fontes.
+
+
+![A plateia vista do palco, em registro histórico — a sala original, com a curva das galerias.](/fotos/hr-sala-47.jpg)
+
+*A plateia vista do palco, em registro histórico — a sala original, com a curva das galerias.*
 
 ## 4. A cidade inteira encontra um palco — 1914 a 1936
 
@@ -97,6 +107,11 @@ Em fevereiro de 1967, frisas e camarotes foram retirados para aumentar o número
 
 Ainda ocorreram shows, entre eles Roberto Carlos, em 1968, e apresentações de Dercy Gonçalves e Agnaldo Rayol, em 1982. Nomes como Jorge Goulart e Carlos Galhardo aparecem com frequência nas memórias do circuito artístico que passou pelo palco. Mas a concorrência de outras salas, a televisão, o desgaste físico e as dificuldades econômicas aceleraram o declínio.
 
+
+![A fachada na época do Cine Theatro, com cartazes de cinema no térreo.](/fotos/hr-sala-50.jpg)
+
+*A fachada na época do Cine Theatro, com cartazes de cinema no térreo.*
+
 ## 6. O prédio que a cidade se recusou a perder — 1981 a 1987
 
 No início dos anos 1980, a possibilidade de venda e demolição deixou de ser boato distante. O prédio era particular, estava degradado e recebia propostas incompatíveis com sua preservação.
@@ -115,6 +130,11 @@ Em 1984, antes do fechamento para as obras, o espetáculo de teatro e dança *Al
 
 Em 19 de janeiro de 1987, o tombamento estadual pelo CONDEPHAAT reconheceu formalmente o valor histórico do edifício.
 
+
+![A sala esvaziada, antes do restauro — anos de abandono e risco de demolição.](/fotos/hr-historicas-45.jpg)
+
+*A sala esvaziada, antes do restauro — anos de abandono e risco de demolição.*
+
 ## 7. Uma restauração longa — 1986 a 2002
 
 A restauração não foi uma simples pintura. O prédio apresentava rachaduras, madeira atacada por cupins, alterações acumuladas, infiltrações e limitações técnicas. A equipe precisou estudar o que conservar, o que reconstruir e como adaptar uma casa do início do século XX às exigências contemporâneas.
@@ -131,6 +151,11 @@ O foyer foi inaugurado em dezembro de 1992. Mesmo incompleto, o Theatro voltou a
 
 A Fundação Oliveira Neto, criada em 1998, ajudou a captar recursos por incentivos e campanhas. Em setembro de 2002, durante a 25ª Semana Guiomar Novaes, o público reencontrou a sala principal.
 
+
+![Decapagem — a remoção controlada das camadas de tinta que escondiam pinturas e ornamentos.](/fotos/hr-restauro-20.jpg)
+
+*Decapagem — a remoção controlada das camadas de tinta que escondiam pinturas e ornamentos.*
+
 ## 8. O Theatro volta a pertencer ao cotidiano — 2003 em diante
 
 A reabertura trouxe um novo desafio: não bastava conservar o edifício; era necessário ocupá-lo com qualidade e continuidade.
@@ -146,3 +171,8 @@ O reencontro com a sala traduziu-se em uso intenso: levantamentos acadêmicos co
 [Explorar a linha do tempo](./linha-do-tempo) · [Conhecer as pessoas](./pessoas) · [Ver a restauração em detalhes](./restauracao)
 
 <!-- Fontes principais: Menezes, 2014, pp. 29–178, 245–298; periódicos de 1913–1914 citados no livro e na dissertação de Luis Pedro Dragão Jeronimo; CONDEPHAAT; Prefeitura. -->
+
+![A sala em ferradura, com os camarotes e as poltronas vermelhas, depois do restauro.](/fotos/hr2-sala-05.jpg)
+
+*A sala em ferradura, com os camarotes e as poltronas vermelhas, depois do restauro.*
+

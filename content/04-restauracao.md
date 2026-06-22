@@ -27,6 +27,11 @@ Circularam notícias de venda para empreendimentos que poderiam eliminar o edif�
 
 Em 1981, o município declarou o imóvel de utilidade pública. A decisão criou um primeiro bloqueio contra a descaracterização, mas ainda faltavam compra, projeto, recursos e proteção patrimonial.
 
+
+![O Theatro deteriorado, no período de declínio que antecedeu a mobilização.](/fotos/hr-historicas-46.jpg)
+
+*O Theatro deteriorado, no período de declínio que antecedeu a mobilização.*
+
 ## Quando artistas tomaram a frente
 
 A classe artística transformou a preservação em assunto público. Houve passeatas, entrevistas, intervenções diante do prédio e coleta de assinaturas. Ronaldo Marin anunciou que se amarraria no alto do Theatro e faria greve de fome. A ameaça chamou atenção da imprensa e ampliou o debate.
@@ -90,6 +95,11 @@ As intervenções incluíram:
 
 O rebaixamento das fundações foi executado lentamente. Relatos técnicos registram controle rigoroso do recalque e a necessidade de laudos para responder ao temor de que a escavação pudesse comprometer o edifício.
 
+
+![A escavação do fosso da orquestra, sob o palco, durante as obras.](/fotos/hr-restauro-23.jpg)
+
+*A escavação do fosso da orquestra, sob o palco, durante as obras.*
+
 ## Restauro artístico
 
 A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos. Amostras de camadas antigas foram analisadas para buscar tons compatíveis. Capitéis e detalhes receberam tratamento e douração.
@@ -97,6 +107,11 @@ A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos.
 Na boca de cena, o medalhão de Carlos Gomes — obra original do pintor italiano Ettore Adriano Fabri — foi revelado sob sucessivas pinturas. Cézar Roberto Olandim, Maércio Mazzi e Elias Gervasi aparecem associados às etapas de descoberta e reintegração da obra; Romeu Paulucci Buzon Filho atuou na recuperação dos ornamentos da fachada, em 1992.
 
 Algumas decisões foram interpretativas, e a honestidade pede registrá-las como tais: seis espelhos no foyer e as pinturas de ramos de café nas tabeiras foram acréscimos do restauro, inspirados em casas como o Theatro Municipal de São Paulo e o São Pedro — não remanescentes comprovados de 1914.
+
+
+![O artista César Roberto Olandim na recuperação da pintura do medalhão de Carlos Gomes.](/fotos/hr3-restauro-01.jpg)
+
+*O artista César Roberto Olandim na recuperação da pintura do medalhão de Carlos Gomes.*
 
 ## Uma obra atravessada por governos e gerações
 
@@ -119,6 +134,11 @@ Preservar não termina com a reabertura. O último grande ciclo de acabamentos f
 Reportagens locais entre 2023 e 2024 registraram pontos a enfrentar — entre eles a entrada de água da chuva por portas laterais e a fragilidade de esquadrias — e listaram demandas de pintura, palco, camarins, instalações, acessibilidade, som e luz. Em 2024, obras externas e internas avançaram com pintura de fachada, palco e foyer; parte das intervenções, porém, ficou inacabada, e a manutenção preventiva permanece como agenda aberta.
 
 Esse é o estágio honesto de um edifício de mais de cem anos: vivo e em uso, mas exigindo atenção contínua. A própria história do Theatro mostra que sua conservação sempre dependeu de vontade pública e mobilização — e segue dependendo.
+
+
+![O medalhão de Carlos Gomes restaurado — o retrato que esteve escondido sob a tinta.](/fotos/hr-ornamentos-28.jpg)
+
+*O medalhão de Carlos Gomes restaurado — o retrato que esteve escondido sob a tinta.*
 
 ## O que a restauração ensina
 

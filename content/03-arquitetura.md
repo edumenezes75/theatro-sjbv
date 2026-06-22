@@ -31,6 +31,11 @@ Na linguagem eclética, elementos de diferentes tradições históricas são reo
 
 > **Nota de pesquisa:** a expressão “modelo do Scala de Milão” aparece em narrativas locais. Aqui ela é tratada como referência atribuída, não como prova de cópia direta.
 
+
+![A fachada eclética voltada para a Praça da Catedral, com inscrições ligadas à música e ao drama.](/fotos/hr-fachada-24.jpg)
+
+*A fachada eclética voltada para a Praça da Catedral, com inscrições ligadas à música e ao drama.*
+
 ## O programa anunciado em 1913
 
 A notícia publicada por ocasião da pedra fundamental descreveu:
@@ -56,6 +61,11 @@ Esses números mostram o projeto idealizado. A execução, a lotação autorizad
 A sala curva distribui o público ao redor da plateia e aproxima os níveis superiores do palco. Em vez de uma caixa retangular simples, o espaço cria continuidade visual entre frisas, camarotes e galerias.
 
 Historicamente, essa disposição também organizava diferenças sociais. Os setores tinham preços, acessos e experiências distintas. A galeria podia receber grande público; frisas e camarotes ofereciam visibilidade e representação social; a plateia concentrava cadeiras classificadas por categoria. Os preços traduziam a hierarquia: num benefício de 1916, a galeria custava 500 réis, a plateia 1$000, o camarote 5$000 e a frisa 6$000 — mais de dez vezes de diferença entre o lugar mais alto e o mais distinto.
+
+
+![A curva em ferradura, com frisas, camarotes e galerias envolvendo a plateia.](/fotos/hr2-sala-05.jpg)
+
+*A curva em ferradura, com frisas, camarotes e galerias envolvendo a plateia.*
 
 ## Madeira, metal e som
 
@@ -97,6 +107,11 @@ A intervenção de **fevereiro de 1967** foi especialmente importante: frisas e 
 Sobre a boca de cena, o retrato de Carlos Gomes — obra original do pintor italiano Ettore Adriano Fabri — fora encoberto por camadas de tinta. Durante o restauro, uma prospecção delicada revelou a figura. A recuperação envolveu remoção controlada das camadas, reintegração de lacunas e proteção final.
 
 Esse episódio resume o trabalho de restauração: não inventar um passado, mas procurar evidências, interpretar marcas e devolver leitura ao que sobreviveu.
+
+
+![O medalhão de Carlos Gomes restaurado, no proscênio.](/fotos/hr-ornamentos-28.jpg)
+
+*O medalhão de Carlos Gomes restaurado, no proscênio.*
 
 ## A arquitetura continua mudando
 

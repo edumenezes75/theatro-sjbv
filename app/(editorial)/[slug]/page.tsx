@@ -9,6 +9,8 @@ import GaleriaReal from '@/components/GaleriaReal';
 import AntesDepois from '@/components/AntesDepois';
 import Curiosidades from '@/components/Curiosidades';
 import Reveal from '@/components/Reveal';
+import ReadingProgress from '@/components/ReadingProgress';
+import ChapterIndex from '@/components/ChapterIndex';
 
 const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
@@ -52,6 +54,11 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
   const gal = GALLERIES[params.slug];
   const galFotos = gal ? fotosList.filter((f) => gal.cats.includes(f.category)).slice(0, 16) : [];
   const showAD = ANTES_DEPOIS.has(params.slug);
+  const h2count = (page.html.match(/<h2/g) || []).length;
+  const longRead = h2count >= 4;
+  const JOURNEY = ['/o-theatro', '/historia', '/arquitetura', '/restauracao', '/pessoas', '/acervo', '/documentario', '/memorias', '/visita-guiada', '/linha-do-tempo', '/programacao', '/visite', '/fontes'];
+  const ji = JOURNEY.indexOf('/' + params.slug);
+  const nextHref = ji >= 0 && ji < JOURNEY.length - 1 ? JOURNEY[ji + 1] : null;
 
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const url = `${SITE}/${params.slug}`;
@@ -82,13 +89,28 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
 
   return (
     <article>
+      {longRead && <ReadingProgress />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={page.meta.status} />
       <div className="mx-auto max-w-6xl px-5 py-14">
-        <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">{readMin} min de leitura</p>
-        <Reveal>
-          <div className="prose-theatro mx-auto" dangerouslySetInnerHTML={{ __html: page.html }} />
-        </Reveal>
+        {longRead ? (
+          <div className="lg:grid lg:grid-cols-[11rem_minmax(0,1fr)] lg:gap-12 xl:gap-16">
+            <aside className="hidden lg:block"><ChapterIndex /></aside>
+            <div className="min-w-0">
+              <p className="read-meta mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">{readMin} min de leitura</p>
+              <Reveal>
+                <div className="prose-theatro" dangerouslySetInnerHTML={{ __html: page.html }} />
+              </Reveal>
+            </div>
+          </div>
+        ) : (
+          <>
+            <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">{readMin} min de leitura</p>
+            <Reveal>
+              <div className="prose-theatro mx-auto" dangerouslySetInnerHTML={{ __html: page.html }} />
+            </Reveal>
+          </>
+        )}
 
         {showAD && antesDepoisList.length > 0 && (
           <section className="mt-16 border-t border-gold/25 pt-12">
@@ -117,6 +139,16 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
             <h2 className="mb-8 font-display text-3xl">Você sabia?</h2>
             <Curiosidades itens={curiosidadesList} />
           </section>
+        )}
+
+        {nextHref && (
+          <a href={nextHref} className="card-lift group mt-16 flex items-center justify-between gap-4 rounded-sm border border-gold/30 bg-cream px-6 py-5 transition-colors hover:border-gold dark:bg-nightsoft">
+            <span>
+              <span className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Próxima página</span>
+              <span className="mt-1 block font-display text-xl text-ink dark:text-cream">{LABELS[nextHref] ?? nextHref}</span>
+            </span>
+            <span className="font-display text-2xl text-curtain transition-transform group-hover:translate-x-1 dark:text-gold">→</span>
+          </a>
         )}
 
         {RELATED[params.slug] && (
