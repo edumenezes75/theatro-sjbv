@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { pessoasList, pessoaSlug, pessoaBySlug, pessoaById } from '@/lib/data';
 import SeloEvidencia from '@/components/SeloEvidencia';
+import Compartilhar from '@/components/Compartilhar';
 
 const SITE = 'https://www.theatromunicipalsjbv.com.br';
 
@@ -97,6 +98,8 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
           </div>
         </section>
       )}
+
+      <div className="mt-10"><Compartilhar title={p.name} /></div>
 
       <div className="mt-12 border-t border-gold/20 pt-6">
         <Link href="/pessoas" className="font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 hover:text-curtain dark:text-gold">← Todas as pessoas</Link>

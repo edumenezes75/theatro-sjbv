@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Compartilhar from '@/components/Compartilhar';
 import Image from 'next/image';
 import { fotosList, fotoById, fotoTitulo } from '@/lib/data';
 
@@ -81,6 +82,10 @@ export default function FotoPage({ params }: { params: { id: string } }) {
         <h1 className="mt-3 font-display text-3xl leading-tight sm:text-4xl">{titulo}</h1>
         <p className="mt-3 max-w-reading font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">{f.alt}</p>
         <p className="mt-4 font-sans text-xs italic text-ink/55 dark:text-cream/55">{f.credit}</p>
+        <div className="mt-5 flex flex-wrap items-center gap-2.5">
+          <a href={`/${f.file}`} target="_blank" rel="noopener" download className="inline-flex items-center gap-1.5 rounded-full bg-curtain px-3.5 py-1.5 font-sans text-xs font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Ver imagem em alta ↗</a>
+          <Compartilhar title={titulo} />
+        </div>
       </header>
 
       {relacionadas.length > 0 && (
