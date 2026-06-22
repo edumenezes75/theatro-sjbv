@@ -22,7 +22,7 @@ export default function Footer() {
           <div>
             <h3 className="font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold">Navegação</h3>
             <ul className="mt-3 space-y-1.5 text-sm">
-              {[['/o-theatro','O Theatro'],['/historia','História'],['/arquitetura','Arquitetura'],['/restauracao','Preservação e restauro'],['/pessoas','Pessoas'],['/programacao','Programação'],['/visite','Visite']].map(([h,l]) => (
+              {[['/o-theatro','O Theatro'],['/historia','História'],['/arquitetura','Arquitetura'],['/restauracao','Restauro'],['/pessoas','Pessoas'],['/programacao','Programação'],['/visite','Visite']].map(([h,l]) => (
                 <li key={h}><Link href={h} className="text-cream/80 hover:text-gold">{l}</Link></li>
               ))}
             </ul>
