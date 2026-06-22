@@ -158,11 +158,11 @@
  {
   "id": "h040",
   "file": "fotos/hr-sala-40.jpg",
-  "category": "sala",
-  "categoryLabel": "Sala e plateia",
+  "category": "historicas",
+  "categoryLabel": "Históricas e cidade",
   "w": 939,
   "h": 1432,
-  "alt": "Recital na sala principal — a casa que acumulou elogios de músicos por sua acústica.",
+  "alt": "Convite de um recital no Theatro — registro da intensa vida musical da casa.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 3
@@ -294,7 +294,7 @@
   "categoryLabel": "Ornamentos e medalhão",
   "w": 1800,
   "h": 1200,
-  "alt": "Relevo decorativo da sala, no estilo eclético do edifício.",
+  "alt": "A inscrição “Municipal” no programa decorativo eclético do edifício.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
   "rank": 2
@@ -678,7 +678,7 @@
   "categoryLabel": "Pessoas",
   "w": 1800,
   "h": 1191,
-  "alt": "João Batista Merlin, engenheiro e restaurador — o grande mentor técnico da recuperação do edifício.",
+  "alt": "A equipe técnica do restauro, conduzida pelo engenheiro e restaurador João Batista Merlin — mentor da recuperação do edifício.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
   "rank": 2
@@ -942,7 +942,7 @@
   "categoryLabel": "Restauro",
   "w": 1167,
   "h": 1700,
-  "alt": "Os vergalhões que sustentam o palco, na reestruturação da caixa cênica.",
+  "alt": "O edifício durante as obras de restauração, com andaimes na fachada.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
   "rank": 2
@@ -1554,7 +1554,7 @@
   "categoryLabel": "Sala e plateia",
   "w": 1424,
   "h": 1218,
-  "alt": "A boca de cena e o forro decorado, vistos da plateia.",
+  "alt": "A escadaria interna do Theatro — a curva da balaustrada.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
   "rank": 1
@@ -1734,7 +1734,7 @@
   "categoryLabel": "Restauro",
   "w": 1800,
   "h": 1177,
-  "alt": "A fachada inteiramente tomada por andaimes, na recuperação externa.",
+  "alt": "A estrutura de andaimes no interior, durante o restauro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
   "rank": 2
@@ -1746,7 +1746,7 @@
   "categoryLabel": "Restauro",
   "w": 1800,
   "h": 1177,
-  "alt": "A estrutura de andaimes no interior, durante o restauro.",
+  "alt": "A fachada inteiramente tomada por andaimes, na recuperação externa.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
   "rank": 2
