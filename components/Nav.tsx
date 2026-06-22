@@ -7,6 +7,7 @@ import Mark from './Mark';
 import { IconChevron, IconMenu, IconClose } from './Icons';
 
 const PRIMARY = [
+  { href: '/o-theatro', label: 'O Theatro' },
   { href: '/historia', label: 'História' },
   { href: '/arquitetura', label: 'Arquitetura' },
   { href: '/restauracao', label: 'Restauro' },
@@ -15,15 +16,14 @@ const PRIMARY = [
   { href: '/programacao', label: 'Programação' },
   { href: '/visite', label: 'Visite' },
 ];
-const MORE_GROUPS = [
+const MORE_GROUPS: { title: string | null; items: { href: string; label: string }[] }[] = [
   { title: 'Explorar', items: [
     { href: '/documentario', label: 'Documentário' },
     { href: '/linha-do-tempo', label: 'Linha do tempo' },
     { href: '/memorias', label: 'Memórias e curiosidades' },
     { href: '/visita-guiada', label: 'Visita guiada' },
   ] },
-  { title: 'Sobre', items: [
-    { href: '/o-theatro', label: 'O Theatro' },
+  { title: null, items: [
     { href: '/fontes', label: 'Pesquisa e fontes' },
   ] },
 ];
@@ -71,7 +71,7 @@ export default function Nav() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-5 lg:flex" aria-label="Navegação principal">
+        <nav className="hidden items-center gap-4 lg:flex" aria-label="Navegação principal">
           {PRIMARY.map((l) => <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className={linkCls(pathname === l.href)}>{l.label}</Link>)}
           <div className="relative" ref={moreRef}>
             <button onClick={() => setMore(!more)} className={`flex items-center gap-1 ${linkCls(MORE.some((m) => m.href === pathname))}`} aria-expanded={more}>
@@ -80,8 +80,8 @@ export default function Nav() {
             {more && (
               <div className="absolute right-0 top-full mt-3 w-64 rounded-sm border border-gold/25 bg-cream p-2 shadow-xl dark:bg-nightsoft">
                 {MORE_GROUPS.map((g, gi) => (
-                  <div key={g.title} className={gi > 0 ? 'mt-1 border-t border-gold/15 pt-1' : ''}>
-                    <p className="px-3 pb-1 pt-2 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{g.title}</p>
+                  <div key={g.title ?? 'ref'} className={gi > 0 ? 'mt-1 border-t border-gold/15 pt-1' : ''}>
+                    {g.title && <p className="px-3 pb-1 pt-2 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{g.title}</p>}
                     {g.items.map((l) => (
                       <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className="block rounded-sm px-3 py-2 font-sans text-sm text-ink/80 hover:bg-gold/10 dark:text-cream/80">{l.label}</Link>
                     ))}
