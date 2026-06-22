@@ -82,6 +82,27 @@ export default function DocumentarioPage() {
         <a href="https://www.youtube.com/watch?v=e2stgoHtlAQ" target="_blank" rel="noopener" className="mt-3 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Abrir no YouTube ↗</a>
 
         <section className="mt-16">
+          <h2 className="font-display text-3xl">Ficha técnica</h2>
+          <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">Lançado em 2015, com cerca de 108 minutos.</p>
+          <dl className="mt-5 grid gap-x-8 gap-y-2.5 sm:grid-cols-2">
+            {[
+              ['Direção e edição', 'Eduardo Menezes'],
+              ['Roteiro', 'Neusa Menezes'],
+              ['Fotografia', 'Marcelo Gonçalves'],
+              ['Produção', 'Adriana Torati'],
+              ['Áudio', 'Diogo Felipe'],
+              ['Assistência de câmera', 'Filipe Della Torre'],
+              ['Imagens adicionais', 'Leonardo Nogueira e Leonardo Beraldo'],
+            ].map(([k, v]) => (
+              <div key={k} className="flex items-baseline justify-between gap-3 border-b border-gold/15 py-2">
+                <dt className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{k}</dt>
+                <dd className="text-right font-sans text-[0.95rem] text-ink/85 dark:text-cream/85">{v}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+
+        <section className="mt-16">
           <h2 className="font-display text-3xl">Estrutura de capítulos</h2>
           <p className="mt-2 font-sans text-sm text-ink/60 dark:text-cream/60">Oito capítulos percorrem a trajetória do Theatro, do fim do século XIX ao patrimônio vivo de hoje.</p>
           <ol className="mt-6 divide-y divide-gold/20 border-y border-gold/20">
@@ -118,27 +139,6 @@ export default function DocumentarioPage() {
           <div className="mt-7">
             <TranscricaoFilme segs={transcricao} youtubeId="e2stgoHtlAQ" />
           </div>
-        </section>
-
-        <section className="mt-16">
-          <h2 className="font-display text-3xl">Ficha técnica</h2>
-          <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">Lançado em 2015, com cerca de 108 minutos.</p>
-          <dl className="mt-5 grid gap-x-8 gap-y-2.5 sm:grid-cols-2">
-            {[
-              ['Direção e edição', 'Eduardo Menezes'],
-              ['Roteiro', 'Neusa Menezes'],
-              ['Fotografia', 'Marcelo Gonçalves'],
-              ['Produção', 'Adriana Torati'],
-              ['Áudio', 'Diogo Felipe'],
-              ['Assistência de câmera', 'Filipe Della Torre'],
-              ['Imagens adicionais', 'Leonardo Nogueira e Leonardo Beraldo'],
-            ].map(([k, v]) => (
-              <div key={k} className="flex items-baseline justify-between gap-3 border-b border-gold/15 py-2">
-                <dt className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{k}</dt>
-                <dd className="text-right font-sans text-[0.95rem] text-ink/85 dark:text-cream/85">{v}</dd>
-              </div>
-            ))}
-          </dl>
         </section>
 
         <section className="mt-16">
