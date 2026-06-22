@@ -19,3 +19,15 @@ export const IconArrowRight = ({ size, className }: P) => (
 export const IconMenu = ({ size, className }: P) => (
   <svg {...base(size)} className={className} aria-hidden><path d="M4 7h16M4 12h16M4 17h16" /></svg>
 );
+export const IconMapPin = ({ size, className }: P) => (
+  <svg {...base(size)} className={className} aria-hidden><path d="M12 21s-7-6.3-7-11a7 7 0 0 1 14 0c0 4.7-7 11-7 11z" /><circle cx="12" cy="10" r="2.5" /></svg>
+);
+export const IconClock = ({ size, className }: P) => (
+  <svg {...base(size)} className={className} aria-hidden><circle cx="12" cy="12" r="8.5" /><path d="M12 7.5V12l3 2" /></svg>
+);
+export const IconPhone = ({ size, className }: P) => (
+  <svg {...base(size)} className={className} aria-hidden><path d="M6.5 4h3l1.5 4-2 1.5a11 11 0 0 0 5 5l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 6a2 2 0 0 1 2-2z" /></svg>
+);
+export const IconAccessible = ({ size, className }: P) => (
+  <svg {...base(size)} className={className} aria-hidden><circle cx="12" cy="4.5" r="1.6" /><path d="M5.5 8.5h13M12 8v5m0 0l-3.5 6m3.5-6l3.5 6" /></svg>
+);

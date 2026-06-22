@@ -11,6 +11,7 @@ import Curiosidades from '@/components/Curiosidades';
 import Reveal from '@/components/Reveal';
 import ReadingProgress from '@/components/ReadingProgress';
 import ChapterIndex from '@/components/ChapterIndex';
+import VisitaInfo from '@/components/VisitaInfo';
 
 const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
@@ -93,6 +94,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={page.meta.status} />
       <div className="mx-auto max-w-6xl px-5 py-14">
+        {params.slug === 'visite' && <VisitaInfo />}
         {longRead ? (
           <div className="lg:grid lg:grid-cols-[11rem_minmax(0,1fr)] lg:gap-12 xl:gap-16">
             <aside className="hidden lg:block"><ChapterIndex /></aside>
