@@ -12,11 +12,11 @@ const PRIMARY = [
   { href: '/restauracao', label: 'Restauro' },
   { href: '/pessoas', label: 'Pessoas' },
   { href: '/acervo', label: 'Acervo' },
+  { href: '/programacao', label: 'Programação' },
   { href: '/visite', label: 'Visite' },
 ];
 const MORE = [
   { href: '/documentario', label: 'Documentário' },
-  { href: '/programacao', label: 'Programação' },
   { href: '/visita-guiada', label: 'Visita guiada' },
   { href: '/linha-do-tempo', label: 'Linha do tempo' },
   { href: '/memorias', label: 'Memórias e curiosidades' },
