@@ -64,28 +64,6 @@ Além do livro do centenário, a memória do Theatro está registrada em obras l
 | **Em pesquisa** | Há versões diferentes ou falta documentação conclusiva. |
 | **Informação de serviço** | Dado operacional, com data de verificação. |
 
-## Questões ainda abertas
-
-### Quem foi exatamente J. Pucci?
-
-O projeto é assinado por J. Pucci, mas a biografia do profissional precisa ser consolidada com documentos civis, comerciais e técnicos.
-
-### O que havia no terreno antes do Theatro?
-
-Narrativas locais apresentam uma sequência de usos. A pesquisa cartorial deve separar tradição memorialística de cadeia dominial comprovada.
-
-### Qual era a capacidade efetiva da sala original?
-
-O programa de 1913 informa números ambiciosos. É necessário comparar projeto, execução, licenças e lotação atual.
-
-### De onde veio a estrutura metálica?
-
-O livro registra fabricação na Bélgica. A afirmação deve ser confirmada por marcas nas peças, notas, anúncios ou documentos de importação.
-
-### Qual foi o dia exato da reabertura de 2002?
-
-O livro registra a abertura durante a 25ª Semana Guiomar Novaes, com referências internas a datas diferentes. Até o confronto com programas e jornais, adotamos “setembro de 2002”.
-
 ## Política de correções
 
 Cada página indica a data de sua última revisão. Quando uma nova fonte altera uma informação, o nosso compromisso é corrigir o texto, registrar o que mudou, citar a nova evidência e preservar versões anteriores quando tiverem interesse historiográfico.

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import AnoAtual from './AnoAtual';
 import Mark from './Mark';
 
 export default function Footer() {
@@ -37,7 +38,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-cream/15 pt-6 text-[0.7rem] leading-relaxed text-cream/65">
-          <p className="mt-2">© {new Date().getFullYear()} Theatro Municipal de São João da Boa Vista. História, arte e memória.</p>
+          <p className="mt-2">© <AnoAtual /> Theatro Municipal de São João da Boa Vista. História, arte e memória.</p>
         </div>
       </div>
     </footer>
