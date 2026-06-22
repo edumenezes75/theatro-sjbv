@@ -73,12 +73,13 @@ export default function DocumentarioPage() {
   return (
     <article>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ldVideo) }} />
-      <ChapterHero eyebrow="A história do Theatro em filme" title="Música & Drama" status="texto público com produção pendente" />
+      <ChapterHero eyebrow="A história do Theatro em filme" title="Música & Drama" />
       <div className="mx-auto max-w-4xl px-5 py-10">
         <LiteYouTube id="e2stgoHtlAQ" title="Música & Drama — A História do Theatro Municipal de São João da Boa Vista" />
-        <p className="mt-4 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
-          Dirigido por Eduardo Menezes, o filme reúne imagens, documentos e depoimentos sobre a trajetória do edifício, ampliando a pesquisa do livro do centenário e preservando vozes que não cabem em uma cronologia escrita.
-        </p>
+        <div className="mt-4 max-w-reading space-y-4 font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
+          <p>Dirigido por Eduardo Menezes e lançado em 2015, <em>Música &amp; Drama</em> reconstrói um século de vida do Theatro pela voz de quem o frequentou, defendeu e restaurou. Em pouco mais de cem minutos, costura imagens, documentos e dezenas de depoimentos — das memórias de infância no cinema à batalha contra a demolição, do projeto de 1913 à reabertura de 2002.</p>
+          <p>Mais do que a cronologia de um edifício, é o retrato da relação entre uma cidade e o lugar onde ela se reconheceu. A transcrição completa, navegável abaixo, transforma esses relatos em fonte de consulta.</p>
+        </div>
         <a href="https://www.youtube.com/watch?v=e2stgoHtlAQ" target="_blank" rel="noopener" className="mt-3 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Abrir no YouTube ↗</a>
 
         <section className="mt-16">
@@ -100,6 +101,16 @@ export default function DocumentarioPage() {
               </div>
             ))}
           </dl>
+        </section>
+
+        <section className="mt-16">
+          <h2 className="font-display text-3xl">O filme como fonte histórica</h2>
+          <div className="mt-5 max-w-reading space-y-4 font-read text-[1.02rem] leading-relaxed text-ink/85 dark:text-cream/85">
+            <p>O filme abre na memória, não na data. Um sanjoanense relembra a primeira ida ao teatro, ainda criança, de terninho azul-marinho, quando um ator entrou pela plateia disfarçado de mendigo e subiu ao palco — <em>As Mãos de Eurídice</em>, com Rodolfo Mayer. A partir daí, dezenas de vozes reconstroem o ritual do antigo Cine Theatro: o footing antes da sessão, os namoros nas últimas fileiras, o “galinheiro” mais barato no alto, a fileira que ninguém ocupava porque do camarote cuspiam, e os meninos que pulavam a parede do banheiro para entrar sem pagar.</p>
+            <p>Outras lembranças desenham a vida ao redor do palco: o Bar Theatro de seu Arnaldo Posse, com a coalhada e o Bauru famosos; o cão Amigo, que dormia à porta; a Sociedade de Cultura Artística e a Sociedade Cultural de Debates, no segundo andar, que receberam nomes como Villa-Lobos e foram, segundo um depoente, o núcleo da futura Academia de Letras local; a rádio e a biblioteca que dividiram o mesmo pavimento; e os recitais ligados a Guiomar Novaes, que elogiava a acústica da casa.</p>
+            <p>O documentário guarda também o testemunho direto da quase-perda. Moradores descrevem o edifício “pronto para ser demolido”, as ameaças de virar supermercado ou estacionamento e a campanha que o salvou: as passeatas em torno da Catedral, as duas mil assinaturas reunidas em quinze dias e a ameaça de greve de fome no alto da fachada. O prefeito Sidney Beraldo, o engenheiro João Batista Merlin e a equipe relatam a compra em duas etapas, o tombamento de 1987 e a longa obra.</p>
+            <p>São os bastidores do restauro que o filme registra com mais intimidade: a viagem ao Rio para “entender de teatro”, a disputa sobre a escavação do subsolo e a revelação do medalhão de Carlos Gomes — escondido sob camadas de tinta e trazido de volta à luz pelo restaurador César Roberto Olandim, sobre um andaime montado da noite para o dia. O reencontro de 2002, com filas que davam a volta no quarteirão e um telão na praça, fecha o ciclo. Ao reunir essas vozes, <em>Música &amp; Drama</em> funciona como uma fonte histórica viva: muitas dessas memórias não existem em nenhum documento escrito.</p>
+          </div>
         </section>
 
         <section className="mt-16">
