@@ -98,6 +98,15 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
 
       <div className="mt-10"><Compartilhar title={p.name} /></div>
 
+      <section className="mt-12 border-t border-gold/20 pt-8">
+        <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Continue explorando</p>
+        <div className="mt-3 flex flex-wrap gap-3">
+          <a href="/pessoas" className="card-lift rounded-sm border border-ink/12 px-5 py-3 font-sans text-sm text-ink/80 hover:border-gold/50 hover:text-curtain dark:border-cream/12 dark:text-cream/80 dark:hover:text-gold">Todas as pessoas →</a>
+          <a href="/acervo" className="card-lift rounded-sm border border-ink/12 px-5 py-3 font-sans text-sm text-ink/80 hover:border-gold/50 hover:text-curtain dark:border-cream/12 dark:text-cream/80 dark:hover:text-gold">Acervo de imagens →</a>
+          <a href="/linha-do-tempo" className="card-lift rounded-sm border border-ink/12 px-5 py-3 font-sans text-sm text-ink/80 hover:border-gold/50 hover:text-curtain dark:border-cream/12 dark:text-cream/80 dark:hover:text-gold">Linha do tempo →</a>
+        </div>
+      </section>
+
       <div className="mt-12 border-t border-gold/20 pt-6">
         <Link href="/pessoas" className="font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 hover:text-curtain dark:text-gold">← Todas as pessoas</Link>
       </div>

@@ -58,7 +58,14 @@ export default function AcervoPage() {
           <GaleriaReal fotos={destaque} withFilter={false} />
         </section>
 
-        <section className="mt-16 border-t border-gold/25 pt-12">
+        <nav aria-label="Saltar para um capítulo" className="mt-12 flex flex-wrap items-center gap-2 border-y border-gold/20 py-4">
+          <span className="mr-1 font-sans text-[0.62rem] uppercase tracking-eyebrow text-ink/55 dark:text-cream/55">Saltar para</span>
+          <a href="#cap-historico" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O Theatro histórico</a>
+          <a href="#cap-restauro" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O restauro</a>
+          <a href="#cap-hoje" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O Theatro hoje</a>
+        </nav>
+
+        <section id="cap-historico" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 1 · antes do restauro</p>
@@ -69,7 +76,7 @@ export default function AcervoPage() {
           </p>
           <GaleriaReal fotos={hist} showEpoca={false} />
         </section>
-        <section className="mt-16 border-t border-gold/25 pt-12">
+        <section id="cap-restauro" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 2 · a recuperação</p>
@@ -80,7 +87,7 @@ export default function AcervoPage() {
           </p>
           <GaleriaReal fotos={rest} showEpoca={false} />
         </section>
-        <section className="mt-16 border-t border-gold/25 pt-12">
+        <section id="cap-hoje" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 3 · o Theatro vivo</p>
