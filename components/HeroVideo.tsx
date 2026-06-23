@@ -7,9 +7,9 @@ export default function HeroVideo() {
   useEffect(() => {
     setPlay(!window.matchMedia('(prefers-reduced-motion: reduce)').matches);
   }, []);
-  if (!play) {
-    // SSR e reduced-motion: poster como imagem prioritária (alvo de LCP)
-    return (
+  return (
+    <>
+      {/* Poster é o alvo de LCP: prioritária e NUNCA desmontada. */}
       <Image
         src="/video/hero-theatro-poster.jpg"
         alt=""
@@ -19,15 +19,20 @@ export default function HeroVideo() {
         sizes="100vw"
         className="object-cover"
       />
-    );
-  }
-  return (
-    <video
-      autoPlay muted loop playsInline preload="metadata"
-      poster="/video/hero-theatro-poster.jpg" aria-hidden
-      className="absolute inset-0 h-full w-full object-cover"
-    >
-      <source src="/video/hero-theatro-loop.mp4" type="video/mp4" />
-    </video>
+      {/* Vídeo entra por cima, sem trocar o elemento de LCP. */}
+      {play && (
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="none"
+          aria-hidden
+          className="absolute inset-0 h-full w-full object-cover"
+        >
+          <source src="/video/hero-theatro-loop.mp4" type="video/mp4" />
+        </video>
+      )}
+    </>
   );
 }

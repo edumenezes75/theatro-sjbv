@@ -4,7 +4,6 @@ import './globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import SmoothScroll from '@/components/SmoothScroll';
-import { Analytics } from '@vercel/analytics/next';
 import ConsentBanner from '@/components/ConsentBanner';
 
 const display = Bodoni_Moda({ subsets: ['latin'], weight: ['400', '500', '600'], style: ['normal', 'italic'], variable: '--font-display', display: 'swap' });
@@ -74,7 +73,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         <main id="conteudo">{children}</main>
         <Footer />
-        <Analytics />
         <ConsentBanner />
       </body>
     </html>
