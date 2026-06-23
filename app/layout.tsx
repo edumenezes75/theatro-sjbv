@@ -5,7 +5,7 @@ import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import SmoothScroll from '@/components/SmoothScroll';
 import { Analytics } from '@vercel/analytics/next';
-import Script from 'next/script';
+import ConsentBanner from '@/components/ConsentBanner';
 
 const display = Bodoni_Moda({ subsets: ['latin'], weight: ['400', '500', '600'], style: ['normal', 'italic'], variable: '--font-display', display: 'swap' });
 const sans = Hanken_Grotesk({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-sans', display: 'swap' });
@@ -75,8 +75,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="conteudo">{children}</main>
         <Footer />
         <Analytics />
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-0YHHEHSFKE" strategy="afterInteractive" />
-        <Script id="ga4" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-0YHHEHSFKE', { anonymize_ip: true, allow_google_signals: false, allow_ad_personalization_signals: false });` }} />
+        <ConsentBanner />
       </body>
     </html>
   );

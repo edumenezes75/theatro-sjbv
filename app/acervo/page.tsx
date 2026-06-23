@@ -4,6 +4,7 @@ import { getPageBySlug } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
 import GaleriaReal from '@/components/GaleriaReal';
+import LazyMount from '@/components/LazyMount';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/acervo' },
@@ -85,7 +86,7 @@ export default function AcervoPage() {
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             Andaimes por dentro e por fora, a escavação do fosso da orquestra, a decapagem e os artistas devolvendo cor aos ornatos. <span className="text-curtain dark:text-gold">{rest.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
           </p>
-          <GaleriaReal fotos={rest} showEpoca={false} />
+          <LazyMount><GaleriaReal fotos={rest} showEpoca={false} /></LazyMount>
         </section>
         <section id="cap-hoje" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
@@ -96,7 +97,7 @@ export default function AcervoPage() {
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             A sala em ferradura recuperada, os ornamentos, a fachada eclética e a vida cultural que segue no palco. <span className="text-curtain dark:text-gold">{hoje.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
           </p>
-          <GaleriaReal fotos={hoje} showEpoca={false} />
+          <LazyMount><GaleriaReal fotos={hoje} showEpoca={false} /></LazyMount>
         </section>
 
         <FontesDaPagina fontes={page?.fontes ?? null} />

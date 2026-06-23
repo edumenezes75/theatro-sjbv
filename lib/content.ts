@@ -1,4 +1,8 @@
 import fs from 'fs';
+import fotosData from '@/data/fotos.json';
+const fotosDims: Record<string, { w: number; h: number }> = Object.fromEntries(
+  (fotosData as { file: string; w: number; h: number }[]).map((f) => ['/' + f.file, { w: f.w, h: f.h }]),
+);
 import path from 'path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
@@ -60,6 +64,10 @@ export function getAllPages(): Page[] {
     const { body, fontes } = extractFontes(content);
     let html = marked.parse(fixImagePaths(body)) as string;
     html = html.replace(/<img /g, '<img loading="lazy" decoding="async" ');
+    html = html.replace(/<img ([^>]*?)src="([^"]+)"([^>]*?)>/g, (m, a, src, b) => {
+      const d = fotosDims[src];
+      return d && !/width=/.test(m) ? `<img ${a}src="${src}"${b} width="${d.w}" height="${d.h}" style="height:auto">` : m;
+    });
     // converte sintaxe {#id} ao fim de titulos em atributo id real (marked nao faz isso)
     html = html.replace(/<(h[1-6])([^>]*)>([\s\S]*?)\s*\{#([\w-]+)\}\s*<\/\1>/g, '<$1$2 id="$4">$3</$1>');
     html = html.replace(/<h1[^>]*>[\s\S]*?<\/h1>/i, '');
