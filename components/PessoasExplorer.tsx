@@ -15,7 +15,7 @@ const GROUPS: { title: string; sub: string; cats: string[] }[] = [
 function BioVerMais({ texto }: { texto: string }) {
   const [open, setOpen] = useState(false);
   const paras = texto.split('\n\n');
-  const long = paras.length > 1 || paras[0].length > 230;
+  const long = paras.length > 1;
   const mostrar = open ? paras : paras.slice(0, 1);
   return (
     <div className="mt-3">
