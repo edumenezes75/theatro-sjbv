@@ -41,18 +41,6 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
       <Link href={`/pessoas/${slugify(p.name)}`} className="mt-4 self-start border-b border-curtain pb-0.5 font-sans text-xs font-medium text-curtain hover:opacity-70 dark:border-gold dark:text-gold">
         {p.bio ? 'Ler biografia' : 'Ver perfil'} →
       </Link>
-      {p.related?.length > 0 && (
-        <div className="mt-4 border-t border-gold/20 pt-3">
-          <span className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">Relacionados</span>
-          <div className="mt-2 flex flex-wrap gap-2">
-            {p.related.map((rid) => byId[rid] && (
-              <Link key={rid} href={`/pessoas/${slugify(byId[rid].name)}`} className="rounded-full border border-curtain/30 bg-curtain/5 px-3 py-1 font-sans text-xs text-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:bg-gold/5 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">
-                {byId[rid].name}
-              </Link>
-            ))}
-          </div>
-        </div>
-      )}
     </article>
   );
 

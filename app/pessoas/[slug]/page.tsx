@@ -97,18 +97,6 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
       )}
 
 
-      {related.length > 0 && (
-        <section className="mt-10">
-          <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Pessoas relacionadas</h2>
-          <div className="mt-3 flex flex-wrap gap-2.5">
-            {related.map((r) => (
-              <Link key={r.id} href={`/pessoas/${pessoaSlug(r)}`} className="rounded-full border border-curtain/30 bg-curtain/5 px-3.5 py-1.5 font-sans text-sm text-curtain transition-colors hover:bg-curtain hover:text-cream dark:border-gold/40 dark:bg-gold/5 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">
-                {r.name}
-              </Link>
-            ))}
-          </div>
-        </section>
-      )}
 
       <div className="mt-10"><Compartilhar title={p.name} /></div>
 
