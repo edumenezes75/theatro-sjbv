@@ -86,6 +86,11 @@ O edifício não tinha uso único. Em 1915, recebeu seu primeiro baile de Carnav
 
 Em determinado momento, a sala chegou a funcionar como rinque de patinação. A hipótese de transformar dependências em cassino também foi cogitada diante das dificuldades financeiras, mas não se consolidou.
 
+![Banquete sob bandeirolas no salão do Theatro, em fotografia histórica.](/fotos/hr5-historicas-01.jpg)
+
+*Banquete sob bandeirolas no salão — uma das muitas festas que ocuparam o Theatro além dos espetáculos.*
+
+
 > **Você sabia?** Um teatro pode revelar a história de uma cidade não apenas pelo que apresenta no palco, mas também pelas soluções que encontra para continuar aberto.
 
 ### Crises e retomadas
@@ -179,6 +184,11 @@ A AMITE — Associação dos Amigos do Theatro Municipal — foi criada em 2003.
 Entre os projetos registrados no livro estão o Cineclube Beloca, Concertos Matinais, Teatro de Quinta, Som do Sábado, festivais de teatro amador, a Semana Guiomar Novaes, o Festival Assad e o projeto de cordas 1º Movimento.
 
 O reencontro com a sala traduziu-se em uso intenso: levantamentos acadêmicos contam cerca de **1.175 eventos entre 2004 e 2014** — 584 musicais, 338 cênicos, 102 de outras naturezas e 151 sessões do Cineclube Dona Beloca. Em 2014, o centenário mobilizou programação de fevereiro a novembro — com a Jazz Sinfônica, o Festival Leilah Assumpção e releituras de Shakespeare — e gerou o livro que sustenta grande parte deste site. Em 2015, o documentário *Música & Drama* reuniu a história em linguagem audiovisual. A Semana Guiomar Novaes, eixo da agenda cultural, foi institucionalizada por lei municipal em 2024, e nesse mesmo ano uma nova revitalização alcançou palco, foyer e pintura externa. A continuidade da programação mostra que o Theatro não é um capítulo encerrado.
+
+![Concerto da Semana Guiomar Novaes no palco do Theatro restaurado.](/fotos/hr-eventos-43.jpg)
+
+*A vida cultural que voltou à sala restaurada — concertos, festivais e semanas especiais no calendário.*
+
 
 > **A história permanece aberta:** cada novo espetáculo acrescenta uma data à linha do tempo e uma lembrança à cidade.
 
