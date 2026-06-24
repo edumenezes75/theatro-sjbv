@@ -1,6 +1,5 @@
 'use client';
 import { useMemo } from 'react';
-import Link from 'next/link';
 import type { Pessoa } from '@/lib/data';
 import SeloEvidencia from './SeloEvidencia';
 
@@ -14,7 +13,6 @@ const GROUPS: { title: string; sub: string; cats: string[] }[] = [
 ];
 
 export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
-  const byId = useMemo(() => Object.fromEntries(pessoas.map((p) => [p.id, p])), [pessoas]);
   const grouped = useMemo(() => {
     const used = new Set<string>();
     const secs = GROUPS.map((g) => {
@@ -28,19 +26,17 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
   }, [pessoas]);
 
   const Card = (p: Pessoa) => (
-    <article key={p.id} id={p.id} className="card-lift flex flex-col rounded-sm border border-ink/10 p-6 hover:border-gold/50 dark:border-cream/10">
+    <article key={p.id} id={p.id} className="flex flex-col rounded-sm border border-ink/10 p-6 dark:border-cream/10">
       <div className="flex items-center justify-between gap-2">
         <span className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
         <SeloEvidencia status={p.status} />
       </div>
-      <h3 className="mt-3 font-display text-xl leading-tight">
-        <Link href={`/pessoas/${slugify(p.name)}`} className="hover:text-curtain dark:hover:text-gold">{p.name}</Link>
-      </h3>
+      <h3 className="mt-3 font-display text-xl leading-tight">{p.name}</h3>
       <p className="mt-1 font-sans text-sm font-medium text-ink/70 dark:text-cream/70">{p.role}</p>
-      <p className="mt-3 flex-1 font-sans text-sm leading-relaxed text-ink/80 dark:text-cream/80">{p.summary}</p>
-      <Link href={`/pessoas/${slugify(p.name)}`} className="mt-4 self-start border-b border-curtain pb-0.5 font-sans text-xs font-medium text-curtain hover:opacity-70 dark:border-gold dark:text-gold">
-        {p.bio ? 'Ler biografia' : 'Ver perfil'} →
-      </Link>
+      <div className="mt-3 space-y-3 font-sans text-sm leading-relaxed text-ink/80 dark:text-cream/80">
+        {(p.bio || p.summary).split('\n\n').map((par, i) => (<p key={i}>{par}</p>))}
+      </div>
+      {p.source && <p className="mt-4 border-t border-gold/15 pt-3 font-sans text-[0.7rem] leading-relaxed text-ink/45 dark:text-cream/45">Fonte: {p.source}</p>}
     </article>
   );
 
