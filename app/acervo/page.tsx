@@ -18,11 +18,11 @@ export default function AcervoPage() {
   const destaque = destaqueIds.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList;
   const CULT = ['arte-cultura', 'eventos', 'ii-semana-fernando-fulanetto', 'fundcao-oliveira-neto'];
   const ev = (f: (typeof fotosList)[number]) => CULT.includes(f.category);
-  const hist = fotosList.filter((f) => f.epoca === 'Histórico' && !ev(f));
+  const hist = fotosList.filter((f) => f.epoca === 'Histórico'); // inclui a vida cultural de outrora
   const rest = fotosList.filter((f) => f.epoca === 'Restauro' && !ev(f));
   const hoje = fotosList.filter((f) => f.epoca === 'Atual' && !ev(f));
   const pre = fotosList.filter((f) => f.epoca === 'Pré-restauro' && !ev(f));
-  const cult = fotosList.filter(ev);
+  const cult = fotosList.filter((f) => ev(f) && f.epoca !== 'Histórico'); // vida cultural moderna
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const ldGallery = {
     '@context': 'https://schema.org',
@@ -110,9 +110,9 @@ export default function AcervoPage() {
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 5 · o palco vivo</p>
           </div>
-          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">A vida cultural</h2>
+          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">A vida cultural, do restauro aos dias de hoje</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            Concertos, festivais, exposições, teatro e dança — a programação que ocupa o Theatro, dos bailes de antigamente à Semana Guiomar Novaes, à Semana Furlanetto e à Família Assad. <span className="text-curtain dark:text-gold">{cult.length} imagens.</span> Refine por tema; clique para ampliar.
+            Concertos, festivais, exposições, teatro e dança que ocupam o Theatro desde o restauro — da Semana Guiomar Novaes à Semana Furlanetto, do Festival Assad aos corais e à dança. <span className="text-curtain dark:text-gold">{cult.length} imagens.</span> Refine por tema; clique para ampliar.
           </p>
           <LazyMount><GaleriaReal fotos={cult} showEpoca /></LazyMount>
         </section>
