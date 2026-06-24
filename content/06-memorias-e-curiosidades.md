@@ -107,12 +107,4 @@ Em 1995, o show *Relembranças* ocorreu com a sala incompleta, piso bruto e cade
 
 A lembrança mostra que a reabertura cultural não esperou a perfeição. A vontade de usar o Theatro antecipou sua conclusão física.
 
-## Guarde com a gente uma memória
-
-Muitas das histórias desta página vieram de quem viveu o Theatro — de uma sessão de cinema, de um baile, de uma noite no palco. Se você guarda uma lembrança, uma fotografia, um programa ou um cartaz, pode somá-los a esta memória coletiva.
-
-Fale com a organização do Theatro pelo WhatsApp **(19) 99719-5719** ou pelos canais da Prefeitura. Cada contribuição é conferida com cuidado — origem, direitos e contexto — antes de entrar no acervo, e a procedência de quem compartilhou fica sempre registrada.
-
-[Explorar o acervo](./acervo) · [Visite o Theatro](./visite)
-
 <!-- Fontes principais: Menezes, 2014, pp. 68–78, 109–118, 162, 217–246; crônicas de Clineida Andrade Junqueira Jacomini, Antônio Carlos Antoniazzi, Clovis Vieira e outros autores. -->
