@@ -160,9 +160,9 @@ Reportagens locais entre 2023 e 2024 registraram pontos a enfrentar — entre el
 Esse é o estágio honesto de um edifício de mais de cem anos: vivo e em uso, mas exigindo atenção contínua. A própria história do Theatro mostra que sua conservação sempre dependeu de vontade pública e mobilização — e segue dependendo.
 
 
-![O medalhão de Carlos Gomes restaurado — o retrato que esteve escondido sob a tinta.](/fotos/hr-ornamentos-28.jpg)
+![Acrotério da platibanda restaurado, recortado contra o céu.](/fotos/hr5-ornamentos-01.jpg)
 
-*O medalhão de Carlos Gomes restaurado — o retrato que esteve escondido sob a tinta.*
+*Acrotério da platibanda restaurado — símbolo de um cuidado que precisa continuar.*
 
 ## O que a restauração ensina
 

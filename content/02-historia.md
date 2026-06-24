@@ -44,9 +44,9 @@ A obra avançou sob fiscalização associada ao construtor espanhol Antônio Lan
 O custo superou o capital inicial. Empréstimos e debêntures foram necessários, e as dívidas acompanharam a Companhia por anos. O Theatro nasceu, portanto, de entusiasmo, mas também de uma engenharia financeira difícil.
 
 
-![O projeto original da fachada, 1913 — o desenho eclético, com eixo central, frontão e as inscrições à música e ao drama.](/fotos/hr-fachada-55.jpg)
+![Uma das fotografias mais antigas da fachada, ainda com a pintura original.](/fotos/hr-fachada-49.jpg)
 
-*O projeto original da fachada, 1913 — o desenho eclético, com eixo central, frontão e as inscrições à música e ao drama.*
+*Uma das fotografias mais antigas da fachada, ainda com a pintura original — o Theatro recém-erguido.*
 
 ## 3. Uma noite de gala — 31 de outubro de 1914 {#uma-noite-de-gala}
 
@@ -196,7 +196,7 @@ O reencontro com a sala traduziu-se em uso intenso: levantamentos acadêmicos co
 
 <!-- Fontes principais: Menezes, 2014, pp. 29–178, 245–298; periódicos de 1913–1914 citados no livro e na dissertação de Luis Pedro Dragão Jeronimo; CONDEPHAAT; Prefeitura. -->
 
-![A sala em ferradura, com os camarotes e as poltronas vermelhas, depois do restauro.](/fotos/hr2-sala-05.jpg)
+![A sala em ferradura restaurada, com os camarotes iluminados.](/fotos/hr5-sala-03.jpg)
 
-*A sala em ferradura, com os camarotes e as poltronas vermelhas, depois do restauro.*
+*A sala em ferradura restaurada, com os camarotes iluminados — o Theatro de volta à vida.*
 

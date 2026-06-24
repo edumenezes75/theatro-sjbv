@@ -4,8 +4,8 @@ title: "O Theatro"
 eyebrow: "Uma casa de sonhos e um patrimônio vivo"
 seo_title: "O Theatro Municipal de São João da Boa Vista"
 seo_description: "Entenda por que o Theatro Municipal é um dos principais símbolos culturais de São João da Boa Vista."
-hero_image: "/fotos/hr-fachada-24.jpg"
-hero_alt: "Interior histórico do Theatro Municipal, com galerias curvas em forma de ferradura."
+hero_image: "/fotos/hr3-fachada-01.jpg"
+hero_alt: "Vista aérea do Theatro Municipal e do centro de São João da Boa Vista."
 status: "texto público"
 ---
 
