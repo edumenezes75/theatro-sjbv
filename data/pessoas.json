@@ -344,7 +344,9 @@
       "category": "cultura local",
       "role": "Proprietário na fase Cine Theatro",
       "summary": "Adquiriu a maioria das ações em 1937 e reorganizou o prédio como Cine Theatro.",
-      "related": [],
+      "related": [
+        "p051"
+      ],
       "status": "documentado",
       "source": "Jeronimo, 2020/2021; Menezes, 2014.",
       "bio": "Em 1937 adquiriu a maioria das ações da Companhia e reestruturou o edifício como Cine Theatro, com novos equipamentos de projeção e nova organização de assentos. Por décadas, sob sua família, a sala foi o centro do lazer de domingo da cidade — matinês, vesperais e sessões noturnas —, mantendo o prédio em uso mesmo quando o teatro ao vivo rareava.\n\nFoi proprietário decisivo na fase cinematográfica e nas negociações que, mais tarde, abririam caminho para a compra pública. Em 1998, a Fundação Oliveira Neto (FON), criada para captar verbas, levou o nome da família ao esforço final da restauração.",
@@ -382,7 +384,11 @@
       "category": "preservação",
       "role": "Prefeito na aquisição municipal",
       "summary": "Prefeito no período da compra pública e do início do projeto de recuperação.",
-      "related": [],
+      "related": [
+        "p050",
+        "p051",
+        "p054"
+      ],
       "status": "documentado",
       "source": "Jeronimo, 2020/2021; Menezes, 2014.",
       "bio": "Prefeito de São João da Boa Vista no período da aquisição pública do Theatro e do início do projeto de recuperação. Aparece nos registros do ato da compra do edifício pela Prefeitura, ao lado de Joaquim José de Oliveira Neto, entre os nomes que conduziram a passagem do prédio das mãos privadas para o patrimônio da cidade.\n\nÉ também autor de *90 anos — Teatro Municipal* (2004), registro da compra, da preservação e da recuperação do edifício. No documentário, resume o espírito da mobilização: o Theatro como um bem que não é de ninguém em particular, mas de todos.",
@@ -718,6 +724,72 @@
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
       "bio": "Advogado da cidade, foi autor de muitos dos temas e textos dos festivais escolares e beneficentes encenados no Theatro — em regra montados por sua esposa, a professora Anésia Martins Mattos. Pai de Zilah Mattos e de Jonathas Mattos Júnior, o “Jotinha”, esteve na raiz da tradição teatral sanjoanense das primeiras décadas."
+    },
+    {
+      "id": "p050",
+      "name": "Nelson Nicolau",
+      "category": "preservação",
+      "role": "Prefeito que declarou o Theatro de utilidade pública",
+      "summary": "Deu o primeiro passo político para salvar o edifício, ameaçado de demolição no início dos anos 1980.",
+      "related": [
+        "p026"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Prefeito de São João da Boa Vista no início dos anos 1980, deu o primeiro passo político para salvar o Theatro: ao saber da iminência da venda do edifício — então particular e ameaçado de demolição —, declarou-o de utilidade pública, abrindo caminho para a futura aquisição e o tombamento."
+    },
+    {
+      "id": "p051",
+      "name": "Gastão Michelazzo",
+      "category": "preservação",
+      "role": "Prefeito; deu sequência ao restauro e inaugurou o Foyer (1992)",
+      "summary": "Sucessor de Beraldo, manteve as obras e devolveu o Foyer ao uso público em 1992.",
+      "related": [
+        "p026",
+        "p023"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "image": "/fotos/hr2-pessoas-12.jpg",
+      "imageAlt": "Gastão Michelazzo, Sidney Beraldo e Joaquim José de Oliveira Neto no ato da compra do Theatro pela Prefeitura.",
+      "bio": "Sucessor de Sidney Beraldo na Prefeitura, deu sequência às obras de restauração e inaugurou o Foyer do Theatro em dezembro de 1992 — o primeiro espaço devolvido ao uso público, que passou a receber exposições e recitais enquanto o restante seguia em obras."
+    },
+    {
+      "id": "p052",
+      "name": "Joaquim Simião",
+      "category": "preservação",
+      "role": "Prefeito",
+      "summary": "Entre os prefeitos diretamente envolvidos na recuperação do Theatro.",
+      "related": [],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Esteve entre os prefeitos diretamente envolvidos na recuperação do Theatro, dando continuidade às obras ao longo das gestões que conduziram o edifício até a reabertura de 2002."
+    },
+    {
+      "id": "p053",
+      "name": "Vanderlei Carvalho",
+      "category": "preservação",
+      "role": "Prefeito",
+      "summary": "Entre os prefeitos envolvidos no cuidado com o Theatro após a reabertura.",
+      "related": [],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Prefeito de São João da Boa Vista, esteve entre os que deram continuidade ao cuidado com o Theatro, mantendo a manutenção e a programação do edifício após a reabertura."
+    },
+    {
+      "id": "p054",
+      "name": "Franco Montoro",
+      "category": "preservação",
+      "role": "Governador de São Paulo (1983–1987)",
+      "summary": "Apoio estadual decisivo: deu anuência e recursos que viabilizaram o início do restauro.",
+      "related": [
+        "p026"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "image": "/fotos/hr-pessoas-31.jpg",
+      "imageAlt": "O governador Franco Montoro em visita ao Theatro, durante o processo de preservação.",
+      "bio": "Governador do Estado de São Paulo entre 1983 e 1987, apoiou a recuperação do Theatro no momento decisivo: deu anuência e recursos estaduais que viabilizaram o início do restauro, ao lado do prefeito Sidney Beraldo. Visitou o edifício em obras, em 1986."
     }
   ]
 }
