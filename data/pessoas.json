@@ -74,7 +74,8 @@
       "summary": "Levou crianças ao palco com montagens cuidadosas, canto, figurino e coreografia.",
       "related": [
         "p005",
-        "p042"
+        "p042",
+        "p049"
       ],
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 60–64.",
@@ -610,7 +611,8 @@
       "summary": "Ao lado de Dona Beloca, marcou época organizando os festivais beneficentes do Theatro.",
       "related": [
         "p005",
-        "p006"
+        "p006",
+        "p049"
       ],
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
@@ -641,6 +643,81 @@
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
       "bio": "Dotada de muitos dons, era convocada com frequência para organizar os festivais e preparar os participantes, sobretudo nos números musicais. Pianista e exímia violinista, executava solos e acompanhamentos orquestrais nos espetáculos do Theatro e ainda conduzia o Órgão de Tubos nas cerimônias da Igreja Matriz — nome costumeiro na vida musical da cidade."
+    },
+    {
+      "id": "p045",
+      "name": "Jorge Assad",
+      "category": "música",
+      "role": "Patriarca da família Assad",
+      "summary": "Raiz da família de músicos de São João que projetou a cidade no mundo.",
+      "related": [
+        "p046",
+        "p047",
+        "p048"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Patriarca da família Assad — a família de músicos de São João da Boa Vista que projetou a cidade nos palcos do mundo. Em 2014, a Semana Assad realizou um Festival do Choro em memória aos seus 90 anos. Dele descendem os filhos Sérgio, Odair e Badi, que levaram o nome da cidade à música internacional."
+    },
+    {
+      "id": "p046",
+      "name": "Sérgio Assad",
+      "category": "música",
+      "role": "Violonista, compositor e arranjador (Duo Assad)",
+      "summary": "Com o irmão Odair, forma o Duo Assad, um dos mais premiados duos de violão do mundo.",
+      "related": [
+        "p047",
+        "p048",
+        "p045"
+      ],
+      "status": "documentado",
+      "source": "Menezes, 2014; Wikipédia; Opus 3 Artists.",
+      "bio": "Violonista, compositor e arranjador, forma com o irmão Odair o Duo Assad, um dos mais celebrados duos de violão do mundo. A dupla conquistou Grammys Latinos — pelo álbum dedicado a Piazzolla (2002) e por composição contemporânea (2008) — e um Grammy ao lado de Yo-Yo Ma. Da família Assad, de São João da Boa Vista, os irmãos apresentaram-se no Theatro ainda em obras, em janeiro de 2001."
+    },
+    {
+      "id": "p047",
+      "name": "Odair Assad",
+      "category": "música",
+      "role": "Violonista (Duo Assad)",
+      "summary": "Com o irmão Sérgio, leva o violão brasileiro às principais salas do mundo.",
+      "related": [
+        "p046",
+        "p048",
+        "p045"
+      ],
+      "status": "documentado",
+      "source": "Menezes, 2014; Wikipédia; Opus 3 Artists.",
+      "bio": "Violonista, forma com o irmão Sérgio o Duo Assad, parceria internacionalmente premiada que levou o repertório brasileiro e erudito às principais salas de concerto do mundo. Em janeiro de 2001, os irmãos tocaram no palco do Theatro, então em restauro."
+    },
+    {
+      "id": "p048",
+      "name": "Badi Assad",
+      "category": "música",
+      "role": "Violonista e cantora",
+      "born": "1966",
+      "summary": "Uma das vozes mais singulares da música brasileira; gravou pela Deutsche Grammophon.",
+      "related": [
+        "p046",
+        "p047",
+        "p045"
+      ],
+      "status": "documentado",
+      "source": "Menezes, 2014; Wikipédia; Opus 3 Artists.",
+      "bio": "Nascida Mariangela Assad Simão em São João da Boa Vista, em 23 de dezembro de 1966, Badi Assad é uma das vozes mais singulares da música brasileira — violonista e cantora de técnica original. Assinou pela Deutsche Grammophon (2004) e gravou Wonderland (2006), eleito pela BBC de Londres um dos cem melhores discos do ano.\n\nIrmã do Duo Assad, apresentou-se no Theatro em 24 de novembro de 2000, em campanha que incentivava doações à restauração pela Lei Rouanet."
+    },
+    {
+      "id": "p049",
+      "name": "Jonathas Mattos",
+      "category": "cultura local",
+      "role": "Advogado e autor dos festivais",
+      "summary": "Autor de temas e textos dos festivais; pai de Zilah Mattos.",
+      "related": [
+        "p006",
+        "p042"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Advogado da cidade, foi autor de muitos dos temas e textos dos festivais escolares e beneficentes encenados no Theatro — em regra montados por sua esposa, a professora Anésia Martins Mattos. Pai de Zilah Mattos e de Jonathas Mattos Júnior, o “Jotinha”, esteve na raiz da tradição teatral sanjoanense das primeiras décadas."
     }
   ]
 }
