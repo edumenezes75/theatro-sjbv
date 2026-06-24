@@ -64,7 +64,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
 
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const url = `${SITE}/${params.slug}`;
-  const img = page.meta.hero_image ? (page.meta.hero_image.startsWith('http') ? page.meta.hero_image : SITE + page.meta.hero_image) : `${SITE}/og-theatro.jpg`;
+  const img = page.meta.hero_image ? (page.meta.hero_image.startsWith('http') ? page.meta.hero_image : SITE + page.meta.hero_image) : `${SITE}/og-theatro-card.jpg`;
   const ld = {
     '@context': 'https://schema.org',
     '@graph': [

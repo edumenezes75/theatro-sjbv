@@ -19,7 +19,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
     title: `${p.name} — ${p.role}`,
     description: desc,
     alternates: { canonical: `/pessoas/${params.slug}` },
-    openGraph: { title: `${p.name} — Theatro Municipal de São João da Boa Vista`, description: desc, type: 'profile', images: [`${SITE}/og-theatro.jpg`] },
+    openGraph: { title: `${p.name} — Theatro Municipal de São João da Boa Vista`, description: desc, type: 'profile', images: [`${SITE}/og-theatro-card.jpg`] },
   };
 }
 
