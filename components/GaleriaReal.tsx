@@ -117,9 +117,6 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
           <div className="flex items-center justify-between px-5 py-4 text-cream/70">
             <span className="read-meta font-sans text-xs uppercase tracking-eyebrow">{(idx ?? 0) + 1} / {list.length}</span>
             <div className="flex items-center gap-4">
-              <button onClick={() => setPlaying((p) => !p)} aria-label={playing ? 'Pausar apresentação' : 'Iniciar apresentação'} className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-cream/70 transition-colors hover:text-gold">
-                {playing ? '❙❙ Pausar' : '▶ Apresentação'}
-              </button>
               <button onClick={close} aria-label="Fechar" className="text-cream/70 hover:text-gold"><IconClose size={24} /></button>
             </div>
           </div>
@@ -132,7 +129,6 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
           </div>
           <figcaption className="border-t border-cream/10 bg-night px-6 pb-6 pt-3.5 text-center font-sans text-[0.8rem] leading-relaxed text-cream/90">
             <span className="mx-auto block max-w-2xl"><span className="font-semibold text-gold">{open.categoryLabel}.</span> {open.alt}</span>
-            <Link href={`/acervo/${open.id}`} className="mt-2 inline-block font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold/90 underline decoration-gold/40 underline-offset-2 hover:text-gold">Ver ficha completa →</Link>
           </figcaption>
         </div>
       )}

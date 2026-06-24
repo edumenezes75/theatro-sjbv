@@ -48,18 +48,6 @@ export default function AcervoPage() {
           Imagens do acervo do Theatro Municipal e da Prefeitura de São João da Boa Vista.
         </p>
 
-        <section>
-          <div className="flex items-center gap-3">
-            <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Comece por aqui</p>
-          </div>
-          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Comece por estes registros</h2>
-          <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            Uma seleção para entender, em poucas imagens, a noite de inauguração em 1914, a sala em ferradura, o cinema, a ameaça de demolição, o restauro e a vida cultural do Theatro.
-          </p>
-          <GaleriaReal fotos={destaque} withFilter={false} />
-        </section>
-
         <nav aria-label="Saltar para um capítulo" className="mt-12 flex flex-wrap items-center gap-2 border-y border-gold/20 py-4">
           <span className="mr-1 font-sans text-[0.62rem] uppercase tracking-eyebrow text-ink/55 dark:text-cream/55">Saltar para</span>
           <a href="#cap-historico" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O Theatro histórico</a>
