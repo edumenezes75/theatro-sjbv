@@ -5,12 +5,12 @@ import Link from 'next/link';
 import type { Foto } from '@/lib/data';
 import { IconClose, IconChevron } from './Icons';
 
-const EP_RANK: Record<string, number> = { 'Histórico': 0, 'Restauro': 1, 'Atual': 2 };
+const EP_RANK: Record<string, number> = { 'Histórico': 0, 'Pré-restauro': 1, 'Restauro': 2, 'Atual': 3 };
 const idNum = (id: string) => parseInt(id.replace(/\D/g, ''), 10) || 0;
 
 export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true }: { fotos: Foto[]; withFilter?: boolean; showEpoca?: boolean }) {
   const CAT_ORDER = ['fachada', 'sala', 'ornamentos', 'eventos', 'pessoas', 'historicas', 'restauro'];
-  const EP_ORDER = ['Histórico', 'Restauro', 'Atual'];
+  const EP_ORDER = ['Histórico', 'Pré-restauro', 'Restauro', 'Atual'];
   const cats = useMemo(() => {
     const label = new Map<string, string>();
     const count = new Map<string, number>();

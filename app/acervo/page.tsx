@@ -19,6 +19,7 @@ export default function AcervoPage() {
   const hist = fotosList.filter((f) => f.epoca === 'Histórico');
   const rest = fotosList.filter((f) => f.epoca === 'Restauro');
   const hoje = fotosList.filter((f) => f.epoca === 'Atual');
+  const pre = fotosList.filter((f) => f.epoca === 'Pré-restauro');
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const ldGallery = {
     '@context': 'https://schema.org',
@@ -62,6 +63,7 @@ export default function AcervoPage() {
         <nav aria-label="Saltar para um capítulo" className="mt-12 flex flex-wrap items-center gap-2 border-y border-gold/20 py-4">
           <span className="mr-1 font-sans text-[0.62rem] uppercase tracking-eyebrow text-ink/55 dark:text-cream/55">Saltar para</span>
           <a href="#cap-historico" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O Theatro histórico</a>
+          <a href="#cap-pre" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">A decadência</a>
           <a href="#cap-restauro" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O restauro</a>
           <a href="#cap-hoje" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O Theatro hoje</a>
         </nav>
@@ -69,7 +71,7 @@ export default function AcervoPage() {
         <section id="cap-historico" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 1 · antes do restauro</p>
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 1 · o Theatro de outras décadas</p>
           </div>
           <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">O Theatro histórico</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
@@ -77,10 +79,21 @@ export default function AcervoPage() {
           </p>
           <GaleriaReal fotos={hist} showEpoca={false} />
         </section>
+        <section id="cap-pre" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
+          <div className="flex items-center gap-3">
+            <span className="h-6 w-px bg-curtain dark:bg-gold" />
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 2 · a decadência</p>
+          </div>
+          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">O Theatro antes do restauro</h2>
+          <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+            O abandono, as goteiras, os ornatos perdidos e as rachaduras — o estado em que o edifício foi encontrado. <span className="text-curtain dark:text-gold">{pre.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
+          </p>
+          <LazyMount><GaleriaReal fotos={pre} showEpoca={false} /></LazyMount>
+        </section>
         <section id="cap-restauro" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 2 · a recuperação</p>
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 3 · a recuperação</p>
           </div>
           <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">O restauro, etapa por etapa</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
@@ -91,7 +104,7 @@ export default function AcervoPage() {
         <section id="cap-hoje" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 3 · o Theatro vivo</p>
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 4 · o Theatro vivo</p>
           </div>
           <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">O Theatro hoje</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">

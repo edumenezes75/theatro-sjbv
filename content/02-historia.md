@@ -86,9 +86,9 @@ O edifício não tinha uso único. Em 1915, recebeu seu primeiro baile de Carnav
 
 Em determinado momento, a sala chegou a funcionar como rinque de patinação. A hipótese de transformar dependências em cassino também foi cogitada diante das dificuldades financeiras, mas não se consolidou.
 
-![Banquete sob bandeirolas no salão do Theatro, em fotografia histórica.](/fotos/hr5-historicas-01.jpg)
+![Evento em homenagem a Romão Gomes no salão do Theatro, por volta de 1930.](/fotos/hr5-historicas-01.jpg)
 
-*Banquete sob bandeirolas no salão — uma das muitas festas que ocuparam o Theatro além dos espetáculos.*
+*Evento em homenagem a Romão Gomes, no salão, à época da Revolução de 1930.*
 
 
 > **Você sabia?** Um teatro pode revelar a história de uma cidade não apenas pelo que apresenta no palco, mas também pelas soluções que encontra para continuar aberto.
@@ -196,7 +196,7 @@ O reencontro com a sala traduziu-se em uso intenso: levantamentos acadêmicos co
 
 <!-- Fontes principais: Menezes, 2014, pp. 29–178, 245–298; periódicos de 1913–1914 citados no livro e na dissertação de Luis Pedro Dragão Jeronimo; CONDEPHAAT; Prefeitura. -->
 
-![A sala em ferradura restaurada, com os camarotes iluminados.](/fotos/hr5-sala-03.jpg)
+![A plateia em ferradura vista de um camarote, hoje.](/fotos/hr5-sala-01.jpg)
 
-*A sala em ferradura restaurada, com os camarotes iluminados — o Theatro de volta à vida.*
+*A plateia em ferradura vista de um camarote — o Theatro restaurado, de volta ao uso.*
 
