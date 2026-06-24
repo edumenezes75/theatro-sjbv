@@ -22,6 +22,13 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large' } },
 };
 
+export const viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#F5EFE3' },
+    { media: '(prefers-color-scheme: dark)', color: '#14110E' },
+  ],
+};
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -37,7 +44,7 @@ const jsonLd = {
       '@type': ['PerformingArtsTheater', 'TouristAttraction', 'LandmarksOrHistoricalBuildings'],
       '@id': SITE + '/#theatro',
       name: 'Theatro Municipal de São João da Boa Vista',
-      alternateName: 'Theatro Municipal',
+      alternateName: ['Theatro Municipal', 'Teatro Municipal de São João da Boa Vista', 'Cine Theatro'],
       url: SITE,
       image: SITE + '/og-theatro-card.jpg',
       logo: SITE + '/icon.svg',
@@ -52,7 +59,7 @@ const jsonLd = {
         { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '13:00', closes: '17:00' },
       ],
       sameAs: [
-        'https://www.saojoao.sp.gov.br/equipamentos-culturais/theatro-municipal',
+        'https://saojoao.sp.gov.br/cultura/equipamentos-culturais/theatro-municipal',
         'https://pt.wikipedia.org/wiki/Teatro_Municipal_de_S%C3%A3o_Jo%C3%A3o_da_Boa_Vista',
         'https://www.youtube.com/watch?v=e2stgoHtlAQ',
       ],
