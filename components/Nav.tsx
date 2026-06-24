@@ -21,6 +21,7 @@ const MORE_GROUPS: { title: string | null; items: { href: string; label: string 
     { href: '/documentario', label: 'Documentário' },
     { href: '/linha-do-tempo', label: 'Linha do tempo' },
     { href: '/memorias', label: 'Memórias e curiosidades' },
+    { href: '/livro-de-memorias', label: 'Livro de memórias' },
     { href: '/visita-guiada', label: 'Visita guiada' },
   ] },
   { title: null, items: [

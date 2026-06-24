@@ -5,6 +5,7 @@ import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
 import LiteYouTube from '@/components/LiteYouTube';
 import TranscricaoFilme from '@/components/TranscricaoFilme';
+import Comentarios from '@/components/Comentarios';
 import transcricao from '@/data/transcricao.json';
 
 export const metadata: Metadata = {
@@ -163,6 +164,8 @@ export default function DocumentarioPage() {
             ))}
           </ul>
         </section>
+
+        <Comentarios tipo="filme" titulo="Comentários sobre o filme" intro="O que este documentário despertou em você? Deixe sua impressão, corrija um detalhe ou complete uma história." placeholder="Escreva um comentário sobre o documentário…" vazio="Ainda não há comentários. Seja o primeiro a comentar o filme." />
 
         <FontesDaPagina fontes={page?.fontes ?? null} />
       </div>

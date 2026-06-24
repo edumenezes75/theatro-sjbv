@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Compartilhar from '@/components/Compartilhar';
+import Comentarios from '@/components/Comentarios';
 import Image from 'next/image';
 import { fotosList, fotoById, fotoTitulo } from '@/lib/data';
 
@@ -100,6 +101,8 @@ export default function FotoPage({ params }: { params: { id: string } }) {
           </div>
         </section>
       )}
+
+      <Comentarios tipo="foto" refId={f.id} titulo="Comentários sobre esta foto" intro="Reconhece alguém, sabe a data ou tem uma lembrança ligada a esta imagem? Conte aqui." placeholder="Escreva um comentário sobre esta foto…" vazio="Ainda não há comentários nesta foto. Seja o primeiro." />
 
       <div className="mt-12 border-t border-gold/20 pt-6">
         <Link href="/acervo" className="font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 dark:text-gold">← Voltar ao acervo</Link>
