@@ -56,7 +56,9 @@
       "summary": "Reuniu artistas e crianças em espetáculos beneficentes durante décadas.",
       "related": [
         "p006",
-        "p007"
+        "p007",
+        "p032",
+        "p033"
       ],
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 86–89.",
@@ -233,11 +235,12 @@
       "summary": "Atuou em projetos, artes visuais, cenários e iniciativas culturais.",
       "related": [
         "p014",
-        "p029"
+        "p029",
+        "p040"
       ],
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 133–150.",
-      "bio": "Artista plástico, integrou a equipe de restauração, atuando na recuperação de pinturas e ornamentos — o trabalho minucioso que devolveu leitura aos detalhes históricos da sala, como o medalhão de Carlos Gomes.",
+      "bio": "Artista plástico, integrou a equipe de restauração, atuando na recuperação de pinturas e ornamentos — o trabalho minucioso que devolveu leitura aos detalhes históricos da sala, como o medalhão de Carlos Gomes.\n\nEm 1998 assinou a curadoria da I Bienal de Artes Visuais — 118 artistas —, montada na própria plateia do Theatro, ainda no contrapiso, durante as obras.",
       "vozFilme": {
         "quote": "Éramos três que a vida, na sua trama de ilusão perdida, uniu no mesmo afeto e na viuvez: um músico, um pintor e um poeta.",
         "t": "50:55",
@@ -357,10 +360,13 @@
       "category": "preservação",
       "role": "Captação e Fundação Oliveira Neto",
       "summary": "Articulador do impulso final da restauração e da captação via Fundação Oliveira Neto.",
-      "related": [],
+      "related": [
+        "p036",
+        "p037"
+      ],
       "status": "documentado",
       "source": "Jeronimo, 2020/2021; Menezes, 2014.",
-      "bio": "Aparece entre os articuladores do impulso final da restauração, ligado à Fundação Oliveira Neto e às campanhas de captação que ajudaram a concluir a obra e a chegar à reabertura de 2002."
+      "bio": "Prefeito de São João da Boa Vista, convidou nomes para a diretoria executiva da Fundação Oliveira Neto — criada para captar verbas para o restauro — e sancionou, em 2003, a lei municipal que instituiu a AMITE como gestora do Theatro. Articulou o impulso final que conduziu o edifício à reabertura."
     },
     {
       "id": "p026",
@@ -453,6 +459,128 @@
       "image": "/fotos/hr3-restauro-03.jpg",
       "imageAlt": "O restaurador Elias na recuperação da pintura ornamental da sala.",
       "bio": "Restaurador, trabalhou na recuperação da pintura ornamental da sala. É citado, ao lado de César Roberto Olandim e Maércio Mazzi, entre os profissionais ligados às etapas de descoberta e reintegração do medalhão de Carlos Gomes."
+    },
+    {
+      "id": "p032",
+      "name": "Pe. Josué Silveira de Mattos",
+      "category": "educação",
+      "role": "Padre, educador e fundador da Banda Musical Infantil Guiomar Novaes",
+      "summary": "Criou uma escola gratuita para crianças pobres e a banda infantil que se apresentava no Theatro.",
+      "related": [
+        "p005"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Padre, educador e músico, criou em São João da Boa Vista a Escola Paroquial — escola mista e gratuita para crianças pobres, que acolhia até quem não tinha sapatos para frequentar a escola oficial. Com essas crianças, formou a Banda Musical Infantil Guiomar Novaes, fornecendo instrumentos, partituras e aprendizado.\n\nPor muitos anos organizou no Theatro inúmeros festivais — apoiado pelos elencos reunidos por Dona Beloca e Zilah Mattos —, todos em benefício de sua escola gratuita e da banda infantil."
+    },
+    {
+      "id": "p033",
+      "name": "Herculano de Almeida",
+      "category": "cultura local",
+      "role": "Professor e dramaturgo",
+      "summary": "Dramaturgo que escreveu comédias sobre a própria cidade, encenadas no Theatro a partir dos anos 1930.",
+      "related": [
+        "p005"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Professor e dramaturgo, foi um dos autores que deram repertório próprio ao palco sanjoanense. Escreveu comédias inspiradas na vida e nos personagens da cidade, encenadas no Theatro a partir dos anos 1930 — várias nas montagens dirigidas por Dona Beloca, com cenários assinados por ele. Seu teatro ajudou a transformar o Theatro em espelho da própria comunidade."
+    },
+    {
+      "id": "p034",
+      "name": "Orides Fontela",
+      "category": "cultura local",
+      "role": "Poeta",
+      "born": "1940",
+      "summary": "Uma das maiores poetas brasileiras do século XX, nascida em São João; voltou ao Theatro em 1996 para lançar Teia.",
+      "related": [],
+      "status": "documentado",
+      "source": "Menezes, 2014; Wikipédia; Templo Cultural Delfos.",
+      "bio": "Uma das maiores poetas brasileiras do século XX, Orides de Lourdes Teixeira Fontela nasceu em São João da Boa Vista em 24 de abril de 1940. Publicou os primeiros poemas no jornal local O Município e no Suplemento Literário de O Estado de S. Paulo, formou-se em Filosofia pela USP e construiu uma obra curta e intensa — de Transposição (1969) a Alba (1983), que lhe deu o Prêmio Jabuti, e Teia (1996), premiada pela APCA.\n\nEm 1996 voltou à cidade para o lançamento de Teia: depois da sessão na Livraria Papyrus, foi ao Theatro e, no foyer, autografou o livro para alunos das escolas sanjoanenses. Morreu em Campos do Jordão em 2 de novembro de 1998; em 2007 recebeu, postumamente, a Ordem do Mérito Cultural."
+    },
+    {
+      "id": "p035",
+      "name": "Vânia Noronha",
+      "category": "música",
+      "role": "Pianista e diretora da AMITE",
+      "summary": "Menina prodígio ao piano em 1963; tornou-se pianista da Semana Guiomar Novaes e diretora da AMITE.",
+      "related": [
+        "p008"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "image": "/fotos/hr3-eventos-01.jpg",
+      "imageAlt": "Recital ao piano com a pianista Vânia Noronha, no palco do Theatro.",
+      "bio": "Menina prodígio do piano, apresentou-se no Theatro aos sete anos, em 9 de outubro de 1963, tocando “O Sole Mio”. Formada na tradição musical da cidade, tornou-se uma das pianistas ligadas à Semana Guiomar Novaes e, no período posterior à reabertura, assumiu a direção da AMITE — unindo, na mesma biografia, o palco e a gestão do Theatro restaurado."
+    },
+    {
+      "id": "p036",
+      "name": "José Rubens Blasi Carvalho Rosas",
+      "category": "preservação",
+      "role": "Idealizador e primeiro presidente da AMITE",
+      "summary": "Presidiu a Fundação Oliveira Neto, captou recursos pela Lei Rouanet e idealizou a AMITE, da qual foi o primeiro presidente.",
+      "related": [
+        "p025",
+        "p037"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Convidado nos anos 1990 pelo prefeito Laert de Lima Teixeira para a diretoria executiva da Fundação Oliveira Neto, apaixonou-se pela ideia da restauração e, ao lado de José Márcio Carioca e Vera Adib, conduziu a captação de recursos pela então recém-criada Lei Rouanet — somando verbas das três esferas de governo.\n\nFoi presidente da Fundação Oliveira Neto (1998–2000) e, concluída a obra, idealizou a AMITE — Associação dos Amigos do Theatro, nascida de uma reunião em sua casa e do trocadilho com a palavra italiana amici (“amigos”). Tornou-se o primeiro presidente da associação, criada por lei municipal em 1º de outubro de 2003."
+    },
+    {
+      "id": "p037",
+      "name": "José Márcio Carioca",
+      "category": "preservação",
+      "role": "Gestor e captador de recursos do restauro",
+      "summary": "Cadastrou o Theatro no Ministério da Cultura para a Lei Rouanet e redigiu o estatuto da AMITE.",
+      "related": [
+        "p036"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Gestor de empresa, foi peça central da engrenagem que financiou a restauração: conseguiu o cadastramento do Theatro no Ministério da Cultura para captar recursos da Lei Rouanet e redigiu o regimento e o estatuto da AMITE. Ao lado de José Rubens Blasi e de Vera Adib, deu forma administrativa ao esforço de devolver o Theatro à cidade."
+    },
+    {
+      "id": "p038",
+      "name": "Flávia de Almeida Noronha Carioca — Fafá Noronha",
+      "category": "preservação",
+      "role": "Fundadora e presidente da AMITE",
+      "summary": "Esteve entre os fundadores da AMITE e presidiu a associação que sustenta a programação do Theatro.",
+      "related": [
+        "p036"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Conhecida como Fafá Noronha, esteve entre os fundadores da AMITE — a ela se deve um gesto da origem da associação, quando, sem nada para começar, “trouxe o sofá” para a primeira sala emprestada. Integrou a diretoria e presidiu a Associação dos Amigos do Theatro, ajudando a sustentar, ano após ano, a programação que mantém o palco vivo."
+    },
+    {
+      "id": "p039",
+      "name": "Vera Adib Peres",
+      "category": "preservação",
+      "role": "Secretária do esforço de restauração",
+      "summary": "Uma das três pessoas que iniciaram a captação para a restauração na Fundação Oliveira Neto.",
+      "related": [
+        "p036",
+        "p037"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Ao lado de José Rubens Blasi e de José Márcio Carioca, foi uma das três pessoas que iniciaram o trabalho de captação para a restauração na Fundação Oliveira Neto. Como secretária, teve papel descrito como fundamental na organização do esforço que levou à reabertura do Theatro."
+    },
+    {
+      "id": "p040",
+      "name": "Maria Célia de Campos Marcondes",
+      "category": "preservação",
+      "role": "Guardiã da memória do Theatro",
+      "related": [
+        "p017"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "summary": "Ajudou a preservar a memória e a reconstituir episódios da restauração.",
+      "image": "/fotos/hr4-pessoas-04.jpg",
+      "imageAlt": "João Batista Merlin, José Marcondes e Maria Célia, durante o restauro.",
+      "bio": "Lembrada entre as pessoas que cuidaram de preservar a memória do Theatro, ajudou a reconstituir episódios da restauração — como as viagens técnicas da equipe ao Rio de Janeiro — e a guardar documentos e relatos que hoje sustentam a história da casa."
     }
   ]
 }
