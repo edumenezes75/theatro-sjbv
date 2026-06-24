@@ -76,6 +76,13 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
         {p.born && <p className="mt-1 font-sans text-sm text-ink/55 dark:text-cream/55">Nascimento: {p.born}</p>}
       </header>
 
+      {p.image && (
+        <figure className="mt-7 overflow-hidden rounded-sm border border-gold/20 bg-ink/5 dark:bg-cream/5">
+          <img src={p.image} alt={p.imageAlt || p.name} className="mx-auto block max-h-[70vh] w-full object-contain" loading="lazy" decoding="async" />
+          {p.imageAlt && <figcaption className="border-t border-gold/10 px-4 py-2.5 font-sans text-xs leading-snug text-ink/55 dark:text-cream/55">{p.imageAlt}</figcaption>}
+        </figure>
+      )}
+
       <div className="mt-7 space-y-4">
         {paras.map((para, i) => (
           <p key={i} className="font-read text-[1.08rem] leading-[1.8] text-ink/85 dark:text-cream/85">{para}</p>

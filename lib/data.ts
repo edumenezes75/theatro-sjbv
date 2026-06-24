@@ -9,7 +9,7 @@ export type Evento = {
 };
 export type Pessoa = {
   id: string; name: string; category: string; role: string; summary: string;
-  related: string[]; status: string; bio?: string; source?: string; born?: string; vozFilme?: { quote: string; t: string; s: number };
+  related: string[]; status: string; bio?: string; source?: string; born?: string; image?: string; imageAlt?: string; vozFilme?: { quote: string; t: string; s: number };
 };
 export type Curiosidade = { id: string; title: string; text: string; type: string; source: string };
 export type Imagem = { file: string; alt: string; source: string; page: number; rights_note: string };
