@@ -71,6 +71,8 @@ export function getAllPages(): Page[] {
     // converte sintaxe {#id} ao fim de titulos em atributo id real (marked nao faz isso)
     html = html.replace(/<(h[1-6])([^>]*)>([\s\S]*?)\s*\{#([\w-]+)\}\s*<\/\1>/g, '<$1$2 id="$4">$3</$1>');
     html = html.replace(/<h1[^>]*>[\s\S]*?<\/h1>/i, '');
+    // links externos (YouTube/documentário etc.) abrem em nova aba
+    html = html.replace(/<a href="(https?:\/\/[^"]+)"/g, '<a href="$1" target="_blank" rel="noopener noreferrer"');
     const meta = { ...(data as PageMeta), slug: normalizeSlug((data as PageMeta).slug) };
     return { meta, html, fontes };
   });

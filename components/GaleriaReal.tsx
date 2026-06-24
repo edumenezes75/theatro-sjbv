@@ -8,7 +8,7 @@ import { IconClose, IconChevron } from './Icons';
 const EP_RANK: Record<string, number> = { 'Histórico': 0, 'Pré-restauro': 1, 'Restauro': 2, 'Atual': 3 };
 const idNum = (id: string) => parseInt(id.replace(/\D/g, ''), 10) || 0;
 
-export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true }: { fotos: Foto[]; withFilter?: boolean; showEpoca?: boolean }) {
+export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true, colorLast = false }: { fotos: Foto[]; withFilter?: boolean; showEpoca?: boolean; colorLast?: boolean }) {
   const CAT_ORDER = ['fachada', 'sala', 'ornamentos', 'eventos', 'pessoas', 'historicas', 'restauro'];
   const EP_ORDER = ['Histórico', 'Pré-restauro', 'Restauro', 'Atual'];
   const cats = useMemo(() => {
@@ -31,11 +31,12 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
     const filtered = fotos.filter((f) => (cat === 'todas' || f.category === cat) && (ep === 'todas' || f.epoca === ep));
     if (!withFilter) return filtered; // faixa de destaques preserva a ordem recebida
     return filtered.slice().sort((a, b) =>
+      (colorLast ? (a.cor ? 1 : 0) - (b.cor ? 1 : 0) : 0) ||
       (a.rank ?? 2) - (b.rank ?? 2) ||
       (EP_RANK[a.epoca ?? ''] ?? 9) - (EP_RANK[b.epoca ?? ''] ?? 9) ||
       idNum(a.id) - idNum(b.id),
     );
-  }, [cat, ep, fotos, withFilter]);
+  }, [cat, ep, fotos, withFilter, colorLast]);
 
   const [idx, setIdx] = useState<number | null>(null);
   const [playing, setPlaying] = useState(false);

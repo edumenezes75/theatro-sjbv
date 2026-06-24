@@ -69,7 +69,7 @@ export default function AcervoPage() {
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             Da era do cinema aos bailes, da rádio à biblioteca e à ameaça de demolição — o edifício e a cidade em registros de outras décadas. <span className="text-curtain dark:text-gold">{hist.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
           </p>
-          <GaleriaReal fotos={hist} showEpoca={false} />
+          <GaleriaReal fotos={hist} showEpoca={false} colorLast />
         </section>
         <section id="cap-pre" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
