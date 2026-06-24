@@ -56,7 +56,7 @@ export default function Home() {
               <span className="h-7 w-px bg-gold" />
               <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">História, arte e memória</p>
             </div>
-            <h1 className="kinetic-title mt-6 max-w-5xl font-display text-[3.3rem] font-medium leading-[0.96] sm:text-8xl md:text-[8.5rem]">
+            <h1 className="kinetic-title mt-6 max-w-5xl font-display text-[clamp(2.4rem,12vw,3.4rem)] font-medium leading-[0.96] sm:text-8xl md:text-[8.5rem]">
               Um palco construído<br /><em className="line-2 font-normal italic text-gold">pela cidade</em>
             </h1>
             <div className="mt-10 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
