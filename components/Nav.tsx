@@ -24,7 +24,7 @@ const MORE_GROUPS: { title: string | null; items: { href: string; label: string 
     { href: '/livro-de-memorias', label: 'Livro de memórias' },
     { href: '/visita-guiada', label: 'Visita guiada' },
   ] },
-  { title: null, items: [
+  { title: 'Pesquisa', items: [
     { href: '/fontes', label: 'Pesquisa e fontes' },
   ] },
 ];
@@ -104,8 +104,17 @@ export default function Nav() {
 
       {open && (
         <nav className="relative max-h-[80vh] overflow-y-auto border-t border-gold/20 bg-cream px-5 pb-8 pt-2 dark:bg-night lg:hidden" aria-label="Navegação móvel">
-          {[...PRIMARY, ...MORE].map((l) => (
+          <p className="pb-1 pt-4 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Navegação</p>
+          {PRIMARY.map((l) => (
             <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className="block border-b border-ink/5 py-3 font-sans text-base text-ink/80 dark:border-cream/10 dark:text-cream/80">{l.label}</Link>
+          ))}
+          {MORE_GROUPS.map((g) => (
+            <div key={g.title ?? 'mais'}>
+              <p className="pb-1 pt-5 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{g.title ?? 'Mais'}</p>
+              {g.items.map((l) => (
+                <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className="block border-b border-ink/5 py-3 font-sans text-base text-ink/80 dark:border-cream/10 dark:text-cream/80">{l.label}</Link>
+              ))}
+            </div>
           ))}
         </nav>
       )}
