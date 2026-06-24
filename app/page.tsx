@@ -29,6 +29,9 @@ const GUIA = [
   { href: '/documentario', tag: 'Documentário', t: 'Música & Drama', d: 'A memória do Theatro contada por quem a viveu.', cta: 'Assistir ao filme' },
 ];
 
+const MAPS = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Theatro Municipal de São João da Boa Vista, Praça da Catedral, 22 - Centro, São João da Boa Vista - SP');
+const WPP = 'https://wa.me/5519997195719?text=' + encodeURIComponent('Olá! Gostaria de informações para visitar o Theatro Municipal.');
+
 export default function Home() {
   // tira curada: edifício hoje · arte da sala · fundação coletiva · restauro · teatro infantil · música ao vivo
   const STRIP_IDS = ['h024', 'h016', 'h003', 'h085', 'h014', 'h008'];
@@ -108,16 +111,22 @@ export default function Home() {
 
       {/* CASA DE MUITAS VIDAS */}
       <section className="mx-auto max-w-6xl px-5 py-24">
-        <div className="grid items-start gap-14 md:grid-cols-2">
+        <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Uma casa de muitas vidas</p>
             <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">Teatro, cinema, baile, rádio, escola e ponto de encontro</h2>
-          </Reveal>
-          <Reveal delay={120}>
-            <div className="max-w-reading space-y-4 font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
+            <div className="mt-6 max-w-reading space-y-4 font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
               <p>O Theatro nasceu para receber companhias dramáticas, música e grandes espetáculos. Logo passou a servir a quase tudo o que mobilizava a cidade: festivais beneficentes, formaturas, comícios, bailes, festas juninas, sessões de cinema, aulas e programas de rádio.</p>
               <p>Para algumas gerações, foi sobretudo teatro. Para outras, o Cine Theatro, com matinês e bomboniere. Para quem viveu o abandono, uma presença ameaçada. Para quem restaurou, a prova de que uma comunidade pode salvar aquilo que reconhece como seu.</p>
             </div>
+          </Reveal>
+          <Reveal delay={120}>
+            <figure>
+              <div className="overflow-hidden rounded-sm">
+                <Image src="/fotos/hr-sala-01.jpg" alt="O interior em ferradura num baile histórico, com a plateia ocupada sob as galerias e os camarotes." width={1800} height={1140} className="aspect-[4/3] h-auto w-full object-cover" sizes="(max-width:768px) 100vw, 48vw" />
+              </div>
+              <figcaption className="mt-3 font-sans text-sm italic leading-relaxed text-ink/60 dark:text-cream/60">Um baile ocupando a plateia, sob as galerias e os camarotes — o Theatro como ponto de encontro da cidade.</figcaption>
+            </figure>
           </Reveal>
         </div>
       </section>
@@ -225,6 +234,31 @@ export default function Home() {
             <h2 className="mt-4 mb-12 max-w-2xl font-display text-3xl leading-tight sm:text-4xl">Quem passou pelo palco e pela plateia</h2>
           </Reveal>
           <Reveal delay={100}><Vozes vozes={vozesList} /></Reveal>
+        </div>
+      </section>
+
+      {/* VISITE */}
+      <section className="border-t border-gold/20">
+        <div className="mx-auto max-w-6xl px-5 py-24">
+          <div className="grid gap-10 md:grid-cols-2 md:items-center">
+            <Reveal>
+              <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Visite</p>
+              <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">No centro histórico, diante da Praça da Catedral</h2>
+              <p className="mt-5 max-w-reading font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
+                O Theatro fica na Praça da Catedral, 22 — Centro, São João da Boa Vista (SP). O atendimento administrativo é de segunda a sexta, das 7h às 11h e das 13h às 17h; horários de espetáculo, bilheteria e visita guiada variam conforme a programação.
+              </p>
+            </Reveal>
+            <Reveal delay={120}>
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-wrap gap-3">
+                  <a href={MAPS} target="_blank" rel="noopener" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Como chegar ↗</a>
+                  <a href={WPP} target="_blank" rel="noopener" className="rounded-full border border-curtain/40 px-6 py-3 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">WhatsApp</a>
+                  <Link href="/programacao" className="rounded-full border border-curtain/40 px-6 py-3 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">Programação</Link>
+                </div>
+                <Link href="/visite" className="self-start border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Planeje sua visita →</Link>
+              </div>
+            </Reveal>
+          </div>
         </div>
       </section>
 
