@@ -49,6 +49,10 @@ O Theatro ocupa uma posição privilegiada diante da praça e próximo à Catedr
 
 A relação entre o prédio e o espaço externo aparece em muitas memórias. Jovens passeavam entre o Theatro e outros cinemas antes das sessões. Ônibus e carros de praça circulavam nas proximidades. O bar instalado na fachada tornou-se ponto de encontro. Mesmo quando o interior se deteriorava, o edifício continuava marcando a paisagem.
 
+![A fachada eclética do Theatro diante da Praça da Catedral, no centro histórico.](/fotos/hr4-fachada-02.jpg)
+
+*Diante da Praça da Catedral, o Theatro marca a paisagem do centro — ir ao espetáculo é também atravessar a praça e participar de um ritual público.*
+
 ## Uma sala que aproxima palco e plateia
 
 A curva em ferradura distribui o público em diferentes níveis e oferece visões variadas do palco. No projeto anunciado em 1913, havia plateia, frisas, camarotes, galeria, fosso de orquestra, camarins, bares e espaços administrativos.
@@ -89,7 +93,7 @@ Por isso, a preservação não termina na pedra: completa-se quando o edifício 
 
 O edifício permanece ativo e integrado à programação cultural de São João da Boa Vista. Em 2024, recebeu nova etapa de revitalização, com intervenções anunciadas no palco, foyer e pintura externa. Em 2025 e 2026, continuou a sediar música, teatro, dança e eventos públicos.
 
-As informações operacionais devem ser atualizadas em uma área própria, separada da narrativa histórica. Isso evita que horários, contatos e regras temporárias envelheçam dentro das páginas permanentes.
+Para horários, contato, ingressos e visita guiada, consulte as páginas **Visite** e **Programação** — ali essas informações ficam sempre atualizadas, separadas da narrativa histórica.
 
 [Conheça a história completa](./historia) · [Veja como ele foi restaurado](./restauracao) · [Consulte informações de visita](./visite)
 
