@@ -1,5 +1,5 @@
 'use client';
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import type { Pessoa } from '@/lib/data';
 import SeloEvidencia from './SeloEvidencia';
 
@@ -11,6 +11,25 @@ const GROUPS: { title: string; sub: string; cats: string[] }[] = [
   { title: 'Preservação e restauro', sub: 'A mobilização e o trabalho que salvaram a casa e a devolveram à cidade.', cats: ['preservação', 'restauro', 'artes e restauro', 'instituição'] },
   { title: 'Pesquisa, memória e documentação', sub: 'Quem registrou, pesquisou e contou esta história.', cats: ['pesquisa', 'audiovisual'] },
 ];
+
+function BioVerMais({ texto }: { texto: string }) {
+  const [open, setOpen] = useState(false);
+  const paras = texto.split('\n\n');
+  const long = paras.length > 1 || paras[0].length > 230;
+  const mostrar = open ? paras : paras.slice(0, 1);
+  return (
+    <div className="mt-3">
+      <div className="space-y-3 font-sans text-sm leading-relaxed text-ink/80 dark:text-cream/80">
+        {mostrar.map((par, i) => (<p key={i}>{par}</p>))}
+      </div>
+      {long && (
+        <button type="button" onClick={() => setOpen((o) => !o)} aria-expanded={open} className="mt-2 border-b border-curtain pb-0.5 font-sans text-xs font-medium text-curtain transition-opacity hover:opacity-70 dark:border-gold dark:text-gold">
+          {open ? 'Ver menos ↑' : 'Ver mais ↓'}
+        </button>
+      )}
+    </div>
+  );
+}
 
 export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
   const grouped = useMemo(() => {
@@ -33,10 +52,7 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
       </div>
       <h3 className="mt-3 font-display text-xl leading-tight">{p.name}</h3>
       <p className="mt-1 font-sans text-sm font-medium text-ink/70 dark:text-cream/70">{p.role}</p>
-      <div className="mt-3 space-y-3 font-sans text-sm leading-relaxed text-ink/80 dark:text-cream/80">
-        {(p.bio || p.summary).split('\n\n').map((par, i) => (<p key={i}>{par}</p>))}
-      </div>
-      {p.source && <p className="mt-4 border-t border-gold/15 pt-3 font-sans text-[0.7rem] leading-relaxed text-ink/45 dark:text-cream/45">Fonte: {p.source}</p>}
+      <BioVerMais texto={p.bio || p.summary} />
     </article>
   );
 

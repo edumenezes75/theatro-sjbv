@@ -852,6 +852,58 @@
    "status": "documentado",
    "source": "Menezes, 2014, “Theatro Municipal, 100 anos”, p. 105–106.",
    "bio": "Personalidade muito ativa nas lides culturais, artísticas e educacionais de São João da Boa Vista, ajudou a fundar a Sociedade Cultural de Debates (1951), da qual foi o primeiro presidente e presidente de honra.\n\nIdealizou e dirigiu o Teatro-Escola, criado em 1950 a partir da Sociedade — que reuniu mais de 200 associados, biblioteca com mais de 3.000 volumes e um piano de cauda —, depois conduzido por Palmyro Ferranti. Esteve entre os idealizadores da Academia de Letras de São João da Boa Vista, fundada em 1971."
+  },
+  {
+   "id": "p060",
+   "name": "Clarice Assad",
+   "category": "música",
+   "role": "Compositora, pianista e cantora (família Assad)",
+   "summary": "Compositora, pianista, arranjadora e cantora brasileira; filha de Sérgio Assad, indicada ao Grammy.",
+   "related": [
+    "p046",
+    "p047",
+    "p048"
+   ],
+   "status": "documentado",
+   "source": "Wikipedia; O Município, “Clarice Assad em casa”, 2025.",
+   "bio": "Compositora, pianista, arranjadora, cantora e educadora brasileira-americana nascida em 1978, é filha do violonista Sérgio Assad e integrante da família Assad — sobrinha de Odair e de Badi Assad. Batizada em homenagem à escritora Clarice Lispector, apresenta-se profissionalmente desde os sete anos e formou-se em música nos Estados Unidos, com mestrado em composição pela Universidade de Michigan.\n\nSua obra atravessa a música brasileira, o romantismo, o jazz e a música de concerto, com peças para piano, violão, câmara e orquestra. Indicada ao Latin Grammy (2009) e ao Grammy (2022) pelo álbum “Archetypes”, gravado com o pai, mantém vínculo com São João da Boa Vista, berço da família Assad e do Festival Assad."
+  },
+  {
+   "id": "p061",
+   "name": "David Ribeiro",
+   "category": "cultura local",
+   "role": "Responsável pelo Cineclube Beloca",
+   "summary": "Responsável pelo Cineclube Beloca, criado em 2007 no Theatro.",
+   "related": [],
+   "status": "documentado",
+   "source": "Menezes, 2014, “Theatro Municipal, 100 anos”, p. 176; informação do Theatro.",
+   "bio": "Responsável pelo Cineclube Beloca, criado em 2007 e sediado na Sala de Múltiplo Uso Dilo Gianelli, no Theatro. Gratuito, o cineclube leva ao público filmes fora do circuito comercial e promove debates após as sessões, criando um ponto de encontro para amantes do cinema e estimulando novos talentos do audiovisual na cidade."
+  },
+  {
+   "id": "p062",
+   "name": "Gil Sibin",
+   "category": "instituição",
+   "role": "Ex-presidente da AMITE",
+   "summary": "Foi presidente da AMITE — Associação dos Amigos do Theatro Municipal.",
+   "related": [
+    "p063"
+   ],
+   "status": "documentado",
+   "source": "Menezes, 2014; O Município (AMITE).",
+   "bio": "José Gilberto Sibin, o Gil Sibin, participou ativamente da vida associativa do Theatro e foi presidente da AMITE — Associação dos Amigos do Theatro Municipal, entidade criada em 2003 que administrou a casa por cerca de dezoito anos, cuidando da programação de concertos, cinema, teatro amador, festivais e projetos de formação musical."
+  },
+  {
+   "id": "p063",
+   "name": "Ana Paula Ferreira Rinaldi",
+   "category": "instituição",
+   "role": "Presidente da AMITE (2019–2020)",
+   "summary": "Presidiu a AMITE — Associação dos Amigos do Theatro Municipal — na gestão 2019/2020.",
+   "related": [
+    "p062"
+   ],
+   "status": "documentado",
+   "source": "O Município (AMITE), 2019.",
+   "bio": "Ana Paula Ferreira Rinaldi presidiu a AMITE — Associação dos Amigos do Theatro Municipal — na gestão de 2019/2020. Criada em 2003, a AMITE administrou o Theatro por cerca de dezoito anos, mantendo viva a programação cultural da casa — concertos, cinema, teatro amador e festivais — até que, em 2021, o convênio foi encerrado e a gestão voltou ao Departamento de Cultura."
   }
  ]
 }
