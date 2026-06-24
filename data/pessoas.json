@@ -58,7 +58,9 @@
         "p006",
         "p007",
         "p032",
-        "p033"
+        "p033",
+        "p042",
+        "p044"
       ],
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 86–89.",
@@ -71,11 +73,12 @@
       "role": "Professora e diretora de festivais escolares",
       "summary": "Levou crianças ao palco com montagens cuidadosas, canto, figurino e coreografia.",
       "related": [
-        "p005"
+        "p005",
+        "p042"
       ],
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 60–64.",
-      "bio": "Professora de vocação artística, com formação em piano e canto, Anésia Martins Mattos esteve entre os nomes que mantiveram viva a cena sanjoanense nas primeiras décadas do Theatro, à frente de festivais escolares e de apresentações musicais que revelavam novos talentos da cidade."
+      "bio": "Professora de vocação artística, com formação em piano e canto, organizou na década de 1920, com os alunos do Grupo Escolar Joaquim José e do Externato São João, festivais que se distinguiam pelo gosto das montagens e pela qualidade dos pequenos intérpretes. Em outubro de 1926, promoveu no Theatro um dos primeiros espetáculos do Brasil em comemoração ao recém-criado Dia da Criança.\n\nSeus temas, muitos de autoria do marido, o advogado Jonathas Mattos, iam do quadro das “gueixas” ao bailado português “Vira-do-Minho” — este chegou a ser filmado e exibido no cinema. Mãe de Zilah Mattos, ajudou a firmar a tradição dos festivais escolares na cidade."
     },
     {
       "id": "p007",
@@ -84,11 +87,13 @@
       "role": "Compositor e organizador",
       "summary": "Compôs a opereta Branca de Neve, apresentada em 1932.",
       "related": [
-        "p005"
+        "p005",
+        "p010",
+        "p033"
       ],
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 61–64.",
-      "bio": "Padre, compositor e organizador, levou ao palco do Theatro festivais que misturavam comédia e trechos de óperas como Il Trovatore, La Traviata e Favorita — algumas das peças de sua própria autoria. Foi um dos nomes que firmaram a música erudita na vida cultural sanjoanense."
+      "bio": "De origem italiana e diplomado em música pela Real Academia de Nápoles, foi capelão da Santa Casa e excelente organista, além de compositor de peças sacras e eruditas. Morou em São João da Boa Vista entre 1928 e 1933 e, nesse curto período, idealizou e organizou inúmeros festivais beneficentes ao lado de Dona Beloca, Zilah Mattos e Herculano de Almeida.\n\nSua obra-prima local foi a opereta Branca de Neve, de sua composição, com cenários de Herculano de Almeida, estreada em 1932 e reapresentada várias vezes — na década de 1950, sob a regência de Nascipe Murr. As partituras estão guardadas no Museu de Arte Sacra."
     },
     {
       "id": "p008",
@@ -132,10 +137,12 @@
       "category": "música",
       "role": "Violinista, professor e regente",
       "summary": "Participou de festivais, corais e iniciativas educativas, incluindo um coral de 120 vozes em 1947.",
-      "related": [],
+      "related": [
+        "p007"
+      ],
       "status": "documentado",
       "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014, p. 60–61.",
-      "bio": "Violinista, professor e regente, era presença constante nos festivais e espetáculos da cidade — ora como solista, ora nos acompanhamentos orquestrais que davam corpo às noites do Theatro."
+      "bio": "Violinista, professor e regente, foi presença constante nos festivais e espetáculos da cidade — ora como solista ao violino, ora nos acompanhamentos orquestrais que davam corpo às noites do Theatro. Na década de 1950, comandou a reapresentação da opereta Branca de Neve, do Pe. Nicolau Miranda, e seguiu como um dos professores que formaram músicos sanjoanenses por gerações."
     },
     {
       "id": "p011",
@@ -581,6 +588,59 @@
       "image": "/fotos/hr4-pessoas-04.jpg",
       "imageAlt": "João Batista Merlin, José Marcondes e Maria Célia, durante o restauro.",
       "bio": "Lembrada entre as pessoas que cuidaram de preservar a memória do Theatro, ajudou a reconstituir episódios da restauração — como as viagens técnicas da equipe ao Rio de Janeiro — e a guardar documentos e relatos que hoje sustentam a história da casa."
+    },
+    {
+      "id": "p041",
+      "name": "Maestro Joaquim Azevedo",
+      "category": "música",
+      "role": "Maestro da Banda “Internacional”",
+      "summary": "Regeu a banda que abriu a inauguração de 1914 e animou as festas das primeiras décadas.",
+      "related": [
+        "p001"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Maestro da “Internacional”, uma das melhores bandas de música da cidade, esteve nos momentos decisivos do Theatro: regeu a banda que abrilhantou a reunião de acionistas que selou a construção e, em 31 de outubro de 1914, abriu a cerimônia de inauguração. Sua banda deu trilha às festas cívicas e artísticas das primeiras décadas da casa."
+    },
+    {
+      "id": "p042",
+      "name": "Zilah Mattos",
+      "category": "cultura local",
+      "role": "Organizadora de festivais e soprano",
+      "summary": "Ao lado de Dona Beloca, marcou época organizando os festivais beneficentes do Theatro.",
+      "related": [
+        "p005",
+        "p006"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Filha do advogado Jonathas Mattos e da professora Anésia Martins Mattos, tinha vocação artística desenvolvida — aprendeu piano e canto em grau superior e possuía linda voz de soprano. Ao lado de Dona Beloca, marcou época como organizadora dos festivais beneficentes que animaram o Theatro por décadas, reunindo músicos, atores e crianças da cidade.\n\nSeu nome aparece à frente de grandes programas, como o “Grandioso Festival”, e nas montagens que sustentaram, geração após geração, a vocação artística sanjoanense."
+    },
+    {
+      "id": "p043",
+      "name": "Cláudio Richerme",
+      "category": "música",
+      "role": "Pianista",
+      "summary": "Pianista sanjoanense de carreira nacional, presença anual na Semana Guiomar Novaes.",
+      "related": [
+        "p008"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Pianista sanjoanense de carreira nacional, é presença anual na Semana Guiomar Novaes — o festival que homenageia a conterrânea ilustre e se tornou o eixo da agenda do Theatro restaurado. Sua trajetória liga a tradição pianística da cidade, a mesma que revelou Guiomar Novaes e Marly Evangeline, ao palco de hoje."
+    },
+    {
+      "id": "p044",
+      "name": "Olimpia “Ziza” Andrade",
+      "category": "música",
+      "role": "Pianista, violinista e organista",
+      "summary": "Solista e organizadora dos festivais; conduzia o Órgão de Tubos da Igreja Matriz.",
+      "related": [
+        "p005"
+      ],
+      "status": "documentado",
+      "source": "Menezes, Neusa M. S. (ed.). Theatro Municipal, 100 anos. São João da Boa Vista, 2014.",
+      "bio": "Dotada de muitos dons, era convocada com frequência para organizar os festivais e preparar os participantes, sobretudo nos números musicais. Pianista e exímia violinista, executava solos e acompanhamentos orquestrais nos espetáculos do Theatro e ainda conduzia o Órgão de Tubos nas cerimônias da Igreja Matriz — nome costumeiro na vida musical da cidade."
     }
   ]
 }
