@@ -38,7 +38,11 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-cream/15 pt-6 text-[0.7rem] leading-relaxed text-cream/65">
-          <p className="mt-2">© <AnoAtual /> Theatro Municipal de São João da Boa Vista. História, arte e memória.</p>
+          <p className="max-w-2xl text-cream/70">
+            Projeto independente de memória e divulgação histórica. <strong className="font-medium text-cream/90">Este não é o site oficial do Theatro Municipal nem da Prefeitura de São João da Boa Vista.</strong> Para programação, bilheteria e informações oficiais, consulte os{' '}
+            <a href="https://saojoao.sp.gov.br/cultura/equipamentos-culturais/theatro-municipal" target="_blank" rel="noopener" className="underline decoration-gold/40 underline-offset-2 hover:text-gold">canais da Prefeitura</a>.
+          </p>
+          <p className="mt-3">© <AnoAtual /> · Conteúdo histórico baseado em fontes citadas na página de <a href="/fontes" className="underline decoration-gold/40 underline-offset-2 hover:text-gold">Pesquisa e fontes</a>. História, arte e memória de São João da Boa Vista.</p>
         </div>
       </div>
     </footer>
