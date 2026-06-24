@@ -27,6 +27,11 @@ O projeto de 1913 apresenta uma composição simétrica, com eixo central destac
 
 Acima dos vãos laterais, quatro medalhões alinham um compositor brasileiro a três cânones europeus — **Carlos Gomes, Giuseppe Verdi, Richard Wagner e Charles Gounod** —, num gesto deliberadamente cosmopolita. As molduras incorporam ramos de café, costurando a cultura erudita internacional à economia que ergueu o edifício. As inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*, em grafia historicizante, anunciam a função antes mesmo de o público entrar.
 
+![Vaso ornamental com mascarão na platibanda do Theatro, restaurado.](/fotos/hr5-ornamentos-03.jpg)
+
+*Um dos vasos com mascarões que coroam a platibanda — o remate escultórico da fachada eclética, restaurado.*
+
+
 Na linguagem eclética, elementos de diferentes tradições históricas são reorganizados para produzir solenidade e distinção. Isso não significa que o Theatro copie um único modelo europeu. A comparação com grandes casas de ópera faz parte do imaginário de sua construção, mas a relação precisa ser estudada por plantas, proporções e documentação técnica.
 
 > **Nota de pesquisa:** a expressão “modelo do Scala de Milão” aparece em narrativas locais. Aqui ela é tratada como referência atribuída, não como prova de cópia direta.
@@ -70,9 +75,19 @@ Historicamente, essa disposição também organizava diferenças sociais. Os set
 
 > **Voz do filme** · “Toda essa ferradura é feita de estrutura metálica; ela veio da Bélgica, de navio, e toda numerada para ser montada aqui.” — [ouvir no documentário (15:55) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=955s)
 
+![Medalhão pintado com retrato, na faixa decorativa sobre os camarotes.](/fotos/hr5-ornamentos-08.jpg)
+
+*Medalhão pintado com retrato, na faixa decorativa que percorre a sala sobre os camarotes.*
+
+
 ## Madeira, metal e som
 
 Fotografias e relatos destacam a presença de madeira na sala e estruturas metálicas na sustentação. A geometria e os materiais são frequentemente associados à boa projeção sonora.
+
+![Capitel coríntio restaurado, com folhas de acanto.](/fotos/hr5-ornamentos-02.jpg)
+
+*Capitel coríntio restaurado, com folhas de acanto — o apuro ornamental recuperado na obra.*
+
 
 O Theatro acumulou elogios de músicos ao longo de gerações. Vale distinguir o que é **observável** — forma, materiais, volume e a proximidade entre palco e plateia —, o que são **testemunhos de artistas** e o que dependeria de **medições acústicas** para se afirmar com rigor. Mas os testemunhos, por si, já dizem muito:
 

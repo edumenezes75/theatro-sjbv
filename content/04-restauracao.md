@@ -96,6 +96,11 @@ As intervenções incluíram:
 - reconstrução de frisas, camarotes, portas e janelas;
 - recuperação de fachadas, ornatos e pinturas.
 
+![A cobertura do Theatro em obras, com o casario e a torre da igreja ao fundo.](/fotos/hr5-restauro-01.jpg)
+
+*A cobertura em obras, vista do alto — ao fundo, o casario e a torre da igreja.*
+
+
 O rebaixamento das fundações foi executado lentamente. Relatos técnicos registram controle rigoroso do recalque e a necessidade de laudos para responder ao temor de que a escavação pudesse comprometer o edifício.
 
 
@@ -109,6 +114,11 @@ O rebaixamento das fundações foi executado lentamente. Relatos técnicos regis
 ## Restauro artístico
 
 A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos. Amostras de camadas antigas foram analisadas para buscar tons compatíveis. Capitéis e detalhes receberam tratamento e douração.
+
+![Prospecção estratigráfica: janelas abertas na parede revelam as camadas de tinta de cada época.](/fotos/hr5-restauro-04.jpg)
+
+*Prospecção estratigráfica — pequenas janelas abertas na parede revelam, camada a camada, as cores de cada época. Era assim que se descobria o tom original.*
+
 
 Na boca de cena, o medalhão de Carlos Gomes — obra original do pintor italiano Ettore Adriano Fabri — foi revelado sob sucessivas pinturas. Cézar Roberto Olandim, Maércio Mazzi e Elias Gervasi aparecem associados às etapas de descoberta e reintegração da obra; Romeu Paulucci Buzon Filho atuou na recuperação dos ornamentos da fachada, em 1992.
 
@@ -141,6 +151,11 @@ Em 1995, o show *Relembranças* reuniu público em uma sala com piso bruto e cad
 Preservar não termina com a reabertura. O último grande ciclo de acabamentos foi o de 2002; desde então, a casa recebeu manutenções pontuais. Em 2021, a Prefeitura contratou um estudo técnico de preservação e pintura — conduzido por Lorette Arquitetos, com Antonio Carlos Lorette e Alisson Tavares —, reconhecendo a necessidade de retomar um cuidado mais amplo. Notícias do período registraram, ainda, emendas destinadas à reforma, como R$ 170 mil e, em 2024, R$ 200 mil.
 
 Reportagens locais entre 2023 e 2024 registraram pontos a enfrentar — entre eles a entrada de água da chuva por portas laterais e a fragilidade de esquadrias — e listaram demandas de pintura, palco, camarins, instalações, acessibilidade, som e luz. Em 2024, obras externas e internas avançaram com pintura de fachada, palco e foyer; parte das intervenções, porém, ficou inacabada, e a manutenção preventiva permanece como agenda aberta.
+
+![Inscrições de alunos do Teatro-Escola (1957) na lateral do palco, preservadas no restauro.](/fotos/hr5-restauro-07.jpg)
+
+*Inscrições deixadas por alunos do Teatro-Escola em 1957, na lateral do palco — pequenas marcas humanas que a obra escolheu preservar.*
+
 
 Esse é o estágio honesto de um edifício de mais de cem anos: vivo e em uso, mas exigindo atenção contínua. A própria história do Theatro mostra que sua conservação sempre dependeu de vontade pública e mobilização — e segue dependendo.
 

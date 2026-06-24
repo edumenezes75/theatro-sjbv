@@ -54,6 +54,11 @@ A inauguração ocorreu em **31 de outubro de 1914**. A banda do maestro Joaquim
 
 O público ocupou plateia, frisas, camarotes e galeria. Para a cidade, aquela noite representava mais do que entretenimento. O novo prédio era apresentado como sinal de progresso e capacidade coletiva.
 
+![O interior lotado na noite de inauguração — 31 de outubro de 1914, em registro estereoscópico do acervo do Instituto Moreira Salles.](/fotos/hr5-inauguracao-1914.jpg)
+
+*O interior lotado na noite de inauguração — 31 de outubro de 1914. Registro estereoscópico (acervo IMS, Poços de Caldas).*
+
+
 Uma ausência, porém, marcou a cerimônia. José Evangelista de Almeida, apontado pelos jornais como iniciador das obras, havia se transferido para Santos por razões profissionais. Sua participação permaneceu registrada na história da Companhia e na imprensa.
 
 ### A data correta
