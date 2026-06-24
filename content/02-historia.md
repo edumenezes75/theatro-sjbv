@@ -86,9 +86,11 @@ O edifício não tinha uso único. Em 1915, recebeu seu primeiro baile de Carnav
 
 Em determinado momento, a sala chegou a funcionar como rinque de patinação. A hipótese de transformar dependências em cassino também foi cogitada diante das dificuldades financeiras, mas não se consolidou.
 
-![Evento em homenagem a Romão Gomes no salão do Theatro, por volta de 1932.](/fotos/hr5-historicas-01.jpg)
+![Homenagem ao comandante Romão Gomes no Theatro, em 1933.](/fotos/hr5-historicas-01.jpg)
 
-*Evento em homenagem a Romão Gomes, no salão, à época da Revolução de 1932.*
+*Homenagem ao comandante Romão Gomes no Theatro, em 1933 — pela Coluna Romão Gomes, a única que não perdeu uma batalha na Revolução Constitucionalista de 1932. Ele aparece ao centro, de terno preto.*
+
+> **Você sabia?** O comandante Romão Gomes tinha seu quartel em Águas da Prata, então distrito de São João da Boa Vista, e ficou muito querido na cidade — de sua corporação fez parte a heroína sanjoanense Maria Sguassábia. Por isso, em 1933, os sanjoanenses promoveram em sua honra uma noite festiva no Theatro.
 
 
 > **Você sabia?** Um teatro pode revelar a história de uma cidade não apenas pelo que apresenta no palco, mas também pelas soluções que encontra para continuar aberto.
