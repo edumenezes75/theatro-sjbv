@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function AcervoPage() {
   const page = getPageBySlug('/acervo');
-  const destaqueIds = ['h049', 'h001', 'h050', 'h045', 'h020', 'h193', 'h087', 'h083', 'h016', 'h194', 'h028', 'h184', 'h096', 'h137', 'h024', 'h043', 'h095', 'h094'];
+  const destaqueIds = ['h206', 'h049', 'h001', 'h050', 'h045', 'h020', 'h193', 'h087', 'h083', 'h016', 'h194', 'h028', 'h184', 'h096', 'h137', 'h024', 'h043', 'h095', 'h094'];
   const destaque = destaqueIds.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList;
   const hist = fotosList.filter((f) => f.epoca === 'Histórico');
   const rest = fotosList.filter((f) => f.epoca === 'Restauro');
@@ -54,7 +54,7 @@ export default function AcervoPage() {
           </div>
           <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Comece por estes registros</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            Uma seleção para entender, em poucas imagens, a construção, a sala em ferradura, o cinema, a ameaça de demolição, o restauro e a vida cultural do Theatro.
+            Uma seleção para entender, em poucas imagens, a noite de inauguração em 1914, a sala em ferradura, o cinema, a ameaça de demolição, o restauro e a vida cultural do Theatro.
           </p>
           <GaleriaReal fotos={destaque} withFilter={false} />
         </section>
