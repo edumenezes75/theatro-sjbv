@@ -14,17 +14,6 @@ last_verified: "2026-06-19"
 
 O Theatro Municipal está no centro histórico de São João da Boa Vista, diante da Praça da Catedral.
 
-## Endereço
-
-**Praça da Catedral, 22 — Centro**  
-São João da Boa Vista — SP
-
-## Atendimento administrativo
-
-- **Horário:** das 7h às 11h e das 13h às 17h;
-- **WhatsApp (informações e agendamentos):** (19) 99719-5719;
-- **Departamento de Cultura:** (19) 3636-4872 e (19) 3636-4953.
-
 > **Importante:** horários de espetáculo, bilheteria, visita guiada e acesso aos ambientes internos variam conforme a programação. Confirme diretamente com a organização antes de se deslocar.
 
 ## Antes de ir

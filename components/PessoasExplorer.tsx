@@ -58,6 +58,11 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
 
   return (
     <div>
+      <nav className="mb-10 flex flex-wrap gap-2" aria-label="Seções de pessoas">
+        {grouped.map((g) => (
+          <a key={g.title} href={`#${slugify(g.title)}`} className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">{g.title}</a>
+        ))}
+      </nav>
       {grouped.map((g) => (
         <section key={g.title} id={slugify(g.title)} className="mt-14 scroll-mt-24 first:mt-0">
           <div className="flex items-center gap-3">

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import { getEventos } from '@/lib/content';
 import { getEventosPrefeitura } from '@/lib/agendaPrefeitura';
 import { getNoticiasTheatro } from '@/lib/noticiasTheatro';
@@ -74,7 +75,7 @@ export default async function ProgramacaoPage() {
       <ChapterHero eyebrow="Agenda de espetáculos, concertos e eventos" title="Programação" />
       <div className="mx-auto max-w-4xl px-5 py-14">
         <p className="mb-10 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
-          O Theatro continua vivo. Veja o que está por vir e o que já passou pelo palco. A programação está sujeita a alteração — confirme sempre datas, horários e ingressos pelos canais oficiais do Theatro e da Prefeitura antes de ir.
+          O Theatro continua vivo. Aqui estão os próximos eventos e os canais oficiais para confirmar a agenda — datas, horários e ingressos podem mudar, então confirme sempre antes de ir. Para tudo o que já passou pelo palco, percorra a <Link href="/linha-do-tempo" className="underline decoration-gold/40 underline-offset-2 hover:text-curtain dark:hover:text-gold">linha do tempo</Link>.
         </p>
 
         <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Próximos eventos</h2>
