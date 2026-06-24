@@ -30,10 +30,11 @@ const GUIA = [
 ];
 
 export default function Home() {
-  const strip = ['fachada', 'sala', 'ornamentos', 'pessoas', 'restauro', 'eventos']
-    .map((c) => fotosList.find((f) => f.category === c && f.epoca === 'Atual') ?? fotosList.find((f) => f.category === c))
-    .filter(Boolean)
-    .slice(0, 6) as typeof fotosList;
+  // tira curada: edifício hoje · arte da sala · fundação coletiva · restauro · teatro infantil · música ao vivo
+  const STRIP_IDS = ['h024', 'h016', 'h003', 'h085', 'h014', 'h008'];
+  const strip = STRIP_IDS
+    .map((id) => fotosList.find((f) => f.id === id))
+    .filter(Boolean) as typeof fotosList;
   return (
     <>
       <CurtainIntro />
@@ -154,11 +155,11 @@ export default function Home() {
         <Reveal>
           <figure>
             <div className="relative aspect-[16/9] w-full overflow-hidden sm:aspect-[21/9] sm:rounded-sm md:mx-auto md:max-w-[88rem]">
-              <Image src="/fotos/hr-fachada-49.jpg" alt="Registro antigo da fachada do Theatro Municipal." width={1800} height={1160} className="h-full w-full object-cover" sizes="100vw" />
+              <Image src="/fotos/hr2-sala-05.jpg" alt="A sala em ferradura restaurada, vista do palco." width={1800} height={704} className="h-full w-full object-cover" sizes="100vw" />
             </div>
             <figcaption className="mx-auto mt-4 max-w-6xl px-5 sm:flex sm:justify-end">
               <span className="block max-w-sm font-sans text-sm italic leading-relaxed text-ink/60 dark:text-cream/60">
-                A fachada do Theatro em registro antigo — a praça, as portas e a escala do edifício na paisagem do centro histórico.
+                A sala em ferradura restaurada — plateia, frisas, camarotes e galeria na curva que aproxima palco e público.
               </span>
             </figcaption>
           </figure>
@@ -184,12 +185,12 @@ export default function Home() {
 
       {/* FULL-BLEED — imagem + frase */}
       <section className="relative h-[78vh] min-h-[460px] overflow-hidden grain">
-        <Image src="/fotos/hr-sala-50.jpg" alt="Sala do Theatro Municipal restaurada." fill className="object-cover" sizes="100vw" />
+        <Image src="/fotos/hr-sala-50.jpg" alt="A fachada na época do Cine Theatro, com cartazes de cinema." fill className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-night/85 via-night/30 to-night/10" />
         <div className="relative mx-auto flex h-full max-w-6xl items-end px-5 pb-16">
           <Reveal>
             <p className="max-w-2xl font-display text-3xl italic leading-tight text-cream sm:text-4xl md:text-5xl">
-              Para algumas gerações, foi teatro. Para outras, o Cine Theatro. Para todas, o coração da cidade.
+              Aos domingos, a fila dobrava a esquina: por décadas, o Cine Theatro foi o maior programa da cidade.
             </p>
           </Reveal>
         </div>
