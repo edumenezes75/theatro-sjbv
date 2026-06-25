@@ -14,7 +14,7 @@ export default function SeloEvidencia({ status, label }: { status: string; label
   const k = classify(status);
   if (k === 'documentado') return null; // estado padrão não recebe selo
   return (
-    <span className="inline-flex items-center gap-1.5 font-sans text-[0.7rem] font-medium uppercase tracking-[0.14em] text-ink/65 dark:text-cream/65" title={label || status}>
+    <span className="inline-flex items-center gap-1.5 font-sans text-[0.7rem] font-medium uppercase tracking-[0.14em] text-ink/75 dark:text-cream/75" title={label || status}>
       <span className={`inline-block h-1.5 w-1.5 rounded-full ${DOT[k]}`} aria-hidden />
       {label || LABEL[k]}
     </span>

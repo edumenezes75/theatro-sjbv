@@ -10,7 +10,7 @@ export default function Vozes({ vozes }: { vozes: Voz[] }) {
           </blockquote>
           <figcaption className="mt-4 font-sans text-sm text-ink/70 dark:text-cream/70">
             <span className="font-medium text-ink dark:text-cream">{v.author}</span> — {v.role}
-            <span className="mt-0.5 block text-xs italic text-ink/55 dark:text-cream/55">{v.source}</span>
+            <span className="mt-0.5 block text-xs italic text-ink/65 dark:text-cream/75">{v.source}</span>
           </figcaption>
         </figure>
       ))}

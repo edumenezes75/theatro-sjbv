@@ -63,7 +63,7 @@ export default function FotoPage({ params }: { params: { id: string } }) {
     <article className="mx-auto max-w-4xl px-5 pb-20 pt-28 sm:pt-32">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
 
-      <nav aria-label="Trilha" className="font-sans text-xs text-ink/55 dark:text-cream/55">
+      <nav aria-label="Trilha" className="font-sans text-xs text-ink/65 dark:text-cream/75">
         <Link href="/" className="hover:text-curtain dark:hover:text-gold">Início</Link>
         <span className="px-1.5">/</span>
         <Link href="/acervo" className="hover:text-curtain dark:hover:text-gold">Acervo</Link>
@@ -77,12 +77,12 @@ export default function FotoPage({ params }: { params: { id: string } }) {
 
       <header className="mt-6">
         <div className="flex flex-wrap items-center gap-3">
-          <span className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{f.categoryLabel}</span>
-          {f.epoca && <span className="rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-[0.62rem] uppercase tracking-eyebrow text-ink/55 dark:text-cream/55">{f.epoca}</span>}
+          <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{f.categoryLabel}</span>
+          {f.epoca && <span className="rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-[0.68rem] uppercase tracking-eyebrow text-ink/65 dark:text-cream/75">{f.epoca}</span>}
         </div>
         <h1 className="mt-3 font-display text-3xl leading-tight sm:text-4xl">{titulo}</h1>
         <p className="mt-3 max-w-reading font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">{f.alt}</p>
-        <p className="mt-4 font-sans text-xs italic text-ink/55 dark:text-cream/55">{f.credit}</p>
+        <p className="mt-4 font-sans text-xs italic text-ink/65 dark:text-cream/75">{f.credit}</p>
         <div className="mt-5 flex flex-wrap items-center gap-2.5">
           <a href={`/${f.file}`} target="_blank" rel="noopener" download className="inline-flex items-center gap-1.5 rounded-full bg-curtain px-3.5 py-1.5 font-sans text-xs font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Ver imagem em alta ↗</a>
           <Compartilhar title={titulo} />

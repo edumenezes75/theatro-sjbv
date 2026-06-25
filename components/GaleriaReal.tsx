@@ -106,7 +106,7 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
               sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
             />
             <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent p-2 pt-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              <span className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-gold">{f.categoryLabel}</span>
+              <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-gold">{f.categoryLabel}</span>
             </span>
           </button>
         ))}

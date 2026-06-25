@@ -47,7 +47,7 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
   const Card = (p: Pessoa) => (
     <article key={p.id} id={p.id} className="flex flex-col rounded-sm border border-ink/10 p-6 dark:border-cream/10">
       <div className="flex items-center justify-between gap-2">
-        <span className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
+        <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
         <SeloEvidencia status={p.status} />
       </div>
       <h3 className="mt-3 font-display text-xl leading-tight">{p.name}</h3>

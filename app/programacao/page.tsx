@@ -28,11 +28,11 @@ function Card({ e }: { e: ReturnType<typeof getEventos>[number] }) {
       <div className="sm:w-40">
         <p className="font-display text-2xl leading-none text-curtain dark:text-gold">{data}</p>
         <p className="mt-1 font-sans text-xs capitalize text-ink/70 dark:text-cream/70">{dia} · {hora}</p>
-        {e.categoria && <span className="mt-2 inline-block rounded-full border border-curtain/30 px-2.5 py-0.5 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain dark:border-gold/40 dark:text-gold">{e.categoria}</span>}
+        {e.categoria && <span className="mt-2 inline-block rounded-full border border-curtain/30 px-2.5 py-0.5 font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:border-gold/40 dark:text-gold">{e.categoria}</span>}
       </div>
       <div>
         <h3 className="font-display text-xl leading-tight">{e.title}</h3>
-        {e.local && <p className="mt-1 font-sans text-sm text-ink/60 dark:text-cream/60">{e.local}</p>}
+        {e.local && <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">{e.local}</p>}
         {e.html && <div className="prose-theatro mt-2 max-w-none text-sm" dangerouslySetInnerHTML={{ __html: e.html }} />}
         {e.ingresso && <a href={e.ingresso} target="_blank" rel="noopener" className="mt-3 inline-block rounded-full bg-curtain px-4 py-1.5 font-sans text-xs font-medium text-cream hover:opacity-90">Ingressos ↗</a>}
       </div>
@@ -86,7 +86,7 @@ export default async function ProgramacaoPage() {
         {noticias.length > 0 && (
           <section className="mt-14">
             <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">O Theatro na imprensa</h2>
-            <p className="mt-2 max-w-reading font-sans text-sm text-ink/65 dark:text-cream/65">Notícias recentes da Prefeitura que mencionam o Theatro — atualizadas automaticamente.</p>
+            <p className="mt-2 max-w-reading font-sans text-sm text-ink/75 dark:text-cream/75">Notícias recentes da Prefeitura que mencionam o Theatro — atualizadas automaticamente.</p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
               {noticias.map((n) => (
                 <a key={n.link} href={n.link} target="_blank" rel="noopener" className="card-lift flex flex-col overflow-hidden rounded-sm border border-ink/10 hover:border-gold/50 dark:border-cream/10">
@@ -97,7 +97,7 @@ export default async function ProgramacaoPage() {
                   <div className="flex flex-1 flex-col p-4">
                     {n.date && <p className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{new Date(n.date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}</p>}
                     <p className="mt-1 font-display text-lg leading-tight">{n.title}</p>
-                    <span className="mt-2 font-sans text-xs text-ink/55 dark:text-cream/55">Ler na Prefeitura →</span>
+                    <span className="mt-2 font-sans text-xs text-ink/65 dark:text-cream/75">Ler na Prefeitura →</span>
                   </div>
                 </a>
               ))}
@@ -107,22 +107,22 @@ export default async function ProgramacaoPage() {
 
         <section className="mt-14">
           <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Canais oficiais</h2>
-          <p className="mt-2 max-w-reading font-sans text-sm text-ink/65 dark:text-cream/65">Onde encontrar a programação atualizada e falar com a organização do Theatro.</p>
+          <p className="mt-2 max-w-reading font-sans text-sm text-ink/75 dark:text-cream/75">Onde encontrar a programação atualizada e falar com a organização do Theatro.</p>
           <div className="mt-5 grid gap-4 sm:grid-cols-3">
             <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
-              <p className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Prefeitura</p>
+              <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Prefeitura</p>
               <p className="mt-2 font-display text-lg leading-tight">Agenda cultural oficial</p>
-              <p className="mt-1 font-sans text-sm text-ink/60 dark:text-cream/60">Programação de eventos do município →</p>
+              <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Programação de eventos do município →</p>
             </a>
             <a href="https://www.instagram.com/prefeitura.saojoao" target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
-              <p className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Instagram</p>
+              <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Instagram</p>
               <p className="mt-2 font-display text-lg leading-tight">@prefeitura.saojoao</p>
-              <p className="mt-1 font-sans text-sm text-ink/60 dark:text-cream/60">Divulgações e estreias do dia a dia →</p>
+              <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Divulgações e estreias do dia a dia →</p>
             </a>
             <a href="https://wa.me/5519997195719?text=Ol%C3%A1!%20Gostaria%20de%20saber%20a%20programa%C3%A7%C3%A3o%20do%20Theatro%20Municipal." target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
-              <p className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">WhatsApp</p>
+              <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">WhatsApp</p>
               <p className="mt-2 font-display text-lg leading-tight">Falar com o Theatro</p>
-              <p className="mt-1 font-sans text-sm text-ink/60 dark:text-cream/60">Informações, agendamentos e visitas →</p>
+              <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Informações, agendamentos e visitas →</p>
             </a>
           </div>
         </section>

@@ -21,7 +21,7 @@ export default function TranscricaoFilme({ segs, youtubeId }: { segs: Seg[]; you
           className="w-full rounded-sm border border-ink/20 bg-transparent px-4 py-3 font-sans text-sm text-ink/90 placeholder:text-ink/45 focus-visible:border-curtain dark:border-cream/20 dark:text-cream/90 dark:placeholder:text-cream/45 dark:focus-visible:border-gold"
         />
         {nq.length >= 2 && (
-          <p className="mt-2 px-1 font-sans text-xs text-ink/65 dark:text-cream/65">
+          <p className="mt-2 px-1 font-sans text-xs text-ink/75 dark:text-cream/75">
             {list.length} {list.length === 1 ? 'trecho encontrado' : 'trechos encontrados'} para “{q.trim()}”.
           </p>
         )}
@@ -48,7 +48,7 @@ export default function TranscricaoFilme({ segs, youtubeId }: { segs: Seg[]; you
           </li>
         ))}
         {list.length === 0 && (
-          <li className="py-8 font-sans text-sm text-ink/65 dark:text-cream/65">Nenhum trecho encontrado. Tente outra palavra.</li>
+          <li className="py-8 font-sans text-sm text-ink/75 dark:text-cream/75">Nenhum trecho encontrado. Tente outra palavra.</li>
         )}
       </ol>
     </div>

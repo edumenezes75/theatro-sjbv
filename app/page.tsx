@@ -125,7 +125,7 @@ export default function Home() {
               <div className="overflow-hidden rounded-sm">
                 <Image src="/fotos/hr-sala-01.jpg" alt="O interior em ferradura num baile histórico, com a plateia ocupada sob as galerias e os camarotes." width={1800} height={1140} className="aspect-[4/3] h-auto w-full object-cover" sizes="(max-width:768px) 100vw, 48vw" />
               </div>
-              <figcaption className="mt-3 font-sans text-sm italic leading-relaxed text-ink/60 dark:text-cream/60">Um baile ocupando a plateia, sob as galerias e os camarotes — o Theatro como ponto de encontro da cidade.</figcaption>
+              <figcaption className="mt-3 font-sans text-sm italic leading-relaxed text-ink/70 dark:text-cream/70">Um baile ocupando a plateia, sob as galerias e os camarotes — o Theatro como ponto de encontro da cidade.</figcaption>
             </figure>
           </Reveal>
         </div>
@@ -167,7 +167,7 @@ export default function Home() {
               <Image src="/fotos/hr2-sala-05.jpg" alt="A sala em ferradura restaurada, vista do palco." width={1800} height={704} className="h-full w-full object-cover" sizes="100vw" />
             </div>
             <figcaption className="mx-auto mt-4 max-w-6xl px-5 sm:flex sm:justify-end">
-              <span className="block max-w-sm font-sans text-sm italic leading-relaxed text-ink/60 dark:text-cream/60">
+              <span className="block max-w-sm font-sans text-sm italic leading-relaxed text-ink/70 dark:text-cream/70">
                 A sala em ferradura restaurada — plateia, frisas, camarotes e galeria na curva que aproxima palco e público.
               </span>
             </figcaption>
@@ -217,7 +217,7 @@ export default function Home() {
               <Link key={f.id} href="/acervo" className="group relative block overflow-hidden rounded-sm">
                 <Image src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h} className="aspect-[4/3] h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.05]" sizes="(max-width:768px) 50vw, 33vw" />
                 <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/85 to-transparent p-3 pt-10">
-                  <span className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-gold">{f.categoryLabel}</span>
+                  <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-gold">{f.categoryLabel}</span>
                 </span>
               </Link>
             ))}

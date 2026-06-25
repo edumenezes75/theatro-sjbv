@@ -53,11 +53,11 @@ export default function FerraduraDiagrama() {
           </g>
         </svg>
         <div className="rounded-sm border border-gold/25 bg-cream p-6 dark:bg-nightsoft">
-          <p className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{cur.nome}</p>
+          <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{cur.nome}</p>
           <p className="mt-2 font-read text-[1.02rem] leading-relaxed text-ink/85 dark:text-cream/85">{cur.desc}</p>
           <div className="mt-4 flex flex-wrap gap-1.5">
             {SETORES.map((s) => (
-              <button key={s.id} onClick={() => setAct(s.id)} className={`rounded-full border px-2.5 py-1 font-sans text-[0.7rem] transition-colors ${act === s.id ? 'border-curtain bg-curtain text-cream dark:border-gold dark:bg-gold dark:text-ink' : 'border-ink/15 text-ink/60 hover:border-curtain dark:border-cream/15 dark:text-cream/60'}`}>{s.nome}</button>
+              <button key={s.id} onClick={() => setAct(s.id)} className={`rounded-full border px-2.5 py-1 font-sans text-[0.7rem] transition-colors ${act === s.id ? 'border-curtain bg-curtain text-cream dark:border-gold dark:bg-gold dark:text-ink' : 'border-ink/15 text-ink/70 hover:border-curtain dark:border-cream/15 dark:text-cream/70'}`}>{s.nome}</button>
             ))}
           </div>
         </div>

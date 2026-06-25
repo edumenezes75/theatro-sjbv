@@ -52,7 +52,7 @@ export default function AcervoPage() {
         </p>
 
         <nav aria-label="Saltar para um capítulo" className="mt-12 flex flex-wrap items-center gap-2 border-y border-gold/20 py-4">
-          <span className="mr-1 font-sans text-[0.62rem] uppercase tracking-eyebrow text-ink/55 dark:text-cream/55">Saltar para</span>
+          <span className="mr-1 font-sans text-[0.68rem] uppercase tracking-eyebrow text-ink/65 dark:text-cream/75">Saltar para</span>
           <a href="#cap-historico" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O Theatro histórico</a>
           <a href="#cap-pre" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">A decadência</a>
           <a href="#cap-restauro" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O restauro</a>

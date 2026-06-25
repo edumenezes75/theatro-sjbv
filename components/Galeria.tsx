@@ -25,7 +25,7 @@ export default function Galeria({ imagens }: { imagens: Imagem[] }) {
             <Image src={`/media/${open.file}`} alt={open.alt} width={1400} height={1000} className="max-h-[78vh] w-auto rounded-sm object-contain" />
             <figcaption className="mt-3 font-sans text-sm text-cream/80">
               {open.alt}<br />
-              <span className="text-cream/60">Procedência: {open.source}, p. {open.page}. {open.rights_note}</span>
+              <span className="text-cream/70">Procedência: {open.source}, p. {open.page}. {open.rights_note}</span>
             </figcaption>
           </figure>
         </div>

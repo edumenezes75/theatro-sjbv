@@ -30,7 +30,7 @@ export default function NoPalco() {
           </li>
         ))}
       </ol>
-      <p className="mt-4 font-sans text-xs italic text-ink/65 dark:text-cream/65">
+      <p className="mt-4 font-sans text-xs italic text-ink/75 dark:text-cream/75">
         Fontes: <em>Theatro Municipal, 100 anos</em> (2014); Prefeitura de São João da Boa Vista (2025). Veja cada registro datado na linha do tempo abaixo.
       </p>
     </section>

@@ -116,7 +116,7 @@ export default function DocumentarioPage() {
 
         <section className="mt-16">
           <h2 className="font-display text-3xl">Estrutura de capítulos</h2>
-          <p className="mt-2 font-sans text-sm text-ink/60 dark:text-cream/60">Oito capítulos percorrem a trajetória do Theatro, do fim do século XIX ao patrimônio vivo de hoje.</p>
+          <p className="mt-2 font-sans text-sm text-ink/70 dark:text-cream/70">Oito capítulos percorrem a trajetória do Theatro, do fim do século XIX ao patrimônio vivo de hoje.</p>
           <ol className="mt-6 divide-y divide-gold/20 border-y border-gold/20">
             {CAPS.map((c, i) => (
               <li key={c} className="flex items-baseline gap-4 py-3.5">
@@ -137,7 +137,7 @@ export default function DocumentarioPage() {
                   {`${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`}
                 </a>
                 <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener" className="font-sans text-[0.95rem] text-ink/85 hover:text-curtain dark:text-cream/85 dark:hover:text-gold">{name}</a>
-                <Link href={tema} className="ml-auto shrink-0 self-center rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-[0.62rem] uppercase tracking-eyebrow text-ink/55 hover:border-curtain hover:text-curtain dark:text-cream/55 dark:hover:border-gold dark:hover:text-gold" title={`Ir para ${TEMA[tema]}`}>{TEMA[tema]}</Link>
+                <Link href={tema} className="ml-auto shrink-0 self-center rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-[0.68rem] uppercase tracking-eyebrow text-ink/65 hover:border-curtain hover:text-curtain dark:text-cream/75 dark:hover:border-gold dark:hover:text-gold" title={`Ir para ${TEMA[tema]}`}>{TEMA[tema]}</Link>
               </li>
             ))}
           </ol>

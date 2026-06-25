@@ -27,13 +27,13 @@ export default function ChapterIndex() {
   const go = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   return (
     <nav className="sticky top-28 max-h-[80vh] overflow-y-auto" aria-label="Neste capítulo">
-      <p className="mb-3 font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Neste capítulo</p>
+      <p className="mb-3 font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Neste capítulo</p>
       <ul className="space-y-1.5 border-l border-gold/25">
         {items.map((it) => (
           <li key={it.id}>
             <button
               onClick={() => go(it.id)}
-              className={`-ml-px block border-l-2 pl-3 text-left font-sans text-[0.78rem] leading-snug transition-colors ${active === it.id ? 'border-curtain text-curtain dark:border-gold dark:text-gold' : 'border-transparent text-ink/55 hover:text-ink/80 dark:text-cream/50 dark:hover:text-cream/80'}`}
+              className={`-ml-px block border-l-2 pl-3 text-left font-sans text-[0.78rem] leading-snug transition-colors ${active === it.id ? 'border-curtain text-curtain dark:border-gold dark:text-gold' : 'border-transparent text-ink/65 hover:text-ink/80 dark:text-cream/50 dark:hover:text-cream/80'}`}
             >
               {it.text}
             </button>

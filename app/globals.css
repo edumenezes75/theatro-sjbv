@@ -46,7 +46,8 @@ body {
 .prose-theatro blockquote p { margin: 0.3rem 0; }
 .prose-theatro img { width: 100%; height: auto; margin: 2rem 0 0.6rem; border-radius: 2px; }
 .prose-theatro p:has(> img) { margin-bottom: 0.2rem; }
-.prose-theatro p:has(> img) + p { font-size: 0.85rem; color: #7A7064; font-style: italic; margin-top: 0.2rem; margin-bottom: 1.5rem; }
+.prose-theatro p:has(> img) + p { font-size: 0.9rem; color: #5F564C; font-style: italic; margin-top: 0.2rem; margin-bottom: 1.5rem; }
+.dark .prose-theatro p:has(> img) + p { color: #C2B8A8; }
 .prose-theatro table { width: 100%; border-collapse: collapse; margin: 1.8rem 0; font-size: 0.95rem; }
 .prose-theatro th, .prose-theatro td { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 1px solid rgba(26,23,20,0.12); }
 .dark .prose-theatro th, .dark .prose-theatro td { border-color: rgba(236,230,218,0.14); }
@@ -175,3 +176,15 @@ html.lenis, html.lenis body { height: auto; }
 .prose-theatro a { overflow-wrap: break-word; word-break: break-word; }
 /* mobile: trava rolagem horizontal acidental */
 html, body { overflow-x: clip; }
+
+
+/* ===== Ajustes de leitura por dispositivo ===== */
+/* Laptop/desktop: corpo um pouco maior para leitura longa confortável */
+@media (min-width: 1024px) {
+  .prose-theatro { font-size: 1.13rem; }
+  .prose-theatro p { font-size: 1.13rem; }
+}
+/* Celular estreito: capitular menor para não apertar as primeiras linhas */
+@media (max-width: 480px) {
+  .prose-theatro > p:first-of-type::first-letter { font-size: 3rem; padding: 0.3rem 0.5rem 0 0; }
+}

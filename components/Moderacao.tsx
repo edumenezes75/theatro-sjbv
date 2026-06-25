@@ -58,7 +58,7 @@ export default function Moderacao() {
   const apr = msgs.filter((m) => m.aprovado);
   const Card = (m: Msg, acoes: React.ReactNode) => (
     <article key={m.id} className="rounded-sm border border-ink/12 p-4 dark:border-cream/12">
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-ink/55 dark:text-cream/55">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-ink/65 dark:text-cream/75">
         <span className="rounded-full bg-gold/15 px-2 py-0.5 font-sans uppercase tracking-eyebrow text-curtain dark:text-gold">{tipoLabel(m)}</span>
         <span>{dt(m.created_at)}</span>
         {m.email && <span>· {m.email}</span>}

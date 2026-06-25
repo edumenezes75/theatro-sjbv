@@ -58,7 +58,7 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
     <article className="mx-auto max-w-3xl px-5 pb-20 pt-28 sm:pt-32">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
 
-      <nav aria-label="Trilha" className="font-sans text-xs text-ink/55 dark:text-cream/55">
+      <nav aria-label="Trilha" className="font-sans text-xs text-ink/65 dark:text-cream/75">
         <Link href="/" className="hover:text-curtain dark:hover:text-gold">Início</Link>
         <span className="px-1.5">/</span>
         <Link href="/pessoas" className="hover:text-curtain dark:hover:text-gold">Pessoas</Link>
@@ -68,18 +68,18 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
 
       <header className="mt-6 border-b border-gold/25 pb-7">
         <div className="flex flex-wrap items-center gap-3">
-          <span className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
+          <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
           <SeloEvidencia status={p.status} />
         </div>
         <h1 className="mt-3 font-display text-4xl leading-[1.05] sm:text-5xl">{p.name}</h1>
         <p className="mt-2 font-sans text-base font-medium text-ink/70 dark:text-cream/70">{p.role}</p>
-        {p.born && <p className="mt-1 font-sans text-sm text-ink/55 dark:text-cream/55">Nascimento: {p.born}</p>}
+        {p.born && <p className="mt-1 font-sans text-sm text-ink/65 dark:text-cream/75">Nascimento: {p.born}</p>}
       </header>
 
       {p.image && (
         <figure className="mt-7 overflow-hidden rounded-sm border border-gold/20 bg-ink/5 dark:bg-cream/5">
           <img src={p.image} alt={p.imageAlt || p.name} className="mx-auto block max-h-[70vh] w-full object-contain" loading="lazy" decoding="async" />
-          {p.imageAlt && <figcaption className="border-t border-gold/10 px-4 py-2.5 font-sans text-xs leading-snug text-ink/55 dark:text-cream/55">{p.imageAlt}</figcaption>}
+          {p.imageAlt && <figcaption className="border-t border-gold/10 px-4 py-2.5 font-sans text-xs leading-snug text-ink/65 dark:text-cream/75">{p.imageAlt}</figcaption>}
         </figure>
       )}
 

@@ -81,7 +81,7 @@ export default function Comentarios({
       <div className="mt-8 space-y-4">
         {msgs === null && <p className="font-sans text-sm text-ink/50 dark:text-cream/50">Carregando…</p>}
         {msgs !== null && msgs.length === 0 && (
-          <p className="font-sans text-sm italic text-ink/55 dark:text-cream/55">{vazio || 'Seja o primeiro a deixar uma memória.'}</p>
+          <p className="font-sans text-sm italic text-ink/65 dark:text-cream/75">{vazio || 'Seja o primeiro a deixar uma memória.'}</p>
         )}
         {msgs?.map((m) => (
           <article key={m.id} className="rounded-sm border border-ink/10 bg-ink/[0.02] px-4 py-3 dark:border-cream/10 dark:bg-cream/[0.03]">

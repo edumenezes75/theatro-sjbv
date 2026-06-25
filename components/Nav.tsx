@@ -68,7 +68,7 @@ export default function Nav() {
           <Mark className={`transition-colors group-hover:text-gold ${solid ? 'text-curtain dark:text-gold' : 'text-cream'}`} size={30} />
           <span className="flex flex-col">
             <span className={`font-display text-lg font-medium tracking-tight ${solid ? '' : '[text-shadow:0_1px_2px_rgba(0,0,0,0.45)]'}`}>Theatro Municipal</span>
-            <span className={`font-sans text-[0.64rem] uppercase tracking-eyebrow ${solid ? 'text-ink/70 dark:text-cream/70' : 'text-cream/85 [text-shadow:0_1px_2px_rgba(0,0,0,0.45)]'}`}>São João da Boa Vista</span>
+            <span className={`font-sans text-[0.7rem] uppercase tracking-eyebrow ${solid ? 'text-ink/70 dark:text-cream/70' : 'text-cream/85 [text-shadow:0_1px_2px_rgba(0,0,0,0.45)]'}`}>São João da Boa Vista</span>
           </span>
         </Link>
 
@@ -82,7 +82,7 @@ export default function Nav() {
               <div className="absolute right-0 top-full mt-3 w-64 rounded-sm border border-gold/25 bg-cream p-2 shadow-xl dark:bg-nightsoft">
                 {MORE_GROUPS.map((g, gi) => (
                   <div key={g.title ?? 'ref'} className={gi > 0 ? 'mt-1 border-t border-gold/15 pt-1' : ''}>
-                    {g.title && <p className="px-3 pb-1 pt-2 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{g.title}</p>}
+                    {g.title && <p className="px-3 pb-1 pt-2 font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{g.title}</p>}
                     {g.items.map((l) => (
                       <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className="block rounded-sm px-3 py-2 font-sans text-sm text-ink/80 hover:bg-gold/10 dark:text-cream/80">{l.label}</Link>
                     ))}
@@ -104,13 +104,13 @@ export default function Nav() {
 
       {open && (
         <nav className="relative max-h-[80vh] overflow-y-auto border-t border-gold/20 bg-cream px-5 pb-8 pt-2 dark:bg-night lg:hidden" aria-label="Navegação móvel">
-          <p className="pb-1 pt-4 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Navegação</p>
+          <p className="pb-1 pt-4 font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Navegação</p>
           {PRIMARY.map((l) => (
             <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className="block border-b border-ink/5 py-3 font-sans text-base text-ink/80 dark:border-cream/10 dark:text-cream/80">{l.label}</Link>
           ))}
           {MORE_GROUPS.map((g) => (
             <div key={g.title ?? 'mais'}>
-              <p className="pb-1 pt-5 font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{g.title ?? 'Mais'}</p>
+              <p className="pb-1 pt-5 font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{g.title ?? 'Mais'}</p>
               {g.items.map((l) => (
                 <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className="block border-b border-ink/5 py-3 font-sans text-base text-ink/80 dark:border-cream/10 dark:text-cream/80">{l.label}</Link>
               ))}

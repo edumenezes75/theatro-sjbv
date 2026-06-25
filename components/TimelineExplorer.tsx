@@ -24,22 +24,22 @@ export default function TimelineExplorer({ eventos }: { eventos: Evento[] }) {
         />
         <div className="mt-3 flex flex-wrap gap-2">
           {eras.map((er) => (
-            <button key={er} onClick={() => setEra(er)} className={`rounded-full border px-3 py-1 font-sans text-xs capitalize transition-colors ${era === er ? 'border-curtain bg-curtain text-cream dark:border-gold dark:bg-gold dark:text-ink' : 'border-ink/15 text-ink/65 hover:border-curtain dark:border-cream/15 dark:text-cream/65'}`}>
+            <button key={er} onClick={() => setEra(er)} className={`rounded-full border px-3 py-1 font-sans text-xs capitalize transition-colors ${era === er ? 'border-curtain bg-curtain text-cream dark:border-gold dark:bg-gold dark:text-ink' : 'border-ink/15 text-ink/75 hover:border-curtain dark:border-cream/15 dark:text-cream/75'}`}>
               {er}
             </button>
           ))}
         </div>
         <div className="mt-2 flex flex-wrap items-center gap-2">
-          <span className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-ink/45 dark:text-cream/45">Temas</span>
+          <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-ink/45 dark:text-cream/45">Temas</span>
           {TEMAS.map((t) => (
-            <button key={t} onClick={() => setQ((cur) => (cur.toLowerCase() === t.toLowerCase() ? '' : t))} className={`rounded-full border px-3 py-1 font-sans text-xs transition-colors ${q.toLowerCase() === t.toLowerCase() ? 'border-gold bg-gold/15 text-curtain dark:text-gold' : 'border-ink/12 text-ink/55 hover:border-curtain hover:text-curtain dark:border-cream/12 dark:text-cream/55 dark:hover:text-gold'}`}>
+            <button key={t} onClick={() => setQ((cur) => (cur.toLowerCase() === t.toLowerCase() ? '' : t))} className={`rounded-full border px-3 py-1 font-sans text-xs transition-colors ${q.toLowerCase() === t.toLowerCase() ? 'border-gold bg-gold/15 text-curtain dark:text-gold' : 'border-ink/12 text-ink/65 hover:border-curtain hover:text-curtain dark:border-cream/12 dark:text-cream/75 dark:hover:text-gold'}`}>
               {t}
             </button>
           ))}
         </div>
       </div>
 
-      <p className="mt-6 font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">{filtered.length} registros</p>
+      <p className="mt-6 font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{filtered.length} registros</p>
 
       <ol className="relative mt-6 border-l-2 border-gold/30 pl-6 sm:pl-10">
         {filtered.map((e) => (

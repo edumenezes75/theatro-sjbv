@@ -102,7 +102,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           <div className="lg:grid lg:grid-cols-[11rem_minmax(0,1fr)] lg:gap-12 xl:gap-16">
             <aside className="hidden lg:block"><ChapterIndex /></aside>
             <div className="min-w-0">
-              <p className="read-meta mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">{readMin} min de leitura</p>
+              <p className="read-meta mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>
               <Reveal>
                 <div className="prose-theatro" dangerouslySetInnerHTML={{ __html: page.html }} />
               </Reveal>
@@ -110,7 +110,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           </div>
         ) : (
           <>
-            <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/65">{readMin} min de leitura</p>
+            <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>
             <Reveal>
               <div className="prose-theatro mx-auto" dangerouslySetInnerHTML={{ __html: page.html }} />
             </Reveal>
@@ -179,7 +179,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         {nextHref && (
           <a href={nextHref} className="card-lift group mt-16 flex items-center justify-between gap-4 rounded-sm border border-gold/30 bg-cream px-6 py-5 transition-colors hover:border-gold dark:bg-nightsoft">
             <span>
-              <span className="font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Próxima página</span>
+              <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Próxima página</span>
               <span className="mt-1 block font-display text-xl text-ink dark:text-cream">{LABELS[nextHref] ?? nextHref}</span>
             </span>
             <span className="font-display text-2xl text-curtain transition-transform group-hover:translate-x-1 dark:text-gold">→</span>

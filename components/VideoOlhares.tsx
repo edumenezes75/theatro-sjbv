@@ -46,7 +46,7 @@ export default function VideoOlhares() {
       <div className="mt-6 grid max-w-2xl gap-x-10 gap-y-3 sm:grid-cols-2">
         {CREDITOS.map(([role, name]) => (
           <div key={role}>
-            <p className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-curtain/80 dark:text-gold/80">{role}</p>
+            <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain/80 dark:text-gold/80">{role}</p>
             <p className="font-sans text-sm text-ink/85 dark:text-cream/85">{name}</p>
           </div>
         ))}
