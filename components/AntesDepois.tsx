@@ -80,8 +80,8 @@ function Galeria({ par }: { par: Par }) {
   const imgs = par.imagens ?? [];
   const [open, setOpen] = useState<Img | null>(null);
   return (
-    <figure>
-      <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
+    <figure className="lg:grid lg:grid-cols-5 lg:items-center lg:gap-8">
+      <div className="grid grid-cols-2 gap-3 lg:col-span-3">
         {imgs.map((im, i) => (
           <button
             key={i}
@@ -97,9 +97,9 @@ function Galeria({ par }: { par: Par }) {
           </button>
         ))}
       </div>
-      <figcaption className="mt-3 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">
-        <span className="font-display text-base font-medium text-ink dark:text-cream">{par.title}.</span> {par.caption}
-        <span className="mt-0.5 block text-xs italic text-ink/75 dark:text-cream/75">{par.credit}</span>
+      <figcaption className="mt-3 max-w-reading font-sans text-sm text-ink/70 lg:col-span-2 lg:mt-0 dark:text-cream/70">
+        <span className="font-display text-lg font-medium text-ink dark:text-cream">{par.title}.</span> {par.caption}
+        <span className="mt-1 block text-xs italic text-ink/75 dark:text-cream/75">{par.credit}</span>
       </figcaption>
       {open && <Lightbox src={open.full ?? open.src} alt={open.alt ?? `${par.title} — ${open.label}`} onClose={() => setOpen(null)} />}
     </figure>
