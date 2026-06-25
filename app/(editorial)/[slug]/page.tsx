@@ -5,6 +5,7 @@ import { fotosList, antesDepoisList, curiosidadesList } from '@/lib/data';
 import ChapterHero from '@/components/ChapterHero';
 import MapaVisita from '@/components/MapaVisita';
 import FontesDaPagina from '@/components/FontesDaPagina';
+import ReconheceuAlguem from '@/components/ReconheceuAlguem';
 import GaleriaReal from '@/components/GaleriaReal';
 import AntesDepois from '@/components/AntesDepois';
 import Curiosidades from '@/components/Curiosidades';
@@ -40,7 +41,21 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const page = getPageBySlug('/' + params.slug);
   if (!page) return {};
-  return { title: page.meta.title, description: page.meta.seo_description, alternates: { canonical: '/' + params.slug } };
+  const SITE = 'https://www.theatromunicipalsjbv.com.br';
+  const heroImg = page.meta.hero_image
+    ? (page.meta.hero_image.startsWith('http') ? page.meta.hero_image : SITE + page.meta.hero_image)
+    : `${SITE}/og-theatro-card.jpg`;
+  return {
+    title: page.meta.title,
+    description: page.meta.seo_description,
+    alternates: { canonical: '/' + params.slug },
+    openGraph: {
+      title: page.meta.title,
+      description: page.meta.seo_description || undefined,
+      type: 'article',
+      images: [{ url: heroImg, alt: page.meta.hero_alt || page.meta.title }],
+    },
+  };
 }
 
 const GALLERIES: Record<string, { title: string; cats: string[] }> = {
@@ -198,6 +213,8 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
             </div>
           </section>
         )}
+
+        {(params.slug === 'historia' || params.slug === 'memorias') && <ReconheceuAlguem />}
 
         <FontesDaPagina fontes={page.fontes} />
       </div>

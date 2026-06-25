@@ -4,12 +4,14 @@ import { getPageBySlug } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
 import GaleriaReal from '@/components/GaleriaReal';
+import ReconheceuAlguem from '@/components/ReconheceuAlguem';
 import LazyMount from '@/components/LazyMount';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/acervo' },
   title: 'Acervo',
   description: 'Fotografias do Theatro Municipal de São João da Boa Vista — fachada, sala em ferradura, ornamentos, restauro e imagens históricas, com procedência.',
+  openGraph: { title: 'Acervo — Theatro Municipal de São João da Boa Vista', description: 'Fachada, sala em ferradura, ornamentos, restauro e imagens históricas, com procedência.', type: 'website', images: ['https://www.theatromunicipalsjbv.com.br/fotos/hr-fachada-02.jpg'] },
 };
 
 export default function AcervoPage() {
@@ -116,6 +118,8 @@ export default function AcervoPage() {
           </p>
           <LazyMount><GaleriaReal fotos={cult} showEpoca /></LazyMount>
         </section>
+
+        <ReconheceuAlguem />
 
         <FontesDaPagina fontes={page?.fontes ?? null} />
       </div>

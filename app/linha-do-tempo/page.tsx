@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/linha-do-tempo' },
   title: 'Linha do tempo',
   description: 'Mais de um século da história do Theatro Municipal de São João da Boa Vista, da ideia de 1911 ao patrimônio vivo de hoje.',
+  openGraph: { title: 'Linha do tempo — Theatro Municipal SJBV', description: 'Mais de um século da história do Theatro Municipal de São João da Boa Vista.', type: 'website', images: ['https://www.theatromunicipalsjbv.com.br/fotos/hr-fachada-02.jpg'] },
 };
 
 export default function LinhaDoTempoPage() {

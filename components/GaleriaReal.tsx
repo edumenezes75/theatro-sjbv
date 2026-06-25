@@ -1,6 +1,7 @@
 'use client';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import Image from 'next/image';
+import { BLUR } from '@/lib/blur';
 import Link from 'next/link';
 import type { Foto } from '@/lib/data';
 import { IconClose, IconChevron } from './Icons';
@@ -40,8 +41,9 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
 
   const [idx, setIdx] = useState<number | null>(null);
   const [playing, setPlaying] = useState(false);
+  const [zoom, setZoom] = useState(false);
 
-  const close = useCallback(() => { setIdx(null); setPlaying(false); }, []);
+  const close = useCallback(() => { setIdx(null); setPlaying(false); setZoom(false); }, []);
   const prev = useCallback(() => setIdx((i) => (i === null ? i : (i - 1 + list.length) % list.length)), [list.length]);
   const next = useCallback(() => setIdx((i) => (i === null ? i : (i + 1) % list.length)), [list.length]);
 
@@ -102,6 +104,7 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
           <button key={f.id} onClick={() => setIdx(i)} className="group relative block w-full overflow-hidden rounded-sm bg-ink/10 dark:bg-cream/5">
             <Image
               src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h}
+              placeholder="blur" blurDataURL={BLUR}
               className="gimg-fade h-auto w-full object-cover transition-transform duration-[1.1s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.05]"
               sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
             />
@@ -118,18 +121,28 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
           <div className="flex items-center justify-between px-5 py-4 text-cream/70">
             <span className="read-meta font-sans text-xs uppercase tracking-eyebrow">{(idx ?? 0) + 1} / {list.length}</span>
             <div className="flex items-center gap-4">
+              <button onClick={() => setZoom((z) => !z)} aria-label={zoom ? 'Reduzir' : 'Ampliar'} aria-pressed={zoom} className="text-cream/70 hover:text-gold">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
+              </button>
               <button onClick={close} aria-label="Fechar" className="text-cream/70 hover:text-gold"><IconClose size={24} /></button>
             </div>
           </div>
-          <div className="relative flex flex-1 items-center justify-center px-4 pb-2 sm:px-16" onClick={close} onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
-            <button onClick={(e) => { e.stopPropagation(); setPlaying(false); prev(); }} aria-label="Anterior" className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-night/50 p-3 text-cream/85 transition-colors hover:bg-night/70 hover:text-gold sm:left-4"><IconChevron size={30} className="rotate-180" /></button>
+          <div className={`relative flex flex-1 px-4 pb-2 sm:px-16 ${zoom ? "items-start justify-center overflow-auto" : "items-center justify-center"}`} onClick={close} onTouchStart={zoom ? undefined : onTouchStart} onTouchEnd={zoom ? undefined : onTouchEnd}>
+            <button onClick={(e) => { e.stopPropagation(); setPlaying(false); setZoom(false); prev(); }} aria-label="Anterior" className="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-night/50 p-3 text-cream/85 transition-colors hover:bg-night/70 hover:text-gold sm:left-4"><IconChevron size={30} className="rotate-180" /></button>
             <figure key={open.id} className="max-h-full animate-[lbfade_.5s_ease]" onClick={(e) => e.stopPropagation()}>
-              <Image src={`/${open.file}`} alt={open.alt} width={open.w} height={open.h} className="max-h-[78vh] w-auto rounded-sm object-contain" priority />
+              <Image
+                src={`/${open.file}`} alt={open.alt} width={open.w} height={open.h}
+                placeholder="blur" blurDataURL={BLUR} priority
+                onClick={() => setZoom((z) => !z)}
+                className={zoom ? 'h-auto w-auto max-w-none cursor-zoom-out rounded-sm' : 'max-h-[78vh] w-auto cursor-zoom-in rounded-sm object-contain'}
+                style={zoom ? { maxHeight: 'none', width: `min(${open.w}px, 230vw)` } : undefined}
+              />
             </figure>
-            <button onClick={(e) => { e.stopPropagation(); setPlaying(false); next(); }} aria-label="Próxima" className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-night/50 p-3 text-cream/85 transition-colors hover:bg-night/70 hover:text-gold sm:right-4"><IconChevron size={30} /></button>
+            <button onClick={(e) => { e.stopPropagation(); setPlaying(false); setZoom(false); next(); }} aria-label="Próxima" className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-night/50 p-3 text-cream/85 transition-colors hover:bg-night/70 hover:text-gold sm:right-4"><IconChevron size={30} /></button>
           </div>
           <figcaption className="border-t border-cream/10 bg-night px-6 pb-6 pt-3.5 text-center font-sans text-[0.8rem] leading-relaxed text-cream/90">
             <span className="mx-auto block max-w-2xl"><span className="font-semibold text-gold">{open.categoryLabel}.</span> {open.alt}</span>
+            <span className="mt-1.5 block font-sans text-[0.66rem] uppercase tracking-eyebrow text-cream/45">Toque na imagem para ampliar</span>
           </figcaption>
         </div>
       )}

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/documentario' },
   title: 'Documentário Música & Drama',
   description: 'Assista ao documentário Música & Drama e explore personagens, imagens e episódios da história do Theatro Municipal de São João da Boa Vista.',
+  openGraph: { title: 'Documentário Música & Drama — Theatro Municipal SJBV', description: 'Assista ao documentário Música & Drama sobre o Theatro Municipal de São João da Boa Vista.', type: 'website', images: ['https://www.theatromunicipalsjbv.com.br/fotos/hr-fachada-02.jpg'] },
 };
 
 const CAPS = [

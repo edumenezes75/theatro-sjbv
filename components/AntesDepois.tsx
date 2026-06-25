@@ -2,6 +2,7 @@
 import { useRef, useState, useEffect } from 'react';
 import Image from 'next/image';
 import { IconArrowsLR } from './Icons';
+import { BLUR } from '@/lib/blur';
 
 type Img = { src: string; full?: string; label: string; alt?: string };
 type Par = { id: string; title: string; caption: string; antes: string; depois: string; w: number; h: number; credit: string; mode?: string; labelAntes?: string; labelDepois?: string; imagens?: Img[] };
@@ -88,7 +89,7 @@ function Galeria({ par }: { par: Par }) {
             aria-label={`Ampliar: ${im.label}`}
             className="group relative aspect-[4/3] w-full overflow-hidden rounded-sm bg-ink"
           >
-            <Image src={`/${im.src}`} alt={im.alt ?? `${par.title} — ${im.label}`} fill className="object-cover transition-transform duration-700 ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-105" sizes="(max-width:1024px) 50vw, 320px" />
+            <Image src={`/${im.src}`} alt={im.alt ?? `${par.title} — ${im.label}`} placeholder="blur" blurDataURL={BLUR} fill className="object-cover transition-transform duration-700 ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-105" sizes="(max-width:1024px) 50vw, 320px" />
             <span className="pointer-events-none absolute left-2.5 top-2.5 rounded-full bg-ink/70 px-2.5 py-1 font-sans text-[0.62rem] uppercase tracking-eyebrow text-gold">{im.label}</span>
             <span className="pointer-events-none absolute bottom-2.5 right-2.5 flex h-7 w-7 items-center justify-center rounded-full bg-ink/55 text-cream opacity-0 transition-opacity duration-300 group-hover:opacity-100">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /><line x1="11" y1="8" x2="11" y2="14" /><line x1="8" y1="11" x2="14" y2="11" /></svg>
