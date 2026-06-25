@@ -138,10 +138,6 @@ Sobre a boca de cena, o retrato de Carlos Gomes — obra original do pintor ital
 Esse episódio resume o trabalho de restauração: não inventar um passado, mas procurar evidências, interpretar marcas e devolver leitura ao que sobreviveu.
 
 
-![O medalhão de Carlos Gomes restaurado, no proscênio.](/fotos/hr-ornamentos-28.jpg)
-
-*O medalhão de Carlos Gomes restaurado, no proscênio.*
-
 ## A arquitetura continua mudando
 
 Edifícios de espetáculo exigem manutenção constante. Instalações elétricas, prevenção contra incêndio, acessibilidade, som, luz, climatização e segurança evoluem. Cada atualização precisa respeitar o valor histórico sem impedir o uso.

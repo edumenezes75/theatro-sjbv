@@ -59,6 +59,11 @@ A curva em ferradura distribui o público em diferentes níveis e oferece visõe
 
 A sala também revelava as hierarquias sociais de sua época. Os preços e os setores distinguiam frisas, camarotes, cadeiras e “gerais”. Ao longo dos anos, esses lugares mudaram. Em 1967, frisas e camarotes foram retirados para ampliar o número de assentos do cinema; décadas depois, o restauro procurou reconstruir a leitura espacial original.
 
+
+![A curva das galerias em ferradura, com as frisas e o gradil de ferro.](/fotos/hr7-galerias.jpg)
+
+*A curva em ferradura distribui o público em diferentes níveis e aproxima palco e plateia.*
+
 ## Um espaço que nunca foi apenas um palco
 
 Durante mais de cem anos, o Theatro recebeu:
@@ -72,6 +77,11 @@ Durante mais de cem anos, o Theatro recebeu:
 - rádio, biblioteca, sociedades culturais e aulas de música.
 
 Esse caráter múltiplo ajuda a explicar a força de suas lembranças. Muitas pessoas não conheceram o Theatro da mesma forma — e todas essas experiências fazem parte de sua história.
+
+
+![A sala lotada vista do palco, durante um concerto.](/fotos/hr7-sala-concerto.jpg)
+
+*A sala cheia num concerto: depois de mais de cem anos, o Theatro segue sendo, antes de tudo, um lugar de encontro.*
 
 ## A acústica: reputação e experiência
 
@@ -92,6 +102,11 @@ Por isso, a preservação não termina na pedra: completa-se quando o edifício 
 ## O Theatro hoje
 
 O edifício permanece ativo e integrado à programação cultural de São João da Boa Vista. Em 2024, recebeu nova etapa de revitalização, com intervenções anunciadas no palco, foyer e pintura externa. Em 2025 e 2026, continuou a sediar música, teatro, dança e eventos públicos.
+
+
+![A fachada iluminada à noite, em noite de evento.](/fotos/hr7-fachada-noite.jpg)
+
+*A fachada iluminada em noite de evento — o Theatro restaurado e em pleno uso.*
 
 Para horários, contato, ingressos e visita guiada, consulte as páginas **Visite** e **Programação** — ali essas informações ficam sempre atualizadas, separadas da narrativa histórica.
 

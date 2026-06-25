@@ -108,6 +108,11 @@ Em 1930, o conjunto de Heitor Villa-Lobos passou pela cidade, e Souza Lima apres
 
 Em 1937, o prédio, já deteriorado, foi fechado temporariamente. Joaquim José de Oliveira Neto adquiriu a maioria das ações da Companhia. Poltronas e equipamentos de projeção foram renovados, e o cinema passou a dominar o cotidiano do edifício.
 
+
+![A entrada do antigo Bar Theatro, sob os toldos “Teatro”, na Praça da Catedral.](/fotos/hr7-bar-theatro.jpg)
+
+*A entrada do antigo Bar Theatro, sob os toldos “Teatro” — o edifício no tempo do cinema e da decadência, ainda ponto de encontro na Praça da Catedral.*
+
 Havia matinês, vesperais e sessões noturnas. Seriados como *Flash Gordon*, filmes de aventura, épicos, melodramas e chanchadas nacionais atraíam diferentes públicos. O Theatro tornou-se parte do ritual de domingo: passeio pela praça, compra de ingresso, encontro com amigos, doces, pipoca e o escurecer da sala.
 
 ### O palco não desapareceu
