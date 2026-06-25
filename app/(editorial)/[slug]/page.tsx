@@ -148,6 +148,23 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
               Retrospectiva do centenário do Theatro (2014), produzida pela TV UNIFAE.
             </p>
             <div className="mt-6"><LiteYouTube id="4HDvmltqv3I" title="100 Anos do Theatro Municipal — TV UNIFAE" /></div>
+            <dl className="mt-8 grid max-w-reading grid-cols-1 gap-x-10 gap-y-3 font-sans text-sm sm:grid-cols-2">
+              {[
+                ['Roteiro e direção', 'Paschoal Neto'],
+                ['Imagens', 'Rafael Brunelli e Ana Paula Malheiros'],
+                ['Edição', 'Vinicius D. Idesti e Ana Paula Malheiros'],
+                ['Videografia', 'Thiago Luz e Marcelo Gonçalves'],
+                ['Locução', 'Antonio Magalhães'],
+                ['Trilha original', 'Zezinho Só'],
+                ['Apoio de produção', 'Matheus Salvi e Fábio Vilela'],
+                ['Realização', 'TV UNIFAE'],
+              ].map(([papel, nome]) => (
+                <div key={papel}>
+                  <dt className="text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">{papel}</dt>
+                  <dd className="mt-0.5 text-ink/80 dark:text-cream/80">{nome}</dd>
+                </div>
+              ))}
+            </dl>
           </section>
         )}
         {params.slug === 'visite' && <MapaVisita />}
