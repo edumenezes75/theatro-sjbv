@@ -9,7 +9,8 @@
   "alt": "O Theatro e o posto Shell vizinho, na década de 1950 — a casa de espetáculos já parte do cotidiano do centro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.424859
  },
  {
   "id": "h048",
@@ -21,7 +22,8 @@
   "alt": "A fachada em vista frontal — a simetria e o frontão anunciam a função do edifício antes mesmo de se entrar.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.409485
  },
  {
   "id": "h049",
@@ -33,7 +35,8 @@
   "alt": "Registro antigo da fachada, ainda com a pintura original — uma das muitas camadas de tempo do edifício.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 1
+  "rank": 1,
+  "tone": 0.409573
  },
  {
   "id": "h055",
@@ -46,7 +49,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2,
-  "cor": true
+  "cor": true,
+  "tone": 0.272317
  },
  {
   "id": "h024",
@@ -58,7 +62,8 @@
   "alt": "A fachada eclética voltada para a Praça da Catedral, com eixo central destacado e inscrições ligadas à música e ao drama.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.107978
  },
  {
   "id": "h027",
@@ -70,7 +75,8 @@
   "alt": "A lateral do edifício e suas passagens — o projeto de 1913 previa o Theatro isolado na quadra, por duas passagens de 4,15 m.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.400212
  },
  {
   "id": "h051",
@@ -82,7 +88,8 @@
   "alt": "A fachada do Theatro em registro amplo, diante da praça do centro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.409414
  },
  {
   "id": "h052",
@@ -94,7 +101,8 @@
   "alt": "O Theatro e a praça — a escala do edifício na paisagem urbana de São João da Boa Vista.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.41823
  },
  {
   "id": "h054",
@@ -106,7 +114,8 @@
   "alt": "Vista parcial de São João da Boa Vista, a cidade que ergueu o Theatro por subscrição popular.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.433656
  },
  {
   "id": "h056",
@@ -118,7 +127,8 @@
   "alt": "A fachada iluminada ao entardecer — o frontão e as arcadas sob a luz do fim de tarde.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.054922
  },
  {
   "id": "h001",
@@ -130,7 +140,8 @@
   "alt": "O interior em ferradura em registro histórico — um baile ocupando a plateia, sob as galerias e os camarotes.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 1
+  "rank": 1,
+  "tone": 0.443868
  },
  {
   "id": "h036",
@@ -142,7 +153,8 @@
   "alt": "A plateia tomada pelo público, em registro histórico — a curva das galerias cheia.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 1
+  "rank": 1,
+  "tone": 0.435873
  },
  {
   "id": "h040",
@@ -155,7 +167,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 3,
-  "cor": true
+  "cor": true,
+  "tone": 2.14027
  },
  {
   "id": "h047",
@@ -167,7 +180,8 @@
   "alt": "A plateia vista do palco, em registro histórico — a sala original, com a curva das galerias e os setores de outrora.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 1
+  "rank": 1,
+  "tone": 0.454242
  },
  {
   "id": "h050",
@@ -179,7 +193,8 @@
   "alt": "A fachada na época do Cine Theatro, com cartazes de cinema no térreo — registro histórico do edifício antes do restauro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 1
+  "rank": 1,
+  "tone": 0.417774
  },
  {
   "id": "h061",
@@ -191,7 +206,8 @@
   "alt": "A antiga biblioteca instalada no edifício — mesas de leitura, livros abertos e o lambri verde, em registro anterior ao restauro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.160861
  },
  {
   "id": "h065",
@@ -203,7 +219,8 @@
   "alt": "A sala em ferradura, com os camarotes e as poltronas vermelhas depois do restauro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.076951
  },
  {
   "id": "h016",
@@ -215,7 +232,8 @@
   "alt": "O medalhão de Carlos Gomes, sobre a boca de cena — figura revelada durante o restauro, sob camadas de tinta.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.333745
  },
  {
   "id": "h028",
@@ -227,7 +245,8 @@
   "alt": "O medalhão de Carlos Gomes restaurado, sem os ornamentos repintados.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.099769
  },
  {
   "id": "h063",
@@ -239,7 +258,8 @@
   "alt": "Detalhe da águia no alto do prédio no período pré restauro",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.410153
  },
  {
   "id": "h064",
@@ -251,7 +271,8 @@
   "alt": "Ornamento da sala — frisos e modenaturas antes de serem recuperados no restauro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.430342
  },
  {
   "id": "h057",
@@ -263,7 +284,8 @@
   "alt": "Ornamento acima de uma das portas.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.419032
  },
  {
   "id": "h058",
@@ -275,7 +297,8 @@
   "alt": "A inscrição “Municipal” no programa decorativo eclético do edifício.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.426221
  },
  {
   "id": "h059",
@@ -287,7 +310,8 @@
   "alt": "Detalhe da rachadura acima da porta",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.406118
  },
  {
   "id": "h060",
@@ -299,7 +323,8 @@
   "alt": "Detalhe dos ornamentos da fachada",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.433872
  },
  {
   "id": "h010",
@@ -311,7 +336,8 @@
   "alt": "A porta do antigo Bar Theatro, já em avançada decadência.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.138313
  },
  {
   "id": "h011",
@@ -323,7 +349,8 @@
   "alt": "A fachada do Theatro com o antigo Bar Theatro no térreo — ponto de encontro ligado às sessões de cinema.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.434145
  },
  {
   "id": "h044",
@@ -335,7 +362,8 @@
   "alt": "A Sociedade Cultural de Debates, no segundo andar — vida intelectual da cidade.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.440552
  },
  {
   "id": "h008",
@@ -347,7 +375,8 @@
   "alt": "Badi Assad e Jorge Assad com mais 2 músicos, em cena — a música voltava ao Theatro aos poucos.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.079777
  },
  {
   "id": "h012",
@@ -360,7 +389,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2,
-  "cor": true
+  "cor": true,
+  "tone": 2.002823
  },
  {
   "id": "h013",
@@ -372,7 +402,8 @@
   "alt": "A bilheteria — porta de entrada para as noites de espetáculo e cinema, jea bem decadente.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.08967
  },
  {
   "id": "h014",
@@ -384,7 +415,8 @@
   "alt": "Branca de Neve, 2009 — o teatro infantil no palco restaurado.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.427565
  },
  {
   "id": "h025",
@@ -396,7 +428,8 @@
   "alt": "O foyer — área de recepção e convivência antes da entrada na sala.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.95826
  },
  {
   "id": "h034",
@@ -408,7 +441,8 @@
   "alt": "Cena de espetáculo com Lucila — a 'prata da casa' no palco.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.436598
  },
  {
   "id": "h035",
@@ -420,7 +454,8 @@
   "alt": "Atores em cena no palco, em fotografia antiga.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.457324
  },
  {
   "id": "h043",
@@ -432,7 +467,8 @@
   "alt": "Concerto da Semana Guiomar Novaes, tradição que reabriu o Theatro restaurado em 2002.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.120051
  },
  {
   "id": "h075",
@@ -444,7 +480,8 @@
   "alt": "Jazz Sinfônica no palco — o repertório contemporâneo na casa centenária.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.284171
  },
  {
   "id": "h076",
@@ -456,7 +493,8 @@
   "alt": "O espetáculo infantil Tistu, no palco do Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.05466
  },
  {
   "id": "h077",
@@ -468,7 +506,8 @@
   "alt": "Monte Castelo / Legião Urbana — tributo no palco.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.786814
  },
  {
   "id": "h078",
@@ -480,7 +519,8 @@
   "alt": "A Camerata Fukuda na Semana Assad, 2012.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.06679
  },
  {
   "id": "h079",
@@ -492,7 +532,8 @@
   "alt": "Os Barbatuques na Semana Assad, 2012 — a percussão corporal no palco.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.435
  },
  {
   "id": "h003",
@@ -504,7 +545,8 @@
   "alt": "Acionistas da Companhia Teatral Sanjoanense — a rede de mais de cem cidadãos que financiou a construção, a partir de 1912.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.450075
  },
  {
   "id": "h019",
@@ -516,7 +558,8 @@
   "alt": "Vista antiga da praça e do entorno do Theatro, no centro da cidade.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.404838
  },
  {
   "id": "h021",
@@ -528,7 +571,8 @@
   "alt": "Dona Tita — uma das guardiãs da memória da casa.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.408018
  },
  {
   "id": "h026",
@@ -540,7 +584,8 @@
   "alt": "Guiomar Novaes, pianista nascida em São João e uma das maiores do século XX; a Semana e o Conservatório levam seu nome.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 1
+  "rank": 1,
+  "tone": 0.45156
  },
  {
   "id": "h030",
@@ -552,7 +597,8 @@
   "alt": "A professora Miriam Pipano (à esquerda) e alunos — décadas de formação musical ligadas ao Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.444995
  },
  {
   "id": "h031",
@@ -564,7 +610,8 @@
   "alt": "O governador Franco Montoro em visita ao Theatro, durante o processo de preservação.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.447457
  },
  {
   "id": "h032",
@@ -576,7 +623,8 @@
   "alt": "Nascipe Atalla Murr, violinista, professor e regente — presença constante nos festivais da cidade.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.433023
  },
  {
   "id": "h053",
@@ -588,7 +636,8 @@
   "alt": "Reunião ligada à Sociedade de Cultura Artística, no 2º andar do Theatro — ambiente dos recitais que receberam nomes como o de Villa-Lobos.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.454004
  },
  {
   "id": "h072",
@@ -600,7 +649,8 @@
   "alt": "Gastão Michelazzo, não identificado, Sydnei Beraldo e Oliveira Neto no ato da compra do Theatro pela Prefeitura.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.306239
  },
  {
   "id": "h029",
@@ -612,7 +662,8 @@
   "alt": "A equipe técnica do restauro, conduzida pelo engenheiro e restaurador João Batista Merlin — mentor da recuperação do edifício.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.441416
  },
  {
   "id": "h006",
@@ -625,7 +676,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2,
-  "cor": true
+  "cor": true,
+  "tone": 2.114909
  },
  {
   "id": "h007",
@@ -638,7 +690,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2,
-  "cor": true
+  "cor": true,
+  "tone": 0.204056
  },
  {
   "id": "h009",
@@ -650,7 +703,8 @@
   "alt": "O abaixo-assinado — parte da pressão popular que impediu a demolição e levou à compra do edifício.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.321093
  },
  {
   "id": "h015",
@@ -662,7 +716,8 @@
   "alt": "Os estatutos da Companhia Teatral Sanjoanense, de 1912 — o documento que organizou a construção.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.337212
  },
  {
   "id": "h037",
@@ -675,7 +730,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2,
-  "cor": true
+  "cor": true,
+  "tone": 2.106655
  },
  {
   "id": "h039",
@@ -688,7 +744,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2,
-  "cor": true
+  "cor": true,
+  "tone": 2.111852
  },
  {
   "id": "h045",
@@ -700,7 +757,8 @@
   "alt": "A sala esvaziada, antes do restauro — anos de abandono e risco de demolição.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.112899
  },
  {
   "id": "h046",
@@ -712,7 +770,8 @@
   "alt": "O Theatro deteriorado, no período de declínio que antecedeu a mobilização.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.108594
  },
  {
   "id": "h080",
@@ -725,7 +784,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2,
-  "cor": true
+  "cor": true,
+  "tone": 2.115848
  },
  {
   "id": "h081",
@@ -738,7 +798,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 1,
-  "cor": true
+  "cor": true,
+  "tone": 2.113634
  },
  {
   "id": "h082",
@@ -751,7 +812,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 1,
-  "cor": true
+  "cor": true,
+  "tone": 2.114062
  },
  {
   "id": "h018",
@@ -763,7 +825,8 @@
   "alt": "O corte das árvores na rua lateral, em 1986 — episódio da mobilização em torno do edifício.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.166859
  },
  {
   "id": "h020",
@@ -775,7 +838,8 @@
   "alt": "Decapagem — a remoção controlada das camadas de tinta que escondiam pinturas e ornamentos.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.076916
  },
  {
   "id": "h022",
@@ -787,7 +851,8 @@
   "alt": "A equipe de restauração, que conciliou preservação histórica e funcionamento contemporâneo.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.428333
  },
  {
   "id": "h023",
@@ -799,7 +864,8 @@
   "alt": "A escavação do fosso da orquestra, sob o palco, durante as obras.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.148595
  },
  {
   "id": "h033",
@@ -811,7 +877,8 @@
   "alt": "O palco logo após a retirada da tela de cinema, em 1984 — reaparecendo a caixa cênica original.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.096531
  },
  {
   "id": "h041",
@@ -823,7 +890,8 @@
   "alt": "Uma das etapas da reforma e restauração do edifício.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 0.427299
  },
  {
   "id": "h067",
@@ -835,7 +903,8 @@
   "alt": "Marcas de antigas companhias gravadas na lateral do palco — assinaturas de quem passou pela casa.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.095192
  },
  {
   "id": "h068",
@@ -847,7 +916,8 @@
   "alt": "A nova estrutura de sustentação do palco, instalada durante o restauro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.081385
  },
  {
   "id": "h069",
@@ -859,7 +929,8 @@
   "alt": "O edifício durante as obras de restauração, com andaimes na fachada.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.063112
  },
  {
   "id": "h083",
@@ -871,7 +942,8 @@
   "alt": "O artista César Roberto Olandim na recuperação da pintura do medalhão de Carlos Gomes, sobre a boca de cena, durante o restauro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.064398
  },
  {
   "id": "h084",
@@ -883,7 +955,8 @@
   "alt": "Decapagem — a remoção controlada das camadas de tinta que recobriam a pintura decorativa da sala.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.95355
  },
  {
   "id": "h085",
@@ -895,7 +968,8 @@
   "alt": "O restaurador Elias na recuperação da pintura ornamental da sala, durante as obras.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.038843
  },
  {
   "id": "h086",
@@ -907,7 +981,8 @@
   "alt": "A estrutura metálica instalada no restauro, conciliando segurança e preservação do edifício.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.066212
  },
  {
   "id": "h087",
@@ -919,7 +994,8 @@
   "alt": "A escavação do fosso da orquestra, sob o palco, com a boca de cena ao fundo, durante as obras.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.087315
  },
  {
   "id": "h088",
@@ -931,7 +1007,8 @@
   "alt": "O escoramento das paredes do fosso da orquestra, na reestruturação do palco.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.122109
  },
  {
   "id": "h089",
@@ -943,7 +1020,8 @@
   "alt": "O engenheiro, artista plástico e restaurador Maércio Mazzi na recuperação dos ornatos da sala, durante o restauro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.035437
  },
  {
   "id": "h090",
@@ -955,7 +1033,8 @@
   "alt": "Marcas e assinaturas de antigas companhias na lateral do palco, reveladas durante o restauro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.133797
  },
  {
   "id": "h091",
@@ -967,7 +1046,8 @@
   "alt": "A fachada em recuperação, com o revestimento externo e a estrutura de andaimes.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.162434
  },
  {
   "id": "h092",
@@ -979,7 +1059,8 @@
   "alt": "A inscrição “Municipal” na cornija da fachada — parte do programa decorativo eclético do edifício.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.251854
  },
  {
   "id": "h093",
@@ -991,7 +1072,8 @@
   "alt": "Relevo alegórico do programa decorativo da sala, no estilo eclético do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.172891
  },
  {
   "id": "h094",
@@ -1003,7 +1085,8 @@
   "alt": "Vista aérea do Theatro e do entorno, no centro de São João da Boa Vista.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.111714
  },
  {
   "id": "h095",
@@ -1015,7 +1098,8 @@
   "alt": "Recital ao piano com a pianista Vânia Noronha, aos seis anos, no palco do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 1
+  "rank": 1,
+  "tone": 0.500246
  },
  {
   "id": "h096",
@@ -1027,7 +1111,8 @@
   "alt": "A sala vista da plateia — a boca de cena, o forro decorado e a curva das galerias.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Pré-restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.994611
  },
  {
   "id": "h097",
@@ -1039,7 +1124,8 @@
   "alt": "Abertura da Semana Furlanetto, 1998 — a sala ocupada para a festa.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.085614
  },
  {
   "id": "h098",
@@ -1051,7 +1137,8 @@
   "alt": "O conjunto Nin e seus Rocketes ensaiavam no Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.500501
  },
  {
   "id": "h099",
@@ -1063,7 +1150,8 @@
   "alt": "Recital ao piano com Cláudio Richerme, no palco do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.593221
  },
  {
   "id": "h100",
@@ -1075,7 +1163,8 @@
   "alt": "A 26ª Semana Guiomar Novaes no palco do Theatro — a tradição de concertos que homenageia a pianista sanjoanense.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.115098
  },
  {
   "id": "h101",
@@ -1087,7 +1176,8 @@
   "alt": "Exposição no foyer do Theatro, maio de 1999.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.099858
  },
  {
   "id": "h102",
@@ -1099,7 +1189,8 @@
   "alt": "Mostra de arte no interior do Theatro, maio de 1999.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.091111
  },
  {
   "id": "h103",
@@ -1111,7 +1202,8 @@
   "alt": "O interior e a curva das galerias, em registro de 1999.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.075619
  },
  {
   "id": "h104",
@@ -1123,7 +1215,8 @@
   "alt": "Palestra na sala principal do Theatro, em registro histórico.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.500295
  },
  {
   "id": "h105",
@@ -1135,7 +1228,8 @@
   "alt": "O antigo Theatro Municipal, em registro histórico da fachada.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.500445
  },
  {
   "id": "h106",
@@ -1147,7 +1241,8 @@
   "alt": "Um salão interno esvaziado para as obras de restauro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.442099
  },
  {
   "id": "h107",
@@ -1159,7 +1254,8 @@
   "alt": "Acompanhamento das obras de restauração do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.105622
  },
  {
   "id": "h108",
@@ -1171,7 +1267,8 @@
   "alt": "Um ambiente do edifício durante o restauro, antes da recuperação.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.016625
  },
  {
   "id": "h111",
@@ -1184,7 +1281,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 3,
-  "cor": true
+  "cor": true,
+  "tone": 2.165617
  },
  {
   "id": "h112",
@@ -1197,7 +1295,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 3,
-  "cor": true
+  "cor": true,
+  "tone": 2.100601
  },
  {
   "id": "h113",
@@ -1210,7 +1309,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 3,
-  "cor": true
+  "cor": true,
+  "tone": 2.115538
  },
  {
   "id": "h114",
@@ -1222,7 +1322,8 @@
   "alt": "Mostra de artes plásticas no Theatro — a Bienal no foyer.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.162842
  },
  {
   "id": "h115",
@@ -1234,7 +1335,8 @@
   "alt": "Exposição de arte no Theatro durante a Bienal.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.077108
  },
  {
   "id": "h116",
@@ -1246,7 +1348,8 @@
   "alt": "Apresentação no palco do Theatro, em registro mais recente.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.189378
  },
  {
   "id": "h117",
@@ -1258,7 +1361,8 @@
   "alt": "Comissão recebida por Jorge Cunha Lima — com Nilson, Ana Laura, Merlin, José Marcondes e Joaquim Mello.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.950415
  },
  {
   "id": "h118",
@@ -1270,7 +1374,8 @@
   "alt": "Jorge Cunha Lima, Oliveira Neto e Sidney Beraldo e a equipe ligada à preservação do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Pré-restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.209171
  },
  {
   "id": "h120",
@@ -1282,7 +1387,8 @@
   "alt": "Registro histórico do Theatro e de seu entorno.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.500406
  },
  {
   "id": "h121",
@@ -1294,7 +1400,8 @@
   "alt": "A escritura do Theatro Municipal, em registro de imprensa.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Pré-restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.50068
  },
  {
   "id": "h122",
@@ -1306,7 +1413,8 @@
   "alt": "Exposição de arte de Edith Lara Além no Theatro, 1995.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.150879
  },
  {
   "id": "h123",
@@ -1318,7 +1426,8 @@
   "alt": "Exposição de Nádia Frigo Januário no foyer do Theatro, 1995.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.125516
  },
  {
   "id": "h124",
@@ -1330,7 +1439,8 @@
   "alt": "Mostra de Nádia Frigo Januário no foyer do Theatro, 1995.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.129092
  },
  {
   "id": "h125",
@@ -1342,7 +1452,8 @@
   "alt": "A Fundação Oliveira Neto (FON), criada para captar verbas para o restauro — registro de imprensa.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.424201
  },
  {
   "id": "h126",
@@ -1354,7 +1465,8 @@
   "alt": "Programa do espetáculo Branca de Neve no Theatro, em registro histórico.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.500779
  },
  {
   "id": "h127",
@@ -1366,7 +1478,8 @@
   "alt": "Homenagem no Theatro Municipal, com a plateia lotada — registro histórico.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.500454
  },
  {
   "id": "h128",
@@ -1378,7 +1491,8 @@
   "alt": "A I Semana Furlanetto no Theatro, 1999.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.077371
  },
  {
   "id": "h129",
@@ -1390,7 +1504,8 @@
   "alt": "A Semana Furlanetto no palco do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.073571
  },
  {
   "id": "h130",
@@ -1402,7 +1517,8 @@
   "alt": "Equipe nas obras de restauração do palco.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.12378
  },
  {
   "id": "h131",
@@ -1414,7 +1530,8 @@
   "alt": "O engenheiro e restaurador João Batista Merlin — mentor técnico da recuperação — José Marcondes e Maria Célia.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.563576
  },
  {
   "id": "h132",
@@ -1426,7 +1543,8 @@
   "alt": "César Roberto Olandim, no andaime, recuperando a pintura decorativa da sala.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.074679
  },
  {
   "id": "h133",
@@ -1438,7 +1556,8 @@
   "alt": "A escadaria interna do Theatro — a curva da balaustrada.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 0.315071
  },
  {
   "id": "h134",
@@ -1450,7 +1569,8 @@
   "alt": "Apresentação para a plateia na sala do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.111288
  },
  {
   "id": "h135",
@@ -1462,7 +1582,8 @@
   "alt": "A plateia e a curva das galerias, vistas do alto.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.081067
  },
  {
   "id": "h136",
@@ -1474,7 +1595,8 @@
   "alt": "Visitantes diante de uma exposição montada no interior do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.12202
  },
  {
   "id": "h137",
@@ -1486,7 +1608,8 @@
   "alt": "O palco e a boca de cena, vistos da plateia.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.100952
  },
  {
   "id": "h138",
@@ -1498,7 +1621,8 @@
   "alt": "A cúpula e a curva das galerias — o interior em ferradura visto de baixo.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.10524
  },
  {
   "id": "h139",
@@ -1510,7 +1634,8 @@
   "alt": "A sala durante as obras, com as galerias à mostra.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.102099
  },
  {
   "id": "h140",
@@ -1522,7 +1647,8 @@
   "alt": "A escavação e o trabalho no piso, durante as obras.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.118144
  },
  {
   "id": "h141",
@@ -1534,7 +1660,8 @@
   "alt": "Andaimes no interior, durante a restauração.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.09401
  },
  {
   "id": "h142",
@@ -1546,7 +1673,8 @@
   "alt": "A curva do palco e do fosso da orquestra, durante as obras.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.078009
  },
  {
   "id": "h143",
@@ -1558,7 +1686,8 @@
   "alt": "Um ambiente em obras, durante a restauração.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.988658
  },
  {
   "id": "h144",
@@ -1570,7 +1699,8 @@
   "alt": "A fachada com andaimes, durante a recuperação externa.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.640256
  },
  {
   "id": "h145",
@@ -1582,7 +1712,8 @@
   "alt": "A plateia ocupada para um evento no Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.144729
  },
  {
   "id": "h146",
@@ -1594,7 +1725,8 @@
   "alt": "Um dos ambientes internos no decorrer das obras de restauro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.927036
  },
  {
   "id": "h147",
@@ -1606,7 +1738,8 @@
   "alt": "Paredes de alvenaria à vista em um cômodo interno, durante o restauro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.913253
  },
  {
   "id": "h148",
@@ -1618,7 +1751,8 @@
   "alt": "A estrutura de andaimes no interior, durante o restauro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.083757
  },
  {
   "id": "h149",
@@ -1630,7 +1764,8 @@
   "alt": "A fachada inteiramente tomada por andaimes, na recuperação externa.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.473809
  },
  {
   "id": "h150",
@@ -1642,7 +1777,8 @@
   "alt": "A fachada eclética recuperada, diante da praça.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.087964
  },
  {
   "id": "h151",
@@ -1654,7 +1790,8 @@
   "alt": "A fachada restaurada, em vista frontal a partir da praça.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.098364
  },
  {
   "id": "h152",
@@ -1666,7 +1803,8 @@
   "alt": "O Theatro no conjunto urbano, visto à distância.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.136182
  },
  {
   "id": "h153",
@@ -1678,7 +1816,8 @@
   "alt": "O Theatro e o entorno arborizado do centro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.509696
  },
  {
   "id": "h154",
@@ -1690,7 +1829,8 @@
   "alt": "O interior em ferradura, com as galerias e a decoração recuperadas.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.082792
  },
  {
   "id": "h155",
@@ -1702,7 +1842,8 @@
   "alt": "Posse da diretoria da Fundação Oliveira Neto (FON), 1998.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.144496
  },
  {
   "id": "h156",
@@ -1714,7 +1855,8 @@
   "alt": "Cerimônia de posse da Fundação Oliveira Neto (FON), no Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.152603
  },
  {
   "id": "h157",
@@ -1726,7 +1868,8 @@
   "alt": "Posse da FON, 1998 — entidade de apoio ao restauro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.206218
  },
  {
   "id": "h158",
@@ -1738,7 +1881,8 @@
   "alt": "A época em que o Theatro abrigou uma rádio, em registro histórico.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.500643
  },
  {
   "id": "h159",
@@ -1750,7 +1894,8 @@
   "alt": "São João da Boa Vista antiga, no entorno do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.570628
  },
  {
   "id": "h160",
@@ -1762,7 +1907,8 @@
   "alt": "Sessão da Sociedade Cultural de Debates, no 2º andar do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.50037
  },
  {
   "id": "h161",
@@ -1774,7 +1920,8 @@
   "alt": "A Sociedade Cultural de Debates, no 2º andar do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.500353
  },
  {
   "id": "h162",
@@ -1786,7 +1933,8 @@
   "alt": "Reunião da Sociedade Cultural de Debates, no Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.50038
  },
  {
   "id": "h163",
@@ -1798,7 +1946,8 @@
   "alt": "A Sociedade Cultural de Debates, no 2º andar do edifício.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.500421
  },
  {
   "id": "h164",
@@ -1811,7 +1960,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 3,
-  "cor": true
+  "cor": true,
+  "tone": 2.072737
  },
  {
   "id": "h165",
@@ -1824,7 +1974,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 3,
-  "cor": true
+  "cor": true,
+  "tone": 2.101967
  },
  {
   "id": "h166",
@@ -1836,7 +1987,8 @@
   "alt": "A fachada eclética do Theatro em fotografia antiga.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.500592
  },
  {
   "id": "h167",
@@ -1849,7 +2001,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 3,
-  "cor": true
+  "cor": true,
+  "tone": 2.088913
  },
  {
   "id": "h168",
@@ -1862,7 +2015,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 3,
-  "cor": true
+  "cor": true,
+  "tone": 0.282056
  },
  {
   "id": "h169",
@@ -1874,7 +2028,8 @@
   "alt": "O Theatro e o centro histórico, em registro antigo.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.103126
  },
  {
   "id": "h170",
@@ -1886,7 +2041,8 @@
   "alt": "Detalhe de capitel e ornamentação da sala, no estilo eclético.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.616064
  },
  {
   "id": "h171",
@@ -1898,7 +2054,8 @@
   "alt": "Detalhe de ornato do forro, em registro antigo.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.691031
  },
  {
   "id": "h172",
@@ -1910,7 +2067,8 @@
   "alt": "Relevo decorativo da sala, no programa eclético do edifício.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.47539
  },
  {
   "id": "h173",
@@ -1922,7 +2080,8 @@
   "alt": "Registro histórico do interior do Theatro.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 0.498946
  },
  {
   "id": "h174",
@@ -1934,7 +2093,8 @@
   "alt": "Relevo alegórico em estuque, parte da decoração da sala.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.460754
  },
  {
   "id": "h176",
@@ -1946,7 +2106,8 @@
   "alt": "Equipe e colaboradores do Theatro Municipal.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
-  "rank": 3
+  "rank": 3,
+  "tone": 2.481481
  },
  {
   "id": "h177",
@@ -1959,7 +2120,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 3,
-  "cor": true
+  "cor": true,
+  "tone": 2.129376
  },
  {
   "id": "h178",
@@ -1972,7 +2134,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 3,
-  "cor": true
+  "cor": true,
+  "tone": 0.238108
  },
  {
   "id": "h179",
@@ -1985,7 +2148,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 2,
-  "cor": true
+  "cor": true,
+  "tone": 2.075766
  },
  {
   "id": "h180",
@@ -1997,7 +2161,8 @@
   "alt": "Sidney Beraldo e Oliveira Neto",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Pré-restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.356925
  },
  {
   "id": "h181",
@@ -2009,7 +2174,8 @@
   "alt": "A fachada eclética do Theatro, voltada para a Praça da Catedral.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.14331
  },
  {
   "id": "h182",
@@ -2021,7 +2187,8 @@
   "alt": "Acrotério da platibanda — urna ornamental com ave, restaurada e recortada contra o céu.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.0185
  },
  {
   "id": "h183",
@@ -2033,7 +2200,8 @@
   "alt": "Capitel coríntio restaurado, com folhas de acanto.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.055605
  },
  {
   "id": "h184",
@@ -2045,7 +2213,8 @@
   "alt": "Vaso ornamental da platibanda com mascarão feminino esculpido, após o restauro.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.088413
  },
  {
   "id": "h185",
@@ -2057,7 +2226,8 @@
   "alt": "Ornato escultórico da platibanda restaurado, recortado contra o céu.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.103267
  },
  {
   "id": "h186",
@@ -2069,7 +2239,8 @@
   "alt": "Urna decorativa foliada da platibanda, restaurada.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.075475
  },
  {
   "id": "h187",
@@ -2081,7 +2252,8 @@
   "alt": "Detalhe da cornija ornamental com mísulas.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.108335
  },
  {
   "id": "h188",
@@ -2093,7 +2265,8 @@
   "alt": "Friso pintado da platibanda junto ao telhado, após o restauro.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.872096
  },
  {
   "id": "h189",
@@ -2105,7 +2278,8 @@
   "alt": "Medalhão pintado com retrato, sobre a linha dos camarotes.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.102551
  },
  {
   "id": "h190",
@@ -2117,7 +2291,8 @@
   "alt": "A cobertura em obras, com o casario e a torre da igreja ao fundo.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.107141
  },
  {
   "id": "h191",
@@ -2129,7 +2304,8 @@
   "alt": "Parede original — só tijolo e barro, sem uma gota de cimento.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.042703
  },
  {
   "id": "h192",
@@ -2141,7 +2317,8 @@
   "alt": "Alvenaria de tijolos exposta durante o restauro.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.108151
  },
  {
   "id": "h193",
@@ -2153,7 +2330,8 @@
   "alt": "Prospecção estratigráfica: janelas abertas na parede revelam as camadas de tinta de cada época.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 1
+  "rank": 1,
+  "tone": 0.486454
  },
  {
   "id": "h194",
@@ -2165,7 +2343,8 @@
   "alt": "Inscrições a lápis reveladas sob as camadas de tinta durante o restauro.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.108952
  },
  {
   "id": "h195",
@@ -2177,7 +2356,8 @@
   "alt": "Janela de prospecção e amostras de cor abertas na parede.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.098896
  },
  {
   "id": "h196",
@@ -2189,7 +2369,8 @@
   "alt": "Inscrição preservada na lateral do palco: alunos do Teatro-Escola registraram a peça “Os Transviados”, de Amaral Gurgel, encenada em 30 de outubro de 1957 — mantida no restauro.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.13014
  },
  {
   "id": "h197",
@@ -2201,7 +2382,8 @@
   "alt": "A plateia em ferradura vista de um camarote.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.04588
  },
  {
   "id": "h198",
@@ -2213,7 +2395,8 @@
   "alt": "O palco e a boca de cena, com a cortina fechada.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
-  "rank": 1
+  "rank": 1,
+  "tone": 2.043747
  },
  {
   "id": "h200",
@@ -2225,7 +2408,8 @@
   "alt": "A sala em ferradura em fotografia histórica.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.482125
  },
  {
   "id": "h201",
@@ -2237,7 +2421,8 @@
   "alt": "A fachada do Theatro com o jardim fronteiro, em fotografia antiga.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.416159
  },
  {
   "id": "h202",
@@ -2249,7 +2434,8 @@
   "alt": "O Theatro e o comércio vizinho, em vista antiga da esquina.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.402343
  },
  {
   "id": "h203",
@@ -2262,7 +2448,8 @@
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2,
-  "cor": true
+  "cor": true,
+  "tone": 2.113074
  },
  {
   "id": "h204",
@@ -2274,7 +2461,8 @@
   "alt": "Desenho do projeto da fachada do Theatro.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.416101
  },
  {
   "id": "h205",
@@ -2286,7 +2474,8 @@
   "alt": "Pranchas de levantamento arquitetônico: planta em ferradura e cortes.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.383813
  },
  {
   "id": "h206",
@@ -2299,7 +2488,8 @@
   "credit": "Acervo Instituto Moreira Salles (IMS) — Poços de Caldas.",
   "epoca": "Histórico",
   "rank": 1,
-  "cor": true
+  "cor": true,
+  "tone": 2.09106
  },
  {
   "id": "h207",
@@ -2311,7 +2501,8 @@
   "alt": "O Theatro no início da restauração, ainda marcado pela decadência.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.126795
  },
  {
   "id": "h208",
@@ -2323,7 +2514,8 @@
   "alt": "A pintura das frisas, durante o restauro.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.063364
  },
  {
   "id": "h209",
@@ -2335,7 +2527,8 @@
   "alt": "A colocação das poltronas na sala, durante o restauro.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.044982
  },
  {
   "id": "h210",
@@ -2347,7 +2540,8 @@
   "alt": "A inauguração do Foyer, em dezembro de 1992 — o primeiro espaço devolvido ao público.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.816519
  },
  {
   "id": "h211",
@@ -2359,7 +2553,8 @@
   "alt": "A Praça Joaquim José e o entorno do Theatro, por volta de 1920.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.500591
  },
  {
   "id": "h212",
@@ -2371,7 +2566,8 @@
   "alt": "A fachada do Theatro na década de 1940.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.500489
  },
  {
   "id": "h213",
@@ -2383,7 +2579,8 @@
   "alt": "A tela de cinema na sala, na fase do Cine Theatro.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Histórico",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.500541
  },
  {
   "id": "h214",
@@ -2396,7 +2593,8 @@
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Histórico",
   "rank": 2,
-  "cor": true
+  "cor": true,
+  "tone": 2.118544
  },
  {
   "id": "h215",
@@ -2408,7 +2606,8 @@
   "alt": "O Duo Assad — os irmãos Sérgio e Odair — no palco do Theatro.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Atual",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.048841
  },
  {
   "id": "h216",
@@ -2420,7 +2619,8 @@
   "alt": "A I Bienal de Artes Visuais, 1998, montada na plateia ainda em obras.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.06748
  },
  {
   "id": "h217",
@@ -2432,7 +2632,8 @@
   "alt": "O prefeito Nelson Nicolau, o engenheiro João Merlin e o governador Franco Montoro no Theatro, em 1986.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 0.298252
  },
  {
   "id": "h218",
@@ -2444,7 +2645,8 @@
   "alt": "João Merlin recebe o secretário Jorge Cunha Lima no Theatro, em setembro de 1986.",
   "credit": "Acervo do Theatro Municipal / livro do centenário.",
   "epoca": "Restauro",
-  "rank": 2
+  "rank": 2,
+  "tone": 2.933459
  },
  {
   "id": "h219",
@@ -2455,7 +2657,8 @@
   "h": 568,
   "alt": "Oliveira Neto e Sidney Beraldo, no Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 0.380994
  },
  {
   "id": "h220",
@@ -2466,7 +2669,8 @@
   "h": 1000,
   "alt": "A fachada do Theatro em registro antigo.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico"
+  "epoca": "Histórico",
+  "tone": 2.096049
  },
  {
   "id": "h221",
@@ -2477,7 +2681,8 @@
   "h": 889,
   "alt": "A plateia do Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.029006
  },
  {
   "id": "h222",
@@ -2488,7 +2693,8 @@
   "h": 912,
   "alt": "A Semana do Artista Sanjoanense, no Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.037249
  },
  {
   "id": "h223",
@@ -2499,7 +2705,8 @@
   "h": 651,
   "alt": "O foyer do Theatro durante as obras.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.057563
  },
  {
   "id": "h224",
@@ -2510,7 +2717,8 @@
   "h": 1350,
   "alt": "A sala do Theatro durante o restauro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.049441
  },
  {
   "id": "h225",
@@ -2521,7 +2729,8 @@
   "h": 1350,
   "alt": "Maércio Mazzi no trabalho de douração dos capitéis.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.023808
  },
  {
   "id": "h226",
@@ -2532,7 +2741,8 @@
   "h": 1052,
   "alt": "José Marcondes, Maurício e Aparecidinha Azevedo, Sidney Beraldo, o governador Franco Montoro e Iola Azevedo, no Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.115583
  },
  {
   "id": "h227",
@@ -2543,7 +2753,8 @@
   "h": 414,
   "alt": "Maércio Mazzi e Elias Gervasi no restauro da pintura.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.057842
  },
  {
   "id": "h228",
@@ -2554,7 +2765,8 @@
   "h": 1065,
   "alt": "Restauradores cariocas em visita ao Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.079369
  },
  {
   "id": "h229",
@@ -2565,7 +2777,8 @@
   "h": 739,
   "alt": "José Marcondes, Carmem Pessanha, Zezé Lopes, João Batista Merlin, Gastão e Marly Michelazzo e Sarah Salomão.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.116445
  },
  {
   "id": "h230",
@@ -2576,7 +2789,8 @@
   "h": 890,
   "alt": "Homenagem no Theatro durante o período do restauro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.166536
  },
  {
   "id": "h231",
@@ -2587,7 +2801,8 @@
   "h": 1154,
   "alt": "As primeiras apresentações, com o Theatro ainda em obras.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.774912
  },
  {
   "id": "h232",
@@ -2598,7 +2813,8 @@
   "h": 787,
   "alt": "A I Bienal de Artes Visuais, no Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.678659
  },
  {
   "id": "h233",
@@ -2609,7 +2825,8 @@
   "h": 1182,
   "alt": "Exposição de arte no Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Restauro"
+  "epoca": "Restauro",
+  "tone": 2.098985
  },
  {
   "id": "h234",
@@ -2620,7 +2837,8 @@
   "h": 1402,
   "alt": "Espetáculo teatral no palco do Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.037012
  },
  {
   "id": "h235",
@@ -2631,7 +2849,8 @@
   "h": 802,
   "alt": "Fafá Noronha, Sandra Lima e o Coral Canto na Boca, 2005.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.219925
  },
  {
   "id": "h236",
@@ -2642,7 +2861,8 @@
   "h": 734,
   "alt": "Angelina, Célia, Vânia, Gabriela, Ciça, Aninha, Luciana, Tu Fontão, Mônica, Silvia, Fafá e Edson, no Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.088859
  },
  {
   "id": "h237",
@@ -2653,7 +2873,8 @@
   "h": 1008,
   "alt": "Studio Joellen de Ballet Clássico, no palco do Theatro. Foto Fritz.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.083846
  },
  {
   "id": "h238",
@@ -2664,7 +2885,8 @@
   "h": 716,
   "alt": "Lauros, Barbin, Jamil, Heleno, Magalhães e Pedro, no Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.011256
  },
  {
   "id": "h239",
@@ -2675,7 +2897,8 @@
   "h": 778,
   "alt": "Apresentação coral no palco do Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.971065
  },
  {
   "id": "h240",
@@ -2686,7 +2909,8 @@
   "h": 710,
   "alt": "O Grupo Palmares de Capoeira, no Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.06398
  },
  {
   "id": "h241",
@@ -2697,7 +2921,8 @@
   "h": 659,
   "alt": "Coroinhas no palco — ao centro, João Felipe Menezes.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.073709
  },
  {
   "id": "h242",
@@ -2708,7 +2933,8 @@
   "h": 752,
   "alt": "Ronaldo Marin, Fernando Menezes, Mário Franco e William Rickhein, em cena.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.042316
  },
  {
   "id": "h243",
@@ -2719,7 +2945,8 @@
   "h": 753,
   "alt": "Marilídia Inácio e Marcos Pereira, no palco.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.012308
  },
  {
   "id": "h244",
@@ -2730,7 +2957,8 @@
   "h": 1229,
   "alt": "Walgra, 2012 — lançamento do CD de Fábio e Edvina Noronha.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.573902
  },
  {
   "id": "h245",
@@ -2741,7 +2969,8 @@
   "h": 785,
   "alt": "Piro, Liz e Plin — Cena IV, Shakespeare e Cia.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.070046
  },
  {
   "id": "h246",
@@ -2752,7 +2981,8 @@
   "h": 768,
   "alt": "Ronaldo Marin em “O Mercador de Veneza”.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.001202
  },
  {
   "id": "h247",
@@ -2763,7 +2993,8 @@
   "h": 877,
   "alt": "“As Pontes de Madison” — Flávio Galvão, Mayara Magri, Paulo de Almeida e Jerusa Franco, 2011.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.100722
  },
  {
   "id": "h248",
@@ -2774,7 +3005,8 @@
   "h": 650,
   "alt": "Yamandu Costa, ao violão, no Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.818603
  },
  {
   "id": "h249",
@@ -2785,7 +3017,8 @@
   "h": 689,
   "alt": "André Mehmari e Hamilton de Holanda, no Theatro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual"
+  "epoca": "Atual",
+  "tone": 2.804286
  },
  {
   "id": "h250",
@@ -2796,7 +3029,8 @@
   "h": 950,
   "alt": "Um baile na plateia do Theatro, em registro histórico.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico"
+  "epoca": "Histórico",
+  "tone": 0.317939
  },
  {
   "id": "h251",
@@ -2807,7 +3041,8 @@
   "h": 1136,
   "alt": "Uma festa no salão do Theatro, em registro histórico.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico"
+  "epoca": "Histórico",
+  "tone": 2.103662
  },
  {
   "id": "h252",
@@ -2818,7 +3053,8 @@
   "h": 860,
   "alt": "A fachada do Theatro em registro histórico.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico"
+  "epoca": "Histórico",
+  "tone": 0.500398
  },
  {
   "id": "h253",
@@ -2829,7 +3065,8 @@
   "h": 1221,
   "alt": "A plateia do Theatro tomada pelo público, em registro histórico.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico"
+  "epoca": "Histórico",
+  "tone": 0.500493
  },
  {
   "id": "h254",
@@ -2840,7 +3077,8 @@
   "h": 920,
   "alt": "A fachada do Theatro em registro histórico.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico"
+  "epoca": "Histórico",
+  "tone": 0.50064
  },
  {
   "id": "h255",
@@ -2851,7 +3089,8 @@
   "h": 1125,
   "alt": "O Theatro e a rua, em registro histórico.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico"
+  "epoca": "Histórico",
+  "tone": 0.500621
  },
  {
   "id": "h256",
@@ -2862,7 +3101,8 @@
   "h": 1207,
   "alt": "Grupo retratado no Theatro, em registro histórico.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico"
+  "epoca": "Histórico",
+  "tone": 0.500281
  },
  {
   "id": "h257",
@@ -2873,7 +3113,8 @@
   "h": 1174,
   "alt": "A sala em ferradura do Theatro, em registro histórico.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico"
+  "epoca": "Histórico",
+  "tone": 0.500359
  },
  {
   "id": "h258",
@@ -2884,6 +3125,7 @@
   "h": 1092,
   "alt": "A fachada eclética do Theatro, em registro histórico.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico"
+  "epoca": "Histórico",
+  "tone": 0.294043
  }
 ]

@@ -31,7 +31,7 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
     const filtered = fotos.filter((f) => (cat === 'todas' || f.category === cat) && (ep === 'todas' || f.epoca === ep));
     if (!withFilter) return filtered; // faixa de destaques preserva a ordem recebida
     return filtered.slice().sort((a, b) =>
-      (colorLast ? (a.cor ? 1 : 0) - (b.cor ? 1 : 0) : 0) ||
+      ((a.tone ?? 99) - (b.tone ?? 99)) ||
       (a.rank ?? 2) - (b.rank ?? 2) ||
       (EP_RANK[a.epoca ?? ''] ?? 9) - (EP_RANK[b.epoca ?? ''] ?? 9) ||
       idNum(a.id) - idNum(b.id),
