@@ -184,25 +184,13 @@
  {
   "id": "h061",
   "file": "fotos/hr2-sala-01.jpg",
-  "category": "segundo-piso",
-  "categoryLabel": "Segundo Piso",
+  "category": "sala",
+  "categoryLabel": "Sala",
   "w": 1800,
   "h": 1279,
-  "alt": "Antiga biblioteca",
+  "alt": "A antiga biblioteca instalada no edifício — mesas de leitura, livros abertos e o lambri verde, em registro anterior ao restauro.",
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual",
-  "rank": 2
- },
- {
-  "id": "h062",
-  "file": "fotos/hr2-sala-02.jpg",
-  "category": "segundo-piso",
-  "categoryLabel": "Segundo Piso",
-  "w": 1800,
-  "h": 1282,
-  "alt": "Antiga biblioteca",
-  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual",
+  "epoca": "Histórico",
   "rank": 2
  },
  {
