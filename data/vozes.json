@@ -1,28 +1,40 @@
 {
-  "items": [
-    {
-      "quote": "Descobri, quase atrás de casa, uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.",
-      "author": "Emmanuele Baldini",
-      "role": "Spalla da Osesp, após concerto no Theatro — 2014",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 24."
-    },
-    {
-      "quote": "Foi a vontade popular, liderada pela classe artística, junto com o empenho dos governantes, que transformou um sonho em realidade.",
-      "author": "Neusa Maria Soares de Menezes",
-      "role": "Historiadora e editora do livro do centenário",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014."
-    },
-    {
-      "quote": "Foi necessária a entrada de uma retroescavadeira dentro do Theatro, para rebaixar o nível sob o piso do palco e corrigir a inclinação da plateia.",
-      "author": "Nilson Zenun",
-      "role": "Engenheiro civil, equipe de restauração",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 129."
-    },
-    {
-      "quote": "Quantas imagens imorredouras a recordar! Onde estarão guardadas tantas histórias? Em que baús? Em que páginas amarelecidas?",
-      "author": "Do prefácio",
-      "role": "“Casa de Sonhos” — Theatro Municipal, 100 anos",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014, Prefácio."
-    }
-  ]
+ "items": [
+  {
+   "quote": "Descobri, quase atrás de casa, uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.",
+   "author": "Emmanuele Baldini",
+   "role": "Spalla da Osesp, após concerto no Theatro — 2014",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 24."
+  },
+  {
+   "quote": "Foi a vontade popular, liderada pela classe artística, junto com o empenho dos governantes, que transformou um sonho em realidade.",
+   "author": "Neusa Maria Soares de Menezes",
+   "role": "Historiadora e editora do livro do centenário",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014."
+  },
+  {
+   "quote": "Foi necessária a entrada de uma retroescavadeira dentro do Theatro, para rebaixar o nível sob o piso do palco e corrigir a inclinação da plateia.",
+   "author": "Nilson Zenun",
+   "role": "Engenheiro civil, equipe de restauração",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 129."
+  },
+  {
+   "quote": "Quantas imagens imorredouras a recordar! Onde estarão guardadas tantas histórias? Em que baús? Em que páginas amarelecidas?",
+   "author": "Do prefácio",
+   "role": "“Casa de Sonhos” — Theatro Municipal, 100 anos",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, Prefácio."
+  },
+  {
+   "quote": "Se não tomassem uma decisão, ele ia se amarrar no topo do teatro e fazer greve de fome, até decidirem não demolir o prédio e pedir seu tombamento.",
+   "author": "Zeza Freitas",
+   "role": "Bailarina, sobre o ator Ronaldo Marin na luta contra a demolição — anos 1980",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 113."
+  },
+  {
+   "quote": "É um teatro vivo e que teve, como a vida de qualquer pessoa, seus altos e baixos.",
+   "author": "Depoimento no documentário Música & Drama",
+   "role": "Sobre o Theatro ao longo de um século",
+   "source": "Documentário Música & Drama (37:28)."
+  }
+ ]
 }
