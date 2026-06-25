@@ -13,6 +13,7 @@ import ReadingProgress from '@/components/ReadingProgress';
 import ChapterIndex from '@/components/ChapterIndex';
 import VisitaInfo from '@/components/VisitaInfo';
 import RestauroResumo from '@/components/RestauroResumo';
+import VideoOlhares from '@/components/VideoOlhares';
 
 const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
@@ -137,6 +138,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           </section>
         )}
 
+        {params.slug === 'restauracao' && <VideoOlhares />}
         {params.slug === 'visite' && <MapaVisita />}
 
         {params.slug === 'memorias' && curiosidadesList.length > 0 && (
