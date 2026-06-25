@@ -1,13 +1,17 @@
 [
  {
   "id": "medalhao",
-  "mode": "lado-a-lado",
-  "title": "O medalhão de Carlos Gomes",
-  "caption": "À esquerda, o retrato recuperado sobre a parede ainda lisa; à direita, o mesmo medalhão com todo o programa ornamental repintado em volta.",
+  "mode": "galeria",
+  "title": "O medalhão de Carlos Gomes, passo a passo",
+  "caption": "A fotografia do comício do Partido Republicano Paulista (1919) preservou a imagem original e serviu de referência para a decapagem; sob as camadas de tinta, o retrato apareceu danificado, com o olho comprometido; recuperado o rosto, a equipe repintou por fim todo o programa ornamental em volta.",
+  "imagens": [
+   { "src": "fotos/antes-depois/medalhao-ref.jpg", "full": "fotos/hr4-eventos-26.jpg", "label": "Referência · 1919", "alt": "Comício do Partido Republicano Paulista no Theatro, 1919 — registro que documentou o medalhão original e guiou a decapagem." },
+   { "src": "fotos/antes-depois/medalhao-danificado.jpg", "full": "fotos/hr-ornamentos-16.jpg", "label": "Danificado", "alt": "O medalhão de Carlos Gomes visto de lado, durante a decapagem — a pintura danificada, com o olho comprometido." },
+   { "src": "fotos/antes-depois/medalhao-sem.jpg", "full": "fotos/hr-ornamentos-28.jpg", "label": "Sem os ornamentos", "alt": "O retrato de Carlos Gomes recuperado, com a coroa de louros, sobre a parede ainda lisa." },
+   { "src": "fotos/antes-depois/medalhao-com.jpg", "full": "fotos/hr5-ornamentos-08.jpg", "label": "Com os ornamentos", "alt": "O medalhão de Carlos Gomes com todo o programa ornamental repintado em volta." }
+  ],
   "antes": "fotos/antes-depois/medalhao-sem.jpg",
   "depois": "fotos/antes-depois/medalhao-com.jpg",
-  "labelAntes": "Sem os ornamentos",
-  "labelDepois": "Com os ornamentos",
   "w": 1400,
   "h": 1050,
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."

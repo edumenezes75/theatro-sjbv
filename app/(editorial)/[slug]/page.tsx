@@ -123,7 +123,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           <section className="mt-16 border-t border-gold/25 pt-12">
             <h2 className="mb-2 font-display text-3xl">O medalhão de Carlos Gomes</h2>
             <p className="mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-              O retrato de Carlos Gomes, sobre a boca de cena, foi recuperado sob camadas de tinta — e, em seguida, os ornamentos em volta foram repintados. Os dois momentos, lado a lado.
+              Passo a passo do restauro: a fotografia do comício de 1919 guiou a decapagem; sob a tinta, o retrato surgiu danificado; recuperado o rosto, os ornamentos em volta foram repintados. Toque em cada imagem para ampliar e ver o detalhe.
             </p>
             <AntesDepois pares={antesDepoisList} />
           </section>
