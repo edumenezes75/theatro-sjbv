@@ -27,6 +27,10 @@ O projeto de 1913 apresenta uma composição simétrica, com eixo central destac
 
 Acima dos vãos laterais, quatro medalhões alinham um compositor brasileiro a três cânones europeus — **Carlos Gomes, Giuseppe Verdi, Richard Wagner e Charles Gounod** —, num gesto deliberadamente cosmopolita. As molduras incorporam ramos de café, costurando a cultura erudita internacional à economia que ergueu o edifício. As inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*, em grafia historicizante, anunciam a função antes mesmo de o público entrar.
 
+![Medalhão pintado de Carlos Gomes, o compositor brasileiro, sobre a boca de cena.](/fotos/hr-ornamentos-28.jpg)
+
+*Carlos Gomes — o compositor brasileiro entre os quatro homenageados no Theatro — no medalhão sobre a boca de cena, obra do pintor italiano Ettore Adriano Fabri.*
+
 ![A inscrição MVNICIPAL na cornija da fachada, em grafia historicizante.](/fotos/hr3-ornamentos-01.jpg)
 
 *A palavra **MVNICIPAL** gravada na cornija — uma das quatro inscrições que anunciam a função do edifício, na grafia latina em que o U vira V.*
