@@ -147,7 +147,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
             <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
               Retrospectiva do centenário do Theatro (2014), produzida pela TV UNIFAE.
             </p>
-            <div className="mt-6"><LiteYouTube id="4HDvmltqv3I" title="100 Anos do Theatro Municipal — TV UNIFAE" /></div>
+            <div className="mt-6"><LiteYouTube id="4HDvmltqv3I" title="100 Anos do Theatro Municipal — TV UNIFAE" poster="/video/centenario-poster.jpg" /></div>
             <dl className="mt-8 grid max-w-reading grid-cols-1 gap-x-10 gap-y-3 font-sans text-sm sm:grid-cols-2">
               {[
                 ['Roteiro e direção', 'Paschoal Neto'],
