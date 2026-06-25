@@ -17,8 +17,8 @@ const norm = (s: string) =>
 
 const ORDEM: ItemBusca['tipo'][] = ['Pessoa', 'Foto', 'Linha do tempo', 'Curiosidade'];
 
-export default function BuscaGlobal({ itens }: { itens: ItemBusca[] }) {
-  const [q, setQ] = useState('');
+export default function BuscaGlobal({ itens, initialQ = '' }: { itens: ItemBusca[]; initialQ?: string }) {
+  const [q, setQ] = useState(initialQ);
   const ref = useRef<HTMLInputElement>(null);
   useEffect(() => { ref.current?.focus(); }, []);
 

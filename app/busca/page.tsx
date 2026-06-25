@@ -26,8 +26,9 @@ function indice(): ItemBusca[] {
   return out;
 }
 
-export default function BuscaPage() {
+export default function BuscaPage({ searchParams }: { searchParams: { q?: string } }) {
   const itens = indice();
+  const initialQ = typeof searchParams?.q === 'string' ? searchParams.q : '';
   return (
     <article className="mx-auto max-w-3xl px-5 pb-24 pt-28 sm:pt-32">
       <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Busca</p>
@@ -35,7 +36,7 @@ export default function BuscaPage() {
       <p className="mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
         Procure por uma pessoa, uma fotografia, uma data da linha do tempo ou uma curiosidade — tudo num só lugar.
       </p>
-      <BuscaGlobal itens={itens} />
+      <BuscaGlobal itens={itens} initialQ={initialQ} />
     </article>
   );
 }

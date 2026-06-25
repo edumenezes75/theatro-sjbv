@@ -103,6 +103,28 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           { '@type': 'ListItem', position: 2, name: page.meta.title, item: url },
         ],
       },
+      ...(params.slug === 'historia' ? [{
+        '@type': 'VideoObject',
+        name: '100 Anos do Theatro Municipal',
+        description: 'Retrospectiva do centenário do Theatro Municipal de São João da Boa Vista (2014), produzida pela TV UNIFAE.',
+        thumbnailUrl: [`${SITE}/video/centenario-poster.jpg`],
+        uploadDate: '2014-11-15',
+        embedUrl: 'https://www.youtube-nocookie.com/embed/4HDvmltqv3I',
+        contentUrl: 'https://www.youtube.com/watch?v=4HDvmltqv3I',
+        inLanguage: 'pt-BR',
+        about: { '@type': 'PerformingArtsTheater', '@id': SITE + '/#theatro' },
+      }] : []),
+      ...(params.slug === 'restauracao' ? [{
+        '@type': 'VideoObject',
+        name: 'Olhares',
+        description: 'Filme sobre o Theatro Municipal de São João da Boa Vista. Roteiro e direção de Paschoal Neto; realização Fundação Oliveira Neto.',
+        thumbnailUrl: [`${SITE}/video/olhares-1-poster.jpg`],
+        uploadDate: '2002-01-01',
+        contentUrl: `${SITE}/video/olhares-1.mp4`,
+        inLanguage: 'pt-BR',
+        director: { '@type': 'Person', name: 'Paschoal Neto' },
+        about: { '@type': 'PerformingArtsTheater', '@id': SITE + '/#theatro' },
+      }] : []),
     ],
   };
 

@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: { type: 'website', locale: 'pt_BR', siteName: 'Theatro Municipal de São João da Boa Vista', images: [{ url: '/og-theatro-card.jpg', width: 1200, height: 630, alt: 'A fachada iluminada do Theatro Municipal ao entardecer, em São João da Boa Vista' }] },
   twitter: { card: 'summary_large_image', images: ['/og-theatro-card.jpg'] },
   alternates: { canonical: '/' },
-  robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large' } },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
 };
 
 export const viewport = {
@@ -39,6 +39,11 @@ const jsonLd = {
       url: SITE,
       inLanguage: 'pt-BR',
       publisher: { '@id': SITE + '/#theatro' },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: { '@type': 'EntryPoint', urlTemplate: SITE + '/busca?q={search_term_string}' },
+        'query-input': 'required name=search_term_string',
+      },
     },
     {
       '@type': ['PerformingArtsTheater', 'TouristAttraction', 'LandmarksOrHistoricalBuildings'],
@@ -47,7 +52,7 @@ const jsonLd = {
       alternateName: ['Theatro Municipal', 'Teatro Municipal de São João da Boa Vista', 'Cine Theatro'],
       url: SITE,
       image: SITE + '/og-theatro-card.jpg',
-      logo: SITE + '/icon.svg',
+      logo: { '@type': 'ImageObject', url: SITE + '/apple-icon.png', width: 180, height: 180 },
       description: 'Casa de espetáculos histórica inaugurada em 1914, em São João da Boa Vista (SP). Sala em ferradura de tradição italiana, preservada pela mobilização popular, tombada e restaurada — palco de música, teatro, dança e cinema.',
       foundingDate: '1914-10-31',
       telephone: '+55-19-3636-4872',
