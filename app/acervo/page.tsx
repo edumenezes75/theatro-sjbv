@@ -20,10 +20,12 @@ export default function AcervoPage() {
   const destaque = destaqueIds.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList;
   const CULT = ['arte-cultura', 'eventos', 'ii-semana-fernando-fulanetto', 'fundcao-oliveira-neto'];
   const ev = (f: (typeof fotosList)[number]) => CULT.includes(f.category);
-  const hist = fotosList.filter((f) => f.epoca === 'Histórico'); // inclui a vida cultural de outrora
-  const rest = fotosList.filter((f) => f.epoca === 'Restauro' && !ev(f));
-  const hoje = fotosList.filter((f) => f.epoca === 'Atual' && !ev(f));
-  const pre = fotosList.filter((f) => f.epoca === 'Pré-restauro' && !ev(f));
+  const doc = (f: (typeof fotosList)[number]) => f.category === 'documentos';
+  const hist = fotosList.filter((f) => f.epoca === 'Histórico' && !doc(f)); // inclui a vida cultural de outrora
+  const rest = fotosList.filter((f) => f.epoca === 'Restauro' && !ev(f) && !doc(f));
+  const hoje = fotosList.filter((f) => f.epoca === 'Atual' && !ev(f) && !doc(f));
+  const pre = fotosList.filter((f) => f.epoca === 'Pré-restauro' && !ev(f) && !doc(f));
+  const docs = fotosList.filter(doc);
   const cult = fotosList.filter((f) => ev(f) && f.epoca !== 'Histórico'); // vida cultural moderna
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const ldGallery = {
@@ -60,6 +62,7 @@ export default function AcervoPage() {
           <a href="#cap-restauro" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O restauro</a>
           <a href="#cap-hoje" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O Theatro restaurado</a>
           <a href="#cap-cultural" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">A vida cultural</a>
+          <a href="#cap-documentos" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">Documentos</a>
         </nav>
 
         <section id="cap-historico" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
@@ -117,6 +120,18 @@ export default function AcervoPage() {
             Concertos, festivais, exposições, teatro e dança que ocupam o Theatro desde o restauro — da Semana Guiomar Novaes à Semana Furlanetto, do Festival Assad aos corais e à dança. <span className="text-curtain dark:text-gold">{cult.length} imagens.</span> Refine por tema; clique para ampliar.
           </p>
           <LazyMount><GaleriaReal fotos={cult} showEpoca /></LazyMount>
+        </section>
+
+        <section id="cap-documentos" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
+          <div className="flex items-center gap-3">
+            <span className="h-6 w-px bg-curtain dark:bg-gold" />
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 6 · papéis que contam a história</p>
+          </div>
+          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Documentos</h2>
+          <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+            Estatutos, escrituras, projetos, programas e o abaixo-assinado que salvou o edifício — os papéis que registram, em cartório e na imprensa, cada etapa da história do Theatro. <span className="text-curtain dark:text-gold">{docs.length} itens.</span> Clique para ampliar e ler.
+          </p>
+          <LazyMount><GaleriaReal fotos={docs} showEpoca /></LazyMount>
         </section>
 
         <ReconheceuAlguem />

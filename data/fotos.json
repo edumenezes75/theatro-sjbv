@@ -3247,5 +3247,29 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Atual",
   "tone": 2.106694
+ },
+ {
+  "id": "h269",
+  "file": "fotos/hr8-fachada-postal.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 1800,
+  "h": 1171,
+  "alt": "O Theatro Municipal em cartão-postal antigo — “S. João da Boa Vista, Estado de S. Paulo”.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Histórico",
+  "tone": 0.500462
+ },
+ {
+  "id": "h270",
+  "file": "fotos/hr8-bar-interior.jpg",
+  "category": "theatro",
+  "categoryLabel": "O Theatro",
+  "w": 1800,
+  "h": 1324,
+  "alt": "O interior do antigo Bar Theatro, na fachada do edifício — ponto de encontro no tempo do cinema.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Pré-restauro",
+  "tone": 2.09717
  }
 ]
