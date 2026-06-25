@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/visita-guiada' },
   title: 'Visita guiada',
   description: 'Caminhos para conhecer o Theatro Municipal de São João da Boa Vista conforme o seu tempo e o seu interesse — em 3 minutos, em 10 minutos, pelo edifício, pela preservação, pela pesquisa ou para visitar.',
+  openGraph: { title: 'Visita guiada — Theatro Municipal SJBV', description: 'Roteiros para conhecer o Theatro Municipal de São João da Boa Vista no seu tempo: em 3 ou 10 minutos, pelo edifício, pela preservação ou pela pesquisa.', type: 'website', images: ['https://www.theatromunicipalsjbv.com.br/fotos/hr-fachada-02.jpg'] },
 };
 
 const PATHS: { tag: string; title: string; steps: { label: string; href: string }[] }[] = [

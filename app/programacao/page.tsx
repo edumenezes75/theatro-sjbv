@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/programacao' },
   title: 'Programação',
   description: 'Agenda de espetáculos, concertos e eventos do Theatro Municipal de São João da Boa Vista.',
+  openGraph: { title: 'Programação — Theatro Municipal SJBV', description: 'Agenda de espetáculos, concertos e eventos do Theatro Municipal de São João da Boa Vista.', type: 'website', images: ['https://www.theatromunicipalsjbv.com.br/fotos/hr-fachada-02.jpg'] },
 };
 
 const fmt = (iso: string) => {
