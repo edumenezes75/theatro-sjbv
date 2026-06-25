@@ -27,6 +27,10 @@ O projeto de 1913 apresenta uma composição simétrica, com eixo central destac
 
 Acima dos vãos laterais, quatro medalhões alinham um compositor brasileiro a três cânones europeus — **Carlos Gomes, Giuseppe Verdi, Richard Wagner e Charles Gounod** —, num gesto deliberadamente cosmopolita. As molduras incorporam ramos de café, costurando a cultura erudita internacional à economia que ergueu o edifício. As inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*, em grafia historicizante, anunciam a função antes mesmo de o público entrar.
 
+![A inscrição MVNICIPAL na cornija da fachada, em grafia historicizante.](/fotos/hr3-ornamentos-01.jpg)
+
+*A palavra **MVNICIPAL** gravada na cornija — uma das quatro inscrições que anunciam a função do edifício, na grafia latina em que o U vira V.*
+
 ![Vaso ornamental com mascarão na platibanda do Theatro, restaurado.](/fotos/hr5-ornamentos-03.jpg)
 
 *Um dos vasos com mascarões que coroam a platibanda — o remate escultórico da fachada eclética, restaurado.*
