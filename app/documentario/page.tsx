@@ -165,16 +165,6 @@ export default function DocumentarioPage() {
           </ul>
         </section>
 
-        <section className="mt-16">
-          <h2 className="font-display text-3xl">Veja também</h2>
-          <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">
-            “100 Anos do Theatro Municipal” — retrospectiva do centenário produzida pela TV UNIFAE.
-          </p>
-          <div className="mt-6">
-            <LiteYouTube id="4HDvmltqv3I" title="100 Anos do Theatro Municipal — TV UNIFAE" />
-          </div>
-        </section>
-
         <Comentarios tipo="filme" titulo="Comentários sobre o filme" intro="O que este documentário despertou em você? Deixe sua impressão, corrija um detalhe ou complete uma história." placeholder="Escreva um comentário sobre o documentário…" vazio="Ainda não há comentários. Seja o primeiro a comentar o filme." />
 
         <FontesDaPagina fontes={page?.fontes ?? null} />

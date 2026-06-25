@@ -14,6 +14,7 @@ import ChapterIndex from '@/components/ChapterIndex';
 import VisitaInfo from '@/components/VisitaInfo';
 import RestauroResumo from '@/components/RestauroResumo';
 import VideoOlhares from '@/components/VideoOlhares';
+import LiteYouTube from '@/components/LiteYouTube';
 
 const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
@@ -139,6 +140,16 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         )}
 
         {params.slug === 'restauracao' && <VideoOlhares />}
+        {params.slug === 'historia' && (
+          <section className="mt-16 border-t border-gold/25 pt-12">
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Filme</p>
+            <h2 className="mt-3 font-display text-3xl">100 Anos do Theatro Municipal</h2>
+            <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+              Retrospectiva do centenário do Theatro (2014), produzida pela TV UNIFAE.
+            </p>
+            <div className="mt-6"><LiteYouTube id="4HDvmltqv3I" title="100 Anos do Theatro Municipal — TV UNIFAE" /></div>
+          </section>
+        )}
         {params.slug === 'visite' && <MapaVisita />}
 
         {params.slug === 'memorias' && curiosidadesList.length > 0 && (
