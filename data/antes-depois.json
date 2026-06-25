@@ -1,42 +1,15 @@
 [
  {
   "id": "medalhao",
+  "mode": "lado-a-lado",
   "title": "O medalhão de Carlos Gomes",
-  "caption": "Escondido sob camadas de tinta e revelado na prospecção do restauro; à direita, o retrato recuperado sobre a boca de cena.",
-  "antes": "fotos/antes-depois/medalhao-antes.jpg",
-  "depois": "fotos/antes-depois/medalhao-depois.jpg",
-  "w": 1200,
-  "h": 900,
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "galerias",
-  "title": "A sala em ferradura",
-  "caption": "As galerias e a plateia durante a obra e depois do restauro.",
-  "antes": "fotos/antes-depois/galerias-antes.jpg",
-  "depois": "fotos/antes-depois/galerias-depois.jpg",
-  "w": 1000,
-  "h": 750,
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "palco",
-  "title": "O palco e a boca de cena",
-  "caption": "A caixa cênica vazia na obra e o palco recuperado, com a plateia restaurada.",
-  "antes": "fotos/antes-depois/palco-antes.jpg",
-  "depois": "fotos/antes-depois/palco-depois.jpg",
-  "w": 1000,
-  "h": 750,
-  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
- },
- {
-  "id": "camarotes",
-  "title": "Frisas e camarotes",
-  "caption": "Os camarotes em restauração e já recuperados, com as poltronas vermelhas.",
-  "antes": "fotos/antes-depois/camarotes-antes.jpg",
-  "depois": "fotos/antes-depois/camarotes-depois.jpg",
-  "w": 1000,
-  "h": 750,
+  "caption": "À esquerda, o retrato recuperado sobre a parede ainda lisa; à direita, o mesmo medalhão com todo o programa ornamental repintado em volta.",
+  "antes": "fotos/antes-depois/medalhao-sem.jpg",
+  "depois": "fotos/antes-depois/medalhao-com.jpg",
+  "labelAntes": "Sem os ornamentos",
+  "labelDepois": "Com os ornamentos",
+  "w": 1400,
+  "h": 1050,
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal."
  }
 ]

@@ -121,9 +121,9 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
 
         {showAD && antesDepoisList.length > 0 && (
           <section className="mt-16 border-t border-gold/25 pt-12">
-            <h2 className="mb-2 font-display text-3xl">Antes e depois do restauro</h2>
+            <h2 className="mb-2 font-display text-3xl">O medalhão de Carlos Gomes</h2>
             <p className="mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-              Arraste a divisória para comparar o edifício durante a obra e depois da restauração.
+              O retrato de Carlos Gomes, sobre a boca de cena, foi recuperado sob camadas de tinta — e, em seguida, os ornamentos em volta foram repintados. Os dois momentos, lado a lado.
             </p>
             <AntesDepois pares={antesDepoisList} />
           </section>
