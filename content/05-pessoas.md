@@ -31,7 +31,7 @@ Transferido para Santos antes da inauguração, não estava no camarote da diret
 
 ### J. Pucci
 
-O projeto apresentado em 1913 traz a assinatura “J. Pucci”. Fontes locais o identificam como José Pucci, projetista associado a São Paulo. A biografia completa, porém, ainda exige pesquisa para evitar confusão com homônimos atuantes em escultura e mármore.
+O projeto apresentado em 1913 traz a assinatura “J. Pucci” — o paulista José Pucci, que já havia projetado o Teatro São Paulo, na capital, antes de assinar a fachada e o programa arquitetônico do Theatro sanjoanense.
 
 No site público, o melhor é apresentar o que está documentado: assinatura, desenho, programa arquitetônico e recepção do projeto. A investigação sobre sua identidade pode se tornar uma reportagem aberta, mostrando como a história é construída.
 

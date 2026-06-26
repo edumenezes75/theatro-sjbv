@@ -27,7 +27,7 @@ Joaquim Cândido de Oliveira e José Evangelista de Almeida aparecem como figura
 
 ### O projeto
 
-Em maio de 1913, foi apresentado um projeto assinado por **J. Pucci**. O programa divulgado descrevia uma área de aproximadamente 1.130 m², fachada de 22,6 metros, profundidade de 50 metros, plateia para 480 cadeiras, 22 frisas, 30 camarotes e uma grande galeria superior. Também previa palco, camarins, fosso de orquestra, bares, bilheteria e instalações sanitárias modernas para a época.
+Em maio de 1913, foi apresentado um projeto assinado por **J. Pucci** — arquiteto que já havia projetado o Teatro São Paulo, na capital. O programa divulgado descrevia uma área de aproximadamente 1.130 m², fachada de 22,6 metros, profundidade de 50 metros, plateia para 480 cadeiras, 22 frisas, 30 camarotes e uma grande galeria superior. Também previa palco, camarins, fosso de orquestra, bares, bilheteria e instalações sanitárias modernas para a época.
 
 Esses números pertencem ao projeto anunciado e não devem ser confundidos com a lotação atual. O valor documental está em mostrar a escala da ambição: tratava-se de um edifício pensado para receber grandes públicos e diferentes tipos de espetáculo.
 
