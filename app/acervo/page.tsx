@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { fotosList } from '@/lib/data';
+import { fotosList, pessoasIndexMin } from '@/lib/data';
 import { getPageBySlug } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
@@ -74,7 +74,7 @@ export default function AcervoPage() {
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             Da era do cinema aos bailes, da rádio à biblioteca e à ameaça de demolição — o edifício e a cidade em registros de outras décadas. <span className="text-curtain dark:text-gold">{hist.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
           </p>
-          <GaleriaReal fotos={hist} showEpoca={false} colorLast />
+          <GaleriaReal fotos={hist} pessoasIndex={pessoasIndexMin} showEpoca={false} colorLast />
         </section>
         <section id="cap-pre" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
@@ -85,7 +85,7 @@ export default function AcervoPage() {
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             O abandono, as goteiras, os ornatos perdidos e as rachaduras — o estado em que o edifício foi encontrado. <span className="text-curtain dark:text-gold">{pre.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
           </p>
-          <LazyMount><GaleriaReal fotos={pre} showEpoca={false} /></LazyMount>
+          <LazyMount><GaleriaReal fotos={pre} pessoasIndex={pessoasIndexMin} showEpoca={false} /></LazyMount>
         </section>
         <section id="cap-restauro" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
@@ -96,7 +96,7 @@ export default function AcervoPage() {
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             Andaimes por dentro e por fora, a escavação do fosso da orquestra, a decapagem e os artistas devolvendo cor aos ornatos. <span className="text-curtain dark:text-gold">{rest.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
           </p>
-          <LazyMount><GaleriaReal fotos={rest} showEpoca={false} /></LazyMount>
+          <LazyMount><GaleriaReal fotos={rest} pessoasIndex={pessoasIndexMin} showEpoca={false} /></LazyMount>
         </section>
         <section id="cap-hoje" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
@@ -107,7 +107,7 @@ export default function AcervoPage() {
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             A sala em ferradura recuperada, os ornamentos e a fachada eclética — o edifício desde a reabertura, em 2002. <span className="text-curtain dark:text-gold">{hoje.length} imagens.</span> Refine por tema; clique para ampliar ou use o modo apresentação.
           </p>
-          <LazyMount><GaleriaReal fotos={hoje} showEpoca={false} /></LazyMount>
+          <LazyMount><GaleriaReal fotos={hoje} pessoasIndex={pessoasIndexMin} showEpoca={false} /></LazyMount>
         </section>
 
         <section id="cap-cultural" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
@@ -119,7 +119,7 @@ export default function AcervoPage() {
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             Concertos, festivais, exposições, teatro e dança que ocupam o Theatro desde o restauro — da Semana Guiomar Novaes à Semana Furlanetto, do Festival Assad aos corais e à dança. <span className="text-curtain dark:text-gold">{cult.length} imagens.</span> Refine por tema; clique para ampliar.
           </p>
-          <LazyMount><GaleriaReal fotos={cult} showEpoca /></LazyMount>
+          <LazyMount><GaleriaReal fotos={cult} pessoasIndex={pessoasIndexMin} showEpoca /></LazyMount>
         </section>
 
         <section id="cap-documentos" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
@@ -131,7 +131,7 @@ export default function AcervoPage() {
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             Estatutos, escrituras, projetos, programas e o abaixo-assinado que salvou o edifício — os papéis que registram, em cartório e na imprensa, cada etapa da história do Theatro. <span className="text-curtain dark:text-gold">{docs.length} itens.</span> Clique para ampliar e ler.
           </p>
-          <LazyMount><GaleriaReal fotos={docs} showEpoca /></LazyMount>
+          <LazyMount><GaleriaReal fotos={docs} pessoasIndex={pessoasIndexMin} showEpoca /></LazyMount>
         </section>
 
         <ReconheceuAlguem />

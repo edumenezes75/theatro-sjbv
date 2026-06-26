@@ -9,7 +9,9 @@ import { IconClose, IconChevron } from './Icons';
 const EP_RANK: Record<string, number> = { 'Histórico': 0, 'Pré-restauro': 1, 'Restauro': 2, 'Atual': 3 };
 const idNum = (id: string) => parseInt(id.replace(/\D/g, ''), 10) || 0;
 
-export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true, colorLast = false }: { fotos: Foto[]; withFilter?: boolean; showEpoca?: boolean; colorLast?: boolean }) {
+const _normLB = (x: string) => x.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true, colorLast = false, pessoasIndex = [] }: { fotos: Foto[]; withFilter?: boolean; showEpoca?: boolean; colorLast?: boolean; pessoasIndex?: { slug: string; name: string }[] }) {
   const CAT_ORDER = ['fachada', 'sala', 'ornamentos', 'eventos', 'pessoas', 'historicas', 'restauro'];
   const EP_ORDER = ['Histórico', 'Pré-restauro', 'Restauro', 'Atual'];
   const cats = useMemo(() => {
@@ -101,7 +103,7 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
 
       <div className="columns-2 gap-3 sm:gap-4 md:columns-3 lg:columns-4 [&>*]:mb-3 sm:[&>*]:mb-4">
         {list.map((f, i) => (
-          <button key={f.id} onClick={() => setIdx(i)} className="group relative block w-full overflow-hidden rounded-sm bg-ink/10 dark:bg-cream/5">
+          <button key={f.id} onClick={() => setIdx(i)} className="group relative block w-full overflow-hidden rounded-sm bg-ink/20 ring-1 ring-inset ring-ink/10 dark:ring-cream/10">
             <Image
               src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h}
               placeholder="blur" blurDataURL={BLUR}
@@ -142,7 +144,19 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
           </div>
           <figcaption className="border-t border-cream/10 bg-night px-6 pb-6 pt-3.5 text-center font-sans text-[0.8rem] leading-relaxed text-cream/90">
             <span className="mx-auto block max-w-2xl"><span className="font-semibold text-gold">{open.categoryLabel}.</span> {open.alt}</span>
-            <span className="mt-1.5 block font-sans text-[0.66rem] uppercase tracking-eyebrow text-cream/45">Toque na imagem para ampliar</span>
+            {(() => {
+              const na = _normLB(open.alt || '');
+              const pes = pessoasIndex.filter((pe) => pe.name.length >= 6 && na.includes(_normLB(pe.name)));
+              return pes.length ? (
+                <span className="mx-auto mt-2.5 flex max-w-2xl flex-wrap items-center justify-center gap-2">
+                  <span className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-cream/40">Pessoas nesta imagem</span>
+                  {pes.map((pe) => (
+                    <Link key={pe.slug} href={`/pessoas/${pe.slug}`} onClick={close} className="rounded-full border border-cream/20 px-2.5 py-0.5 font-sans text-[0.72rem] text-cream/85 transition-colors hover:border-gold hover:text-gold">{pe.name} →</Link>
+                  ))}
+                </span>
+              ) : null;
+            })()}
+            <span className="mt-2 block font-sans text-[0.66rem] uppercase tracking-eyebrow text-cream/45">Toque na imagem para ampliar</span>
           </figcaption>
         </div>
       )}

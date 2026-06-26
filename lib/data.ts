@@ -92,3 +92,6 @@ export function pessoasNoDocumentario(): { pessoa: Pessoa; t: string; s: number 
   }
   return out.sort((a, b) => a.s - b.s);
 }
+
+// Índice leve (nome + slug) para vincular pessoas em legendas/lightbox sem carregar todo o JSON.
+export const pessoasIndexMin: { slug: string; name: string }[] = pessoasList.map((p) => ({ slug: pessoaSlug(p), name: p.name }));

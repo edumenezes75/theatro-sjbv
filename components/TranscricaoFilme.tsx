@@ -2,7 +2,7 @@
 import { useMemo, useState } from 'react';
 
 type Seg = { t: string; s: number; text: string; link?: { href: string; label: string } };
-const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const norm = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 
 export default function TranscricaoFilme({ segs, youtubeId }: { segs: Seg[]; youtubeId: string }) {
   const [q, setQ] = useState('');
