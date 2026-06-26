@@ -12,14 +12,22 @@
    "title": "Rinque de patinação",
    "text": "Em 1929, a sala foi adaptada para patinação.",
    "type": "documentado",
-   "source": "Cronologia em Menezes 2014"
+   "source": "Cronologia em Menezes 2014",
+   "filme": {
+    "s": 1301,
+    "t": "21:41"
+   }
   },
   {
    "id": "c003",
    "title": "Uma rádio no segundo andar",
    "text": "A Rádio Difusora ZYJ-6 funcionou no edifício entre 1958 e 1963, com apresentações ao vivo.",
    "type": "documentado",
-   "source": "Menezes 2014, pp. 109–110"
+   "source": "Menezes 2014, pp. 109–110",
+   "filme": {
+    "s": 1846,
+    "t": "30:46"
+   }
   },
   {
    "id": "c004",
@@ -124,21 +132,33 @@
    "title": "Pela parede do banheiro",
    "text": "Para entrar no cinema sem pagar, meninos pulavam uma abertura na parede que ligava o bar ao banheiro masculino — lembrança que volta em vários depoimentos do filme.",
    "type": "memória",
-   "source": "Documentário Música & Drama (2015)"
+   "source": "Documentário Música & Drama (2015)",
+   "filme": {
+    "s": 341,
+    "t": "05:41"
+   }
   },
   {
    "id": "c019",
    "title": "A fileira que ninguém ocupava",
    "text": "Uma fileira da plateia ficava sempre vazia: do camarote, acima, alguém cuspia em quem se sentasse ali.",
    "type": "memória",
-   "source": "Documentário Música & Drama (2015)"
+   "source": "Documentário Música & Drama (2015)",
+   "filme": {
+    "s": 254,
+    "t": "04:14"
+   }
   },
   {
    "id": "c020",
    "title": "Um lugar só para dormir",
    "text": "Um senhor pagava por mês um lugar na última fila apenas para dormir — em casa, sofria de insônia.",
    "type": "memória",
-   "source": "Documentário Música & Drama (2015)"
+   "source": "Documentário Música & Drama (2015)",
+   "filme": {
+    "s": 297,
+    "t": "04:57"
+   }
   },
   {
    "id": "c021",
@@ -187,14 +207,22 @@
    "title": "O coqueluche da cidade",
    "text": "Nos anos 1950, o Bar Theatro, instalado na fachada, era coqueluche em São João da Boa Vista: a coalhada e o Bauru do bar ficaram famosos, e a calçada virava ponto de encontro entre uma sessão e outra do cinema.",
    "type": "documentado",
-   "source": "Documentário Música & Drama (28:32)"
+   "source": "Documentário Música & Drama (28:32)",
+   "filme": {
+    "s": 1712,
+    "t": "28:32"
+   }
   },
   {
    "id": "cinema-de-segunda-classe",
    "title": "O “cinema de segunda classe”",
    "text": "Na fase final do cinema, já deteriorado e sujo, o prédio virou alvo de chacota na cidade — “o cinema de segunda classe, que passava os filmes que não valiam nada”, lembra um depoimento. Foi o fundo do poço que antecedeu a mobilização pela salvação do Theatro.",
    "type": "documentado",
-   "source": "Documentário Música & Drama (38:18)"
+   "source": "Documentário Música & Drama (38:18)",
+   "filme": {
+    "s": 2298,
+    "t": "38:18"
+   }
   }
  ]
 }
