@@ -1,1411 +1,1456 @@
 [
-  {
-    "id": "t001",
-    "date": "1911",
-    "display": "1911",
-    "title": "A ideia ganha força",
-    "summary": "Moradores e lideranças defendem uma casa de espetáculos compatível com o crescimento da cidade.",
-    "era": "origem",
-    "tags": [
-      "origem",
-      "cidade"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, pp. 29–30"
-    ]
-  },
-  {
-    "id": "t002",
-    "date": "1912-09-30",
-    "display": "30 set. 1912",
-    "title": "Incentivos municipais",
-    "summary": "Lei municipal concede favores e garantia de juros para viabilizar a construção.",
-    "era": "origem",
-    "tags": [
-      "legislação",
-      "financiamento"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, p. 31"
-    ]
-  },
-  {
-    "id": "t003",
-    "date": "1913-02-24",
-    "display": "24 fev. 1913",
-    "title": "Companhia Teatral Sanjoanense",
-    "summary": "A sociedade é constituída e elege sua primeira diretoria.",
-    "era": "construção",
-    "tags": [
-      "companhia",
-      "acionistas"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Estatutos; Menezes 2014, pp. 31–35"
-    ]
-  },
-  {
-    "id": "t042",
-    "date": "1913-05",
-    "display": "mai. 1913",
-    "title": "Projeto de José Pucci",
-    "summary": "O arquiteto e escultor paulista José Pucci apresenta o projeto da sala em ferradura, modelo italiano de galerias superpostas.",
-    "era": "construção",
-    "tags": [
-      "projeto",
-      "arquitetura"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t004",
-    "date": "1913-05-13",
-    "display": "13 maio 1913",
-    "title": "Pedra fundamental",
-    "summary": "Documentos, jornais, dinheiro e cartões são depositados sob a entrada principal.",
-    "era": "construção",
-    "tags": [
-      "obra",
-      "cerimônia"
-    ],
-    "status": "documentado",
-    "sources": [
-      "A Cidade de São João, 18 maio 1913; Menezes 2014, pp. 38–39"
-    ]
-  },
-  {
-    "id": "t043",
-    "date": "1914",
-    "display": "1914",
-    "title": "Grêmio Dramático Amor à Arte",
-    "summary": "Estreia um novo grêmio dramático, o Amor à Arte, que atuou com frequência no palco ao longo do ano.",
-    "era": "construção",
-    "tags": [
-      "teatro amador",
-      "companhia"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t005",
-    "date": "1914-10-31",
-    "display": "31 out. 1914",
-    "title": "Primeira noite",
-    "summary": "O Theatro é inaugurado com banda, discurso e a peça Uma Causa Célebre.",
-    "era": "primeiras décadas",
-    "tags": [
-      "inauguração",
-      "teatro"
-    ],
-    "status": "documentado",
-    "sources": [
-      "O Município, 31 out. e 7 nov. 1914; Menezes 2014, pp. 40–41"
-    ]
-  },
-  {
-    "id": "t006",
-    "date": "1915",
-    "display": "1915",
-    "title": "Muitas formas de ocupar a sala",
-    "summary": "Companhias, cinema, festivais, bares e o primeiro baile de Carnaval integram a programação.",
-    "era": "primeiras décadas",
-    "tags": [
-      "programação",
-      "baile",
-      "cinema"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, pp. 42–69"
-    ]
-  },
-  {
-    "id": "t044",
-    "date": "1915-01-24",
-    "display": "24 jan. 1915",
-    "title": "Espetáculos em benefício da Matriz",
-    "summary": "Três peças de artistas locais — “A Gota D’Água”, “A Terra das Maravilhas” e “Capricho Feminino” — em benefício da Igreja Matriz.",
-    "era": "primeiras décadas",
-    "tags": [
-      "teatro",
-      "beneficente"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t045",
-    "date": "1916-01-16",
-    "display": "16 jan. 1916",
-    "title": "Primeiro cinema: O Estojo dos Milhões",
-    "summary": "Exibição do filme “O Estojo dos Milhões”, em benefício da Cruz Vermelha Italiana — uma das primeiras sessões de cinema na casa.",
-    "era": "primeiras décadas",
-    "tags": [
-      "cinema",
-      "beneficente"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t046",
-    "date": "1917-03-25",
-    "display": "25 mar. 1917",
-    "title": "Companhia Arruda de Comédia",
-    "summary": "Com 26 artistas, estreia a Companhia Arruda, trazendo operetas, vaudevilles, revistas e variedades.",
-    "era": "primeiras décadas",
-    "tags": [
-      "teatro profissional",
-      "companhia"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t007",
-    "date": "1918",
-    "display": "1918",
-    "title": "Epidemia de gripe",
-    "summary": "Locais de aglomeração são fechados, afetando a atividade cultural.",
-    "era": "primeiras décadas",
-    "tags": [
-      "crise",
-      "saúde"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, p. 55"
-    ]
-  },
-  {
-    "id": "t008",
-    "date": "1919-12-09",
-    "display": "9 dez. 1919",
-    "title": "Comício pró-Rui Barbosa",
-    "summary": "A sala recebe um grande evento político, registrado em fotografia.",
-    "era": "primeiras décadas",
-    "tags": [
-      "política",
-      "fotografia"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, p. 52"
-    ]
-  },
-  {
-    "id": "t047",
-    "date": "1920-09-07",
-    "display": "7 set. 1920",
-    "title": "Apresentação do Grupo Escolar Joaquim José",
-    "summary": "Apresentação musical do Grupo Escolar Joaquim José no palco do Theatro.",
-    "era": "primeiras décadas",
-    "tags": [
-      "música",
-      "educação"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t048",
-    "date": "1923-09-02",
-    "display": "2 set. 1923",
-    "title": "A Pequena Marmita",
-    "summary": "A Companhia Zaparolli, do maestro Aldo Zaparolli, encena a peça “A Pequena Marmita”.",
-    "era": "primeiras décadas",
-    "tags": [
-      "teatro",
-      "companhia"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t085",
-    "date": "1924",
-    "display": "1924",
-    "title": "Rádio e guarda no edifício",
-    "summary": "Durante a Revolução de 1924, os pavimentos superiores abrigam a Rádio Cultura e a Guarda Municipal Provisória — o teatro como infraestrutura pública em tempo de crise.",
-    "era": "primeiras décadas",
-    "tags": [
-      "rádio",
-      "cidade"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Jeronimo, 2020, pp. 130–149"
-    ]
-  },
-  {
-    "id": "t009",
-    "date": "1926-03-09",
-    "display": "9 mar. 1926",
-    "title": "Guerra aos Homens",
-    "summary": "Festival com elenco feminino torna-se sucesso do teatro amador local.",
-    "era": "primeiras décadas",
-    "tags": [
-      "teatro amador",
-      "mulheres"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, pp. 56–57"
-    ]
-  },
-  {
-    "id": "t049",
-    "date": "1926-10",
-    "display": "out. 1926",
-    "title": "Primeiro Dia da Criança do Brasil",
-    "summary": "O Externato São João organiza, pela primeira vez no país, um espetáculo comemorativo do Dia da Criança, data recém-criada.",
-    "era": "primeiras décadas",
-    "tags": [
-      "educação",
-      "curiosidade"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t050",
-    "date": "1927-01-03",
-    "display": "3 jan. 1927",
-    "title": "Festival da Santa Casa",
-    "summary": "Grandioso festival artístico em benefício da Santa Casa de Misericórdia, pelo Grupo da Meia Noite.",
-    "era": "primeiras décadas",
-    "tags": [
-      "festival",
-      "beneficente"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t051",
-    "date": "1928-02-23",
-    "display": "23 fev. 1928",
-    "title": "Companhia Nacional de Comédias",
-    "summary": "A companhia apresenta “Greve Geral” e “Ministro do Supremo”, com Cordélia Ferreira e Plácido Ferreira.",
-    "era": "primeiras décadas",
-    "tags": [
-      "teatro profissional",
-      "companhia"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t010",
-    "date": "1929",
-    "display": "1929",
-    "title": "Rinque de patinação",
-    "summary": "A sala é adaptada para uma forma de diversão muito diferente do teatro.",
-    "era": "primeiras décadas",
-    "tags": [
-      "curiosidade",
-      "uso"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Cronologia em Menezes 2014"
-    ]
-  },
-  {
-    "id": "t052",
-    "date": "1930-01-20",
-    "display": "20 jan. 1930",
-    "title": "Sociedade de Cultura Artística",
-    "summary": "É empossada a primeira diretoria da Sociedade de Cultura Artística, que traria intelectuais e artistas à cidade.",
-    "era": "primeiras décadas",
-    "tags": [
-      "cidade",
-      "gestão"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t053",
-    "date": "1930-02-09",
-    "display": "9 fev. 1930",
-    "title": "O menino pianista Armando Marchesotti",
-    "summary": "Audição do menino pianista cego Armando Marchesotti.",
-    "era": "primeiras décadas",
-    "tags": [
-      "música",
-      "recital"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t054",
-    "date": "1930-03-05",
-    "display": "5 mar. 1930",
-    "title": "Operetas de Clara Weiss",
-    "summary": "Apresentação da Companhia Italiana de Operetas Clara Weiss.",
-    "era": "primeiras décadas",
-    "tags": [
-      "opereta",
-      "companhia"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t011",
-    "date": "1930-06",
-    "display": "jun. 1930",
-    "title": "Villa-Lobos e Souza Lima",
-    "summary": "A passagem do conjunto de Villa-Lobos, com Souza Lima ao piano; Lucília e Anita Villa-Lobos são associadas ao episódio.",
-    "era": "primeiras décadas",
-    "tags": [
-      "música"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, pp. 68 e 102"
-    ]
-  },
-  {
-    "id": "t055",
-    "date": "1931-02-04",
-    "display": "4 fev. 1931",
-    "title": "Bailes de Carnaval com Jazz Band",
-    "summary": "Bailes de Carnaval animados por jazz band, com três dias de duração.",
-    "era": "primeiras décadas",
-    "tags": [
-      "baile",
-      "música popular"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t056",
-    "date": "1931-09",
-    "display": "set. 1931",
-    "title": "Jararaca e a revista A Nota La Hi",
-    "summary": "O humorista Calazans, o popular Jararaca, estreia a revista “A Nota La Hi” com um grupo de artistas.",
-    "era": "primeiras décadas",
-    "tags": [
-      "teatro",
-      "música popular"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t087",
-    "date": "1931",
-    "display": "1931",
-    "title": "Conferência de Guilherme de Almeida",
-    "summary": "O poeta modernista realiza conferência no Theatro.",
-    "era": "primeiras décadas",
-    "tags": [
-      "literatura"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Jeronimo, 2020"
-    ]
-  },
-  {
-    "id": "t012",
-    "date": "1932-03-31",
-    "display": "31 mar. 1932",
-    "title": "Branca de Neve",
-    "summary": "A opereta de Padre Nicolau Miranda reúne artistas e músicos da cidade.",
-    "era": "primeiras décadas",
-    "tags": [
-      "opereta",
-      "música local"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, pp. 66–67"
-    ]
-  },
-  {
-    "id": "t057",
-    "date": "1932-06-04",
-    "display": "4 jun. 1932",
-    "title": "Homenagem a Romão Gomes",
-    "summary": "Noite festiva em homenagem ao comandante Romão Gomes, da Revolução Constitucionalista de 1932.",
-    "era": "primeiras décadas",
-    "tags": [
-      "cidade",
-      "cerimônia"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t058",
-    "date": "1933-09-08",
-    "display": "8 set. 1933",
-    "title": "Festival Infantil",
-    "summary": "Festival infantil em homenagem ao Padre Josué Silveira de Mattos.",
-    "era": "primeiras décadas",
-    "tags": [
-      "festival",
-      "educação"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t013",
-    "date": "1937",
-    "display": "1937",
-    "title": "Predomínio do cinema",
-    "summary": "O prédio é fechado para reformas; Oliveira Neto adquire a maioria das ações e moderniza a projeção.",
-    "era": "cine theatro",
-    "tags": [
-      "cinema",
-      "propriedade"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, p. 73"
-    ]
-  },
-  {
-    "id": "t088",
-    "date": "1944",
-    "display": "1944",
-    "title": "Cine Avenida amplia a concorrência",
-    "summary": "A inauguração de outro cinema na cidade aumenta a disputa por público.",
-    "era": "cine theatro",
-    "tags": [
-      "cinema",
-      "cidade"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Jeronimo, 2020"
-    ]
-  },
-  {
-    "id": "t014",
-    "date": "1945",
-    "display": "1945",
-    "title": "Nova reabertura",
-    "summary": "A peça Um Retrato de Mulher marca a retomada de atividades.",
-    "era": "cine theatro",
-    "tags": [
-      "teatro"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, p. 83"
-    ]
-  },
-  {
-    "id": "t059",
-    "date": "1945-09-21",
-    "display": "21 set. 1945",
-    "title": "Noite da Brasilidade",
-    "summary": "Espetáculo Noite da Brasilidade, com Marly Evangelina e outros artistas locais, após a reabertura.",
-    "era": "cine theatro",
-    "tags": [
-      "música",
-      "teatro"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t015",
-    "date": "1946-09-11",
-    "display": "11 set. 1946",
-    "title": "Guiomar Novaes no palco",
-    "summary": "A pianista apresenta um recital para seus conterrâneos.",
-    "era": "cine theatro",
-    "tags": [
-      "música",
-      "Guiomar Novaes"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Programa; Menezes 2014, pp. 82–83"
-    ]
-  },
-  {
-    "id": "t060",
-    "date": "1947-06-11",
-    "display": "11 jun. 1947",
-    "title": "Festival pela nova Santa Casa",
-    "summary": "As cortinas se abrem para um festival artístico em benefício do novo prédio da Santa Casa.",
-    "era": "cine theatro",
-    "tags": [
-      "festival",
-      "beneficente"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t061",
-    "date": "1949-08-04",
-    "display": "4 ago. 1949",
-    "title": "Recital de piano de Miriam Pipano",
-    "summary": "Recital de piano da professora Miriam Pipano.",
-    "era": "cine theatro",
-    "tags": [
-      "música",
-      "recital"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t016",
-    "date": "1951",
-    "display": "1951",
-    "title": "Sociedade Cultural de Debates",
-    "summary": "Conferências, literatura, música e debates ocupam o segundo andar.",
-    "era": "cine theatro",
-    "tags": [
-      "literatura",
-      "debate"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, pp. 103–105"
-    ]
-  },
-  {
-    "id": "t062",
-    "date": "1952-07-23",
-    "display": "23 jul. 1952",
-    "title": "Sonhos de Fada",
-    "summary": "Espetáculo infantil “Sonhos de Fada”, dirigido por Dona Beloca, com grande número de crianças.",
-    "era": "cine theatro",
-    "tags": [
-      "teatro",
-      "dança"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t017",
-    "date": "1952-09-10",
-    "display": "10 set. 1952",
-    "title": "Procópio Ferreira",
-    "summary": "O ator apresenta Esta Mulher é Minha e Deus lhe Pague.",
-    "era": "cine theatro",
-    "tags": [
-      "teatro profissional"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, p. 90"
-    ]
-  },
-  {
-    "id": "t063",
-    "date": "1953-05-10",
-    "display": "10 mai. 1953",
-    "title": "Os Contos de Hoffmann",
-    "summary": "A Sociedade Cultural de Debates apresenta o ballet “Os Contos de Hoffmann”, com a bailarina Moira Shear.",
-    "era": "cine theatro",
-    "tags": [
-      "dança",
-      "música"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t064",
-    "date": "1954-06-21",
-    "display": "21 jun. 1954",
-    "title": "Festival da Festa de São João",
-    "summary": "Grandioso festival de teatro, canto e dança em benefício da festa de São João.",
-    "era": "cine theatro",
-    "tags": [
-      "festival",
-      "dança"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t065",
-    "date": "1957",
-    "display": "1957",
-    "title": "Transviados e o grupo GAMA",
-    "summary": "A peça “Transviados” é um dos grandes sucessos do Teatro-Escola, ano em que se forma o grupo GAMA.",
-    "era": "cine theatro",
-    "tags": [
-      "teatro amador"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t018",
-    "date": "1958/1963",
-    "display": "1958–1963",
-    "title": "Rádio Difusora ZYJ-6",
-    "summary": "A emissora funciona no segundo andar com apresentações ao vivo.",
-    "era": "cine theatro",
-    "tags": [
-      "rádio",
-      "música"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, pp. 109–111"
-    ]
-  },
-  {
-    "id": "t066",
-    "date": "1961-06-10",
-    "display": "10 jun. 1961",
-    "title": "Procópio Ferreira retorna",
-    "summary": "Em nova visita a São João da Boa Vista, o ator Procópio Ferreira volta ao Theatro.",
-    "era": "cine theatro",
-    "tags": [
-      "teatro profissional"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t019",
-    "date": "1963",
-    "display": "a partir de 1963",
-    "title": "Biblioteca Municipal",
-    "summary": "Dependências superiores passam a abrigar a biblioteca.",
-    "era": "cine theatro",
-    "tags": [
-      "biblioteca",
-      "educação"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, p. 110"
-    ]
-  },
-  {
-    "id": "t067",
-    "date": "1963-10-09",
-    "display": "9 out. 1963",
-    "title": "Vânia Noronha toca O Sole Mio",
-    "summary": "Aos sete anos, Vânia Noronha toca “O Sole Mio” no palco do Theatro.",
-    "era": "cine theatro",
-    "tags": [
-      "música",
-      "recital"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t086",
-    "date": "1966",
-    "display": "1966",
-    "title": "Cacilda Becker e Walmor Chagas",
-    "summary": "Dois grandes nomes do teatro brasileiro sobem ao palco sanjoanense.",
-    "era": "declínio",
-    "tags": [
-      "teatro"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Jeronimo, 2020"
-    ]
-  },
-  {
-    "id": "t020",
-    "date": "1967-02",
-    "display": "fev. 1967",
-    "title": "Frisas e camarotes removidos",
-    "summary": "A reforma amplia o número de cadeiras do cinema e descaracteriza a sala.",
-    "era": "declínio",
-    "tags": [
-      "arquitetura",
-      "cinema"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, p. 98"
-    ]
-  },
-  {
-    "id": "t021",
-    "date": "1968",
-    "display": "1968",
-    "title": "Roberto Carlos",
-    "summary": "O cantor se apresenta no Theatro.",
-    "era": "declínio",
-    "tags": [
-      "música popular"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, p. 98"
-    ]
-  },
-  {
-    "id": "t022",
-    "date": "1981-08-26",
-    "display": "26 ago. 1981",
-    "title": "Utilidade pública",
-    "summary": "A Lei nº 219 cria proteção inicial ao imóvel.",
-    "era": "preservação",
-    "tags": [
-      "legislação",
-      "patrimônio"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Lei Municipal nº 219/1981; Menezes 2014, p. 115"
-    ]
-  },
-  {
-    "id": "t068",
-    "date": "1982",
-    "display": "1982",
-    "title": "Dercy Gonçalves e Agnaldo Rayol",
-    "summary": "Já em decadência como cinema, o palco ainda recebe shows de Dercy Gonçalves e Agnaldo Rayol.",
-    "era": "restauro",
-    "tags": [
-      "teatro",
-      "música popular"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t023",
-    "date": "1982/1983",
-    "display": "1982–1983",
-    "title": "Mobilização contra a demolição",
-    "summary": "Artistas, imprensa e moradores pressionam pela preservação.",
-    "era": "preservação",
-    "tags": [
-      "mobilização",
-      "cidadania"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, pp. 115–120"
-    ]
-  },
-  {
-    "id": "t024",
-    "date": "1983/1984",
-    "display": "1983–1984",
-    "title": "Abaixo-assinados pela preservação",
-    "summary": "Quatro abaixo-assinados reúnem 1.026 assinaturas; uma consulta popular mobiliza 1.651 participantes em defesa do prédio.",
-    "era": "preservação",
-    "tags": [
-      "abaixo-assinado"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Jeronimo 2020; Menezes 2014, p. 116"
-    ]
-  },
-  {
-    "id": "t026",
-    "date": "1984",
-    "display": "1984",
-    "title": "Aldeia de Cristal",
-    "summary": "Teatro e dança ocupam o palco antes do fechamento para as obras.",
-    "era": "preservação",
-    "tags": [
-      "teatro",
-      "dança"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, p. 123"
-    ]
-  },
-  {
-    "id": "t025",
-    "date": "1984-01-05",
-    "display": "5 jan. 1984",
-    "title": "Primeira etapa da compra",
-    "summary": "O município adquire a porção frontal do imóvel.",
-    "era": "preservação",
-    "tags": [
-      "aquisição"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Escritura; Menezes 2014, p. 119"
-    ]
-  },
-  {
-    "id": "t027",
-    "date": "1985-05",
-    "display": "maio 1985",
-    "title": "Compra do palco e dos fundos",
-    "summary": "A aquisição integral viabiliza um projeto cênico completo.",
-    "era": "preservação",
-    "tags": [
-      "aquisição"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Escritura; pesquisa acadêmica"
-    ]
-  },
-  {
-    "id": "t028",
-    "date": "1986",
-    "display": "1986",
-    "title": "Projetos e início das obras",
-    "summary": "Equipe multidisciplinar revisa soluções e busca recursos.",
-    "era": "restauro",
-    "tags": [
-      "projeto",
-      "obra"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, pp. 126–145"
-    ]
-  },
-  {
-    "id": "t029",
-    "date": "1987-01-19",
-    "display": "19 jan. 1987",
-    "title": "Tombamento estadual",
-    "summary": "O CONDEPHAAT reconhece o valor histórico do Theatro.",
-    "era": "restauro",
-    "tags": [
-      "tombamento"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Resolução SC nº 03/1987"
-    ]
-  },
-  {
-    "id": "t030",
-    "date": "1992-12-31",
-    "display": "31 dez. 1992",
-    "title": "Inauguração do foyer",
-    "summary": "A primeira etapa restaurada volta a receber público.",
-    "era": "restauro",
-    "tags": [
-      "foyer",
-      "reabertura"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, p. 163"
-    ]
-  },
-  {
-    "id": "t069",
-    "date": "1993",
-    "display": "1993",
-    "title": "Exposições no foyer restaurado",
-    "summary": "Com o foyer recém-inaugurado, o espaço passa a receber exposições de artes plásticas.",
-    "era": "restauro",
-    "tags": [
-      "exposição",
-      "foyer"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t031",
-    "date": "1995-12-30",
-    "display": "30 dez. 1995",
-    "title": "Show Relembranças",
-    "summary": "A apresentação lota o Theatro ainda em obras, com cadeiras emprestadas.",
-    "era": "restauro",
-    "tags": [
-      "música",
-      "memória"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, pp. 162 e 243–244"
-    ]
-  },
-  {
-    "id": "t070",
-    "date": "1996",
-    "display": "1996",
-    "title": "Orides Fontela lança Teia",
-    "summary": "A poeta sanjoanense Orides Fontela autografa seu livro de poemas “Teia” no foyer do Theatro.",
-    "era": "restauro",
-    "tags": [
-      "literatura"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t032",
-    "date": "1996-09-07",
-    "display": "7 set. 1996",
-    "title": "Semana Guiomar Novaes em obras",
-    "summary": "O festival ocupa o edifício antes da conclusão da sala.",
-    "era": "restauro",
-    "tags": [
-      "festival",
-      "Guiomar Novaes"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, p. 133"
-    ]
-  },
-  {
-    "id": "t071",
-    "date": "1997-03-06",
-    "display": "6 mar. 1997",
-    "title": "Centenário de Fernando Furlanetto",
-    "summary": "Exposição das obras e fotos do escultor sanjoanense Fernando Furlanetto, no foyer — origem da Semana Furlanetto.",
-    "era": "restauro",
-    "tags": [
-      "exposição"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t033",
-    "date": "1998-01-19",
-    "display": "19 jan. 1998",
-    "title": "Fundação Oliveira Neto",
-    "summary": "A entidade é criada para captar recursos para o restauro.",
-    "era": "restauro",
-    "tags": [
-      "gestão",
-      "financiamento"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, p. 133"
-    ]
-  },
-  {
-    "id": "t072",
-    "date": "1998-10-10",
-    "display": "10 out. 1998",
-    "title": "I Bienal de Artes Visuais",
-    "summary": "Com o edifício ainda em obras, a I Bienal reúne 118 artistas na plateia do Theatro.",
-    "era": "restauro",
-    "tags": [
-      "exposição",
-      "festival"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t073",
-    "date": "1999-05-05",
-    "display": "5 mai. 1999",
-    "title": "II Semana Furlanetto",
-    "summary": "Dedicada à fotografia, reúne nomes como Vik Muniz e Thomaz Farkas, dentro do Theatro em obras.",
-    "era": "restauro",
-    "tags": [
-      "exposição",
-      "fotografia"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t074",
-    "date": "2000",
-    "display": "2000",
-    "title": "Sala de Múltiplo Uso Dilo Gianelli",
-    "summary": "É inaugurada a Sala de Múltiplo Uso, com poltronas e equipamentos multimídia, hoje sede do Cineclube Beloca.",
-    "era": "restauro",
-    "tags": [
-      "obra",
-      "uso"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t075",
-    "date": "2000-11-24",
-    "display": "24 nov. 2000",
-    "title": "Badi Assad no Theatro",
-    "summary": "Badi Assad e Simone Soul apresentam-se e promovem campanha de doações para a restauração.",
-    "era": "restauro",
-    "tags": [
-      "música",
-      "beneficente"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t076",
-    "date": "2001-01-05",
-    "display": "5 jan. 2001",
-    "title": "Duo Assad",
-    "summary": "Os irmãos Sérgio e Odair Assad apresentam-se no Theatro, ainda em obras.",
-    "era": "restauro",
-    "tags": [
-      "música",
-      "recital"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t034",
-    "date": "2002-09",
-    "display": "set. 2002",
-    "title": "Reabertura da sala",
-    "summary": "A 25ª Semana Guiomar Novaes marca o reencontro com o público.",
-    "era": "reabertura",
-    "tags": [
-      "reabertura",
-      "festival"
-    ],
-    "status": "data em revisão",
-    "sources": [
-      "Menezes 2014, pp. 162, 175, 238 e 258"
-    ]
-  },
-  {
-    "id": "t035",
-    "date": "2003-04-28",
-    "display": "28 abr. 2003",
-    "title": "Criação da AMITE",
-    "summary": "Por convênio autorizado em 2003, a associação assume a gestão do equipamento por cerca de dezoito anos.",
-    "era": "contemporâneo",
-    "tags": [
-      "AMITE",
-      "gestão"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Lei municipal nº 1.194/2003; Menezes 2014, p. 175"
-    ]
-  },
-  {
-    "id": "t077",
-    "date": "2004",
-    "display": "2004",
-    "title": "Auto de Natal do EntreCantos",
-    "summary": "O Grupo EntreCantos apresenta seu Auto de Natal, repetido em 2005 — sinal do palco de novo vivo.",
-    "era": "contemporâneo",
-    "tags": [
-      "teatro"
-    ],
-    "status": "corroborado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t078",
-    "date": "2007",
-    "display": "2007",
-    "title": "Nasce o Cineclube Beloca",
-    "summary": "Criado para levar ao público filmes fora do circuito comercial, na Sala de Múltiplo Uso.",
-    "era": "contemporâneo",
-    "tags": [
-      "cinema",
-      "programação"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t079",
-    "date": "2007",
-    "display": "2007",
-    "title": "Primeiro Monofest",
-    "summary": "Atores e atrizes da cidade criam o Monofest, festival de monólogos teatrais autorais.",
-    "era": "contemporâneo",
-    "tags": [
-      "teatro amador",
-      "festival"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t080",
-    "date": "2008",
-    "display": "2008",
-    "title": "Fundação Oliveira Neto cumpre sua missão",
-    "summary": "Cumpridos os objetivos de captação para a restauração, a Fundação Oliveira Neto é declarada extinta.",
-    "era": "contemporâneo",
-    "tags": [
-      "gestão",
-      "preservação"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t089",
-    "date": "2009",
-    "display": "2009",
-    "title": "AMITE de utilidade pública",
-    "summary": "A associação é declarada de utilidade pública municipal pela Lei nº 2.537.",
-    "era": "contemporâneo",
-    "tags": [
-      "AMITE",
-      "gestão"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Lei municipal nº 2.537/2009"
-    ]
-  },
-  {
-    "id": "t036",
-    "date": "2011",
-    "display": "2011",
-    "title": "Projeto 1º Movimento",
-    "summary": "Formação coletiva em instrumentos de cordas amplia o papel educativo do Theatro.",
-    "era": "contemporâneo",
-    "tags": [
-      "educação",
-      "música"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, pp. 176–177"
-    ]
-  },
-  {
-    "id": "t037",
-    "date": "2012",
-    "display": "2012",
-    "title": "Festival Assad",
-    "summary": "O festival homenageia a família de músicos ligada à cidade.",
-    "era": "contemporâneo",
-    "tags": [
-      "festival",
-      "música"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, pp. 177 e 204–206"
-    ]
-  },
-  {
-    "id": "t081",
-    "date": "2013",
-    "display": "2013",
-    "title": "Som do Sábado e Teatro de Quinta",
-    "summary": "Nascem dois projetos de incentivo a músicos e grupos amadores locais, com apresentações gratuitas.",
-    "era": "contemporâneo",
-    "tags": [
-      "programação",
-      "música local"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t038",
-    "date": "2014",
-    "display": "2014",
-    "title": "Centenário",
-    "summary": "O livro Theatro Municipal, 100 anos reúne acervo, história e memória.",
-    "era": "contemporâneo",
-    "tags": [
-      "livro",
-      "memória"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014"
-    ]
-  },
-  {
-    "id": "t082",
-    "date": "2014",
-    "display": "2014",
-    "title": "Festival do Choro",
-    "summary": "Na Semana Assad, um Festival do Choro celebra os 90 anos de Jorge Assad.",
-    "era": "contemporâneo",
-    "tags": [
-      "música",
-      "festival"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
-    ]
-  },
-  {
-    "id": "t039",
-    "date": "2015",
-    "display": "2015",
-    "title": "Música & Drama",
-    "summary": "O documentário leva a história do Theatro para a linguagem audiovisual.",
-    "era": "contemporâneo",
-    "tags": [
-      "documentário"
-    ],
-    "status": "documentado",
-    "sources": [
-      "YouTube e arquivo de produção"
-    ]
-  },
-  {
-    "id": "t084",
-    "date": "2021-09-23",
-    "display": "23 set. 2021",
-    "title": "Gestão volta a ser municipal",
-    "summary": "A Lei nº 4.898 encerra o convênio com a AMITE, e a administração passa ao Departamento de Cultura.",
-    "era": "contemporâneo",
-    "tags": [
-      "gestão",
-      "AMITE"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Lei municipal nº 4.898/2021"
-    ]
-  },
-  {
-    "id": "t040",
-    "date": "2024-10-15",
-    "display": "2024",
-    "title": "Nova revitalização",
-    "summary": "Obras anunciadas alcançam palco, foyer e pintura externa.",
-    "era": "contemporâneo",
-    "tags": [
-      "manutenção"
-    ],
-    "status": "oficial",
-    "sources": [
-      "Prefeitura de São João da Boa Vista, 15 out. 2024"
-    ]
-  },
-  {
-    "id": "t083",
-    "date": "2025-09-12",
-    "display": "set. 2025",
-    "title": "48ª Semana Guiomar Novaes",
-    "summary": "O festival anual que homenageia a pianista sanjoanense abre com Renato Teixeira no Theatro Municipal e leva mais de 40 atrações gratuitas à cidade — sinal de um palco plenamente vivo.",
-    "era": "contemporâneo",
-    "tags": [
-      "festival",
-      "música",
-      "programação"
-    ],
-    "status": "documentado",
-    "sources": [
-      "Prefeitura de São João da Boa Vista, 2025",
-      "Agência SP, 2025"
-    ]
-  },
-  {
-    "id": "t041",
-    "date": "2025/2026",
-    "display": "2025–2026",
-    "title": "Um palco ativo",
-    "summary": "Festivais e eventos confirmam a continuidade do uso cultural.",
-    "era": "contemporâneo",
-    "tags": [
-      "programação"
-    ],
-    "status": "oficial",
-    "sources": [
-      "Agenda cultural municipal"
-    ]
-  }
+ {
+  "id": "t001",
+  "date": "1911",
+  "display": "1911",
+  "title": "A ideia ganha força",
+  "summary": "Moradores e lideranças defendem uma casa de espetáculos compatível com o crescimento da cidade.",
+  "era": "origem",
+  "tags": [
+   "origem",
+   "cidade"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, pp. 29–30"
+  ]
+ },
+ {
+  "id": "t002",
+  "date": "1912-09-30",
+  "display": "30 set. 1912",
+  "title": "Incentivos municipais",
+  "summary": "Lei municipal concede favores e garantia de juros para viabilizar a construção.",
+  "era": "origem",
+  "tags": [
+   "legislação",
+   "financiamento"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, p. 31"
+  ]
+ },
+ {
+  "id": "t003",
+  "date": "1913-02-24",
+  "display": "24 fev. 1913",
+  "title": "Companhia Teatral Sanjoanense",
+  "summary": "A sociedade é constituída e elege sua primeira diretoria.",
+  "era": "construção",
+  "tags": [
+   "companhia",
+   "acionistas"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Estatutos; Menezes 2014, pp. 31–35"
+  ]
+ },
+ {
+  "id": "t042",
+  "date": "1913-05",
+  "display": "mai. 1913",
+  "title": "Projeto de José Pucci",
+  "summary": "O arquiteto e escultor paulista José Pucci apresenta o projeto da sala em ferradura, modelo italiano de galerias superpostas.",
+  "era": "construção",
+  "tags": [
+   "projeto",
+   "arquitetura"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t004",
+  "date": "1913-05-13",
+  "display": "13 maio 1913",
+  "title": "Pedra fundamental",
+  "summary": "Documentos, jornais, dinheiro e cartões são depositados sob a entrada principal.",
+  "era": "construção",
+  "tags": [
+   "obra",
+   "cerimônia"
+  ],
+  "status": "documentado",
+  "sources": [
+   "A Cidade de São João, 18 maio 1913; Menezes 2014, pp. 38–39"
+  ]
+ },
+ {
+  "id": "t043",
+  "date": "1914",
+  "display": "1914",
+  "title": "Grêmio Dramático Amor à Arte",
+  "summary": "Estreia um novo grêmio dramático, o Amor à Arte, que atuou com frequência no palco ao longo do ano.",
+  "era": "construção",
+  "tags": [
+   "teatro amador",
+   "companhia"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t005",
+  "date": "1914-10-31",
+  "display": "31 out. 1914",
+  "title": "Primeira noite",
+  "summary": "O Theatro é inaugurado com banda, discurso e a peça Uma Causa Célebre.",
+  "era": "primeiras décadas",
+  "tags": [
+   "inauguração",
+   "teatro"
+  ],
+  "status": "documentado",
+  "sources": [
+   "O Município, 31 out. e 7 nov. 1914; Menezes 2014, pp. 40–41"
+  ]
+ },
+ {
+  "id": "t006",
+  "date": "1915",
+  "display": "1915",
+  "title": "Muitas formas de ocupar a sala",
+  "summary": "Companhias, cinema, festivais, bares e o primeiro baile de Carnaval integram a programação.",
+  "era": "primeiras décadas",
+  "tags": [
+   "programação",
+   "baile",
+   "cinema"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, pp. 42–69"
+  ]
+ },
+ {
+  "id": "t044",
+  "date": "1915-01-24",
+  "display": "24 jan. 1915",
+  "title": "Espetáculos em benefício da Matriz",
+  "summary": "Três peças de artistas locais — “A Gota D’Água”, “A Terra das Maravilhas” e “Capricho Feminino” — em benefício da Igreja Matriz.",
+  "era": "primeiras décadas",
+  "tags": [
+   "teatro",
+   "beneficente"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t045",
+  "date": "1916-01-16",
+  "display": "16 jan. 1916",
+  "title": "Primeiro cinema: O Estojo dos Milhões",
+  "summary": "Exibição do filme “O Estojo dos Milhões”, em benefício da Cruz Vermelha Italiana — uma das primeiras sessões de cinema na casa.",
+  "era": "primeiras décadas",
+  "tags": [
+   "cinema",
+   "beneficente"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t046",
+  "date": "1917-03-25",
+  "display": "25 mar. 1917",
+  "title": "Companhia Arruda de Comédia",
+  "summary": "Com 26 artistas, estreia a Companhia Arruda, trazendo operetas, vaudevilles, revistas e variedades.",
+  "era": "primeiras décadas",
+  "tags": [
+   "teatro profissional",
+   "companhia"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t007",
+  "date": "1918",
+  "display": "1918",
+  "title": "Epidemia de gripe",
+  "summary": "Locais de aglomeração são fechados, afetando a atividade cultural.",
+  "era": "primeiras décadas",
+  "tags": [
+   "crise",
+   "saúde"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, p. 55"
+  ]
+ },
+ {
+  "id": "t008",
+  "date": "1919-12-09",
+  "display": "9 dez. 1919",
+  "title": "Comício pró-Rui Barbosa",
+  "summary": "A sala recebe um grande evento político, registrado em fotografia.",
+  "era": "primeiras décadas",
+  "tags": [
+   "política",
+   "fotografia"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, p. 52"
+  ]
+ },
+ {
+  "id": "t047",
+  "date": "1920-09-07",
+  "display": "7 set. 1920",
+  "title": "Apresentação do Grupo Escolar Joaquim José",
+  "summary": "Apresentação musical do Grupo Escolar Joaquim José no palco do Theatro.",
+  "era": "primeiras décadas",
+  "tags": [
+   "música",
+   "educação"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t048",
+  "date": "1923-09-02",
+  "display": "2 set. 1923",
+  "title": "A Pequena Marmita",
+  "summary": "A Companhia Zaparolli, do maestro Aldo Zaparolli, encena a peça “A Pequena Marmita”.",
+  "era": "primeiras décadas",
+  "tags": [
+   "teatro",
+   "companhia"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t085",
+  "date": "1924",
+  "display": "1924",
+  "title": "Rádio e guarda no edifício",
+  "summary": "Durante a Revolução de 1924, os pavimentos superiores abrigam a Rádio Cultura e a Guarda Municipal Provisória — o teatro como infraestrutura pública em tempo de crise.",
+  "era": "primeiras décadas",
+  "tags": [
+   "rádio",
+   "cidade"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Jeronimo, 2020, pp. 130–149"
+  ]
+ },
+ {
+  "id": "t009",
+  "date": "1926-03-09",
+  "display": "9 mar. 1926",
+  "title": "Guerra aos Homens",
+  "summary": "Festival com elenco feminino torna-se sucesso do teatro amador local.",
+  "era": "primeiras décadas",
+  "tags": [
+   "teatro amador",
+   "mulheres"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, pp. 56–57"
+  ]
+ },
+ {
+  "id": "t049",
+  "date": "1926-10",
+  "display": "out. 1926",
+  "title": "Primeiro Dia da Criança do Brasil",
+  "summary": "O Externato São João organiza, pela primeira vez no país, um espetáculo comemorativo do Dia da Criança, data recém-criada.",
+  "era": "primeiras décadas",
+  "tags": [
+   "educação",
+   "curiosidade"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t050",
+  "date": "1927-01-03",
+  "display": "3 jan. 1927",
+  "title": "Festival da Santa Casa",
+  "summary": "Grandioso festival artístico em benefício da Santa Casa de Misericórdia, pelo Grupo da Meia Noite.",
+  "era": "primeiras décadas",
+  "tags": [
+   "festival",
+   "beneficente"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t051",
+  "date": "1928-02-23",
+  "display": "23 fev. 1928",
+  "title": "Companhia Nacional de Comédias",
+  "summary": "A companhia apresenta “Greve Geral” e “Ministro do Supremo”, com Cordélia Ferreira e Plácido Ferreira.",
+  "era": "primeiras décadas",
+  "tags": [
+   "teatro profissional",
+   "companhia"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t010",
+  "date": "1929",
+  "display": "1929",
+  "title": "Rinque de patinação",
+  "summary": "A sala é adaptada para uma forma de diversão muito diferente do teatro.",
+  "era": "primeiras décadas",
+  "tags": [
+   "curiosidade",
+   "uso"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Cronologia em Menezes 2014"
+  ]
+ },
+ {
+  "id": "t052",
+  "date": "1930-01-20",
+  "display": "20 jan. 1930",
+  "title": "Sociedade de Cultura Artística",
+  "summary": "É empossada a primeira diretoria da Sociedade de Cultura Artística, que traria intelectuais e artistas à cidade.",
+  "era": "primeiras décadas",
+  "tags": [
+   "cidade",
+   "gestão"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t053",
+  "date": "1930-02-09",
+  "display": "9 fev. 1930",
+  "title": "O menino pianista Armando Marchesotti",
+  "summary": "Audição do menino pianista cego Armando Marchesotti.",
+  "era": "primeiras décadas",
+  "tags": [
+   "música",
+   "recital"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t054",
+  "date": "1930-03-05",
+  "display": "5 mar. 1930",
+  "title": "Operetas de Clara Weiss",
+  "summary": "Apresentação da Companhia Italiana de Operetas Clara Weiss.",
+  "era": "primeiras décadas",
+  "tags": [
+   "opereta",
+   "companhia"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t011",
+  "date": "1930-06",
+  "display": "jun. 1930",
+  "title": "Villa-Lobos e Souza Lima",
+  "summary": "A passagem do conjunto de Villa-Lobos, com Souza Lima ao piano; Lucília e Anita Villa-Lobos são associadas ao episódio.",
+  "era": "primeiras décadas",
+  "tags": [
+   "música"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, pp. 68 e 102"
+  ]
+ },
+ {
+  "id": "t055",
+  "date": "1931-02-04",
+  "display": "4 fev. 1931",
+  "title": "Bailes de Carnaval com Jazz Band",
+  "summary": "Bailes de Carnaval animados por jazz band, com três dias de duração.",
+  "era": "primeiras décadas",
+  "tags": [
+   "baile",
+   "música popular"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t056",
+  "date": "1931-09",
+  "display": "set. 1931",
+  "title": "Jararaca e a revista A Nota La Hi",
+  "summary": "O humorista Calazans, o popular Jararaca, estreia a revista “A Nota La Hi” com um grupo de artistas.",
+  "era": "primeiras décadas",
+  "tags": [
+   "teatro",
+   "música popular"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t087",
+  "date": "1931",
+  "display": "1931",
+  "title": "Conferência de Guilherme de Almeida",
+  "summary": "O poeta modernista realiza conferência no Theatro.",
+  "era": "primeiras décadas",
+  "tags": [
+   "literatura"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Jeronimo, 2020"
+  ]
+ },
+ {
+  "id": "t012",
+  "date": "1932-03-31",
+  "display": "31 mar. 1932",
+  "title": "Branca de Neve",
+  "summary": "A opereta de Padre Nicolau Miranda reúne artistas e músicos da cidade.",
+  "era": "primeiras décadas",
+  "tags": [
+   "opereta",
+   "música local"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, pp. 66–67"
+  ]
+ },
+ {
+  "id": "t057",
+  "date": "1932-06-04",
+  "display": "4 jun. 1932",
+  "title": "Homenagem a Romão Gomes",
+  "summary": "Noite festiva em homenagem ao comandante Romão Gomes, da Revolução Constitucionalista de 1932.",
+  "era": "primeiras décadas",
+  "tags": [
+   "cidade",
+   "cerimônia"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t058",
+  "date": "1933-09-08",
+  "display": "8 set. 1933",
+  "title": "Festival Infantil",
+  "summary": "Festival infantil em homenagem ao Padre Josué Silveira de Mattos.",
+  "era": "primeiras décadas",
+  "tags": [
+   "festival",
+   "educação"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t013",
+  "date": "1937",
+  "display": "1937",
+  "title": "Predomínio do cinema",
+  "summary": "O prédio é fechado para reformas; Oliveira Neto adquire a maioria das ações e moderniza a projeção.",
+  "era": "cine theatro",
+  "tags": [
+   "cinema",
+   "propriedade"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, p. 73"
+  ]
+ },
+ {
+  "id": "t088",
+  "date": "1944",
+  "display": "1944",
+  "title": "Cine Avenida amplia a concorrência",
+  "summary": "A inauguração de outro cinema na cidade aumenta a disputa por público.",
+  "era": "cine theatro",
+  "tags": [
+   "cinema",
+   "cidade"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Jeronimo, 2020"
+  ]
+ },
+ {
+  "id": "t014",
+  "date": "1945",
+  "display": "1945",
+  "title": "Nova reabertura",
+  "summary": "A peça Um Retrato de Mulher marca a retomada de atividades.",
+  "era": "cine theatro",
+  "tags": [
+   "teatro"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, p. 83"
+  ]
+ },
+ {
+  "id": "t059",
+  "date": "1945-09-21",
+  "display": "21 set. 1945",
+  "title": "Noite da Brasilidade",
+  "summary": "Espetáculo Noite da Brasilidade, com Marly Evangelina e outros artistas locais, após a reabertura.",
+  "era": "cine theatro",
+  "tags": [
+   "música",
+   "teatro"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t015",
+  "date": "1946-09-11",
+  "display": "11 set. 1946",
+  "title": "Guiomar Novaes no palco",
+  "summary": "A pianista apresenta um recital para seus conterrâneos.",
+  "era": "cine theatro",
+  "tags": [
+   "música",
+   "Guiomar Novaes"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Programa; Menezes 2014, pp. 82–83"
+  ]
+ },
+ {
+  "id": "t060",
+  "date": "1947-06-11",
+  "display": "11 jun. 1947",
+  "title": "Festival pela nova Santa Casa",
+  "summary": "As cortinas se abrem para um festival artístico em benefício do novo prédio da Santa Casa.",
+  "era": "cine theatro",
+  "tags": [
+   "festival",
+   "beneficente"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t061",
+  "date": "1949-08-04",
+  "display": "4 ago. 1949",
+  "title": "Recital de piano de Miriam Pipano",
+  "summary": "Recital de piano da professora Miriam Pipano.",
+  "era": "cine theatro",
+  "tags": [
+   "música",
+   "recital"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t016",
+  "date": "1951",
+  "display": "1951",
+  "title": "Sociedade Cultural de Debates",
+  "summary": "Conferências, literatura, música e debates ocupam o segundo andar.",
+  "era": "cine theatro",
+  "tags": [
+   "literatura",
+   "debate"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, pp. 103–105"
+  ]
+ },
+ {
+  "id": "t062",
+  "date": "1952-07-23",
+  "display": "23 jul. 1952",
+  "title": "Sonhos de Fada",
+  "summary": "Espetáculo infantil “Sonhos de Fada”, dirigido por Dona Beloca, com grande número de crianças.",
+  "era": "cine theatro",
+  "tags": [
+   "teatro",
+   "dança"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t017",
+  "date": "1952-09-10",
+  "display": "10 set. 1952",
+  "title": "Procópio Ferreira",
+  "summary": "O ator apresenta Esta Mulher é Minha e Deus lhe Pague.",
+  "era": "cine theatro",
+  "tags": [
+   "teatro profissional"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, p. 90"
+  ]
+ },
+ {
+  "id": "t063",
+  "date": "1953-05-10",
+  "display": "10 mai. 1953",
+  "title": "Os Contos de Hoffmann",
+  "summary": "A Sociedade Cultural de Debates apresenta o ballet “Os Contos de Hoffmann”, com a bailarina Moira Shear.",
+  "era": "cine theatro",
+  "tags": [
+   "dança",
+   "música"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t064",
+  "date": "1954-06-21",
+  "display": "21 jun. 1954",
+  "title": "Festival da Festa de São João",
+  "summary": "Grandioso festival de teatro, canto e dança em benefício da festa de São João.",
+  "era": "cine theatro",
+  "tags": [
+   "festival",
+   "dança"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t065",
+  "date": "1957",
+  "display": "1957",
+  "title": "Transviados e o grupo GAMA",
+  "summary": "A peça “Transviados” é um dos grandes sucessos do Teatro-Escola, ano em que se forma o grupo GAMA.",
+  "era": "cine theatro",
+  "tags": [
+   "teatro amador"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t018",
+  "date": "1958/1963",
+  "display": "1958–1963",
+  "title": "Rádio Difusora ZYJ-6",
+  "summary": "A emissora funciona no segundo andar com apresentações ao vivo.",
+  "era": "cine theatro",
+  "tags": [
+   "rádio",
+   "música"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, pp. 109–111"
+  ]
+ },
+ {
+  "id": "t066",
+  "date": "1961-06-10",
+  "display": "10 jun. 1961",
+  "title": "Procópio Ferreira retorna",
+  "summary": "Em nova visita a São João da Boa Vista, o ator Procópio Ferreira volta ao Theatro.",
+  "era": "cine theatro",
+  "tags": [
+   "teatro profissional"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t019",
+  "date": "1963",
+  "display": "a partir de 1963",
+  "title": "Biblioteca Municipal",
+  "summary": "Dependências superiores passam a abrigar a biblioteca.",
+  "era": "cine theatro",
+  "tags": [
+   "biblioteca",
+   "educação"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, p. 110"
+  ]
+ },
+ {
+  "id": "t067",
+  "date": "1963-10-09",
+  "display": "9 out. 1963",
+  "title": "Vânia Noronha toca O Sole Mio",
+  "summary": "Aos sete anos, Vânia Noronha toca “O Sole Mio” no palco do Theatro.",
+  "era": "cine theatro",
+  "tags": [
+   "música",
+   "recital"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t086",
+  "date": "1966",
+  "display": "1966",
+  "title": "Cacilda Becker e Walmor Chagas",
+  "summary": "Dois grandes nomes do teatro brasileiro sobem ao palco sanjoanense.",
+  "era": "declínio",
+  "tags": [
+   "teatro"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Jeronimo, 2020"
+  ]
+ },
+ {
+  "id": "t020",
+  "date": "1967-02",
+  "display": "fev. 1967",
+  "title": "Frisas e camarotes removidos",
+  "summary": "A reforma amplia o número de cadeiras do cinema e descaracteriza a sala.",
+  "era": "declínio",
+  "tags": [
+   "arquitetura",
+   "cinema"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, p. 98"
+  ]
+ },
+ {
+  "id": "t021",
+  "date": "1968",
+  "display": "1968",
+  "title": "Roberto Carlos",
+  "summary": "O cantor se apresenta no Theatro.",
+  "era": "declínio",
+  "tags": [
+   "música popular"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, p. 98"
+  ]
+ },
+ {
+  "id": "t022",
+  "date": "1981-08-26",
+  "display": "26 ago. 1981",
+  "title": "Utilidade pública",
+  "summary": "A Lei nº 219 cria proteção inicial ao imóvel.",
+  "era": "preservação",
+  "tags": [
+   "legislação",
+   "patrimônio"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Lei Municipal nº 219/1981; Menezes 2014, p. 115"
+  ]
+ },
+ {
+  "id": "t068",
+  "date": "1982",
+  "display": "1982",
+  "title": "Dercy Gonçalves e Agnaldo Rayol",
+  "summary": "Já em decadência como cinema, o palco ainda recebe shows de Dercy Gonçalves e Agnaldo Rayol.",
+  "era": "restauro",
+  "tags": [
+   "teatro",
+   "música popular"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t023",
+  "date": "1982/1983",
+  "display": "1982–1983",
+  "title": "Mobilização contra a demolição",
+  "summary": "Artistas, imprensa e moradores pressionam pela preservação.",
+  "era": "preservação",
+  "tags": [
+   "mobilização",
+   "cidadania"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, pp. 115–120"
+  ]
+ },
+ {
+  "id": "t024",
+  "date": "1983/1984",
+  "display": "1983–1984",
+  "title": "Abaixo-assinados pela preservação",
+  "summary": "Quatro abaixo-assinados reúnem 1.026 assinaturas; uma consulta popular mobiliza 1.651 participantes em defesa do prédio.",
+  "era": "preservação",
+  "tags": [
+   "abaixo-assinado"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Jeronimo 2020; Menezes 2014, p. 116"
+  ]
+ },
+ {
+  "id": "t026",
+  "date": "1984",
+  "display": "1984",
+  "title": "Aldeia de Cristal",
+  "summary": "Teatro e dança ocupam o palco antes do fechamento para as obras.",
+  "era": "preservação",
+  "tags": [
+   "teatro",
+   "dança"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, p. 123"
+  ]
+ },
+ {
+  "id": "t025",
+  "date": "1984-01-05",
+  "display": "5 jan. 1984",
+  "title": "Primeira etapa da compra",
+  "summary": "O município adquire a porção frontal do imóvel.",
+  "era": "preservação",
+  "tags": [
+   "aquisição"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Escritura; Menezes 2014, p. 119"
+  ]
+ },
+ {
+  "id": "t027",
+  "date": "1985-05",
+  "display": "maio 1985",
+  "title": "Compra do palco e dos fundos",
+  "summary": "A aquisição integral viabiliza um projeto cênico completo.",
+  "era": "preservação",
+  "tags": [
+   "aquisição"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Escritura; pesquisa acadêmica"
+  ]
+ },
+ {
+  "id": "t028",
+  "date": "1986",
+  "display": "1986",
+  "title": "Projetos e início das obras",
+  "summary": "Equipe multidisciplinar revisa soluções e busca recursos. Na exposição dos projetos no foyer, o governador Franco Montoro e o secretário José Serra visitaram o Theatro e prometeram recursos para a restauração.",
+  "era": "restauro",
+  "tags": [
+   "projeto",
+   "obra"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, pp. 126–145"
+  ]
+ },
+ {
+  "id": "t029",
+  "date": "1987-01-19",
+  "display": "19 jan. 1987",
+  "title": "Tombamento estadual",
+  "summary": "O CONDEPHAAT reconhece o valor histórico do Theatro.",
+  "era": "restauro",
+  "tags": [
+   "tombamento"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Resolução SC nº 03/1987"
+  ]
+ },
+ {
+  "id": "t030",
+  "date": "1992-12-31",
+  "display": "31 dez. 1992",
+  "title": "Inauguração do foyer",
+  "summary": "A primeira etapa restaurada volta a receber público.",
+  "era": "restauro",
+  "tags": [
+   "foyer",
+   "reabertura"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, p. 163"
+  ]
+ },
+ {
+  "id": "t069",
+  "date": "1993",
+  "display": "1993",
+  "title": "Exposições no foyer restaurado",
+  "summary": "Com o foyer recém-inaugurado, o espaço passa a receber exposições de artes plásticas.",
+  "era": "restauro",
+  "tags": [
+   "exposição",
+   "foyer"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t031",
+  "date": "1995-12-30",
+  "display": "30 dez. 1995",
+  "title": "Show Relembranças",
+  "summary": "A apresentação lota o Theatro ainda em obras, com cadeiras emprestadas.",
+  "era": "restauro",
+  "tags": [
+   "música",
+   "memória"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, pp. 162 e 243–244"
+  ]
+ },
+ {
+  "id": "t070",
+  "date": "1996",
+  "display": "1996",
+  "title": "Orides Fontela lança Teia",
+  "summary": "A poeta sanjoanense Orides Fontela autografa seu livro de poemas “Teia” no foyer do Theatro.",
+  "era": "restauro",
+  "tags": [
+   "literatura"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t032",
+  "date": "1996-09-07",
+  "display": "7 set. 1996",
+  "title": "Semana Guiomar Novaes em obras",
+  "summary": "O festival ocupa o edifício antes da conclusão da sala.",
+  "era": "restauro",
+  "tags": [
+   "festival",
+   "Guiomar Novaes"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, p. 133"
+  ]
+ },
+ {
+  "id": "t071",
+  "date": "1997-03-06",
+  "display": "6 mar. 1997",
+  "title": "Centenário de Fernando Furlanetto",
+  "summary": "Exposição das obras e fotos do escultor sanjoanense Fernando Furlanetto, no foyer — origem da Semana Furlanetto.",
+  "era": "restauro",
+  "tags": [
+   "exposição"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t033",
+  "date": "1998-01-19",
+  "display": "19 jan. 1998",
+  "title": "Fundação Oliveira Neto",
+  "summary": "A entidade é criada para captar recursos para o restauro.",
+  "era": "restauro",
+  "tags": [
+   "gestão",
+   "financiamento"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, p. 133"
+  ]
+ },
+ {
+  "id": "t072",
+  "date": "1998-10-10",
+  "display": "10 out. 1998",
+  "title": "I Bienal de Artes Visuais",
+  "summary": "Com o edifício ainda em obras, a I Bienal reúne 118 artistas na plateia do Theatro.",
+  "era": "restauro",
+  "tags": [
+   "exposição",
+   "festival"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t073",
+  "date": "1999-05-05",
+  "display": "5 mai. 1999",
+  "title": "II Semana Furlanetto",
+  "summary": "Dedicada à fotografia, reúne nomes como Vik Muniz e Thomaz Farkas, dentro do Theatro em obras.",
+  "era": "restauro",
+  "tags": [
+   "exposição",
+   "fotografia"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t074",
+  "date": "2000",
+  "display": "2000",
+  "title": "Sala de Múltiplo Uso Dilo Gianelli",
+  "summary": "É inaugurada a Sala de Múltiplo Uso, com poltronas e equipamentos multimídia, hoje sede do Cineclube Beloca.",
+  "era": "restauro",
+  "tags": [
+   "obra",
+   "uso"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t075",
+  "date": "2000-11-24",
+  "display": "24 nov. 2000",
+  "title": "Badi Assad no Theatro",
+  "summary": "Badi Assad e Simone Soul apresentam-se e promovem campanha de doações para a restauração.",
+  "era": "restauro",
+  "tags": [
+   "música",
+   "beneficente"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t076",
+  "date": "2001-01-05",
+  "display": "5 jan. 2001",
+  "title": "Duo Assad",
+  "summary": "Os irmãos Sérgio e Odair Assad apresentam-se no Theatro, ainda em obras.",
+  "era": "restauro",
+  "tags": [
+   "música",
+   "recital"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t034",
+  "date": "2002-09",
+  "display": "set. 2002",
+  "title": "Reabertura da sala",
+  "summary": "A 25ª Semana Guiomar Novaes marca o reencontro com o público.",
+  "era": "reabertura",
+  "tags": [
+   "reabertura",
+   "festival"
+  ],
+  "status": "data em revisão",
+  "sources": [
+   "Menezes 2014, pp. 162, 175, 238 e 258"
+  ]
+ },
+ {
+  "id": "t035",
+  "date": "2003-04-28",
+  "display": "28 abr. 2003",
+  "title": "Criação da AMITE",
+  "summary": "Por convênio autorizado em 2003, a associação assume a gestão do equipamento por cerca de dezoito anos.",
+  "era": "contemporâneo",
+  "tags": [
+   "AMITE",
+   "gestão"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Lei municipal nº 1.194/2003; Menezes 2014, p. 175"
+  ]
+ },
+ {
+  "id": "t077",
+  "date": "2004",
+  "display": "2004",
+  "title": "Auto de Natal do EntreCantos",
+  "summary": "O Grupo EntreCantos apresenta seu Auto de Natal, repetido em 2005 — sinal do palco de novo vivo.",
+  "era": "contemporâneo",
+  "tags": [
+   "teatro"
+  ],
+  "status": "corroborado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t078",
+  "date": "2007",
+  "display": "2007",
+  "title": "Nasce o Cineclube Beloca",
+  "summary": "Criado para levar ao público filmes fora do circuito comercial, na Sala de Múltiplo Uso.",
+  "era": "contemporâneo",
+  "tags": [
+   "cinema",
+   "programação"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t079",
+  "date": "2007",
+  "display": "2007",
+  "title": "Primeiro Monofest",
+  "summary": "Atores e atrizes da cidade criam o Monofest, festival de monólogos teatrais autorais.",
+  "era": "contemporâneo",
+  "tags": [
+   "teatro amador",
+   "festival"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t080",
+  "date": "2008",
+  "display": "2008",
+  "title": "Fundação Oliveira Neto cumpre sua missão",
+  "summary": "Cumpridos os objetivos de captação para a restauração, a Fundação Oliveira Neto é declarada extinta.",
+  "era": "contemporâneo",
+  "tags": [
+   "gestão",
+   "preservação"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t089",
+  "date": "2009",
+  "display": "2009",
+  "title": "AMITE de utilidade pública",
+  "summary": "A associação é declarada de utilidade pública municipal pela Lei nº 2.537.",
+  "era": "contemporâneo",
+  "tags": [
+   "AMITE",
+   "gestão"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Lei municipal nº 2.537/2009"
+  ]
+ },
+ {
+  "id": "t036",
+  "date": "2011",
+  "display": "2011",
+  "title": "Projeto 1º Movimento",
+  "summary": "Formação coletiva em instrumentos de cordas amplia o papel educativo do Theatro.",
+  "era": "contemporâneo",
+  "tags": [
+   "educação",
+   "música"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, pp. 176–177"
+  ]
+ },
+ {
+  "id": "t037",
+  "date": "2012",
+  "display": "2012",
+  "title": "Festival Assad",
+  "summary": "O festival homenageia a família de músicos ligada à cidade.",
+  "era": "contemporâneo",
+  "tags": [
+   "festival",
+   "música"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, pp. 177 e 204–206"
+  ]
+ },
+ {
+  "id": "t081",
+  "date": "2013",
+  "display": "2013",
+  "title": "Som do Sábado e Teatro de Quinta",
+  "summary": "Nascem dois projetos de incentivo a músicos e grupos amadores locais, com apresentações gratuitas.",
+  "era": "contemporâneo",
+  "tags": [
+   "programação",
+   "música local"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t038",
+  "date": "2014",
+  "display": "2014",
+  "title": "Centenário",
+  "summary": "O livro Theatro Municipal, 100 anos reúne acervo, história e memória. O centenário ganhou um selo postal comemorativo e a exposição fotográfica “Um Século de Theatro”.",
+  "era": "contemporâneo",
+  "tags": [
+   "livro",
+   "memória"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014"
+  ]
+ },
+ {
+  "id": "t082",
+  "date": "2014",
+  "display": "2014",
+  "title": "Festival do Choro",
+  "summary": "Na Semana Assad, um Festival do Choro celebra os 90 anos de Jorge Assad.",
+  "era": "contemporâneo",
+  "tags": [
+   "música",
+   "festival"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+  ]
+ },
+ {
+  "id": "t039",
+  "date": "2015",
+  "display": "2015",
+  "title": "Música & Drama",
+  "summary": "O documentário leva a história do Theatro para a linguagem audiovisual.",
+  "era": "contemporâneo",
+  "tags": [
+   "documentário"
+  ],
+  "status": "documentado",
+  "sources": [
+   "YouTube e arquivo de produção"
+  ]
+ },
+ {
+  "id": "t084",
+  "date": "2021-09-23",
+  "display": "23 set. 2021",
+  "title": "Gestão volta a ser municipal",
+  "summary": "A Lei nº 4.898 encerra o convênio com a AMITE, e a administração passa ao Departamento de Cultura.",
+  "era": "contemporâneo",
+  "tags": [
+   "gestão",
+   "AMITE"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Lei municipal nº 4.898/2021"
+  ]
+ },
+ {
+  "id": "t040",
+  "date": "2024-10-15",
+  "display": "2024",
+  "title": "Nova revitalização",
+  "summary": "Obras anunciadas alcançam palco, foyer e pintura externa.",
+  "era": "contemporâneo",
+  "tags": [
+   "manutenção"
+  ],
+  "status": "oficial",
+  "sources": [
+   "Prefeitura de São João da Boa Vista, 15 out. 2024"
+  ]
+ },
+ {
+  "id": "t083",
+  "date": "2025-09-12",
+  "display": "set. 2025",
+  "title": "48ª Semana Guiomar Novaes",
+  "summary": "O festival anual que homenageia a pianista sanjoanense abre com Renato Teixeira no Theatro Municipal e leva mais de 40 atrações gratuitas à cidade — sinal de um palco plenamente vivo.",
+  "era": "contemporâneo",
+  "tags": [
+   "festival",
+   "música",
+   "programação"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Prefeitura de São João da Boa Vista, 2025",
+   "Agência SP, 2025"
+  ]
+ },
+ {
+  "id": "t041",
+  "date": "2025/2026",
+  "display": "2025–2026",
+  "title": "Um palco ativo",
+  "summary": "Festivais e eventos confirmam a continuidade do uso cultural.",
+  "era": "contemporâneo",
+  "tags": [
+   "programação"
+  ],
+  "status": "oficial",
+  "sources": [
+   "Agenda cultural municipal"
+  ]
+ },
+ {
+  "date": "2023-05-17",
+  "display": "2023",
+  "title": "Em busca de recursos",
+  "summary": "A Prefeitura vai a São Paulo pedir verba à Secretaria de Cultura e Economia Criativa (SEC-SP) para reformar o Theatro e a sala Dilo Gianelli.",
+  "era": "contemporâneo",
+  "tags": [
+   "manutenção"
+  ],
+  "status": "documentado",
+  "sources": [
+   "O Município, 7 ago. 2024"
+  ],
+  "id": "t090"
+ },
+ {
+  "date": "2023-10-01",
+  "display": "2023",
+  "title": "As chuvas e as portas laterais",
+  "summary": "Fortes chuvas expõem a precariedade do prédio: a água invade pelas portas laterais, na rua Antonina Junqueira, e um vídeo do episódio viraliza na cidade.",
+  "era": "contemporâneo",
+  "tags": [
+   "manutenção"
+  ],
+  "status": "documentado",
+  "sources": [
+   "O Município, 7 ago. 2024"
+  ],
+  "id": "t091"
+ },
+ {
+  "date": "2024-08-07",
+  "display": "2024",
+  "title": "A reforma começa pela fachada",
+  "summary": "Após cerca de vinte anos sem manutenção, a reforma começa de fora para dentro — pintura das fachadas, do interior, troca de carpetes e cuidados no palco, portas e janelas —, viabilizada por uma emenda estadual de R$ 170 mil.",
+  "era": "contemporâneo",
+  "tags": [
+   "manutenção"
+  ],
+  "status": "oficial",
+  "sources": [
+   "O Município, 7 ago. 2024"
+  ],
+  "id": "t092"
+ }
 ]
