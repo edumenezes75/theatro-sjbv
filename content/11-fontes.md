@@ -75,5 +75,6 @@ Além do livro do centenário, a memória do Theatro está registrada em obras l
 - Artigo *“Um primor artístico de architectura”* (UNESP, 2021) — DOI 10.18223/hiscult.v10i2.3347: https://doi.org/10.18223/hiscult.v10i2.3347
 - Verbete na Wikipédia: https://pt.wikipedia.org/wiki/Teatro_Municipal_de_S%C3%A3o_Jo%C3%A3o_da_Boa_Vista
 - Jornal *O Município* (reforma de 2024): https://www.omunicipio.jor.br/wordpress/2024/08/07/reforma-do-theatro-municipal-comeca-por-fora/
+- *Vestígios da Memória* (2017) — perfil do Theatro (foto e relato de Eduardo Zappia): https://issuu.com/bdlf/docs/2017_vestigios_da_memoria/s/14846684
 
 <!-- Documento operacional: pesquisa/Base_Pesquisa_Theatro_Municipal_SJBV_v1.xlsx -->
