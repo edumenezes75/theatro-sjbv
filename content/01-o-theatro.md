@@ -1,7 +1,7 @@
 ---
 slug: "/o-theatro"
 title: "O Theatro"
-eyebrow: "Uma casa de sonhos e um patrimônio vivo"
+eyebrow: "Antes de patrimônio, foi desejo e ruína"
 seo_title: "O Theatro Municipal de São João da Boa Vista"
 seo_description: "Entenda por que o Theatro Municipal é um dos principais símbolos culturais de São João da Boa Vista."
 hero_image: "/fotos/hr3-fachada-01.jpg"
@@ -14,8 +14,6 @@ status: "texto público"
 Antes de ser patrimônio, o Theatro foi desejo. Antes de ser restaurado, foi ruína. Antes de voltar a receber grandes espetáculos, precisou ser defendido por quem se recusava a vê-lo desaparecer.
 
 Hoje, ele reúne essas diferentes vidas em um mesmo edifício. É monumento histórico, equipamento cultural, lugar de trabalho, memória de infância, palco de formação e ponto de encontro entre a cidade e artistas de muitas origens.
-
-> **Em um minuto:** o Theatro foi construído entre 1913 e 1914 por uma companhia de acionistas locais; inaugurado em 31 de outubro de 1914; transformado progressivamente em cinema; ameaçado de demolição; comprado pelo município; tombado em 1987; restaurado ao longo de anos e reaberto em 2002.
 
 ## Por que “Theatro”, com h?
 
