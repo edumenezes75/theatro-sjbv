@@ -69,6 +69,10 @@ export default function Home() {
                 <Link href="/visite" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Visitar</Link>
               </div>
             </div>
+            <p className="mt-7 max-w-xl font-sans text-[0.78rem] leading-relaxed text-cream/55">
+              Projeto independente de memória histórica — não é o site oficial. Para programação e bilheteria, consulte os canais da Prefeitura.{' '}
+              <Link href="/sobre" className="whitespace-nowrap underline decoration-cream/30 underline-offset-2 transition-colors hover:text-gold">Sobre o projeto →</Link>
+            </p>
           </Reveal>
           <span className="pointer-events-none absolute right-6 top-44 hidden font-display text-sm italic tracking-wide text-cream/40 lg:block">desde 1914</span>
         </div>

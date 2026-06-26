@@ -27,6 +27,9 @@ const MORE_GROUPS: { title: string | null; items: { href: string; label: string 
   { title: 'Pesquisa', items: [
     { href: '/fontes', label: 'Pesquisa e fontes' },
   ] },
+  { title: 'O projeto', items: [
+    { href: '/sobre', label: 'Sobre o projeto' },
+  ] },
 ];
 const MORE = MORE_GROUPS.flatMap((g) => g.items);
 
