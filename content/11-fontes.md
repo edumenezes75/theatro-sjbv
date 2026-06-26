@@ -31,7 +31,7 @@ Documentário dirigido por Eduardo Menezes, disponível no YouTube. O filme reú
 
 A dissertação de Luis Pedro Dragão Jeronimo, apresentada à Universidade de São Paulo em 2020, é uma referência crítica importante. O trabalho consulta cartórios, jornais, arquivos, plantas e documentação de restauro, permitindo revisar versões consagradas.
 
-Artigos derivados (2021–2023) aprofundam construção, imprensa, memória, uso e participação popular.
+Um artigo derivado — *“Um primor artístico de architectura”: a construção do Theatro Municipal de São João da Boa Vista como símbolo da modernidade* (revista *História e Cultura*, UNESP, v. 10, n. 2, 2021) — analisa o edifício como símbolo da modernidade, da civilidade e do cosmopolitismo da elite cafeeira sanjoanense do início do século XX.
 
 ## Outras obras de referência
 
@@ -72,5 +72,8 @@ Além do livro do centenário, a memória do Theatro está registrada em obras l
 - Revitalização de 2024: https://saojoao.sp.gov.br/noticias/obras-e-servicos-publicos/theatro-municipal-de-sao-joao-da-boa-vista-ganha-nova-vida-preservando-a-historia
 - Hemeroteca Digital: https://bndigital.bn.gov.br/hemeroteca-digital/
 - Arquivo Público do Estado: https://www.arquivoestado.sp.gov.br/
+- Artigo *“Um primor artístico de architectura”* (UNESP, 2021) — DOI 10.18223/hiscult.v10i2.3347: https://doi.org/10.18223/hiscult.v10i2.3347
+- Verbete na Wikipédia: https://pt.wikipedia.org/wiki/Teatro_Municipal_de_S%C3%A3o_Jo%C3%A3o_da_Boa_Vista
+- Jornal *O Município* (reforma de 2024): https://www.omunicipio.jor.br/wordpress/2024/08/07/reforma-do-theatro-municipal-comeca-por-fora/
 
 <!-- Documento operacional: pesquisa/Base_Pesquisa_Theatro_Municipal_SJBV_v1.xlsx -->
