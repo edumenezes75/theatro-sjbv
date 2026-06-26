@@ -1,10 +1,13 @@
 'use client';
 import { useMemo, useState } from 'react';
+import Link from 'next/link';
 import type { Evento } from '@/lib/data';
 import SeloEvidencia from './SeloEvidencia';
 import Reveal from './Reveal';
 
-export default function TimelineExplorer({ eventos }: { eventos: Evento[] }) {
+type EventoRede = Evento & { pessoas?: { slug: string; name: string }[] };
+
+export default function TimelineExplorer({ eventos }: { eventos: EventoRede[] }) {
   const eras = useMemo(() => ['todas', ...Array.from(new Set(eventos.map((e) => e.era)))], [eventos]);
   const [era, setEra] = useState('todas');
   const [q, setQ] = useState('');
@@ -52,6 +55,14 @@ export default function TimelineExplorer({ eventos }: { eventos: Evento[] }) {
               </div>
               <h2 className="mt-1 font-display text-xl leading-tight">{e.title}</h2>
               <p className="mt-2 max-w-reading font-sans text-[0.97rem] leading-relaxed text-ink/80 dark:text-cream/80">{e.summary}</p>
+              {e.pessoas && e.pessoas.length > 0 && (
+                <div className="mt-3 flex flex-wrap items-center gap-2">
+                  <span className="font-sans text-[0.66rem] uppercase tracking-eyebrow text-ink/45 dark:text-cream/45">Quem aparece</span>
+                  {e.pessoas.map((pe) => (
+                    <Link key={pe.slug} href={`/pessoas/${pe.slug}`} className="rounded-full border border-ink/12 px-3 py-0.5 font-sans text-[0.8rem] text-ink/75 transition-colors hover:border-gold/60 hover:text-curtain dark:border-cream/12 dark:text-cream/75 dark:hover:text-gold">{pe.name} →</Link>
+                  ))}
+                </div>
+              )}
             </Reveal>
           </li>
         ))}

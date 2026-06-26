@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { eventos } from '@/lib/data';
+import { eventos, pessoasNoTexto, pessoaSlug } from '@/lib/data';
 import { getPageBySlug } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
@@ -14,6 +14,10 @@ export const metadata: Metadata = {
 
 export default function LinhaDoTempoPage() {
   const page = getPageBySlug('/linha-do-tempo');
+  const eventosRede = eventos.map((e) => ({
+    ...e,
+    pessoas: pessoasNoTexto(`${e.title} ${e.summary}`).map((p) => ({ slug: pessoaSlug(p), name: p.name })),
+  }));
   return (
     <article>
       <ChapterHero eyebrow="Da pedra fundamental ao patrimônio vivo" title="Linha do tempo" />
@@ -25,7 +29,7 @@ export default function LinhaDoTempoPage() {
             Filtre por era, busque por tema ou pessoa e leia cada marco com sua fonte e seu selo de evidência.
           </p>
         </div>
-        <TimelineExplorer eventos={eventos} />
+        <TimelineExplorer eventos={eventosRede} />
         <FontesDaPagina fontes={page?.fontes ?? null} />
       </div>
     </article>
