@@ -18,7 +18,7 @@ export default function AcervoPage() {
   const page = getPageBySlug('/acervo');
   const destaqueIds = ['h206', 'h049', 'h001', 'h050', 'h045', 'h020', 'h193', 'h087', 'h083', 'h016', 'h194', 'h028', 'h184', 'h096', 'h137', 'h024', 'h043', 'h095', 'h094'];
   const destaque = destaqueIds.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList;
-  const CULT = ['arte-cultura', 'eventos', 'ii-semana-fernando-fulanetto', 'fundcao-oliveira-neto'];
+  const CULT = ['arte-cultura', 'eventos'];
   const ev = (f: (typeof fotosList)[number]) => CULT.includes(f.category);
   const doc = (f: (typeof fotosList)[number]) => f.category === 'documentos';
   const hist = fotosList.filter((f) => f.epoca === 'Histórico' && !doc(f)); // inclui a vida cultural de outrora
