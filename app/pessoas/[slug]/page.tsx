@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { pessoasList, pessoaSlug, pessoaBySlug, pessoaById } from '@/lib/data';
 import SeloEvidencia from '@/components/SeloEvidencia';
+import Retrato from '@/components/Retrato';
 import Compartilhar from '@/components/Compartilhar';
 
 const SITE = 'https://www.theatromunicipalsjbv.com.br';
@@ -76,12 +77,7 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
         {p.born && <p className="mt-1 font-sans text-sm text-ink/65 dark:text-cream/75">Nascimento: {p.born}</p>}
       </header>
 
-      {p.image && (
-        <figure className="mt-7 overflow-hidden rounded-sm border border-gold/20 bg-ink/5 dark:bg-cream/5">
-          <img src={p.image} alt={p.imageAlt || p.name} className="mx-auto block max-h-[70vh] w-full object-contain" loading="lazy" decoding="async" />
-          {p.imageAlt && <figcaption className="border-t border-gold/10 px-4 py-2.5 font-sans text-xs leading-snug text-ink/65 dark:text-cream/75">{p.imageAlt}</figcaption>}
-        </figure>
-      )}
+      {p.image && <Retrato src={p.image} alt={p.imageAlt || p.name} caption={p.imageAlt} />}
 
       <div className="mt-7 space-y-4">
         {paras.map((para, i) => (
