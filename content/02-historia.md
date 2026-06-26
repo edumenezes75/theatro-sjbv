@@ -93,8 +93,6 @@ Em determinado momento, a sala chegou a funcionar como rinque de patinação. A 
 > **Você sabia?** O comandante Romão Gomes tinha seu quartel em Águas da Prata, então distrito de São João da Boa Vista, e ficou muito querido na cidade — de sua corporação fez parte a heroína sanjoanense Maria Sguassábia. Por isso, em 1933, os sanjoanenses promoveram em sua honra uma noite festiva no Theatro.
 
 
-> **Você sabia?** Um teatro pode revelar a história de uma cidade não apenas pelo que apresenta no palco, mas também pelas soluções que encontra para continuar aberto.
-
 ### Crises e retomadas
 
 A Primeira Guerra Mundial, a epidemia de gripe, a geada e a crise de 1929 afetaram a economia e o público. Locais de aglomeração foram fechados durante a epidemia. A frequência diminuiu em alguns períodos, mas a atividade artística voltou a ganhar força com produções locais.

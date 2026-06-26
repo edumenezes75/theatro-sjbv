@@ -17,7 +17,7 @@ Esta página reúne episódios apoiados em documentos e lembranças pessoais. Qu
 
 ## Bailes transformavam a plateia
 
-**Selo: fotografias e relatos**
+*Apoiado em fotografias e relatos.*
 
 Mesas, decoração, música e dança ocupavam o lugar das cadeiras. As galerias permaneciam cheias, e a sala inteira funcionava como cenário social.
 
@@ -25,7 +25,7 @@ As imagens dos bailes recompensam o olhar atento: roupas, músicos, decoração,
 
 ## O cinema tinha seu próprio ritual
 
-**Selo: memória oral e crônicas**
+*Apoiado em memória oral e crônicas.*
 
 As sessões começavam antes de a tela acender. Jovens passeavam pela praça, encontravam namorados, compravam doces e guardavam lugares. Matinês e seriados atraíam crianças; sessões noturnas reuniam famílias e casais.
 
@@ -35,7 +35,7 @@ A bomboniere oferecia chocolates, drops e balas que aparecem com nitidez nas lem
 
 ## A galeria também acolhia quem não podia pagar
 
-**Selo: memória pessoal**
+*Apoiado em memória pessoal.*
 
 Uma crônica relata que, depois do início da sessão, o responsável pelo cinema às vezes autorizava a entrada de meninos sem dinheiro — mas apenas para a galeria, acessada pela escada lateral.
 
@@ -43,7 +43,7 @@ O episódio revela tanto a hierarquia dos setores quanto pequenos gestos de incl
 
 ## O Theatro também foi biblioteca
 
-**Selo: registrado e lembrado por frequentadores**
+*Registrado em documentos e lembrado por frequentadores.*
 
 A partir da década de 1960, a Biblioteca Municipal ocupou dependências superiores. Alguns moradores lembram que entraram no edifício primeiro para ler, e só depois para assistir a espetáculos.
 
@@ -51,7 +51,7 @@ Essa experiência amplia a definição de público: o Theatro formava leitores, 
 
 ## Os fantasmas do Theatro
 
-**Selo: crônica literária**
+*Apoiado em uma crônica literária.*
 
 Clovis Vieira imaginou antigos frequentadores e trabalhadores permanecendo no edifício como fantasmas discretos. Eles respeitariam o silêncio durante a apresentação e aplaudiriam quando a arte fosse boa.
 

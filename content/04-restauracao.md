@@ -168,7 +168,7 @@ Esse é o estágio honesto de um edifício de mais de cem anos: vivo e em uso, m
 
 A recuperação do Theatro demonstra que preservar é escolher coletivamente. Exige conhecimento técnico, recursos, negociação, paciência e conflito. Também exige uso: depois de salvo, o edifício precisava voltar a produzir encontros.
 
-Essa história honra não apenas autoridades e especialistas, mas também trabalhadores de obra, desenhistas, eletricistas, carpinteiros, restauradores, funcionários, artistas, doadores e voluntários.
+Essa história pertence tanto a autoridades e especialistas quanto aos trabalhadores de obra, desenhistas, eletricistas, carpinteiros, restauradores, funcionários, artistas, doadores e voluntários.
 
 > **O restauro devolveu a forma. A programação devolveu a vida.**
 
