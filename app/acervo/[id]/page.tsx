@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Compartilhar from '@/components/Compartilhar';
 import Comentarios from '@/components/Comentarios';
 import Image from 'next/image';
-import { fotosList, fotoById, fotoTitulo } from '@/lib/data';
+import { fotosList, fotoById, fotoTitulo, pessoasNoTexto, pessoaSlug } from '@/lib/data';
 
 const SITE = 'https://www.theatromunicipalsjbv.com.br';
 
@@ -30,6 +30,7 @@ export default function FotoPage({ params }: { params: { id: string } }) {
   const titulo = fotoTitulo(f.alt);
   const url = `${SITE}/acervo/${f.id}`;
   const relacionadas = fotosList.filter((o) => o.category === f.category && o.id !== f.id).slice(0, 6);
+  const pessoasNaFoto = pessoasNoTexto(f.alt);
 
   const ld = {
     '@context': 'https://schema.org',
@@ -88,6 +89,17 @@ export default function FotoPage({ params }: { params: { id: string } }) {
           <Compartilhar title={titulo} />
         </div>
       </header>
+
+      {pessoasNaFoto.length > 0 && (
+        <section className="mt-10 border-t border-gold/20 pt-7">
+          <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Pessoas nesta imagem</h2>
+          <div className="mt-4 flex flex-wrap gap-2.5">
+            {pessoasNaFoto.map((pe) => (
+              <Link key={pe.id} href={`/pessoas/${pessoaSlug(pe)}`} className="card-lift rounded-full border border-ink/15 px-4 py-1.5 font-sans text-sm text-ink/80 hover:border-gold/60 hover:text-curtain dark:border-cream/15 dark:text-cream/80 dark:hover:text-gold">{pe.name} →</Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {relacionadas.length > 0 && (
         <section className="mt-12 border-t border-gold/20 pt-8">

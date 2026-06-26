@@ -64,3 +64,9 @@ export function conexoesPessoa(nome: string): { fotos: Foto[]; eventos: Evento[]
   });
   return { fotos: fotosM, eventos: eventosM };
 }
+
+export function pessoasNoTexto(texto: string): Pessoa[] {
+  const blob = _norm(texto || '');
+  if (!blob) return [];
+  return pessoasList.filter((p) => _chavesNome(p.name).some((k) => blob.includes(k)));
+}
