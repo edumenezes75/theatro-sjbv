@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { pessoasList, pessoaSlug, pessoaBySlug, pessoaById, conexoesPessoa, fotoTitulo, pessoaNoDocumentario } from '@/lib/data';
 import SeloEvidencia from '@/components/SeloEvidencia';
 import Retrato from '@/components/Retrato';
+import Monograma from '@/components/Monograma';
 import Compartilhar from '@/components/Compartilhar';
 
 const SITE = 'https://www.theatromunicipalsjbv.com.br';
@@ -80,7 +81,7 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
         {p.born && <p className="mt-1 font-sans text-sm text-ink/65 dark:text-cream/75">Nascimento: {p.born}</p>}
       </header>
 
-      {p.image && <Retrato src={p.image} alt={p.imageAlt || p.name} caption={p.imageAlt} />}
+      {p.image ? <Retrato src={p.image} alt={p.imageAlt || p.name} caption={p.imageAlt} /> : <Monograma name={p.name} />}
 
       <div className="mt-7 space-y-4">
         {paras.map((para, i) => (
