@@ -12,6 +12,7 @@ import Curiosidades from '@/components/Curiosidades';
 import Reveal from '@/components/Reveal';
 import ReadingProgress from '@/components/ReadingProgress';
 import ChapterIndex from '@/components/ChapterIndex';
+import ChapterIndexMobile from '@/components/ChapterIndexMobile';
 import VisitaInfo from '@/components/VisitaInfo';
 import RestauroResumo from '@/components/RestauroResumo';
 import VideoOlhares from '@/components/VideoOlhares';
@@ -139,6 +140,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           <div className="lg:grid lg:grid-cols-[11rem_minmax(0,1fr)] lg:gap-12 xl:gap-16">
             <aside className="hidden lg:block"><ChapterIndex /></aside>
             <div className="min-w-0">
+              <ChapterIndexMobile />
               <p className="read-meta mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>
               <Reveal>
                 <div className="prose-theatro" dangerouslySetInnerHTML={{ __html: page.html }} />
@@ -208,7 +210,10 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
 
         {params.slug === 'memorias' && curiosidadesList.length > 0 && (
           <section className="mt-16 border-t border-gold/25 pt-12">
-            <h2 className="mb-8 font-display text-3xl">Você sabia?</h2>
+            <h2 className="font-display text-3xl">Curiosidades, por tema</h2>
+            <p className="mb-10 mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+              Episódios apoiados em documentos e lembranças, reunidos em cinco capítulos — da fundação aos mistérios da casa.
+            </p>
             <Curiosidades itens={curiosidadesList} />
           </section>
         )}

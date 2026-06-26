@@ -20,8 +20,8 @@ const MORE_GROUPS: { title: string | null; items: { href: string; label: string 
   { title: 'Explorar', items: [
     { href: '/documentario', label: 'Documentário' },
     { href: '/linha-do-tempo', label: 'Linha do tempo' },
-    { href: '/memorias', label: 'Memórias e curiosidades' },
-    { href: '/livro-de-memorias', label: 'Livro de memórias' },
+    { href: '/memorias', label: 'Curiosidades' },
+    { href: '/livro-de-memorias', label: 'Livro de Memórias' },
     { href: '/visita-guiada', label: 'Visita guiada' },
   ] },
   { title: 'Pesquisa', items: [
