@@ -71,7 +71,7 @@ export default function Home() {
               </div>
             </div>
             <p className="mt-7 max-w-xl font-sans text-[0.78rem] leading-relaxed text-cream/55">
-              Projeto independente de memória histórica — não é o site oficial. Para programação e bilheteria, consulte os canais da Prefeitura.{' '}
+              Projeto independente de memória histórica.{' '}
               <Link href="/sobre" className="whitespace-nowrap underline decoration-cream/30 underline-offset-2 transition-colors hover:text-gold">Sobre o projeto →</Link>
             </p>
           </Reveal>

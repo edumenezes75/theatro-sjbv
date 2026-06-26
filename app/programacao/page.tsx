@@ -131,7 +131,7 @@ export default async function ProgramacaoPage() {
         {temOficiais && (
           <p className="mt-4 font-sans text-xs text-ink/50 dark:text-cream/50">
             Agenda atualizada automaticamente a partir da{' '}
-            <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener" className="underline decoration-gold/40 underline-offset-2 hover:text-curtain dark:hover:text-gold">programação oficial da Prefeitura</a>. Confirme sempre datas e ingressos pelos canais oficiais.
+            <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener" className="underline decoration-gold/40 underline-offset-2 hover:text-curtain dark:hover:text-gold">programação oficial da Prefeitura</a>.
           </p>
         )}
 
