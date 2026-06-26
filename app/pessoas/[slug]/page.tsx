@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
-import { pessoasList, pessoaSlug, pessoaBySlug, pessoaById, conexoesPessoa, fotoTitulo } from '@/lib/data';
+import { pessoasList, pessoaSlug, pessoaBySlug, pessoaById, conexoesPessoa, fotoTitulo, pessoaNoDocumentario } from '@/lib/data';
 import SeloEvidencia from '@/components/SeloEvidencia';
 import Retrato from '@/components/Retrato';
 import Compartilhar from '@/components/Compartilhar';
@@ -32,6 +32,7 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
   const paras = (p.bio || p.summary || '').split('\n\n').map((x) => x.trim()).filter(Boolean);
   const url = `${SITE}/pessoas/${params.slug}`;
   const { fotos: fotosRel, eventos: eventosRel } = conexoesPessoa(p.name);
+  const docCitacao = !p.vozFilme ? pessoaNoDocumentario(p.name) : null;
 
   const ld = {
     '@context': 'https://schema.org',
@@ -95,6 +96,13 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
       )}
 
 
+
+      {docCitacao && (
+        <a href={`https://www.youtube.com/watch?v=e2stgoHtlAQ&t=${docCitacao.s}s`} target="_blank" rel="noopener" className="mt-8 inline-flex items-center gap-2 rounded-sm border border-gold/30 px-4 py-2.5 font-sans text-sm text-ink/80 transition-colors hover:border-gold hover:text-curtain dark:text-cream/80 dark:hover:text-gold">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M8 5v14l11-7z" /></svg>
+          Citado(a) no documentário <em>Música &amp; Drama</em> · {docCitacao.t} ↗
+        </a>
+      )}
 
       <div className="mt-10"><Compartilhar title={p.name} /></div>
 

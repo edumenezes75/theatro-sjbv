@@ -1,4 +1,5 @@
 import linhaDoTempo from '@/data/linha-do-tempo.json';
+import transcricaoDoc from '@/data/transcricao.json';
 import pessoas from '@/data/pessoas.json';
 import curiosidades from '@/data/curiosidades.json';
 import imagens from '@/data/imagens.json';
@@ -69,4 +70,25 @@ export function pessoasNoTexto(texto: string): Pessoa[] {
   const blob = _norm(texto || '');
   if (!blob) return [];
   return pessoasList.filter((p) => _chavesNome(p.name).some((k) => blob.includes(k)));
+}
+
+type _SegDoc = { s: string; t: string; text: string };
+const _segsDoc = transcricaoDoc as _SegDoc[];
+
+// Primeira menção de uma pessoa na transcrição do documentário (ou null).
+export function pessoaNoDocumentario(nome: string): { t: string; s: number } | null {
+  const ks = _chavesNome(nome);
+  if (!ks.length) return null;
+  const hit = _segsDoc.find((seg) => { const b = _norm(seg.text); return ks.some((k) => b.includes(k)); });
+  return hit ? { t: hit.t, s: Number(hit.s) } : null;
+}
+
+// Todas as pessoas citadas no documentário, com a primeira menção, em ordem de tempo.
+export function pessoasNoDocumentario(): { pessoa: Pessoa; t: string; s: number }[] {
+  const out: { pessoa: Pessoa; t: string; s: number }[] = [];
+  for (const p of pessoasList) {
+    const m = pessoaNoDocumentario(p.name);
+    if (m) out.push({ pessoa: p, t: m.t, s: m.s });
+  }
+  return out.sort((a, b) => a.s - b.s);
 }
