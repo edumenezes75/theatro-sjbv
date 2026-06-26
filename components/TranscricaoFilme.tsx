@@ -16,7 +16,7 @@ export default function TranscricaoFilme({ segs, youtubeId }: { segs: Seg[]; you
           type="search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="Buscar por palavra, nome ou tema…"
+          placeholder="Busque por palavra, nome ou tema…"
           aria-label="Buscar na transcrição do documentário"
           className="w-full rounded-sm border border-ink/20 bg-transparent px-4 py-3 font-sans text-sm text-ink/90 placeholder:text-ink/45 focus-visible:border-curtain dark:border-cream/20 dark:text-cream/90 dark:placeholder:text-cream/45 dark:focus-visible:border-gold"
         />

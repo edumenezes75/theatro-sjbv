@@ -80,7 +80,7 @@ export default function Moderacao() {
 
       <h2 className="mt-8 font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Pendentes ({pend.length})</h2>
       <div className="mt-3 space-y-3">
-        {pend.length === 0 && <p className="font-sans text-sm italic text-ink/50 dark:text-cream/50">Nada na fila. 🎉</p>}
+        {pend.length === 0 && <p className="font-sans text-sm italic text-ink/50 dark:text-cream/50">Nada na fila — tudo revisado.</p>}
         {pend.map((m) => Card(m, <>
           <button onClick={() => acao('approve', m.id)} className={`${btn} bg-green-700 text-white hover:bg-green-800`}>Aprovar</button>
           <button onClick={() => { if (confirm('Excluir esta mensagem?')) acao('delete', m.id); }} className={`${btn} border border-ink/20 text-ink/70 hover:border-curtain hover:text-curtain dark:border-cream/20 dark:text-cream/70`}>Excluir</button>

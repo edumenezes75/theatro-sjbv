@@ -57,7 +57,7 @@ export default function Comentarios({
 
       {estado === 'ok' ? (
         <div className="mt-6 rounded-sm border border-gold/40 bg-gold/10 px-4 py-4 font-sans text-sm text-ink/85 dark:text-cream/85">
-          Obrigado! Sua mensagem foi enviada e aparecerá aqui após uma breve revisão. 🌟
+          Obrigado! Sua mensagem foi enviada e aparecerá aqui após uma breve revisão.
           <button onClick={() => setEstado('idle')} className="ml-2 underline decoration-gold/50 underline-offset-2">Escrever outra</button>
         </div>
       ) : (

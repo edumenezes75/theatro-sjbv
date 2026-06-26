@@ -22,7 +22,7 @@ export default function TimelineExplorer({ eventos }: { eventos: EventoRede[] })
     <div>
       <div className="sticky top-[60px] z-10 -mx-5 bg-cream/85 px-5 py-4 backdrop-blur-md dark:bg-night/85">
         <input
-          type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Buscar por evento, tema ou pessoa…"
+          type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Busque por evento, tema ou pessoa…"
           className="w-full rounded-full border border-gold/30 bg-transparent px-5 py-2.5 font-sans text-sm outline-none focus:border-curtain dark:focus:border-gold"
         />
         <div className="mt-3 flex flex-wrap gap-2">
