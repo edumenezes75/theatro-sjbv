@@ -37,3 +37,30 @@ export const antesDepoisList = antesDepois as ParAntesDepois[];
 import vozes from '@/data/vozes.json';
 export type Voz = { quote: string; author: string; role: string; source: string };
 export const vozesList = (vozes as { items: Voz[] }).items;
+
+// --- Rede: conexoes de uma pessoa com o acervo e a linha do tempo ---
+// Casamento conservador por NOME citado nas legendas (curadas) e nos eventos.
+const _norm = (s: string) =>
+  s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9 ]/g, ' ');
+
+function _chavesNome(nome: string): string[] {
+  const ks = new Set<string>();
+  ks.add(_norm(nome));
+  const apelidos = nome.match(/[“”"'’]([^“”"'’]+)[“”"'’]/g) || [];
+  apelidos.forEach((a) => ks.add(_norm(a)));
+  return Array.from(ks).filter((k) => k.length >= 6);
+}
+
+export function conexoesPessoa(nome: string): { fotos: Foto[]; eventos: Evento[] } {
+  const ks = _chavesNome(nome);
+  if (!ks.length) return { fotos: [], eventos: [] };
+  const fotosM = fotosList.filter((f) => {
+    const blob = _norm(`${f.alt || ''}`);
+    return ks.some((k) => blob.includes(k));
+  });
+  const eventosM = eventos.filter((e) => {
+    const blob = _norm(`${e.title || ''} ${e.summary || ''}`);
+    return ks.some((k) => blob.includes(k));
+  });
+  return { fotos: fotosM, eventos: eventosM };
+}

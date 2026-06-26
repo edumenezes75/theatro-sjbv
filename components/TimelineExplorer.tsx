@@ -43,7 +43,7 @@ export default function TimelineExplorer({ eventos }: { eventos: Evento[] }) {
 
       <ol className="relative mt-6 border-l-2 border-gold/30 pl-6 sm:pl-10">
         {filtered.map((e) => (
-          <li key={e.id} className="relative mb-10">
+          <li key={e.id} id={e.id} className="relative mb-10 scroll-mt-28">
             <span className="absolute -left-[1.85rem] top-1.5 h-3 w-3 rotate-45 border-2 border-curtain bg-cream dark:border-gold dark:bg-night sm:-left-[2.9rem]" aria-hidden />
             <Reveal>
               <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">

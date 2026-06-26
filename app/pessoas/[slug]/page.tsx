@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { pessoasList, pessoaSlug, pessoaBySlug, pessoaById } from '@/lib/data';
+import Image from 'next/image';
+import { pessoasList, pessoaSlug, pessoaBySlug, pessoaById, conexoesPessoa, fotoTitulo } from '@/lib/data';
 import SeloEvidencia from '@/components/SeloEvidencia';
 import Retrato from '@/components/Retrato';
 import Compartilhar from '@/components/Compartilhar';
@@ -30,6 +31,7 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
   const related = (p.related || []).map((rid) => pessoaById(rid)).filter(Boolean) as typeof pessoasList;
   const paras = (p.bio || p.summary || '').split('\n\n').map((x) => x.trim()).filter(Boolean);
   const url = `${SITE}/pessoas/${params.slug}`;
+  const { fotos: fotosRel, eventos: eventosRel } = conexoesPessoa(p.name);
 
   const ld = {
     '@context': 'https://schema.org',
@@ -95,6 +97,40 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
 
 
       <div className="mt-10"><Compartilhar title={p.name} /></div>
+
+      {fotosRel.length > 0 && (
+        <section className="mt-12 border-t border-gold/20 pt-8">
+          <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">No acervo</p>
+          <h2 className="mt-2 font-display text-2xl leading-tight">Em {fotosRel.length} {fotosRel.length === 1 ? 'imagem' : 'imagens'} do acervo</h2>
+          <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
+            {fotosRel.slice(0, 6).map((f) => (
+              <Link key={f.id} href={`/acervo/${f.id}`} className="card-lift group relative aspect-[4/3] overflow-hidden rounded-sm bg-ink" aria-label={fotoTitulo(f.alt)}>
+                <Image src={`/${f.file}`} alt={f.alt} fill className="object-cover transition-transform duration-700 ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-105" sizes="(max-width:640px) 50vw, 240px" />
+                <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/85 to-transparent p-2.5 font-sans text-[0.66rem] leading-snug text-cream/90">{fotoTitulo(f.alt)}</span>
+              </Link>
+            ))}
+          </div>
+          {fotosRel.length > 6 && (
+            <Link href="/acervo" className="mt-4 inline-block font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 dark:text-gold">Ver o acervo completo →</Link>
+          )}
+        </section>
+      )}
+
+      {eventosRel.length > 0 && (
+        <section className="mt-12 border-t border-gold/20 pt-8">
+          <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Na linha do tempo</p>
+          <ul className="mt-4 space-y-3">
+            {eventosRel.map((e) => (
+              <li key={e.id}>
+                <Link href={`/linha-do-tempo#${e.id}`} className="card-lift block rounded-sm border border-ink/12 px-5 py-3.5 hover:border-gold/50 dark:border-cream/12">
+                  <span className="font-display text-base font-medium text-curtain dark:text-gold">{e.display}</span>
+                  <span className="mt-0.5 block font-sans text-sm text-ink/80 dark:text-cream/80">{e.title}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="mt-12 border-t border-gold/20 pt-8">
         <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Continue explorando</p>
