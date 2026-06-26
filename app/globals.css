@@ -188,3 +188,5 @@ html, body { overflow-x: clip; }
 @media (max-width: 480px) {
   .prose-theatro > p:first-of-type::first-letter { font-size: 3rem; padding: 0.3rem 0.5rem 0 0; }
 }
+
+@keyframes menupop { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }

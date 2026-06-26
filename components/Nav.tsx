@@ -44,9 +44,14 @@ const Lupa = () => (
 export default function Nav() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
-  const [open, setOpen] = useState(false);      // menu móvel
+  const [open, setOpen] = useState(false);            // menu móvel
   const [aberto, setAberto] = useState<string | null>(null); // dropdown desktop ativo
   const navRef = useRef<HTMLDivElement>(null);
+  const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // intenção de hover: abre na hora, fecha com um respiro (evita piscar ao varrer)
+  const abrir = (label: string) => { if (timer.current) clearTimeout(timer.current); setAberto(label); };
+  const agendarFechar = () => { if (timer.current) clearTimeout(timer.current); timer.current = setTimeout(() => setAberto(null), 160); };
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -57,8 +62,10 @@ export default function Nav() {
   useEffect(() => { setOpen(false); setAberto(null); }, [pathname]);
   useEffect(() => {
     const onClick = (e: MouseEvent) => { if (navRef.current && !navRef.current.contains(e.target as Node)) setAberto(null); };
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') { setAberto(null); setOpen(false); } };
     document.addEventListener('click', onClick);
-    return () => document.removeEventListener('click', onClick);
+    document.addEventListener('keydown', onKey);
+    return () => { document.removeEventListener('click', onClick); document.removeEventListener('keydown', onKey); };
   }, []);
 
   const solid = scrolled || open;
@@ -83,25 +90,40 @@ export default function Nav() {
           </span>
         </Link>
 
-        <nav ref={navRef} className="hidden items-center gap-5 lg:flex" aria-label="Navegação principal" onMouseLeave={() => setAberto(null)}>
-          {MENU.map((g) => (
-            <div key={g.label} className="relative" onMouseEnter={() => setAberto(g.label)}>
-              <button
-                onClick={() => setAberto((a) => (a === g.label ? null : g.label))}
-                aria-expanded={aberto === g.label}
-                className={`flex items-center gap-1 ${topCls(naSecao(g))}`}
-              >
-                {g.label} <IconChevron size={11} className={`transition-transform ${aberto === g.label ? 'rotate-90' : ''}`} />
-              </button>
-              {aberto === g.label && (
-                <div className="absolute left-1/2 top-full z-50 mt-3 w-56 -translate-x-1/2 rounded-sm border border-gold/25 bg-cream p-2 shadow-xl dark:bg-nightsoft">
-                  {g.items.map((l) => (
-                    <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className={`block rounded-sm px-3 py-2 font-sans text-sm transition-colors hover:bg-gold/10 ${pathname === l.href ? 'text-curtain dark:text-gold' : 'text-ink/80 dark:text-cream/80'}`}>{l.label}</Link>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
+        <nav ref={navRef} className="hidden items-center gap-5 lg:flex" aria-label="Navegação principal">
+          {MENU.map((g) => {
+            const ativo = aberto === g.label;
+            return (
+              <div key={g.label} className="relative" onMouseEnter={() => abrir(g.label)} onMouseLeave={agendarFechar}>
+                <button
+                  onClick={() => setAberto((a) => (a === g.label ? null : g.label))}
+                  aria-expanded={ativo}
+                  aria-haspopup="true"
+                  className={`relative flex items-center gap-1 py-1 ${topCls(naSecao(g))}`}
+                >
+                  {g.label} <IconChevron size={11} className={`transition-transform duration-200 ${ativo ? 'rotate-90' : ''}`} />
+                  <span className={`pointer-events-none absolute -bottom-0.5 left-0 h-px bg-current transition-all duration-300 ${naSecao(g) || ativo ? 'w-full opacity-70' : 'w-0 opacity-0'}`} />
+                </button>
+                {ativo && (
+                  <div className="absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3">
+                    <div className="w-56 origin-top animate-[menupop_.16s_ease-out] overflow-hidden rounded-sm border border-gold/25 bg-cream shadow-xl dark:bg-nightsoft" role="menu">
+                      {g.items.map((l) => (
+                        <Link
+                          key={l.href}
+                          href={l.href}
+                          role="menuitem"
+                          aria-current={pathname === l.href ? 'page' : undefined}
+                          className={`block border-l-2 px-3.5 py-2.5 font-sans text-sm transition-colors hover:bg-gold/10 ${pathname === l.href ? 'border-curtain text-curtain dark:border-gold dark:text-gold' : 'border-transparent text-ink/80 dark:text-cream/80'}`}
+                        >
+                          {l.label}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          })}
           <Link href="/busca" aria-label="Buscar no site" className={`flex items-center ${topCls(pathname === '/busca')}`}><Lupa /></Link>
           <ThemeToggle />
         </nav>
@@ -116,14 +138,19 @@ export default function Nav() {
       </div>
 
       {open && (
-        <nav className="relative max-h-[80vh] overflow-y-auto border-t border-gold/20 bg-cream px-5 pb-8 pt-2 dark:bg-night lg:hidden" aria-label="Navegação móvel">
+        <nav className="relative max-h-[82vh] overflow-y-auto border-t border-gold/20 bg-cream px-5 pb-8 pt-3 dark:bg-night lg:hidden" aria-label="Navegação móvel">
           {MENU.map((g) => (
-            <div key={g.label}>
-              <p className="pb-1 pt-5 font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{g.label}</p>
-              {g.items.map((l) => (
-                <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className="block border-b border-ink/5 py-3 font-sans text-base text-ink/80 dark:border-cream/10 dark:text-cream/80">{l.label}</Link>
-              ))}
-            </div>
+            <details key={g.label} open={naSecao(g)} className="group border-b border-ink/8 dark:border-cream/10">
+              <summary className="flex cursor-pointer list-none items-center justify-between py-3.5 font-sans text-[0.72rem] uppercase tracking-eyebrow text-curtain/80 dark:text-gold/80">
+                {g.label}
+                <IconChevron size={14} className="transition-transform duration-200 group-open:rotate-90" />
+              </summary>
+              <div className="pb-2">
+                {g.items.map((l) => (
+                  <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className={`block rounded-sm py-2.5 pl-3 font-sans text-base ${pathname === l.href ? 'text-curtain dark:text-gold' : 'text-ink/80 dark:text-cream/80'}`}>{l.label}</Link>
+                ))}
+              </div>
+            </details>
           ))}
         </nav>
       )}
