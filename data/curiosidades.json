@@ -241,7 +241,7 @@
   {
    "id": "cento-e-treze-acionistas",
    "title": "Cento e treze acionistas",
-   "text": "O Theatro nasceu de uma sociedade por ações: em 24 de fevereiro de 1913, 113 acionistas fundaram a Companhia Theatral Sanjoanense para erguer a casa. Foi a própria cidade que financiou o seu teatro, ação a ação.",
+   "text": "O Theatro nasceu de uma sociedade por ações: em 24 de fevereiro de 1913, 113 acionistas — representando 667 ações — fundaram a Companhia Theatral Sanjoanense para erguer a casa. Foi a própria cidade que financiou o seu teatro, ação a ação.",
    "type": "documentado",
    "source": "Prefeitura de São João da Boa Vista (Theatro Municipal); Wikipédia."
   },
@@ -251,6 +251,13 @@
    "text": "Quando a ideia ganhou força, São João da Boa Vista já contava com os cinemas Ideal, Bijou e Guarany e com os teatros São João e Recreio, além de um salão no Centro Recreativo Sanjoanense. A elite do café queria, porém, um exemplar maior e mais bem-acabado — menos um espaço de diversão e mais um monumento à altura de uma cidade que se sonhava moderna e cosmopolita.",
    "type": "documentado",
    "source": "Dragão Jeronimo, “Um primor artístico de architectura” (UNESP, 2021)."
+  },
+  {
+   "id": "o-maior-e-melhor-do-interior",
+   "title": "“O maior e melhor do interior”",
+   "text": "Na cerimônia de gala da inauguração, em 8 de novembro de 1914, as autoridades presentes não economizaram elogios: declararam o Theatro, sem dúvida, o maior e melhor casa de espetáculos de todo o interior do Estado de São Paulo — um atestado da vocação cultural que a cidade abraçava.",
+   "type": "documentado",
+   "source": "O Município, 17 abr. 2024 (brochura dos 90 anos, 2004)."
   }
  ]
 }

@@ -29,7 +29,7 @@ Documentário dirigido por Eduardo Menezes, disponível no YouTube. O filme reú
 
 ## Pesquisa acadêmica
 
-A dissertação de Luis Pedro Dragão Jeronimo, apresentada à Universidade de São Paulo em 2020, é uma referência crítica importante. O trabalho consulta cartórios, jornais, arquivos, plantas e documentação de restauro, permitindo revisar versões consagradas.
+A dissertação de Luis Pedro Dragão Jeronimo — *Uma memória e um espaço restaurado em dois tempos: o Teatro Municipal de São João da Boa Vista no momento de sua construção (1914) e a partir de seu restauro, dos anos 1980 aos dias atuais* (Universidade de São Paulo, 2020) — é uma referência crítica importante. O trabalho consulta cartórios, jornais, arquivos, plantas e documentação de restauro, permitindo revisar versões consagradas.
 
 Um artigo derivado — *“Um primor artístico de architectura”: a construção do Theatro Municipal de São João da Boa Vista como símbolo da modernidade* (revista *História e Cultura*, UNESP, v. 10, n. 2, 2021) — analisa o edifício como símbolo da modernidade, da civilidade e do cosmopolitismo da elite cafeeira sanjoanense do início do século XX.
 
