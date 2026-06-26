@@ -51,7 +51,7 @@ export default function Nav() {
 
   // intenção de hover: abre na hora, fecha com um respiro (evita piscar ao varrer)
   const abrir = (label: string) => { if (timer.current) clearTimeout(timer.current); setAberto(label); };
-  const agendarFechar = () => { if (timer.current) clearTimeout(timer.current); timer.current = setTimeout(() => setAberto(null), 160); };
+  const agendarFechar = () => { if (timer.current) clearTimeout(timer.current); timer.current = setTimeout(() => setAberto(null), 350); };
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -105,7 +105,7 @@ export default function Nav() {
                   <span className={`pointer-events-none absolute -bottom-0.5 left-0 h-px bg-current transition-all duration-300 ${naSecao(g) || ativo ? 'w-full opacity-70' : 'w-0 opacity-0'}`} />
                 </button>
                 {ativo && (
-                  <div className="absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3">
+                  <div className="absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3" onMouseEnter={() => abrir(g.label)} onMouseLeave={agendarFechar}>
                     <div className="w-56 origin-top animate-[menupop_.16s_ease-out] overflow-hidden rounded-sm border border-gold/25 bg-cream shadow-xl dark:bg-nightsoft" role="menu">
                       {g.items.map((l) => (
                         <Link
