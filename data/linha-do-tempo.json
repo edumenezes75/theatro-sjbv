@@ -400,6 +400,21 @@
   ]
  },
  {
+  "id": "t087",
+  "date": "1931",
+  "display": "1931",
+  "title": "Conferência de Guilherme de Almeida",
+  "summary": "O poeta modernista realiza conferência no Theatro.",
+  "era": "primeiras décadas",
+  "tags": [
+   "literatura"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Jeronimo, 2020"
+  ]
+ },
+ {
   "id": "t055",
   "date": "1931-02-04",
   "display": "4 fev. 1931",
@@ -429,21 +444,6 @@
   "status": "documentado",
   "sources": [
    "Menezes 2014, \"Theatro Municipal, 100 anos\""
-  ]
- },
- {
-  "id": "t087",
-  "date": "1931",
-  "display": "1931",
-  "title": "Conferência de Guilherme de Almeida",
-  "summary": "O poeta modernista realiza conferência no Theatro.",
-  "era": "primeiras décadas",
-  "tags": [
-   "literatura"
-  ],
-  "status": "documentado",
-  "sources": [
-   "Jeronimo, 2020"
   ]
  },
  {
@@ -905,16 +905,16 @@
  {
   "id": "t027",
   "date": "1985-05",
-  "display": "maio 1985",
+  "display": "28 mai. 1985",
   "title": "Compra do palco e dos fundos",
-  "summary": "A aquisição integral viabiliza um projeto cênico completo.",
+  "summary": "Pela Lei nº 241, o município adquire a segunda parte do edifício — palco e fundos —, antes desmembrada. Sem ela, uma casa de espetáculos funcional seria impossível.",
   "era": "preservação",
   "tags": [
    "aquisição"
   ],
   "status": "documentado",
   "sources": [
-   "Escritura; pesquisa acadêmica"
+   "Lei municipal nº 241/1985; Jeronimo, 2020"
   ]
  },
  {
@@ -946,6 +946,22 @@
   "status": "documentado",
   "sources": [
    "Resolução SC nº 03/1987"
+  ]
+ },
+ {
+  "id": "t029b",
+  "date": "1989-01-01",
+  "display": "1989",
+  "ano": 1989,
+  "title": "Verbas federais para o foyer e a fachada",
+  "summary": "Recursos da SPHAN/Pró-Memória, intermediados pelo prefeito Gastão Michelazzo, são dirigidos à conclusão das áreas frontais — foyer, sala de múltiplo uso e fachada.",
+  "era": "restauro",
+  "tags": [
+   "Restauro"
+  ],
+  "status": "documentado",
+  "sources": [
+   "Jeronimo, 2020; Beraldo, 2004"
   ]
  },
  {
@@ -1361,6 +1377,51 @@
   ]
  },
  {
+  "date": "2023-05-17",
+  "display": "2023",
+  "title": "Em busca de recursos",
+  "summary": "A Prefeitura vai a São Paulo pedir verba à Secretaria de Cultura e Economia Criativa (SEC-SP) para reformar o Theatro e a sala Dilo Gianelli.",
+  "era": "contemporâneo",
+  "tags": [
+   "manutenção"
+  ],
+  "status": "documentado",
+  "sources": [
+   "O Município, 7 ago. 2024"
+  ],
+  "id": "t090"
+ },
+ {
+  "date": "2023-10-01",
+  "display": "2023",
+  "title": "As chuvas e as portas laterais",
+  "summary": "Fortes chuvas expõem a precariedade do prédio: a água invade pelas portas laterais, na rua Antonina Junqueira, e um vídeo do episódio viraliza na cidade.",
+  "era": "contemporâneo",
+  "tags": [
+   "manutenção"
+  ],
+  "status": "documentado",
+  "sources": [
+   "O Município, 7 ago. 2024"
+  ],
+  "id": "t091"
+ },
+ {
+  "date": "2024-08-07",
+  "display": "2024",
+  "title": "A reforma começa pela fachada",
+  "summary": "Após cerca de vinte anos sem manutenção, a reforma começa de fora para dentro — pintura das fachadas, do interior, troca de carpetes e cuidados no palco, portas e janelas —, viabilizada por uma emenda estadual de R$ 170 mil.",
+  "era": "contemporâneo",
+  "tags": [
+   "manutenção"
+  ],
+  "status": "oficial",
+  "sources": [
+   "O Município, 7 ago. 2024"
+  ],
+  "id": "t092"
+ },
+ {
   "id": "t040",
   "date": "2024-10-15",
   "display": "2024",
@@ -1407,50 +1468,5 @@
   "sources": [
    "Agenda cultural municipal"
   ]
- },
- {
-  "date": "2023-05-17",
-  "display": "2023",
-  "title": "Em busca de recursos",
-  "summary": "A Prefeitura vai a São Paulo pedir verba à Secretaria de Cultura e Economia Criativa (SEC-SP) para reformar o Theatro e a sala Dilo Gianelli.",
-  "era": "contemporâneo",
-  "tags": [
-   "manutenção"
-  ],
-  "status": "documentado",
-  "sources": [
-   "O Município, 7 ago. 2024"
-  ],
-  "id": "t090"
- },
- {
-  "date": "2023-10-01",
-  "display": "2023",
-  "title": "As chuvas e as portas laterais",
-  "summary": "Fortes chuvas expõem a precariedade do prédio: a água invade pelas portas laterais, na rua Antonina Junqueira, e um vídeo do episódio viraliza na cidade.",
-  "era": "contemporâneo",
-  "tags": [
-   "manutenção"
-  ],
-  "status": "documentado",
-  "sources": [
-   "O Município, 7 ago. 2024"
-  ],
-  "id": "t091"
- },
- {
-  "date": "2024-08-07",
-  "display": "2024",
-  "title": "A reforma começa pela fachada",
-  "summary": "Após cerca de vinte anos sem manutenção, a reforma começa de fora para dentro — pintura das fachadas, do interior, troca de carpetes e cuidados no palco, portas e janelas —, viabilizada por uma emenda estadual de R$ 170 mil.",
-  "era": "contemporâneo",
-  "tags": [
-   "manutenção"
-  ],
-  "status": "oficial",
-  "sources": [
-   "O Município, 7 ago. 2024"
-  ],
-  "id": "t092"
  }
 ]

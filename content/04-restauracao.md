@@ -113,7 +113,7 @@ O rebaixamento das fundações foi executado lentamente. Relatos técnicos regis
 
 ## Restauro artístico
 
-A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos. Amostras de camadas antigas foram analisadas para buscar tons compatíveis. Capitéis e detalhes receberam tratamento e douração.
+A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos. Para reencontrar a cor original, uma amostra do reboco antigo foi enviada aos laboratórios da Sherwin-Williams, que reproduziram o pigmento gratuitamente: latas de látex branco foram compradas e devolvidas já tingidas no tom histórico. Capitéis e detalhes receberam tratamento e douração.
 
 ![Prospecção estratigráfica: janelas abertas na parede revelam as camadas de tinta de cada época.](/fotos/hr5-restauro-04.jpg)
 
