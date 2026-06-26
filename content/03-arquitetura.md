@@ -42,6 +42,8 @@ Acima dos vãos laterais, quatro medalhões alinham um compositor brasileiro a t
 
 Na linguagem eclética, elementos de diferentes tradições históricas são reorganizados para produzir solenidade e distinção. Isso não significa que o Theatro copie um único modelo europeu. A comparação com grandes casas de ópera faz parte do imaginário de sua construção, mas a relação precisa ser estudada por plantas, proporções e documentação técnica.
 
+Na fachada sanjoanense, ornamentos barrocos e neoclássicos convivem com elementos de **Art Nouveau** — os motivos florais em ferro fundido dos portões, das grades das portas e dos gradis da sala. No alto, acima da platibanda, uma águia de asas abertas e ânforas com rostos femininos coroam o programa decorativo, em que as guirlandas se entrelaçam a ramos de café: a economia que ergueu o edifício, gravada na própria pedra.
+
 > **Nota de pesquisa:** a expressão “modelo do Scala de Milão” aparece em narrativas locais. Aqui ela é tratada como referência atribuída, não como prova de cópia direta.
 
 
