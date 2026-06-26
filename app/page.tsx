@@ -8,11 +8,12 @@ import { vozesList } from '@/lib/data';
 import Mark from '@/components/Mark';
 import Reveal from '@/components/Reveal';
 
-const FACTS = [
-  ['1913', 'Início da construção'],
-  ['1914', 'Inauguração em 31 de outubro'],
-  ['1987', 'Tombamento estadual'],
-  ['2002', 'Reabertura na Semana Guiomar Novaes'],
+const MARCOS: [string, string, string][] = [
+  ['1911–1913', 'A cidade ergue o seu palco', 'Por subscrição popular, sanjoanenses compram ações para construir o Theatro.'],
+  ['1914', 'A inauguração', 'Em 31 de outubro, a casa abre as portas como o maior teatro do interior paulista.'],
+  ['1937–1980', 'O Cine Theatro', 'Por décadas, vira cinema — a matinê de domingo de gerações inteiras.'],
+  ['1981–1987', 'A cidade impede a perda', 'Ameaçado de demolição, é comprado pelo poder público e tombado.'],
+  ['2002', 'O renascimento', 'Restaurado, reabre na Semana Guiomar Novaes e volta a ser palco vivo.'],
 ];
 
 const PILLARS = [
@@ -78,15 +79,32 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FACT STRIP */}
+      {/* EM 1 MINUTO */}
       <section className="border-y border-gold/25 bg-cream dark:bg-night">
-        <div className="mx-auto grid max-w-6xl grid-cols-2 divide-x divide-gold/20 px-5 md:grid-cols-4">
-          {FACTS.map(([y, l], i) => (
-            <Reveal key={y} delay={i * 90} className={`px-5 py-9 ${i >= 2 ? 'border-t border-gold/20 md:border-t-0' : ''}`}>
-              <p className="font-display text-5xl text-curtain dark:text-gold">{y}</p>
-              <p className="mt-2 font-sans text-sm leading-snug text-ink/70 dark:text-cream/70">{l}</p>
-            </Reveal>
-          ))}
+        <div className="mx-auto max-w-6xl px-5 py-14">
+          <Reveal>
+            <div className="flex items-center gap-3">
+              <span className="h-6 w-px bg-curtain dark:bg-gold" />
+              <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Em 1 minuto</p>
+            </div>
+            <h2 className="mt-3 max-w-2xl font-display text-3xl leading-tight sm:text-4xl">A história do Theatro em cinco tempos</h2>
+          </Reveal>
+          <ol className="mt-10 grid gap-px overflow-hidden rounded-sm border border-gold/20 bg-gold/20 sm:grid-cols-3 lg:grid-cols-5">
+            {MARCOS.map(([periodo, titulo, linha], i) => (
+              <Reveal key={periodo} delay={i * 80} className="flex flex-col bg-cream p-5 dark:bg-night">
+                <span className="font-display text-2xl text-curtain dark:text-gold">{periodo}</span>
+                <span className="mt-2 font-display text-base font-medium leading-tight text-ink dark:text-cream">{titulo}</span>
+                <span className="mt-2 font-sans text-[0.82rem] leading-relaxed text-ink/65 dark:text-cream/65">{linha}</span>
+              </Reveal>
+            ))}
+          </ol>
+          <Reveal delay={120}>
+            <p className="mt-6 font-sans text-sm text-ink/60 dark:text-cream/60">
+              <Link href="/historia" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Ler a história completa</Link>
+              {' · '}
+              <Link href="/linha-do-tempo" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Ver a linha do tempo</Link>
+            </p>
+          </Reveal>
         </div>
       </section>
 
