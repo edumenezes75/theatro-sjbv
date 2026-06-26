@@ -17,7 +17,7 @@ export default function LivroDeMemoriasPage() {
         image="/fotos/hr2-sala-05.jpg"
         alt="A sala em ferradura do Theatro Municipal, com os camarotes e as poltronas vermelhas."
       />
-      <div className="mx-auto max-w-3xl px-5 py-14">
+      <div className="mx-auto max-w-3xl px-5 py-16 sm:py-20">
         <p className="max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
           O Theatro é feito também de lembranças. A primeira sessão de cinema, um baile de Carnaval, uma estreia, um nome no palco, a emoção de entrar pela primeira vez. Se você viveu o Theatro — ou ouviu histórias de quem viveu —, deixe aqui o seu registro. Aos poucos, estas páginas se tornam a memória viva da cidade.
         </p>

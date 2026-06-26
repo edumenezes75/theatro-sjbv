@@ -81,7 +81,7 @@ export default function Home() {
 
       {/* EM 1 MINUTO */}
       <section className="border-y border-gold/25 bg-cream dark:bg-night">
-        <div className="mx-auto max-w-6xl px-5 py-14">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
           <Reveal>
             <div className="flex items-center gap-3">
               <span className="h-6 w-px bg-curtain dark:bg-gold" />
@@ -109,7 +109,7 @@ export default function Home() {
       </section>
 
       {/* COMECE POR AQUI */}
-      <section className="mx-auto max-w-6xl px-5 py-20">
+      <section className="mx-auto max-w-6xl px-5 py-24">
         <Reveal>
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />

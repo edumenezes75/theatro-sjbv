@@ -134,7 +134,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
       {longRead && <ReadingProgress />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={page.meta.status} />
-      <div className="mx-auto max-w-6xl px-5 py-14">
+      <div className="mx-auto max-w-6xl px-5 py-16 sm:py-24">
         {params.slug === 'visite' && <VisitaInfo />}
         {longRead ? (
           <div className="lg:grid lg:grid-cols-[11rem_minmax(0,1fr)] lg:gap-12 xl:gap-16">

@@ -21,7 +21,7 @@ export default function LinhaDoTempoPage() {
   return (
     <article>
       <ChapterHero eyebrow="Da pedra fundamental ao patrimônio vivo" title="Linha do tempo" />
-      <div className="mx-auto max-w-3xl px-5 pb-14">
+      <div className="mx-auto max-w-3xl px-5 pb-16 sm:pb-20">
         <div className="pt-2">
           <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Ano a ano</p>
           <h2 className="mt-2 font-display text-3xl leading-tight">A história completa, com fontes</h2>
