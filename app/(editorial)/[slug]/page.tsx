@@ -22,7 +22,7 @@ const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
   '/restauracao': 'Restauração', '/pessoas': 'Pessoas', '/acervo': 'Acervo',
   '/documentario': 'Documentário', '/programacao': 'Programação', '/linha-do-tempo': 'Linha do tempo',
-  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto',
+  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada',
 };
 const RELATED: Record<string, string[]> = {
   'o-theatro': ['/historia', '/arquitetura', '/acervo'],
