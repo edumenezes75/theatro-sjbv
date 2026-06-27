@@ -3244,5 +3244,44 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
   "tone": 2.09717
+ },
+ {
+  "id": "h271",
+  "file": "fotos/hr8-jornal-tombar-1983.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1727,
+  "h": 1800,
+  "alt": "“Tombar ou tomar…” — recorte de jornal de 1983 sobre o impasse do destino do Theatro, entre a ameaça de demolição e a defesa do tombamento.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes de imprensa.",
+  "epoca": "Pré-restauro",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h272",
+  "file": "fotos/hr8-jornal-montoro-1986.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1579,
+  "h": 1800,
+  "alt": "A imprensa noticia a visita do governador Franco Montoro a São João, em abril de 1986, e o apoio estadual à recuperação do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes de imprensa.",
+  "epoca": "Pré-restauro",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h273",
+  "file": "fotos/hr8-jornal-verba-2001.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1407,
+  "h": 1800,
+  "alt": "“Teatro Municipal recebe verba de R$ 150 mil” — o Jornal do Povo, em 2001, noticia o repasse federal que ajudou a concluir o restauro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes de imprensa.",
+  "epoca": "Restauro",
+  "rank": 5,
+  "tone": 0.0
  }
 ]
