@@ -3283,5 +3283,31 @@
   "epoca": "Restauro",
   "rank": 5,
   "tone": 0.0
+ },
+ {
+  "id": "h274",
+  "file": "fotos/hr8-guiomar-mishkin.jpg",
+  "category": "pessoas",
+  "categoryLabel": "Pessoas",
+  "w": 667,
+  "h": 982,
+  "alt": "Guiomar Novaes em retrato de estúdio (Mishkin Studio, Nova York), no auge da carreira internacional — a maior pianista nascida em São João da Boa Vista.",
+  "credit": "Acervo Guiomar Novaes — Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Histórico",
+  "rank": 4,
+  "tone": 0.45
+ },
+ {
+  "id": "h275",
+  "file": "fotos/hr8-guiomar-1914.jpg",
+  "category": "pessoas",
+  "categoryLabel": "Pessoas",
+  "w": 965,
+  "h": 1500,
+  "alt": "Guiomar Novaes em retrato de 1914, ainda jovem — o ano em que o Theatro, que viria a abrigar a Semana com o seu nome, abriu as portas.",
+  "credit": "Acervo Guiomar Novaes — Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Histórico",
+  "rank": 4,
+  "tone": 0.45
  }
 ]
