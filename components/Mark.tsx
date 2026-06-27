@@ -14,19 +14,14 @@ export default function Mark({ className = '', size = 28 }: { className?: string
     >
       {/* ——— silhueta principal: alas baixas + corpo central de dois pavimentos ——— */}
       <g strokeWidth="2.3">
-        <path d="M5 80 V58 H22 V20 H98 V58 H115 V80 Z" />
-        <path d="M3 80 H117" strokeWidth="2.6" />
+        <path d="M22 80 V20 H98 V80 Z" />
+        <path d="M19 80 H101" strokeWidth="2.6" />
       </g>
 
       {/* ——— cornijas e linha entre pavimentos ——— */}
       <g strokeWidth="1.5">
         <path d="M22 50 H98" />           {/* cornija entre pavimentos */}
         <path d="M22 20 H98" />           {/* cornija do telhado */}
-        {/* portas das alas laterais */}
-        <path d="M10 80 V64 H18 V80" />
-        <path d="M102 80 V64 H110 V80" />
-        {/* pilastras dos cantos das alas */}
-        <path d="M5 58 V52 M115 58 V52" strokeWidth="1.2" />
       </g>
 
       {/* ——— térreo: portal central em arco com bandeira + portas laterais ——— */}
