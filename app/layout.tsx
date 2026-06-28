@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
-import { Bodoni_Moda, Hanken_Grotesk, Literata } from 'next/font/google';
+import { Fraunces, Hanken_Grotesk, Literata } from 'next/font/google';
 import './globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import SmoothScroll from '@/components/SmoothScroll';
 import ConsentBanner from '@/components/ConsentBanner';
 
-const display = Bodoni_Moda({ subsets: ['latin'], weight: ['400', '500', '600'], style: ['normal', 'italic'], variable: '--font-display', display: 'swap' });
+const display = Fraunces({ subsets: ['latin'], weight: ['400', '500', '600', '700'], style: ['normal', 'italic'], variable: '--font-display', display: 'swap' });
 const sans = Hanken_Grotesk({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-sans', display: 'swap' });
 const read = Literata({ subsets: ['latin'], weight: ['400', '600'], style: ['normal', 'italic'], variable: '--font-read', display: 'swap' });
 
