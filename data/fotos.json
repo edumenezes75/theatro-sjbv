@@ -3257,5 +3257,83 @@
   "epoca": "Restauro",
   "rank": 5,
   "tone": 0.0
+ },
+ {
+  "id": "h274",
+  "file": "fotos/hr8-sala-lotada.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
+  "w": 960,
+  "h": 720,
+  "alt": "A sala lotada em todos os pavimentos, em registro antigo — o Theatro no auge da vida de público.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h275",
+  "file": "fotos/hr8-romao-gomes-salve.jpg",
+  "category": "eventos",
+  "categoryLabel": "Eventos",
+  "w": 1800,
+  "h": 1204,
+  "alt": "“Salve Romão Gomes” — a sala tomada para a homenagem ao comandante no Theatro, em 1933.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h276",
+  "file": "fotos/hr8-cena-antiga.jpg",
+  "category": "eventos",
+  "categoryLabel": "Eventos",
+  "w": 1477,
+  "h": 744,
+  "alt": "Uma cena de espetáculo no palco do Theatro, em registro antigo.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h277",
+  "file": "fotos/hr8-conjunto-musical.jpg",
+  "category": "eventos",
+  "categoryLabel": "Eventos",
+  "w": 1800,
+  "h": 1103,
+  "alt": "Um conjunto musical posado no palco do Theatro, em registro de outras décadas.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h278",
+  "file": "fotos/hr8-fachada-antiga2.jpg",
+  "category": "fachada",
+  "categoryLabel": "Fachada",
+  "w": 1580,
+  "h": 1250,
+  "alt": "A fachada eclética do Theatro Municipal, em registro antigo.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h279",
+  "file": "fotos/hr8-espetaculo-palco.jpg",
+  "category": "eventos",
+  "categoryLabel": "Eventos",
+  "w": 1707,
+  "h": 1255,
+  "alt": "Um espetáculo teatral em cena no palco do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
+  "epoca": "Atual",
+  "rank": 5,
+  "tone": 0.4
  }
 ]
