@@ -549,19 +549,6 @@
   "tone": 0.404838
  },
  {
-  "id": "h021",
-  "file": "fotos/hr-pessoas-21.jpg",
-  "category": "pessoas",
-  "categoryLabel": "Pessoas",
-  "w": 1800,
-  "h": 2816,
-  "alt": "Dona Tita — uma das guardiãs da memória da casa.",
-  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico",
-  "rank": 2,
-  "tone": 0.408018
- },
- {
   "id": "h026",
   "file": "fotos/hr-pessoas-26.jpg",
   "category": "arte-cultura",
@@ -599,19 +586,6 @@
   "epoca": "Restauro",
   "rank": 2,
   "tone": 0.447457
- },
- {
-  "id": "h032",
-  "file": "fotos/hr-pessoas-32.jpg",
-  "category": "pessoas",
-  "categoryLabel": "Pessoas",
-  "w": 1099,
-  "h": 1439,
-  "alt": "Nascipe Atalla Murr, violinista, professor e regente — presença constante nos festivais da cidade.",
-  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico",
-  "rank": 2,
-  "tone": 0.433023
  },
  {
   "id": "h053",
@@ -3283,31 +3257,5 @@
   "epoca": "Restauro",
   "rank": 5,
   "tone": 0.0
- },
- {
-  "id": "h274",
-  "file": "fotos/hr8-guiomar-mishkin.jpg",
-  "category": "pessoas",
-  "categoryLabel": "Pessoas",
-  "w": 667,
-  "h": 982,
-  "alt": "Guiomar Novaes em retrato de estúdio (Mishkin Studio, Nova York), no auge da carreira internacional — a maior pianista nascida em São João da Boa Vista.",
-  "credit": "Acervo Guiomar Novaes — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico",
-  "rank": 4,
-  "tone": 0.45
- },
- {
-  "id": "h275",
-  "file": "fotos/hr8-guiomar-1914.jpg",
-  "category": "pessoas",
-  "categoryLabel": "Pessoas",
-  "w": 965,
-  "h": 1500,
-  "alt": "Guiomar Novaes em retrato de 1914, ainda jovem — o ano em que o Theatro, que viria a abrigar a Semana com o seu nome, abriu as portas.",
-  "credit": "Acervo Guiomar Novaes — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Histórico",
-  "rank": 4,
-  "tone": 0.45
  }
 ]
