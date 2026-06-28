@@ -26,17 +26,7 @@ function Card({ c }: { c: Curiosidade }) {
       </div>
       <h3 className="mt-3 font-display text-lg font-medium leading-tight">{c.title}</h3>
       <p className="mt-2 flex-1 font-sans text-sm leading-relaxed text-ink/80 dark:text-cream/80">{c.text}</p>
-      {c.filme && (
-        <a
-          href={`https://www.youtube.com/watch?v=e2stgoHtlAQ&t=${c.filme.s}s`}
-          target="_blank"
-          rel="noopener"
-          className="mt-3 inline-flex items-center gap-1.5 self-start font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain transition-colors hover:text-gold dark:text-gold"
-        >
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M8 5v14l11-7z" /></svg>
-          Ouça no documentário · {c.filme.t}
-        </a>
-      )}
+      
     </article>
   );
 }

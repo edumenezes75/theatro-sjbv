@@ -108,8 +108,6 @@ O Theatro acumulou elogios de músicos ao longo de gerações. Vale distinguir o
 > — **Emmanuele Baldini**, spalla da Osesp, após concerto no Theatro (2014)
 
 
-> **Voz do filme** · “Eu passei por vários teatros da Europa; o último foi o de Berlim. Este teatro não perde para nenhum daqueles.” — [ouvir no documentário (17:47) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=1067s)
-
 ## O palco e a caixa cênica
 
 O palco original foi pensado para receber companhias, cenários e orquestra. Com o tempo, a instalação da tela de cinema e outras adaptações reduziram ou esconderam parte de sua função teatral.
@@ -134,13 +132,6 @@ A adaptação para cinema não ocorreu em um único momento. Tela, cabine de pro
 A intervenção de **fevereiro de 1967** foi especialmente importante: frisas e camarotes desapareceram para abrir espaço a mais cadeiras — o gesto que mais descaracterizou a sala antes do restauro. Fotografias anteriores ao restauro mostram o interior esvaziado e a curva sustentada por estruturas aparentes.
 
 É possível acompanhar essas camadas na comparação **antes e depois** do restauro, logo adiante nesta página.
-
-## O medalhão de Carlos Gomes
-
-Sobre a boca de cena, o retrato de Carlos Gomes — obra original do pintor italiano Ettore Adriano Fabri — fora encoberto por camadas de tinta. Durante o restauro, uma prospecção delicada revelou a figura. A recuperação envolveu remoção controlada das camadas, reintegração de lacunas e proteção final.
-
-Esse episódio resume o trabalho de restauração: não inventar um passado, mas procurar evidências, interpretar marcas e devolver leitura ao que sobreviveu.
-
 
 ## A arquitetura continua mudando
 

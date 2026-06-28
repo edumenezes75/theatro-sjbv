@@ -131,8 +131,6 @@ Ainda ocorreram shows, entre eles Roberto Carlos, em 1968, e apresentações de 
 *A fachada na época do Cine Theatro, com cartazes de cinema no térreo.*
 
 
-> **Voz do filme** · “A gente entrava pelo bar; ali tinha uma abertura que dava no banheiro masculino — a gente pulava a parede e entrava no cinema sem pagar.” — [ouvir no documentário (05:41) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=341s)
-
 ## 6. O prédio que a cidade se recusou a perder — 1981 a 1987
 
 No início dos anos 1980, a possibilidade de venda e demolição deixou de ser boato distante. O prédio era particular, estava degradado e recebia propostas incompatíveis com sua preservação.
@@ -156,8 +154,6 @@ Em 19 de janeiro de 1987, o tombamento estadual pelo CONDEPHAAT reconheceu forma
 
 *A sala esvaziada, antes do restauro — anos de abandono e risco de demolição.*
 
-
-> **Voz do filme** · “Passou por 30, 40 anos sem nenhuma reforma, sem nenhum investimento. Ele estava, eu diria, pronto para ser demolido.” — [ouvir no documentário (39:45) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=2385s)
 
 ## 7. Uma restauração longa — 1986 a 2002
 
