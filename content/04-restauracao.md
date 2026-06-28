@@ -42,6 +42,8 @@ A campanha, porém, não foi consenso. Crônicas contrárias acusavam os preserv
 
 Quatro abaixo-assinados reuniram 1.026 assinaturas, e uma consulta popular sobre o destino do prédio mobilizou 1.651 participantes — força política decisiva para a compra.
 
+**Aprofunde-se** — a história completa da campanha que salvou o Theatro: [A luta contra a demolição (1980–1987) →](/luta-contra-a-demolicao).
+
 > **Patrimônio em ação:** o documento pedia não apenas conservação, mas “ativação de um espaço cultural”. A luta era para salvar o prédio e devolver-lhe função.
 
 

@@ -141,6 +141,8 @@ Artistas e moradores intensificaram a mobilização. Houve manifestações, happ
 
 Quatro abaixo-assinados reuniram 1.026 assinaturas em apoio à preservação e à ativação cultural do espaço, e uma consulta popular sobre o destino do prédio mobilizou 1.651 participantes.
 
+**Aprofunde-se** — a história completa da campanha que salvou o Theatro: [A luta contra a demolição (1980–1987) →](/luta-contra-a-demolicao).
+
 ### A compra
 
 A Prefeitura adquiriu o imóvel em duas etapas. A primeira, em janeiro de 1984, abrangia a porção frontal; a segunda, concluída em 1985, incorporou palco e fundos. A divisão evidencia uma dificuldade concreta: sem a área completa, o projeto de uma casa de espetáculos funcional ficaria comprometido.

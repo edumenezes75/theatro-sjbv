@@ -22,7 +22,7 @@ const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
   '/restauracao': 'Restauração', '/pessoas': 'Pessoas', '/acervo': 'Acervo',
   '/documentario': 'Documentário', '/programacao': 'Programação', '/linha-do-tempo': 'Linha do tempo',
-  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada',
+  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição',
 };
 const RELATED: Record<string, string[]> = {
   'o-theatro': ['/historia', '/arquitetura', '/acervo'],
@@ -32,6 +32,7 @@ const RELATED: Record<string, string[]> = {
   memorias: ['/historia', '/pessoas', '/acervo'],
   visite: ['/programacao', '/acervo', '/historia'],
   fontes: ['/acervo', '/pessoas', '/documentario'],
+  'luta-contra-a-demolicao': ['/restauracao', '/historia', '/linha-do-tempo'],
 };
 
 
