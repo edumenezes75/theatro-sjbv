@@ -166,9 +166,19 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           </>
         )}
 
+        {params.slug === 'restauracao' && antesDepoisList.length > 0 && (
+          <section className="mt-16 rounded-sm border-2 border-gold/40 bg-curtain/[0.04] p-6 shadow-sm dark:bg-gold/[0.05] sm:p-8">
+            <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Destaque do restauro</p>
+            <h2 className="mt-2 font-display text-3xl">O medalhão de Carlos Gomes</h2>
+            <p className="mb-8 mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/75 dark:text-cream/75">
+              Passo a passo do restauro: a fotografia do comício de 1919 guiou a decapagem; sob a tinta, o retrato surgiu danificado; recuperado o rosto, os ornamentos em volta foram repintados. Toque em cada imagem para ampliar e ver o detalhe.
+            </p>
+            <AntesDepois pares={antesDepoisList} />
+          </section>
+        )}
         {params.slug === 'restauracao' && <RestauroResumo />}
 
-        {showAD && antesDepoisList.length > 0 && (
+        {params.slug === 'arquitetura' && antesDepoisList.length > 0 && (
           <section className="mt-16 border-t border-gold/25 pt-12">
             <h2 className="mb-2 font-display text-3xl">O medalhão de Carlos Gomes</h2>
             <p className="mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
