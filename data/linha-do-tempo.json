@@ -387,16 +387,16 @@
  {
   "id": "t011",
   "date": "1930-06",
-  "display": "jun. 1930",
+  "display": "ago. 1930",
   "title": "Villa-Lobos e Souza Lima",
-  "summary": "A passagem do conjunto de Villa-Lobos, com Souza Lima ao piano; Lucília e Anita Villa-Lobos são associadas ao episódio.",
+  "summary": "A passagem do conjunto de Villa-Lobos, com Souza Lima ao piano. Em 10 de agosto de 1930, a Sociedade de Cultura Artística — no segundo andar do Theatro — promoveu uma hora litero-musical em homenagem ao maestro e à comitiva, segundo a imprensa da época.",
   "era": "primeiras décadas",
   "tags": [
    "música"
   ],
   "status": "documentado",
   "sources": [
-   "Menezes 2014, pp. 68 e 102"
+   "A Cidade de São João, 10 ago. 1930 (folheto); Menezes 2014, pp. 68 e 102"
   ]
  },
  {
@@ -546,7 +546,7 @@
   "date": "1945-09-21",
   "display": "21 set. 1945",
   "title": "Noite da Brasilidade",
-  "summary": "Espetáculo Noite da Brasilidade, com Marly Evangelina e outros artistas locais, após a reabertura.",
+  "summary": "O espetáculo “Noite de Brasilidade”, em homenagem aos Expedicionários sanjoanenses da Segunda Guerra, organizado pelo maestro Armando Lameira — com Marly Evangelina e outros artistas locais.",
   "era": "cine theatro",
   "tags": [
    "música",
@@ -554,7 +554,7 @@
   ],
   "status": "documentado",
   "sources": [
-   "Menezes 2014, \"Theatro Municipal, 100 anos\""
+   "A Cidade de São João, 21 set. 1945 (folheto); Menezes 2014"
   ]
  },
  {
@@ -806,6 +806,22 @@
   "status": "corroborado",
   "sources": [
    "Menezes 2014, p. 98"
+  ]
+ },
+ {
+  "id": "t093",
+  "date": "1977-06-01",
+  "display": "1977–1978",
+  "ano": 1977,
+  "title": "A Companhia Teatral Sanjoanense em liquidação",
+  "summary": "Endividada e sem atividade, a antiga Companhia Teatral Sanjoanense entra em liquidação judicial — os acionistas, em sua maioria já falecidos, têm suas ações partilhadas. O desfecho jurídico da sociedade que erguera o Theatro abre caminho para o impasse sobre o destino do prédio.",
+  "era": "preservação",
+  "tags": [
+   "Cidade"
+  ],
+  "status": "documentado",
+  "sources": [
+   "A Cidade de São João, 13 mai. 1978 — edital judicial (folheto)"
   ]
  },
  {

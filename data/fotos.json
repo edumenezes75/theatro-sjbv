@@ -3335,5 +3335,70 @@
   "epoca": "Atual",
   "rank": 5,
   "tone": 0.4
+ },
+ {
+  "id": "h280",
+  "file": "fotos/hr8-doc-lei-1912.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1292,
+  "h": 1145,
+  "alt": "A lei municipal de 20 de setembro de 1912, que concedia incentivos a quem construísse um teatro na cidade — o ponto de partida legal do Theatro.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h281",
+  "file": "fotos/hr8-doc-pedra-1913.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1418,
+  "h": 1800,
+  "alt": "A crônica do jornal A Cidade de São João, em maio de 1913, sobre o assentamento da pedra fundamental — com a descrição técnica do edifício projetado.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h282",
+  "file": "fotos/hr8-doc-inauguracao-1914.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 864,
+  "h": 1800,
+  "alt": "O jornal de 4 de outubro de 1914 anuncia a inauguração e o arrendamento do Theatro pelos cinemas Ideal e Bijou.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h283",
+  "file": "fotos/hr8-doc-guiomar-1946.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1083,
+  "h": 1485,
+  "alt": "O programa do concerto de Guiomar Novaes no Theatro, em 11 de setembro de 1946, em benefício da Casa da Criança.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h284",
+  "file": "fotos/hr8-doc-tombamento-1987.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1288,
+  "h": 1800,
+  "alt": "A Resolução nº 03, de 19 de janeiro de 1987, que tombou o Theatro Municipal como bem cultural de interesse histórico e arquitetônico.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
+  "epoca": "Pré-restauro",
+  "rank": 5,
+  "tone": 0.0
  }
 ]

@@ -71,6 +71,8 @@ A notícia publicada por ocasião da pedra fundamental descreveu:
 
 Esses números mostram o projeto idealizado. A execução, a lotação autorizada e a configuração atual nem sempre coincidiram com ele — por isso são tratadas como pontos a confirmar, e não como medidas definitivas. Hoje, os mapas de assentos disponíveis somam cerca de 714 lugares (plateia 295, frisas 108, camarotes 124, galerias 167 e 20 cadeiras superiores), mas trazem anotações manuscritas e ainda dependem de uma ficha técnica oficial atualizada para fixar a lotação licenciada. Outros números também variam entre as fontes: o fosso de orquestra, anunciado para até 80 “figuras” em 1913, é hoje descrito para cerca de 39 músicos; e uma estatística de 1919 registrava aproximadamente 250 lâmpadas iluminando a casa.
 
+A mesma crônica de 1913 deixa ver o orgulho com a modernidade técnica do edifício: o pano de boca subiria inteiro, movido por aparelhos "dos mais modernamente em uso"; o prédio ficava isolado por duas passagens laterais; havia um bar superior e um bar inferior, além da administração e de toaletes para senhoras; e toda a iluminação seria elétrica, a cargo da Empresa Força e Luz local. Para uma cidade do interior em 1913, era um programa ambicioso — um teatro pensado nos padrões dos grandes centros.
+
 ## A ferradura
 
 A sala curva distribui o público ao redor da plateia e aproxima os níveis superiores do palco. Em vez de uma caixa retangular simples, o espaço cria continuidade visual entre frisas, camarotes e galerias.
