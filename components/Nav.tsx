@@ -15,11 +15,11 @@ const MENU: Grupo[] = [
     { href: '/historia', label: 'História' },
     { href: '/arquitetura', label: 'Arquitetura' },
     { href: '/restauracao', label: 'Restauro' },
+    { href: '/linha-do-tempo', label: 'Linha do tempo' },
   ] },
   { label: 'Acervo', items: [
     { href: '/acervo', label: 'Acervo de imagens' },
     { href: '/documentario', label: 'Documentário' },
-    { href: '/linha-do-tempo', label: 'Linha do tempo' },
     { href: '/pessoas', label: 'Pessoas' },
   ] },
   { label: 'Memória', items: [
