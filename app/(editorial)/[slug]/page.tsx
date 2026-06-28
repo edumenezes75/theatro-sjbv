@@ -125,6 +125,16 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         inLanguage: 'pt-BR',
         director: { '@type': 'Person', name: 'Paschoal Neto' },
         about: { '@type': 'PerformingArtsTheater', '@id': SITE + '/#theatro' },
+      }, {
+        '@type': 'VideoObject',
+        name: 'Reforma do Theatro Municipal de São João da Boa Vista',
+        description: 'Registro em vídeo das obras de restauração do Theatro Municipal, reunido por Clovis Vieira.',
+        thumbnailUrl: ['https://i.ytimg.com/vi/tczda96slZ0/hqdefault.jpg'],
+        uploadDate: '2014-01-01',
+        embedUrl: 'https://www.youtube-nocookie.com/embed/tczda96slZ0',
+        contentUrl: 'https://www.youtube.com/watch?v=tczda96slZ0',
+        inLanguage: 'pt-BR',
+        about: { '@type': 'PerformingArtsTheater', '@id': SITE + '/#theatro' },
       }] : []),
     ],
   };
@@ -179,6 +189,16 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         )}
 
         {params.slug === 'restauracao' && <VideoOlhares />}
+        {params.slug === 'restauracao' && (
+          <section className="mt-16 border-t border-gold/25 pt-12">
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Filme</p>
+            <h2 className="mt-3 font-display text-3xl">A reforma do Theatro, em vídeo</h2>
+            <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+              Registro das obras de restauração reunido por Clovis Vieira — o edifício em recuperação, etapa por etapa.
+            </p>
+            <div className="mt-6"><LiteYouTube id="tczda96slZ0" title="Reforma do Theatro Municipal — Clovis Vieira" /></div>
+          </section>
+        )}
         {params.slug === 'historia' && (
           <section className="mt-16 border-t border-gold/25 pt-12">
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Filme</p>
