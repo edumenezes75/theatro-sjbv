@@ -127,10 +127,10 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         about: { '@type': 'PerformingArtsTheater', '@id': SITE + '/#theatro' },
       }, {
         '@type': 'VideoObject',
-        name: 'Reforma do Theatro Municipal de São João da Boa Vista',
-        description: 'Registro em vídeo das obras de restauração do Theatro Municipal, reunido por Clovis Vieira.',
-        thumbnailUrl: ['https://i.ytimg.com/vi/tczda96slZ0/hqdefault.jpg'],
-        uploadDate: '2014-01-01',
+        name: 'Inauguração do foyer do Theatro Municipal de São João da Boa Vista (1992)',
+        description: 'Registro em vídeo da inauguração do foyer do Theatro Municipal, em dezembro de 1992, com apresentações musicais. Imagens gravadas em VHS por Riolando Gião.',
+        thumbnailUrl: [`${SITE}/fotos/hr6-restauro-04.jpg`],
+        uploadDate: '1992-12-01',
         embedUrl: 'https://www.youtube-nocookie.com/embed/tczda96slZ0',
         contentUrl: 'https://www.youtube.com/watch?v=tczda96slZ0',
         inLanguage: 'pt-BR',
@@ -192,11 +192,11 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         {params.slug === 'restauracao' && (
           <section className="mt-16 border-t border-gold/25 pt-12">
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Filme</p>
-            <h2 className="mt-3 font-display text-3xl">A reforma do Theatro, em vídeo</h2>
+            <h2 className="mt-3 font-display text-3xl">A inauguração do foyer, em vídeo</h2>
             <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-              Registro das obras de restauração reunido por Clovis Vieira — o edifício em recuperação, etapa por etapa.
+              A inauguração do foyer, em dezembro de 1992, com diversas apresentações musicais — o primeiro espaço do Theatro devolvido ao público durante o longo restauro. Imagens gravadas em câmera VHS por Riolando Gião, no segundo semestre de 1992.
             </p>
-            <div className="mt-6"><LiteYouTube id="tczda96slZ0" title="Reforma do Theatro Municipal — Clovis Vieira" /></div>
+            <div className="mt-6"><LiteYouTube id="tczda96slZ0" title="Inauguração do foyer do Theatro Municipal — 1992" poster="/fotos/hr6-restauro-04.jpg" /></div>
           </section>
         )}
         {params.slug === 'historia' && (
