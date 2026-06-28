@@ -194,7 +194,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Filme</p>
             <h2 className="mt-3 font-display text-3xl">A inauguração do foyer, em vídeo</h2>
             <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-              A inauguração do foyer, em dezembro de 1992, com diversas apresentações musicais — o primeiro espaço do Theatro devolvido ao público durante o longo restauro. Imagens gravadas em câmera VHS por Riolando Gião, no segundo semestre de 1992.
+              A inauguração do foyer, em dezembro de 1992, com diversas apresentações musicais — o primeiro espaço do Theatro devolvido ao público durante o longo restauro. Ao piano, Vânia Noronha; ao violoncelo, Giorgio Bariolla; no canto, Neusa Menezes e Jamil Cury. Imagens gravadas em câmera VHS por Riolando Gião, no segundo semestre de 1992.
             </p>
             <div className="mt-6"><LiteYouTube id="tczda96slZ0" title="Inauguração do foyer do Theatro Municipal — 1992" poster="/fotos/hr6-restauro-04.jpg" /></div>
           </section>
