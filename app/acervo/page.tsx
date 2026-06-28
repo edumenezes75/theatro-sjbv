@@ -128,10 +128,31 @@ export default function AcervoPage() {
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 6 · papéis que contam a história</p>
           </div>
           <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Documentos</h2>
-          <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+          <p className="mt-2 mb-10 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
             Estatutos, escrituras, projetos, programas e o abaixo-assinado que salvou o edifício — os papéis que registram, em cartório e na imprensa, cada etapa da história do Theatro. <span className="text-curtain dark:text-gold">{docs.length} itens.</span> Clique para ampliar e ler.
           </p>
-          <LazyMount><GaleriaReal fotos={docs} pessoasIndex={pessoasIndexMin} showEpoca /></LazyMount>
+          <LazyMount>
+            <div className="space-y-12">
+              {[
+                ['fundacao', 'Fundação, leis e projetos', 'A lei de 1912, os estatutos, a escritura e os desenhos do edifício.'],
+                ['imprensa', 'Imprensa da época', 'O Theatro nas páginas dos jornais, da pedra fundamental ao restauro.'],
+                ['programas', 'Programas e convites', 'Festivais, recitais e espetáculos anunciados ao público.'],
+                ['preservacao', 'Preservação e tombamento', 'O abaixo-assinado, a Fundação Oliveira Neto e o tombamento de 1987.'],
+              ].map(([key, titulo, sub]) => {
+                const grupo = docs.filter((f) => f.docgrupo === key);
+                if (!grupo.length) return null;
+                return (
+                  <div key={key}>
+                    <div className="mb-5 border-l-2 border-gold/50 pl-4">
+                      <h3 className="font-display text-xl leading-tight text-ink dark:text-cream">{titulo}</h3>
+                      <p className="mt-1 max-w-reading font-sans text-[0.82rem] italic text-ink/60 dark:text-cream/60">{sub}</p>
+                    </div>
+                    <GaleriaReal fotos={grupo} pessoasIndex={pessoasIndexMin} withFilter={false} showEpoca={false} />
+                  </div>
+                );
+              })}
+            </div>
+          </LazyMount>
         </section>
 
         <ReconheceuAlguem />

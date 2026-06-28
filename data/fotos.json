@@ -168,7 +168,8 @@
   "epoca": "Histórico",
   "rank": 3,
   "cor": true,
-  "tone": 2.14027
+  "tone": 2.14027,
+  "docgrupo": "programas"
  },
  {
   "id": "h047",
@@ -665,7 +666,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Pré-restauro",
   "rank": 3,
-  "tone": 0.321093
+  "tone": 0.321093,
+  "docgrupo": "preservacao"
  },
  {
   "id": "h015",
@@ -678,7 +680,8 @@
   "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 3,
-  "tone": 0.337212
+  "tone": 0.337212,
+  "docgrupo": "fundacao"
  },
  {
   "id": "h037",
@@ -1362,7 +1365,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Pré-restauro",
   "rank": 3,
-  "tone": 0.50068
+  "tone": 0.50068,
+  "docgrupo": "fundacao"
  },
  {
   "id": "h122",
@@ -1414,7 +1418,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
   "rank": 3,
-  "tone": 0.424201
+  "tone": 0.424201,
+  "docgrupo": "preservacao"
  },
  {
   "id": "h126",
@@ -1427,7 +1432,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Histórico",
   "rank": 3,
-  "tone": 0.500779
+  "tone": 0.500779,
+  "docgrupo": "programas"
  },
  {
   "id": "h127",
@@ -2423,7 +2429,8 @@
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 2,
-  "tone": 0.416101
+  "tone": 0.416101,
+  "docgrupo": "fundacao"
  },
  {
   "id": "h205",
@@ -2436,7 +2443,8 @@
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
   "epoca": "Restauro",
   "rank": 2,
-  "tone": 0.383813
+  "tone": 0.383813,
+  "docgrupo": "fundacao"
  },
  {
   "id": "h206",
@@ -3230,7 +3238,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes de imprensa.",
   "epoca": "Pré-restauro",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "imprensa"
  },
  {
   "id": "h272",
@@ -3243,7 +3252,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes de imprensa.",
   "epoca": "Pré-restauro",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "imprensa"
  },
  {
   "id": "h273",
@@ -3256,7 +3266,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes de imprensa.",
   "epoca": "Restauro",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "imprensa"
  },
  {
   "id": "h274",
@@ -3347,7 +3358,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
   "epoca": "Histórico",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "fundacao"
  },
  {
   "id": "h281",
@@ -3360,7 +3372,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
   "epoca": "Histórico",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "imprensa"
  },
  {
   "id": "h282",
@@ -3373,7 +3386,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
   "epoca": "Histórico",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "imprensa"
  },
  {
   "id": "h283",
@@ -3386,7 +3400,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
   "epoca": "Histórico",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "programas"
  },
  {
   "id": "h284",
@@ -3399,7 +3414,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
   "epoca": "Pré-restauro",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "preservacao"
  },
  {
   "id": "h285",
@@ -3412,7 +3428,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
   "epoca": "Histórico",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "programas"
  },
  {
   "id": "h286",
@@ -3425,7 +3442,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
   "epoca": "Histórico",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "programas"
  },
  {
   "id": "h287",
@@ -3438,6 +3456,7 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
   "epoca": "Histórico",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "docgrupo": "programas"
  }
 ]
