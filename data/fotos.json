@@ -3400,5 +3400,44 @@
   "epoca": "Pré-restauro",
   "rank": 5,
   "tone": 0.0
+ },
+ {
+  "id": "h285",
+  "file": "fotos/hr8-doc-festival-1932.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1006,
+  "h": 1800,
+  "alt": "O programa do grandioso festival de 31 de março de 1932, dirigido pelo Padre Nicolau Miranda e por Dona Beloca, com a relação dos músicos da orquestra.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h286",
+  "file": "fotos/hr8-doc-conservatorio-1957.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1773,
+  "h": 1714,
+  "alt": "O programa de um recital do Conservatório Musical Guiomar Novais no Theatro, em 5 de junho de 1957 — ballet, piano, canto, violino e acordeon.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
+ },
+ {
+  "id": "h287",
+  "file": "fotos/hr8-doc-festival-1947.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1269,
+  "h": 1800,
+  "alt": "O programa do Festival Artístico de 11 de junho de 1947, com o canto orfeônico de 120 vozes regido por Nascipe Murr.",
+  "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
+  "epoca": "Histórico",
+  "rank": 5,
+  "tone": 0.0
  }
 ]
