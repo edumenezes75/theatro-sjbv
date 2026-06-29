@@ -59,7 +59,11 @@ A pressão não tombou o prédio de imediato, mas levou o poder público à comp
 
 A divisão tinha uma razão concreta: logo se percebeu que era impossível restaurar ou operar um teatro sem a caixa cênica completa. A Prefeitura voltou à mesa e concluiu a **compra da segunda parte em maio de 1985**. Só então o Theatro voltava a ser um conjunto coerente.
 
-## A cidade vota — e doa suas fotos
+![Registro da compra do Theatro pela Prefeitura, nos anos 1980.](/fotos/hr9-compra-theatro.jpg)
+
+*A compra do Theatro pela Prefeitura, nos anos 1980 — o passo que tornou o edifício público e viabilizou o restauro.*
+
+## A cidade vota — e doa suas fotos## A cidade vota — e doa suas fotos
 
 No mesmo mês da primeira compra, num episódio inédito de **consulta popular**, a Prefeitura instalou urnas no foyer para que a população opinasse sobre o destino do imóvel. Venceu a opção de **restaurar o edifício como teatro, o mais próximo possível do aspecto original** — escolha de **1.651 cidadãos**. O jornal *O Município* convocava: *"Compareça à urna do Teatro Municipal e dê sua opinião sobre a restauração."*
 

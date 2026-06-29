@@ -21,7 +21,11 @@ Nos anos 1930, em pleno tempo áureo da arte na cidade, o Theatro era o centro d
 
 Ao seu lado estavam nomes como **Zilah e Isaura Mattos**, Lucila Martarello e Roberto Balestrin. Em 1952, Dona Beloca dirigiu *Sonhos de Fada*: num grande livro cenográfico, de cujas páginas saíam o Gato de Botas, Pinóquio, Cinderela e Peter Pan, cada personagem tinha "um padrinho". Foi um espetáculo que marcou época — e o cineclube do Theatro, no século XXI, levaria o nome de **Beloca** em sua homenagem.
 
-![Cena de espetáculo com Lucila Martarello, a “prata da casa”, no palco.](/fotos/hr-eventos-34.jpg)
+![Gabriela de Oliveira Costa, a Dona Beloca.](/fotos/hr9-beloca.jpg)
+
+*Gabriela de Oliveira Costa, a Dona Beloca — à frente dos espetáculos beneficentes do Theatro por cerca de 25 anos.*
+
+![Cena de espetáculo com Lucila Martarello![Cena de espetáculo com Lucila Martarello, a “prata da casa”, no palco.](/fotos/hr-eventos-34.jpg)
 
 *Lucila Martarello, a “prata da casa” — a fada de* Sonhos de Fada *(1952), dirigido por Dona Beloca.*
 

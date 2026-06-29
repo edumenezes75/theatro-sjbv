@@ -3486,5 +3486,44 @@
     "rank": 5,
     "tone": 0.0,
     "docgrupo": "imprensa"
+  },
+  {
+    "id": "h290",
+    "file": "fotos/hr9-beloca.jpg",
+    "category": "pessoas",
+    "categoryLabel": "Pessoas",
+    "w": 275,
+    "h": 401,
+    "alt": "Gabriela de Oliveira Costa, a Dona Beloca, que liderou os espetáculos do Theatro por cerca de 25 anos.",
+    "credit": "Acervo do Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico",
+    "rank": 5,
+    "tone": 0.0
+  },
+  {
+    "id": "h291",
+    "file": "fotos/hr9-clineida.jpg",
+    "category": "pessoas",
+    "categoryLabel": "Pessoas",
+    "w": 199,
+    "h": 283,
+    "alt": "Clineida Andrade Junqueira Jacomini, frequentadora cujo relato preservou a memória das sessões do Cine Theatro.",
+    "credit": "Acervo do Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico",
+    "rank": 5,
+    "tone": 0.0
+  },
+  {
+    "id": "h292",
+    "file": "fotos/hr9-compra-theatro.jpg",
+    "category": "theatro",
+    "categoryLabel": "Theatro",
+    "w": 1800,
+    "h": 882,
+    "alt": "Registro da compra do Theatro Municipal pela Prefeitura, nos anos 1980.",
+    "credit": "Acervo do Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Pré-restauro",
+    "rank": 5,
+    "tone": 0.0
   }
 ]

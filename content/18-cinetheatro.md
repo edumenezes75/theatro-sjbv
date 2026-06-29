@@ -37,7 +37,11 @@ Naquela época, lembra ela, "não existiam as atuais frisas e camarotes": era um
 
 > "Era hábito comum e generalizado ir ao cinema num tempo em que Hollywood estava no auge, seus artistas idem, e não havia ainda televisão. Novelas, só pelo rádio."
 
-## Flávio, o faz-tudo
+![Clineida Andrade Junqueira Jacomini.](/fotos/hr9-clineida.jpg)
+
+*Clineida Andrade Junqueira Jacomini — foi o relato dela que preservou a memória dos domingos no Cine Theatro.*
+
+## Flávio, o faz-tudo## Flávio, o faz-tudo
 
 Nenhuma figura encarna melhor o Cine Theatro do que **Flávio Nogueira**. No pequeno espaço junto à cabine de projeção, ele era, ao mesmo tempo, bilheteiro, porteiro e — na falta do encarregado — projecionista. Cabia a ele receber as fitas, que chegavam em grandes estojos de metal, trazidas do escritório da Viação Cometa por um charreteiro. Durante o dia, Flávio rodava os filmes para conferir se não estavam partidos, emendava o que fosse preciso e, nessa checagem, acabava assistindo a tudo antes do público.
 
