@@ -21,9 +21,13 @@ Essa relação entre cena e espectadores é uma das marcas da tradição teatral
 
 O projeto de 1913 apresenta uma composição simétrica e eclética, com eixo central destacado, frontão, ornamentos e as inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*. O edifício foi concebido para se afirmar diante da praça e comunicar a sua função antes mesmo de o público entrar — uma fachada que, lida de perto, é quase um texto.
 
-![A fachada eclética voltada para a Praça da Catedral, com inscrições ligadas à música e ao drama.](/fotos/hr-fachada-24.jpg)
+![A fachada do Theatro em registro antigo, com a faixa de inscrições no alto da cornija.](/fotos/hr7-fachada-historica.jpg)
 
-*A fachada eclética voltada para a Praça da Catedral, com inscrições ligadas à música e ao drama.*
+*A fachada em registro antigo — no alto, a faixa de inscrições do programa: **MVSICA**, **THEATRO**, **MVNICIPAL** e **DRAMA**.*
+
+![A palavra MVNICIPAL gravada na cornija da fachada, em close.](/fotos/hr3-ornamentos-01.jpg)
+
+*Em detalhe, a palavra **MVNICIPAL** gravada na cornija — na grafia latina em que o U vira V. Era assim que a fachada anunciava a função antes de o público entrar.*
 
 **Aprofunde-se** — os medalhões dos compositores, os ramos de café e a águia da platibanda, decifrados um a um: [A fachada que fala →](/a-fachada-que-fala).
 
