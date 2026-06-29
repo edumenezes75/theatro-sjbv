@@ -1,376 +1,392 @@
 {
-  "items": [
-    {
-      "id": "c001",
-      "title": "Quase um cassino",
-      "text": "Diante de dificuldades financeiras, a transformação de salões em cassino chegou a ser considerada no final dos anos 1920.",
-      "type": "documentado",
-      "source": "Menezes 2014, p. 68",
-      "tema": "A casa de muitos usos"
-    },
-    {
-      "id": "c002",
-      "title": "Rinque de patinação",
-      "text": "Em 1929, a sala foi adaptada para patinação.",
-      "type": "documentado",
-      "source": "Cronologia em Menezes 2014",
-      "filme": {
-        "s": 1301,
-        "t": "21:41"
-      },
-      "tema": "A casa de muitos usos"
-    },
-    {
-      "id": "c003",
-      "title": "Uma rádio no segundo andar",
-      "text": "A Rádio Difusora ZYJ-6 funcionou no edifício entre 1958 e 1963, com apresentações ao vivo.",
-      "type": "documentado",
-      "source": "Menezes 2014, pp. 109–110",
-      "filme": {
-        "s": 1846,
-        "t": "30:46"
-      },
-      "tema": "A casa de muitos usos"
-    },
-    {
-      "id": "c004",
-      "title": "O cão Amigo",
-      "text": "Uma memória local registra que o cão alimentado no Bar Theatro acompanhava cortejos fúnebres até o cemitério. De tanto ganhar pedaços de Bauru de quem comia no Bar Theatro, conta-se que morreu diabético.",
-      "type": "memória",
-      "source": "Menezes 2014, p. 118",
-      "tema": "O tempo do cinema"
-    },
-    {
-      "id": "c005",
-      "title": "Só um voltou!",
-      "text": "Flávio Nogueira teria criado esse título para divulgar um filme cujo cartaz não trazia nome em português.",
-      "type": "crônica",
-      "source": "Menezes 2014, p. 111",
-      "tema": "O tempo do cinema"
-    },
-    {
-      "id": "c006",
-      "title": "Uma retroescavadeira na plateia",
-      "text": "A máquina entrou no edifício durante o rebaixamento do subsolo e das fundações.",
-      "type": "documentado",
-      "source": "Menezes 2014, p. 140",
-      "tema": "Ameaça, restauro e mistérios"
-    },
-    {
-      "id": "c007",
-      "title": "Um show no canteiro de obras",
-      "text": "Em 1995, Relembranças lotou a sala ainda inacabada, com cadeiras emprestadas.",
-      "type": "documentado",
-      "source": "Menezes 2014, pp. 162 e 243–244",
-      "tema": "Ameaça, restauro e mistérios"
-    },
-    {
-      "id": "guerra-dos-sexos",
-      "title": "A “Guerra dos Sexos”",
-      "type": "documentado",
-      "text": "Nos anos 1920, um grupo de adolescentes encenou no Theatro a peça “Guerra aos Homens”, de Afrânio Peixoto, com tanto sucesso que o público não queria ir embora. Em resposta, os rapazes se uniram no “Grupo da Meia Noite” — assim chamado por ser o horário em que se reuniam para escrever — e a rixa teatral entre moças e rapazes durou um bom tempo.",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 55.",
-      "tema": "Grandes nomes, grandes noites"
-    },
-    {
-      "id": "capsula-do-tempo",
-      "title": "Uma cápsula do tempo sob a porta",
-      "type": "documentado",
-      "text": "No lançamento da pedra fundamental, sob a porta principal foi enterrada uma caixa de concreto com a ata de fundação, os estatutos da Companhia Teatral Sanjoanense, jornais da época (O Estado de São Paulo, Correio Paulistano), dinheiro em mil-réis e cartões de visita.",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 36–37.",
-      "tema": "Fundação e inauguração"
-    },
-    {
-      "id": "villa-lobos",
-      "title": "Villa-Lobos no segundo andar",
-      "type": "documentado",
-      "text": "A sala da Sociedade de Cultura Artística, no segundo andar do Theatro, recebeu um recital ligado ao maestro Villa-Lobos, com o pianista Souza Lima executando a “Dança dos Negros”. Pelo mesmo palco passaram companhias líricas e orquestras vindas de São Paulo.",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 66.",
-      "tema": "Grandes nomes, grandes noites"
-    },
-    {
-      "id": "lei-de-1912",
-      "title": "Uma lei para ganhar um teatro",
-      "type": "documentado",
-      "text": "Em 15 de abril de 1912, a Câmara aprovou uma lei que concedia isenção de impostos por dez anos a quem construísse um teatro na cidade — e garantia juros sobre o capital investido. Foi o empurrão que faltava para tirar o Theatro do papel.",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 27–30.",
-      "tema": "Fundação e inauguração"
-    },
-    {
-      "id": "joao-negrinho",
-      "title": "Um romance sanjoanense virou filme",
-      "type": "documentado",
-      "text": "A professora Jaçanã Altair, ligada à vida artística da cidade, escreveu o romance “João Negrinho”, transformado em filme na década de 1950. Hoje ela dá nome à Biblioteca Municipal.",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 56–59.",
-      "tema": "Grandes nomes, grandes noites"
-    },
-    {
-      "id": "medalhao-escondido",
-      "title": "Um retrato escondido sob a tinta",
-      "type": "documentado",
-      "text": "Sobre a boca de cena, camadas de tinta escondiam o retrato de Carlos Gomes. Durante o restauro, uma prospecção delicada revelou o medalhão — remoção controlada das camadas, reintegração das lacunas e proteção final devolveram a figura ao palco.",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 137.",
-      "tema": "Ameaça, restauro e mistérios"
-    },
-    {
-      "id": "procopio-1952",
-      "title": "Procópio Ferreira em cena",
-      "type": "documentado",
-      "text": "Em 1952, o Theatro recebeu o grande ator brasileiro Procópio Ferreira, com as peças “Deus lhe Pague” e “Esta Mulher é Minha”, e uma aplaudida audição do pianista Souza Lima — sinal de que a casa do interior atraía nomes de primeira grandeza.",
-      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 90.",
-      "tema": "Grandes nomes, grandes noites"
-    },
-    {
-      "id": "piano-bechstein",
-      "title": "Um piano C. Bechstein",
-      "type": "documentado",
-      "text": "A memória musical do edifício guarda um piano de cauda C. Bechstein, peça histórica associada à Sociedade Cultura Artística e a gerações de concertos, professores e intérpretes.",
-      "source": "Jornal do Parabrisa; pesquisa Jeronimo, 2020",
-      "tema": "Grandes nomes, grandes noites"
-    },
-    {
-      "id": "imprensa-1913-1925",
-      "title": "75% das edições do jornal",
-      "type": "documentado",
-      "text": "Entre 1913 e 1925, o Theatro apareceu em 433 das 576 edições do jornal O Município — cerca de 75% —, com mais de 550 menções entre anúncios, notas e crônicas. Não era atração episódica: era parte da rotina da cidade.",
-      "source": "Jeronimo, 2020, pp. 117–149",
-      "tema": "A casa de muitos usos"
-    },
-    {
-      "id": "radio-guarda-1924",
-      "title": "Rádio e guarda em 1924",
-      "type": "documentado",
-      "text": "Durante a Revolução de 1924, os pavimentos superiores do Theatro abrigaram a Rádio Cultura e a Guarda Municipal Provisória — o edifício virou infraestrutura pública em tempo de crise.",
-      "source": "Jeronimo, 2020, pp. 130–149",
-      "tema": "A casa de muitos usos"
-    },
-    {
-      "id": "c018",
-      "title": "Pela parede do banheiro",
-      "text": "Para entrar no cinema sem pagar, meninos pulavam uma abertura na parede que ligava o bar ao banheiro masculino — lembrança que volta em vários depoimentos do filme.",
-      "type": "memória",
-      "source": "Documentário Música & Drama (2015)",
-      "filme": {
-        "s": 341,
-        "t": "05:41"
-      },
-      "tema": "O tempo do cinema"
-    },
-    {
-      "id": "c019",
-      "title": "A fileira que ninguém ocupava",
-      "text": "Uma fileira da plateia ficava sempre vazia: do camarote, acima, alguém cuspia em quem se sentasse ali.",
-      "type": "memória",
-      "source": "Documentário Música & Drama (2015)",
-      "filme": {
-        "s": 254,
-        "t": "04:14"
-      },
-      "tema": "O tempo do cinema"
-    },
-    {
-      "id": "c020",
-      "title": "Um lugar só para dormir",
-      "text": "Um senhor pagava por mês um lugar na última fila apenas para dormir — em casa, sofria de insônia.",
-      "type": "memória",
-      "source": "Documentário Música & Drama (2015)",
-      "filme": {
-        "s": 297,
-        "t": "04:57"
-      },
-      "tema": "O tempo do cinema"
-    },
-    {
-      "id": "c021",
-      "title": "Roberto Carlos lota o Theatro",
-      "text": "No auge da Jovem Guarda, Roberto Carlos cantou aqui com a casa lotada; havia quem tentasse arrombar as portas laterais para entrar.",
-      "type": "memória",
-      "source": "Documentário Música & Drama (2015)",
-      "tema": "Grandes nomes, grandes noites"
-    },
-    {
-      "id": "c022",
-      "title": "Seis teatros como este",
-      "text": "Segundo depoimentos no filme, restam no Brasil poucos teatros desse porte e período — alguns deles no estado de São Paulo. Cidades vizinhas, como Campinas e Amparo, demoliram os seus.",
-      "type": "memória",
-      "source": "Documentário Música & Drama (2015)",
-      "tema": "Ameaça, restauro e mistérios"
-    },
-    {
-      "id": "c023",
-      "title": "Quem chama no teatro vazio",
-      "text": "Funcionários relatam ouvir o próprio nome ser chamado no teatro vazio, sem ninguém por perto — parte das “energias” que a casa centenária acumulou.",
-      "type": "memória",
-      "source": "Documentário Música & Drama (2015)",
-      "tema": "Ameaça, restauro e mistérios"
-    },
-    {
-      "id": "a-greve-de-fome-no-telhado",
-      "title": "A greve de fome no telhado",
-      "text": "No início dos anos 1980, com o Theatro fechado e ameaçado de demolição, o ator Ronaldo Marin — recém-chegado da Europa com Shakespeare e Camus na bagagem — declarou ao jornal da cidade que se amarraria no topo do prédio e faria greve de fome até que decidissem não o demolir e pedir seu tombamento. O gesto atraiu a imprensa e ajudou a virar a maré a favor da preservação.",
-      "type": "documentado",
-      "source": "Menezes 2014, p. 113 (relato de Zeza Freitas)",
-      "tema": "Ameaça, restauro e mistérios"
-    },
-    {
-      "id": "o-acampamento-que-quase-deu-fogo",
-      "title": "O acampamento que quase deu fogo",
-      "text": "Em 1998, durante uma competição universitária na cidade, estudantes de fora seriam alojados dentro do Theatro — já sem estrutura — e chegaram a acender fogo no interior. Os grupos de teatro se mobilizaram, recorreram ao Ministério Público e, com um abaixo-assinado de mais de duas mil assinaturas, conseguiram que os visitantes fossem acomodados em outro lugar.",
-      "type": "documentado",
-      "source": "Menezes 2014, p. 162 (relato de Carlos Augusto Castilho)",
-      "tema": "Ameaça, restauro e mistérios"
-    },
-    {
-      "id": "vinte-dias-sem-parar",
-      "title": "Vinte dias sem parar",
-      "text": "Depois de visitarem teatros do Rio de Janeiro para estudar palcos modernos, os técnicos do restauro entenderam que precisavam ampliar o imóvel. Todos os desenhistas dos escritórios de engenharia e arquitetura da cidade foram cedidos e, em vinte dias de trabalho ininterrupto — sábados e domingos incluídos —, deram entrada no CONDEPHAAT com o pedido de verba.",
-      "type": "documentado",
-      "source": "Menezes 2014, p. 125",
-      "tema": "Ameaça, restauro e mistérios"
-    },
-    {
-      "id": "coqueluche-da-cidade",
-      "title": "O coqueluche da cidade",
-      "text": "Nos anos 1950, o Bar Theatro, instalado na fachada, era coqueluche em São João da Boa Vista: a coalhada e o Bauru do bar ficaram famosos, e a calçada virava ponto de encontro entre uma sessão e outra do cinema.",
-      "type": "documentado",
-      "source": "Documentário Música & Drama (28:32)",
-      "filme": {
-        "s": 1712,
-        "t": "28:32"
-      },
-      "tema": "O tempo do cinema"
-    },
-    {
-      "id": "cinema-de-segunda-classe",
-      "title": "O “cinema de segunda classe”",
-      "text": "Na fase final do cinema, já deteriorado e sujo, o prédio virou alvo de chacota na cidade — “o cinema de segunda classe, que passava os filmes que não valiam nada”, lembra um depoimento. Foi o fundo do poço que antecedeu a mobilização pela salvação do Theatro.",
-      "type": "documentado",
-      "source": "Documentário Música & Drama (38:18)",
-      "filme": {
-        "s": 2298,
-        "t": "38:18"
-      },
-      "tema": "O tempo do cinema"
-    },
-    {
-      "id": "cidade-dos-crepusculos",
-      "title": "A “Cidade dos Crepúsculos Maravilhosos”",
-      "text": "No livro de ouro da Sociedade de Cultura Artística — que recolhia assinaturas de visitantes ilustres, de Guilherme de Almeida a Altino Arantes — foi o poeta Caruso Neto quem batizou São João da Boa Vista de “Cidade dos Crepúsculos Maravilhosos”, apelido que a cidade carrega até hoje.",
-      "type": "documentado",
-      "source": "Prefeitura de São João da Boa Vista (Theatro Municipal); Wikipédia.",
-      "tema": "Grandes nomes, grandes noites"
-    },
-    {
-      "id": "segundo-maior-do-estado",
-      "title": "O segundo maior do estado",
-      "text": "A Semana Guiomar Novaes, criada em 1977 pelo prefeito Nelson Nicolau em homenagem à pianista sanjoanense, tornou-se referência nacional: é considerada o segundo maior evento cultural do estado de São Paulo, atrás apenas do Festival de Inverno de Campos do Jordão.",
-      "type": "documentado",
-      "source": "Prefeitura de São João da Boa Vista (Theatro Municipal); Wikipédia.",
-      "tema": "Grandes nomes, grandes noites"
-    },
-    {
-      "id": "cento-e-treze-acionistas",
-      "title": "113 acionistas?",
-      "text": "A tradição diz que 113 acionistas fundaram a Companhia Teatral Sanjoanense em 24 de fevereiro de 1913. A pesquisa acadêmica corrige o número: a ata registra 103 presentes ou representados (677 ações), e o Livro de Accionistas chega a cerca de 196 acionistas até 1914 — entre eles comerciantes, imigrantes, profissionais liberais e oito mulheres. Foi a própria cidade, em sua diversidade, que financiou o seu teatro.",
-      "type": "documentado",
-      "source": "Jeronimo (USP, 2020); Prefeitura de São João da Boa Vista.",
-      "tema": "Fundação e inauguração"
-    },
-    {
-      "id": "cinemas-antes-do-theatro",
-      "title": "A cidade já tinha cinemas — queria um monumento",
-      "text": "Quando a ideia ganhou força, São João da Boa Vista já contava com os cinemas Ideal, Bijou e Guarany e com os teatros São João e Recreio, além de um salão no Centro Recreativo Sanjoanense. A elite do café queria, porém, um exemplar maior e mais bem-acabado — menos um espaço de diversão e mais um monumento à altura de uma cidade que se sonhava moderna e cosmopolita.",
-      "type": "documentado",
-      "source": "Dragão Jeronimo, “Um primor artístico de architectura” (UNESP, 2021).",
-      "tema": "Fundação e inauguração"
-    },
-    {
-      "id": "a-chegada-pela-mogiana",
-      "title": "A chegada de gala pela Mogiana",
-      "text": "Na inauguração de 1914, boa parte do público — famílias de fazendeiros, banqueiros e profissionais liberais, muitos imigrantes italianos — chegou da vizinhança nos vagões de primeira classe da estrada de ferro Mogiana, cujos trilhos cortavam a região desde 1886. Foi o trem do café que trouxe a plateia da primeira noite.",
-      "type": "documentado",
-      "source": "Vestígios da Memória, 2017.",
-      "tema": "Fundação e inauguração"
-    },
-    {
-      "id": "duas-festas-na-mesma-noite",
-      "title": "Duas festas na mesma noite",
-      "text": "Enquanto a alta sociedade lotava as 480 cadeiras, as 22 frisas e os 30 camarotes para ver “Uma Causa Célebre” naquele sábado de primavera de 1914, é provável que, nos arredores da cidade, outras festas bem diferentes acontecessem — ao som de violas, tambores e berimbaus. Duas São Joãos, na mesma noite.",
-      "type": "documentado",
-      "source": "Vestígios da Memória, 2017.",
-      "tema": "Fundação e inauguração"
-    },
-    {
-      "id": "as-mulheres-que-sustentaram",
-      "title": "As mulheres que sustentaram o Theatro",
-      "text": "Endividada com a construção, a companhia teatral logo ficou sem fôlego para trazer grandes artistas. Foram algumas mulheres da cidade que ajudaram a manter o Theatro de pé nas primeiras décadas, promovendo os eventos que o conservaram vivo — para elas, ir ao teatro era também o dia de sair de casa e afirmar o lugar da família.",
-      "type": "documentado",
-      "source": "Vestígios da Memória, 2017.",
-      "tema": "Fundação e inauguração"
-    },
-    {
-      "id": "cem-mil-numa-decada",
-      "title": "Mais de cem mil numa década",
-      "text": "Um levantamento acadêmico dos borderôs da AMITE revelou números que a própria entidade não conhecia: entre 2004 e 2014, o Theatro restaurado recebeu mais de 111 mil espectadores pagantes em cerca de 568 espetáculos de música, teatro e dança — a prova, em estatística, de que a casa voltou a ser de toda a cidade.",
-      "type": "documentado",
-      "source": "Jeronimo, 2020 (borderô de eventos da AMITE).",
-      "tema": "Ameaça, restauro e mistérios"
-    },
-    {
-      "id": "duas-estreias-numa-noite",
-      "title": "Duas estreias numa só noite",
-      "text": "A crônica de O Município de 31 de outubro de 1914 anunciou a abertura como “duas estreias a um só tempo — a estreia da Companhia dirigida pelo sr. Santos Silva e a estreia do Theatro Municipal, há muito desejada”. A Companhia de Variedades tinha chegado à cidade na quinta-feira anterior; no sábado, o Theatro abria as portas. Em cerimônia de gala, as autoridades declararam-no, sem hesitar, o maior e melhor casa de espetáculos de todo o interior paulista.",
-      "type": "documentado",
-      "source": "Jeronimo, 2020 (Jornal O Município).",
-      "tema": "Fundação e inauguração"
-    },
-    {
-      "id": "benefício-cruz-vermelha-italiana",
-      "title": "Um benefício para a Cruz Vermelha Italiana",
-      "text": "Em 27 de maio de 1916, o Theatro recebeu um festival beneficente em favor da Cruz Vermelha Italiana — eco, no interior paulista, da numerosa comunidade italiana da cidade e da Primeira Guerra que então sacudia a Europa. O balancete dessa noite é hoje uma das fontes que revelam a hierarquia de preços entre camarotes, frisas, plateia e galeria.",
-      "type": "documentado",
-      "source": "Jeronimo, 2020 (Jornal O Município).",
-      "tema": "Grandes nomes, grandes noites"
-    },
-    {
-      "id": "ferrovia-norte-sul",
-      "title": "“A Ferrovia Norte-Sul de São João”",
-      "text": "A restauração se arrastou por quase dezessete anos, atravessando crises e mandatos. Diante da lentidão e dos custos, parte da cidade passou a chamar a obra, com ironia, de “a Ferrovia Norte-Sul de São João” — comparando-a à célebre ferrovia federal que vivia anunciada e nunca ficava pronta. O apelido virou termômetro da impaciência popular com o canteiro que não acabava.",
-      "type": "crônica",
-      "source": "Jeronimo, 2020.",
-      "tema": "Ameaça, restauro e mistérios"
-    },
-    {
-      "id": "ideal-bijou-arrendaram",
-      "title": "Os cinemas que arrendaram o Theatro",
-      "text": "Antes mesmo de o Theatro abrir, as empresas dos cinemas Ideal e Bijou, então fundidas, arrendaram o novo edifício da Companhia Teatral Sanjoanense. O jornal de outubro de 1914 já anunciava que elas passariam a funcionar ali, “correspondendo às simpatias do público, quer no serviço cinematográfico, quer em outros gêneros de diversões” — o cinema, portanto, esteve no Theatro desde o primeiro dia.",
-      "type": "documentado",
-      "source": "A Cidade de São João, 4 out. 1914 (folheto).",
-      "tema": "Fundação e inauguração"
-    },
-    {
-      "id": "coral-120-vozes",
-      "title": "Um coral de 120 vozes",
-      "text": "No Festival Artístico de 11 de junho de 1947, em prol do novo prédio da Santa Casa, o canto orfeônico foi conduzido por um coral de 120 vozes, sob a regência do professor Nascipe Atalla Murr. A casa virou caixa de ressonância para a cidade inteira cantar junto.",
-      "type": "documentado",
-      "source": "Programa do Theatro Municipal, 11 jun. 1947 (folheto).",
-      "tema": "Grandes nomes, grandes noites"
-    },
-    {
-      "id": "grupo-tudo-preto",
-      "title": "O grupo “Tudo Preto”",
-      "text": "Em 5 de fevereiro de 1929, o grupo “Tudo Preto”, ligado à Conferência de São Vicente de Paulo, montou no Theatro um “festival de caridade” — uma revista com quadros e a peça típica “Na Cosinha”. A renda ajudou a erguer a igreja de São Benedito da cidade: o palco do Theatro financiando, cena a cena, um novo templo.",
-      "type": "documentado",
-      "source": "Programa do Theatro Municipal, 5 fev. 1929 (folheto).",
-      "tema": "A casa de muitos usos"
-    },
-    {
-      "id": "apelido-pulgueiro",
-      "title": "Quando o Theatro virou “pulgueiro”",
-      "text": "Nos anos finais do cinema, disputando público com salas mais novas como o Cine Avenida (1944) e o Cine Ouro Branco (1970), o velho CineTheatro passou a exibir filmes de menor apelo e ganhou um apelido cruel: “pulgueiro”. O mesmo prédio saudado como atestado de civilização em 1914 virou, para parte da cidade, lugar a evitar — distância que tornaria ainda mais forte a sua recuperação.",
-      "type": "documentado",
-      "source": "Jeronimo (USP, 2020); Vernácula, 2023.",
-      "tema": "O tempo do cinema"
-    }
-  ]
+ "items": [
+  {
+   "id": "c001",
+   "title": "Quase um cassino",
+   "text": "Diante de dificuldades financeiras, a transformação de salões em cassino chegou a ser considerada no final dos anos 1920.",
+   "type": "documentado",
+   "source": "Menezes 2014, p. 68",
+   "tema": "A casa de muitos usos"
+  },
+  {
+   "id": "c002",
+   "title": "Rinque de patinação",
+   "text": "Em 1929, a sala foi adaptada para patinação.",
+   "type": "documentado",
+   "source": "Cronologia em Menezes 2014",
+   "filme": {
+    "s": 1301,
+    "t": "21:41"
+   },
+   "tema": "A casa de muitos usos"
+  },
+  {
+   "id": "c003",
+   "title": "Uma rádio no segundo andar",
+   "text": "A Rádio Difusora ZYJ-6 funcionou no edifício entre 1958 e 1963, com apresentações ao vivo.",
+   "type": "documentado",
+   "source": "Menezes 2014, pp. 109–110",
+   "filme": {
+    "s": 1846,
+    "t": "30:46"
+   },
+   "tema": "A casa de muitos usos"
+  },
+  {
+   "id": "c004",
+   "title": "O cão Amigo",
+   "text": "Uma memória local registra que o cão alimentado no Bar Theatro acompanhava cortejos fúnebres até o cemitério. De tanto ganhar pedaços de Bauru de quem comia no Bar Theatro, conta-se que morreu diabético.",
+   "type": "memória",
+   "source": "Menezes 2014, p. 118",
+   "tema": "O tempo do cinema"
+  },
+  {
+   "id": "c005",
+   "title": "Só um voltou!",
+   "text": "Flávio Nogueira teria criado esse título para divulgar um filme cujo cartaz não trazia nome em português.",
+   "type": "crônica",
+   "source": "Menezes 2014, p. 111",
+   "tema": "O tempo do cinema"
+  },
+  {
+   "id": "c006",
+   "title": "Uma retroescavadeira na plateia",
+   "text": "A máquina entrou no edifício durante o rebaixamento do subsolo e das fundações.",
+   "type": "documentado",
+   "source": "Menezes 2014, p. 140",
+   "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "c007",
+   "title": "Um show no canteiro de obras",
+   "text": "Em 1995, Relembranças lotou a sala ainda inacabada, com cadeiras emprestadas.",
+   "type": "documentado",
+   "source": "Menezes 2014, pp. 162 e 243–244",
+   "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "guerra-dos-sexos",
+   "title": "A “Guerra dos Sexos”",
+   "type": "documentado",
+   "text": "Nos anos 1920, um grupo de adolescentes encenou no Theatro a peça “Guerra aos Homens”, de Afrânio Peixoto, com tanto sucesso que o público não queria ir embora. Em resposta, os rapazes se uniram no “Grupo da Meia Noite” — assim chamado por ser o horário em que se reuniam para escrever — e a rixa teatral entre moças e rapazes durou um bom tempo.",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 55.",
+   "tema": "Grandes nomes, grandes noites"
+  },
+  {
+   "id": "capsula-do-tempo",
+   "title": "Uma cápsula do tempo sob a porta",
+   "type": "documentado",
+   "text": "No lançamento da pedra fundamental, sob a porta principal foi enterrada uma caixa de concreto com a ata de fundação, os estatutos da Companhia Teatral Sanjoanense, jornais da época (O Estado de São Paulo, Correio Paulistano), dinheiro em mil-réis e cartões de visita.",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 36–37.",
+   "tema": "Fundação e inauguração"
+  },
+  {
+   "id": "villa-lobos",
+   "title": "Villa-Lobos no segundo andar",
+   "type": "documentado",
+   "text": "A sala da Sociedade de Cultura Artística, no segundo andar do Theatro, recebeu um recital ligado ao maestro Villa-Lobos, com o pianista Souza Lima executando a “Dança dos Negros”. Pelo mesmo palco passaram companhias líricas e orquestras vindas de São Paulo.",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 66.",
+   "tema": "Grandes nomes, grandes noites"
+  },
+  {
+   "id": "lei-de-1912",
+   "title": "Uma lei para ganhar um teatro",
+   "type": "documentado",
+   "text": "Em 15 de abril de 1912, a Câmara aprovou uma lei que concedia isenção de impostos por dez anos a quem construísse um teatro na cidade — e garantia juros sobre o capital investido. Foi o empurrão que faltava para tirar o Theatro do papel.",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 27–30.",
+   "tema": "Fundação e inauguração"
+  },
+  {
+   "id": "joao-negrinho",
+   "title": "Um romance sanjoanense virou filme",
+   "type": "documentado",
+   "text": "A professora Jaçanã Altair, ligada à vida artística da cidade, escreveu o romance “João Negrinho”, transformado em filme na década de 1950. Hoje ela dá nome à Biblioteca Municipal.",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 56–59.",
+   "tema": "Grandes nomes, grandes noites"
+  },
+  {
+   "id": "medalhao-escondido",
+   "title": "Um retrato escondido sob a tinta",
+   "type": "documentado",
+   "text": "Sobre a boca de cena, camadas de tinta escondiam o retrato de Carlos Gomes. Durante o restauro, uma prospecção delicada revelou o medalhão — remoção controlada das camadas, reintegração das lacunas e proteção final devolveram a figura ao palco.",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 137.",
+   "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "procopio-1952",
+   "title": "Procópio Ferreira em cena",
+   "type": "documentado",
+   "text": "Em 1952, o Theatro recebeu o grande ator brasileiro Procópio Ferreira, com as peças “Deus lhe Pague” e “Esta Mulher é Minha”, e uma aplaudida audição do pianista Souza Lima — sinal de que a casa do interior atraía nomes de primeira grandeza.",
+   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 90.",
+   "tema": "Grandes nomes, grandes noites"
+  },
+  {
+   "id": "piano-bechstein",
+   "title": "Um piano C. Bechstein",
+   "type": "documentado",
+   "text": "A memória musical do edifício guarda um piano de cauda C. Bechstein, peça histórica associada à Sociedade Cultura Artística e a gerações de concertos, professores e intérpretes.",
+   "source": "Jornal do Parabrisa; pesquisa Jeronimo, 2020",
+   "tema": "Grandes nomes, grandes noites"
+  },
+  {
+   "id": "imprensa-1913-1925",
+   "title": "75% das edições do jornal",
+   "type": "documentado",
+   "text": "Entre 1913 e 1925, o Theatro apareceu em 433 das 576 edições do jornal O Município — cerca de 75% —, com mais de 550 menções entre anúncios, notas e crônicas. Não era atração episódica: era parte da rotina da cidade.",
+   "source": "Jeronimo, 2020, pp. 117–149",
+   "tema": "A casa de muitos usos"
+  },
+  {
+   "id": "radio-guarda-1924",
+   "title": "Rádio e guarda em 1924",
+   "type": "documentado",
+   "text": "Durante a Revolução de 1924, os pavimentos superiores do Theatro abrigaram a Rádio Cultura e a Guarda Municipal Provisória — o edifício virou infraestrutura pública em tempo de crise.",
+   "source": "Jeronimo, 2020, pp. 130–149",
+   "tema": "A casa de muitos usos"
+  },
+  {
+   "id": "c018",
+   "title": "Pela parede do banheiro",
+   "text": "Para entrar no cinema sem pagar, meninos pulavam uma abertura na parede que ligava o bar ao banheiro masculino — lembrança que volta em vários depoimentos do filme.",
+   "type": "memória",
+   "source": "Documentário Música & Drama (2015)",
+   "filme": {
+    "s": 341,
+    "t": "05:41"
+   },
+   "tema": "O tempo do cinema"
+  },
+  {
+   "id": "c019",
+   "title": "A fileira que ninguém ocupava",
+   "text": "Uma fileira da plateia ficava sempre vazia: do camarote, acima, alguém cuspia em quem se sentasse ali.",
+   "type": "memória",
+   "source": "Documentário Música & Drama (2015)",
+   "filme": {
+    "s": 254,
+    "t": "04:14"
+   },
+   "tema": "O tempo do cinema"
+  },
+  {
+   "id": "c020",
+   "title": "Um lugar só para dormir",
+   "text": "Um senhor pagava por mês um lugar na última fila apenas para dormir — em casa, sofria de insônia.",
+   "type": "memória",
+   "source": "Documentário Música & Drama (2015)",
+   "filme": {
+    "s": 297,
+    "t": "04:57"
+   },
+   "tema": "O tempo do cinema"
+  },
+  {
+   "id": "c021",
+   "title": "Roberto Carlos lota o Theatro",
+   "text": "No auge da Jovem Guarda, Roberto Carlos cantou aqui com a casa lotada; havia quem tentasse arrombar as portas laterais para entrar.",
+   "type": "memória",
+   "source": "Documentário Música & Drama (2015)",
+   "tema": "Grandes nomes, grandes noites"
+  },
+  {
+   "id": "c022",
+   "title": "Seis teatros como este",
+   "text": "Segundo depoimentos no filme, restam no Brasil poucos teatros desse porte e período — alguns deles no estado de São Paulo. Cidades vizinhas, como Campinas e Amparo, demoliram os seus.",
+   "type": "memória",
+   "source": "Documentário Música & Drama (2015)",
+   "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "c023",
+   "title": "Quem chama no teatro vazio",
+   "text": "Funcionários relatam ouvir o próprio nome ser chamado no teatro vazio, sem ninguém por perto — parte das “energias” que a casa centenária acumulou.",
+   "type": "memória",
+   "source": "Documentário Música & Drama (2015)",
+   "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "a-greve-de-fome-no-telhado",
+   "title": "A greve de fome no telhado",
+   "text": "No início dos anos 1980, com o Theatro fechado e ameaçado de demolição, o ator Ronaldo Marin — recém-chegado da Europa com Shakespeare e Camus na bagagem — declarou ao jornal da cidade que se amarraria no topo do prédio e faria greve de fome até que decidissem não o demolir e pedir seu tombamento. O gesto atraiu a imprensa e ajudou a virar a maré a favor da preservação.",
+   "type": "documentado",
+   "source": "Menezes 2014, p. 113 (relato de Zeza Freitas)",
+   "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "o-acampamento-que-quase-deu-fogo",
+   "title": "O acampamento que quase deu fogo",
+   "text": "Em 1998, durante uma competição universitária na cidade, estudantes de fora seriam alojados dentro do Theatro — já sem estrutura — e chegaram a acender fogo no interior. Os grupos de teatro se mobilizaram, recorreram ao Ministério Público e, com um abaixo-assinado de mais de duas mil assinaturas, conseguiram que os visitantes fossem acomodados em outro lugar.",
+   "type": "documentado",
+   "source": "Menezes 2014, p. 162 (relato de Carlos Augusto Castilho)",
+   "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "vinte-dias-sem-parar",
+   "title": "Vinte dias sem parar",
+   "text": "Depois de visitarem teatros do Rio de Janeiro para estudar palcos modernos, os técnicos do restauro entenderam que precisavam ampliar o imóvel. Todos os desenhistas dos escritórios de engenharia e arquitetura da cidade foram cedidos e, em vinte dias de trabalho ininterrupto — sábados e domingos incluídos —, deram entrada no CONDEPHAAT com o pedido de verba.",
+   "type": "documentado",
+   "source": "Menezes 2014, p. 125",
+   "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "coqueluche-da-cidade",
+   "title": "O coqueluche da cidade",
+   "text": "Nos anos 1950, o Bar Theatro, instalado na fachada, era coqueluche em São João da Boa Vista: a coalhada e o Bauru do bar ficaram famosos, e a calçada virava ponto de encontro entre uma sessão e outra do cinema.",
+   "type": "documentado",
+   "source": "Documentário Música & Drama (28:32)",
+   "filme": {
+    "s": 1712,
+    "t": "28:32"
+   },
+   "tema": "O tempo do cinema"
+  },
+  {
+   "id": "cinema-de-segunda-classe",
+   "title": "O “cinema de segunda classe”",
+   "text": "Na fase final do cinema, já deteriorado e sujo, o prédio virou alvo de chacota na cidade — “o cinema de segunda classe, que passava os filmes que não valiam nada”, lembra um depoimento. Foi o fundo do poço que antecedeu a mobilização pela salvação do Theatro.",
+   "type": "documentado",
+   "source": "Documentário Música & Drama (38:18)",
+   "filme": {
+    "s": 2298,
+    "t": "38:18"
+   },
+   "tema": "O tempo do cinema"
+  },
+  {
+   "id": "cidade-dos-crepusculos",
+   "title": "A “Cidade dos Crepúsculos Maravilhosos”",
+   "text": "No livro de ouro da Sociedade de Cultura Artística — que recolhia assinaturas de visitantes ilustres, de Guilherme de Almeida a Altino Arantes — foi o poeta Caruso Neto quem batizou São João da Boa Vista de “Cidade dos Crepúsculos Maravilhosos”, apelido que a cidade carrega até hoje.",
+   "type": "documentado",
+   "source": "Prefeitura de São João da Boa Vista (Theatro Municipal); Wikipédia.",
+   "tema": "Grandes nomes, grandes noites"
+  },
+  {
+   "id": "segundo-maior-do-estado",
+   "title": "O segundo maior do estado",
+   "text": "A Semana Guiomar Novaes, criada em 1977 pelo prefeito Nelson Nicolau em homenagem à pianista sanjoanense, tornou-se referência nacional: é considerada o segundo maior evento cultural do estado de São Paulo, atrás apenas do Festival de Inverno de Campos do Jordão.",
+   "type": "documentado",
+   "source": "Prefeitura de São João da Boa Vista (Theatro Municipal); Wikipédia.",
+   "tema": "Grandes nomes, grandes noites"
+  },
+  {
+   "id": "cento-e-treze-acionistas",
+   "title": "113 acionistas?",
+   "text": "A tradição diz que 113 acionistas fundaram a Companhia Teatral Sanjoanense em 24 de fevereiro de 1913. A pesquisa acadêmica corrige o número: a ata registra 103 presentes ou representados (677 ações), e o Livro de Accionistas chega a cerca de 196 acionistas até 1914 — entre eles comerciantes, imigrantes, profissionais liberais e oito mulheres. Foi a própria cidade, em sua diversidade, que financiou o seu teatro.",
+   "type": "documentado",
+   "source": "Jeronimo (USP, 2020); Prefeitura de São João da Boa Vista.",
+   "tema": "Fundação e inauguração"
+  },
+  {
+   "id": "cinemas-antes-do-theatro",
+   "title": "A cidade já tinha cinemas — queria um monumento",
+   "text": "Quando a ideia ganhou força, São João da Boa Vista já contava com os cinemas Ideal, Bijou e Guarany e com os teatros São João e Recreio, além de um salão no Centro Recreativo Sanjoanense. A elite do café queria, porém, um exemplar maior e mais bem-acabado — menos um espaço de diversão e mais um monumento à altura de uma cidade que se sonhava moderna e cosmopolita.",
+   "type": "documentado",
+   "source": "Dragão Jeronimo, “Um primor artístico de architectura” (UNESP, 2021).",
+   "tema": "Fundação e inauguração"
+  },
+  {
+   "id": "a-chegada-pela-mogiana",
+   "title": "A chegada de gala pela Mogiana",
+   "text": "Na inauguração de 1914, boa parte do público — famílias de fazendeiros, banqueiros e profissionais liberais, muitos imigrantes italianos — chegou da vizinhança nos vagões de primeira classe da estrada de ferro Mogiana, cujos trilhos cortavam a região desde 1886. Foi o trem do café que trouxe a plateia da primeira noite.",
+   "type": "documentado",
+   "source": "Vestígios da Memória, 2017.",
+   "tema": "Fundação e inauguração"
+  },
+  {
+   "id": "duas-festas-na-mesma-noite",
+   "title": "Duas festas na mesma noite",
+   "text": "Enquanto a alta sociedade lotava as 480 cadeiras, as 22 frisas e os 30 camarotes para ver “Uma Causa Célebre” naquele sábado de primavera de 1914, é provável que, nos arredores da cidade, outras festas bem diferentes acontecessem — ao som de violas, tambores e berimbaus. Duas São Joãos, na mesma noite.",
+   "type": "documentado",
+   "source": "Vestígios da Memória, 2017.",
+   "tema": "Fundação e inauguração"
+  },
+  {
+   "id": "as-mulheres-que-sustentaram",
+   "title": "As mulheres que sustentaram o Theatro",
+   "text": "Endividada com a construção, a companhia teatral logo ficou sem fôlego para trazer grandes artistas. Foram algumas mulheres da cidade que ajudaram a manter o Theatro de pé nas primeiras décadas, promovendo os eventos que o conservaram vivo — para elas, ir ao teatro era também o dia de sair de casa e afirmar o lugar da família.",
+   "type": "documentado",
+   "source": "Vestígios da Memória, 2017.",
+   "tema": "Fundação e inauguração"
+  },
+  {
+   "id": "cem-mil-numa-decada",
+   "title": "Mais de cem mil numa década",
+   "text": "Um levantamento acadêmico dos borderôs da AMITE revelou números que a própria entidade não conhecia: entre 2004 e 2014, o Theatro restaurado recebeu mais de 111 mil espectadores pagantes em cerca de 568 espetáculos de música, teatro e dança — a prova, em estatística, de que a casa voltou a ser de toda a cidade.",
+   "type": "documentado",
+   "source": "Jeronimo, 2020 (borderô de eventos da AMITE).",
+   "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "duas-estreias-numa-noite",
+   "title": "Duas estreias numa só noite",
+   "text": "A crônica de O Município de 31 de outubro de 1914 anunciou a abertura como “duas estreias a um só tempo — a estreia da Companhia dirigida pelo sr. Santos Silva e a estreia do Theatro Municipal, há muito desejada”. A Companhia de Variedades tinha chegado à cidade na quinta-feira anterior; no sábado, o Theatro abria as portas. Em cerimônia de gala, as autoridades declararam-no, sem hesitar, o maior e melhor casa de espetáculos de todo o interior paulista.",
+   "type": "documentado",
+   "source": "Jeronimo, 2020 (Jornal O Município).",
+   "tema": "Fundação e inauguração"
+  },
+  {
+   "id": "benefício-cruz-vermelha-italiana",
+   "title": "Um benefício para a Cruz Vermelha Italiana",
+   "text": "Em 27 de maio de 1916, o Theatro recebeu um festival beneficente em favor da Cruz Vermelha Italiana — eco, no interior paulista, da numerosa comunidade italiana da cidade e da Primeira Guerra que então sacudia a Europa. O balancete dessa noite é hoje uma das fontes que revelam a hierarquia de preços entre camarotes, frisas, plateia e galeria.",
+   "type": "documentado",
+   "source": "Jeronimo, 2020 (Jornal O Município).",
+   "tema": "Grandes nomes, grandes noites"
+  },
+  {
+   "id": "ferrovia-norte-sul",
+   "title": "“A Ferrovia Norte-Sul de São João”",
+   "text": "A restauração se arrastou por quase dezessete anos, atravessando crises e mandatos. Diante da lentidão e dos custos, parte da cidade passou a chamar a obra, com ironia, de “a Ferrovia Norte-Sul de São João” — comparando-a à célebre ferrovia federal que vivia anunciada e nunca ficava pronta. O apelido virou termômetro da impaciência popular com o canteiro que não acabava.",
+   "type": "crônica",
+   "source": "Jeronimo, 2020.",
+   "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "ideal-bijou-arrendaram",
+   "title": "Os cinemas que arrendaram o Theatro",
+   "text": "Antes mesmo de o Theatro abrir, as empresas dos cinemas Ideal e Bijou, então fundidas, arrendaram o novo edifício da Companhia Teatral Sanjoanense. O jornal de outubro de 1914 já anunciava que elas passariam a funcionar ali, “correspondendo às simpatias do público, quer no serviço cinematográfico, quer em outros gêneros de diversões” — o cinema, portanto, esteve no Theatro desde o primeiro dia.",
+   "type": "documentado",
+   "source": "A Cidade de São João, 4 out. 1914 (folheto).",
+   "tema": "Fundação e inauguração"
+  },
+  {
+   "id": "coral-120-vozes",
+   "title": "Um coral de 120 vozes",
+   "text": "No Festival Artístico de 11 de junho de 1947, em prol do novo prédio da Santa Casa, o canto orfeônico foi conduzido por um coral de 120 vozes, sob a regência do professor Nascipe Atalla Murr. A casa virou caixa de ressonância para a cidade inteira cantar junto.",
+   "type": "documentado",
+   "source": "Programa do Theatro Municipal, 11 jun. 1947 (folheto).",
+   "tema": "Grandes nomes, grandes noites"
+  },
+  {
+   "id": "grupo-tudo-preto",
+   "title": "O grupo “Tudo Preto”",
+   "text": "Em 5 de fevereiro de 1929, o grupo “Tudo Preto”, ligado à Conferência de São Vicente de Paulo, montou no Theatro um “festival de caridade” — uma revista com quadros e a peça típica “Na Cosinha”. A renda ajudou a erguer a igreja de São Benedito da cidade: o palco do Theatro financiando, cena a cena, um novo templo.",
+   "type": "documentado",
+   "source": "Programa do Theatro Municipal, 5 fev. 1929 (folheto).",
+   "tema": "A casa de muitos usos"
+  },
+  {
+   "id": "apelido-pulgueiro",
+   "title": "Quando o Theatro virou “pulgueiro”",
+   "text": "Nos anos finais do cinema, disputando público com salas mais novas como o Cine Avenida (1944) e o Cine Ouro Branco (1970), o velho CineTheatro passou a exibir filmes de menor apelo e ganhou um apelido cruel: “pulgueiro”. O mesmo prédio saudado como atestado de civilização em 1914 virou, para parte da cidade, lugar a evitar — distância que tornaria ainda mais forte a sua recuperação.",
+   "type": "documentado",
+   "source": "Jeronimo (USP, 2020); Vernácula, 2023.",
+   "tema": "O tempo do cinema"
+  },
+  {
+   "id": "c044",
+   "title": "O “galinheiro”",
+   "text": "No tempo do cinema, o último balcão — o mais barato e o mais distante da tela — era apelidado de “galinheiro”. Quem subia para lá, atrás do ingresso em conta, dizia que ia “galinhar”.",
+   "type": "memoria",
+   "source": "Documentário Música & Drama (2015)",
+   "tema": "O tempo do cinema"
+  },
+  {
+   "id": "c045",
+   "title": "Doze bandeiras para um tombamento",
+   "text": "Quando o Theatro foi tombado, em 1987, era costume hastear uma bandeira do Brasil em cada janela do imóvel protegido. Faltavam as bandeiras — e a equipe juntou as doze necessárias pedindo emprestado às escolas da cidade.",
+   "type": "memoria",
+   "source": "Documentário Música & Drama (2015)",
+   "tema": "Ameaça, restauro e mistérios"
+  }
+ ]
 }
