@@ -128,7 +128,7 @@ Artistas e moradores transformaram a ameaça em causa pública — manifestaçõ
 
 ### A compra e o tombamento
 
-A Prefeitura adquiriu o imóvel em duas etapas — a porção frontal em janeiro de 1984, o palco e os fundos em 1985 —, porque um teatro funcional exigia o conjunto completo. Em **19 de janeiro de 1987**, o tombamento estadual pelo CONDEPHAAT reconheceu formalmente o valor histórico do edifício.
+A Prefeitura adquiriu o imóvel em duas etapas — a porção frontal em janeiro de 1984, o palco e os fundos em 1985 —, porque um teatro funcional exigia o conjunto completo. O tombamento estadual foi **aprovado por unanimidade pelo CONDEPHAAT em dezembro de 1985** e **formalizado pela resolução de 19 de janeiro de 1987**, reconhecendo o valor histórico do edifício.
 
 
 ![A sala esvaziada, antes do restauro — anos de abandono e risco de demolição.](/fotos/hr-historicas-45.jpg)
