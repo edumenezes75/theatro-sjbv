@@ -1542,8 +1542,8 @@
  {
   "id": "h135",
   "file": "fotos/hr4-sala-03.jpg",
-  "category": "arte-cultura",
-  "categoryLabel": "Arte & Cultura",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
   "w": 1800,
   "h": 1193,
   "alt": "A plateia e a curva das galerias, vistas do alto.",
@@ -1568,8 +1568,8 @@
  {
   "id": "h137",
   "file": "fotos/hr4-sala-04.jpg",
-  "category": "fachada",
-  "categoryLabel": "Fachada",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
   "w": 1800,
   "h": 1193,
   "alt": "O palco e a boca de cena, vistos da plateia.",
@@ -1728,7 +1728,7 @@
   "categoryLabel": "Sala e plateia",
   "w": 1800,
   "h": 1177,
-  "alt": "A fachada inteiramente tomada por andaimes, na recuperação externa.",
+  "alt": "O interior em ferradura tomado por andaimes, durante a restauração — as galerias e os camarotes em recuperação.",
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
   "epoca": "Restauro",
   "rank": 2,
@@ -2251,13 +2251,13 @@
  {
   "id": "h190",
   "file": "fotos/hr5-restauro-01.jpg",
-  "category": "cidade",
-  "categoryLabel": "Cidade",
+  "category": "restauro",
+  "categoryLabel": "Restauro",
   "w": 1800,
   "h": 1350,
   "alt": "A cobertura em obras, com o casario e a torre da igreja ao fundo.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual",
+  "epoca": "Restauro",
   "rank": 2,
   "tone": 2.107141
  },
@@ -2309,7 +2309,7 @@
   "h": 1350,
   "alt": "Inscrições a lápis reveladas sob as camadas de tinta durante o restauro.",
   "credit": "Acervo Antônio Carlos Lorette — Theatro Municipal de São João da Boa Vista.",
-  "epoca": "Atual",
+  "epoca": "Restauro",
   "rank": 1,
   "tone": 2.108952
  },
@@ -3498,7 +3498,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "hideAcervo": true
  },
  {
   "id": "h291",
@@ -3511,7 +3512,8 @@
   "credit": "Acervo do Theatro Municipal de São João da Boa Vista.",
   "epoca": "Histórico",
   "rank": 5,
-  "tone": 0.0
+  "tone": 0.0,
+  "hideAcervo": true
  },
  {
   "id": "h292",
