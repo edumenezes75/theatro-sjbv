@@ -19,6 +19,10 @@ No início dos anos 1980, o Theatro Municipal não era o patrimônio restaurado 
 
 O Theatro nascera, em 1914, de uma sociedade por ações — a Companhia Teatral Sanjoanense. Décadas depois, sem atividade e endividada, a empresa foi à liquidação judicial entre 1977 e 1978, e o edifício, sob controle do Dr. Joaquim José de Oliveira Neto, virou um problema: caro de manter, deteriorado, fora de uso.
 
+![O edital de liquidação da Companhia, no jornal A Cidade de São João, 13 de maio de 1978.](/fotos/hr8-jornal-liquidacao-1978.jpg)
+
+*O jornal* A Cidade de São João, *13 de maio de 1978 — o edital judicial da liquidação da Companhia Teatral Sanjoanense, que selou o fim da sociedade que ergueu o Theatro.*
+
 Circulavam rumores de venda e demolição — para dar lugar a um supermercado, a um estacionamento. Em 1981, sob o prefeito Nelson Nicolau, a **Lei Municipal nº 219** declarou o imóvel de utilidade pública. Foi uma proteção inicial importante, mas insuficiente: o prédio seguia particular, e a ameaça, de pé.
 
 ![O Theatro deteriorado, no período de declínio que antecedeu a mobilização.](/fotos/hr-historicas-46.jpg)

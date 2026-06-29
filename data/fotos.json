@@ -3472,5 +3472,19 @@
     "rank": 5,
     "tone": 0.0,
     "docgrupo": "programas"
+  },
+  {
+    "id": "h289",
+    "file": "fotos/hr8-jornal-liquidacao-1978.jpg",
+    "category": "documentos",
+    "categoryLabel": "Documentos",
+    "w": 787,
+    "h": 1800,
+    "alt": "O jornal A Cidade de São João, de 13 de maio de 1978, com o edital de citação da liquidação judicial da Companhia Teatral Sanjoanense.",
+    "credit": "Acervo do Theatro Municipal de São João da Boa Vista — recortes e documentos.",
+    "epoca": "Histórico",
+    "rank": 5,
+    "tone": 0.0,
+    "docgrupo": "imprensa"
   }
 ]
