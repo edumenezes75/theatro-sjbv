@@ -71,6 +71,10 @@ Faltava perenizar tudo isso, para que a conservação não dependesse da boa von
 
 Os pareceres são reveladores: pesava não só o valor arquitetônico, mas a **mobilização da cidade**. A historiadora Tucci Carneiro notava que o Theatro era "um dos poucos patrimônios de valor histórico-cultural da cidade", diante de "uma grande falta de local para apresentações de arte". O arquiteto Fragoni registrava o "aspecto político da situação criada pela população, no sentido de reabertura do Teatro". A formalização estadual viria com a **Resolução SC nº 03, de 19 de janeiro de 1987**.
 
+![A Resolução nº 03, de 19 de janeiro de 1987, que tombou o Theatro.](/fotos/hr8-doc-tombamento-1987.jpg)
+
+*A Resolução nº 03, de 19 de janeiro de 1987, assinada pelo secretário Jorge da Cunha Lima — o documento que tornou o Theatro patrimônio protegido.*
+
 O tombamento não protegeu uma ruína morta: protegeu um bem que a cidade queria reativar — e cujo valor ela mesma havia construído, assinatura por assinatura.
 
 [A cidade financia o restauro](./a-cidade-financia-seu-restauro) · [Ver o restauro em detalhes](./restauracao) · [Percorrer a linha do tempo](./linha-do-tempo)
