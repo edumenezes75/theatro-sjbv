@@ -8,10 +8,12 @@ import { IconClose, IconChevron } from './Icons';
 
 const EP_RANK: Record<string, number> = { 'Histórico': 0, 'Pré-restauro': 1, 'Restauro': 2, 'Atual': 3 };
 const idNum = (id: string) => parseInt(id.replace(/\D/g, ''), 10) || 0;
+const GCAT = ['fachada', 'theatro', 'cidade', 'sala', 'ornamentos', 'medalhao', 'restauro', 'eventos', 'arte-cultura', 'pessoas', 'historicas'];
+const gidx = (c: string) => { const k = GCAT.indexOf(c); return k < 0 ? 99 : k; };
 
-const _normLB = (x: string) => x.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+const _normLB = (x: string) => x.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
-export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true, colorLast = false, pessoasIndex = [] }: { fotos: Foto[]; withFilter?: boolean; showEpoca?: boolean; colorLast?: boolean; pessoasIndex?: { slug: string; name: string }[] }) {
+export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true, colorLast = false, grouped = false, pessoasIndex = [] }: { fotos: Foto[]; withFilter?: boolean; showEpoca?: boolean; colorLast?: boolean; grouped?: boolean; pessoasIndex?: { slug: string; name: string }[] }) {
   const CAT_ORDER = ['fachada', 'sala', 'ornamentos', 'eventos', 'pessoas', 'historicas', 'restauro'];
   const EP_ORDER = ['Histórico', 'Pré-restauro', 'Restauro', 'Atual'];
   const cats = useMemo(() => {
@@ -32,14 +34,34 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
   }, [fotos]);
   const list = useMemo(() => {
     const filtered = fotos.filter((f) => (cat === 'todas' || f.category === cat) && (ep === 'todas' || f.epoca === ep));
-    if (!withFilter) return filtered; // faixa de destaques preserva a ordem recebida
+    if (!withFilter) return filtered;
+    if (grouped) {
+      return filtered.slice().sort((a, b) =>
+        gidx(a.category) - gidx(b.category) ||
+        a.categoryLabel.localeCompare(b.categoryLabel, 'pt-BR') ||
+        ((a.tone ?? 99) - (b.tone ?? 99)) ||
+        (a.rank ?? 2) - (b.rank ?? 2) ||
+        idNum(a.id) - idNum(b.id),
+      );
+    }
     return filtered.slice().sort((a, b) =>
       ((a.tone ?? 99) - (b.tone ?? 99)) ||
       (a.rank ?? 2) - (b.rank ?? 2) ||
       (EP_RANK[a.epoca ?? ''] ?? 9) - (EP_RANK[b.epoca ?? ''] ?? 9) ||
       idNum(a.id) - idNum(b.id),
     );
-  }, [cat, ep, fotos, withFilter, colorLast]);
+  }, [cat, ep, fotos, withFilter, colorLast, grouped]);
+
+  const blocos = useMemo(() => {
+    if (!grouped) return null;
+    const out: { cat: string; label: string; start: number; fotos: Foto[] }[] = [];
+    list.forEach((f, i) => {
+      const last = out[out.length - 1];
+      if (last && last.cat === f.category) last.fotos.push(f);
+      else out.push({ cat: f.category, label: f.categoryLabel, start: i, fotos: [f] });
+    });
+    return out;
+  }, [list, grouped]);
 
   const [idx, setIdx] = useState<number | null>(null);
   const [playing, setPlaying] = useState(false);
@@ -62,14 +84,12 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
     return () => { window.removeEventListener('keydown', onKey); document.body.style.overflow = ''; };
   }, [idx, close, prev, next]);
 
-  // Modo apresentação: avança sozinho
   useEffect(() => {
     if (idx === null || !playing) return;
     const t = setInterval(() => next(), 4200);
     return () => clearInterval(t);
   }, [idx, playing, next]);
 
-  // Deslizar com o dedo (mobile)
   const touchX = useRef<number | null>(null);
   const onTouchStart = (e: React.TouchEvent) => { touchX.current = e.touches[0].clientX; };
   const onTouchEnd = (e: React.TouchEvent) => {
@@ -80,6 +100,26 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
   };
 
   const open = idx !== null ? list[idx] : null;
+
+  const tile = (f: Foto, i: number) => (
+    <button key={f.id} onClick={() => setIdx(i)} className="group relative block w-full overflow-hidden rounded-sm bg-ink/20 ring-1 ring-inset ring-ink/10 dark:ring-cream/10">
+      <Image
+        src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h}
+        placeholder="blur" blurDataURL={BLUR}
+        className="gimg-fade h-auto w-full object-cover transition-transform duration-[1.1s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.05]"
+        sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
+      />
+      <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent p-2 pt-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-gold">{f.categoryLabel}</span>
+      </span>
+    </button>
+  );
+
+  const masonry = (fs: Foto[], offset = 0) => (
+    <div className="columns-2 gap-3 sm:gap-4 md:columns-3 lg:columns-4 [&>*]:mb-3 sm:[&>*]:mb-4">
+      {fs.map((f, k) => tile(f, offset + k))}
+    </div>
+  );
 
   return (
     <div>
@@ -101,22 +141,18 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
         </div>
       )}
 
-      <div className="columns-2 gap-3 sm:gap-4 md:columns-3 lg:columns-4 [&>*]:mb-3 sm:[&>*]:mb-4">
-        {list.map((f, i) => (
-          <button key={f.id} onClick={() => setIdx(i)} className="group relative block w-full overflow-hidden rounded-sm bg-ink/20 ring-1 ring-inset ring-ink/10 dark:ring-cream/10">
-            <Image
-              src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h}
-              placeholder="blur" blurDataURL={BLUR}
-              className="gimg-fade h-auto w-full object-cover transition-transform duration-[1.1s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.05]"
-              sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
-            />
-            <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent p-2 pt-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-gold">{f.categoryLabel}</span>
-            </span>
-          </button>
-        ))}
-      </div>
-
+      {grouped && blocos ? (
+        <div className="space-y-10">
+          {blocos.map((b) => (
+            <section key={b.cat + b.start}>
+              <h3 className="mb-4 flex items-baseline gap-2 font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">
+                {b.label}<span className="font-normal tabular-nums text-ink/40 dark:text-cream/40">{b.fotos.length}</span>
+              </h3>
+              {masonry(b.fotos, b.start)}
+            </section>
+          ))}
+        </div>
+      ) : masonry(list)}
 
       {open && (
         <div className="fixed inset-0 z-[120] flex flex-col bg-night" role="dialog" aria-modal="true" aria-label={open.alt}>
