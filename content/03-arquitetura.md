@@ -76,6 +76,8 @@ Historicamente, essa disposição também organizava diferenças sociais. Os set
 
 Fotografias e relatos destacam a presença de madeira na sala e estruturas metálicas na sustentação. A geometria e os materiais são frequentemente associados à boa projeção sonora.
 
+No documentário, técnicos do restauro arriscam uma explicação: a sala seria uma cópia fiel — "deslavada", diz um deles — do Teatro Scala, de Milão, e é justamente essa filiação que lhe garantiria a acústica reconhecida. Do centro do palco, garantem, basta a plateia em silêncio para que uma voz sem microfone chegue nítida a qualquer ponto da casa. Conta-se até que um diretor técnico da Osesp, depois de percorrer grandes teatros da Europa — o último, em Berlim —, parou para bater palmas, só de ouvir como o som se comportava ali.
+
 ![Capitel coríntio restaurado, com folhas de acanto.](/fotos/hr5-ornamentos-02.jpg)
 
 *Capitel coríntio restaurado, com folhas de acanto — o apuro ornamental recuperado na obra.*

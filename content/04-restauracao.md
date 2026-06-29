@@ -64,6 +64,8 @@ O Conselho do CONDEPHAAT aprovou o tombamento em 16 de dezembro de 1985, por una
 
 O tombamento não financiou sozinho a obra nem resolveu todos os problemas. Sua importância foi jurídica e simbólica: estabeleceu que o Theatro não era apenas uma propriedade disponível para qualquer transformação.
 
+Há um detalhe afetivo que o documentário preserva. Era costume, ao se tombar um imóvel, hastear uma bandeira do Brasil em cada janela. Faltavam as bandeiras — e foi pedindo às escolas da cidade que a equipe juntou as **doze** necessárias para anunciar, na fachada, que o Theatro virara patrimônio público.
+
 ### Documento-chave
 
 - Processo CONDEPHAAT: **23.125/1984**
@@ -95,6 +97,8 @@ As intervenções incluíram:
 
 
 O rebaixamento das fundações foi executado lentamente. Relatos técnicos registram controle rigoroso do recalque e a necessidade de laudos para responder ao temor de que a escavação pudesse comprometer o edifício.
+
+No documentário, a tensão daqueles dias aparece inteira: "a cidade inteira falava: vai cair, vai cair", com a máquina vibrando lá dentro. Mas os cálculos se confirmaram — o recalque (o afundamento da terra) previsto chegava a seis centímetros e, concluída a obra, mediu-se menos de meio.
 
 
 ![A escavação do fosso da orquestra, sob o palco, durante as obras.](/fotos/hr-restauro-23.jpg)
