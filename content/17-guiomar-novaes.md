@@ -43,7 +43,11 @@ O vínculo entre Guiomar e o Theatro foi além de uma noite. A **Semana Guiomar 
 
 *Concerto da Semana Guiomar Novaes — a tradição que reabriu o Theatro restaurado.*
 
-## O palco que reabriu com seu nome
+![Guiomar Novaes no Theatro, durante a 2ª Semana Guiomar Novaes, em 1978.](/fotos/hr9-guiomar-1978.jpg)
+
+*Guiomar Novaes no Theatro durante a 2ª Semana Guiomar Novaes, em 1978 — um ano antes de sua morte.*
+
+## O palco que reabriu com seu nome## O palco que reabriu com seu nome
 
 Não foi por acaso que a reabertura do Theatro restaurado, em setembro de 2002, aconteceu durante a **25ª Semana Guiomar Novaes**. Depois de quase duas décadas de impasses e obras, a sala voltou a receber público sob o nome da artista que melhor traduz a relação da cidade com a música.
 

@@ -3525,5 +3525,44 @@
     "epoca": "Pré-restauro",
     "rank": 5,
     "tone": 0.0
+  },
+  {
+    "id": "h293",
+    "file": "fotos/hr9-tela-cinema.jpg",
+    "category": "theatro",
+    "categoryLabel": "Theatro",
+    "w": 1800,
+    "h": 1259,
+    "alt": "A retirada da tela de cinema do palco do Theatro — o fim do ciclo do CineTheatro.",
+    "credit": "Acervo do Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Pré-restauro",
+    "rank": 5,
+    "tone": 0.0
+  },
+  {
+    "id": "h294",
+    "file": "fotos/hr9-nin-roquetes.jpg",
+    "category": "eventos",
+    "categoryLabel": "Eventos",
+    "w": 1472,
+    "h": 1001,
+    "alt": "O conjunto Nin e seus Roquetes no auditório da Rádio Difusora ZYJ-6, no segundo andar do Theatro, por volta de 1960.",
+    "credit": "Acervo do Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico",
+    "rank": 5,
+    "tone": 0.0
+  },
+  {
+    "id": "h295",
+    "file": "fotos/hr9-guiomar-1978.jpg",
+    "category": "eventos",
+    "categoryLabel": "Eventos",
+    "w": 928,
+    "h": 649,
+    "alt": "Guiomar Novaes no Theatro Municipal, durante a 2ª Semana Guiomar Novaes, em 1978.",
+    "credit": "Acervo do Theatro Municipal de São João da Boa Vista.",
+    "epoca": "Histórico",
+    "rank": 5,
+    "tone": 0.0
   }
 ]

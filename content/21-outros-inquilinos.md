@@ -51,7 +51,11 @@ Por ali passaram nomes de fora e de dentro: em 1959, o cantor e compositor **Dor
 
 *O auditório da Rádio Difusora, no segundo andar — o Theatro também como lugar de transmitir.*
 
-## A biblioteca e o bar
+![Nin e seus Roquetes no auditório da Rádio Difusora ZYJ-6, no Theatro.](/fotos/hr9-nin-roquetes.jpg)
+
+*Nin e seus Roquetes ao vivo no auditório da Rádio Difusora ZYJ-6, sob o letreiro da emissora, no segundo andar do Theatro.*
+
+## A biblioteca e o bar## A biblioteca e o bar
 
 A partir de 1963, com a saída da rádio, o mesmo pavimento passou a abrigar a **Biblioteca Municipal**, que ali ficou até o fechamento do prédio, tendo como bibliotecária a professora Isaura Backstron. O antigo espaço de espetáculo virava casa de leitura — uma continuidade cultural por outro caminho.
 

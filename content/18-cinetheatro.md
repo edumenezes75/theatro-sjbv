@@ -61,7 +61,11 @@ Nos anos finais, já disputando público com o Cine Avenida (hoje Casas Pernambu
 
 *A porta do antigo Bar Theatro, em avançada decadência — o prédio nos seus anos finais de cinema.*
 
-## O que o cinema deixou
+![A retirada da tela de cinema no palco.](/fotos/hr9-tela-cinema.jpg)
+
+*A tela de cinema sendo retirada do palco — ao parar de ser cinema, o edifício pôde voltar a ser teatro.*
+
+## O que o cinema deixou## O que o cinema deixou
 
 É tentador contar essa fase como queda — do palco nobre à sala "pulgueiro". Mas é o contrário: foram os quarenta anos de cinema que mantiveram o Theatro vivo e no centro da rotina, e foi a memória acumulada nesses domingos — a do Budri, a do Flávio, a dos namoros no escuro — que tornou impensável, para tantos, deixar o prédio virar entulho. Quando a demolição rondou, nos anos 1980, foi também essa lembrança afetiva que a cidade se recusou a perder.
 
