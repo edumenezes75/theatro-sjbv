@@ -1,58 +1,58 @@
 {
- "items": [
-  {
-   "quote": "Descobri, quase atrás de casa, uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.",
-   "author": "Emmanuele Baldini",
-   "role": "Spalla da Osesp, após concerto no Theatro — 2014",
-   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 24."
-  },
-  {
-   "quote": "Foi a vontade popular, liderada pela classe artística, junto com o empenho dos governantes, que transformou um sonho em realidade.",
-   "author": "Neusa Maria Soares de Menezes",
-   "role": "Historiadora e editora do livro do centenário",
-   "source": "Menezes, Theatro Municipal, 100 anos, 2014."
-  },
-  {
-   "quote": "Foi necessária a entrada de uma retroescavadeira dentro do Theatro, para rebaixar o nível sob o piso do palco e corrigir a inclinação da plateia.",
-   "author": "Nilson Zenun",
-   "role": "Engenheiro civil, equipe de restauração",
-   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 129."
-  },
-  {
-   "quote": "Quantas imagens imorredouras a recordar! Onde estarão guardadas tantas histórias? Em que baús? Em que páginas amarelecidas?",
-   "author": "Do prefácio",
-   "role": "“Casa de Sonhos” — Theatro Municipal, 100 anos",
-   "source": "Menezes, Theatro Municipal, 100 anos, 2014, Prefácio."
-  },
-  {
-   "quote": "Se não tomassem uma decisão, ele ia se amarrar no topo do teatro e fazer greve de fome, até decidirem não demolir o prédio e pedir seu tombamento.",
-   "author": "Zeza Freitas",
-   "role": "Bailarina, sobre o ator Ronaldo Marin na luta contra a demolição — anos 1980",
-   "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 113."
-  },
-  {
-   "quote": "É um teatro vivo e que teve, como a vida de qualquer pessoa, seus altos e baixos.",
-   "author": "Depoimento no documentário Música & Drama",
-   "role": "Sobre o Theatro ao longo de um século",
-   "source": "Documentário Música & Drama (37:28)."
-  },
-  {
-   "quote": "Se tirarmos os tijolos e as madeiras, ficará de pé um esqueleto de trilhos de ferro — a vigorosa estrutura do prédio em forma de ferradura.",
-   "author": "Joaquim José de Oliveira Neto",
-   "role": "Sobre a estrutura metálica importada do Theatro",
-   "source": "Estudo de tombamento, CONDEPHAAT (processo 23.125/1984), apud Dragão Jeronimo, 2021."
-  },
-  {
-   "quote": "Foi de fato uma época áurea da vida cultural da cidade. As diretorias da AMITE produziam uma média de 150 eventos culturais por ano — e trouxeram a percepção de que era preciso não só usar o Theatro, mas cuidar dele como ele merece.",
-   "author": "Vânia Noronha",
-   "role": "Pianista e ex-diretora do Departamento de Cultura, sobre os 18 anos da AMITE",
-   "source": "O Município, 17 abr. 2024."
-  },
-  {
-   "quote": "Sempre achei incrível um teatro municipal desse porte numa cidade tão pequena. Assisti à decadência e ao renascimento do teatro, com uma restauração impecável.",
-   "author": "Eduardo Zappia",
-   "role": "Fotógrafo, que viveu parte da adolescência em São João da Boa Vista",
-   "source": "Vestígios da Memória, 2017."
-  }
- ]
+  "items": [
+    {
+      "quote": "Descobri, quase atrás de casa, uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.",
+      "author": "Emmanuele Baldini",
+      "role": "Spalla da Osesp, após concerto no Theatro — 2014",
+      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 24."
+    },
+    {
+      "quote": "Foi a vontade popular, liderada pela classe artística, junto com o empenho dos governantes, que transformou um sonho em realidade.",
+      "author": "Neusa Maria Soares de Menezes",
+      "role": "Historiadora e editora do livro do centenário",
+      "source": "Menezes, Theatro Municipal, 100 anos, 2014."
+    },
+    {
+      "quote": "Foi necessária a entrada de uma retroescavadeira dentro do Theatro, para rebaixar o nível sob o piso do palco e corrigir a inclinação da plateia.",
+      "author": "Nilson Zenun",
+      "role": "Engenheiro civil, equipe de restauração",
+      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 129."
+    },
+    {
+      "quote": "Quantas imagens imorredouras a recordar! Onde estarão guardadas tantas histórias? Em que baús? Em que páginas amarelecidas?",
+      "author": "Do prefácio",
+      "role": "“Casa de Sonhos” — Theatro Municipal, 100 anos",
+      "source": "Menezes, Theatro Municipal, 100 anos, 2014, Prefácio."
+    },
+    {
+      "quote": "Se não tomassem uma decisão, ele ia se amarrar no topo do teatro e fazer greve de fome, até decidirem não demolir o prédio e pedir seu tombamento.",
+      "author": "Zeza Freitas",
+      "role": "Bailarina, sobre o ator Ronaldo Marin na luta contra a demolição — anos 1980",
+      "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 113."
+    },
+    {
+      "quote": "É um teatro vivo e que teve, como a vida de qualquer pessoa, seus altos e baixos.",
+      "author": "Badi Assad",
+      "role": "Violonista e cantora, da família Assad — no documentário Música & Drama",
+      "source": "Documentário Música & Drama (37:28)."
+    },
+    {
+      "quote": "Se tirarmos os tijolos e as madeiras, ficará de pé um esqueleto de trilhos de ferro — a vigorosa estrutura do prédio em forma de ferradura.",
+      "author": "Joaquim José de Oliveira Neto",
+      "role": "Sobre a estrutura metálica importada do Theatro",
+      "source": "Estudo de tombamento, CONDEPHAAT (processo 23.125/1984), apud Dragão Jeronimo, 2021."
+    },
+    {
+      "quote": "Foi de fato uma época áurea da vida cultural da cidade. As diretorias da AMITE produziam uma média de 150 eventos culturais por ano — e trouxeram a percepção de que era preciso não só usar o Theatro, mas cuidar dele como ele merece.",
+      "author": "Vânia Noronha",
+      "role": "Pianista e ex-diretora do Departamento de Cultura, sobre os 18 anos da AMITE",
+      "source": "O Município, 17 abr. 2024."
+    },
+    {
+      "quote": "Sempre achei incrível um teatro municipal desse porte numa cidade tão pequena. Assisti à decadência e ao renascimento do teatro, com uma restauração impecável.",
+      "author": "Eduardo Zappia",
+      "role": "Fotógrafo, que viveu parte da adolescência em São João da Boa Vista",
+      "source": "Vestígios da Memória, 2017."
+    }
+  ]
 }
