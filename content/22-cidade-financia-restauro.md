@@ -1,52 +1,58 @@
 ---
 slug: "/a-cidade-financia-seu-restauro"
-title: "A cidade financia seu restauro"
-eyebrow: "Dossiê · Da rua ao caixa (1998–2002)"
-seo_title: "A cidade financia seu restauro — Fundação Oliveira Neto e Vestindo a Camisa"
-seo_description: "Salvar o Theatro não bastava: era preciso pagar a obra. A Fundação Oliveira Neto e a campanha 'Vestindo a Camisa' transformaram protesto em captação, e a cidade ajudou a custear o próprio restauro."
+title: "A cidade financia o restauro"
+eyebrow: "Dossiê · Da rua ao caixa (1995–2002)"
+seo_title: "A cidade financia o restauro — Fundação Oliveira Neto e Vestindo a Camisa"
+seo_description: "Salvar o Theatro não bastava: era preciso pagar a obra. A Fundação Oliveira Neto, a Lei Rouanet, o Vestindo a Camisa e a arte no canteiro de obras — como a cidade custeou o próprio restauro."
 hero_image: "/fotos/hr4-pessoas-01.jpg"
 hero_alt: "Acompanhamento das obras de restauração do Theatro Municipal."
 status: "dossiê"
 ---
 
-# A cidade financia seu restauro
+# A cidade financia o restauro
 
-Nos anos 1980, a cidade salvou o Theatro da demolição com abaixo-assinados e ameaça de greve de fome. Mas salvar não bastava: alguém tinha de pagar a obra. A segunda mobilização — menos lembrada e igualmente decisiva — foi a do dinheiro.
+Nos anos 1980, a cidade salvou o Theatro da demolição com abaixo-assinados e ameaça de greve de fome. Mas salvar não bastava: alguém tinha de **pagar a obra**. A segunda mobilização — menos lembrada e igualmente decisiva — foi a do dinheiro, e durou pelos anos 1990 afora, com a Lei Rouanet, estudantes nas ruas e artistas tocando no meio do canteiro.
 
-> **Em um minuto:** com a restauração arrastada pela inflação e por verbas insuficientes, a Fundação Oliveira Neto (1998) passou a captar recursos por leis de incentivo, e campanhas como "Vestindo a Camisa" (1999) e "Dê para São João parte do Leão" levaram estudantes e moradores a contribuir. Até artistas tocaram no canteiro de obras para arrecadar. A cidade ajudou a custear o próprio restauro.
+> **Em um minuto:** comprado e tombado, o Theatro seguia em ruínas — no lugar das poltronas, "bocas de lobo"; nos fundos, uma fábrica de vassouras. Em 1998 nasceu a Fundação Oliveira Neto, para captar recursos via Lei Rouanet e complementar as verbas públicas. Campanhas como "Vestindo a Camisa" e "Dê para São João parte do Leão" mobilizaram estudantes e moradores, e a arte continuou acontecendo no prédio em obras — até a reabertura, em 2002.
 
 ## Da rua ao caixa
 
-A luta dos anos 1980 fora de protesto; a dos anos 1990 e 2000 foi de gestão e captação. O restauro avançava devagar — a inflação corroía as verbas antes que chegassem, e recursos municipais, estaduais e federais eram insuficientes. Ficou claro que a comunidade precisaria não só pressionar, mas também ajudar a pagar.
+A luta dos anos 1980 fora de protesto; a dos anos 1990 foi de gestão e captação. E o quadro era desanimador. Quem entrou na obra descreveu o estado do prédio: os mezaninos não existiam mais; onde deveriam estar as poltronas, havia "bocas de lobo"; nos fundos, fora instalada uma **fábrica de vassouras de bambu**; na lateral, guardavam-se carrinhos de pipoca; a pintura havia desaparecido. Só as obras estruturais estavam prontas. Restaurar tudo aquilo exigiria muito dinheiro — mais do que o orçamento público dava, sobretudo com a inflação corroendo as verbas.
 
 ## A Fundação Oliveira Neto
 
-Criada em **1998**, a **Fundação Oliveira Neto (FON)** deu o impulso final. Estruturada em conselhos consultivo, curador e diretor, sua função era captar recursos e mobilizar a sociedade civil, usando a Lei Rouanet e o incentivo à cultura para que pessoas e empresas destinassem parte de impostos à obra. Entre os articuladores do esforço esteve **Laert de Lima Teixeira**. A campanha **"Dê para São João parte do Leão"** traduziu a ideia em palavra de ordem.
+Em **1998** criou-se a **Fundação Oliveira Neto (FON)**, com objetivo, nas palavras da conselheira Beatriz Castilho Pinto, "exclusivo de arrecadar recursos para as obras de restauração, complementando as verbas públicas". O nome era uma homenagem ao antigo proprietário, o **Dr. Joaquim José de Oliveira Neto** — médico e intelectual que, tendo comprado o Theatro nos anos 1930, "sem ceder às pressões do mercado, facilitara a negociação com a Prefeitura".
 
-![A posse da Fundação Oliveira Neto, em 1998 — a entidade criada para captar recursos.](/fotos/hr4-pessoas-07.jpg)
+Cerca de **60 pessoas ligadas às artes e à cultura** foram convidadas a integrar a entidade, sob a diretoria de José Rubens Blasi Carvalho Rosas (1998–2000). A diretoria executiva — com **José Márcio Carioca** e **Vera Adib**, e o apoio de João Batista Ciaco nas primeiras lições sobre a recém-criada **Lei Rouanet** — punha a mão na massa. Às terças-feiras, reuniam-se no Clube Palmeiras para estudar orçamentos e decidir sobre o ar-condicionado e o madeiramento das janelas. Era captação de recursos, mas também gestão fina de uma obra complexa.
 
-*A posse da Fundação Oliveira Neto, em 1998 — a entidade criada para captar recursos.*
+![A posse da Fundação Oliveira Neto, em 1998.](/fotos/hr4-pessoas-07.jpg)
+
+*A posse da Fundação Oliveira Neto, em 1998 — a entidade criada para captar recursos e concluir o restauro.*
+
+## Recursos das três esferas
+
+A FON conseguiu recursos das **três esferas de governo** — e, para isso, pesou a política: o ex-prefeito Sidney Beraldo, eleito deputado, alinhava-se a prefeito, governador e presidente do mesmo partido, o que ajudou a destravar verbas. Campanhas davam visibilidade à causa, como a **"Dê para São João parte do Leão"**, que estimulava pessoas e empresas a destinar parte do imposto de renda ao restauro pela Lei de Incentivo à Cultura.
+
+![“Teatro Municipal recebe verba” — a imprensa acompanha a captação de recursos.](/fotos/hr8-jornal-verba-2001.jpg)
+
+*A imprensa acompanhava a captação — verba pública e incentivo fiscal somados, ano após ano.*
 
 ## Vestindo a Camisa
 
-Em **1999**, o movimento **"Vestindo a Camisa"** levou a causa às ruas com estudantes, coordenados pelas professoras **Maria José Moreira, Fafá Noronha e Beatriz Castilho Pinto**. Urnas no centro recebiam contribuições de quem passava.
+A mobilização não ficou só nos gabinetes. No movimento **"Vestindo a Camisa"**, os estudantes sanjoanenses, incentivados por seus professores, fizeram — nas palavras de Beatriz Castilho Pinto — "um belíssimo trabalho voluntário em prol da restauração". O valor arrecadado talvez fosse pequeno diante do custo total, mas o simbólico foi enorme: jovens que talvez nunca tivessem visto o Theatro funcionando passaram a se sentir donos da causa. Quem contribui, mesmo pouco, passa a sentir que o prédio também é seu.
 
-O valor arrecadado talvez fosse pequeno diante do custo total — mas o simbólico foi enorme. Jovens que talvez nunca tivessem visto o Theatro funcionando plenamente passaram a se sentir donos da causa. Quem contribui, mesmo pouco, passa a sentir que o prédio também é seu.
+## Arte no canteiro de obras
 
-![“Teatro Municipal recebe verba” — a imprensa acompanha a captação de recursos para a obra.](/fotos/hr8-jornal-verba-2001.jpg)
+O mais bonito é que, mesmo em ruínas, o Theatro nunca parou de produzir cultura — e foi a própria arte que ajudou a financiá-lo. Já em 1984 acontecia ali a Semana do Artista Sanjoanense; em 1985, a Escola de Música da Prefeitura passou a funcionar no prédio "em meio a ácaros, cupins e morcegos", e o **Coral Vozes de São João**, sob o maestro Wildes Bruscato, ensaiava semanalmente. Em 1995, o show *Relembranças*, de Silvia Ferrante e Luis Carlos Pistelli, ocupou o palco ainda deteriorado. A EPTV levou ao prédio inacabado o **Quarteto Davi**, que tocou para um auditório lotado, com cadeiras sobre a base de cimento. A própria **Badi Assad** fez ali um de seus primeiros shows solo.
 
-*“Teatro Municipal recebe verba” — a imprensa acompanha a captação de recursos para a obra.*
+Antes mesmo de estar pronto, o Theatro já era palco de sua própria salvação — a cultura acontecendo no canteiro para garantir que a cultura voltasse a acontecer. Quando a sala principal reabriu, em setembro de 2002, na 25ª Semana Guiomar Novaes, o resultado não era só de governos: era de uma cidade que, duas vezes, decidiu não perder seu Theatro — primeiro com a voz, depois com o bolso.
 
-## Arte para reconstruir
+[A luta contra a demolição](./luta-contra-a-demolicao) · [Ver o restauro em detalhes](./restauracao) · [Conhecer as pessoas](./pessoas)
 
-O canteiro de obras virou palco. Em **2000**, **Badi Assad** e **Simone Sou** apresentaram-se num palco improvisado em meio à obra; no ano seguinte, os irmãos **Sérgio e Odair Assad** somaram-se ao esforço. Antes mesmo de estar pronto, o Theatro já produzia cultura — e a cultura ajudava a financiar o lugar onde voltaria a acontecer.
+## Fontes e notas
 
-Quando a sala principal reabriu, em setembro de 2002, o resultado não era só de governos: era de uma cidade que, duas vezes, decidiu não perder seu Theatro — primeiro com a voz, depois com o bolso.
+- **Estado do prédio, FON, diretoria executiva, Lei Rouanet e Quarteto Davi:** depoimentos reunidos no livro *Theatro Municipal, 100 anos* (Menezes, 2014).
+- **Objetivo e composição da FON, e o Vestindo a Camisa:** relato da conselheira Beatriz Castilho Pinto, no mesmo livro.
+- **"Dê para São João parte do Leão" e datas da captação:** livro do centenário e revista *Vernácula* (2023).
 
-![As primeiras apresentações, com o Theatro ainda em obras — a arte voltando antes do fim da reforma.](/fotos/sl-13.jpg)
-
-*As primeiras apresentações, com o Theatro ainda em obras — a arte voltando antes do fim da reforma.*
-
-[Ver o restauro em detalhes](./restauracao) · [A luta contra a demolição](./luta-contra-a-demolicao) · [Conhecer as pessoas](./pessoas)
-
-<!-- Fontes principais: artigo da revista Vernácula (2023); Menezes, "Theatro Municipal, 100 anos", 2014; dissertação de Luis Pedro Dragão Jeronimo (USP, 2020). -->
+<!-- Fontes principais: livro "Theatro Municipal, 100 anos" (Menezes, 2014), depoimentos de Beatriz Castilho Pinto e da diretoria da FON; artigo da revista Vernácula (2023). -->
