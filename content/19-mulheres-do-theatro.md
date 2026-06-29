@@ -25,6 +25,10 @@ Ao seu lado estavam nomes como **Zilah e Isaura Mattos**, Lucila Martarello e Ro
 
 *Lucila Martarello, a “prata da casa” — a fada de* Sonhos de Fada *(1952), dirigido por Dona Beloca.*
 
+![O programa da opereta “Sonhos de Fada”, 1952.](/fotos/hr8-doc-sonhos-fada-1952.jpg)
+
+*O programa de “Sonhos de Fada” (1952), dirigida por Dona Beloca — documento do seu trabalho no Theatro.*
+
 ## Anésia Mattos e o primeiro Dia da Criança do Brasil
 
 Já nos anos 1920, a professora **Anésia Martins Mattos** organizava, com os alunos do Grupo Escolar Joaquim José, festivais que primavam "pelo gosto das montagens, pela originalidade dos temas" — estes, em regra, de autoria de seu marido, Jonathas Mattos. Tudo era minuciosamente preparado: entonação da voz, gestos, trajes.
