@@ -5,6 +5,7 @@ import Compartilhar from '@/components/Compartilhar';
 import Comentarios from '@/components/Comentarios';
 import Image from 'next/image';
 import { fotosList, fotoById, fotoTitulo, pessoasNoTexto, pessoaSlug } from '@/lib/data';
+import fotoUso from '@/data/foto-uso.json';
 
 const SITE = 'https://www.theatromunicipalsjbv.com.br';
 
@@ -31,6 +32,7 @@ export default function FotoPage({ params }: { params: { id: string } }) {
   const url = `${SITE}/acervo/${f.id}`;
   const relacionadas = fotosList.filter((o) => o.category === f.category && o.id !== f.id).slice(0, 6);
   const pessoasNaFoto = pessoasNoTexto(f.alt);
+  const apareceEm = ((fotoUso as Record<string, { slug: string; title: string; kind: string }[]>)[f.id]) || [];
 
   const ld = {
     '@context': 'https://schema.org',
@@ -96,6 +98,20 @@ export default function FotoPage({ params }: { params: { id: string } }) {
           <div className="mt-4 flex flex-wrap gap-2.5">
             {pessoasNaFoto.map((pe) => (
               <Link key={pe.id} href={`/pessoas/${pessoaSlug(pe)}`} className="card-lift rounded-full border border-ink/15 px-4 py-1.5 font-sans text-sm text-ink/80 hover:border-gold/60 hover:text-curtain dark:border-cream/15 dark:text-cream/80 dark:hover:text-gold">{pe.name} →</Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {apareceEm.length > 0 && (
+        <section className="mt-10 border-t border-gold/20 pt-7">
+          <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Aparece em</h2>
+          <div className="mt-4 flex flex-wrap gap-2.5">
+            {apareceEm.map((u) => (
+              <Link key={u.slug} href={u.slug} className="card-lift inline-flex items-center gap-2 rounded-sm border border-ink/15 px-4 py-2 font-sans text-sm text-ink/80 hover:border-gold/60 hover:text-curtain dark:border-cream/15 dark:text-cream/80 dark:hover:text-gold">
+                <span className="text-[0.62rem] uppercase tracking-eyebrow text-ink/45 dark:text-cream/45">{u.kind}</span>
+                {u.title} →
+              </Link>
             ))}
           </div>
         </section>
