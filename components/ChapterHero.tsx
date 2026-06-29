@@ -1,17 +1,17 @@
-import Image from 'next/image';
 import SeloEvidencia, { temSelo } from './SeloEvidencia';
+import ParallaxImage from './ParallaxImage';
 import TypewriterTitle from './TypewriterTitle';
 
 export default function ChapterHero({ eyebrow, title, image, alt, status, typewriter }: { eyebrow?: string; title: string; image?: string; alt?: string; status?: string; typewriter?: boolean }) {
   return (
     <header className="relative overflow-hidden">
       {image && (
-        <div className="absolute inset-0 grain">
-          <Image src={image} alt={alt || ''} fill priority className="object-cover" sizes="100vw" />
-          {/* gradiente direcional: escuro embaixo p/ leitura, imagem viva em cima */}
-          <div className="absolute inset-0 bg-gradient-to-t from-night via-night/45 to-night/5" />
-          <div className="absolute inset-0 bg-gradient-to-r from-night/55 to-transparent" />
-        </div>
+        <>
+          <ParallaxImage src={image} alt={alt} />
+          {/* gradiente direcional: escuro embaixo p/ leitura, imagem viva em cima (fixo, não acompanha o parallax) */}
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-night via-night/45 to-night/5" />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-night/55 to-transparent" />
+        </>
       )}
       <div className={`relative mx-auto max-w-6xl px-5 ${image ? 'pb-14 pt-48 text-cream' : 'pb-10 pt-44'}`}>
         {eyebrow && (
