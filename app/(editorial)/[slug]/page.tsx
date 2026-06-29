@@ -13,6 +13,7 @@ import Reveal from '@/components/Reveal';
 import ReadingProgress from '@/components/ReadingProgress';
 import ChapterIndex from '@/components/ChapterIndex';
 import DossieIndex from '@/components/DossieIndex';
+import DossieArt from '@/components/DossieArt';
 import ChapterIndexMobile from '@/components/ChapterIndexMobile';
 import VisitaInfo from '@/components/VisitaInfo';
 import RestauroResumo from '@/components/RestauroResumo';
@@ -165,6 +166,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={page.meta.status} typewriter={isDossie} />
       <div className={`mx-auto max-w-6xl px-5 py-16 sm:py-24${isDossie ? ' dossie-paper' : ''}`}>
+        {isDossie && <DossieArt />}
         {params.slug === 'visite' && <VisitaInfo />}
         {longRead ? (
           <div className="lg:grid lg:grid-cols-[11rem_minmax(0,1fr)] lg:gap-12 xl:gap-16">
