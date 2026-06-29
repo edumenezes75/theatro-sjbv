@@ -25,6 +25,14 @@ const ROUTES: [string, number, MetadataRoute.Sitemap[number]['changeFrequency']]
   ['/dossies', 0.6, 'monthly'],
   ['/companhia-teatral-sanjoanense', 0.7, 'yearly'],
   ['/o-politeama', 0.7, 'yearly'],
+  ['/a-fachada-que-fala', 0.7, 'yearly'],
+  ['/o-medalhao-de-carlos-gomes', 0.7, 'yearly'],
+  ['/guiomar-novaes-e-o-theatro', 0.7, 'yearly'],
+  ['/o-tempo-do-cinetheatro', 0.7, 'yearly'],
+  ['/as-mulheres-do-theatro', 0.7, 'yearly'],
+  ['/a-noite-de-inauguracao', 0.7, 'yearly'],
+  ['/os-outros-inquilinos', 0.7, 'yearly'],
+  ['/a-cidade-financia-seu-restauro', 0.7, 'yearly'],
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

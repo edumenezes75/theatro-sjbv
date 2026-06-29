@@ -23,7 +23,7 @@ const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
   '/restauracao': 'Restauração', '/pessoas': 'Pessoas', '/acervo': 'Acervo',
   '/documentario': 'Documentário', '/programacao': 'Programação', '/linha-do-tempo': 'Linha do tempo',
-  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição', '/companhia-teatral-sanjoanense': 'Quem pagou o Theatro', '/o-politeama': 'Theatro ou politeama?', '/dossies': 'Dossiês',
+  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição', '/companhia-teatral-sanjoanense': 'Quem pagou o Theatro', '/o-politeama': 'Theatro ou politeama?', '/dossies': 'Dossiês', '/a-fachada-que-fala': 'A fachada que fala', '/o-medalhao-de-carlos-gomes': 'O medalhão de Carlos Gomes', '/guiomar-novaes-e-o-theatro': 'Guiomar Novaes e o Theatro', '/o-tempo-do-cinetheatro': 'O tempo do CineTheatro', '/as-mulheres-do-theatro': 'As mulheres do Theatro', '/a-noite-de-inauguracao': 'A noite de inauguração', '/os-outros-inquilinos': 'Os outros inquilinos', '/a-cidade-financia-seu-restauro': 'A cidade financia seu restauro',
 };
 const RELATED: Record<string, string[]> = {
   'o-theatro': ['/historia', '/arquitetura', '/acervo'],
@@ -36,13 +36,21 @@ const RELATED: Record<string, string[]> = {
   'luta-contra-a-demolicao': ['/restauracao', '/historia', '/linha-do-tempo'],
   'companhia-teatral-sanjoanense': ['/o-politeama', '/historia', '/luta-contra-a-demolicao'],
   'o-politeama': ['/companhia-teatral-sanjoanense', '/historia', '/documentario'],
+  'a-fachada-que-fala': ['/arquitetura', '/o-medalhao-de-carlos-gomes', '/acervo'],
+  'o-medalhao-de-carlos-gomes': ['/restauracao', '/a-fachada-que-fala', '/historia'],
+  'guiomar-novaes-e-o-theatro': ['/pessoas', '/historia', '/linha-do-tempo'],
+  'o-tempo-do-cinetheatro': ['/o-politeama', '/historia', '/linha-do-tempo'],
+  'as-mulheres-do-theatro': ['/pessoas', '/companhia-teatral-sanjoanense', '/historia'],
+  'a-noite-de-inauguracao': ['/companhia-teatral-sanjoanense', '/o-politeama', '/historia'],
+  'os-outros-inquilinos': ['/historia', '/o-tempo-do-cinetheatro', '/acervo'],
+  'a-cidade-financia-seu-restauro': ['/restauracao', '/luta-contra-a-demolicao', '/pessoas'],
 };
 
 // dossiês em destaque ao fim de páginas-âncora
 const DOSSIES_REL: Record<string, string[]> = {
-  historia: ['/luta-contra-a-demolicao', '/companhia-teatral-sanjoanense', '/o-politeama'],
-  restauracao: ['/luta-contra-a-demolicao'],
-  arquitetura: ['/o-politeama'],
+  historia: ['/a-noite-de-inauguracao', '/o-tempo-do-cinetheatro', '/as-mulheres-do-theatro'],
+  arquitetura: ['/a-fachada-que-fala', '/o-medalhao-de-carlos-gomes', '/o-politeama'],
+  restauracao: ['/o-medalhao-de-carlos-gomes', '/a-cidade-financia-seu-restauro', '/luta-contra-a-demolicao'],
 };
 
 
@@ -269,6 +277,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
                 );
               })}
             </div>
+            <a href="/dossies" className="mt-6 inline-block font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 hover:text-curtaindark dark:text-gold dark:hover:text-cream">Ver todos os dossiês →</a>
           </section>
         )}
 
