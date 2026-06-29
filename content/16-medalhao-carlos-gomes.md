@@ -47,6 +47,8 @@ Quem conduziu o resgate foi o artista **Cézar Roberto Olandim**, com **Maércio
 
 A prospecção foi feita **com um bisturi**, numa decapagem transversal sobre o ponto em que deveria estar a pintura. "A cada milímetro decapado pela delicada lâmina, novas características do belo e imponente retrato eram reveladas." Ao cabo de **dez dias**, a pintura estava inteiramente descoberta. Seguiram-se as etapas de restauro: reintegração das lacunas abertas pelo tempo, reintegração da pintura nas áreas perdidas e a criação de uma película protetora. Na reinauguração, conta Olandim, todos os envolvidos "se emocionaram, deslumbrados com o espaço maravilhoso resgatado".
 
+O documentário guarda os bastidores do resgate. Olandim era uma das pouquíssimas pessoas no Brasil capazes desse tipo de trabalho, e a Fundação, sem caixa, não conseguia cobrir o seu preço. Foi por intermédio do **Tenente Fernandes** — seu irmão na mesma loja maçônica — que o restaurador topou; dali em diante, nunca mais falou em orçamento ("quanto a Fundação tem? Tanto. Então, semana que vem, estarei lá"). E, enquanto a efígie ressurgia milímetro a milímetro, o andaime tornou-se o ponto mais visitado da obra: todos queriam subir para ver o rosto emergir da tinta.
+
 O percurso do medalhão resume o do próprio Theatro: algo valioso, encoberto e quase perdido, devolvido à vista pela combinação de pesquisa, técnica e memória. Hoje, Carlos Gomes volta a olhar a plateia — como em 1914.
 
 ![O artista César Roberto Olandim na recuperação da pintura do medalhão de Carlos Gomes.](/fotos/hr3-restauro-01.jpg)

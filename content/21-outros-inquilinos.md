@@ -31,6 +31,9 @@ Era um ambiente de saraus — declamação, canto, instrumentos — mas também 
 
 *A vida intelectual no segundo andar — sessões e palestras que conviviam com o cinema do térreo.*
 
+Pelos saraus passaram nomes de primeira grandeza: no documentário, um frequentador lembra que "a apresentação mais impressionante foi a de Heitor Villa-Lobos". Quando o cinema deixou de ser mudo, foi para essa sala que subiu o piano que antes acompanhava as fitas. E, para mais de um de seus herdeiros, a Sociedade foi "o núcleo formador da nossa Academia de Letras".
+
+
 ## Debates e o Teatro-Escola
 
 Em 1951 surgiu a **Sociedade Cultural de Debates**, que dividia o mesmo pavimento — e que foi a fundadora do **Teatro-Escola**, em 1950. A escola chegou a ter mais de 200 associados, piano de cauda e uma biblioteca de 3.000 volumes. Reuniu os amadores da cidade e formou gente de palco; em 1957, sua peça *Transviados* foi um sucesso, e dali nasceu o grupo **GAMA**. Em visita a São João, em 1961, o ator Procópio Ferreira elogiou o grupo; entre os que passaram pelo Theatro destacou-se Atílio Eduardo Gallo Lopes, que viria a brilhar em palcos da Europa.

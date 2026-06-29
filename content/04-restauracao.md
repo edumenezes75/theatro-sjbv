@@ -52,6 +52,8 @@ O **Projeto de Restauração e Reciclagem**, datado de janeiro de 1986, foi coor
 
 A equipe não partiu da ideia de que já sabia tudo. Visitou teatros no Rio de Janeiro e em outras cidades, conheceu áreas técnicas, acompanhou espetáculos e conversou com especialistas em cenotecnia, acústica, estrutura e equipamentos.
 
+No documentário, a equipe relembra como a viagem ao Rio foi decisiva. Guiados por **Carlos Lafayette de Barcelos**, responsável técnico do Theatro Municipal do Rio, passaram uma semana mergulhados num teatro de verdade — os dias inteiros por dentro, "da plateia ao último subsolo", e as noites assistindo a tudo funcionar com os atores. "Vocês têm que primeiro entender de teatro para depois começar o projeto", ouviram. **João Batista Merlin**, que se somara ao grupo, já restaurara os metais e os lustres do Palácio do Catete.
+
 Ao retornar, precisou rever soluções. Em cerca de vinte dias de trabalho concentrado, dezenas de desenhistas e técnicos produziram aproximadamente 150 pranchas para apresentar o projeto e buscar recursos.
 
 Essa capacidade de aprender é parte importante da história. O restauro não foi uma operação linear; foi um processo de pesquisa, erro, revisão e cooperação.
