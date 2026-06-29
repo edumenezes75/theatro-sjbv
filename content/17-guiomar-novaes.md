@@ -47,7 +47,9 @@ O vínculo entre Guiomar e o Theatro foi além de uma noite. A **Semana Guiomar 
 
 *Guiomar Novaes no Theatro durante a 2ª Semana Guiomar Novaes, em 1978 — um ano antes de sua morte.*
 
-## O palco que reabriu com seu nome## O palco que reabriu com seu nome
+> **Voz do filme** · “Ela me chamou e me deu uma aula que era quase uma bronca: eu tinha tocado o concerto de Tchaikovsky, quarenta e cinco minutos, e ela lembrava cada detalhe do que eu fizera — algo que eu mesmo não seria capaz de lembrar. Foi uma aula formidável, de três, quatro horas.” — [ouvir no documentário (42:54) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=2574s)
+
+## O palco que reabriu com seu nome
 
 Não foi por acaso que a reabertura do Theatro restaurado, em setembro de 2002, aconteceu durante a **25ª Semana Guiomar Novaes**. Depois de quase duas décadas de impasses e obras, a sala voltou a receber público sob o nome da artista que melhor traduz a relação da cidade com a música.
 

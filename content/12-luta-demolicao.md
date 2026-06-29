@@ -29,6 +29,8 @@ Circulavam rumores de venda e demolição — para dar lugar a um supermercado, 
 
 *O Theatro deteriorado, no período de declínio — para muitos, um "casarão velho"; para outros, a memória da cidade prestes a virar entulho.*
 
+> **Voz do filme** · “Uma vez eu trouxe o Sady Cabral para ser jurado de carnaval, e ele quis conhecer o teatro. Quando entrou, teve uma crise de choro: o teatro estava destruído.” — [ouvir no documentário (46:30) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=2790s)
+
 ## Ronaldo Marin e a greve de fome
 
 A reação não veio dos gabinetes — veio do palco e da rua. O ator **Ronaldo Marin**, um dos precursores do movimento, anunciou que permaneceria em **greve de fome, acorrentado ao telhado** do edifício, caso não se garantisse sua preservação. Sua esposa, a bailarina **Zeza Freitas**, contou depois como tudo começou:
@@ -63,7 +65,7 @@ A divisão tinha uma razão concreta: logo se percebeu que era impossível resta
 
 *A compra do Theatro pela Prefeitura, nos anos 1980 — o passo que tornou o edifício público e viabilizou o restauro.*
 
-## A cidade vota — e doa suas fotos## A cidade vota — e doa suas fotos
+## A cidade vota — e doa suas fotos
 
 No mesmo mês da primeira compra, num episódio inédito de **consulta popular**, a Prefeitura instalou urnas no foyer para que a população opinasse sobre o destino do imóvel. Venceu a opção de **restaurar o edifício como teatro, o mais próximo possível do aspecto original** — escolha de **1.651 cidadãos**. O jornal *O Município* convocava: *"Compareça à urna do Teatro Municipal e dê sua opinião sobre a restauração."*
 

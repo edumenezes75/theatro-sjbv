@@ -41,7 +41,7 @@ Naquela época, lembra ela, "não existiam as atuais frisas e camarotes": era um
 
 *Clineida Andrade Junqueira Jacomini — foi o relato dela que preservou a memória dos domingos no Cine Theatro.*
 
-## Flávio, o faz-tudo## Flávio, o faz-tudo
+## Flávio, o faz-tudo
 
 Nenhuma figura encarna melhor o Cine Theatro do que **Flávio Nogueira**. No pequeno espaço junto à cabine de projeção, ele era, ao mesmo tempo, bilheteiro, porteiro e — na falta do encarregado — projecionista. Cabia a ele receber as fitas, que chegavam em grandes estojos de metal, trazidas do escritório da Viação Cometa por um charreteiro. Durante o dia, Flávio rodava os filmes para conferir se não estavam partidos, emendava o que fosse preciso e, nessa checagem, acabava assistindo a tudo antes do público.
 
@@ -65,7 +65,7 @@ Nos anos finais, já disputando público com o Cine Avenida (hoje Casas Pernambu
 
 *A tela de cinema sendo retirada do palco — ao parar de ser cinema, o edifício pôde voltar a ser teatro.*
 
-## O que o cinema deixou## O que o cinema deixou
+## O que o cinema deixou
 
 É tentador contar essa fase como queda — do palco nobre à sala "pulgueiro". Mas é o contrário: foram os quarenta anos de cinema que mantiveram o Theatro vivo e no centro da rotina, e foi a memória acumulada nesses domingos — a do Budri, a do Flávio, a dos namoros no escuro — que tornou impensável, para tantos, deixar o prédio virar entulho. Quando a demolição rondou, nos anos 1980, foi também essa lembrança afetiva que a cidade se recusou a perder.
 

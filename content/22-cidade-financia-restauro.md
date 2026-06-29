@@ -29,6 +29,8 @@ Cerca de **60 pessoas ligadas às artes e à cultura** foram convidadas a integr
 
 *A posse da Fundação Oliveira Neto, em 1998 — a entidade criada para captar recursos e concluir o restauro.*
 
+> **Voz do filme** · “O Tribunal de Contas me chamou e disse que eu estava sonegando o meu salário, o do José Rubens e o da Vera Dib — três anos de trabalho. Eu respondi: meu amigo, nós nunca cobramos nada; trabalhamos aqui há três anos, somos voluntários.” — [ouvir no documentário (1:03:23) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=3803s)
+
 ## Recursos das três esferas
 
 A FON conseguiu recursos das **três esferas de governo** — e, para isso, pesou a política: o ex-prefeito Sidney Beraldo, eleito deputado, alinhava-se a prefeito, governador e presidente do mesmo partido, o que ajudou a destravar verbas. Campanhas davam visibilidade à causa, como a **"Dê para São João parte do Leão"**, que estimulava pessoas e empresas a destinar parte do imposto de renda ao restauro pela Lei de Incentivo à Cultura.
