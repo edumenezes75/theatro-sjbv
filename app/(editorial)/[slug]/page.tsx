@@ -22,7 +22,7 @@ const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
   '/restauracao': 'Restauração', '/pessoas': 'Pessoas', '/acervo': 'Acervo',
   '/documentario': 'Documentário', '/programacao': 'Programação', '/linha-do-tempo': 'Linha do tempo',
-  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição',
+  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição', '/companhia-teatral-sanjoanense': 'Quem pagou o Theatro', '/o-politeama': 'Theatro ou politeama?', '/dossies': 'Dossiês',
 };
 const RELATED: Record<string, string[]> = {
   'o-theatro': ['/historia', '/arquitetura', '/acervo'],
@@ -33,6 +33,15 @@ const RELATED: Record<string, string[]> = {
   visite: ['/programacao', '/acervo', '/historia'],
   fontes: ['/acervo', '/pessoas', '/documentario'],
   'luta-contra-a-demolicao': ['/restauracao', '/historia', '/linha-do-tempo'],
+  'companhia-teatral-sanjoanense': ['/o-politeama', '/historia', '/luta-contra-a-demolicao'],
+  'o-politeama': ['/companhia-teatral-sanjoanense', '/historia', '/documentario'],
+};
+
+// dossiês em destaque ao fim de páginas-âncora
+const DOSSIES_REL: Record<string, string[]> = {
+  historia: ['/luta-contra-a-demolicao', '/companhia-teatral-sanjoanense', '/o-politeama'],
+  restauracao: ['/luta-contra-a-demolicao'],
+  arquitetura: ['/o-politeama'],
 };
 
 
@@ -237,6 +246,27 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
               Episódios apoiados em documentos e lembranças, reunidos em cinco capítulos — da fundação aos mistérios da casa.
             </p>
             <Curiosidades itens={curiosidadesList} />
+          </section>
+        )}
+
+        {DOSSIES_REL[params.slug] && (
+          <section className="mt-16 border-t border-gold/25 pt-12">
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Dossiês</p>
+            <h2 className="mt-3 font-display text-3xl">Histórias para se aprofundar</h2>
+            <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">Leituras longas que destrincham um episódio da história do Theatro.</p>
+            <div className="mt-6 grid gap-4 sm:grid-cols-2">
+              {DOSSIES_REL[params.slug].map((href) => {
+                const d = getPageBySlug(href);
+                if (!d) return null;
+                return (
+                  <a key={href} href={href} className="card-lift group rounded-sm border border-gold/30 bg-cream p-5 transition-colors hover:border-gold dark:bg-nightsoft">
+                    <span className="font-sans text-[0.64rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{d.meta.eyebrow}</span>
+                    <span className="mt-1 block font-display text-xl text-ink dark:text-cream">{d.meta.title} <span className="text-curtain transition-transform group-hover:translate-x-0.5 dark:text-gold">→</span></span>
+                    <span className="mt-2 block font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">{d.meta.seo_description}</span>
+                  </a>
+                );
+              })}
+            </div>
           </section>
         )}
 

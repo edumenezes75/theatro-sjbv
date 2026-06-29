@@ -146,7 +146,7 @@ Em 1995, o show *Relembranças* reuniu público em uma sala com piso bruto e cad
 
 ## Conservação: um cuidado que continua
 
-Preservar não termina com a reabertura. O último grande ciclo de acabamentos foi o de 2002; desde então, a casa recebeu manutenções pontuais. Em 2021, a Prefeitura contratou um estudo técnico de preservação e pintura — conduzido por Lorette Arquitetos, com Antonio Carlos Lorette e Alisson Tavares —, reconhecendo a necessidade de retomar um cuidado mais amplo. Notícias do período registraram, ainda, emendas destinadas à reforma, como R$ 170 mil e, em 2024, R$ 200 mil.
+Preservar não termina com a reabertura. A própria obra continuou depois de 2002 — o subsolo, por exemplo, só foi concluído em 2010, e parte dos equipamentos cenotécnicos foi sendo completada mais tarde. Desde então, a casa recebeu sobretudo manutenções pontuais. Em 2021, a Prefeitura contratou um estudo técnico de preservação e pintura — conduzido por Lorette Arquitetos, com Antonio Carlos Lorette e Alisson Tavares —, reconhecendo a necessidade de retomar um cuidado mais amplo. Notícias do período registraram, ainda, emendas destinadas à reforma, como R$ 170 mil e, em 2024, R$ 200 mil.
 
 Reportagens locais entre 2023 e 2024 registraram pontos a enfrentar — entre eles a entrada de água da chuva por portas laterais e a fragilidade de esquadrias — e listaram demandas de pintura, palco, camarins, instalações, acessibilidade, som e luz. Em 2024, obras externas e internas avançaram com pintura de fachada, palco e foyer; parte das intervenções, porém, ficou inacabada, e a manutenção preventiva permanece como agenda aberta.
 

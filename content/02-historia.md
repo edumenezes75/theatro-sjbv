@@ -35,7 +35,7 @@ O primeiro terreno, na região da atual Rua Oscar Janson, foi adquirido de Misae
 
 ## 2. Pedra, metal e memória — 1913 a 1914
 
-A pedra fundamental foi assentada em 13 de maio de 1913. A cerimônia reuniu autoridades, dirigentes da Companhia, profissionais e moradores. Sob a entrada principal, uma caixa recebeu documentos e objetos de seu tempo: ata de fundação, estatutos, jornais, revistas, dinheiro e cartões de visita.
+A pedra fundamental foi assentada em 13 de maio de 1913. A cerimônia reuniu cerca de mil pessoas — autoridades, dirigentes da Companhia, profissionais e moradores — e contou com a bênção do padre Manoel José Marques; o jornal *A Cidade de São João* dedicou-lhe número especial, e um discurso associou a obra à grandeza simbólica do 13 de Maio, data da Abolição. Sob a entrada principal, uma caixa recebeu documentos e objetos de seu tempo: ata de fundação, estatutos, jornais, revistas, dinheiro e cartões de visita.
 
 Esse gesto transformava a construção em mensagem para o futuro. O edifício ainda não existia, mas seus responsáveis já imaginavam que alguém, décadas depois, desejaria saber quem eram e como viviam.
 
@@ -123,7 +123,7 @@ O segundo andar tornou-se um laboratório cultural. Ali funcionaram a Sociedade 
 
 Em fevereiro de 1967, frisas e camarotes foram retirados para aumentar o número de assentos do cinema. A intervenção alterou profundamente a leitura original da sala. Para o público, isso significou mais lugares; para o edifício histórico, significou a perda de elementos importantes.
 
-Ainda ocorreram shows, entre eles Roberto Carlos, em 1968, e apresentações de Dercy Gonçalves e Agnaldo Rayol, em 1982. Nomes como Jorge Goulart e Carlos Galhardo aparecem com frequência nas memórias do circuito artístico que passou pelo palco. Mas a concorrência de outras salas, a televisão, o desgaste físico e as dificuldades econômicas aceleraram o declínio.
+Ainda ocorreram shows, entre eles Roberto Carlos, em 1968, e apresentações de Dercy Gonçalves e Agnaldo Rayol, em 1982. Nomes como Jorge Goulart e Carlos Galhardo aparecem com frequência nas memórias do circuito artístico que passou pelo palco. Mas a concorrência de salas mais novas — o Cine Avenida, inaugurado em 1944, e o Cine Ouro Branco, em 1970 —, a televisão, o desgaste físico e as dificuldades econômicas aceleraram o declínio. Na programação dos últimos anos, voltada a filmes de menor apelo, o prédio chegou a ser apelidado, com amargura, de “pulgueiro”.
 
 
 ![A fachada na época do Cine Theatro, com cartazes de cinema no térreo.](/fotos/hr-sala-50.jpg)
@@ -182,7 +182,7 @@ A Fundação Oliveira Neto, criada em 1998, ajudou a captar recursos por incenti
 
 A reabertura trouxe um novo desafio: não bastava conservar o edifício; era necessário ocupá-lo com qualidade e continuidade.
 
-A AMITE — Associação dos Amigos do Theatro Municipal — foi criada em 2003. A entidade participou da programação, da administração e da construção de projetos que aproximavam artistas e público. Concertos, cinema, teatro amador, festivais, ensaios, formação musical e semanas especiais passaram a conviver no calendário. Por convênio autorizado em 2003, a AMITE administrou o Theatro por cerca de dezoito anos; em 2021, a Lei municipal nº 4.898 encerrou esse convênio, e a gestão voltou a ser feita diretamente pela Prefeitura, pelo Departamento de Cultura.
+A AMITE — Associação dos Amigos do Theatro Municipal — foi criada em 2003. A entidade participou da programação, da administração e da construção de projetos que aproximavam artistas e público. Em sua fase mais ativa, chegou a produzir cerca de 150 eventos por ano e, em 2019, reunia em torno de 280 sócios contribuintes. Concertos, cinema, teatro amador, festivais, ensaios, formação musical e semanas especiais passaram a conviver no calendário. Por convênio autorizado em 2003, a AMITE administrou o Theatro por cerca de dezoito anos; em 2021, a Lei municipal nº 4.898 encerrou esse convênio, e a gestão voltou a ser feita diretamente pela Prefeitura, pelo Departamento de Cultura.
 
 Entre os projetos registrados no livro estão o Cineclube Beloca, Concertos Matinais, Teatro de Quinta, Som do Sábado, festivais de teatro amador, a Semana Guiomar Novaes, o Festival Assad e o projeto de cordas 1º Movimento.
 

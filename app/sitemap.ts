@@ -22,6 +22,9 @@ const ROUTES: [string, number, MetadataRoute.Sitemap[number]['changeFrequency']]
   ['/fontes', 0.6, 'monthly'],
   ['/sobre', 0.5, 'yearly'],
   ['/luta-contra-a-demolicao', 0.7, 'yearly'],
+  ['/dossies', 0.6, 'monthly'],
+  ['/companhia-teatral-sanjoanense', 0.7, 'yearly'],
+  ['/o-politeama', 0.7, 'yearly'],
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

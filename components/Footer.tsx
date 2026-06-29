@@ -31,7 +31,7 @@ export default function Footer() {
           <div>
             <h3 className="font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold">Acervo & filme</h3>
             <ul className="mt-3 space-y-1.5 text-sm">
-              {[['/acervo','Acervo de imagens'],['/documentario','Documentário Música & Drama'],['/linha-do-tempo','Linha do tempo'],['/memorias','Curiosidades'],['/livro-de-memorias','Livro de Memórias'],['/visita-guiada','Visita guiada'],['/fontes','Pesquisa e fontes'],['/sobre','Sobre o projeto']].map(([h,l]) => (
+              {[['/acervo','Acervo de imagens'],['/documentario','Documentário Música & Drama'],['/linha-do-tempo','Linha do tempo'],['/dossies','Dossiês'],['/memorias','Curiosidades'],['/livro-de-memorias','Livro de Memórias'],['/visita-guiada','Visita guiada'],['/fontes','Pesquisa e fontes'],['/sobre','Sobre o projeto']].map(([h,l]) => (
                 <li key={h}><Link href={h} className="text-cream/80 hover:text-gold">{l}</Link></li>
               ))}
             </ul>

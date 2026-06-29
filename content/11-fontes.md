@@ -33,6 +33,8 @@ A dissertação de Luis Pedro Dragão Jeronimo — *Uma memória e um espaço re
 
 Um artigo derivado — *“Um primor artístico de architectura”: a construção do Theatro Municipal de São João da Boa Vista como símbolo da modernidade* (revista *História e Cultura*, UNESP, v. 10, n. 2, 2021) — analisa o edifício como símbolo da modernidade, da civilidade e do cosmopolitismo da elite cafeeira sanjoanense do início do século XX.
 
+Dois outros trabalhos do mesmo autor completam o quadro: um artigo derivado na revista *Mosaico* (FGV, 2021), sobre os primeiros anos e os usos atuais do edifício, e *Participação popular e preservação do patrimônio cultural* (revista *Vernácula*, 2023), sobre a mobilização contra a demolição, o tombamento e o restauro. Para os primórdios — a pedra fundamental, a inauguração e os primeiros eventos —, é referência o artigo de **Rodrigo Rossi Falconi** na *Revista da ASBRAP* (nº 18).
+
 ## Outras obras de referência
 
 Além do livro do centenário, a memória do Theatro está registrada em obras locais que se complementam:
@@ -55,6 +57,17 @@ Além do livro do centenário, a memória do Theatro está registrada em obras l
 - programas, cartazes, partituras e borderôs;
 - entrevistas e acervos familiares.
 
+## O que ainda está em disputa
+
+Pesquisa séria convive com divergências. Em vez de escondê-las, registramos as principais — cada uma é um convite à pesquisa, não um ponto final:
+
+- **Número de acionistas.** A tradição local e a fonte oficial falam em 113; a ata de constituição registra 103 presentes ou representados (677 ações), e a reconstrução do Livro de Accionistas aponta cerca de 191 a 196 acionistas até 1914.
+- **Data de inauguração.** 31 de outubro de 1914 (livro do centenário, *O Município*, ASBRAP) ou 8 de novembro (páginas institucionais). Aqui adotamos 31 de outubro, registrando a divergência.
+- **Capacidade da orquestra.** O fosso foi anunciado para até 80 “figuras” em 1913 e é hoje descrito para cerca de 39 músicos.
+- **O que havia no terreno.** A memória local cita Santa Casa, Grupo Escolar e hotel; a pesquisa acadêmica sugere uma antiga propriedade ou solar de família — algo a confirmar em escrituras.
+- **Início do cinema.** Não foi “virar cinema em 1937”: as fitas são esteio econômico desde 1914; 1937 marca a consolidação da fase CineTheatro.
+- **Datas do tombamento.** Processo aberto em 1984, aprovado pelo Conselho do CONDEPHAAT em 16 de dezembro de 1985 e formalizado pela Resolução SC nº 3 em 19 de janeiro de 1987.
+
 ## Selos de evidência
 
 | Selo | Significado |
@@ -73,6 +86,10 @@ Além do livro do centenário, a memória do Theatro está registrada em obras l
 - Hemeroteca Digital: https://bndigital.bn.gov.br/hemeroteca-digital/
 - Arquivo Público do Estado: https://www.arquivoestado.sp.gov.br/
 - Artigo *“Um primor artístico de architectura”* (UNESP, 2021) — DOI 10.18223/hiscult.v10i2.3347: https://doi.org/10.18223/hiscult.v10i2.3347
+- Artigo na revista *Mosaico* (FGV, 2021): https://dialnet.unirioja.es/descarga/articulo/8102829.pdf
+- Artigo *Participação popular e preservação do patrimônio cultural* (*Vernácula*, 2023): https://doi.org/10.18312/verncula.v1i2.2329
+- Rodrigo Rossi Falconi — *Revista da ASBRAP* nº 18: https://www.asbrap.org.br/artigos/rev18_art14.pdf
+- *O Município* — o Theatro como “templo” artístico e cultural (2024): https://www.omunicipio.jor.br/wordpress/2024/04/17/theatro-municipal-e-o-templo-artistico-e-cultural-de-sao-joao/
 - Verbete na Wikipédia: https://pt.wikipedia.org/wiki/Teatro_Municipal_de_S%C3%A3o_Jo%C3%A3o_da_Boa_Vista
 - Jornal *O Município* (reforma de 2024): https://www.omunicipio.jor.br/wordpress/2024/08/07/reforma-do-theatro-municipal-comeca-por-fora/
 - *Vestígios da Memória* (2017) — perfil do Theatro (foto e relato de Eduardo Zappia): https://issuu.com/bdlf/docs/2017_vestigios_da_memoria/s/14846684
