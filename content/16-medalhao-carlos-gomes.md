@@ -3,7 +3,7 @@ slug: "/o-medalhao-de-carlos-gomes"
 title: "O medalhão de Carlos Gomes"
 eyebrow: "Dossiê · Um retrato sob camadas de tinta"
 seo_title: "O medalhão de Carlos Gomes no Theatro Municipal de São João da Boa Vista"
-seo_description: "Pintado por Ettore Adriano Fabri sobre a boca de cena, coberto por décadas de tinta e reencontrado graças a uma fotografia de 1919 — a história do medalhão de Carlos Gomes do Theatro."
+seo_description: "Pintado por Ettore Adriano Fabri em 1914, coberto por décadas de tinta e reencontrado graças a uma fotografia de um comício de 1919 — a história do medalhão de Carlos Gomes e de seu restauro, contada por quem o devolveu à luz."
 hero_image: "/fotos/hr-ornamentos-16.jpg"
 hero_alt: "O medalhão de Carlos Gomes sobre a boca de cena do Theatro Municipal."
 status: "dossiê"
@@ -11,46 +11,56 @@ status: "dossiê"
 
 # O medalhão de Carlos Gomes
 
-Sobre a boca de cena, o rosto de um compositor observa a plateia há mais de um século. Mas ele já esteve desaparecido — escondido sob camadas de tinta — e só voltou graças a uma fotografia tirada por acaso, num comício.
+Sobre a boca de cena, o rosto de um compositor observa a plateia há mais de um século. Mas ele já esteve desaparecido — escondido sob camadas de tinta, a ponto de ninguém saber se ainda existia — e só voltou graças a uma fotografia tirada por acaso, num comício, e ao trabalho quase arqueológico de um restaurador. Esta é a história do retrato mais simbólico do Theatro.
 
-> **Em um minuto:** o medalhão de Carlos Gomes é obra original do pintor italiano Ettore Adriano Fabri. Reformas o cobriram ao longo das décadas. No restauro, uma foto de 1919 que registrava o retrato guiou a decapagem, e restauradores sanjoanenses reintegraram a pintura danificada.
+> **Em um minuto:** o medalhão de Carlos Gomes é obra original do pintor acadêmico Ettore Adriano Fabri, executada em 1914 no alto do proscênio. Reformas o cobriram com sucessivas pinturas. Uma foto de um comício de 1919, que registrara seus arabescos, serviu de referência; e o restaurador Cézar Roberto Olandim, "como um arqueólogo", o reencontrou sob a tinta e o devolveu à boca de cena.
 
 ## Um retrato no lugar de honra
 
-Carlos Gomes, o campineiro de *O Guarani*, era o nome brasileiro da galeria de compositores do Theatro. Enquanto os outros três — Verdi, Wagner e Gounod — apareciam em medalhões na fachada, Carlos Gomes ganhou também o ponto mais nobre do interior: o alto da **boca de cena**, sobre o palco, de frente para todos.
-
-Pôr um brasileiro ali, no eixo do olhar, era uma declaração. O lugar de honra não foi dado a um europeu, mas a um compositor do país.
+Carlos Gomes, o campineiro de *O Guarani*, era o nome brasileiro do Theatro. Enquanto Verdi, Wagner e Gounod apareciam em medalhões na fachada, a Carlos Gomes coube o ponto mais nobre do interior: o alto da **boca de cena**, sobre o palco, de frente para todos. Pôr um brasileiro ali, no eixo do olhar de toda a plateia, era uma declaração — o país no centro da casa, e não apenas a Europa.
 
 ## A mão de Ettore Adriano Fabri
 
-A pintura é atribuída ao pintor italiano **Ettore Adriano Fabri**, responsável pelo retrato sobre o proscênio. Ele integra a rede de artistas e artífices que deram corpo ao edifício — decoradores, pintores e cenógrafos que transformaram o projeto em matéria.
+A pintura tem autoria documentada. Segundo o relato de época reunido por Rodrigo Rossi Falconi, coube ao "ilustre e conceituado pintor acadêmico Professor **Ettore Adriano Fabri**" executar "a pintura do retrato do maestro brasileiro Carlos Gomes na parte superior do proscênio", enquanto a pintura e a decoração internas ficavam a cargo do hábil artista **Antenor de Almeida**. O medalhão integra, assim, a rede de artífices que deram corpo ao edifício em 1914 — não é um adereço genérico, mas obra assinada.
 
-Com o tempo, porém, o Theatro mudou. Virou cinema, passou por reformas, recebeu novas pinturas. O medalhão foi sumindo sob as camadas, até quase ninguém lembrar que estava ali.
+## Sumiço sob as camadas
 
-![Decapagem: a remoção controlada das camadas de tinta que escondiam a pintura.](/fotos/hr-restauro-20.jpg)
+Com o tempo, o Theatro mudou. Virou cinema, passou por reformas, recebeu novas pinturas. O medalhão foi desaparecendo sob as camadas, até quase ninguém lembrar que estava ali. Quando o restauro começou, a dúvida era concreta — e angustiante: ainda existiria, sob a tinta, a efígie do maestro? Ou ela teria se perdido para sempre?
 
-*Decapagem: a remoção controlada das camadas de tinta que escondiam a pintura.*
+![Decapagem — a remoção controlada das camadas de tinta que escondiam pinturas e ornamentos.](/fotos/hr-restauro-20.jpg)
 
-## A foto de 1919 que salvou o rosto
+*Decapagem: a remoção controlada, camada a camada, da tinta que encobria o retrato.*
 
-A pista veio de onde menos se esperava. Em 1919, um grande comício em apoio à candidatura de Rui Barbosa lotou a sala — e uma fotografia daquele dia registrou, ao fundo, o medalhão ainda visível. Décadas depois, no restauro, essa imagem virou documento técnico: foi ela que mostrou aos restauradores como era o retrato original, orientando a decapagem.
+## A foto de 1919 que guardou o rosto
 
-É um caso exemplar de como a memória da cidade — uma foto guardada — pode ser decisiva para recuperar o patrimônio. Sem aquele registro, o reencontro teria sido muito mais incerto.
+A pista decisiva veio de onde menos se esperava. Em **9 de dezembro de 1919**, um comício do Partido Republicano Paulista, em apoio à candidatura de Rui Barbosa à presidência, reuniu a sociedade sanjoanense na sala do Theatro — e uma fotografia daquele dia registrou, ao fundo, **os arabescos do medalhão de Carlos Gomes**. Décadas depois, essa imagem virou documento técnico: foi ela que mostrou aos restauradores como eram os ornamentos originais, servindo de **referência para o restauro**.
 
-![O artista César Roberto Olandim recupera a pintura do medalhão de Carlos Gomes.](/fotos/hr3-restauro-01.jpg)
+É um caso exemplar de como a memória da cidade — uma foto guardada num álbum — pode ser decisiva para recuperar o patrimônio. Sem aquele registro casual de um comício, o reencontro teria sido muito mais incerto.
 
-*O artista César Roberto Olandim recupera a pintura do medalhão de Carlos Gomes.*
+## A restauração, como arqueologia
 
-## O reencontro
+Quem conduziu o resgate foi o artista **Cézar Roberto Olandim**, com **Maércio Mazzi** e **Elias Gervasi**. O relato é dele próprio, e vale ouvir:
 
-Sob as pinturas, o retrato surgiu danificado. Os nomes de **Cézar Roberto Olandim, Maércio Mazzi e Elias Gervasi** aparecem associados às etapas de descoberta e reintegração da obra. Recuperado o rosto, os ornamentos ao redor foram repintados.
+> "Quando vi o imponente Theatro, foi amor à primeira vista! (…) A grande dúvida era se, abaixo das várias camadas de pintura, ainda existiria a efígie do Maestro. Às vezes, o trabalho de restauração é análogo ao de um arqueólogo."
+
+A prospecção foi feita **com um bisturi**, numa decapagem transversal sobre o ponto em que deveria estar a pintura. "A cada milímetro decapado pela delicada lâmina, novas características do belo e imponente retrato eram reveladas." Ao cabo de **dez dias**, a pintura estava inteiramente descoberta. Seguiram-se as etapas de restauro: reintegração das lacunas abertas pelo tempo, reintegração da pintura nas áreas perdidas e a criação de uma película protetora. Na reinauguração, conta Olandim, todos os envolvidos "se emocionaram, deslumbrados com o espaço maravilhoso resgatado".
 
 O percurso do medalhão resume o do próprio Theatro: algo valioso, encoberto e quase perdido, devolvido à vista pela combinação de pesquisa, técnica e memória. Hoje, Carlos Gomes volta a olhar a plateia — como em 1914.
 
-![O medalhão de Carlos Gomes restaurado, de volta sobre a boca de cena.](/fotos/hr-ornamentos-28.jpg)
+![O artista César Roberto Olandim na recuperação da pintura do medalhão de Carlos Gomes.](/fotos/hr3-restauro-01.jpg)
 
-*O medalhão de Carlos Gomes restaurado, de volta sobre a boca de cena.*
+*Cézar Roberto Olandim recupera, sobre o andaime, a pintura do medalhão.*
 
-[Ver o restauro em detalhes](./restauracao) · [Ler a fachada](./a-fachada-que-fala) · [A história do Theatro](./historia)
+![O medalhão de Carlos Gomes restaurado, sobre a boca de cena.](/fotos/hr-ornamentos-28.jpg)
 
-<!-- Fontes principais: Menezes, "Theatro Municipal, 100 anos", 2014; dissertação de Luis Pedro Dragão Jeronimo (USP, 2020); depoimentos do restauro. -->
+*O medalhão restaurado — o retrato de volta ao lugar de honra, mais de um século depois.*
+
+## Fontes e notas
+
+- **Autoria de Ettore Adriano Fabri e contexto de 1914:** Rodrigo Rossi Falconi, *Theatro Municipal de São João da Boa Vista* (Revista da ASBRAP, nº 18).
+- **A foto do comício de 1919 como referência** e o **relato de Cézar Roberto Olandim:** livro *Theatro Municipal, 100 anos* (Menezes, 2014).
+- **Ornamentos da fachada (1992):** Romeu Paulucci Buzon Filho — ver o dossiê [O restauro](/restauracao).
+
+[A fachada que fala](./a-fachada-que-fala) · [Ver o restauro em detalhes](./restauracao) · [A história completa](./historia)
+
+<!-- Fontes principais: Falconi (Revista da ASBRAP nº 18); livro "Theatro Municipal, 100 anos" (Menezes, 2014); relato de Cézar Roberto Olandim. -->
