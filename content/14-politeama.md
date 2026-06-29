@@ -55,7 +55,7 @@ A narrativa nostálgica diz que o Theatro nasceu puro e erudito e depois decaiu 
 
 Quando o edifício recebeu ringue de patinação, bailes populares e mais sessões de cinema diante das dificuldades financeiras, não estava "caindo" — estava se adaptando para continuar de pé. A morte de um teatro não acontece quando ele muda de uso; acontece quando deixa de importar para a cidade. E o Theatro nunca deixou.
 
-Em 1937, sob Joaquim José de Oliveira Neto, a fase cinematográfica se consolidou e ganhou a memória afetiva do **CineTheatro**: matinês, seriados, namoros e domingos na praça. Para muitos sanjoanenses, o prédio entrou na vida não como símbolo de 1914, mas como a sala de cinema do centro. Essa também é a sua história — e merece a mesma dignidade.
+Em 1937, sob Joaquim José de Oliveira Neto, a fase cinematográfica se consolidou e ganhou memória afetiva própria — matinês, seriados, namoros e domingos na praça. Essa história, do esplendor ao apelido de “pulgueiro”, é contada em [O tempo do CineTheatro →](/o-tempo-do-cinetheatro).
 
 [Quem pagou tudo isso](./companhia-teatral-sanjoanense) · [Ler a história completa](./historia) · [Percorrer a linha do tempo](./linha-do-tempo)
 

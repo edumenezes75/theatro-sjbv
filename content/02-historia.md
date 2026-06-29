@@ -21,7 +21,9 @@ No início do século XX, São João da Boa Vista já possuía salões, cinemas 
 
 A ideia encontrou apoio político. Em 1911, a Câmara autorizou um empréstimo de mil contos de réis para dívidas e melhoramentos urbanos, incluindo o teatro; em 1912, consolidou os incentivos a quem construísse um teatro ou *polytheama* — isenção de impostos e garantia de 8% de juros ao ano, por dez anos, sobre capital de até 80 contos. Não era um empreendimento simples. Exigia reunir dinheiro, definir a sociedade, adquirir terreno, escolher projeto e contratar a execução.
 
-Joaquim Cândido de Oliveira e José Evangelista de Almeida aparecem como figuras centrais dessa mobilização. Em fevereiro de 1913, a Companhia Teatral Sanjoanense foi constituída. Os números variam conforme a fonte: a ata de constituição registra 103 sócios representados — 78 presentes e 25 por procuração — e 677 ações naquele ato, enquanto a reconstrução das subscrições aponta cerca de 196 acionistas e mil ações. A documentação deve ser tratada como uma rede: não apenas uma lista, mas um retrato da sociedade que decidiu investir em cultura.
+Joaquim Cândido de Oliveira e José Evangelista de Almeida aparecem como figuras centrais dessa mobilização. Em fevereiro de 1913 constituiu-se a **Companhia Teatral Sanjoanense** — uma sociedade por ações que reuniu de uma centena a quase duzentos investidores, de fazendeiros a comerciantes, imigrantes e mulheres.
+
+**Aprofunde-se** — quem entrou com o dinheiro, com nomes e números: [Quem pagou o Theatro →](/companhia-teatral-sanjoanense).
 
 > **Você sabia?** A assembleia de constituição terminou ao som da Banda Internacional, regida pelo maestro Joaquim Azevedo. Música e administração já dividiam a mesma noite.
 
@@ -50,22 +52,9 @@ O custo superou o capital inicial. Empréstimos e debêntures foram necessários
 
 ## 3. Uma noite de gala — 31 de outubro de 1914 {#uma-noite-de-gala}
 
-A inauguração ocorreu em **31 de outubro de 1914**. A banda do maestro Joaquim Azevedo abriu a cerimônia. Antônio Cândido de Oliveira Filho discursou em nome dos responsáveis pelo empreendimento. Depois, a Companhia Santos Silva apresentou a peça *Uma Causa Célebre*, com cenografia atribuída a Rodolfo Mossello.
+Em **31 de outubro de 1914**, depois de anos de leis, ações e obras, a cidade entrou pela primeira vez na sala que construíra para si. A Companhia Santos Silva apresentou *Uma Causa Célebre*, e o público ocupou plateia, frisas, camarotes e galeria — uma noite recebida como sinal de progresso coletivo. (A data aparece como 8 de novembro em páginas institucionais; adotamos 31 de outubro, conforme o jornal da época.)
 
-O público ocupou plateia, frisas, camarotes e galeria. Para a cidade, aquela noite representava mais do que entretenimento. O novo prédio era apresentado como sinal de progresso e capacidade coletiva.
-
-![O interior em ferradura na noite de inauguração — 31 de outubro de 1914, em registro estereoscópico do acervo do Instituto Moreira Salles.](/fotos/hr5-inauguracao-1914.jpg)
-
-*O interior em ferradura na noite de inauguração — 31 de outubro de 1914. Registro estereoscópico (acervo IMS, Poços de Caldas).*
-
-
-Uma ausência, porém, marcou a cerimônia. José Evangelista de Almeida, apontado pelos jornais como iniciador das obras, havia se transferido para Santos por razões profissionais. Sua participação permaneceu registrada na história da Companhia e na imprensa.
-
-### A data correta
-
-A data de 31 de outubro é sustentada pelo livro do centenário e por edições contemporâneas do jornal *O Município*: uma delas anunciava a primeira apresentação para aquela noite; outra, publicada em 7 de novembro, referia-se à inauguração ocorrida no dia 31.
-
-Uma versão posterior, de 8 de novembro, circulou em páginas institucionais. Aqui adotamos **31 de outubro**, registrando a divergência — um lembrete de como a pesquisa histórica trabalha com fontes.
+**Aprofunde-se** — quem fez a noite acontecer, a peça e a estreia: [A noite de inauguração →](/a-noite-de-inauguracao).
 
 
 ![A plateia vista do palco, em registro histórico — a sala original, com a curva das galerias.](/fotos/hr-sala-47.jpg)
@@ -78,7 +67,7 @@ Nos primeiros anos, o Theatro recebeu companhias que percorriam circuitos entre 
 
 Ao mesmo tempo, a população local apropriou-se do edifício. Festivais beneficentes reuniam música, declamação, bailados e comédias. A renda ajudava a Matriz, a Santa Casa, escolas, bandas e instituições de assistência. O palco transformava talento artístico em mobilização comunitária.
 
-Mulheres tiveram papel decisivo nessa vida cultural. Gabriela de Oliveira Costa, a Dona Beloca, Zilah Mattos, Anésia Martins Mattos e outras organizadoras reuniam elencos, ensaiavam crianças, escolhiam repertórios e articulavam músicos, cenários e figurinos. A história do Theatro é também uma história de trabalho cultural feminino.
+Mulheres tiveram papel decisivo nessa vida cultural — de organizadoras como Dona Beloca às que sustentavam a programação ano após ano. É uma história à parte: [As mulheres do Theatro →](/as-mulheres-do-theatro).
 
 ### Festas, política e experimentação
 
@@ -111,19 +100,15 @@ Em 1937, o prédio, já deteriorado, foi fechado temporariamente. Joaquim José 
 
 *A entrada do antigo Bar Theatro, sob os toldos “Teatro” — o edifício no tempo do cinema e da decadência, ainda ponto de encontro na Praça da Catedral.*
 
-Havia matinês, vesperais e sessões noturnas. Seriados como *Flash Gordon*, filmes de aventura, épicos, melodramas e chanchadas nacionais atraíam diferentes públicos. O Theatro tornou-se parte do ritual de domingo: passeio pela praça, compra de ingresso, encontro com amigos, doces, pipoca e o escurecer da sala.
+A partir daí vieram as matinês, os seriados e o ritual do domingo no cinema — toda uma fase afetiva que ganhou dossiê próprio: [O tempo do CineTheatro →](/o-tempo-do-cinetheatro).
 
 ### O palco não desapareceu
 
-Mesmo na fase cinematográfica, o edifício continuou a receber apresentações. Em 1945, uma peça marcou a reabertura após novo período de fechamento. Em 11 de setembro de 1946, Guiomar Novaes apresentou-se para seus conterrâneos. Em 1952, Procópio Ferreira trouxe *Deus lhe Pague* e *Esta Mulher é Minha*.
-
-O segundo andar tornou-se um laboratório cultural. Ali funcionaram a Sociedade de Cultura Artística, a Sociedade Cultural de Debates, o Teatro-Escola, a Rádio Difusora ZYJ-6 e, posteriormente, a Biblioteca Municipal. O mesmo ambiente abrigou livros, conferências, recitais, programas de rádio e ensaios.
+Mesmo virado cinema, o edifício seguiu recebendo apresentações: em 1945 uma peça reabriu a casa; em 1946, **Guiomar Novaes** tocou para os conterrâneos ([dossiê →](/guiomar-novaes-e-o-theatro)); em 1952, Procópio Ferreira passou pelo palco. E havia muito mais que cinema sob aquele teto — rádio, biblioteca, bar e sociedades culturais, reunidos em [Os outros inquilinos →](/os-outros-inquilinos).
 
 ### A reforma de 1967
 
-Em fevereiro de 1967, frisas e camarotes foram retirados para aumentar o número de assentos do cinema. A intervenção alterou profundamente a leitura original da sala. Para o público, isso significou mais lugares; para o edifício histórico, significou a perda de elementos importantes.
-
-Ainda ocorreram shows, entre eles Roberto Carlos, em 1968, e apresentações de Dercy Gonçalves e Agnaldo Rayol, em 1982. Nomes como Jorge Goulart e Carlos Galhardo aparecem com frequência nas memórias do circuito artístico que passou pelo palco. Mas a concorrência de salas mais novas — o Cine Avenida, inaugurado em 1944, e o Cine Ouro Branco, em 1970 —, a televisão, o desgaste físico e as dificuldades econômicas aceleraram o declínio. Na programação dos últimos anos, voltada a filmes de menor apelo, o prédio chegou a ser apelidado, com amargura, de “pulgueiro”.
+Em fevereiro de 1967, frisas e camarotes foram retirados para dar mais assentos ao cinema — a intervenção que mais descaracterizou a sala antes do restauro. Ainda subiram ao palco nomes como Roberto Carlos (1968), Dercy Gonçalves e Agnaldo Rayol (1982), mas a concorrência de cinemas mais novos, a televisão e o desgaste do prédio aceleraram o declínio, até o fechamento de 1982.
 
 
 ![A fachada na época do Cine Theatro, com cartazes de cinema no térreo.](/fotos/hr-sala-50.jpg)
@@ -137,19 +122,13 @@ No início dos anos 1980, a possibilidade de venda e demolição deixou de ser b
 
 Em 1981, a Lei Municipal nº 219 declarou o imóvel de utilidade pública. A medida não concluía a compra, mas dificultava sua transformação e criava uma proteção inicial.
 
-Artistas e moradores intensificaram a mobilização. Houve manifestações, happenings, entrevistas e coleta de assinaturas. Ronaldo Marin anunciou que faria greve de fome no alto do prédio caso nenhuma decisão fosse tomada. Zeza Freitas e outros participantes lembram a campanha como um momento de urgência, criatividade e confronto público.
-
-Quatro abaixo-assinados reuniram 1.026 assinaturas em apoio à preservação e à ativação cultural do espaço, e uma consulta popular sobre o destino do prédio mobilizou 1.651 participantes.
+Artistas e moradores transformaram a ameaça em causa pública — manifestações, abaixo-assinados e a promessa de greve de fome de Ronaldo Marin. A pressão popular foi decisiva.
 
 **Aprofunde-se** — a história completa da campanha que salvou o Theatro: [A luta contra a demolição (1980–1987) →](/luta-contra-a-demolicao).
 
-### A compra
+### A compra e o tombamento
 
-A Prefeitura adquiriu o imóvel em duas etapas. A primeira, em janeiro de 1984, abrangia a porção frontal; a segunda, concluída em 1985, incorporou palco e fundos. A divisão evidencia uma dificuldade concreta: sem a área completa, o projeto de uma casa de espetáculos funcional ficaria comprometido.
-
-Em 1984, antes do fechamento para as obras, o espetáculo de teatro e dança *Aldeia de Cristal* ocupou o palco deteriorado. A montagem tornou-se símbolo de transição: a arte ainda acontecia enquanto se lutava para salvar o lugar onde ela acontecia.
-
-Em 19 de janeiro de 1987, o tombamento estadual pelo CONDEPHAAT reconheceu formalmente o valor histórico do edifício.
+A Prefeitura adquiriu o imóvel em duas etapas — a porção frontal em janeiro de 1984, o palco e os fundos em 1985 —, porque um teatro funcional exigia o conjunto completo. Em **19 de janeiro de 1987**, o tombamento estadual pelo CONDEPHAAT reconheceu formalmente o valor histórico do edifício.
 
 
 ![A sala esvaziada, antes do restauro — anos de abandono e risco de demolição.](/fotos/hr-historicas-45.jpg)

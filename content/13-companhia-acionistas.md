@@ -35,7 +35,7 @@ Essa diferença não é detalhe. Ela muda a leitura social da construção. O Th
 
 - os grupos **não diretamente ligados à lavoura** — comerciantes, industriais, profissionais liberais, funcionários públicos — somavam **115 acionistas e 317 ações**: cerca de **60% dos acionistas** e 32% das ações;
 - **imigrantes e descendentes** — italianos, espanhóis, alemães e outros — eram **72 nomes (37,6%)**, ligados ao comércio, aos clubes e à vida urbana;
-- havia **oito mulheres** entre os acionistas — número pequeno, que ao mesmo tempo revela o limite de uma sociedade patriarcal e mostra mulheres com patrimônio próprio capaz de entrar no empreendimento.
+- havia **oito mulheres** entre os acionistas — presença feminina rara num mundo público quase todo masculino (tema do dossiê [As mulheres do Theatro](/as-mulheres-do-theatro)).
 
 Havia, porém, **concentração de capital**: apenas 27 acionistas, com investimento superior a um conto de réis, detinham cerca de 60% das ações levantadas. A base era plural; o peso financeiro, não.
 

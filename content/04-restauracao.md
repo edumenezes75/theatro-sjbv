@@ -34,20 +34,9 @@ Em 1981, o município declarou o imóvel de utilidade pública. A decisão criou
 
 ## Quando artistas tomaram a frente
 
-A classe artística transformou a preservação em assunto público. Houve passeatas, entrevistas, intervenções diante do prédio e coleta de assinaturas. Ronaldo Marin anunciou que se amarraria no alto do Theatro e faria greve de fome. A ameaça chamou atenção da imprensa e ampliou o debate.
+O restauro só foi possível porque, antes dele, a cidade se recusou a perder o prédio. No início dos anos 1980, artistas e moradores transformaram a ameaça de demolição em causa pública — manifestações, abaixo-assinados (1.026 assinaturas) e uma consulta popular (1.651 participantes) que deram a força política para a compra. Houve também oposição, que via no tombamento um custo alto e uma ameaça à propriedade — conflito que faz parte da história.
 
-Zeza Freitas recorda que jovens artistas percorriam casas e ruas em busca de apoio. O movimento não era nostalgia passiva. Defendia a ativação de um espaço cultural que pudesse voltar a ser usado.
-
-A campanha, porém, não foi consenso. Crônicas contrárias acusavam os preservacionistas de querer “tomar” propriedade alheia, minimizavam o risco de demolição e lembravam o alto custo da recuperação. Em abril de 1983, a *Folha de S.Paulo* noticiou o risco de demolição, ampliando a repercussão. Registrar esse conflito — entre direito de propriedade, restrição orçamentária e valor coletivo — é parte da honestidade da história, muitas vezes apagada nas versões apenas celebratórias.
-
-Quatro abaixo-assinados reuniram 1.026 assinaturas, e uma consulta popular sobre o destino do prédio mobilizou 1.651 participantes — força política decisiva para a compra.
-
-**Aprofunde-se** — a história completa da campanha que salvou o Theatro: [A luta contra a demolição (1980–1987) →](/luta-contra-a-demolicao).
-
-> **Patrimônio em ação:** o documento pedia não apenas conservação, mas “ativação de um espaço cultural”. A luta era para salvar o prédio e devolver-lhe função.
-
-
-> **Voz do filme** · “Eu ameacei subir lá na janela, me amarrar e ficar fazendo greve de fome enquanto a ideia de demolir não fosse superada.” — [ouvir no documentário (45:49) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=2749s)
+**Aprofunde-se** — a campanha completa, com seus personagens e o impasse: [A luta contra a demolição →](/luta-contra-a-demolicao).
 
 ## A aquisição em duas etapas
 
@@ -120,14 +109,9 @@ A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos.
 *Prospecção estratigráfica — pequenas janelas abertas na parede revelam, camada a camada, as cores de cada época. Era assim que se descobria o tom original.*
 
 
-Na boca de cena, o medalhão de Carlos Gomes — obra original do pintor italiano Ettore Adriano Fabri — foi revelado sob sucessivas pinturas. Cézar Roberto Olandim, Maércio Mazzi e Elias Gervasi aparecem associados às etapas de descoberta e reintegração da obra; Romeu Paulucci Buzon Filho atuou na recuperação dos ornamentos da fachada, em 1992.
+Na boca de cena, o medalhão de Carlos Gomes — pintura original de Ettore Adriano Fabri — foi revelado sob sucessivas camadas de tinta; Romeu Paulucci Buzon Filho atuou na recuperação dos ornamentos da fachada, em 1992. A história completa do medalhão tem dossiê próprio: [O medalhão de Carlos Gomes →](/o-medalhao-de-carlos-gomes).
 
 Algumas decisões foram interpretativas, e a honestidade pede registrá-las como tais: seis espelhos no foyer e as pinturas de ramos de café nas tabeiras foram acréscimos do restauro, inspirados em casas como o Theatro Municipal de São Paulo e o São Pedro — não remanescentes comprovados de 1914.
-
-
-![O artista César Roberto Olandim na recuperação da pintura do medalhão de Carlos Gomes.](/fotos/hr3-restauro-01.jpg)
-
-*O artista César Roberto Olandim na recuperação da pintura do medalhão de Carlos Gomes.*
 
 
 ## Uma obra atravessada por governos e gerações
@@ -136,7 +120,7 @@ A restauração durou mais que um mandato. Diferentes administrações contribu�
 
 Em dezembro de 1992, o foyer foi inaugurado. O espaço passou a receber exposições e recitais, mesmo enquanto o restante permanecia em obra.
 
-Em 1998, a Fundação Oliveira Neto foi criada para captar recursos, com Laert de Lima Teixeira entre os articuladores do impulso final. Campanhas comunitárias deram visibilidade à causa: a “Dê para São João parte do Leão”, voltada ao incentivo fiscal, e a “Vestindo a Camisa” (1999), que mobilizou estudantes, professores e moradores. Em 2000, Badi Assad e Simone Sou apresentaram-se num palco improvisado, transformando o canteiro de obras em programação cultural. As somas publicadas da restauração variam entre cerca de R$ 695,7 mil e R$ 732,2 mil, conforme o recorte contábil. Entre os componentes citados estão R$ 250 mil estaduais, R$ 152.230 federais, R$ 170 mil da Fundação Oliveira Neto e R$ 160 mil municipais — recursos somados ao longo de quase dezessete anos, sem prestação de contas consolidada que permita fechar o total com precisão. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
+A partir de 1998, a **Fundação Oliveira Neto** e campanhas comunitárias passaram a captar recursos e a mobilizar a cidade para concluir a obra — fase que tem dossiê próprio: [A cidade financia seu restauro →](/a-cidade-financia-seu-restauro). As somas publicadas variam entre cerca de R$ 695,7 mil e R$ 732,2 mil, conforme o recorte contábil — componentes estaduais, federais, da Fundação e municipais somados ao longo de quase dezessete anos, sem prestação de contas consolidada que permita fechar o total com precisão. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
 
 ## O edifício continuou vivo durante as obras
 

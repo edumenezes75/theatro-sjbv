@@ -19,37 +19,13 @@ Essa relação entre cena e espectadores é uma das marcas da tradição teatral
 
 ## A fachada como anúncio
 
-O projeto de 1913 apresenta uma composição simétrica, com eixo central destacado, aberturas altas, ornamentos, frontão e inscrições relacionadas à música, ao teatro e ao drama. O edifício foi concebido para se afirmar na praça e comunicar sua função antes mesmo de o público entrar.
-
-![O projeto original da fachada, 1913 — composição simétrica com eixo central, frontão e inscrições à música, ao teatro e ao drama.](/fotos/hr-fachada-55.jpg)
-
-*O desenho original da fachada, 1913 — o Theatro no papel antes de existir em pedra.*
-
-Acima dos vãos laterais, quatro medalhões alinham um compositor brasileiro a três cânones europeus — **Carlos Gomes, Giuseppe Verdi, Richard Wagner e Charles Gounod** —, num gesto deliberadamente cosmopolita. As molduras incorporam ramos de café, costurando a cultura erudita internacional à economia que ergueu o edifício. As inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*, em grafia historicizante, anunciam a função antes mesmo de o público entrar.
-
-![Medalhão esculpido em relevo com o retrato de um dos compositores homenageados na fachada.](/fotos/hr4-ornamentos-04.jpg)
-
-*Um dos medalhões dos compositores, esculpido em relevo no programa decorativo do Theatro — registro feito durante o restauro.*
-
-![A inscrição MVNICIPAL na cornija da fachada, em grafia historicizante.](/fotos/hr3-ornamentos-01.jpg)
-
-*A palavra **MVNICIPAL** gravada na cornija — uma das quatro inscrições que anunciam a função do edifício, na grafia latina em que o U vira V.*
-
-![Vaso ornamental com mascarão na platibanda do Theatro, restaurado.](/fotos/hr5-ornamentos-03.jpg)
-
-*Um dos vasos com mascarões que coroam a platibanda — o remate escultórico da fachada eclética, restaurado.*
-
-
-Na linguagem eclética, elementos de diferentes tradições históricas são reorganizados para produzir solenidade e distinção. Isso não significa que o Theatro copie um único modelo europeu. A comparação com grandes casas de ópera faz parte do imaginário de sua construção, mas a relação precisa ser estudada por plantas, proporções e documentação técnica.
-
-Na fachada sanjoanense, ornamentos barrocos e neoclássicos convivem com elementos de **Art Nouveau** — os motivos florais em ferro fundido dos portões, das grades das portas e dos gradis da sala. No alto, acima da platibanda, uma águia de asas abertas e ânforas com rostos femininos coroam o programa decorativo, em que as guirlandas se entrelaçam a ramos de café: a economia que ergueu o edifício, gravada na própria pedra.
-
-> **Nota de pesquisa:** a expressão “modelo do Scala de Milão” aparece em narrativas locais. Aqui ela é tratada como referência atribuída, não como prova de cópia direta.
-
+O projeto de 1913 apresenta uma composição simétrica e eclética, com eixo central destacado, frontão, ornamentos e as inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*. O edifício foi concebido para se afirmar diante da praça e comunicar a sua função antes mesmo de o público entrar — uma fachada que, lida de perto, é quase um texto.
 
 ![A fachada eclética voltada para a Praça da Catedral, com inscrições ligadas à música e ao drama.](/fotos/hr-fachada-24.jpg)
 
 *A fachada eclética voltada para a Praça da Catedral, com inscrições ligadas à música e ao drama.*
+
+**Aprofunde-se** — os medalhões dos compositores, os ramos de café e a águia da platibanda, decifrados um a um: [A fachada que fala →](/a-fachada-que-fala).
 
 ## O programa anunciado em 1913
 
