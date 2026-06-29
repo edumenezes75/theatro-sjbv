@@ -21,15 +21,27 @@ O cinema já era esteio do Theatro desde 1914. Em **1937**, porém, com a compra
 
 Não foi decadência — foi adaptação. Cinema, em meados do século, era modernidade e lazer popular ao alcance de todos.
 
+![A fachada na época do Cine Theatro, com cartazes de cinema no térreo.](/fotos/hr-sala-50.jpg)
+
+*A fachada na época do Cine Theatro, com cartazes de cinema no térreo.*
+
 ## Domingo no cinema
 
 A fase cinematográfica é feita de lembranças concretas: matinês e vesperais, seriados como *Flash Gordon*, filmes de aventura, épicos, melodramas e chanchadas. O Theatro virou parte do ritual de domingo — o passeio pela praça, o ingresso, o encontro com amigos, a pipoca e o escurecer da sala.
 
 O palco não desapareceu de todo: em 1945 uma peça reabriu a casa; em 1946 veio Guiomar Novaes; em 1952, Procópio Ferreira. Mas o filme era o pão de cada dia.
 
+![A tela de cinema na sala, na fase do Cine Theatro.](/fotos/hr6-sala-01.jpg)
+
+*A tela de cinema na sala, na fase do Cine Theatro.*
+
 ## A sala que encolheu
 
 Em **fevereiro de 1967**, frisas e camarotes foram retirados para abrir espaço a mais cadeiras. Para o cinema, eram mais lugares; para o edifício histórico, foi a intervenção que mais descaracterizou a sala italiana de 1914 — perda que o restauro, décadas depois, teria de reconstruir com pesquisa e paciência.
+
+![A porta do antigo Bar Theatro, já em avançada decadência — o prédio nos anos finais.](/fotos/hr-eventos-10.jpg)
+
+*A porta do antigo Bar Theatro, já em avançada decadência — o prédio nos anos finais.*
 
 ## Do esplendor ao "pulgueiro"
 

@@ -21,6 +21,10 @@ O projeto seguia a tradição italiana: palco à italiana, sala em ferradura, fr
 
 Isso não diminui o Theatro. Ao contrário: mostra um edifício vivo, capaz de receber a cidade inteira em vez de servir a um único público. Comédias, dramas, operetas, ilusionismo, telepatia, bailados, conferências, exposições de pintura no foyer — tudo coube ali.
 
+![Um baile na plateia do Theatro — a sala decorada e cheia, em registro antigo.](/fotos/sl-32.jpg)
+
+*Um baile na plateia do Theatro — a sala decorada e cheia, em registro antigo.*
+
 ## O que entrava em cartaz
 
 Um levantamento das edições de *O Município* entre 1914 e 1925 dá a proporção. No período aparecem cerca de **354 filmes**, **67 atrações ao vivo** não cinematográficas, **19 festivais amadores** e **26 bailes e chás dançantes**.
@@ -29,6 +33,10 @@ Os filmes predominavam — e por boas razões. Espetáculos teatrais exigiam com
 
 Entre as 67 atrações ao vivo, a pesquisa classifica **24 musicais, 37 cênicas e 6 diversas**. Por público-alvo, **44 eram populares, 17 eruditas e 6 específicas**. Havia tenores, sopranos, violinistas e trechos de óperas de Verdi, Puccini, Leoncavallo e Carlos Gomes — mas em escala menor do que a lenda sugere. Grandes óperas completas não parecem ter sido a regra.
 
+![A sala lotada em todos os pavimentos, em registro antigo — a casa cheia.](/fotos/hr8-sala-lotada.jpg)
+
+*A sala lotada em todos os pavimentos, em registro antigo — a casa cheia.*
+
 ## Quem sustentava a casa
 
 A arquitetura da sala organizava diferenças sociais: frisas e camarotes para a distinção, galeria e plateia para públicos mais amplos. Mas há um dado que complica a leitura puramente elitista.
@@ -36,6 +44,10 @@ A arquitetura da sala organizava diferenças sociais: frisas e camarotes para a 
 Quando se olha para a renda, e não só para o prestígio, os lugares mais populares eram decisivos. Por uma estimativa baseada em preços de evento, a parte popular da casa poderia corresponder a cerca de **72% da renda total**. A elite ocupava os lugares simbólicos de destaque; a sustentação financeira dependia de muita gente.
 
 Esse equilíbrio é o coração da história: o Theatro teve ambição erudita e estrutura nobre, mas sua vida cotidiana dependia do gosto popular, do cinema e de usos flexíveis. Ele sobreviveu porque foi usado por muitos — não apesar disso.
+
+![Atores em cena no palco, em fotografia antiga.](/fotos/hr-eventos-35.jpg)
+
+*Atores em cena no palco, em fotografia antiga.*
 
 ## Por que o cinema não é decadência
 

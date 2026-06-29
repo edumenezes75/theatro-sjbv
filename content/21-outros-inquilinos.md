@@ -25,15 +25,27 @@ Houve ainda usos que surpreendem: um **laboratório de próteses dentárias** na
 
 Entre 1958 e 1963, o prédio abrigou a **Rádio Difusora ZYJ-6**. O detalhe é poético: o Theatro, que sempre fora lugar de receber espetáculos, virou também lugar de **transmitir**. O som que antes ficava preso na sala passava a circular pela cidade inteira pelas ondas do rádio.
 
+![Nos anos em que o Theatro abrigou uma emissora de rádio no segundo andar.](/fotos/hr4-eventos-20.jpg)
+
+*Nos anos em que o Theatro abrigou uma emissora de rádio no segundo andar.*
+
 ## A biblioteca e o teatro-escola
 
 Por anos funcionou ali a **Biblioteca Municipal Jaçanã Altair**, até o início dos anos 1980. O antigo espaço de espetáculo passou a abrigar leitura, consulta e estudo — uma continuidade cultural por outro caminho. Somados o teatro-escola e as sociedades, o prédio formava artistas, leitores e debatedores sob o mesmo teto.
+
+![A Sociedade Cultural de Debates, no segundo andar — a vida intelectual da cidade dentro do prédio.](/fotos/hr-eventos-44.jpg)
+
+*A Sociedade Cultural de Debates, no segundo andar — a vida intelectual da cidade dentro do prédio.*
 
 ## Por que isso importa
 
 Esses usos podem parecer laterais, mas são decisivos para entender a sobrevivência do Theatro. Mesmo quando o palco perdia força, o edifício continuava presente na rotina: era onde se ia ao cinema, se ouvia rádio, se entrava no bar, se buscava um livro, se trabalhava, se cruzava a praça.
 
 Um prédio que faz parte do cotidiano de tanta gente não vira facilmente entulho. Quando a demolição rondou, nos anos 1980, foi essa memória acumulada — de mil pequenos usos — que a cidade se recusou a perder.
+
+![O interior do antigo Bar Theatro, na frente do edifício — ponto de encontro de gerações.](/fotos/hr8-bar-interior.jpg)
+
+*O interior do antigo Bar Theatro, na frente do edifício — ponto de encontro de gerações.*
 
 [A história completa](./historia) · [O tempo do CineTheatro](./o-tempo-do-cinetheatro) · [Ver o acervo de imagens](./acervo)
 

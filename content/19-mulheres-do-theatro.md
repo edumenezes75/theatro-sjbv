@@ -21,6 +21,10 @@ Endividada com a construção, a Companhia logo ficou sem fôlego para trazer gr
 
 Esse trabalho — muitas vezes invisível, sem crédito em cartaz — foi o que transformou talento em programação contínua. Não à toa, o cineclube da casa no século XXI levaria o nome de **Dona Beloca**.
 
+![Cena de espetáculo com Lucila, a “prata da casa”, no palco do Theatro.](/fotos/hr-eventos-34.jpg)
+
+*Cena de espetáculo com Lucila, a “prata da casa”, no palco do Theatro.*
+
 ## Oito acionistas
 
 A própria fundação teve presença feminina. Entre os acionistas da Companhia Teatral Sanjoanense havia **oito mulheres** — número pequeno, que ao mesmo tempo revela o limite de uma sociedade patriarcal e mostra mulheres com patrimônio próprio, fazendas ou negócios capazes de entrar no empreendimento.
@@ -33,11 +37,19 @@ Ir ao Theatro, para muitas, era mais do que assistir: era o dia de sair de casa,
 
 Era uma economia afetiva e social tão real quanto a bilheteria: sem ela, muitas temporadas simplesmente não teriam acontecido.
 
+![Um grande baile nos anos 1930 — o tipo de festa que mantinha o Theatro vivo.](/fotos/hr-historicas-82.jpg)
+
+*Um grande baile nos anos 1930 — o tipo de festa que mantinha o Theatro vivo.*
+
 ## De Beloca às novas gerações
 
 O fio não se interrompeu. Na campanha pelo restauro, professoras como **Fafá Noronha**, Maria José Moreira e Beatriz Castilho Pinto lideraram o "Vestindo a Camisa", levando estudantes às ruas. No palco e no piano, nomes como **Vânia Noronha** atravessam décadas — da menina que tocava criança à gestora cultural da casa.
 
 Reunir essas trajetórias não é nostalgia: é corrigir o foco. O Theatro permaneceu vivo porque, em cada época, mulheres decidiram cuidar dele.
+
+![Fafá Noronha, Sandra Lima e o Coral Canto na Boca, 2005 — a continuidade do trabalho cultural feminino.](/fotos/sl-17.jpg)
+
+*Fafá Noronha, Sandra Lima e o Coral Canto na Boca, 2005 — a continuidade do trabalho cultural feminino.*
 
 [Conhecer as pessoas do Theatro](./pessoas) · [Quem pagou o Theatro](./companhia-teatral-sanjoanense) · [A história da casa](./historia)
 

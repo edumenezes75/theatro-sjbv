@@ -21,6 +21,10 @@ A inauguração era mais do que um espetáculo: era um rito de consagração. P�
 
 A banda do **maestro Joaquim Azevedo** abriu a noite; **Antônio Cândido de Oliveira Filho** discursou em nome dos responsáveis. A cidade se apresentava a si mesma.
 
+![O jornal de 4 de outubro de 1914 anuncia a inauguração do Theatro.](/fotos/hr8-doc-inauguracao-1914.jpg)
+
+*O jornal de 4 de outubro de 1914 anuncia a inauguração do Theatro.*
+
 ## O drama da estreia
 
 A **Companhia Dramática Santos Silva**, que já circulava por São Paulo e pelo interior, foi contratada para a festa. A peça da noite foi *Uma Causa Célebre*, drama em cinco atos, com cenografia atribuída a **Rodolpho Mossello**.
@@ -32,6 +36,10 @@ O ator Santos Silva foi muito elogiado: dizia-se que sabia chorar e rir, ser tr�
 A imprensa creditou a noite a muitas mãos: à **Empresa Força e Luz**, pela instalação elétrica; ao construtor **Antônio Lansac**; a **José Evangelista de Almeida**, pela iniciativa das obras; e à Companhia Teatral, pela realização.
 
 Uma ausência, porém, marcou a cerimônia: José Evangelista de Almeida, apontado como iniciador do empreendimento, havia se transferido para Santos por razões profissionais. Sua participação ficou registrada na história e na imprensa, mas não na plateia daquela noite.
+
+![O público de época, em traje a rigor, diante do palco.](/fotos/hr-historicas-39.jpg)
+
+*O público de época, em traje a rigor, diante do palco.*
 
 ## Já nascia híbrido
 

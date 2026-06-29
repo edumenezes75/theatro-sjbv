@@ -23,6 +23,10 @@ Os fins eram explícitos — e reveladores. A Companhia se propunha a construir 
 
 Essa dupla natureza atravessa toda a história do edifício. Para a imprensa e para a elite simbólica, era monumento de cultura e civilização. Para os acionistas, era também um negócio: a renda precisava remunerar o capital, pagar custos e justificar o investimento.
 
+![Os estatutos da Companhia Teatral Sanjoanense, de 1912 — o documento que deu forma ao empreendimento.](/fotos/hr-historicas-15.jpg)
+
+*Os estatutos da Companhia Teatral Sanjoanense, de 1912 — o documento que deu forma ao empreendimento.*
+
 ## Quem entrou com o dinheiro
 
 O número consagrado — 113 acionistas — merece contexto. A ata de constituição, de 24 de fevereiro de 1913, registra **103 sócios presentes ou representados** e 677 ações naquele ato. Mas a leitura do **Livro de Accionistas** feita pela pesquisa de Luis Pedro Dragão Jeronimo amplia o quadro: **191 acionistas e 993 ações até novembro de 1914** — 196 quando incluídos os desistentes.
@@ -35,11 +39,19 @@ Essa diferença não é detalhe. Ela muda a leitura social da construção. O Th
 
 Havia, porém, **concentração de capital**: apenas 27 acionistas, com investimento superior a um conto de réis, detinham cerca de 60% das ações levantadas. A base era plural; o peso financeiro, não.
 
+![Acionistas da Companhia Teatral Sanjoanense — a rede de mais de cem cidadãos que financiou a obra.](/fotos/hr-pessoas-03.jpg)
+
+*Acionistas da Companhia Teatral Sanjoanense — a rede de mais de cem cidadãos que financiou a obra.*
+
 ## A diretoria: poucos no comando
 
 Se o quadro de acionistas era diverso, a direção era oligárquica. A primeira diretoria reunia nomes de grande poder local: o presidente, coronel **Joaquim Cândido de Oliveira**; o vice, coronel **João Osório de Oliveira**; o secretário, capitão **Manuel Raymundo Dutra Jr.**; o diretor-gerente, major **José Evangelista de Almeida**, apontado pelos jornais como o iniciador das obras; e o diretor-técnico, **Dr. Alfredo Emílio Pacheco de Mello**. Entre os vogais e o conselho fiscal figuravam o coronel Gabriel José Ferreira, o major Joaquim Thereziano Vallim e outros notáveis.
 
 Muitos tinham trajetória pública, cargos eletivos e participação em outros melhoramentos urbanos. A obra precisava disso: um empreendimento de grande porte, com risco financeiro real, só se sustentaria se inspirasse confiança. A pluralidade dos acionistas não significava democracia plena — o Theatro expressa, na própria estrutura societária, tanto a ampliação urbana quanto a hierarquia social.
+
+![A escritura do Theatro Municipal, em registro de imprensa.](/fotos/hr4-historicas-04.jpg)
+
+*A escritura do Theatro Municipal, em registro de imprensa.*
 
 ## Para além do mito dos "jovens da Europa"
 

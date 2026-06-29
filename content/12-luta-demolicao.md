@@ -19,6 +19,10 @@ O Theatro nascera, em 1914, de uma sociedade por ações: a Companhia Teatral Sa
 
 Circulavam propostas que hoje fazem estremecer: transformá-lo em supermercado, em estacionamento, ou simplesmente pôr abaixo. Para muitos, era um casarão velho ocupando um quarteirão valioso no centro. Para outros, era a memória da cidade prestes a virar entulho.
 
+![O Theatro deteriorado, no período de declínio que antecedeu a mobilização.](/fotos/hr-historicas-46.jpg)
+
+*O Theatro deteriorado, no período de declínio que antecedeu a mobilização.*
+
 ## A cidade reage
 
 A reação não veio de gabinetes — veio do palco e da rua. Artistas, professores e moradores transformaram a ameaça em causa pública. Houve manifestações, *happenings*, entrevistas e abaixo-assinados. O ator Ronaldo Marin anunciou que faria **greve de fome** no alto da fachada caso nenhuma decisão fosse tomada. Zeza Freitas e outros lembram aquele período como um momento de urgência, criatividade e enfrentamento — a fronteira entre arte e ativismo praticamente desaparecia.
@@ -27,11 +31,19 @@ A pressão tomou forma de números. Quatro abaixo-assinados reuniram **1.026 ass
 
 Em 1984, antes do fechamento para as obras, o espetáculo de teatro e dança *Aldeia de Cristal* ocupou o palco já deteriorado. A montagem virou símbolo da transição: a arte ainda acontecia enquanto se lutava para salvar o lugar onde ela acontecia.
 
+![O abaixo-assinado — parte da pressão popular que impediu a demolição.](/fotos/hr-historicas-09.jpg)
+
+*O abaixo-assinado — parte da pressão popular que impediu a demolição.*
+
 ## A compra, em duas etapas
 
 Salvar o Theatro exigia, antes de tudo, torná-lo público. A Prefeitura, já sob Sidney Beraldo, adquiriu o imóvel em duas etapas — uma divisão que revela a dificuldade concreta da negociação.
 
 A primeira, em **5 de janeiro de 1984**, abrangeu a porção frontal do edifício. Mas operar ou restaurar uma casa de espetáculos sem o fundo do palco era impossível. Foi preciso voltar à mesa: em **28 de maio de 1985**, pela Lei municipal nº 241, o município comprou a segunda parte — o palco e os fundos —, ao custo de cem milhões de cruzeiros da época. Só então o Theatro voltava a ser um conjunto coerente, capaz de receber caixa cênica, camarins e bastidores à altura da sala.
+
+![A visita do governador Franco Montoro ao Theatro, em 1986.](/fotos/hr4-historicas-14.jpg)
+
+*A visita do governador Franco Montoro ao Theatro, em 1986.*
 
 ## O reconhecimento e o longo caminho adiante
 

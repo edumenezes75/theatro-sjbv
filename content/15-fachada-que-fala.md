@@ -21,17 +21,29 @@ A composição é simétrica, com eixo central destacado, aberturas altas, front
 
 As inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*, na grafia latina em que o U vira V, dizem em voz alta a função do edifício. Mesmo sendo, na origem, um empreendimento privado, a palavra "Municipal" colocava a obra no campo do orgulho público.
 
+![O projeto original da fachada, 1913 — o desenho eclético antes de virar pedra.](/fotos/hr-fachada-55.jpg)
+
+*O projeto original da fachada, 1913 — o desenho eclético antes de virar pedra.*
+
 ## Quatro compositores, uma declaração
 
 Acima dos vãos, quatro medalhões alinham **Carlos Gomes, Giuseppe Verdi, Richard Wagner e Charles Gounod**. Três cânones europeus e um brasileiro: o gesto é deliberado. Ao pôr Carlos Gomes na mesma galeria de Verdi e Wagner, a fachada afirma cosmopolitismo sem submissão — o Brasil entrava na conversa da ópera mundial.
 
 A escolha não é neutra. Ela diz que a cidade se via culta, conectada, à altura dos grandes centros. A fachada é, nesse sentido, um programa de aspiração tanto quanto de decoração.
 
+![Detalhe da pintura decorativa da sala — um ramo com frutos: o café gravado no ornamento, recuperado no restauro.](/fotos/hr7-pintura-ramo.jpg)
+
+*Detalhe da pintura decorativa da sala — um ramo com frutos: o café gravado no ornamento, recuperado no restauro.*
+
 ## O café gravado na ornamentação
 
 Entre as guirlandas e molduras, repetem-se **ramos de café**. É o detalhe que ancora todo o resto. A cultura europeizante exibida nos medalhões era financiada e reinterpretada no interior cafeeiro paulista: o café dava ao mesmo tempo a sustentação econômica e o motivo ornamental.
 
 Por isso a fachada não deve ser lida como simples importação de gosto. Ela é uma negociação visual entre o importado e o local, entre o centro e a periferia, entre a tradição e a indústria que trouxe ferro, cimento e telhas de além-mar.
+
+![Vaso ornamental da platibanda, com mascarão feminino esculpido — o remate eclético da fachada, restaurado.](/fotos/hr5-ornamentos-03.jpg)
+
+*Vaso ornamental da platibanda, com mascarão feminino esculpido — o remate eclético da fachada, restaurado.*
 
 ## Nem cópia, nem provinciana
 

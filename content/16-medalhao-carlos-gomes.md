@@ -27,17 +27,29 @@ A pintura é atribuída ao pintor italiano **Ettore Adriano Fabri**, responsáve
 
 Com o tempo, porém, o Theatro mudou. Virou cinema, passou por reformas, recebeu novas pinturas. O medalhão foi sumindo sob as camadas, até quase ninguém lembrar que estava ali.
 
+![Decapagem: a remoção controlada das camadas de tinta que escondiam a pintura.](/fotos/hr-restauro-20.jpg)
+
+*Decapagem: a remoção controlada das camadas de tinta que escondiam a pintura.*
+
 ## A foto de 1919 que salvou o rosto
 
 A pista veio de onde menos se esperava. Em 1919, um grande comício em apoio à candidatura de Rui Barbosa lotou a sala — e uma fotografia daquele dia registrou, ao fundo, o medalhão ainda visível. Décadas depois, no restauro, essa imagem virou documento técnico: foi ela que mostrou aos restauradores como era o retrato original, orientando a decapagem.
 
 É um caso exemplar de como a memória da cidade — uma foto guardada — pode ser decisiva para recuperar o patrimônio. Sem aquele registro, o reencontro teria sido muito mais incerto.
 
+![O artista César Roberto Olandim recupera a pintura do medalhão de Carlos Gomes.](/fotos/hr3-restauro-01.jpg)
+
+*O artista César Roberto Olandim recupera a pintura do medalhão de Carlos Gomes.*
+
 ## O reencontro
 
 Sob as pinturas, o retrato surgiu danificado. Os nomes de **Cézar Roberto Olandim, Maércio Mazzi e Elias Gervasi** aparecem associados às etapas de descoberta e reintegração da obra. Recuperado o rosto, os ornamentos ao redor foram repintados.
 
 O percurso do medalhão resume o do próprio Theatro: algo valioso, encoberto e quase perdido, devolvido à vista pela combinação de pesquisa, técnica e memória. Hoje, Carlos Gomes volta a olhar a plateia — como em 1914.
+
+![O medalhão de Carlos Gomes restaurado, de volta sobre a boca de cena.](/fotos/hr-ornamentos-28.jpg)
+
+*O medalhão de Carlos Gomes restaurado, de volta sobre a boca de cena.*
 
 [Ver o restauro em detalhes](./restauracao) · [Ler a fachada](./a-fachada-que-fala) · [A história do Theatro](./historia)
 

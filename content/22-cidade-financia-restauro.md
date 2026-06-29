@@ -23,17 +23,29 @@ A luta dos anos 1980 fora de protesto; a dos anos 1990 e 2000 foi de gestão e c
 
 Criada em **1998**, a **Fundação Oliveira Neto (FON)** deu o impulso final. Estruturada em conselhos consultivo, curador e diretor, sua função era captar recursos e mobilizar a sociedade civil, usando a Lei Rouanet e o incentivo à cultura para que pessoas e empresas destinassem parte de impostos à obra. Entre os articuladores do esforço esteve **Laert de Lima Teixeira**. A campanha **"Dê para São João parte do Leão"** traduziu a ideia em palavra de ordem.
 
+![A posse da Fundação Oliveira Neto, em 1998 — a entidade criada para captar recursos.](/fotos/hr4-pessoas-07.jpg)
+
+*A posse da Fundação Oliveira Neto, em 1998 — a entidade criada para captar recursos.*
+
 ## Vestindo a Camisa
 
 Em **1999**, o movimento **"Vestindo a Camisa"** levou a causa às ruas com estudantes, coordenados pelas professoras **Maria José Moreira, Fafá Noronha e Beatriz Castilho Pinto**. Urnas no centro recebiam contribuições de quem passava.
 
 O valor arrecadado talvez fosse pequeno diante do custo total — mas o simbólico foi enorme. Jovens que talvez nunca tivessem visto o Theatro funcionando plenamente passaram a se sentir donos da causa. Quem contribui, mesmo pouco, passa a sentir que o prédio também é seu.
 
+![“Teatro Municipal recebe verba” — a imprensa acompanha a captação de recursos para a obra.](/fotos/hr8-jornal-verba-2001.jpg)
+
+*“Teatro Municipal recebe verba” — a imprensa acompanha a captação de recursos para a obra.*
+
 ## Arte para reconstruir
 
 O canteiro de obras virou palco. Em **2000**, **Badi Assad** e **Simone Sou** apresentaram-se num palco improvisado em meio à obra; no ano seguinte, os irmãos **Sérgio e Odair Assad** somaram-se ao esforço. Antes mesmo de estar pronto, o Theatro já produzia cultura — e a cultura ajudava a financiar o lugar onde voltaria a acontecer.
 
 Quando a sala principal reabriu, em setembro de 2002, o resultado não era só de governos: era de uma cidade que, duas vezes, decidiu não perder seu Theatro — primeiro com a voz, depois com o bolso.
+
+![As primeiras apresentações, com o Theatro ainda em obras — a arte voltando antes do fim da reforma.](/fotos/sl-13.jpg)
+
+*As primeiras apresentações, com o Theatro ainda em obras — a arte voltando antes do fim da reforma.*
 
 [Ver o restauro em detalhes](./restauracao) · [A luta contra a demolição](./luta-contra-a-demolicao) · [Conhecer as pessoas](./pessoas)
 
