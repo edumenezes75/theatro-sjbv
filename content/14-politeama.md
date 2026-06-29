@@ -1,9 +1,9 @@
 ---
 slug: "/o-politeama"
 title: "Theatro ou politeama?"
-eyebrow: "Dossiê · O uso real da casa, 1914–1925"
+eyebrow: "Dossiê · O uso real da casa (1914–1925)"
 seo_title: "Theatro ou politeama? O que a cidade realmente via no palco do Theatro Municipal"
-seo_description: "Filmes, operetas, variedades, bailes e festivais: o levantamento da imprensa mostra que o Theatro Municipal foi, desde o início, um espaço de muitos usos — e que o cinema não foi decadência."
+seo_description: "Filmes, operetas, bailes, festivais e ringue de patinação: a pesquisa nos jornais mostra que o Theatro Municipal foi, desde o início, um politeama — e que o cinema o manteve vivo, não o rebaixou."
 hero_image: "/fotos/hr7-bar-theatro.jpg"
 hero_alt: "A entrada do Bar Theatro no tempo do cinema, na Praça da Catedral."
 status: "dossiê"
@@ -11,52 +11,61 @@ status: "dossiê"
 
 # Theatro ou politeama?
 
-Há uma imagem fácil do Theatro: a casa nobre onde a elite assistia a grandes óperas, até "cair" no cinema. A pesquisa nas páginas do jornal *O Município* conta outra história — mais rica e mais democrática.
+Há uma imagem fácil do Theatro: a casa nobre onde a elite assistia a óperas, até "cair" no cinema. As páginas dos jornais da época contam outra história — mais democrática, e mais interessante. Desde a primeira temporada, o Theatro funcionou menos como teatro lírico e mais como **politeama**: um espaço de muitos usos, em que filme, opereta, baile e festival dividiam o mesmo palco.
 
-> **Em um minuto:** entre 1914 e 1925, o que predominava no Theatro eram os filmes, seguidos de operetas, variedades, bailes e festivais amadores. Grandes óperas completas foram exceção, não regra. O edifício tinha nome e forma de teatro, mas funcionava como politeama — um espaço de muitos usos. E os lugares mais baratos, não os camarotes, é que sustentavam a casa.
+> **Em um minuto:** entre 1913 e 1925, a pesquisa de Luis Pedro Dragão Jeronimo no jornal *O Município* encontrou o Theatro presente em **75% das edições** examinadas — e o que predominava eram os filmes, seguidos de atrações ao vivo, bailes e festivais. A Companhia, que não entendia do ramo, **arrendava** a casa para se proteger do risco. Grandes óperas completas foram exceção; o politeama era a regra. E o cinema, longe de decadência, foi o que manteve a casa funcionando.
 
 ## Um nome de teatro, um corpo de politeama
 
-O projeto seguia a tradição italiana: palco à italiana, sala em ferradura, frisas, camarotes e galeria. Mas o uso cotidiano foi outro. Jeronimo propõe uma leitura precisa: o edifício era, na prática, um **politeama** — espaço para múltiplas formas de espetáculo e encontro.
+A vocação múltipla estava prevista desde a lei. O incentivo municipal de 1912 falava em quem construísse "um theatro **ou polytheama**" — a palavra já admitia uma casa flexível, para teatro, cinema e diversões variadas. E os estatutos da Companhia, no ano seguinte, listavam entre seus fins "explorar diversões, inclusive o cinematógrafo".
 
-Isso não diminui o Theatro. Ao contrário: mostra um edifício vivo, capaz de receber a cidade inteira em vez de servir a um único público. Comédias, dramas, operetas, ilusionismo, telepatia, bailados, conferências, exposições de pintura no foyer — tudo coube ali.
-
-![Um baile na plateia do Theatro — a sala decorada e cheia, em registro antigo.](/fotos/sl-32.jpg)
-
-*Um baile na plateia do Theatro — a sala decorada e cheia, em registro antigo.*
+Por isso a leitura mais precisa, proposta pela pesquisa acadêmica, é esta: o edifício tinha **nome e forma de Theatro Municipal** — palco à italiana, sala em ferradura, fachada de prestígio —, mas o **uso real era de politeama**. Comédias, dramas, operetas, ilusionismo, bailados, conferências, exposições no foyer e, sobretudo, cinema: tudo cabia ali.
 
 ## O que entrava em cartaz
 
-Um levantamento das edições de *O Município* entre 1914 e 1925 dá a proporção. No período aparecem cerca de **354 filmes**, **67 atrações ao vivo** não cinematográficas, **19 festivais amadores** e **26 bailes e chás dançantes**.
+Os números dão a medida. Em um levantamento de 576 edições de *O Município* entre 1913 e 1925, o Theatro aparece em **433 delas (75,2%)**, com 553 menções. E, na contagem das atrações, os **filmes predominam** com folga sobre os espetáculos ao vivo (cerca de 67 eventos cênicos e musicais não cinematográficos no período), os festivais amadores e os bailes.
 
-Os filmes predominavam — e por boas razões. Espetáculos teatrais exigiam companhias, transporte, cenários e contratos; o cinema custava menos e alcançava mais gente, a preços acessíveis. Para uma sociedade por ações que precisava pagar contas, exibir fitas era racional. E era moderno: ver cinema, em 1914, colocava o público sanjoanense dentro de uma cultura global de imagens.
+Por que tanto cinema? Custo e risco. Trazer companhias exigia contratos, transporte e cenários; o filme custava menos e alcançava mais gente, a preços acessíveis. E o cinema era moderno — ver fitas, em 1914, ligava o público sanjoanense a uma cultura global de imagens. A casa também abria as portas para bailes de Carnaval, festivais beneficentes (em prol da Matriz, da Santa Casa, da Cruz Vermelha) e, em momentos de aperto, até para um ringue de patinação.
 
-Entre as 67 atrações ao vivo, a pesquisa classifica **24 musicais, 37 cênicas e 6 diversas**. Por público-alvo, **44 eram populares, 17 eruditas e 6 específicas**. Havia tenores, sopranos, violinistas e trechos de óperas de Verdi, Puccini, Leoncavallo e Carlos Gomes — mas em escala menor do que a lenda sugere. Grandes óperas completas não parecem ter sido a regra.
+![O programa do grandioso festival de 31 de março de 1932 no Theatro.](/fotos/hr8-doc-festival-1932.jpg)
 
-![A sala lotada em todos os pavimentos, em registro antigo — a casa cheia.](/fotos/hr8-sala-lotada.jpg)
+*Um programa de festival — o tipo de espetáculo, entre o cinema e o baile, que dava a cara de politeama à casa.*
 
-*A sala lotada em todos os pavimentos, em registro antigo — a casa cheia.*
+## Arrendar para se proteger
 
-## Quem sustentava a casa
+Aqui a pesquisa revela algo que o mito não conta: a Companhia raramente operava o Theatro com as próprias mãos. Ela **arrendava** a casa — e os bares — a empresas especializadas. Nos anos 1920, esses arrendatários eram, em boa parte, **imigrantes italianos**, as mesmas empresas que exploravam também o Cine Guarany, numa espécie de monopólio do entretenimento na cidade.
 
-A arquitetura da sala organizava diferenças sociais: frisas e camarotes para a distinção, galeria e plateia para públicos mais amplos. Mas há um dado que complica a leitura puramente elitista.
+A razão era estratégica. Nenhum acionista da Companhia entendia do ramo de espetáculos; todos viviam de café, comércio ou profissões liberais. Arrendar servia, nas palavras da análise acadêmica, para **"blindar" a Companhia** das críticas por eventuais fracassos de bilheteria e para garantir aos acionistas uma renda mínima sem o risco de uma má administração. Não à toa, quando o público reclamava da qualidade dos filmes, as críticas iam para as empresas arrendatárias — não para a Companhia, responsável apenas pelo prédio.
 
-Quando se olha para a renda, e não só para o prestígio, os lugares mais populares eram decisivos. Por uma estimativa baseada em preços de evento, a parte popular da casa poderia corresponder a cerca de **72% da renda total**. A elite ocupava os lugares simbólicos de destaque; a sustentação financeira dependia de muita gente.
+## Quando a cidade fechava as portas
 
-Esse equilíbrio é o coração da história: o Theatro teve ambição erudita e estrutura nobre, mas sua vida cotidiana dependia do gosto popular, do cinema e de usos flexíveis. Ele sobreviveu porque foi usado por muitos — não apesar disso.
+Um politeama é um termômetro da cidade — e o Theatro sentia as crises. Em 1918, a **epidemia de gripe espanhola** atingiu São João: *O Município* noticiava doentes e falecidos, e a própria classe teatral organizou comissões de auxílio, num espaço que, sendo de aglomeração, era dos primeiros a fechar. Anos depois, a **Revolução de 1924** voltou a interromper a agenda. Entre uma crise e outra, os bailes de Carnaval — como os de fevereiro e março de 1924 — devolviam a casa à festa.
 
-![Atores em cena no palco, em fotografia antiga.](/fotos/hr-eventos-35.jpg)
+Esses episódios mostram que o edifício não vivia isolado: sua programação respondia a epidemias, guerras civis e à economia do café. Quando a cidade adoecia ou se mobilizava, o palco sentia primeiro.
 
-*Atores em cena no palco, em fotografia antiga.*
+## O público que faltava
+
+Apesar de tudo, havia um problema persistente, e o livro do centenário não o esconde: "não obstante a boa qualidade das apresentações, era acentuada a indiferença do público e o crescente declínio da bilheteria". A casa fora construída para uma escala que a cidade nem sempre sustentava.
+
+Essa é a tensão central da vida do Theatro: um prédio grandioso, pensado para mil e tantos lugares, diante de um público real mais modesto. É essa distância — entre a ambição de 1914 e a renda de cada noite — que explica o arrendamento, o peso do cinema e, mais tarde, a decadência.
+
+![A sala lotada em todos os pavimentos, em registro antigo.](/fotos/hr8-sala-lotada.jpg)
+
+*A casa cheia nas grandes noites — a exceção festiva que contrastava com a frequência irregular do dia a dia.*
 
 ## Por que o cinema não é decadência
 
-A narrativa nostálgica diz que o Theatro nasceu puro e erudito e depois decaiu ao virar cinema. A pesquisa desmonta esse roteiro. Desde o primeiro mês, em 1914, as fitas já eram esteio da programação. O cinema estava previsto nos próprios estatutos da Companhia.
+A narrativa nostálgica diz que o Theatro nasceu erudito e decaiu ao virar cinema. A pesquisa desmonta esse roteiro. Desde o primeiro mês, em 1914, as fitas já eram esteio da programação — e o cinema estava previsto na própria lei e nos estatutos. Quando, diante das dificuldades, a casa recebeu mais sessões, bailes e até patinação, não estava "caindo": estava se adaptando para continuar de pé.
 
-Quando o edifício recebeu ringue de patinação, bailes populares e mais sessões de cinema diante das dificuldades financeiras, não estava "caindo" — estava se adaptando para continuar de pé. A morte de um teatro não acontece quando ele muda de uso; acontece quando deixa de importar para a cidade. E o Theatro nunca deixou.
+A morte de um teatro não acontece quando ele muda de uso, mas quando deixa de importar para a cidade. O Theatro nunca deixou. Em 1937, a fase cinematográfica se consolidaria sob nova direção, ganhando a memória afetiva do CineTheatro — outra história, contada em seu próprio dossiê.
 
-Em 1937, sob Joaquim José de Oliveira Neto, a fase cinematográfica se consolidou e ganhou memória afetiva própria — matinês, seriados, namoros e domingos na praça. Essa história, do esplendor ao apelido de “pulgueiro”, é contada em [O tempo do CineTheatro →](/o-tempo-do-cinetheatro).
+[O tempo do CineTheatro](./o-tempo-do-cinetheatro) · [Quem pagou o Theatro](./companhia-teatral-sanjoanense) · [A história completa](./historia)
 
-[Quem pagou tudo isso](./companhia-teatral-sanjoanense) · [Ler a história completa](./historia) · [Percorrer a linha do tempo](./linha-do-tempo)
+## Fontes e notas
 
-<!-- Fontes principais: dissertação de Luis Pedro Dragão Jeronimo (USP, 2020) e artigo na revista Mosaico (FGV, 2021), com base no levantamento do jornal O Município (1914–1925); Menezes, "Theatro Municipal, 100 anos", 2014. As proporções de programação e renda seguem a leitura acadêmica das fontes. -->
+- **Usos, proporções e o conceito de politeama:** dissertação de Luis Pedro Dragão Jeronimo (USP, 2020), cap. II.4 — levantamento dos jornais *O Município* e *A Cidade de São João* (1913–1925).
+- **Arrendamento e monopólio dos imigrantes:** mesma dissertação, com base nos editais e nos nomes dos arrendatários.
+- **"Indiferença do público":** livro *Theatro Municipal, 100 anos* (2014), seção "Companhias artísticas".
+- **Epidemia de 1918 e Revolução de 1924:** *O Município* (ed. 660, 19/10/1918) e notas de 1924, citadas na dissertação.
+
+<!-- Fontes principais: dissertação de Luis Pedro Dragão Jeronimo (USP, 2020), cap. II; livro "Theatro Municipal, 100 anos" (Menezes, 2014); periódicos O Município e A Cidade de São João. -->
