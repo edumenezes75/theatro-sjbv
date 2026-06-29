@@ -190,3 +190,23 @@ html, body { overflow-x: clip; }
 }
 
 @keyframes menupop { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ===== Dossiês como "exposição" — pele de arquivo ===== */
+.dossie { background-color: #ECE3CF; }
+.dark .dossie { background-color: #1A1510; }
+
+/* textura de papel sutil sobre a área de leitura do dossiê */
+.dossie-paper { position: relative; }
+.dossie-paper::before {
+  content: ''; position: absolute; inset: 0; pointer-events: none; z-index: 0;
+  opacity: 0.5; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23p)'/%3E%3C/svg%3E");
+}
+.dark .dossie-paper::before { mix-blend-mode: screen; opacity: 0.05; }
+.dossie-paper > * { position: relative; z-index: 1; }
+@media (prefers-reduced-motion: reduce) { .dossie-paper::before { opacity: 0.32; } }
+
+/* caret do título datilografado */
+.tw-caret { color: theme('colors.gold'); font-weight: 300; animation: tw-blink 1s steps(1) infinite; }
+@keyframes tw-blink { 0%,50% { opacity: 1; } 50.01%,100% { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .tw-caret { display: none; } }

@@ -1,7 +1,8 @@
 import Image from 'next/image';
 import SeloEvidencia, { temSelo } from './SeloEvidencia';
+import TypewriterTitle from './TypewriterTitle';
 
-export default function ChapterHero({ eyebrow, title, image, alt, status }: { eyebrow?: string; title: string; image?: string; alt?: string; status?: string }) {
+export default function ChapterHero({ eyebrow, title, image, alt, status, typewriter }: { eyebrow?: string; title: string; image?: string; alt?: string; status?: string; typewriter?: boolean }) {
   return (
     <header className="relative overflow-hidden">
       {image && (
@@ -19,7 +20,9 @@ export default function ChapterHero({ eyebrow, title, image, alt, status }: { ey
             <p className={`font-sans text-[0.7rem] font-medium uppercase tracking-eyebrow ${image ? 'text-gold' : 'text-curtain dark:text-gold'}`}>{eyebrow}</p>
           </div>
         )}
-        <h1 className="mt-5 max-w-3xl font-display text-5xl font-semibold leading-[1.02] sm:text-7xl">{title}</h1>
+        {typewriter
+          ? <TypewriterTitle text={title} className="mt-5 max-w-3xl font-display text-5xl font-semibold leading-[1.02] sm:text-7xl" />
+          : <h1 className="mt-5 max-w-3xl font-display text-5xl font-semibold leading-[1.02] sm:text-7xl">{title}</h1>}
         {status && temSelo(status) && <div className="mt-6"><SeloEvidencia status={status} /></div>}
       </div>
     </header>

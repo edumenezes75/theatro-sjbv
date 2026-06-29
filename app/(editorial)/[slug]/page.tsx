@@ -12,6 +12,7 @@ import Curiosidades from '@/components/Curiosidades';
 import Reveal from '@/components/Reveal';
 import ReadingProgress from '@/components/ReadingProgress';
 import ChapterIndex from '@/components/ChapterIndex';
+import DossieIndex from '@/components/DossieIndex';
 import ChapterIndexMobile from '@/components/ChapterIndexMobile';
 import VisitaInfo from '@/components/VisitaInfo';
 import RestauroResumo from '@/components/RestauroResumo';
@@ -79,6 +80,7 @@ const ANTES_DEPOIS = new Set(['restauracao', 'arquitetura']);
 export default function EditorialPage({ params }: { params: { slug: string } }) {
   const page = getPageBySlug('/' + params.slug);
   if (!page) notFound();
+  const isDossie = page.meta.status === 'dossiê';
   const words = page.html.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
   const readMin = Math.max(1, Math.round(words / 200));
   const gal = GALLERIES[params.slug];
@@ -150,15 +152,15 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
   };
 
   return (
-    <article>
+    <article className={isDossie ? 'dossie' : undefined}>
       {longRead && <ReadingProgress />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
-      <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={page.meta.status} />
-      <div className="mx-auto max-w-6xl px-5 py-16 sm:py-24">
+      <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={page.meta.status} typewriter={isDossie} />
+      <div className={`mx-auto max-w-6xl px-5 py-16 sm:py-24${isDossie ? ' dossie-paper' : ''}`}>
         {params.slug === 'visite' && <VisitaInfo />}
         {longRead ? (
           <div className="lg:grid lg:grid-cols-[11rem_minmax(0,1fr)] lg:gap-12 xl:gap-16">
-            <aside className="hidden lg:block"><ChapterIndex /></aside>
+            <aside className="hidden lg:block">{isDossie ? <DossieIndex /> : <ChapterIndex />}</aside>
             <div className="min-w-0">
               <ChapterIndexMobile />
               <p className="read-meta mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>
