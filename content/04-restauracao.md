@@ -126,6 +126,8 @@ Em dezembro de 1992, o foyer foi inaugurado. O espaço passou a receber exposiç
 
 A partir de 1998, a **Fundação Oliveira Neto** e campanhas comunitárias passaram a captar recursos e a mobilizar a cidade para concluir a obra — fase que tem episódio próprio: [A cidade financia seu restauro →](/a-cidade-financia-seu-restauro). As somas publicadas variam entre cerca de R$ 695,7 mil e R$ 732,2 mil, conforme o recorte contábil — componentes estaduais, federais, da Fundação e municipais somados ao longo de quase dezessete anos, sem prestação de contas consolidada que permita fechar o total com precisão. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
 
+O documentário guarda a textura daquele dia: já às dez da manhã a fila dava a volta no quarteirão, e a equipe ainda passava o único aspirador que tinha e retirava o plástico das poltronas minutos antes de abrir as portas. Para receber tanta gente sem privilégios, a entrada foi organizada por senhas distribuídas ao longo do dia — um modo de administrar a casa que a nova gestão faria questão de manter.
+
 ## O edifício continuou vivo durante as obras
 
 O período de restauro não foi de silêncio absoluto. A Escola de Música funcionou em dependências possíveis. O Coral Vozes de São João ensaiou no espaço. Exposições, semanas culturais e apresentações ocuparam áreas ainda inacabadas.

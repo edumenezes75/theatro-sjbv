@@ -27,6 +27,8 @@ A pintura tem autoria documentada. Segundo o relato de época reunido por Rodrig
 
 Com o tempo, o Theatro mudou. Virou cinema, passou por reformas, recebeu novas pinturas. O medalhão foi desaparecendo sob as camadas, até quase ninguém lembrar que estava ali. Quando o restauro começou, a dúvida era concreta — e angustiante: ainda existiria, sob a tinta, a efígie do maestro? Ou ela teria se perdido para sempre?
 
+Os anos de cinema haviam sido duros com o retrato. Quando a tela foi montada na boca de cena, pintaram de branco tudo em volta, deixando o medalhão como uma ilha desajeitada — e, na decadência, ele chegou a virar brincadeira: no documentário, recorda-se que crianças atiravam restos de tijolo tentando "acertar o olho do Carlos Gomes", de tão exposto que o rosto ficara.
+
 ![Decapagem — a remoção controlada das camadas de tinta que escondiam pinturas e ornamentos.](/fotos/hr-restauro-20.jpg)
 
 *Decapagem: a remoção controlada, camada a camada, da tinta que encobria o retrato.*

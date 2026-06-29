@@ -19,6 +19,8 @@ A história do Theatro Municipal pode ser lida como uma peça em oito atos. Há 
 
 No início do século XX, São João da Boa Vista já possuía salões, cinemas e grupos dramáticos. O crescimento econômico, a circulação de imigrantes e o contato de moradores com grandes centros alimentavam, porém, o desejo de uma casa de espetáculos maior e mais preparada.
 
+Esse desejo tinha antecedentes. A cidade já conhecera um palco anterior, o **Teatro Apolo**, frequentado sobretudo pelos filhos dos fazendeiros — muitos deles estudantes da Faculdade de Direito do Largo de São Francisco, em São Paulo, que voltavam nas férias com o gosto formado pelos teatros que tinham visto na Europa. Era essa elite jovem e cosmopolita que passou a querer um espaço à altura — e que daria forma ao projeto de 1913.
+
 A ideia encontrou apoio político. Em 1911, a Câmara autorizou um empréstimo de mil contos de réis para dívidas e melhoramentos urbanos, incluindo o teatro; em 1912, consolidou os incentivos a quem construísse um teatro ou *polytheama* — isenção de impostos e garantia de 8% de juros ao ano, por dez anos, sobre capital de até 80 contos. Não era um empreendimento simples. Exigia reunir dinheiro, definir a sociedade, adquirir terreno, escolher projeto e contratar a execução.
 
 Joaquim Cândido de Oliveira e José Evangelista de Almeida aparecem como figuras centrais dessa mobilização. Em fevereiro de 1913 constituiu-se a **Companhia Teatral Sanjoanense** — uma sociedade por ações que reuniu de uma centena a quase duzentos investidores, de fazendeiros a comerciantes, imigrantes e mulheres.
