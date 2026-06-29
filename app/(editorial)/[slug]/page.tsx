@@ -24,7 +24,7 @@ const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
   '/restauracao': 'Restauração', '/pessoas': 'Pessoas', '/acervo': 'Acervo',
   '/documentario': 'Documentário', '/programacao': 'Programação', '/linha-do-tempo': 'Linha do tempo',
-  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição', '/companhia-teatral-sanjoanense': 'Quem pagou o Theatro', '/o-politeama': 'Theatro ou politeama?', '/dossies': 'Dossiês', '/a-fachada-que-fala': 'A fachada que fala', '/o-medalhao-de-carlos-gomes': 'O medalhão de Carlos Gomes', '/guiomar-novaes-e-o-theatro': 'Guiomar Novaes e o Theatro', '/o-tempo-do-cinetheatro': 'O tempo do CineTheatro', '/as-mulheres-do-theatro': 'As mulheres do Theatro', '/a-noite-de-inauguracao': 'A noite de inauguração', '/os-outros-inquilinos': 'Os outros inquilinos', '/a-cidade-financia-seu-restauro': 'A cidade financia seu restauro',
+  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição', '/companhia-teatral-sanjoanense': 'Quem pagou o Theatro', '/o-politeama': 'Theatro ou politeama?', '/dossies': 'Dossiês', '/a-fachada-que-fala': 'A fachada que fala', '/o-medalhao-de-carlos-gomes': 'O medalhão de Carlos Gomes', '/guiomar-novaes-e-o-theatro': 'Guiomar Novaes e o Theatro', '/o-tempo-do-cinetheatro': 'O tempo do CineTheatro', '/as-mulheres-do-theatro': 'As mulheres do Theatro', '/a-noite-de-inauguracao': 'A noite de inauguração', '/os-outros-inquilinos': 'Os outros inquilinos', '/a-cidade-financia-seu-restauro': 'A cidade financia seu restauro', '/a-opereta-branca-de-neve': 'A opereta Branca de Neve',
 };
 const RELATED: Record<string, string[]> = {
   'o-theatro': ['/historia', '/arquitetura', '/acervo'],
@@ -45,6 +45,7 @@ const RELATED: Record<string, string[]> = {
   'a-noite-de-inauguracao': ['/companhia-teatral-sanjoanense', '/o-politeama', '/historia'],
   'os-outros-inquilinos': ['/historia', '/o-tempo-do-cinetheatro', '/acervo'],
   'a-cidade-financia-seu-restauro': ['/restauracao', '/luta-contra-a-demolicao', '/pessoas'],
+  'a-opereta-branca-de-neve': ['/as-mulheres-do-theatro', '/historia', '/o-politeama'],
 };
 
 // dossiês em destaque ao fim de páginas-âncora

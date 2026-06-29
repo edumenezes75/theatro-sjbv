@@ -33,6 +33,7 @@ const ROUTES: [string, number, MetadataRoute.Sitemap[number]['changeFrequency']]
   ['/a-noite-de-inauguracao', 0.7, 'yearly'],
   ['/os-outros-inquilinos', 0.7, 'yearly'],
   ['/a-cidade-financia-seu-restauro', 0.7, 'yearly'],
+  ['/a-opereta-branca-de-neve', 0.7, 'yearly'],
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
