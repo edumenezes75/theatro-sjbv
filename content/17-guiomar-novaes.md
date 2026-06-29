@@ -1,12 +1,12 @@
 ---
 slug: "/guiomar-novaes-e-o-theatro"
 title: "Guiomar Novaes e o Theatro"
-eyebrow: "Dossiê · A cidade escuta a si mesma"
+eyebrow: "Memória · A pianista e o Theatro"
 seo_title: "Guiomar Novaes e o Theatro Municipal de São João da Boa Vista"
 seo_description: "A maior pianista que a cidade deu ao mundo voltou ao palco de casa em 1946 — e dá nome à Semana que reabriu o Theatro em 2002. A história de Guiomar Novaes e o Theatro."
 hero_image: "/fotos/hr8-doc-guiomar-1946.jpg"
 hero_alt: "O programa do concerto de Guiomar Novaes no Theatro, em 1946."
-status: "dossiê"
+status: "texto público"
 ---
 
 # Guiomar Novaes e o Theatro
