@@ -1,7 +1,7 @@
 ---
 slug: "/o-medalhao-de-carlos-gomes"
 title: "O medalhão de Carlos Gomes"
-eyebrow: "Dossiê · Um retrato sob camadas de tinta"
+eyebrow: "Episódio · Um retrato sob camadas de tinta"
 seo_title: "O medalhão de Carlos Gomes no Theatro Municipal de São João da Boa Vista"
 seo_description: "Pintado por Ettore Adriano Fabri em 1914, coberto por décadas de tinta e reencontrado graças a uma fotografia de um comício de 1919 — a história do medalhão de Carlos Gomes e de seu restauro, contada por quem o devolveu à luz."
 hero_image: "/fotos/hr-ornamentos-16.jpg"
@@ -59,7 +59,7 @@ O percurso do medalhão resume o do próprio Theatro: algo valioso, encoberto e 
 
 - **Autoria de Ettore Adriano Fabri e contexto de 1914:** Rodrigo Rossi Falconi, *Theatro Municipal de São João da Boa Vista* (Revista da ASBRAP, nº 18).
 - **A foto do comício de 1919 como referência** e o **relato de Cézar Roberto Olandim:** livro *Theatro Municipal, 100 anos* (Menezes, 2014).
-- **Ornamentos da fachada (1992):** Romeu Paulucci Buzon Filho — ver o dossiê [O restauro](/restauracao).
+- **Ornamentos da fachada (1992):** Romeu Paulucci Buzon Filho — ver o episódio [O restauro](/restauracao).
 
 [A fachada que fala](./a-fachada-que-fala) · [Ver o restauro em detalhes](./restauracao) · [A história completa](./historia)
 

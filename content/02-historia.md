@@ -100,11 +100,11 @@ Em 1937, o prédio, já deteriorado, foi fechado temporariamente. Joaquim José 
 
 *A entrada do antigo Bar Theatro, sob os toldos “Teatro” — o edifício no tempo do cinema e da decadência, ainda ponto de encontro na Praça da Catedral.*
 
-A partir daí vieram as matinês, os seriados e o ritual do domingo no cinema — toda uma fase afetiva que ganhou dossiê próprio: [O tempo do CineTheatro →](/o-tempo-do-cinetheatro).
+A partir daí vieram as matinês, os seriados e o ritual do domingo no cinema — toda uma fase afetiva que ganhou episódio próprio: [O tempo do CineTheatro →](/o-tempo-do-cinetheatro).
 
 ### O palco não desapareceu
 
-Mesmo virado cinema, o edifício seguiu recebendo apresentações: em 1945 uma peça reabriu a casa; em 1946, **Guiomar Novaes** tocou para os conterrâneos ([dossiê →](/guiomar-novaes-e-o-theatro)); em 1952, Procópio Ferreira passou pelo palco. E havia muito mais que cinema sob aquele teto — rádio, biblioteca, bar e sociedades culturais, reunidos em [Os outros inquilinos →](/os-outros-inquilinos).
+Mesmo virado cinema, o edifício seguiu recebendo apresentações: em 1945 uma peça reabriu a casa; em 1946, **Guiomar Novaes** tocou para os conterrâneos ([a pianista e o Theatro →](/guiomar-novaes-e-o-theatro)); em 1952, Procópio Ferreira passou pelo palco. E havia muito mais que cinema sob aquele teto — rádio, biblioteca, bar e sociedades culturais, reunidos em [Os outros inquilinos →](/os-outros-inquilinos).
 
 ### A reforma de 1967
 

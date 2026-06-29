@@ -16,7 +16,7 @@ const MENU: Grupo[] = [
     { href: '/arquitetura', label: 'Arquitetura' },
     { href: '/restauracao', label: 'Restauro' },
     { href: '/linha-do-tempo', label: 'Linha do tempo' },
-    { href: '/dossies', label: 'Dossiês' },
+    { href: '/episodios', label: 'Episódios' },
   ] },
   { label: 'Acervo', items: [
     { href: '/acervo', label: 'Acervo de imagens' },

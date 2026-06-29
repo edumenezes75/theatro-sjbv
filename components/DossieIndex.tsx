@@ -26,7 +26,7 @@ export default function DossieIndex() {
   if (items.length < 3) return null;
   const go = (id: string) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   return (
-    <nav className="sticky top-28 max-h-[80vh] overflow-y-auto pr-1" aria-label="Capítulos do dossiê">
+    <nav className="sticky top-28 max-h-[80vh] overflow-y-auto pr-1" aria-label="Capítulos do episódio">
       <p className="mb-4 font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Exposição</p>
       <ol className="space-y-3">
         {items.map((it, i) => {

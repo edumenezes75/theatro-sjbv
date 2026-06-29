@@ -1,7 +1,7 @@
 ---
 slug: "/o-tempo-do-cinetheatro"
 title: "O tempo do CineTheatro"
-eyebrow: "Dossiê · A tela, o domingo e a memória (1937–1982)"
+eyebrow: "Episódio · A tela, o domingo e a memória (1937–1982)"
 seo_title: "O tempo do CineTheatro — o cinema no Theatro Municipal de São João da Boa Vista"
 seo_description: "Quatro sessões por dia, Flash Gordon, os bombons do Budri e o bilheteiro Flávio Nogueira: a fase em que o Theatro foi, sobretudo, o cinema do centro — do auge à decadência e ao fechamento."
 hero_image: "/fotos/hr-fachada-02.jpg"
@@ -11,7 +11,7 @@ status: "dossiê"
 
 # O tempo do CineTheatro
 
-Para a maior parte dos sanjoanenses vivos, o Theatro não é a casa de ópera de 1914 — é a sala de cinema do centro, com seus domingos de matinê, os heróis de bang-bang e o cheiro de bombom na entrada. Essa fase, mais cotidiana e menos solene, durou quatro décadas e deixou a memória afetiva mais funda do edifício. Ela merece um dossiê próprio.
+Para a maior parte dos sanjoanenses vivos, o Theatro não é a casa de ópera de 1914 — é a sala de cinema do centro, com seus domingos de matinê, os heróis de bang-bang e o cheiro de bombom na entrada. Essa fase, mais cotidiana e menos solene, durou quatro décadas e deixou a memória afetiva mais funda do edifício. Ela merece um episódio próprio.
 
 > **Em um minuto:** em 1937 o Theatro, já deteriorado aos 23 anos, foi fechado e teve a maioria das ações comprada por Joaquim José de Oliveira Neto, que o reequipou como cinema. Vieram quatro sessões diárias, os filmes de Hollywood e os seriados de Flash Gordon que enchiam a casa. Mas o cinema nunca foi lucrativo; a concorrência de salas novas e a televisão levaram o Cine Theatro à decadência e ao fechamento, abrindo caminho para a quase-demolição dos anos 1980.
 

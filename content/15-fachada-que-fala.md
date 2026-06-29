@@ -1,7 +1,7 @@
 ---
 slug: "/a-fachada-que-fala"
 title: "A fachada que fala"
-eyebrow: "Dossiê · Ler a frente do Theatro"
+eyebrow: "Episódio · Ler a frente do Theatro"
 seo_title: "A fachada do Theatro Municipal de São João da Boa Vista como texto"
 seo_description: "Uma águia de cimento, ferro fundido de além-mar, 250 lâmpadas elétricas e quatro compositores sem hierarquia: a fachada eclética do Theatro lida como um discurso de modernidade — financiado pelo café."
 hero_image: "/fotos/hr-fachada-48.jpg"

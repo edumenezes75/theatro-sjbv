@@ -1,7 +1,7 @@
 ---
 slug: "/companhia-teatral-sanjoanense"
 title: "Quem pagou o Theatro"
-eyebrow: "Dossiê · A Companhia Teatral Sanjoanense (1911–1915)"
+eyebrow: "Episódio · A Companhia Teatral Sanjoanense (1911–1915)"
 seo_title: "Quem pagou o Theatro Municipal de São João da Boa Vista — a Companhia Teatral Sanjoanense"
 seo_description: "Leis de garantia de juros, uma sociedade por ações, quase duzentos acionistas, debêntures e dívida: a engenharia financeira — pública e privada — que ergueu o Theatro Municipal em 1914."
 hero_image: "/fotos/hr8-doc-lei-1912.jpg"
@@ -11,7 +11,7 @@ status: "dossiê"
 
 # Quem pagou o Theatro
 
-Todo prédio bonito esconde uma planilha. Antes da fachada eclética e dos medalhões dos compositores, o Theatro foi uma decisão econômica difícil: como reunir, numa cidade do interior paulista, o dinheiro para erguer uma casa de espetáculos do tamanho da ambição local. A resposta envolveu a Câmara, uma sociedade por ações, quase duzentos investidores, empréstimos, debêntures e anos de dívida. Este dossiê reconstitui essa engenharia — e mostra que ela é mais plural, e mais interessante, do que o mito de origem costuma contar.
+Todo prédio bonito esconde uma planilha. Antes da fachada eclética e dos medalhões dos compositores, o Theatro foi uma decisão econômica difícil: como reunir, numa cidade do interior paulista, o dinheiro para erguer uma casa de espetáculos do tamanho da ambição local. A resposta envolveu a Câmara, uma sociedade por ações, quase duzentos investidores, empréstimos, debêntures e anos de dívida. Este episódio reconstitui essa engenharia — e mostra que ela é mais plural, e mais interessante, do que o mito de origem costuma contar.
 
 > **Em um minuto:** o Theatro nasceu de um arranjo público-privado. A Câmara ofereceu garantia de juros a quem o construísse; em 1913 formou-se a Companhia Teatral Sanjoanense, sociedade por ações com capital de 100 contos de réis e fins que já incluíam o cinema. A ata de constituição registra pouco mais de cem sócios, mas a pesquisa nos livros da empresa revela quase duzentos acionistas — fazendeiros, comerciantes, imigrantes e oito mulheres. Mesmo assim, o dinheiro não bastou: vieram empréstimos e debêntures, e a obra terminou custando perto de 290 contos.
 
@@ -273,7 +273,7 @@ Victor Manoel de Andrade Dias
 
 ## Fontes e conflitos
 
-Este dossiê combina fonte primária e pesquisa acadêmica, e registra abertamente o que ainda está em disputa:
+Este episódio combina fonte primária e pesquisa acadêmica, e registra abertamente o que ainda está em disputa:
 
 - **Número de acionistas.** Tradição local e fonte oficial: 113. Ata de constituição: 103 presentes/representados (677 ações). Livro de Accionistas (leitura de Jeronimo): 191 a 196 acionistas até 1914.
 - **Diretor-técnico.** O livro do centenário registra *Gabriel Emílio Pacheco de Melo*; parte da bibliografia grafa o nome de forma diferente. Mantemos a forma do livro.

@@ -1,7 +1,7 @@
 ---
 slug: "/as-mulheres-do-theatro"
 title: "As mulheres do Theatro"
-eyebrow: "Dossiê · O trabalho cultural feminino que sustentou a casa"
+eyebrow: "Episódio · O trabalho cultural feminino que sustentou a casa"
 seo_title: "As mulheres do Theatro Municipal de São João da Boa Vista"
 seo_description: "Dona Beloca, Anésia Mattos, Jaçanã Altair e Miriam Pipano: as professoras e organizadoras que, por décadas, encheram o palco do Theatro Municipal — uma história de trabalho cultural feminino quase sempre apagada."
 hero_image: "/fotos/hr3-eventos-01.jpg"
@@ -11,7 +11,7 @@ status: "dossiê"
 
 # As mulheres do Theatro
 
-As versões oficiais guardam os holofotes para coronéis, diretores e engenheiros. Mas, ano após ano, foram **mulheres** — quase sempre professoras — que encheram o palco do Theatro: ensaiando crianças, montando festivais, dirigindo corais e transformando arte em mobilização social. Sem elas, a casa teria ficado escura em boa parte do século XX. Este dossiê reúne quatro delas, e a rede que vem antes e depois.
+As versões oficiais guardam os holofotes para coronéis, diretores e engenheiros. Mas, ano após ano, foram **mulheres** — quase sempre professoras — que encheram o palco do Theatro: ensaiando crianças, montando festivais, dirigindo corais e transformando arte em mobilização social. Sem elas, a casa teria ficado escura em boa parte do século XX. Este episódio reúne quatro delas, e a rede que vem antes e depois.
 
 > **Em um minuto:** por cerca de 25 anos, Dona Beloca liderou os espetáculos beneficentes do Theatro; nos anos 1920, Anésia Mattos montou ali o primeiro Dia da Criança do Brasil; Jaçanã Altair, escritora e criadora do teatro de bonecos local, dá nome à biblioteca que funcionou no prédio; e Miriam Pipano, vinda de Tel Aviv, formou gerações de músicos na sala da Sociedade de Cultura Artística. Some-se a elas as oito acionistas de 1913 e as professoras que, nos anos 1990, levaram estudantes às ruas pelo restauro.
 
@@ -57,7 +57,7 @@ Nascida em **Tel Aviv, em 1926**, e mudada para São João ainda menina, **Miria
 
 ## Oito acionistas — e as gerações seguintes
 
-A presença feminina vinha desde a fundação: entre os investidores da Companhia Teatral Sanjoanense, em 1913, havia **oito mulheres** ([veja o dossiê da Companhia](/companhia-teatral-sanjoanense)) — num tempo em que a vida pública era quase toda masculina, comprar ações de um teatro era um gesto de presença.
+A presença feminina vinha desde a fundação: entre os investidores da Companhia Teatral Sanjoanense, em 1913, havia **oito mulheres** ([veja o episódio da Companhia](/companhia-teatral-sanjoanense)) — num tempo em que a vida pública era quase toda masculina, comprar ações de um teatro era um gesto de presença.
 
 E o fio não se rompeu. Na campanha pelo restauro, nos anos 1990, foram as professoras **Fafá Noronha, Maria José Moreira e Beatriz Castilho Pinto** que lideraram o "Vestindo a Camisa", levando estudantes às ruas. No palco e na gestão, **Vânia Noronha** atravessa décadas — da menina que tocava piano aos seis anos à diretora de Cultura da cidade. Reunir essas trajetórias não é nostalgia: é corrigir o foco. O Theatro permaneceu vivo porque, em cada geração, mulheres decidiram cuidar dele.
 
@@ -68,7 +68,7 @@ E o fio não se rompeu. Na campanha pelo restauro, nos anos 1990, foram as profe
 ## Fontes e notas
 
 - **Dona Beloca, Anésia, Jaçanã e Miriam Pipano:** livro *Theatro Municipal, 100 anos* (2014), seções dedicadas a cada uma.
-- **Oito acionistas:** dissertação de Luis Pedro Dragão Jeronimo (USP, 2020), com base no Livro de Accionistas; ver o dossiê *Quem pagou o Theatro*.
+- **Oito acionistas:** dissertação de Luis Pedro Dragão Jeronimo (USP, 2020), com base no Livro de Accionistas; ver o episódio *Quem pagou o Theatro*.
 - **Vestindo a Camisa (1999):** livro do centenário e revista *Vernácula* (2023).
 
 [Quem pagou o Theatro](./companhia-teatral-sanjoanense) · [Conhecer as pessoas](./pessoas) · [A cidade financia o restauro](./a-cidade-financia-seu-restauro)

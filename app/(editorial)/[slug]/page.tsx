@@ -24,7 +24,7 @@ const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
   '/restauracao': 'Restauração', '/pessoas': 'Pessoas', '/acervo': 'Acervo',
   '/documentario': 'Documentário', '/programacao': 'Programação', '/linha-do-tempo': 'Linha do tempo',
-  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição', '/companhia-teatral-sanjoanense': 'Quem pagou o Theatro', '/o-politeama': 'Theatro ou politeama?', '/dossies': 'Dossiês', '/a-fachada-que-fala': 'A fachada que fala', '/o-medalhao-de-carlos-gomes': 'O medalhão de Carlos Gomes', '/guiomar-novaes-e-o-theatro': 'Guiomar Novaes e o Theatro', '/o-tempo-do-cinetheatro': 'O tempo do CineTheatro', '/as-mulheres-do-theatro': 'As mulheres do Theatro', '/a-noite-de-inauguracao': 'A noite de inauguração', '/os-outros-inquilinos': 'Os outros inquilinos', '/a-cidade-financia-seu-restauro': 'A cidade financia seu restauro', '/a-opereta-branca-de-neve': 'A opereta Branca de Neve',
+  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Memórias e curiosidades', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição', '/companhia-teatral-sanjoanense': 'Quem pagou o Theatro', '/o-politeama': 'Theatro ou politeama?', '/episodios': 'Episódios', '/a-fachada-que-fala': 'A fachada que fala', '/o-medalhao-de-carlos-gomes': 'O medalhão de Carlos Gomes', '/guiomar-novaes-e-o-theatro': 'Guiomar Novaes e o Theatro', '/o-tempo-do-cinetheatro': 'O tempo do CineTheatro', '/as-mulheres-do-theatro': 'As mulheres do Theatro', '/a-noite-de-inauguracao': 'A noite de inauguração', '/os-outros-inquilinos': 'Os outros inquilinos', '/a-cidade-financia-seu-restauro': 'A cidade financia seu restauro', '/a-opereta-branca-de-neve': 'A opereta Branca de Neve',
 };
 const RELATED: Record<string, string[]> = {
   'o-theatro': ['/historia', '/arquitetura', '/acervo'],
@@ -48,7 +48,7 @@ const RELATED: Record<string, string[]> = {
   'a-opereta-branca-de-neve': ['/as-mulheres-do-theatro', '/historia', '/o-politeama'],
 };
 
-// dossiês em destaque ao fim de páginas-âncora
+// episódios em destaque ao fim de páginas-âncora
 const DOSSIES_REL: Record<string, string[]> = {
   historia: ['/a-noite-de-inauguracao', '/o-tempo-do-cinetheatro', '/as-mulheres-do-theatro'],
   arquitetura: ['/a-fachada-que-fala', '/o-medalhao-de-carlos-gomes', '/o-politeama'],
@@ -264,7 +264,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
 
         {DOSSIES_REL[params.slug] && (
           <section className="mt-16 border-t border-gold/25 pt-12">
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Dossiês</p>
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Episódios</p>
             <h2 className="mt-3 font-display text-3xl">Histórias para se aprofundar</h2>
             <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">Leituras longas que destrincham um episódio da história do Theatro.</p>
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
@@ -280,7 +280,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
                 );
               })}
             </div>
-            <a href="/dossies" className="mt-6 inline-block font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 hover:text-curtaindark dark:text-gold dark:hover:text-cream">Ver todos os dossiês →</a>
+            <a href="/episodios" className="mt-6 inline-block font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 hover:text-curtaindark dark:text-gold dark:hover:text-cream">Ver todos os episódios →</a>
           </section>
         )}
 

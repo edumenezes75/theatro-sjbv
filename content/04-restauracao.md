@@ -109,7 +109,7 @@ A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos.
 *Prospecção estratigráfica — pequenas janelas abertas na parede revelam, camada a camada, as cores de cada época. Era assim que se descobria o tom original.*
 
 
-Na boca de cena, o medalhão de Carlos Gomes — pintura original de Ettore Adriano Fabri — foi revelado sob sucessivas camadas de tinta; Romeu Paulucci Buzon Filho atuou na recuperação dos ornamentos da fachada, em 1992. A história completa do medalhão tem dossiê próprio: [O medalhão de Carlos Gomes →](/o-medalhao-de-carlos-gomes).
+Na boca de cena, o medalhão de Carlos Gomes — pintura original de Ettore Adriano Fabri — foi revelado sob sucessivas camadas de tinta; Romeu Paulucci Buzon Filho atuou na recuperação dos ornamentos da fachada, em 1992. A história completa do medalhão tem episódio próprio: [O medalhão de Carlos Gomes →](/o-medalhao-de-carlos-gomes).
 
 Algumas decisões foram interpretativas, e a honestidade pede registrá-las como tais: seis espelhos no foyer e as pinturas de ramos de café nas tabeiras foram acréscimos do restauro, inspirados em casas como o Theatro Municipal de São Paulo e o São Pedro — não remanescentes comprovados de 1914.
 
@@ -124,7 +124,7 @@ Em dezembro de 1992, o foyer foi inaugurado. O espaço passou a receber exposiç
 
 *A visita do governador Franco Montoro ao Theatro, em 1986 — o apoio estadual que ajudou a destravar o restauro, ao lado do prefeito Nelson Nicolau e do engenheiro João Merlin.*
 
-A partir de 1998, a **Fundação Oliveira Neto** e campanhas comunitárias passaram a captar recursos e a mobilizar a cidade para concluir a obra — fase que tem dossiê próprio: [A cidade financia seu restauro →](/a-cidade-financia-seu-restauro). As somas publicadas variam entre cerca de R$ 695,7 mil e R$ 732,2 mil, conforme o recorte contábil — componentes estaduais, federais, da Fundação e municipais somados ao longo de quase dezessete anos, sem prestação de contas consolidada que permita fechar o total com precisão. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
+A partir de 1998, a **Fundação Oliveira Neto** e campanhas comunitárias passaram a captar recursos e a mobilizar a cidade para concluir a obra — fase que tem episódio próprio: [A cidade financia seu restauro →](/a-cidade-financia-seu-restauro). As somas publicadas variam entre cerca de R$ 695,7 mil e R$ 732,2 mil, conforme o recorte contábil — componentes estaduais, federais, da Fundação e municipais somados ao longo de quase dezessete anos, sem prestação de contas consolidada que permita fechar o total com precisão. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
 
 ## O edifício continuou vivo durante as obras
 

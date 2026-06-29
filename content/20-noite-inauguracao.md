@@ -1,7 +1,7 @@
 ---
 slug: "/a-noite-de-inauguracao"
 title: "A noite de inauguração"
-eyebrow: "Dossiê · 31 de outubro de 1914 e a primeira temporada"
+eyebrow: "Episódio · 31 de outubro de 1914 e a primeira temporada"
 seo_title: "A noite de inauguração do Theatro Municipal de São João da Boa Vista (1914)"
 seo_description: "A gala de 31 de outubro de 1914, a ausência do idealizador, a Companhia Santos Silva e Uma Causa Célebre, as turnês e o público que faltou: a estreia do Theatro e sua primeira temporada."
 hero_image: "/fotos/hr5-inauguracao-1914.jpg"
@@ -64,7 +64,7 @@ Mas aqui o livro é honesto, e nós também devemos ser: "não obstante a boa qu
 - **A noite, o discurso e a peça:** livro *Theatro Municipal, 100 anos* (2014), seção "Inauguração"; citação de *O Município* (20/06/1914) e de *A Cidade de São João* (23/01/1915) reproduzidas no livro.
 - **Data.** Adotamos **31 de outubro de 1914**, conforme o livro do centenário e o jornal da época; páginas institucionais registram 8 de novembro. A divergência está detalhada na página de [Pesquisa e fontes](/fontes).
 - **Orador.** O livro nomeia "Dr. Antônio Cândido de Oliveira"; parte da bibliografia grafa "Antônio Cândido de Oliveira Filho".
-- **Finanças e arrendamento** (debêntures de 1915, consórcio dos cinemas Ideal e Bijou) são tratados em detalhe no dossiê [Quem pagou o Theatro](/companhia-teatral-sanjoanense).
+- **Finanças e arrendamento** (debêntures de 1915, consórcio dos cinemas Ideal e Bijou) são tratados em detalhe no episódio [Quem pagou o Theatro](/companhia-teatral-sanjoanense).
 
 [Quem pagou o Theatro](./companhia-teatral-sanjoanense) · [Theatro ou politeama?](./o-politeama) · [A história completa](./historia)
 

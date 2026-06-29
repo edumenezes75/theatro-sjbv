@@ -83,7 +83,7 @@ export function getPageBySlug(slug: string): Page | undefined {
 }
 
 // slugs rendered by the generic editorial route (custom pages excluded)
-const CUSTOM = new Set(['/', '/pessoas', '/linha-do-tempo', '/documentario', '/acervo', '/dossies']);
+const CUSTOM = new Set(['/', '/pessoas', '/linha-do-tempo', '/documentario', '/acervo', '/episodios']);
 
 export function getEditorialSlugs(): string[] {
   return getAllPages()

@@ -1,7 +1,7 @@
 ---
 slug: "/luta-contra-a-demolicao"
 title: "A luta contra a demolição"
-eyebrow: "Dossiê · A mobilização que salvou o Theatro (1981–1987)"
+eyebrow: "Episódio · A mobilização que salvou o Theatro (1981–1987)"
 seo_title: "A luta contra a demolição do Theatro Municipal de São João da Boa Vista"
 seo_description: "Ronaldo Marin e a greve de fome, os 1.026 abaixo-assinados, a oposição do cronista JPC, a compra em duas etapas, a consulta popular de 1.651 votos e o tombamento pelo CONDEPHAAT: como a cidade se recusou a perder seu Theatro."
 hero_image: "/fotos/hr-historicas-45.jpg"
@@ -11,7 +11,7 @@ status: "dossiê"
 
 # A luta contra a demolição
 
-No início dos anos 1980, o Theatro Municipal não era o patrimônio restaurado de hoje. Era um prédio particular, fechado, degradado — e sob risco real de virar pó. Que ele esteja de pé não foi obra do acaso nem de uma decisão tranquila de gabinete: foi resultado de uma disputa pública, com um ator ameaçando greve de fome, mais de mil assinaturas, uma consulta popular e até a oposição de quem achava tudo aquilo um desperdício. Este dossiê reconstrói essa batalha.
+No início dos anos 1980, o Theatro Municipal não era o patrimônio restaurado de hoje. Era um prédio particular, fechado, degradado — e sob risco real de virar pó. Que ele esteja de pé não foi obra do acaso nem de uma decisão tranquila de gabinete: foi resultado de uma disputa pública, com um ator ameaçando greve de fome, mais de mil assinaturas, uma consulta popular e até a oposição de quem achava tudo aquilo um desperdício. Este episódio reconstrói essa batalha.
 
 > **Em um minuto:** declarado de utilidade pública em 1981, o Theatro continuava ameaçado. O ator Ronaldo Marin anunciou que faria greve de fome acorrentado ao telhado; com Zeza Freitas e outros jovens, reuniu 1.026 assinaturas. Houve oposição — o cronista "JPC" acusava o movimento de querer "tomar o alheio". O prefeito Sidney Beraldo comprou o prédio em duas etapas (1984 e 1985), a cidade votou pelo restauro numa consulta com 1.651 participantes, e o CONDEPHAAT tombou o edifício, formalmente, em 1987.
 

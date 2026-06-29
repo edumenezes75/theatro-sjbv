@@ -1,7 +1,7 @@
 ---
 slug: "/os-outros-inquilinos"
 title: "Os outros inquilinos"
-eyebrow: "Dossiê · O prédio como ecossistema cultural"
+eyebrow: "Episódio · O prédio como ecossistema cultural"
 seo_title: "Os outros inquilinos do Theatro Municipal de São João da Boa Vista"
 seo_description: "Sociedade de Cultura Artística, Teatro-Escola, Sociedade Cultural de Debates, Rádio Difusora, Biblioteca e o Bar Theatro: por décadas, o segundo andar e o térreo do Theatro foram um ecossistema cultural inteiro."
 hero_image: "/fotos/hr2-sala-01.jpg"
@@ -11,7 +11,7 @@ status: "dossiê"
 
 # Os outros inquilinos
 
-Quem pensa no Theatro só como uma sala de espetáculos perde metade da história. Por décadas, sobretudo no **segundo andar** e no térreo, o edifício abrigou um ecossistema cultural inteiro: uma sociedade de artes com piano de cauda e livro de ouro, uma escola de teatro com três mil livros, uma rádio com auditório ao vivo, a Biblioteca Municipal e o lendário Bar Theatro. Este dossiê reúne esses outros moradores da casa.
+Quem pensa no Theatro só como uma sala de espetáculos perde metade da história. Por décadas, sobretudo no **segundo andar** e no térreo, o edifício abrigou um ecossistema cultural inteiro: uma sociedade de artes com piano de cauda e livro de ouro, uma escola de teatro com três mil livros, uma rádio com auditório ao vivo, a Biblioteca Municipal e o lendário Bar Theatro. Este episódio reúne esses outros moradores da casa.
 
 > **Em um minuto:** o segundo andar do Theatro foi, por gerações, um "laboratório cultural" — abrigou a Sociedade de Cultura Artística (1930), a Sociedade Cultural de Debates (1951), o Teatro-Escola (1950), a Rádio Difusora ZYJ-6 (1958–1963) e, depois, a Biblioteca Municipal. No térreo ficava o Bar Theatro, ponto de encontro de toda a cidade. Essa vida múltipla ajuda a explicar por que o prédio nunca saiu da memória sanjoanense.
 

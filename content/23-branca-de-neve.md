@@ -1,7 +1,7 @@
 ---
 slug: "/a-opereta-branca-de-neve"
 title: "A opereta Branca de Neve"
-eyebrow: "Dossiê · A ópera que a cidade compôs para si (1932)"
+eyebrow: "Episódio · A ópera que a cidade compôs para si (1932)"
 seo_title: "A opereta Branca de Neve (1932) no Theatro Municipal de São João da Boa Vista"
 seo_description: "Um padre-músico napolitano, uma versão operística da Branca de Neve estreada em 1932, retomada nos anos 1950 e cujas partituras sobrevivem no Museu de Arte Sacra: a história da opereta que São João compôs para si mesma."
 hero_image: "/fotos/hr4-historicas-06.jpg"
@@ -23,7 +23,7 @@ Como não poderia deixar de ser, o padre logo se enredou na vida musical local. 
 
 ## A cidade que vivia de festivais
 
-A *Branca de Neve* não nasceu do nada. Ela é o ponto alto de toda uma cultura de **festivais artísticos** que sustentava a vida do palco entre os anos de cinema — uma rede de trabalho voluntário, sobretudo feminino, contada à parte no dossiê [As mulheres do Theatro →](/as-mulheres-do-theatro).
+A *Branca de Neve* não nasceu do nada. Ela é o ponto alto de toda uma cultura de **festivais artísticos** que sustentava a vida do palco entre os anos de cinema — uma rede de trabalho voluntário, sobretudo feminino, contada à parte no episódio [As mulheres do Theatro →](/as-mulheres-do-theatro).
 
 O tamanho da ambição aparece num programa anterior, de **31 de março de 1931**: um Festival Artístico organizado pelo padre Nicolau Miranda, com comédia na primeira parte e, na segunda, trechos de *Il Trovatore*, *La Traviata* e *Favorita*, mais composições do próprio padre, sob cenários de Herculano de Almeida. Não era pouca coisa pedir que cantores e instrumentistas locais enfrentassem Verdi e Donizetti numa cidade do interior. Foi nesse caldo — orquestra organizada, sopranos formados, um cenógrafo de casa e um compositor diplomado — que uma ópera inteiramente sanjoanense se tornou possível.
 

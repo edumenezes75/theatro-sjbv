@@ -11,6 +11,9 @@ const nextConfig = {
   typescript: { ignoreBuildErrors: true },
   eslint: { ignoreDuringBuilds: true },
   productionBrowserSourceMaps: false,
+  async redirects() {
+    return [{ source: '/dossies', destination: '/episodios', permanent: true }];
+  },
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];
   },

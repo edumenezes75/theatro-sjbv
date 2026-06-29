@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { getAllPages } from '@/lib/content';
 
 export const metadata: Metadata = {
-  title: 'Dossiês',
+  title: 'Episódios',
   description: 'Leituras longas sobre episódios marcantes da história do Theatro Municipal de São João da Boa Vista — da sociedade de acionistas que o ergueu à campanha que o salvou da demolição.',
-  alternates: { canonical: '/dossies' },
+  alternates: { canonical: '/episodios' },
 };
 
 export default function DossiesPage() {
@@ -15,10 +15,10 @@ export default function DossiesPage() {
 
   return (
     <div className="mx-auto max-w-5xl px-5 pb-24 pt-32 sm:pt-36">
-      <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Dossiês</p>
+      <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Episódios</p>
       <h1 className="mt-3 font-display text-4xl sm:text-5xl">Histórias para se aprofundar</h1>
       <p className="mt-4 max-w-reading font-sans text-base leading-relaxed text-ink/75 dark:text-cream/75">
-        Cada dossiê destrincha um episódio da vida do Theatro com calma e fontes à mostra —
+        Cada episódio reconstrói uma passagem da vida do Theatro com calma e fontes à mostra —
         a sociedade de acionistas que o financiou, o que a cidade de fato via no palco e a
         mobilização que o salvou da demolição.
       </p>

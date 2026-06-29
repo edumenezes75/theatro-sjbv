@@ -1,7 +1,7 @@
 ---
 slug: "/a-cidade-financia-seu-restauro"
 title: "A cidade financia o restauro"
-eyebrow: "Dossiê · Da rua ao caixa (1995–2002)"
+eyebrow: "Episódio · Da rua ao caixa (1995–2002)"
 seo_title: "A cidade financia o restauro — Fundação Oliveira Neto e Vestindo a Camisa"
 seo_description: "Salvar o Theatro não bastava: era preciso pagar a obra. A Fundação Oliveira Neto, a Lei Rouanet, o Vestindo a Camisa e a arte no canteiro de obras — como a cidade custeou o próprio restauro."
 hero_image: "/fotos/hr4-pessoas-01.jpg"

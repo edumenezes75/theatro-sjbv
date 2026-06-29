@@ -1,7 +1,7 @@
 ---
 slug: "/o-politeama"
 title: "Theatro ou politeama?"
-eyebrow: "Dossiê · O uso real da casa (1914–1925)"
+eyebrow: "Episódio · O uso real da casa (1914–1925)"
 seo_title: "Theatro ou politeama? O que a cidade realmente via no palco do Theatro Municipal"
 seo_description: "Filmes, operetas, bailes, festivais e ringue de patinação: a pesquisa nos jornais mostra que o Theatro Municipal foi, desde o início, um politeama — e que o cinema o manteve vivo, não o rebaixou."
 hero_image: "/fotos/hr7-bar-theatro.jpg"
@@ -57,7 +57,7 @@ Essa é a tensão central da vida do Theatro: um prédio grandioso, pensado para
 
 A narrativa nostálgica diz que o Theatro nasceu erudito e decaiu ao virar cinema. A pesquisa desmonta esse roteiro. Desde o primeiro mês, em 1914, as fitas já eram esteio da programação — e o cinema estava previsto na própria lei e nos estatutos. Quando, diante das dificuldades, a casa recebeu mais sessões, bailes e até patinação, não estava "caindo": estava se adaptando para continuar de pé.
 
-A morte de um teatro não acontece quando ele muda de uso, mas quando deixa de importar para a cidade. O Theatro nunca deixou. Em 1937, a fase cinematográfica se consolidaria sob nova direção, ganhando a memória afetiva do CineTheatro — outra história, contada em seu próprio dossiê.
+A morte de um teatro não acontece quando ele muda de uso, mas quando deixa de importar para a cidade. O Theatro nunca deixou. Em 1937, a fase cinematográfica se consolidaria sob nova direção, ganhando a memória afetiva do CineTheatro — outra história, contada em seu próprio episódio.
 
 [O tempo do CineTheatro](./o-tempo-do-cinetheatro) · [Quem pagou o Theatro](./companhia-teatral-sanjoanense) · [A história completa](./historia)
 
