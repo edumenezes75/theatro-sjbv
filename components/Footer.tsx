@@ -19,6 +19,9 @@ export default function Footer() {
             <p className="mt-3 text-sm leading-relaxed text-cream/70">
               WhatsApp (19) 99719-5719<br />(19) 3636-4872 · (19) 3636-4953
             </p>
+            <p className="mt-3 text-sm leading-relaxed">
+              <a href="https://www.instagram.com/theatro_municipal_sjbv/" target="_blank" rel="noopener" className="text-gold hover:text-cream">Instagram @theatro_municipal_sjbv →</a>
+            </p>
           </div>
           <div>
             <h3 className="font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold">Navegação</h3>

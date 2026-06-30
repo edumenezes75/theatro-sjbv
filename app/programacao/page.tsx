@@ -109,7 +109,12 @@ export default async function ProgramacaoPage() {
         <section className="mt-14">
           <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Canais oficiais</h2>
           <p className="mt-2 max-w-reading font-sans text-sm text-ink/75 dark:text-cream/75">Onde encontrar a programação atualizada e falar com a organização do Theatro.</p>
-          <div className="mt-5 grid gap-4 sm:grid-cols-3">
+          <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <a href="https://www.instagram.com/theatro_municipal_sjbv/" target="_blank" rel="noopener" className="card-lift rounded-sm border border-gold/40 bg-gold/[0.04] p-5 hover:border-gold/70 dark:border-gold/40">
+              <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Instagram do Theatro</p>
+              <p className="mt-2 font-display text-lg leading-tight">@theatro_municipal_sjbv</p>
+              <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Agenda, estreias e bastidores da casa →</p>
+            </a>
             <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
               <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Prefeitura</p>
               <p className="mt-2 font-display text-lg leading-tight">Agenda cultural oficial</p>
