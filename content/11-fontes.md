@@ -62,9 +62,9 @@ Além do livro do centenário, a memória do Theatro está registrada em obras l
 Pesquisa séria convive com divergências. Em vez de escondê-las, registramos as principais — cada uma é um convite à pesquisa, não um ponto final:
 
 - **Número de acionistas.** A tradição local e a fonte oficial falam em 113; a ata de constituição registra 103 presentes ou representados (677 ações), e a reconstrução do Livro de Accionistas aponta cerca de 191 a 196 acionistas até 1914.
-- **Data de inauguração.** 31 de outubro de 1914 (livro do centenário, *O Município*, ASBRAP) ou 8 de novembro (páginas institucionais). Aqui adotamos 31 de outubro, registrando a divergência.
+- **Data de inauguração.** 31 de outubro de 1914 (livro do centenário, *O Município*, ASBRAP) ou 8 de novembro (páginas institucionais). Aqui adotamos 31 de outubro. A cronologia do livro sugere a origem da confusão: a gala foi em **31/10, às 20h30**, e a Companhia Santos Silva **continuou a temporada em 8 de novembro** — provavelmente a data avulsa que migrou para algumas páginas como se fosse a abertura.
 - **Capacidade da orquestra.** O fosso foi anunciado para até 80 “figuras” em 1913 e é hoje descrito para cerca de 39 músicos.
-- **O que havia no terreno.** A memória local cita Santa Casa, Grupo Escolar e hotel; a pesquisa acadêmica sugere uma antiga propriedade ou solar de família — algo a confirmar em escrituras.
+- **O que havia no terreno.** A memória local citava Santa Casa, Grupo Escolar ou hotel; a pesquisa em cartório (Jeronimo, 2020) mostrou outra coisa: ali se erguia o **sobrado da família Tavares** — onde funcionou a primeira sessão de júri da vila —, comprado da Câmara por 14 contos de réis e demolido em 1913. A versão da “permuta” de terrenos não tem documento que a comprove.
 - **Início do cinema.** Não foi “virar cinema em 1937”: as fitas são esteio econômico desde 1914; 1937 marca a consolidação da fase CineTheatro.
 - **Datas do tombamento.** Processo aberto em 1984, aprovado pelo Conselho do CONDEPHAAT em 16 de dezembro de 1985 e formalizado pela Resolução SC nº 3 em 19 de janeiro de 1987.
 

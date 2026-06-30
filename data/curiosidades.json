@@ -387,6 +387,30 @@
    "type": "memoria",
    "source": "Documentário Música & Drama (2015)",
    "tema": "Ameaça, restauro e mistérios"
+  },
+  {
+   "id": "c046",
+   "title": "Preso por chutar uma cadeira",
+   "text": "Em 19 de novembro de 1916, Brazelino Infante acabou preso por chutar, dentro da plateia, um pedaço de madeira que se soltara de uma cadeira do Theatro.",
+   "type": "documentado",
+   "source": "Menezes 2014 (cronologia)",
+   "tema": "A casa de muitos usos"
+  },
+  {
+   "id": "c047",
+   "title": "Um fliperama no foyer",
+   "text": "Nos anos 1980, antes do restauro, o foyer do Theatro chegou a abrigar um fliperama “mal ajambrado” — ponto diário dos jovens da cidade entre uma maquininha e outra.",
+   "type": "memoria",
+   "source": "Menezes 2014 (crônica de Lauro Bittencourt Borges)",
+   "tema": "O tempo do cinema"
+  },
+  {
+   "id": "c048",
+   "title": "A fantasma que vendia balas",
+   "text": "A “fantasma-chefe” do Theatro tinha nome: Ida Vita, que em vida vendia as balas Chita na entrada do cinema. Conta a crônica que a luz forte dos projetores “dissolvia” os fantasmas da casa.",
+   "type": "memoria",
+   "source": "Menezes 2014 (crônica de Clovis Vieira)",
+   "tema": "Ameaça, restauro e mistérios"
   }
  ]
 }

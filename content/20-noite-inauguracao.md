@@ -17,9 +17,11 @@ Depois de três anos de leis, ações, dívidas e obras, chegou a noite. Em 31 d
 
 ## 31 de outubro de 1914
 
-Com "grande público lotando todas as suas dependências — da plateia às frisas, camarotes e galeria", deu-se na noite de **31 de outubro de 1914** a festiva inauguração. A abertura coube à banda do maestro **Joaquim Azevedo**. Em seguida, o orador **Dr. Antônio Cândido de Oliveira** proferiu, do camarote ocupado pela Diretoria da Companhia, um discurso que exaltava o trabalho dos fundadores e a obra como "afirmação de progresso cultural" da cidade.
+Com "grande público lotando todas as suas dependências — da plateia às frisas, camarotes e galeria", deu-se na noite de **31 de outubro de 1914**, às 20h30, a festiva inauguração. A abertura coube à banda do maestro **Joaquim Azevedo**. Em seguida, o orador **Dr. Antônio Cândido de Oliveira** proferiu, do camarote ocupado pela Diretoria da Companhia, um discurso que exaltava o trabalho dos fundadores e a obra como "afirmação de progresso cultural" da cidade.
 
 Em cerimônia de gala, todos enfatizaram o que o livro do centenário registra sem modéstia: o Theatro Municipal era "o maior e melhor de todo o interior do Estado de São Paulo". A cidade do café se apresentava a si mesma — e à região, que veio assistir.
+
+Por trás da festa, porém, já havia o sinal dos apertos por vir: semanas antes de abrir, em **20 de setembro de 1914**, a casa fora arrendada por dois anos a Francisco Galloti e F. Santamaría. O Theatro estreava — e já entregava a sua exploração a terceiros.
 
 ![O jornal de 4 de outubro de 1914 anuncia a inauguração do Theatro.](/fotos/hr8-doc-inauguracao-1914.jpg)
 

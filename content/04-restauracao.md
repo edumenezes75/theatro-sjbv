@@ -54,6 +54,8 @@ A equipe não partiu da ideia de que já sabia tudo. Visitou teatros no Rio de J
 
 No documentário, a equipe relembra como a viagem ao Rio foi decisiva. Guiados por **Carlos Lafayette de Barcelos**, responsável técnico do Theatro Municipal do Rio, passaram uma semana mergulhados num teatro de verdade — os dias inteiros por dentro, "da plateia ao último subsolo", e as noites assistindo a tudo funcionar com os atores. "Vocês têm que primeiro entender de teatro para depois começar o projeto", ouviram. **João Batista Merlin**, que se somara ao grupo, já restaurara os metais e os lustres do Palácio do Catete.
 
+Há um epílogo amargo. Aprovado o projeto que ele tanto ajudara a viabilizar, **Merlin não participou da obra**: foi afastado da equipe — “seu mundo pareceu desabar, seus olhos não mais brilhavam”, registrou a amiga Maria Célia Marcondes. Engenheiro formado pela UnB, que restaurara também a Biblioteca Nacional e o Museu de Belas Artes do Rio, ele se voltou então para o restauro da Catedral e a criação do Museu de Arte Sacra da cidade. Foi dele, ainda, o pedido para restaurar as quatro estátuas de mármore de Carrara — as **Quatro Estações** — que vieram da Praça Armando de Salles e hoje ocupam o foyer do Theatro.
+
 Ao retornar, precisou rever soluções. Em cerca de vinte dias de trabalho concentrado, dezenas de desenhistas e técnicos produziram aproximadamente 150 pranchas para apresentar o projeto e buscar recursos.
 
 Essa capacidade de aprender é parte importante da história. O restauro não foi uma operação linear; foi um processo de pesquisa, erro, revisão e cooperação.
@@ -115,7 +117,7 @@ A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos.
 *Prospecção estratigráfica — pequenas janelas abertas na parede revelam, camada a camada, as cores de cada época. Era assim que se descobria o tom original.*
 
 
-Na boca de cena, o medalhão de Carlos Gomes — pintura original de Ettore Adriano Fabri — foi revelado sob sucessivas camadas de tinta; Romeu Paulucci Buzon Filho atuou na recuperação dos ornamentos da fachada, em 1992. A história completa do medalhão tem episódio próprio: [O medalhão de Carlos Gomes →](/o-medalhao-de-carlos-gomes).
+Na boca de cena, o medalhão de Carlos Gomes — pintura original de Ettore Adriano Fabri — foi revelado sob sucessivas camadas de tinta; Romeu Pradela Buzon Filho, o “Grilo”, atuou na recuperação dos ornamentos da fachada, em 1992. A história completa do medalhão tem episódio próprio: [O medalhão de Carlos Gomes →](/o-medalhao-de-carlos-gomes).
 
 Algumas decisões foram interpretativas, e a honestidade pede registrá-las como tais: seis espelhos no foyer e as pinturas de ramos de café nas tabeiras foram acréscimos do restauro, inspirados em casas como o Theatro Municipal de São Paulo e o São Pedro — não remanescentes comprovados de 1914.
 

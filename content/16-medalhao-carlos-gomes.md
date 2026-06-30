@@ -63,7 +63,7 @@ O percurso do medalhão resume o do próprio Theatro: algo valioso, encoberto e 
 
 - **Autoria de Ettore Adriano Fabri e contexto de 1914:** Rodrigo Rossi Falconi, *Theatro Municipal de São João da Boa Vista* (Revista da ASBRAP, nº 18).
 - **A foto do comício de 1919 como referência** e o **relato de Cézar Roberto Olandim:** livro *Theatro Municipal, 100 anos* (Menezes, 2014).
-- **Ornamentos da fachada (1992):** Romeu Paulucci Buzon Filho — ver o episódio [O restauro](/restauracao).
+- **Ornamentos da fachada (1992):** Romeu Pradela Buzon Filho, o “Grilo” — ver o episódio [O restauro](/restauracao).
 
 [A fachada que fala](./a-fachada-que-fala) · [Ver o restauro em detalhes](./restauracao) · [A história completa](./historia)
 

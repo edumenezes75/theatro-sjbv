@@ -35,7 +35,7 @@ Em maio de 1913, foi apresentado um projeto assinado por **J. Pucci** — arquit
 
 Esses números pertencem ao projeto anunciado e não devem ser confundidos com a lotação atual. O valor documental está em mostrar a escala da ambição: tratava-se de um edifício pensado para receber grandes públicos e diferentes tipos de espetáculo.
 
-O primeiro terreno, na região da atual Rua Oscar Janson, foi adquirido de Misael Tavares e depois trocado por uma área mais central — atrás da Matriz e junto à praça Coronel Joaquim José. A troca reforçava o acesso, o prestígio e a relação do edifício com o coração cívico da cidade.
+O terreno escolhido — atrás da abside da Matriz, com frente para a Rua Marechal Deodoro e ao lado da praça Coronel Joaquim José — já tinha história. A pesquisa em cartório mostra que ali se erguia um **sobrado antigo da família Tavares** (de Misael Tavares Coimbra), no qual chegara a funcionar a **primeira sessão de júri da vila**. A Companhia comprou o lote **da própria Câmara Municipal, por 14 contos de réis** (escritura de abril de 1913) e demoliu o velho sobrado para erguer o Theatro — não houve, como diz a tradição, uma “permuta” a partir de um primeiro terreno na Rua Oscar Janson.
 
 ## 2. Pedra, metal e memória — 1913 a 1914
 

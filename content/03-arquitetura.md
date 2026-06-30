@@ -76,7 +76,7 @@ Historicamente, essa disposição também organizava diferenças sociais. Os set
 
 Fotografias e relatos destacam a presença de madeira na sala e estruturas metálicas na sustentação. A geometria e os materiais são frequentemente associados à boa projeção sonora.
 
-No documentário, técnicos do restauro arriscam uma explicação: a sala seria uma cópia fiel — "deslavada", diz um deles — do Teatro Scala, de Milão, e é justamente essa filiação que lhe garantiria a acústica reconhecida. Do centro do palco, garantem, basta a plateia em silêncio para que uma voz sem microfone chegue nítida a qualquer ponto da casa. Conta-se até que um diretor técnico da Osesp, depois de percorrer grandes teatros da Europa — o último, em Berlim —, parou para bater palmas, só de ouvir como o som se comportava ali.
+No documentário, técnicos do restauro arriscam uma explicação: a sala seria uma cópia fiel — "deslavada", diz um deles — do Teatro Scala, de Milão, e é justamente essa filiação que lhe garantiria a acústica reconhecida. Do centro do palco, garantem, basta a plateia em silêncio para que uma voz sem microfone chegue nítida a qualquer ponto da casa. Conta-se até que um diretor técnico da Osesp, depois de percorrer grandes teatros da Europa — o último, em Berlim —, parou para bater palmas, só de ouvir como o som se comportava ali. A isso soma-se uma explicação mais terrena: o empreiteiro espanhol **Antônio Lanzac**, à frente da execução, era especialista em **abóbadas** — e, segundo a bisneta Eliana Malheiros, foi essa técnica que “deu uma acústica linda” à sala.
 
 ![Capitel coríntio restaurado, com folhas de acanto.](/fotos/hr5-ornamentos-02.jpg)
 
@@ -88,6 +88,8 @@ O Theatro acumulou elogios de músicos ao longo de gerações. Vale distinguir o
 > Descobri, quase atrás de casa, uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.
 >
 > — **Emmanuele Baldini**, spalla da Osesp, após concerto no Theatro (2014)
+
+Não é voz isolada: a cantora **Mônica Salmaso** também chamou a casa de “uma joia”, dizendo que poucas vezes se apresentara em lugar tão especial.
 
 
 ## O palco e a caixa cênica
