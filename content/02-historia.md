@@ -86,7 +86,9 @@ Em determinado momento, a sala chegou a funcionar como rinque de patinação. A 
 
 ### Crises e retomadas
 
-A Primeira Guerra Mundial, a epidemia de gripe, a geada e a crise de 1929 afetaram a economia e o público. Locais de aglomeração foram fechados durante a epidemia. A frequência diminuiu em alguns períodos, mas a atividade artística voltou a ganhar força com produções locais.
+A Primeira Guerra Mundial, a epidemia de gripe, a geada e a crise de 1929 afetaram a economia e o público. Locais de aglomeração foram fechados durante a epidemia.
+
+Na própria casa, em 1º de novembro de 1918, autoridades se reuniram para discutir medidas profiláticas contra a gripe — o Theatro também como centro de decisão cívica na crise. (Aquele ano ficou conhecido como “o ano dos quatro gês”: guerra, geada, gripe e gafanhoto.) A frequência diminuiu em alguns períodos, mas a atividade artística voltou a ganhar força com produções locais.
 
 Em 1930, o conjunto de Heitor Villa-Lobos passou pela cidade, e Souza Lima apresentou-se ao piano. Em 1932, a cidade chegou a **compor a sua própria ópera**: a opereta *Branca de Neve*, do padre Nicolau Miranda, com músicos, cenários e artistas locais — uma história à parte, com partituras que sobrevivem no Museu de Arte Sacra: [A opereta Branca de Neve →](/a-opereta-branca-de-neve).
 

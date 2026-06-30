@@ -48,6 +48,8 @@ Há um vestígio comovente dessa escola: as **inscrições deixadas pelos alunos
 
 Entre 1958 e 1963, o prédio abrigou a **Rádio Difusora ZYJ-6**, com um auditório que recebia apresentações musicais ao vivo — como o conjunto Nin e seus Rocketes. O detalhe é poético: o Theatro, que sempre fora lugar de receber espetáculos, virou também lugar de **transmitir** — o som que antes ficava preso na sala passava a circular pela cidade pelas ondas do rádio.
 
+O rádio, aliás, chegou ao prédio bem antes. Já em **1921**, o engenheiro **Newton de Castro**, pioneiro da radiodifusão na cidade, transferiu para os altos do Theatro um de seus aparelhos, com **antena ligada à torre da Igreja Matriz** — três décadas antes da Difusora.
+
 Por ali passaram nomes de fora e de dentro: em 1959, o cantor e compositor **Dorival Caymmi** apresentou-se e deixou registrada sua impressão — "Sua cidade é deveras acolhedora, tanto quanto simpática". E foi nesse auditório que uma menina de seis anos, **Vânia Noronha**, tocou piano — a mesma que, décadas depois, dirigiria a cultura da cidade.
 
 ![Nos anos em que o Theatro abrigou uma emissora de rádio no segundo andar.](/fotos/hr4-eventos-20.jpg)

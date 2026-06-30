@@ -37,6 +37,8 @@ Aqui a pesquisa revela algo que o mito não conta: a Companhia raramente operava
 
 A razão era estratégica. Nenhum acionista da Companhia entendia do ramo de espetáculos; todos viviam de café, comércio ou profissões liberais. Arrendar servia, nas palavras da análise acadêmica, para **"blindar" a Companhia** das críticas por eventuais fracassos de bilheteria e para garantir aos acionistas uma renda mínima sem o risco de uma má administração. Não à toa, quando o público reclamava da qualidade dos filmes, as críticas iam para as empresas arrendatárias — não para a Companhia, responsável apenas pelo prédio.
 
+A pesquisa dá nomes e datas a essa cadeia. Em **novembro de 1916**, a casa foi arrendada à **Empresa Cinematográfica São-Joanense Filardi & Companhia**; em **maio de 1918**, Filardi associou-se a **Ermette Piocchi e Antônio Balestrin**, donos do cinema Ideal. Em 1919 a Companhia chegou a operar por conta própria; depois vieram a **Empreza Sanjoanense de Diversões** — que explorava também o Cine Guarany, anunciando “Municipal e Guarany” juntos — e, a partir de 1923, a **Empresa Sousa e Godoy**, que arrematou o contrato por **52 contos de réis**.
+
 ## Quando a cidade fechava as portas
 
 Um politeama é um termômetro da cidade — e o Theatro sentia as crises. Em 1918, a **epidemia de gripe espanhola** atingiu São João: *O Município* noticiava doentes e falecidos, e a própria classe teatral organizou comissões de auxílio, num espaço que, sendo de aglomeração, era dos primeiros a fechar. Anos depois, a **Revolução de 1924** voltou a interromper a agenda. Entre uma crise e outra, os bailes de Carnaval — como os de fevereiro e março de 1924 — devolviam a casa à festa.

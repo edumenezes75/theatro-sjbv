@@ -76,7 +76,7 @@ Se o quadro de acionistas era diverso, a direção era oligárquica. A primeira 
 - **Presidente:** coronel Joaquim Cândido de Oliveira
 - **Vice-presidente:** coronel João Osório de Oliveira
 - **Secretário:** capitão Manoel Raimundo Dutra
-- **Diretor-gerente:** major José Evangelista de Almeida (apontado pelos jornais como o iniciador das obras)
+- **Diretor-gerente:** major José Evangelista de Almeida (apontado pelos jornais como o iniciador das obras) — substituído, já com a obra na reta final, pelo capitão **Adolpho Augusto de Azevedo**, eleito em assembleia de 23 de agosto de 1914, quando Evangelista se mudou para Santos
 - **Diretor-técnico:** Gabriel Emílio Pacheco de Melo
 - **Vogais:** coronel Gabriel José Ferreira e major Joaquim Tereziano Valim
 - **Conselho Fiscal:** José Procópio de Azevedo Neto, José Joaquim da Silva Costa e Antônio Luiz Delgado
