@@ -33,7 +33,7 @@ export default function TranscricaoFilme({ segs, youtubeId }: { segs: Seg[]; you
             <a
               href={`https://www.youtube.com/watch?v=${youtubeId}&t=${x.s}s`}
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="shrink-0 self-start rounded-full border border-curtain/30 bg-curtain/5 px-3 py-1 font-sans text-xs font-medium tabular-nums text-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:bg-gold/5 dark:text-gold dark:hover:bg-gold dark:hover:text-ink"
               title="Abrir o filme neste momento"
             >

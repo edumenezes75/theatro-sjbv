@@ -1,4 +1,7 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = { title: 'Página não encontrada — Theatro Municipal de São João da Boa Vista' };
 
 export default function NotFound() {
   const destinos: [string, string][] = [

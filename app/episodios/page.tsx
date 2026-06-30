@@ -31,9 +31,9 @@ export default function DossiesPage() {
             className="card-lift group flex flex-col rounded-sm border border-gold/30 bg-cream p-6 transition-colors hover:border-gold dark:bg-nightsoft"
           >
             <span className="font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{d.meta.eyebrow}</span>
-            <span className="mt-2 font-display text-2xl text-ink dark:text-cream">
+            <h2 className="mt-2 font-display text-2xl font-normal text-ink dark:text-cream">
               {d.meta.title} <span className="text-curtain transition-transform group-hover:translate-x-0.5 dark:text-gold">→</span>
-            </span>
+            </h2>
             <span className="mt-3 font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">{d.meta.seo_description}</span>
           </Link>
         ))}

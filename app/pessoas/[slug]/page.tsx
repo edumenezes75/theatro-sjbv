@@ -92,14 +92,14 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
       {p.vozFilme && (
         <blockquote className="mt-8 border-l-2 border-gold/40 pl-5">
           <p className="font-display text-xl italic leading-snug text-ink/90 dark:text-cream/90">“{p.vozFilme.quote}”</p>
-          <a href={`https://www.youtube.com/watch?v=e2stgoHtlAQ&t=${p.vozFilme.s}s`} target="_blank" rel="noopener" className="mt-3 inline-block font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain hover:text-gold dark:text-gold">No documentário Música &amp; Drama · {p.vozFilme.t} ↗</a>
+          <a href={`https://www.youtube.com/watch?v=e2stgoHtlAQ&t=${p.vozFilme.s}s`} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain hover:text-gold dark:text-gold">No documentário Música &amp; Drama · {p.vozFilme.t} ↗</a>
         </blockquote>
       )}
 
 
 
       {docCitacao && (
-        <a href={`https://www.youtube.com/watch?v=e2stgoHtlAQ&t=${docCitacao.s}s`} target="_blank" rel="noopener" className="mt-8 inline-flex items-center gap-2 rounded-sm border border-gold/30 px-4 py-2.5 font-sans text-sm text-ink/80 transition-colors hover:border-gold hover:text-curtain dark:text-cream/80 dark:hover:text-gold">
+        <a href={`https://www.youtube.com/watch?v=e2stgoHtlAQ&t=${docCitacao.s}s`} target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex items-center gap-2 rounded-sm border border-gold/30 px-4 py-2.5 font-sans text-sm text-ink/80 transition-colors hover:border-gold hover:text-curtain dark:text-cream/80 dark:hover:text-gold">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden><path d="M8 5v14l11-7z" /></svg>
           Citado(a) no documentário <em>Música &amp; Drama</em> · {docCitacao.t} ↗
         </a>

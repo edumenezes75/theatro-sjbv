@@ -25,15 +25,15 @@ export default function VisitaInfo() {
                 {c.lines.map((l) => <p key={l}>{l}</p>)}
               </div>
               {c.href && (
-                <a href={c.href} target="_blank" rel="noopener" className="mt-3 font-sans text-xs text-curtain underline decoration-gold/40 underline-offset-2 dark:text-gold">{c.cta}</a>
+                <a href={c.href} target="_blank" rel="noopener noreferrer" className="mt-3 font-sans text-xs text-curtain underline decoration-gold/40 underline-offset-2 dark:text-gold">{c.cta}</a>
               )}
             </div>
           );
         })}
       </div>
       <div className="mt-4 flex flex-wrap gap-3">
-        <a href={MAPS} target="_blank" rel="noopener" className="rounded-full bg-curtain px-5 py-2.5 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Como chegar ↗</a>
-        <a href={WPP} target="_blank" rel="noopener" className="rounded-full border border-curtain/40 px-5 py-2.5 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">WhatsApp</a>
+        <a href={MAPS} target="_blank" rel="noopener noreferrer" className="rounded-full bg-curtain px-5 py-2.5 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Como chegar ↗</a>
+        <a href={WPP} target="_blank" rel="noopener noreferrer" className="rounded-full border border-curtain/40 px-5 py-2.5 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">WhatsApp</a>
         <a href="/programacao" className="rounded-full border border-curtain/40 px-5 py-2.5 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">Ver programação</a>
       </div>
     </section>

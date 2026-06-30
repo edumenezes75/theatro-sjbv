@@ -35,7 +35,7 @@ function Card({ e }: { e: ReturnType<typeof getEventos>[number] }) {
         <h3 className="font-display text-xl leading-tight">{e.title}</h3>
         {e.local && <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">{e.local}</p>}
         {e.html && <div className="prose-theatro mt-2 max-w-none text-sm" dangerouslySetInnerHTML={{ __html: e.html }} />}
-        {e.ingresso && <a href={e.ingresso} target="_blank" rel="noopener" className="mt-3 inline-block rounded-full bg-curtain px-4 py-1.5 font-sans text-xs font-medium text-cream hover:opacity-90">Ingressos ↗</a>}
+        {e.ingresso && <a href={e.ingresso} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block rounded-full bg-curtain px-4 py-1.5 font-sans text-xs font-medium text-cream hover:opacity-90">Ingressos ↗</a>}
       </div>
     </article>
   );
@@ -90,7 +90,7 @@ export default async function ProgramacaoPage() {
             <p className="mt-2 max-w-reading font-sans text-sm text-ink/75 dark:text-cream/75">Notícias recentes da Prefeitura que mencionam o Theatro — atualizadas automaticamente.</p>
             <div className="mt-5 grid gap-4 sm:grid-cols-2">
               {noticias.map((n) => (
-                <a key={n.link} href={n.link} target="_blank" rel="noopener" className="card-lift flex flex-col overflow-hidden rounded-sm border border-ink/10 hover:border-gold/50 dark:border-cream/10">
+                <a key={n.link} href={n.link} target="_blank" rel="noopener noreferrer" className="card-lift flex flex-col overflow-hidden rounded-sm border border-ink/10 hover:border-gold/50 dark:border-cream/10">
                   {n.img && (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img src={n.img} alt="" loading="lazy" className="aspect-video w-full object-cover" />
@@ -110,22 +110,22 @@ export default async function ProgramacaoPage() {
           <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Canais oficiais</h2>
           <p className="mt-2 max-w-reading font-sans text-sm text-ink/75 dark:text-cream/75">Onde encontrar a programação atualizada e falar com a organização do Theatro.</p>
           <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <a href="https://www.instagram.com/theatro_municipal_sjbv/" target="_blank" rel="noopener" className="card-lift rounded-sm border border-gold/40 bg-gold/[0.04] p-5 hover:border-gold/70 dark:border-gold/40">
+            <a href="https://www.instagram.com/theatro_municipal_sjbv/" target="_blank" rel="noopener noreferrer" className="card-lift rounded-sm border border-gold/40 bg-gold/[0.04] p-5 hover:border-gold/70 dark:border-gold/40">
               <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Instagram do Theatro</p>
               <p className="mt-2 break-words font-display text-base leading-tight [overflow-wrap:anywhere]">@theatro_municipal_sjbv</p>
               <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Agenda, estreias e bastidores da casa →</p>
             </a>
-            <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
+            <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener noreferrer" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
               <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Prefeitura</p>
               <p className="mt-2 font-display text-lg leading-tight">Agenda cultural oficial</p>
               <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Programação de eventos do município →</p>
             </a>
-            <a href="https://www.instagram.com/prefeitura.saojoao" target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
+            <a href="https://www.instagram.com/prefeitura.saojoao" target="_blank" rel="noopener noreferrer" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
               <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Instagram</p>
               <p className="mt-2 font-display text-lg leading-tight">@prefeitura.saojoao</p>
               <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Divulgações e estreias do dia a dia →</p>
             </a>
-            <a href="https://wa.me/5519997195719?text=Ol%C3%A1!%20Gostaria%20de%20saber%20a%20programa%C3%A7%C3%A3o%20do%20Theatro%20Municipal." target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
+            <a href="https://wa.me/5519997195719?text=Ol%C3%A1!%20Gostaria%20de%20saber%20a%20programa%C3%A7%C3%A3o%20do%20Theatro%20Municipal." target="_blank" rel="noopener noreferrer" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
               <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">WhatsApp</p>
               <p className="mt-2 font-display text-lg leading-tight">Falar com o Theatro</p>
               <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Informações, agendamentos e visitas →</p>
@@ -136,7 +136,7 @@ export default async function ProgramacaoPage() {
         {temOficiais && (
           <p className="mt-4 font-sans text-xs text-ink/50 dark:text-cream/50">
             Agenda atualizada automaticamente a partir da{' '}
-            <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener" className="underline decoration-gold/40 underline-offset-2 hover:text-curtain dark:hover:text-gold">programação oficial da Prefeitura</a>.
+            <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener noreferrer" className="underline decoration-gold/40 underline-offset-2 hover:text-curtain dark:hover:text-gold">programação oficial da Prefeitura</a>.
           </p>
         )}
 
@@ -144,7 +144,7 @@ export default async function ProgramacaoPage() {
           <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Fique por dentro</p>
           <h2 className="mx-auto mt-3 max-w-xl font-display text-2xl leading-snug">Receba a programação do Theatro pelo WhatsApp</h2>
           <p className="mx-auto mt-3 max-w-md font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">Estreias, concertos e visitas guiadas, direto da organização do Theatro.</p>
-          <a href="https://wa.me/5519997195719?text=Ol%C3%A1!%20Gostaria%20de%20receber%20a%20programa%C3%A7%C3%A3o%20do%20Theatro%20Municipal." target="_blank" rel="noopener" className="mt-6 inline-block rounded-full bg-curtain px-7 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Falar no WhatsApp →</a>
+          <a href="https://wa.me/5519997195719?text=Ol%C3%A1!%20Gostaria%20de%20receber%20a%20programa%C3%A7%C3%A3o%20do%20Theatro%20Municipal." target="_blank" rel="noopener noreferrer" className="mt-6 inline-block rounded-full bg-curtain px-7 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Falar no WhatsApp →</a>
         </aside>
       </div>
     </article>

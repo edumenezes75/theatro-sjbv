@@ -290,8 +290,8 @@ export default function Home() {
             <Reveal delay={120}>
               <div className="flex flex-col gap-4">
                 <div className="flex flex-wrap gap-3">
-                  <a href={MAPS} target="_blank" rel="noopener" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Como chegar ↗</a>
-                  <a href={WPP} target="_blank" rel="noopener" className="rounded-full border border-curtain/40 px-6 py-3 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">WhatsApp</a>
+                  <a href={MAPS} target="_blank" rel="noopener noreferrer" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Como chegar ↗</a>
+                  <a href={WPP} target="_blank" rel="noopener noreferrer" className="rounded-full border border-curtain/40 px-6 py-3 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">WhatsApp</a>
                   <Link href="/programacao" className="rounded-full border border-curtain/40 px-6 py-3 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">Programação</Link>
                 </div>
                 <Link href="/visite" className="self-start border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Planeje sua visita →</Link>

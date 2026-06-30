@@ -20,7 +20,7 @@ export default function MapaVisita() {
       <a
         href={`https://www.google.com/maps/search/?api=1&query=${q}`}
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
         className="mt-4 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold"
       >
         Abrir no Google Maps ↗

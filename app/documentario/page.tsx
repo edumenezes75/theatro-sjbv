@@ -85,7 +85,7 @@ export default function DocumentarioPage() {
           <p>Dirigido por Eduardo Menezes e lançado em 2015, <em>Música &amp; Drama</em> reconstrói um século de vida do Theatro pela voz de quem o frequentou, defendeu e restaurou. Em pouco mais de cem minutos, costura imagens, documentos e dezenas de depoimentos — das memórias de infância no cinema à batalha contra a demolição, do projeto de 1913 à reabertura de 2002.</p>
           <p>Mais do que a cronologia de um edifício, é o retrato da relação entre uma cidade e o lugar onde ela se reconheceu. A transcrição completa, navegável abaixo, transforma esses relatos em fonte de consulta.</p>
         </div>
-        <a href="https://www.youtube.com/watch?v=e2stgoHtlAQ" target="_blank" rel="noopener" className="mt-3 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Abrir no YouTube ↗</a>
+        <a href="https://www.youtube.com/watch?v=e2stgoHtlAQ" target="_blank" rel="noopener noreferrer" className="mt-3 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Abrir no YouTube ↗</a>
 
         <section className="mt-16">
           <h2 className="font-display text-3xl">Ficha técnica</h2>
@@ -137,10 +137,10 @@ export default function DocumentarioPage() {
           <ol className="mt-6 grid gap-x-8 gap-y-1 sm:grid-cols-2">
             {momentos.map(([sec, name, tema]) => (
               <li key={sec} className="flex items-baseline gap-3 border-b border-gold/15 py-2.5">
-                <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener" title="Abrir o filme neste momento" className="shrink-0 font-display text-sm tabular-nums text-curtain hover:opacity-70 dark:text-gold">
+                <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener noreferrer" title="Abrir o filme neste momento" className="shrink-0 font-display text-sm tabular-nums text-curtain hover:opacity-70 dark:text-gold">
                   {`${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`}
                 </a>
-                <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener" className="font-sans text-[0.95rem] text-ink/85 hover:text-curtain dark:text-cream/85 dark:hover:text-gold">{name}</a>
+                <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener noreferrer" className="font-sans text-[0.95rem] text-ink/85 hover:text-curtain dark:text-cream/85 dark:hover:text-gold">{name}</a>
                 <Link href={tema} className="ml-auto shrink-0 self-center rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-[0.68rem] uppercase tracking-eyebrow text-ink/65 hover:border-curtain hover:text-curtain dark:text-cream/75 dark:hover:border-gold dark:hover:text-gold" title={`Ir para ${TEMA[tema]}`}>{TEMA[tema]}</Link>
               </li>
             ))}
@@ -156,7 +156,7 @@ export default function DocumentarioPage() {
                 <li key={pessoa.id} className="flex flex-wrap items-baseline gap-x-3 gap-y-1 py-3">
                   <Link href={`/pessoas/${pessoaSlug(pessoa)}`} className="font-display text-lg text-ink/90 hover:text-curtain dark:text-cream/90 dark:hover:text-gold">{pessoa.name}</Link>
                   <span className="font-sans text-[0.82rem] text-ink/55 dark:text-cream/55">{pessoa.role}</span>
-                  <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener" className="ml-auto shrink-0 font-display text-sm tabular-nums text-curtain hover:opacity-70 dark:text-gold" title="Abrir o filme neste momento">{t} ↗</a>
+                  <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener noreferrer" className="ml-auto shrink-0 font-display text-sm tabular-nums text-curtain hover:opacity-70 dark:text-gold" title="Abrir o filme neste momento">{t} ↗</a>
                 </li>
               ))}
             </ul>

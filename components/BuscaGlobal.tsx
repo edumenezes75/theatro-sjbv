@@ -51,7 +51,8 @@ export default function BuscaGlobal({ itens, initialQ = '' }: { itens: ItemBusca
 
   return (
     <div>
-      <div className="relative">
+      <form role="search" className="relative" onSubmit={(e) => e.preventDefault()}>
+        <label htmlFor="busca-input" className="sr-only">Buscar no site</label>
         <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink/40 dark:text-cream/40">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
         </span>
@@ -59,12 +60,13 @@ export default function BuscaGlobal({ itens, initialQ = '' }: { itens: ItemBusca
           ref={ref}
           value={q}
           onChange={(e) => setQ(e.target.value)}
+          id="busca-input"
           type="search"
           placeholder="Busque por um nome, uma foto, uma data, uma curiosidade…"
           aria-label="Buscar no site"
           className="w-full rounded-sm border border-ink/20 bg-cream/60 py-3.5 pl-12 pr-4 font-sans text-base text-ink outline-none transition-colors focus:border-curtain dark:border-cream/20 dark:bg-night/50 dark:text-cream dark:focus:border-gold"
         />
-      </div>
+      </form>
 
       {q.trim().length >= 2 && (
         <p className="mt-3 font-sans text-sm text-ink/60 dark:text-cream/60">
