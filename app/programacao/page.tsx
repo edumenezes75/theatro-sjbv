@@ -112,7 +112,7 @@ export default async function ProgramacaoPage() {
           <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <a href="https://www.instagram.com/theatro_municipal_sjbv/" target="_blank" rel="noopener" className="card-lift rounded-sm border border-gold/40 bg-gold/[0.04] p-5 hover:border-gold/70 dark:border-gold/40">
               <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Instagram do Theatro</p>
-              <p className="mt-2 font-display text-lg leading-tight">@theatro_municipal_sjbv</p>
+              <p className="mt-2 break-words font-display text-base leading-tight [overflow-wrap:anywhere]">@theatro_municipal_sjbv</p>
               <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Agenda, estreias e bastidores da casa →</p>
             </a>
             <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
