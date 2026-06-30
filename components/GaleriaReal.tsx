@@ -8,13 +8,13 @@ import { IconClose, IconChevron } from './Icons';
 
 const EP_RANK: Record<string, number> = { 'Histórico': 0, 'Pré-restauro': 1, 'Restauro': 2, 'Atual': 3 };
 const idNum = (id: string) => parseInt(id.replace(/\D/g, ''), 10) || 0;
-const GCAT = ['fachada', 'theatro', 'cidade', 'sala', 'ornamentos', 'medalhao', 'restauro', 'eventos', 'arte-cultura', 'pessoas', 'historicas'];
+const GCAT = ['fachada', 'sala', 'ornamentos', 'restauro', 'eventos', 'pessoas'];
 const gidx = (c: string) => { const k = GCAT.indexOf(c); return k < 0 ? 99 : k; };
 
 const _normLB = (x: string) => x.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
 export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true, colorLast = false, grouped = false, pessoasIndex = [] }: { fotos: Foto[]; withFilter?: boolean; showEpoca?: boolean; colorLast?: boolean; grouped?: boolean; pessoasIndex?: { slug: string; name: string }[] }) {
-  const CAT_ORDER = ['fachada', 'sala', 'ornamentos', 'eventos', 'pessoas', 'historicas', 'restauro'];
+  const CAT_ORDER = ['fachada', 'sala', 'ornamentos', 'restauro', 'eventos', 'pessoas'];
   const EP_ORDER = ['Histórico', 'Pré-restauro', 'Restauro', 'Atual'];
   const cats = useMemo(() => {
     const label = new Map<string, string>();
