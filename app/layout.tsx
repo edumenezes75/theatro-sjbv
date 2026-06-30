@@ -4,7 +4,6 @@ import './globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import SmoothScroll from '@/components/SmoothScroll';
-import ConsentBanner from '@/components/ConsentBanner';
 import DocPlayer from '@/components/DocPlayer';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
@@ -88,7 +87,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         <main id="conteudo">{children}</main>
         <Footer />
-        <ConsentBanner />
         <DocPlayer />
         <Analytics />
         <SpeedInsights />
