@@ -29,7 +29,7 @@ O acervo tem centenas de imagens — e muitos rostos, datas e ocasiões ainda se
 
 ## 3. Doe ou empreste documentos e fotografias
 
-Talvez a contribuição mais preciosa. Em álbuns de família e gavetas da cidade dormem **fotos, programas, cartazes, recortes de jornal, escrituras e cartas** que ainda não foram vistos. Você não precisa se desfazer de nada: podemos **digitalizar e devolver**, sempre com crédito a quem guardou. Foi assim que uma foto de um comício de 1919 acabou guiando o restauro do medalhão de Carlos Gomes — um papel guardado pode mudar a história.
+Talvez a contribuição mais preciosa. Em álbuns de família e gavetas da cidade dormem **fotos, programas, cartazes, recortes de jornal, escrituras e cartas** que ainda não foram vistos. Você não precisa se desfazer de nada: podemos **digitalizar e devolver**, sempre com crédito a quem guardou. Foi assim que uma foto de um comício de 1919 acabou guiando o restauro do medalhão de Carlos Gomes — um papel esquecido numa gaveta pode mudar a história.
 
 Tem algo assim? Deixe um recado no **Livro de Memórias** dizendo o que tem, ou fale pelo [WhatsApp](https://wa.me/5519997195719?text=Ol%C3%A1!%20Tenho%20fotos%2Fdocumentos%20antigos%20do%20Theatro%20para%20mostrar.) — combinamos o melhor jeito.
 

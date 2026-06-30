@@ -11,7 +11,7 @@ status: "texto público + dados estruturados"
 
 # Linha do tempo
 
-A cronologia não deve aparecer como uma longa parede de datas. O ideal é oferecer filtros por **construção**, **espetáculos**, **cinema**, **educação**, **preservação**, **restauro** e **gestão**.
+Mais de um século não cabe numa simples parede de datas. Abaixo, uma seleção dos marcos — construção, espetáculos, cinema, educação, preservação, restauro e gestão.
 
 Abaixo está uma seleção editorial. A base completa encontra-se em `../dados/linha-do-tempo.json`.
 

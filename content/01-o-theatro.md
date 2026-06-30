@@ -17,7 +17,7 @@ Hoje, ele reúne essas diferentes vidas em um mesmo edifício. É monumento hist
 
 ## Por que “Theatro”, com h?
 
-A grafia preserva a forma histórica usada nos documentos, programas e na própria identidade da casa. No início do século XX, “theatro” era uma escrita corrente em português. A reforma ortográfica substituiu essa forma por “teatro”, mas o nome próprio do edifício manteve a memória gráfica de sua época.
+A grafia preserva a forma histórica usada nos documentos, programas e na própria identidade da casa. No início do século XX, “theatro” era a grafia corrente em português. A reforma ortográfica substituiu essa forma por “teatro”, mas o nome próprio do edifício manteve a memória gráfica de sua época.
 
 Neste site, **Theatro** designa a instituição e o edifício. A palavra **teatro**, em minúscula, continua a ser usada para a arte, o gênero ou outros espaços.
 
@@ -45,7 +45,7 @@ Neste site, **Theatro** designa a instituição e o edifício. A palavra **teatr
 
 O Theatro ocupa uma posição privilegiada diante da praça e próximo à Catedral. Essa implantação o colocou, desde o início, no coração da circulação urbana. Ir ao espetáculo significava também atravessar a praça, encontrar conhecidos, observar a fachada iluminada e participar de um ritual público.
 
-A relação entre o prédio e o espaço externo aparece em muitas memórias. Jovens passeavam entre o Theatro e outros cinemas antes das sessões. Ônibus e carros de praça circulavam nas proximidades. O bar instalado na fachada tornou-se ponto de encontro. Mesmo quando o interior se deteriorava, o edifício continuava marcando a paisagem.
+A relação entre o prédio e o espaço externo aparece em muitas memórias. Jovens passeavam entre o Theatro e outros cinemas antes das sessões. Ônibus e carros de praça circulavam nas proximidades. O bar instalado na fachada tornou-se ponto de encontro. Mesmo quando o interior se deteriorava, a fachada seguia marcando a paisagem.
 
 ![A fachada eclética do Theatro diante da Praça da Catedral, no centro histórico.](/fotos/hr4-fachada-02.jpg)
 

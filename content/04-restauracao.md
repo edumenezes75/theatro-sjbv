@@ -56,7 +56,7 @@ No documentário, a equipe relembra como a viagem ao Rio foi decisiva. Guiados p
 
 Há um epílogo amargo. Aprovado o projeto que ele tanto ajudara a viabilizar, **Merlin não participou da obra**: foi afastado da equipe — “seu mundo pareceu desabar, seus olhos não mais brilhavam”, registrou a amiga Maria Célia Marcondes. Engenheiro formado pela UnB, que restaurara também a Biblioteca Nacional e o Museu de Belas Artes do Rio, ele se voltou então para o restauro da Catedral e a criação do Museu de Arte Sacra da cidade. Foi dele, ainda, o pedido para restaurar as quatro estátuas de mármore de Carrara — as **Quatro Estações** — que vieram da Praça Armando de Salles e hoje ocupam o foyer do Theatro.
 
-Ao retornar, precisou rever soluções. Em cerca de vinte dias de trabalho concentrado, dezenas de desenhistas e técnicos produziram aproximadamente 150 pranchas para apresentar o projeto e buscar recursos.
+Ao retornar, precisou rever soluções. Em cerca de vinte dias de trabalho concentrado, dezenas de desenhistas e técnicos produziram quase 150 pranchas para apresentar o projeto e buscar recursos.
 
 Essa capacidade de aprender é parte importante da história. O restauro não foi uma operação linear; foi um processo de pesquisa, erro, revisão e cooperação.
 

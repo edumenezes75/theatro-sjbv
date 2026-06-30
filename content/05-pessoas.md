@@ -13,7 +13,7 @@ status: "texto público"
 
 Um edifício não toma decisões, não ensaia uma criança, não vende ingresso, não pinta um cenário e não protesta contra a demolição. A história do Theatro é a soma de milhares de gestos humanos.
 
-Esta página apresenta alguns percursos. Ela não pretende estabelecer um panteão definitivo. Cada perfil deve se conectar a documentos, eventos e outras pessoas, permitindo que a coleção cresça.
+Esta página apresenta alguns percursos. Ela não pretende estabelecer um panteão definitivo. Cada perfil se conecta a documentos, eventos e outras pessoas, e a coleção continua a crescer.
 
 ## Fundação e construção
 
@@ -21,7 +21,7 @@ Esta página apresenta alguns percursos. Ela não pretende estabelecer um pante�
 
 Joaquim Cândido aparece como um dos principais articuladores da ideia de construir uma grande casa de espetáculos. Foi escolhido presidente da primeira diretoria da Companhia Teatral Sanjoanense e representou a dimensão cívica do empreendimento: a convicção de que arte, música e teatro contribuíam para o desenvolvimento da cidade.
 
-Seu papel deve ser contado junto ao da rede de acionistas, evitando a imagem de um fundador isolado. A Companhia dependia de capital compartilhado, apoio político e trabalho coletivo.
+Seu papel não pode ser contado isolado: a Companhia dependia de capital compartilhado, apoio político e trabalho coletivo — ele foi uma voz dentro de uma rede de acionistas.
 
 ### José Evangelista de Almeida
 
@@ -33,7 +33,7 @@ Transferido para Santos antes da inauguração, não estava no camarote da diret
 
 O projeto apresentado em 1913 traz a assinatura “J. Pucci” — o paulista José Pucci, que já havia projetado o Teatro São Paulo, na capital, antes de assinar a fachada e o programa arquitetônico do Theatro sanjoanense.
 
-No site público, o melhor é apresentar o que está documentado: assinatura, desenho, programa arquitetônico e recepção do projeto. A investigação sobre sua identidade pode se tornar uma reportagem aberta, mostrando como a história é construída.
+Do que sabemos com certeza, fica o documentado: a assinatura, o desenho, o programa arquitetônico e a boa recepção do projeto. O resto — quem foi, de onde veio — segue em aberto, e essa busca é parte de como a história se constrói.
 
 ### Antônio Lanzac
 
@@ -49,7 +49,7 @@ Por décadas, Dona Beloca organizou festivais beneficentes, reuniu artistas, ens
 
 Em 1952, dirigiu *Sonhos de Fada*, montagem infantil que transformava páginas de um grande livro em cenas de contos conhecidos. A memória de Beloca também foi homenageada pelo Cineclube criado décadas depois.
 
-Seu perfil deve valorizar o trabalho de produção cultural — uma função essencial, muitas vezes menos visível que a atuação em cena.
+O trabalho de produção cultural — articular, ensaiar, viabilizar — é essencial e quase sempre menos visível que a cena. O dela merece esse lugar.
 
 ### Anésia Martins Mattos
 
@@ -127,7 +127,7 @@ Eles também estavam ligados à produção artística. Em 1984, dirigiram e core
 
 Engenheiro, ator e articulador técnico, João Batista Merlin é lembrado como mentor importante da restauração. Ajudou a organizar estudos, contatos com especialistas e viagens técnicas ao Rio de Janeiro.
 
-Seu perfil deve unir as duas dimensões: conhecimento da cena e capacidade de engenharia. O Theatro exigia justamente essa combinação — compreender o edifício como estrutura e como máquina de espetáculo.
+Nele se uniam as duas dimensões: o conhecimento da cena e a capacidade de engenharia. O Theatro exigia justamente isso — compreender o edifício como estrutura e como máquina de espetáculo.
 
 ### Ana Laura Barcellos do Amaral Zenun
 
@@ -149,7 +149,7 @@ Artista plástico, José Marcondes participou da equipe inicial, de levantamento
 
 Associados ao restauro do medalhão de Carlos Gomes e a tratamentos artísticos, esses profissionais trabalharam na delicada passagem entre matéria antiga e reintegração contemporânea.
 
-O processo — localizar a pintura sob camadas, revelar, preencher lacunas e proteger — deve ser apresentado com fotografias e explicação acessível.
+O processo — localizar a pintura sob as camadas, revelá-la, preencher lacunas e protegê-la — é delicado: trabalha na fronteira entre a matéria antiga e a mão de hoje.
 
 ## Pesquisa, memória e continuidade
 
@@ -169,7 +169,7 @@ No site, o documentário pode funcionar como eixo de navegação: trechos ligado
 
 A Associação dos Amigos do Theatro Municipal foi criada em 2003 para contribuir com administração, programação e projetos. Seu trabalho reuniu pessoas de diferentes áreas e criou oportunidades para artistas locais, festivais, cinema e formação.
 
-A entidade deve ser apresentada como uma rede em transformação, com diretorias, voluntários, parcerias e projetos datados. O site não deve congelar a gestão de 2014 como se fosse a situação atual.
+A AMITE foi sempre uma rede em transformação, com diretorias, voluntários, parcerias e projetos que mudaram a cada ano — e não a fotografia fixa de uma única gestão.
 
 [Explorar todos os nomes na base de pessoas](../dados/pessoas.json) · [Ver eventos relacionados](./linha-do-tempo)
 

@@ -17,7 +17,7 @@ Para a maior parte dos sanjoanenses vivos, o Theatro não é a casa de ópera de
 
 ## 1937: a tela vence o palco
 
-O cinema já dividia o palco do Theatro desde 1914. Mas foi em **1937** que ele virou a vocação dominante. Naquele ano, o prédio — "já bastante deteriorado", segundo o livro do centenário, com apenas vinte e três anos e "bastante envelhecido" — foi fechado, e a maioria das ações da Companhia Teatral Sanjoanense foi comprada pelo **Dr. Joaquim José de Oliveira Neto**. Compraram-se poltronas novas e modernos equipamentos cinematográficos da Philips.
+O cinema já dividia o palco do Theatro desde 1914. Mas foi em **1937** que ele virou a vocação dominante. Naquele ano, o prédio — "já bastante deteriorado", segundo o livro do centenário, com apenas vinte e três anos — foi fechado, e a maioria das ações da Companhia Teatral Sanjoanense foi comprada pelo **Dr. Joaquim José de Oliveira Neto**. Compraram-se poltronas novas e modernos equipamentos cinematográficos da Philips.
 
 O documentário guarda a história de como essas ações chegaram a Oliveira Neto. A grande crise do café, em 1930, deixou muitos acionistas endividados com o banqueiro local **Cristiano Osório de Oliveira**, e eles foram lhe entregando as cotas — que, àquela altura, "não valiam nada". Boa parte desses papéis acabou com **Dona Tita de Oliveira**, que os passou ao sobrinho predileto. Formado em medicina no Rio de Janeiro, Oliveira Neto nunca quis clinicar: entregou o diploma à própria tia — "vocês querem diploma de médico? está aí; eu nunca vou ser médico" — e seguiu a vocação de professor. Foi ele quem, por cerca de quatro décadas, manteve a casa de portas abertas como cinema.
 

@@ -25,7 +25,7 @@ Por isso a leitura mais precisa, proposta pela pesquisa acadêmica, é esta: o e
 
 Os números dão a medida. Em um levantamento de 576 edições de *O Município* entre 1913 e 1925, o Theatro aparece em **433 delas (75,2%)**, com 553 menções. E, na contagem das atrações, os **filmes predominam** com folga sobre os espetáculos ao vivo (cerca de 67 eventos cênicos e musicais não cinematográficos no período), os festivais amadores e os bailes.
 
-Por que tanto cinema? Custo e risco. Trazer companhias exigia contratos, transporte e cenários; o filme custava menos e alcançava mais gente, a preços acessíveis. E o cinema era moderno — ver fitas, em 1914, ligava o público sanjoanense a uma cultura global de imagens. A casa também abria as portas para bailes de Carnaval, festivais beneficentes (em prol da Matriz, da Santa Casa, da Cruz Vermelha) e, em momentos de aperto, até para um ringue de patinação.
+Por que tanto cinema? Custo e risco. Trazer companhias exigia contratos, transporte e cenários; o filme custava menos, alcançava mais gente e cabia no bolso do público. E o cinema era moderno — ver fitas, em 1914, ligava o público sanjoanense a uma cultura global de imagens. A casa também abria as portas para bailes de Carnaval, festivais beneficentes (em prol da Matriz, da Santa Casa, da Cruz Vermelha) e, em momentos de aperto, até para um ringue de patinação.
 
 ![O programa do grandioso festival de 31 de março de 1932 no Theatro.](/fotos/hr8-doc-festival-1932.jpg)
 

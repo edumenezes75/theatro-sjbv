@@ -11,7 +11,7 @@ status: "texto público"
 
 # Arquitetura
 
-A primeira impressão vem da fachada. A experiência completa, porém, só aparece quando se atravessam as portas e a sala se abre em curva. Plateia, frisas, camarotes e galerias envolvem o palco. O público vê e também é visto.
+A primeira impressão vem da fachada. A experiência inteira, porém, só chega quando se atravessam as portas e a sala se abre em curva. Plateia, frisas, camarotes e galerias envolvem o palco. O público vê e também é visto.
 
 Essa relação entre cena e espectadores é uma das marcas da tradição teatral italiana que orientou o projeto do Theatro.
 

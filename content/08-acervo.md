@@ -13,7 +13,7 @@ status: "arquitetura editorial"
 
 Uma fotografia mostra o que a memória esqueceu. Um programa recupera a grafia de um nome. Um cartaz revela preços, horários e setores. Uma planta explica uma parede que já não existe.
 
-O acervo digital deve permitir que esses documentos sejam vistos como fontes, não apenas como ilustração.
+Aqui, esses documentos podem ser vistos como fontes — e não apenas como ilustração.
 
 ## Coleções iniciais
 

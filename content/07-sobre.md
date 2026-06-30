@@ -41,6 +41,6 @@ Se você reconheceu alguém em uma foto, lembra de uma sessão de cinema, de um 
 
 ## Créditos
 
-Pesquisa, curadoria e edição reuniram documentos, depoimentos e o trabalho de pesquisadores, fotógrafos e moradores citados ao longo do site. Os créditos específicos de imagens, textos e do documentário aparecem nas respectivas páginas e na página de [fontes](./fontes).
+A pesquisa, a curadoria e a edição reuniram documentos, depoimentos e o trabalho de pesquisadores, fotógrafos e moradores citados ao longo do site. Os créditos específicos de imagens, textos e do documentário aparecem nas respectivas páginas e na página de [fontes](./fontes).
 
 [Conhecer a história](./historia) · [Ver o acervo](./acervo) · [Pesquisa e fontes](./fontes)

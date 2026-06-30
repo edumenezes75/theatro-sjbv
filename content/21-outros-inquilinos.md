@@ -17,7 +17,7 @@ Quem pensa no Theatro só como uma sala de espetáculos perde metade da históri
 
 ## Um prédio, muitos ofícios
 
-O Theatro nunca foi um edifício de uso único. Enquanto o palco recebia filmes e companhias, as salas anexas levavam vida própria — e o segundo andar, em especial, virou um verdadeiro laboratório cultural, passando de mãos em mãos entre sociedades, escolas, uma rádio e a biblioteca. Era cultura, estudo, lazer e convívio sob o mesmo teto.
+O Theatro nunca foi um edifício de uso único. Enquanto o palco recebia filmes e companhias, as salas anexas seguiam seu próprio compasso — e o segundo andar, em especial, virou um verdadeiro laboratório cultural, passando de mãos em mãos entre sociedades, escolas, uma rádio e a biblioteca. Era cultura, estudo, lazer e convívio sob o mesmo teto.
 
 ## A Sociedade de Cultura Artística
 

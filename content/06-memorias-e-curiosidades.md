@@ -21,7 +21,7 @@ Esta página reúne episódios apoiados em documentos e lembranças pessoais. Qu
 
 Mesas, decoração, música e dança ocupavam o lugar das cadeiras. As galerias permaneciam cheias, e a sala inteira funcionava como cenário social.
 
-As imagens dos bailes recompensam o olhar atento: roupas, músicos, decoração, iluminação e a ocupação das galerias contam, nos detalhes, como a cidade vivia o Theatro.
+As imagens dos bailes recompensam o olhar atento: as roupas, os músicos, a decoração, as luzes, as galerias cheias — nos detalhes, contam como a cidade vivia o Theatro.
 
 ## O cinema tinha seu próprio ritual
 

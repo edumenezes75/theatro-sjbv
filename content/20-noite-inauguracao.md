@@ -11,7 +11,7 @@ status: "dossiê"
 
 # A noite de inauguração
 
-Depois de três anos de leis, ações, dívidas e obras, chegou a noite. Em 31 de outubro de 1914, a cidade entrou pela primeira vez na sala que havia construído para si — e se viu em gala. Mas a estreia, festiva, trazia também uma ausência melancólica e um problema que assombraria o Theatro por décadas: o público, que lotou a inauguração, nem sempre voltaria.
+Depois de três anos de leis, ações, dívidas e obras, chegou a noite. Em 31 de outubro de 1914, a cidade entrou pela primeira vez na sala que havia construído para si — e se viu em gala. Mas a estreia trazia também uma ausência melancólica e um problema que assombraria o Theatro por décadas: o público, que lotou a inauguração, nem sempre voltaria.
 
 > **Em um minuto:** o Theatro foi inaugurado em 31 de outubro de 1914, com casa lotada, banda, discurso e a peça *Uma Causa Célebre*, da Companhia Santos Silva. Faltou à festa, porém, o idealizador José Evangelista de Almeida, já mudado para Santos. Na primeira temporada desfilaram grandes companhias em turnê — mas a bilheteria logo começou a minguar, e a casa precisou ser arrendada.
 

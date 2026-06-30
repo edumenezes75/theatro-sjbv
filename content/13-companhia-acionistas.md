@@ -97,7 +97,7 @@ Uma casa endividada precisa de receita. Por isso o **arrendamento** foi central 
 
 Uma versão difundida diz que jovens sanjoanenses voltaram da Europa com a ideia de construir um teatro. A imagem é elegante — juventude culta, viagem, inspiração cosmopolita —, mas insuficiente. A documentação mostra Câmara Municipal, leis de garantia de juros, estatutos, capital, empréstimos, debêntures, arrendamento e expectativa de lucro.
 
-A história fica melhor quando se abandona a origem heroica simplificada. A cidade queria um teatro porque ele dava status; os acionistas queriam rendimento; o poder público queria melhoramento; o público queria diversão; os jornais queriam narrar progresso. Essa soma de interesses — e não um sonho isolado — é o que ergueu o Theatro. Décadas depois, sem atividade e endividada, a própria Companhia chegaria ao fim: entre 1977 e 1978, a Justiça conduziu sua liquidação, e as ações, de acionistas em sua maioria já falecidos, foram partilhadas.
+A história fica melhor quando se abandona a origem heroica simplificada. A cidade queria um teatro porque ele dava status; os acionistas, rendimento; o poder público, melhoramento; o público, diversão; os jornais, narrar progresso. Essa soma de interesses — e não um sonho isolado — é o que ergueu o Theatro. Décadas depois, sem atividade e endividada, a própria Companhia chegaria ao fim: entre 1977 e 1978, a Justiça conduziu sua liquidação, e as ações, de acionistas em sua maioria já falecidos, foram partilhadas.
 
 ## A cidade, nome a nome
 

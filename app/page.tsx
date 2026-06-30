@@ -318,7 +318,7 @@ export default function Home() {
               <span className="grid h-7 w-7 place-items-center rounded-full bg-ink/15">
                 <svg width="11" height="12" viewBox="0 0 11 12" fill="currentColor" aria-hidden><path d="M0 0v12l11-6z" /></svg>
               </span>
-              Assistir o documentário
+              Assistir ao documentário
             </Link>
           </Reveal>
         </div>

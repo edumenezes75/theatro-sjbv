@@ -18,7 +18,7 @@ O Theatro Municipal está no centro histórico de São João da Boa Vista, diant
 
 ## Antes de ir
 
-Para espetáculos, vale confirmar com antecedência a programação e a venda de ingressos, a abertura da bilheteria e as regras de entrada, além de estacionamento, embarque e desembarque e a política para fotografias. Para visitas escolares e guiadas, produção ou locação, fale com o Departamento de Cultura pelos contatos acima.
+Para espetáculos, vale confirmar com antecedência a programação e a venda de ingressos, a abertura da bilheteria e as regras de entrada, além de estacionamento, embarque e desembarque e a política para fotografias. Para visitas escolares e guiadas, produção ou locação, fale com o Departamento de Cultura.
 
 [Ver a programação](./programacao)
 

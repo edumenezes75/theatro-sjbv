@@ -31,7 +31,7 @@ Mais de um século depois, o Theatro continua de pé diante da praça. Sua facha
 
 O Theatro nasceu para receber companhias dramáticas, música e grandes espetáculos. Logo, porém, passou a servir a quase tudo o que mobilizava a cidade: festivais beneficentes, formaturas, comícios, bailes, festas juninas, sessões de cinema, aulas, programas de rádio, biblioteca e encontros literários.
 
-Essa variedade não diminui sua identidade. Ao contrário: mostra como o edifício se tornou parte da vida cotidiana. Para algumas gerações, ele foi sobretudo teatro. Para outras, foi o Cine Theatro, com matinês, seriados e bomboniere. Para quem viveu os anos de abandono, foi uma presença ameaçada. Para quem participou da restauração, tornou-se prova de que uma comunidade pode salvar aquilo que reconhece como seu.
+Essa variedade não dilui sua identidade. Ao contrário: mostra como o edifício entrou na vida cotidiana da cidade. Para algumas gerações, ele foi sobretudo teatro. Para outras, foi o Cine Theatro, com matinês, seriados e bomboniere. Para quem viveu os anos de abandono, foi uma presença ameaçada. Para quem participou da restauração, tornou-se prova de que uma comunidade pode salvar aquilo que reconhece como seu.
 
 ## O que torna este Theatro especial
 

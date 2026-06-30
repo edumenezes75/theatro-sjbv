@@ -57,7 +57,7 @@ Mas a preservação **não foi unanimidade** — e essa é uma parte da históri
 
 ## A compra, em duas etapas
 
-A pressão não tombou o prédio de imediato, mas levou o poder público à compra. O prefeito Beraldo adquiriu o edifício do Dr. Oliveira Neto de forma incomum, **em duas partes**: em **janeiro de 1984**, a metade da frente — foyer, plateia e parte dianteira do palco; o fundo do palco, os camarins e o terreno dos fundos ficaram, por ora, com o antigo proprietário.
+A pressão não tombou o prédio de imediato, mas empurrou o poder público à compra. O prefeito Beraldo adquiriu o edifício do Dr. Oliveira Neto de forma incomum, **em duas partes**: em **janeiro de 1984**, a metade da frente — foyer, plateia e parte dianteira do palco; o fundo do palco, os camarins e o terreno dos fundos ficaram, por ora, com o antigo proprietário.
 
 A divisão tinha uma razão concreta: logo se percebeu que era impossível restaurar ou operar um teatro sem a caixa cênica completa. A Prefeitura voltou à mesa e concluiu a **compra da segunda parte em maio de 1985**. Só então o Theatro voltava a ser um conjunto coerente.
 

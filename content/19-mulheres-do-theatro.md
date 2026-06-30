@@ -25,7 +25,7 @@ Ao seu lado estavam nomes como **Zilah e Isaura Mattos**, Lucila Martarello e Ro
 
 *Gabriela de Oliveira Costa, a Dona Beloca — à frente dos espetáculos beneficentes do Theatro por cerca de 25 anos.*
 
-![Cena de espetáculo com Lucila Martarello![Cena de espetáculo com Lucila Martarello, a “prata da casa”, no palco.](/fotos/hr-eventos-34.jpg)
+![Cena de espetáculo com Lucila Martarello, a “prata da casa”, no palco.](/fotos/hr-eventos-34.jpg)
 
 *Lucila Martarello, a “prata da casa” — a fada de* Sonhos de Fada *(1952), dirigido por Dona Beloca.*
 

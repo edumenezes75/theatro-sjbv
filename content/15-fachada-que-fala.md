@@ -13,7 +13,7 @@ status: "dossiê"
 
 Antes de a cortina subir, a fachada já fala. Ela foi composta para anunciar, na própria pedra, o que se esperava encontrar lá dentro — e o que a cidade queria que pensassem dela. Lê-la com atenção, como faz a pesquisa acadêmica, é entender São João no auge do café: uma cidade do interior negociando, no estuque e no ferro, o seu lugar no mundo.
 
-> **Em um minuto:** a fachada é eclética — mistura barroco, clássico e Art Nouveau — e usa estrutura de ferro fundido para erguer um edifício alto e monumental. No alto, uma águia de cimento e vasos coroam a platibanda. Quatro medalhões alinham Wagner, Gounod, Verdi e Carlos Gomes, lado a lado, sem hierarquia. E, por toda parte, ramos de café lembram quem pagou a conta. Era um discurso de modernidade — iluminado, em 1914, por 250 lâmpadas elétricas.
+> **Em um minuto:** a fachada é eclética — mistura barroco, clássico e Art Nouveau — e usa estrutura de ferro fundido para erguer um edifício alto e monumental. No alto, uma águia de cimento e vasos coroam a platibanda. Quatro medalhões alinham Wagner, Gounod, Verdi e Carlos Gomes, lado a lado, sem hierarquia. E, por toda parte, ramos de café lembram de quem veio o dinheiro. Era um discurso de modernidade — iluminado, em 1914, por 250 lâmpadas elétricas.
 
 ## Uma alegoria de época
 

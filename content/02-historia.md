@@ -11,7 +11,7 @@ status: "texto público"
 
 # História do Theatro
 
-A história do Theatro Municipal pode ser lida como uma peça em oito atos. Há entusiasmo, risco, improviso, crise, silêncio, mobilização, reencontro e permanência. Em todos eles, a cidade aparece não apenas como cenário, mas como personagem.
+A história do Theatro Municipal pode ser lida como uma peça em oito atos: entusiasmo, risco, improviso, crise, silêncio, mobilização, reencontro e permanência. Em todos eles, a cidade aparece não apenas como cenário, mas como personagem.
 
 > **Em um minuto:** a vontade de construir uma grande casa de espetáculos ganhou forma entre 1911 e 1913. O prédio abriu em 1914, tornou-se palco de muitas artes e depois cinema. Descaracterizado e ameaçado, foi defendido pela população, adquirido pelo município, tombado e restaurado. Em 2002, a plateia voltou a ocupar a sala.
 
@@ -43,7 +43,7 @@ A pedra fundamental foi assentada em 13 de maio de 1913. A cerimônia reuniu cer
 
 Esse gesto transformava a construção em mensagem para o futuro. O edifício ainda não existia, mas seus responsáveis já imaginavam que alguém, décadas depois, desejaria saber quem eram e como viviam.
 
-A obra avançou sob fiscalização associada ao construtor espanhol Antônio Lanzac. Sobre a origem dos materiais, as fontes divergem: o livro do centenário registra estrutura metálica pré-fabricada e numerada na Bélgica, enquanto o processo de tombamento menciona estrutura e cimento de procedência alemã e telhas de Marselha. Ambas reforçam a dimensão industrial e transatlântica da obra — só notas fiscais, marcas das peças ou registros de importação poderiam fechar a questão.
+A obra avançou sob a fiscalização do construtor espanhol Antônio Lanzac. Sobre a origem dos materiais, as fontes divergem: o livro do centenário registra estrutura metálica pré-fabricada e numerada na Bélgica, enquanto o processo de tombamento menciona estrutura e cimento de procedência alemã e telhas de Marselha. Ambas reforçam a dimensão industrial e transatlântica da obra — só notas fiscais, marcas das peças ou registros de importação poderiam fechar a questão.
 
 O custo superou o capital inicial. Empréstimos e debêntures foram necessários, e as dívidas acompanharam a Companhia por anos. O Theatro nasceu, portanto, de entusiasmo, mas também de uma engenharia financeira difícil.
 
@@ -108,7 +108,7 @@ A partir daí vieram as matinês, os seriados e o ritual do domingo no cinema �
 
 ### O palco não desapareceu
 
-Mesmo virado cinema, o edifício seguiu recebendo apresentações: em 1945 uma peça reabriu a casa; em 1946, **Guiomar Novaes** tocou para os conterrâneos ([a pianista e o Theatro →](/guiomar-novaes-e-o-theatro)); em 1952, Procópio Ferreira passou pelo palco. E havia muito mais que cinema sob aquele teto — rádio, biblioteca, bar e sociedades culturais, reunidos em [Os outros inquilinos →](/os-outros-inquilinos).
+Mesmo virado cinema, o edifício seguiu recebendo apresentações: em 1945 uma peça reabriu a casa; em 1946, **Guiomar Novaes** tocou para os seus conterrâneos ([a pianista e o Theatro →](/guiomar-novaes-e-o-theatro)); em 1952, Procópio Ferreira passou pelo palco. E havia muito mais que cinema sob aquele teto — rádio, biblioteca, bar e sociedades culturais, reunidos em [Os outros inquilinos →](/os-outros-inquilinos).
 
 ### A reforma de 1967
 

@@ -31,7 +31,7 @@ O tamanho da ambição aparece num programa anterior, de **31 de março de 1931*
 
 *O programa de uma das noites dirigidas pelo padre Nicolau Miranda e por Dona Beloca — com a relação nominal dos músicos da orquestra. A cidade levava a sério a própria música.*
 
-## 31 de março de 1932: a estreia
+## 1932: a estreia
 
 O **principal evento** da passagem do padre por São João foi a opereta **Branca de Neve, de sua composição** — uma versão musical da história dos irmãos Grimm, com **cenários do professor Herculano de Almeida**. Estreou em **1932**, com a direção partilhada entre o padre Nicolau Miranda, Herculano de Almeida e as senhoras **Beloca Oliveira Costa e Zilah Mattos**.
 
