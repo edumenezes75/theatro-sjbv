@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",
+    "@vercel/speed-insights": "^1.0.12",
     "gray-matter": "^4.0.3",
     "lenis": "^1.1.18",
     "marked": "^12.0.2",
