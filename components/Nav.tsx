@@ -26,7 +26,6 @@ const MENU: Grupo[] = [
   { label: 'Memória', items: [
     { href: '/memorias', label: 'Curiosidades' },
     { href: '/livro-de-memorias', label: 'Livro de Memórias' },
-    { href: '/contribua', label: 'Como contribuir' },
   ] },
   { label: 'Visite', items: [
     { href: '/programacao', label: 'Programação' },
