@@ -18,13 +18,12 @@ export default function AcervoPage() {
   const page = getPageBySlug('/acervo');
   const destaqueIds = ['h206', 'h049', 'h001', 'h050', 'h045', 'h020', 'h193', 'h087', 'h083', 'h016', 'h194', 'h028', 'h184', 'h096', 'h137', 'h024', 'h043', 'h095', 'h094'];
   const destaque = destaqueIds.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList;
-  const ev = (f: (typeof fotosList)[number]) => f.category === 'eventos';
   const doc = (f: (typeof fotosList)[number]) => f.category === 'documentos';
   const vis = fotosList.filter((f) => !f.hideAcervo);
   // Quatro capítulos: o histórico, a decadência→restauro, o Theatro hoje (restaurado + vivo) e os documentos.
   const hist = vis.filter((f) => f.epoca === 'Histórico' && !doc(f)); // edifício e vida cultural de outrora
-  const decRest = vis.filter((f) => (f.epoca === 'Pré-restauro' || f.epoca === 'Restauro') && !doc(f) && !ev(f)); // abandono + obra
-  const hoje = vis.filter((f) => !doc(f) && f.epoca !== 'Histórico' && !((f.epoca === 'Pré-restauro' || f.epoca === 'Restauro') && !ev(f))); // restaurado + palco vivo
+  const decRest = vis.filter((f) => (f.epoca === 'Pré-restauro' || f.epoca === 'Restauro') && !doc(f)); // abandono + obra + eventos durante o restauro
+  const hoje = vis.filter((f) => f.epoca === 'Atual' && !doc(f)); // o Theatro restaurado e em uso
   const docs = vis.filter(doc);
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const ldGallery = {
@@ -81,7 +80,7 @@ export default function AcervoPage() {
           </div>
           <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Da decadência ao restauro</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            O abandono, as goteiras e os ornatos perdidos — e, depois, os andaimes, a escavação do fosso da orquestra, a decapagem e os artistas devolvendo cor à sala. <span className="text-curtain dark:text-gold">{decRest.length} imagens.</span> Use o filtro de época para separar a decadência do restauro.
+            O abandono, as goteiras e os ornatos perdidos — e, depois, os andaimes, a escavação do fosso da orquestra, a decapagem, os artistas devolvendo cor à sala — e os primeiros eventos na sala ainda em obras (a Bienal de Artes, a Semana Furlanetto). <span className="text-curtain dark:text-gold">{decRest.length} imagens.</span> Use o filtro de época e de tema para separar a obra dos eventos.
           </p>
           <LazyMount><GaleriaReal fotos={decRest} pessoasIndex={pessoasIndexMin} showEpoca /></LazyMount>
         </section>
