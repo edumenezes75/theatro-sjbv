@@ -34,8 +34,8 @@ const MAPS = 'https://www.google.com/maps/search/?api=1&query=' + encodeURICompo
 const WPP = 'https://wa.me/5519997195719?text=' + encodeURIComponent('Olá! Gostaria de informações para visitar o Theatro Municipal.');
 
 export default function Home() {
-  // tira curada: fachada · sala em ferradura restaurada · ornamento restaurado · acionistas · restauro do medalhão · concerto
-  const STRIP_IDS = ['h024', 'h065', 'h184', 'h003', 'h083', 'h043'];
+  // tira curada (exclusiva da home, sem repetir outras páginas): fachada · sala em ferradura · escadaria · ornamento · restauro · baile de 1930
+  const STRIP_IDS = ['h024', 'h154', 'h133', 'h184', 'h089', 'h082'];
   const strip = STRIP_IDS
     .map((id) => fotosList.find((f) => f.id === id))
     .filter(Boolean) as typeof fotosList;
