@@ -4,8 +4,8 @@ title: "Como contribuir"
 eyebrow: "Esta memória é da cidade — e cresce com você"
 seo_title: "Como contribuir com a memória do Theatro Municipal de São João da Boa Vista"
 seo_description: "Deixe sua lembrança, ajude a identificar fotos antigas, doe documentos e corrija informações: como qualquer sanjoanense pode ajudar a guardar a história do Theatro Municipal."
-hero_image: "/fotos/hr-pessoas-03.jpg"
-hero_alt: "Acionistas da Companhia Teatral Sanjoanense — a rede de cidadãos que ergueu o Theatro a partir de 1912."
+hero_image: "/fotos/sl-38.jpg"
+hero_alt: "Um grupo posando para retrato no Theatro, em registro de outras décadas."
 status: "texto público"
 ---
 

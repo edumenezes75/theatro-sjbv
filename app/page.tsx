@@ -216,7 +216,7 @@ export default function Home() {
 
       {/* FULL-BLEED — imagem + frase */}
       <section className="relative h-[78vh] min-h-[460px] overflow-hidden grain">
-        <Image src="/fotos/hr-sala-50.jpg" alt="A fachada na época do Cine Theatro, com cartazes de cinema." fill className="object-cover" sizes="100vw" />
+        <Image src="/fotos/hr-pessoas-19.jpg" alt="Vista antiga da praça e do entorno do Theatro, no centro da cidade." fill className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-night/85 via-night/30 to-night/10" />
         <div className="relative mx-auto flex h-full max-w-6xl items-end px-5 pb-16">
           <Reveal>
@@ -303,7 +303,7 @@ export default function Home() {
 
       {/* DOCUMENTARIO CTA — cinematográfico */}
       <section className="relative overflow-hidden text-cream">
-        <Image src="/fotos/hr-sala-36.jpg" alt="" aria-hidden fill sizes="100vw" className="object-cover object-center" />
+        <Image src="/fotos/hr-historicas-37.jpg" alt="" aria-hidden fill sizes="100vw" className="object-cover object-center" />
         <div className="absolute inset-0 bg-gradient-to-t from-night via-night/85 to-night/65" />
         <div className="absolute inset-0 bg-curtaindark/35 mix-blend-multiply" aria-hidden />
         <div className="absolute inset-0 grain opacity-50" aria-hidden />

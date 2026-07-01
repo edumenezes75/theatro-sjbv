@@ -28,9 +28,9 @@ Circularam notícias de venda para empreendimentos que poderiam eliminar o edif�
 Em 1981, o município declarou o imóvel de utilidade pública. A decisão criou um primeiro bloqueio contra a descaracterização, mas ainda faltavam compra, projeto, recursos e proteção patrimonial.
 
 
-![O Theatro deteriorado, no período de declínio que antecedeu a mobilização.](/fotos/hr-historicas-46.jpg)
+![Inscrições a lápis reveladas sob as camadas de tinta durante o restauro.](/fotos/hr5-restauro-05.jpg)
 
-*O Theatro deteriorado, no período de declínio que antecedeu a mobilização.*
+*Inscrições a lápis reveladas sob as camadas de tinta durante o restauro.*
 
 ## Quando artistas tomaram a frente
 
@@ -148,9 +148,9 @@ Preservar não termina com a reabertura. A própria obra continuou depois de 200
 
 Reportagens locais entre 2023 e 2024 registraram pontos a enfrentar — entre eles a entrada de água da chuva por portas laterais e a fragilidade de esquadrias — e listaram demandas de pintura, palco, camarins, instalações, acessibilidade, som e luz. Em 2024, obras externas e internas avançaram com pintura de fachada, palco e foyer; parte das intervenções, porém, ficou inacabada, e a manutenção preventiva permanece como agenda aberta.
 
-![Inscrições de alunos do Teatro-Escola (1957) na lateral do palco, preservadas no restauro.](/fotos/hr5-restauro-07.jpg)
+![A escavação do fosso da orquestra, sob o palco, com a boca de cena ao fundo, durante as obras.](/fotos/hr3-restauro-05.jpg)
 
-*Inscrições deixadas por alunos do Teatro-Escola em 1957, na lateral do palco — pequenas marcas humanas que a obra escolheu preservar.*
+*A escavação do fosso da orquestra, sob o palco, com a boca de cena ao fundo, durante as obras.*
 
 
 Esse é o estágio honesto de um edifício de mais de cem anos: vivo e em uso, mas exigindo atenção contínua. A própria história do Theatro mostra que sua conservação sempre dependeu de vontade pública e mobilização — e segue dependendo.

@@ -14,8 +14,8 @@ export default function LivroDeMemoriasPage() {
       <ChapterHero
         eyebrow="A cidade escreve sua própria história"
         title="Livro de Memórias"
-        image="/fotos/hr2-sala-05.jpg"
-        alt="A sala em ferradura do Theatro Municipal, com os camarotes e as poltronas vermelhas."
+        image="/fotos/sl-03.jpg"
+        alt="A plateia em ferradura do Theatro restaurado, vista do palco."
       />
       <div className="mx-auto max-w-3xl px-5 py-16 sm:py-20">
         <p className="max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">

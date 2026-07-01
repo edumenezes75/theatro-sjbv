@@ -50,8 +50,8 @@ export default function VisitaGuiadaPage() {
       <ChapterHero
         eyebrow="Por onde começar"
         title="Visita guiada"
-        image="/fotos/hr-sala-36.jpg"
-        alt="A sala em ferradura do Theatro Municipal de São João da Boa Vista."
+        image="/fotos/hr4-historicas-07.jpg"
+        alt="Homenagem no Theatro Municipal, com a plateia lotada — registro histórico."
       />
       <div className="mx-auto max-w-6xl px-5 py-14">
         <p className="mb-12 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">

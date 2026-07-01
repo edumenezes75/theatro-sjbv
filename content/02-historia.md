@@ -100,9 +100,9 @@ Em 1930, o conjunto de Heitor Villa-Lobos passou pela cidade, e Souza Lima apres
 Em 1937, o prédio, já deteriorado, foi fechado temporariamente. Joaquim José de Oliveira Neto adquiriu a maioria das ações da Companhia. Poltronas e equipamentos de projeção foram renovados, e o cinema passou a dominar o cotidiano do edifício.
 
 
-![A entrada do antigo Bar Theatro, sob os toldos “Teatro”, na Praça da Catedral.](/fotos/hr7-bar-theatro.jpg)
+![O Theatro Municipal em cartão-postal antigo — “S. João da Boa Vista, Estado de S. Paulo”.](/fotos/hr8-fachada-postal.jpg)
 
-*A entrada do antigo Bar Theatro, sob os toldos “Teatro” — o edifício no tempo do cinema e da decadência, ainda ponto de encontro na Praça da Catedral.*
+*O Theatro Municipal em cartão-postal antigo — “S. João da Boa Vista, Estado de S. Paulo”.*
 
 A partir daí vieram as matinês, os seriados e o ritual do domingo no cinema — toda uma fase afetiva que ganhou episódio próprio: [O tempo do CineTheatro →](/o-tempo-do-cinetheatro).
 
@@ -115,9 +115,9 @@ Mesmo virado cinema, o edifício seguiu recebendo apresentações: em 1945 uma p
 Em fevereiro de 1967, frisas e camarotes foram retirados para dar mais assentos ao cinema — a intervenção que mais descaracterizou a sala antes do restauro. Ainda subiram ao palco nomes como Roberto Carlos (1968), Dercy Gonçalves e Agnaldo Rayol (1982), mas a concorrência de cinemas mais novos, a televisão e o desgaste do prédio aceleraram o declínio, até o fechamento de 1982.
 
 
-![A fachada na época do Cine Theatro, com cartazes de cinema no térreo.](/fotos/hr-sala-50.jpg)
+![A biblioteca abrigada no edifício — o Theatro também como casa de leitura.](/fotos/hr-eventos-12.jpg)
 
-*A fachada na época do Cine Theatro, com cartazes de cinema no térreo.*
+*A biblioteca abrigada no edifício — o Theatro também como casa de leitura.*
 
 
 ## 6. O prédio que a cidade se recusou a perder — 1981 a 1987
@@ -135,9 +135,9 @@ Artistas e moradores transformaram a ameaça em causa pública — manifestaçõ
 A Prefeitura adquiriu o imóvel em duas etapas — a porção frontal em janeiro de 1984, o palco e os fundos em 1985 —, porque um teatro funcional exigia o conjunto completo. O tombamento estadual foi **aprovado por unanimidade pelo CONDEPHAAT em dezembro de 1985** e **formalizado pela resolução de 19 de janeiro de 1987**, reconhecendo o valor histórico do edifício.
 
 
-![A sala esvaziada, antes do restauro — anos de abandono e risco de demolição.](/fotos/hr-historicas-45.jpg)
+![A sala vista da plateia — a boca de cena, o forro decorado e a curva das galerias.](/fotos/hr3-sala-01.jpg)
 
-*A sala esvaziada, antes do restauro — anos de abandono e risco de demolição.*
+*A sala vista da plateia — a boca de cena, o forro decorado e a curva das galerias.*
 
 
 ## 7. Uma restauração longa — 1986 a 2002
@@ -157,9 +157,9 @@ O foyer foi inaugurado em dezembro de 1992. Mesmo incompleto, o Theatro voltou a
 A Fundação Oliveira Neto, criada em 1998, ajudou a captar recursos por incentivos e campanhas. Em setembro de 2002, durante a 25ª Semana Guiomar Novaes, o público reencontrou a sala principal.
 
 
-![Decapagem — a remoção controlada das camadas de tinta que escondiam pinturas e ornamentos.](/fotos/hr-restauro-20.jpg)
+![O palco logo após a retirada da tela de cinema, em 1984 — reaparecendo a caixa cênica original.](/fotos/hr-restauro-33.jpg)
 
-*Decapagem — a remoção controlada das camadas de tinta que escondiam pinturas e ornamentos.*
+*O palco logo após a retirada da tela de cinema, em 1984 — reaparecendo a caixa cênica original.*
 
 ## 8. O Theatro volta a pertencer ao cotidiano — 2003 em diante
 
@@ -171,9 +171,9 @@ Entre os projetos registrados no livro estão o Cineclube Beloca, Concertos Mati
 
 O reencontro com a sala traduziu-se em uso intenso: levantamentos acadêmicos contam cerca de **1.175 eventos entre 2004 e 2014** — 584 musicais, 338 cênicos, 102 de outras naturezas e 151 sessões do Cineclube Dona Beloca. Em 2014, o centenário mobilizou programação de fevereiro a novembro — com a Jazz Sinfônica, o Festival Leilah Assumpção e releituras de Shakespeare — e gerou o livro que sustenta grande parte deste site. Em 2015, o documentário *Música & Drama* reuniu a história em linguagem audiovisual. A Semana Guiomar Novaes, eixo da agenda cultural, foi institucionalizada por lei municipal em 2024, e nesse mesmo ano uma nova revitalização alcançou palco, foyer e pintura externa. A continuidade da programação mostra que o Theatro não é um capítulo encerrado.
 
-![Concerto da Semana Guiomar Novaes no palco do Theatro restaurado.](/fotos/hr-eventos-43.jpg)
+![Jazz Sinfônica no palco — o repertório contemporâneo na casa centenária.](/fotos/hr2-cartazes-15.jpg)
 
-*A vida cultural que voltou à sala restaurada — concertos, festivais e semanas especiais no calendário.*
+*Jazz Sinfônica no palco — o repertório contemporâneo na casa centenária.*
 
 
 > **A história permanece aberta:** cada novo espetáculo acrescenta uma data à linha do tempo e uma lembrança à cidade.

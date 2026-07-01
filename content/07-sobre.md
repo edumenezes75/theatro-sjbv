@@ -4,8 +4,8 @@ title: "Sobre o projeto"
 eyebrow: "O que é este site — e o que ele não é"
 seo_title: "Sobre o projeto — memória histórica do Theatro Municipal de São João da Boa Vista"
 seo_description: "Um projeto independente de memória, pesquisa e divulgação histórica sobre o Theatro Municipal de São João da Boa Vista. Saiba como o site foi feito, em que fontes se apoia e como contribuir."
-hero_image: "/fotos/hr-fachada-02.jpg"
-hero_alt: "Fachada histórica do Theatro Municipal de São João da Boa Vista."
+hero_image: "/fotos/hr-historicas-06.jpg"
+hero_alt: "A antiga Praça Joaquim José, em tom sépia — o centro histórico de São João."
 status: "sobre o projeto"
 ---
 
