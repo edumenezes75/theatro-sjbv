@@ -77,6 +77,12 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
       type: 'article',
       images: [{ url: heroImg, alt: page.meta.hero_alt || page.meta.title }],
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: page.meta.title,
+      description: page.meta.seo_description || undefined,
+      images: [heroImg],
+    },
   };
 }
 
