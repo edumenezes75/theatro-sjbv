@@ -1,11 +1,18 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import type { Imagem } from '@/lib/data';
 import { IconClose } from './Icons';
 
 export default function Galeria({ imagens }: { imagens: Imagem[] }) {
   const [open, setOpen] = useState<Imagem | null>(null);
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setOpen(null); };
+    window.addEventListener('keydown', onKey);
+    document.body.style.overflow = 'hidden';
+    return () => { window.removeEventListener('keydown', onKey); document.body.style.overflow = ''; };
+  }, [open]);
   return (
     <>
       <div className="columns-1 gap-4 sm:columns-2 lg:columns-3 [&>*]:mb-4">
