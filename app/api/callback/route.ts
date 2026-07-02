@@ -4,6 +4,11 @@ export const dynamic = 'force-dynamic';
 
 export async function GET(req: NextRequest) {
   const code = req.nextUrl.searchParams.get('code');
+  const state = req.nextUrl.searchParams.get('state');
+  const expectedState = req.cookies.get('decap_oauth_state')?.value;
+  if (!state || !expectedState || state !== expectedState) {
+    return new Response('State OAuth inválido — tente entrar novamente.', { status: 403 });
+  }
   const clientId = process.env.OAUTH_GITHUB_CLIENT_ID;
   const clientSecret = process.env.OAUTH_GITHUB_CLIENT_SECRET;
   if (!code || !clientId || !clientSecret) {
@@ -29,5 +34,10 @@ export async function GET(req: NextRequest) {
       window.opener.postMessage('authorizing:github', '*');
     })();
   </script><p>Pode fechar esta janela.</p></body></html>`;
-  return new Response(html, { headers: { 'Content-Type': 'text/html; charset=utf-8' } });
+  return new Response(html, {
+    headers: {
+      'Content-Type': 'text/html; charset=utf-8',
+      'Set-Cookie': 'decap_oauth_state=; Path=/api/callback; Max-Age=0; HttpOnly; Secure; SameSite=Lax',
+    },
+  });
 }
