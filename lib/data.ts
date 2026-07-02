@@ -72,7 +72,7 @@ export function pessoasNoTexto(texto: string): Pessoa[] {
   return pessoasList.filter((p) => _chavesNome(p.name).some((k) => blob.includes(k)));
 }
 
-type _SegDoc = { s: string; t: string; text: string };
+type _SegDoc = { s: string | number; t: string; text: string; link?: { href: string; label: string } };
 const _segsDoc = transcricaoDoc as _SegDoc[];
 
 // Primeira menção de uma pessoa na transcrição do documentário (ou null).
