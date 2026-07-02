@@ -4,8 +4,8 @@ title: "Theatro Municipal de São João da Boa Vista"
 eyebrow: "História, arte e memória"
 seo_title: "Theatro Municipal de São João da Boa Vista — História e Memória"
 seo_description: "Conheça a história do Theatro Municipal de São João da Boa Vista, inaugurado em 1914, preservado pela mobilização da cidade e ainda vivo como palco de arte e cultura."
-hero_image: "/fotos/hr-fachada-56.jpg"
-hero_alt: "Aquarela da fachada histórica do Theatro Municipal de São João da Boa Vista."
+hero_image: "/fotos/hr4-fachada-03.jpg"
+hero_alt: "A fachada restaurada do Theatro Municipal, em vista frontal a partir da Praça da Catedral."
 status: "texto público"
 ---
 

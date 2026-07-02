@@ -47,7 +47,7 @@ O Theatro ocupa uma posição privilegiada diante da praça e próximo à Catedr
 
 A relação entre o prédio e o espaço externo aparece em muitas memórias. Jovens passeavam entre o Theatro e outros cinemas antes das sessões. Ônibus e carros de praça circulavam nas proximidades. O bar instalado na fachada tornou-se ponto de encontro. Mesmo quando o interior se deteriorava, a fachada seguia marcando a paisagem.
 
-![A fachada eclética do Theatro diante da Praça da Catedral, no centro histórico.](/fotos/hr4-fachada-02.jpg)
+![A fachada iluminada ao entardecer — o frontão e as arcadas sob a luz do fim de tarde, diante da Praça da Catedral.](/fotos/hr-fachada-56.jpg)
 
 *Diante da Praça da Catedral, o Theatro marca a paisagem do centro — ir ao espetáculo é também atravessar a praça e participar de um ritual público.*
 
