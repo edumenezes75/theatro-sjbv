@@ -25,7 +25,6 @@ const securityHeaders = [
 
 const nextConfig = {
   images: { formats: ['image/avif', 'image/webp'] },
-  typescript: { ignoreBuildErrors: true },
   eslint: { ignoreDuringBuilds: true },
   productionBrowserSourceMaps: false,
   async redirects() {
