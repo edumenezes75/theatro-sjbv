@@ -10,6 +10,9 @@ export async function GET(req: NextRequest) {
   url.searchParams.set('client_id', clientId);
   url.searchParams.set('redirect_uri', redirectUri);
   url.searchParams.set('scope', 'repo');
-  url.searchParams.set('state', Math.random().toString(36).slice(2));
-  return NextResponse.redirect(url.toString());
+  const state = crypto.randomUUID();
+  url.searchParams.set('state', state);
+  const res = NextResponse.redirect(url.toString());
+  res.cookies.set('decap_oauth_state', state, { httpOnly: true, secure: true, sameSite: 'lax', path: '/api/callback', maxAge: 600 });
+  return res;
 }
