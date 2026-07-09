@@ -42,8 +42,8 @@
   {
     "id": "h055",
     "file": "fotos/hr-fachada-55.jpg",
-    "category": "fachada",
-    "categoryLabel": "Fachada e edifício",
+    "category": "documentos",
+    "categoryLabel": "Documentos",
     "w": 1800,
     "h": 1205,
     "alt": "O projeto original da fachada, 1913 — o desenho eclético assinado por J. Pucci. Sob a cártula central, o desenho previa três cariátides (uma de pé, duas reclinadas), onde a obra acabou pondo a águia de asas abertas.",
@@ -51,7 +51,8 @@
     "epoca": "Histórico",
     "rank": 2,
     "cor": true,
-    "tone": 0.272317
+    "tone": 0.272317,
+    "docgrupo": "fundacao"
   },
   {
     "id": "h024",
@@ -410,8 +411,8 @@
   {
     "id": "h025",
     "file": "fotos/hr-eventos-25.jpg",
-    "category": "fachada",
-    "categoryLabel": "Fachada e edifício",
+    "category": "sala",
+    "categoryLabel": "Sala e plateia",
     "w": 1800,
     "h": 1256,
     "alt": "O foyer — área de recepção e convivência antes da entrada na sala. É ali que estão hoje as quatro estátuas de mármore de Carrara, as Quatro Estações, vindas da Praça Armando de Salles e restauradas no Rio a pedido de João Merlin.",
@@ -1056,8 +1057,8 @@
   {
     "id": "h095",
     "file": "fotos/hr3-eventos-01.jpg",
-    "category": "pessoas",
-    "categoryLabel": "Pessoas",
+    "category": "eventos",
+    "categoryLabel": "Eventos",
     "w": 1800,
     "h": 1286,
     "alt": "Recital ao piano com a pianista Vânia Noronha, aos seis anos, no palco do Theatro.",
@@ -2100,7 +2101,7 @@
     "h": 1164,
     "alt": "A visita do governador Franco Montoro ao Theatro, em 1986, ao lado do prefeito Sidney Beraldo: a fachada coberta de bandeiras e faixas da mobilização popular pela preservação — “O povo pede espaço para sua expressão artística”. Respaldado por mais de 2.000 assinaturas dos sanjoanenses, o município obteve a anuência do Estado, decisiva para a compra do edifício e o início do restauro.",
     "credit": "Acervo do Theatro Municipal de São João da Boa Vista — Prefeitura Municipal.",
-    "epoca": "Histórico",
+    "epoca": "Pré-restauro",
     "rank": 3,
     "cor": true,
     "tone": 0.238108
