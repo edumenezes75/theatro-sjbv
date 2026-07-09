@@ -4,8 +4,8 @@ title: "A noite de inauguração"
 eyebrow: "Episódio · 31 de outubro de 1914 e a primeira temporada"
 seo_title: "A noite de inauguração do Theatro Municipal de São João da Boa Vista (1914)"
 seo_description: "A gala de 31 de outubro de 1914, a ausência do idealizador, a Companhia Santos Silva e Uma Causa Célebre, as turnês e o público que faltou: a estreia do Theatro e sua primeira temporada."
-hero_image: "/fotos/hr5-inauguracao-1914.jpg"
-hero_alt: "O interior em ferradura do Theatro na noite de inauguração, em registro estereoscópico de 1914."
+hero_image: "/fotos/hr4-fachada-01.jpg"
+hero_alt: "A fachada eclética do Theatro Municipal, com as inscrições ligadas à música e ao drama, diante da praça do centro."
 status: "dossiê"
 ---
 
@@ -20,6 +20,10 @@ Depois de três anos de leis, ações, dívidas e obras, chegou a noite. Em 31 d
 Com "grande público lotando todas as suas dependências — da plateia às frisas, camarotes e galeria", deu-se na noite de **31 de outubro de 1914**, às 20h30, a festiva inauguração. A abertura coube à banda do maestro **Joaquim Azevedo**. Em seguida, o orador **Dr. Antônio Cândido de Oliveira** proferiu, do camarote ocupado pela Diretoria da Companhia, um discurso que exaltava o trabalho dos fundadores e a obra como "afirmação de progresso cultural" da cidade.
 
 Em cerimônia de gala, todos enfatizaram o que o livro do centenário registra sem modéstia: o Theatro Municipal era "o maior e melhor de todo o interior do Estado de São Paulo". A cidade do café se apresentava a si mesma — e à região, que veio assistir.
+
+![O interior em ferradura na noite de inauguração — 31 de outubro de 1914, com o palco iluminado ao fundo e a plateia lotada.](/fotos/hr5-inauguracao-1914.jpg)
+
+*A sala em ferradura na noite da estreia, 31 de outubro de 1914: o palco iluminado ao fundo e a casa lotada, da plateia à galeria — raro registro fotográfico da inauguração.*
 
 Por trás da festa, porém, já havia o sinal dos apertos por vir: semanas antes de abrir, em **20 de setembro de 1914**, a casa fora arrendada por dois anos a Francisco Galloti e F. Santamaría. O Theatro estreava — e já entregava a sua exploração a terceiros.
 
