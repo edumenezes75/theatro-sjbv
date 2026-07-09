@@ -27,9 +27,9 @@ Circularam notícias de venda para empreendimentos que poderiam eliminar o edif�
 
 Em 1981, o município declarou o imóvel de utilidade pública. A decisão criou um primeiro bloqueio contra a descaracterização, mas ainda faltavam compra, projeto, recursos e proteção patrimonial.
 
-![Inscrições a lápis reveladas sob as camadas de tinta durante o restauro.](/fotos/hr5-restauro-05.jpg)
+![Uma rachadura aberta acima de uma porta — o estado de deterioração do edifício antes do restauro.](/fotos/hr-ornamentos-59.jpg)
 
-*Inscrições a lápis reveladas sob as camadas de tinta durante o restauro.*
+*Uma rachadura acima de uma porta — o estado em que a cidade encontrou o Theatro, sob a ameaça de demolição.*
 
 ## Quando artistas tomaram a frente
 
@@ -41,6 +41,10 @@ O restauro só foi possível porque, antes dele, a cidade se recusou a perder o 
 
 Em janeiro de 1984, a Prefeitura comprou a primeira parte do imóvel. O palco e a área posterior permaneceram inicialmente com o proprietário. A equipe técnica logo percebeu que um teatro funcional exigia o conjunto completo.
 
+![Sidney Beraldo e Oliveira Neto — figuras centrais na compra e no restauro do Theatro.](/fotos/hr4-pessoas-09.jpg)
+
+*Sidney Beraldo e Oliveira Neto — figuras centrais na compra do Theatro pela cidade.*
+
 A segunda negociação, baseada na Lei municipal nº 241, de 27 de maio de 1985, foi concluída no dia 28 daquele mês. A compra integral permitiu pensar caixa cênica, camarins, bastidores e acessos de forma coerente. Fontes secundárias citam valores de Cr$ 45 milhões na primeira etapa — em dinheiro e lotes — e Cr$ 100 milhões na segunda; números que devem ser lidos com cautela, sem conversão simples para hoje, já que não há prestação de contas consolidada disponível.
 
 A aquisição em duas etapas não foi um acaso burocrático: comprar primeiro a frente e, depois, o palco e os fundos foi o que tornou possível pensar o Theatro como um conjunto coerente — caixa cênica, camarins e bastidores à altura da sala. Por isso o terreno posterior era decisivo.
@@ -48,6 +52,10 @@ A aquisição em duas etapas não foi um acaso burocrático: comprar primeiro a 
 ## A equipe e a aprendizagem
 
 O **Projeto de Restauração e Reciclagem**, datado de janeiro de 1986, foi coordenado pela arquiteta Ana Laura Barcellos do Amaral Zenun e pelo engenheiro Nilson Zenun. A proposta não era congelar o prédio em 1914, mas recuperar sua espacialidade histórica e adaptá-la ao funcionamento contemporâneo. Após a compra, o município reuniu profissionais de arquitetura, engenharia e artes. Entre os nomes associados ao núcleo inicial estão João Batista Merlin, Ana Laura Barcellos do Amaral Zenun, Nilson Zenun, Joaquim Augusto Azevedo Costa e Mello e José Marcondes.
+
+![O engenheiro e restaurador João Batista Merlin — mentor técnico da recuperação — com José Marcondes e Maria Célia.](/fotos/hr4-pessoas-04.jpg)
+
+*O engenheiro e restaurador João Batista Merlin, mentor técnico da recuperação, com José Marcondes e Maria Célia.*
 
 A equipe não partiu da ideia de que já sabia tudo. Visitou teatros no Rio de Janeiro e em outras cidades, conheceu áreas técnicas, acompanhou espetáculos e conversou com especialistas em cenotecnia, acústica, estrutura e equipamentos.
 

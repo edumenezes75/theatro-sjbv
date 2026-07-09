@@ -135,6 +135,10 @@ A Prefeitura adquiriu o imóvel em duas etapas — a porção frontal em janeiro
 
 A restauração não foi uma simples pintura. O prédio apresentava rachaduras, madeira atacada por cupins, alterações acumuladas, infiltrações e limitações técnicas. A equipe precisou estudar o que conservar, o que reconstruir e como adaptar uma casa do início do século XX às exigências contemporâneas.
 
+![O edifício durante as obras de restauração, com andaimes na fachada.](/fotos/hr2-restauro-09.jpg)
+
+*O edifício em obras, coberto de andaimes — anos de restauro que atravessaram governos e gerações.*
+
 Arquitetos, engenheiros, artistas e técnicos visitaram teatros no Rio de Janeiro, conversaram com especialistas em cenotecnia, acústica, estrutura e segurança e refizeram projetos. Em um esforço concentrado, dezenas de pranchas foram produzidas para buscar recursos e orientar as intervenções.
 
 A obra incluiu consolidação estrutural, rebaixamento do subsolo, nova estrutura de palco, camarins, escadas, sistemas de incêndio, instalações, cobertura, fachadas, frisas, camarotes e tratamento de ornamentos.

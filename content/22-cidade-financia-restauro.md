@@ -55,6 +55,10 @@ A mobilização não ficou só nos gabinetes. No movimento **"Vestindo a Camisa"
 
 O mais bonito é que, mesmo em ruínas, o Theatro nunca parou de produzir cultura — e foi a própria arte que ajudou a financiá-lo. Já em 1984 acontecia ali a Semana do Artista Sanjoanense; em 1985, a Escola de Música da Prefeitura passou a funcionar no prédio "em meio a ácaros, cupins e morcegos", e o **Coral Vozes de São João**, sob o maestro Wildes Bruscato, ensaiava semanalmente. Em 1995, o show *Relembranças*, de Silvia Ferrante e Luis Carlos Pistelli, ocupou o palco ainda deteriorado. A EPTV levou ao prédio inacabado o **Quarteto Davi**, que tocou para um auditório lotado, com cadeiras sobre a base de cimento. A própria **Badi Assad** fez ali um de seus primeiros shows solo.
 
+![A I Bienal de Artes Visuais, 1998, montada na plateia ainda em obras.](/fotos/hr6-eventos-02.jpg)
+
+*A I Bienal de Artes Visuais, 1998, montada na plateia ainda em obras — arte no canteiro.*
+
 Antes mesmo de estar pronto, o Theatro já era palco de sua própria salvação — a cultura acontecendo no canteiro para garantir que a cultura voltasse a acontecer. Quando a sala principal reabriu, em setembro de 2002, na 25ª Semana Guiomar Novaes, o resultado não era só de governos: era de uma cidade que, duas vezes, decidiu não perder seu Theatro — primeiro com a voz, depois com o bolso.
 
 ## Fontes e notas
