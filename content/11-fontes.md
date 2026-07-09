@@ -11,7 +11,7 @@ status: "transparência editorial"
 
 # Pesquisa e fontes
 
-Este site parte de uma convicção simples: uma história envolvente não precisa esconder suas fontes. Ao contrário, saber de onde veio uma informação torna a leitura mais rica e permite novas descobertas.
+Uma boa história não precisa esconder de onde veio. Pelo contrário: saber a procedência de cada informação deixa a leitura mais rica e ainda abre caminho para novas descobertas. Por isso, aqui as fontes ficam à mostra.
 
 ## Fonte central
 

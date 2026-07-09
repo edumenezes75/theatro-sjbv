@@ -39,7 +39,7 @@ A bomboniere oferecia chocolates, drops e balas que aparecem com nitidez nas lem
 
 Uma crônica relata que, depois do início da sessão, o responsável pelo cinema às vezes autorizava a entrada de meninos sem dinheiro — mas apenas para a galeria, acessada pela escada lateral.
 
-O episódio revela tanto a hierarquia dos setores quanto pequenos gestos de inclusão que não aparecem em livros-caixa.
+O caso diz duas coisas ao mesmo tempo: a rigidez dos setores e os pequenos gestos de bondade que nenhum livro-caixa registra.
 
 ## O Theatro também foi biblioteca
 
@@ -47,7 +47,7 @@ O episódio revela tanto a hierarquia dos setores quanto pequenos gestos de incl
 
 A partir da década de 1960, a Biblioteca Municipal ocupou dependências superiores. Alguns moradores lembram que entraram no edifício primeiro para ler, e só depois para assistir a espetáculos.
 
-Essa experiência amplia a definição de público: o Theatro formava leitores, ouvintes, espectadores e artistas.
+Ou seja: o mesmo prédio formava leitores e espectadores, muitas vezes na mesma pessoa.
 
 ## Os fantasmas do Theatro
 
@@ -55,4 +55,4 @@ Essa experiência amplia a definição de público: o Theatro formava leitores, 
 
 Clovis Vieira imaginou antigos frequentadores e trabalhadores permanecendo no edifício como fantasmas discretos. Eles respeitariam o silêncio durante a apresentação e aplaudiriam quando a arte fosse boa.
 
-A crônica não deve ser tratada como relato paranormal. Seu valor está na metáfora: um teatro é um lugar onde presenças passadas continuam a ser sentidas.
+Ninguém precisa levar a crônica a sério como caso de assombração. O que ela diz, no fundo, é uma coisa que qualquer frequentador sente: num teatro antigo, quem passou por ali nunca vai embora de todo.
