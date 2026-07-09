@@ -21,9 +21,9 @@ const MENU: Grupo[] = [
   { label: 'Acervo', items: [
     { href: '/acervo', label: 'Acervo de imagens' },
     { href: '/documentario', label: 'Documentário' },
-    { href: '/pessoas', label: 'Pessoas' },
   ] },
   { label: 'Memória', items: [
+    { href: '/pessoas', label: 'Pessoas' },
     { href: '/memorias', label: 'Curiosidades' },
     { href: '/livro-de-memorias', label: 'Livro de Memórias' },
   ] },
