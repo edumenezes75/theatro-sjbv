@@ -51,7 +51,7 @@ Vinte anos depois da estreia, a ópera composta pelo padre já era patrimônio a
 
 Há um detalhe que transforma esta história de memória em documento: **as partituras da opereta existem**. Estão sob a guarda do **Museu de Arte Sacra** de São João da Boa Vista, em excelente estado de conservação. Não é um relato que dependa só de lembrança — é uma obra musical concreta, escrita à mão, à espera de quem a leia e, quem sabe, a faça soar de novo.
 
-Por isso a *Branca de Neve* é, talvez, a página mais singular do repertório do Theatro: a prova de que a casa não apenas recebeu arte, mas a **gerou**. E o conto seguiu voltando àquele palco — em 2009, uma nova *Branca de Neve* infantil ocupou a sala já restaurada, lembrando que algumas histórias a cidade nunca deixa de contar.
+Por isso a *Branca de Neve* é, talvez, a página mais singular do repertório do Theatro: a prova de que a casa não viveu só de arte trazida de fora — aqui a cidade compôs a **sua**. E o conto seguiu voltando àquele palco — em 2009, uma nova *Branca de Neve* infantil ocupou a sala já restaurada, lembrando que algumas histórias a cidade nunca deixa de contar.
 
 ![Uma nova montagem infantil de Branca de Neve no palco restaurado, em 2009.](/fotos/hr-eventos-14.jpg)
 
