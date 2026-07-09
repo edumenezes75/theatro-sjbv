@@ -59,9 +59,9 @@ A sala curva distribui o público ao redor da plateia e aproxima os níveis supe
 
 Historicamente, essa disposição também organizava diferenças sociais. Os setores tinham preços, acessos e experiências distintas. A galeria podia receber grande público; frisas e camarotes ofereciam visibilidade e representação social; a plateia concentrava cadeiras classificadas por categoria. Os preços traduziam a hierarquia: num benefício de 1916, a galeria custava 500 réis, a plateia 1$000, o camarote 5$000 e a frisa 6$000 — mais de dez vezes de diferença entre o lugar mais alto e o mais distinto.
 
-![O palco e a boca de cena, com a cortina fechada.](/fotos/hr5-sala-02.jpg)
+![O palco e a boca de cena, com o medalhão de Carlos Gomes ao alto.](/fotos/hr5-sala-02.jpg)
 
-*O palco e a boca de cena, com a cortina fechada.*
+*O palco e a boca de cena, coroada pelo medalhão de Carlos Gomes — vista da plateia em ferradura.*
 
 > **Voz do filme** · “Toda essa ferradura é feita de estrutura metálica; ela veio da Bélgica, de navio, e toda numerada para ser montada aqui.” — [ouvir no documentário (15:55) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=955s)
 
