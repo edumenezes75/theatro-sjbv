@@ -36,6 +36,8 @@ const WPP = 'https://wa.me/5519997195719?text=' + encodeURIComponent('Olá! Gost
 export default function Home() {
   // tira curada (exclusiva da home, sem repetir outras páginas): fachada · sala em ferradura · escadaria · ornamento · restauro · baile de 1930
   const STRIP_IDS = ['h024', 'h100', 'h133', 'h184', 'h089', 'h082'];
+  // rótulos específicos p/ a tira (evita dois 'Eventos' e informa melhor)
+  const STRIP_LABELS: Record<string, string> = { h100: 'Concertos', h082: 'Bailes' };
   const strip = STRIP_IDS
     .map((id) => fotosList.find((f) => f.id === id))
     .filter(Boolean) as typeof fotosList;
@@ -239,7 +241,7 @@ export default function Home() {
               <Link key={f.id} href="/acervo" className="group relative block overflow-hidden rounded-sm">
                 <Image src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h} className="aspect-[4/3] h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.05]" sizes="(max-width:768px) 50vw, 33vw" />
                 <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/85 to-transparent p-3 pt-10">
-                  <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-gold">{f.categoryLabel}</span>
+                  <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-gold">{STRIP_LABELS[f.id] ?? f.categoryLabel}</span>
                 </span>
               </Link>
             ))}
