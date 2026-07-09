@@ -36,7 +36,8 @@
     "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
     "epoca": "Histórico",
     "rank": 1,
-    "tone": 0.409573
+    "tone": 0.409573,
+    "hideAcervo": true
   },
   {
     "id": "h055",

@@ -23,7 +23,15 @@ A luta dos anos 1980 fora de protesto; a dos anos 1990 foi de gestão e captaç�
 
 Em **1998** criou-se a **Fundação Oliveira Neto (FON)**, com objetivo, nas palavras da conselheira Beatriz Castilho Pinto, "exclusivo de arrecadar recursos para as obras de restauração, complementando as verbas públicas". O nome era uma homenagem ao antigo proprietário, o **Dr. Joaquim José de Oliveira Neto** — médico e intelectual que, tendo comprado o Theatro nos anos 1930, "sem ceder às pressões do mercado, facilitara a negociação com a Prefeitura".
 
+![A Fundação Oliveira Neto (FON), criada para captar verbas para o restauro — registro de imprensa.](/fotos/hr4-historicas-05.jpg)
+
+*A Fundação Oliveira Neto (FON), criada em 1998 para captar recursos e complementar as verbas públicas — registro de imprensa.*
+
 Cerca de **60 pessoas ligadas às artes e à cultura** foram convidadas a integrar a entidade, sob a diretoria de José Rubens Blasi Carvalho Rosas (1998–2000). A diretoria executiva — com **José Márcio Carioca** e **Vera Adib**, e o apoio de João Batista Ciaco nas primeiras lições sobre a recém-criada **Lei Rouanet** — punha a mão na massa. Às terças-feiras, reuniam-se no Clube Palmeiras para estudar orçamentos e decidir sobre o ar-condicionado e o madeiramento das janelas. Era captação de recursos, mas também gestão fina de uma obra complexa.
+
+![Jorge Cunha Lima, Oliveira Neto e Sidney Beraldo e a equipe ligada à preservação do Theatro.](/fotos/hr4-pessoas-03.jpg)
+
+*A equipe da FON e da Prefeitura reunida em torno do restauro — Jorge Cunha Lima, Oliveira Neto e Sidney Beraldo entre eles.*
 
 ![A posse da Fundação Oliveira Neto, em 1998.](/fotos/hr4-pessoas-07.jpg)
 

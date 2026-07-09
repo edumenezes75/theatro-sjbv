@@ -48,9 +48,9 @@ A obra avançou sob a fiscalização do construtor espanhol Antônio Lanzac. Sob
 O custo superou o capital inicial. Empréstimos e debêntures foram necessários, e as dívidas acompanharam a Companhia por anos. O Theatro nasceu, portanto, de entusiasmo, mas também de uma engenharia financeira difícil.
 
 
-![Uma das fotografias mais antigas da fachada, ainda com a pintura original.](/fotos/hr-fachada-49.jpg)
+![A fachada eclética do Theatro em registro antigo — o edifício nas primeiras décadas.](/fotos/hr8-fachada-antiga2.jpg)
 
-*Uma das fotografias mais antigas da fachada, ainda com a pintura original — o Theatro recém-erguido.*
+*A fachada eclética do Theatro em registro antigo — o edifício nas primeiras décadas.*
 
 ## 3. Uma noite de gala — 31 de outubro de 1914 {#uma-noite-de-gala}
 
