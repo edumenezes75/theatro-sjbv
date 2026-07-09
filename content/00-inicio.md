@@ -13,9 +13,9 @@ status: "texto público"
 
 # Um palco construído pela cidade
 
-Em 1914, quando as portas do Theatro Municipal se abriram pela primeira vez, São João da Boa Vista não inaugurava apenas um edifício. Inaugurava uma ambição: a de colocar a arte no centro da vida da cidade.
+Em 1914, São João da Boa Vista inaugurou o seu Theatro Municipal. Não era pouco para uma cidade do interior: erguer, por conta própria, uma casa de espetáculos à altura das da capital.
 
-Mais de um século depois, o Theatro continua de pé diante da praça. Sua fachada guarda marcas de diferentes épocas; sua sala em ferradura conserva a memória de aplausos, filmes, bailes, conferências, recitais e debates. Em seus bastidores permanecem histórias de artistas consagrados, professores, estudantes, técnicos, voluntários e espectadores anônimos.
+Mais de um século depois, ele ainda está lá, diante da praça. A fachada foi acumulando marca de época sobre época; a sala em ferradura já ouviu de ópera a matinê de domingo. E, nos bastidores, passou muita gente que os holofotes nunca iluminaram: o afinador de piano, a professora de música, o bilheteiro, o voluntário que carregava as cadeiras.
 
 > **Entre. A história já começou.**
 
@@ -29,9 +29,9 @@ Mais de um século depois, o Theatro continua de pé diante da praça. Sua facha
 
 ## Uma casa de muitas vidas
 
-O Theatro nasceu para receber companhias dramáticas, música e grandes espetáculos. Logo, porém, passou a servir a quase tudo o que mobilizava a cidade: festivais beneficentes, formaturas, comícios, bailes, festas juninas, sessões de cinema, aulas, programas de rádio, biblioteca e encontros literários.
+O Theatro nasceu para o teatro e a música, mas nunca ficou só nisso. Em pouco tempo virou o lugar onde a cidade fazia de tudo: festival beneficente, formatura, comício, baile de Carnaval, sessão de cinema, aula, programa de rádio, biblioteca.
 
-Essa variedade não dilui sua identidade. Ao contrário: mostra como o edifício entrou na vida cotidiana da cidade. Para algumas gerações, ele foi sobretudo teatro. Para outras, foi o Cine Theatro, com matinês, seriados e bomboniere. Para quem viveu os anos de abandono, foi uma presença ameaçada. Para quem participou da restauração, tornou-se prova de que uma comunidade pode salvar aquilo que reconhece como seu.
+Nada disso enfraquece a identidade da casa; foi justamente assim que ela entrou no cotidiano. Cada geração a conheceu à sua maneira. Para uns, foi o teatro. Para muita gente, foi o Cine Theatro, com a matinê, o seriado e a bomboniere. Quem viveu os anos de abandono conheceu um prédio em risco; quem trabalhou no restauro viu de perto uma cidade recuperar o que era seu.
 
 ## O que torna este Theatro especial
 
@@ -55,9 +55,9 @@ A compra pelo município, o tombamento, a restauração por etapas e o trabalho 
 
 ## Uma história contada por pessoas
 
-A história do Theatro não pertence somente aos nomes famosos que passaram pelo palco. Ela também é feita por quem afinou instrumentos, pintou cenários, vendeu ingressos, operou projetores, ensinou crianças, escreveu críticas, carregou cadeiras, restaurou ornamentos, assinou petições ou simplesmente ocupou uma poltrona.
+A história do Theatro não é só dos nomes célebres que subiram ao palco. Ela é também de quem afinou instrumento, pintou cenário, vendeu ingresso, rodou o projetor, ensinou criança, escreveu crítica, carregou cadeira, restaurou um ornamento, assinou uma petição — ou só sentou numa poltrona e ficou olhando.
 
-Por isso, este site não organiza o passado apenas por datas. Ele permite seguir pessoas, objetos, ambientes e lembranças. Uma fotografia de baile conduz à sala em ferradura. Um cartaz leva ao elenco de uma peça. Um depoimento sobre cinema se liga ao antigo bar, à bilheteria e às sessões de domingo.
+Por isso o site não arruma o passado apenas por datas. Dá para puxar o fio pelas pessoas, pelos objetos, pelos lugares: uma foto de baile leva à sala em ferradura; um cartaz, ao elenco de uma peça; um depoimento sobre cinema, ao antigo bar e às sessões de domingo.
 
 ## Assista a esta história
 
@@ -67,9 +67,9 @@ O documentário **Música & Drama — A História do Theatro Municipal de São J
 
 ## Um patrimônio vivo
 
-Preservar um teatro não significa congelá-lo. Significa conservar sua arquitetura sem impedir que novas histórias aconteçam. O Theatro continua a receber artistas e públicos, e cada apresentação acrescenta uma camada à memória do lugar.
+Preservar um teatro não é congelá-lo no tempo. É segurar a arquitetura de pé sem trancar a porta para o que vem depois. O Theatro segue recebendo artistas e público, e cada noite acrescenta mais um pouco à memória da casa.
 
-A melhor forma de conhecer essa história é percorrê-la: da pedra fundamental à primeira noite; do brilho das companhias à tela do cinema; do risco de demolição à entrada de uma retroescavadeira durante o restauro; do silêncio das obras ao reencontro com a plateia.
+A melhor forma de conhecer essa história é percorrê-la: da pedra fundamental de 1913 à noite de estreia, do auge das companhias à tela do cinema, do risco de demolição à retroescavadeira que um dia entrou na sala para a obra.
 
 [Começar pela primeira noite](./historia#uma-noite-de-gala)
 

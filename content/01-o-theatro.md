@@ -11,9 +11,9 @@ status: "texto público"
 
 # O Theatro
 
-Antes de ser patrimônio, o Theatro foi desejo. Antes de ser restaurado, foi ruína. Antes de voltar a receber grandes espetáculos, precisou ser defendido por quem se recusava a vê-lo desaparecer.
+O Theatro começou como desejo: a cidade queria uma grande casa de espetáculos e se cotizou para construí-la. Depois vieram o cinema, o abandono e a ameaça de demolição. Que ele ainda esteja de pé, e cheio de vez em quando, é mérito de quem se recusou a perdê-lo.
 
-Hoje, ele reúne essas diferentes vidas em um mesmo edifício. É monumento histórico, equipamento cultural, lugar de trabalho, memória de infância, palco de formação e ponto de encontro entre a cidade e artistas de muitas origens.
+Hoje é difícil resumir o que ele é, porque é muita coisa ao mesmo tempo: o prédio tombado da praça, o cinema de domingo na lembrança de quem tem mais de sessenta, o palco onde uma criança faz o primeiro recital.
 
 ## Por que “Theatro”, com h?
 
@@ -43,9 +43,9 @@ Neste site, **Theatro** designa a instituição e o edifício. A palavra **teatr
 
 ## Um edifício no centro da cidade
 
-O Theatro ocupa uma posição privilegiada diante da praça e próximo à Catedral. Essa implantação o colocou, desde o início, no coração da circulação urbana. Ir ao espetáculo significava também atravessar a praça, encontrar conhecidos, observar a fachada iluminada e participar de um ritual público.
+O Theatro fica de frente para a praça, a poucos passos da Catedral, no meio do vaivém do centro. Ir a um espetáculo era também atravessar a praça, esbarrar em conhecidos e ver a fachada acesa. Fazia parte da noite.
 
-A relação entre o prédio e o espaço externo aparece em muitas memórias. Jovens passeavam entre o Theatro e outros cinemas antes das sessões. Ônibus e carros de praça circulavam nas proximidades. O bar instalado na fachada tornou-se ponto de encontro. Mesmo quando o interior se deteriorava, a fachada seguia marcando a paisagem.
+Essa ligação com a rua aparece em muitas lembranças: os jovens circulavam entre o Theatro e os outros cinemas antes da sessão, os ônibus e os carros de praça paravam ali perto, o bar da frente virou ponto de encontro. Mesmo quando o interior apodrecia por dentro, a fachada continuava lá, mandando na praça.
 
 ![A fachada iluminada ao entardecer — o frontão e as arcadas sob a luz do fim de tarde, diante da Praça da Catedral.](/fotos/hr-fachada-56.jpg)
 
@@ -85,7 +85,7 @@ Esse caráter múltiplo ajuda a explicar a força de suas lembranças. Muitas pe
 
 Músicos e regentes deixaram comentários entusiasmados sobre a acústica da sala. A forma em ferradura, a madeira e a proximidade entre público e palco são frequentemente associadas à qualidade sonora.
 
-Vale tomar esses elogios como **testemunhos de artistas**, e não como um laudo técnico: a experiência de escuta é parte importante da identidade da casa, mas comparações absolutas exigiriam medições especializadas.
+São impressões de quem tocou ali, não um laudo técnico — o que não as torna menos verdadeiras. A fama da acústica é parte do que a casa é; dizer que é a melhor do país, isso sim exigiria medição especializada.
 
 > **Voz do Theatro:** em 2014, o violinista e maestro Emmanuele Baldini descreveu a sala como uma joia bem cuidada e destacou sua acústica entre as melhores que encontrara no país.
 
