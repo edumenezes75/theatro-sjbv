@@ -58,13 +58,13 @@ Há um epílogo amargo. Aprovado o projeto que ele tanto ajudara a viabilizar, *
 
 Ao retornar, precisou rever soluções. Em cerca de vinte dias de trabalho concentrado, dezenas de desenhistas e técnicos produziram quase 150 pranchas para apresentar o projeto e buscar recursos.
 
-Essa capacidade de aprender é parte importante da história. O restauro não foi uma operação linear; foi um processo de pesquisa, erro, revisão e cooperação.
+Essa disposição para aprender é parte importante da história. O restauro não seguiu em linha reta: teve pesquisa, muito erro e revisão pelo caminho — e muita gente aprendendo junto.
 
 ## Tombamento
 
 O Conselho do CONDEPHAAT aprovou o tombamento em 16 de dezembro de 1985, por unanimidade; a formalização veio com a resolução de 19 de janeiro de 1987. O processo reconheceu o edifício como bem histórico e passou a exigir acompanhamento das intervenções.
 
-O tombamento não financiou sozinho a obra nem resolveu todos os problemas. Sua importância foi jurídica e simbólica: estabeleceu que o Theatro não era apenas uma propriedade disponível para qualquer transformação.
+O tombamento não pagou a obra nem resolveu tudo. Seu peso foi jurídico e simbólico: dali em diante, o Theatro deixou de ser um imóvel qualquer, à venda para qualquer fim.
 
 Há um detalhe afetivo que o documentário preserva. Era costume, ao se tombar um imóvel, hastear uma bandeira do Brasil em cada janela. Faltavam as bandeiras — e foi pedindo às escolas da cidade que a equipe juntou as **doze** necessárias para anunciar, na fachada, que o Theatro virara patrimônio público.
 

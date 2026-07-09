@@ -11,7 +11,7 @@ status: "texto público"
 
 # História do Theatro
 
-A história do Theatro Municipal pode ser lida como uma peça em oito atos: entusiasmo, risco, improviso, crise, silêncio, mobilização, reencontro e permanência. Em todos eles, a cidade aparece não apenas como cenário, mas como personagem.
+Dá para contar a história do Theatro como uma peça de teatro: um primeiro ato empolgado, um longo meio de crise e silêncio, e uma virada no fim, quando a cidade se recusa a deixá-lo cair. E, do começo ao desfecho, São João nunca fica só na plateia — sobe ao palco como personagem.
 
 > **Em um minuto:** a vontade de construir uma grande casa de espetáculos ganhou forma entre 1911 e 1913. O prédio abriu em 1914, tornou-se palco de muitas artes e depois cinema. Descaracterizado e ameaçado, foi defendido pela população, adquirido pelo município, tombado e restaurado. Em 2002, a plateia voltou a ocupar a sala.
 
@@ -67,7 +67,7 @@ Em **31 de outubro de 1914**, depois de anos de leis, ações e obras, a cidade 
 
 Nos primeiros anos, o Theatro recebeu companhias que percorriam circuitos entre São Paulo, cidades do interior e Poços de Caldas. Algumas permaneciam por vários dias e apresentavam repertórios extensos. Teatro, opereta, concertos e cinema dividiam a programação. Um levantamento do jornal *O Município* entre 1913 e 1925 examinou 576 edições e encontrou o Theatro em 433 delas — cerca de 75% —, com 553 menções (476 anúncios, 39 notas e 38 crônicas) e ao menos 67 eventos ao vivo não cinematográficos. O edifício não era atração episódica: era parte da rotina da cidade.
 
-Ao mesmo tempo, a população local apropriou-se do edifício. Festivais beneficentes reuniam música, declamação, bailados e comédias. A renda ajudava a Matriz, a Santa Casa, escolas, bandas e instituições de assistência. O palco transformava talento artístico em mobilização comunitária.
+Ao mesmo tempo, a população local apropriou-se do edifício. Festivais beneficentes reuniam música, declamação, bailados e comédias. A renda ajudava a Matriz, a Santa Casa, escolas e bandas. No fundo, era o talento da cidade convertido em ajuda para quem precisava.
 
 Mulheres tiveram papel decisivo nessa vida cultural — de organizadoras como Dona Beloca às que sustentavam a programação ano após ano. É uma história à parte: [As mulheres do Theatro →](/as-mulheres-do-theatro).
 

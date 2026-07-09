@@ -19,7 +19,7 @@ Essa relação entre cena e espectadores é uma das marcas da tradição teatral
 
 ## A fachada como anúncio
 
-O projeto de 1913 apresenta uma composição simétrica e eclética, com eixo central destacado, frontão, ornamentos e as inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*. O edifício foi concebido para se afirmar diante da praça e comunicar a sua função antes mesmo de o público entrar — uma fachada que, lida de perto, é quase um texto.
+O projeto de 1913 apresenta uma composição simétrica e eclética, com eixo central destacado, frontão, ornamentos e as inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*. O edifício foi feito para se impor diante da praça e anunciar a que veio antes de o público entrar. É uma fachada que se lê: cada relevo ali diz alguma coisa.
 
 ![A fachada do Theatro em registro antigo, com a faixa de inscrições no alto da cornija.](/fotos/hr7-fachada-historica.jpg)
 
