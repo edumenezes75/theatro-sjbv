@@ -35,7 +35,7 @@ const WPP = 'https://wa.me/5519997195719?text=' + encodeURIComponent('Olá! Gost
 
 export default function Home() {
   // tira curada (exclusiva da home, sem repetir outras páginas): fachada · sala em ferradura · escadaria · ornamento · restauro · baile de 1930
-  const STRIP_IDS = ['h024', 'h154', 'h133', 'h184', 'h089', 'h082'];
+  const STRIP_IDS = ['h024', 'h197', 'h133', 'h184', 'h089', 'h082'];
   const strip = STRIP_IDS
     .map((id) => fotosList.find((f) => f.id === id))
     .filter(Boolean) as typeof fotosList;
