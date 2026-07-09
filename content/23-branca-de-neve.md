@@ -64,6 +64,4 @@ Por isso a *Branca de Neve* é, talvez, a página mais singular do repertório d
 - **Cenógrafo.** Grafado no livro ora "Herculano de Almeida", ora "Herculano Albuquerque"; adotamos **Herculano de Almeida**, forma predominante e registrada entre as pessoas do Theatro.
 - **As partituras** no Museu de Arte Sacra são citadas pelo livro do centenário; uma transcrição ou execução moderna depende de consulta ao acervo.
 
-[As mulheres do Theatro](./as-mulheres-do-theatro) · [Theatro ou politeama?](./o-politeama) · [A história completa](./historia)
-
 <!-- Fontes principais: livro "Theatro Municipal, 100 anos" (Menezes, 2014), verbete Pe. Nicolau Miranda, cronologia (1931–1952) e seção Novos tempos. -->

@@ -18,13 +18,27 @@ O Theatro Municipal está no centro histórico de São João da Boa Vista, diant
 
 ## Antes de ir
 
-Para espetáculos, vale confirmar com antecedência a programação e a venda de ingressos, a abertura da bilheteria e as regras de entrada, além de estacionamento, embarque e desembarque e a política para fotografias. Para visitas escolares e guiadas, produção ou locação, fale com o Departamento de Cultura.
+Para espetáculos, confirme antes de sair de casa:
+
+- a programação e a venda de ingressos;
+- o horário da bilheteria e as regras de entrada;
+- estacionamento, embarque e desembarque;
+- a política para fotografias.
+
+Para visitas escolares e guiadas, produção ou locação, fale com o Departamento de Cultura.
 
 [Ver a programação](./programacao)
 
 ## Acessibilidade
 
-A administração pode orientar sobre o percurso sem degraus até a sala, os sanitários acessíveis, os lugares reservados para cadeiras de rodas e acompanhantes, os recursos de comunicação disponíveis em cada evento e o acesso aos diferentes ambientes — foyer, plateia, frisas, camarotes, galeria e Sala de Múltiplo Uso. Recomendamos combinar o atendimento com antecedência para garantir o melhor acolhimento.
+A administração pode orientar sobre:
+
+- o percurso sem degraus até a sala;
+- sanitários acessíveis e lugares reservados para cadeiras de rodas e acompanhantes;
+- os recursos de comunicação disponíveis em cada evento;
+- o acesso aos ambientes — foyer, plateia, frisas, camarotes, galeria e Sala de Múltiplo Uso.
+
+Vale combinar o atendimento com antecedência.
 
 ## Visita histórica
 
@@ -36,7 +50,5 @@ Uma visita interpretativa pode ser organizada em seis paradas:
 4. **Boca de cena** — medalhão de Carlos Gomes;
 5. **Bastidores** — palco, camarins e mecânica cênica;
 6. **Segundo andar** — sociedades culturais, rádio, biblioteca e Sala de Múltiplo Uso.
-
-[Conhecer a arquitetura antes da visita](./arquitetura) · [Ver a programação](./programacao)
 
 <!-- Fontes de serviço: Prefeitura de São João da Boa Vista, páginas do Theatro Municipal e Departamento de Cultura, verificadas em 19/06/2026. -->

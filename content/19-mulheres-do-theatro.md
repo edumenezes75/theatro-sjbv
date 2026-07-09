@@ -71,6 +71,4 @@ E o fio não se rompeu. Na campanha pelo restauro, nos anos 1990, foram as profe
 - **Oito acionistas:** dissertação de Luis Pedro Dragão Jeronimo (USP, 2020), com base no Livro de Accionistas; ver o episódio *Quem pagou o Theatro*.
 - **Vestindo a Camisa (1999):** livro do centenário e revista *Vernácula* (2023).
 
-[Quem pagou o Theatro](./companhia-teatral-sanjoanense) · [Conhecer as pessoas](./pessoas) · [A cidade financia o restauro](./a-cidade-financia-seu-restauro)
-
 <!-- Fontes principais: livro "Theatro Municipal, 100 anos" (Menezes, 2014); dissertação de Luis Pedro Dragão Jeronimo (USP, 2020). -->

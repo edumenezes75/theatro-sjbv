@@ -61,8 +61,6 @@ A narrativa nostálgica diz que o Theatro nasceu erudito e decaiu ao virar cinem
 
 A morte de um teatro não acontece quando ele muda de uso, mas quando deixa de importar para a cidade. O Theatro nunca deixou. Em 1937, a fase cinematográfica se consolidaria sob nova direção, ganhando a memória afetiva do CineTheatro — outra história, contada em seu próprio episódio.
 
-[O tempo do CineTheatro](./o-tempo-do-cinetheatro) · [Quem pagou o Theatro](./companhia-teatral-sanjoanense) · [A história completa](./historia)
-
 ## Fontes e notas
 
 - **Usos, proporções e o conceito de politeama:** dissertação de Luis Pedro Dragão Jeronimo (USP, 2020), cap. II.4 — levantamento dos jornais *O Município* e *A Cidade de São João* (1913–1925).

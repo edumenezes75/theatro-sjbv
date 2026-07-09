@@ -87,8 +87,6 @@ Os pareceres são reveladores: pesava não só o valor arquitetônico, mas a **m
 
 O tombamento não protegeu uma ruína morta: protegeu um bem que a cidade queria reativar — e cujo valor ela mesma havia construído, assinatura por assinatura.
 
-[A cidade financia o restauro](./a-cidade-financia-seu-restauro) · [Ver o restauro em detalhes](./restauracao) · [Percorrer a linha do tempo](./linha-do-tempo)
-
 ## Fontes e notas
 
 - **Narrativa, depoimento de Zeza Freitas, oposição de "JPC", consulta popular e tombamento:** Luis Pedro Dragão Jeronimo, *Participação popular e preservação do patrimônio cultural: o caso do Theatro Municipal de São João da Boa Vista* (revista *Vernácula*, v. 1, n. 2, 2023).

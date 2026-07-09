@@ -65,6 +65,4 @@ O percurso do medalhão resume o do próprio Theatro: algo valioso, encoberto e 
 - **A foto do comício de 1919 como referência** e o **relato de Cézar Roberto Olandim:** livro *Theatro Municipal, 100 anos* (Menezes, 2014).
 - **Ornamentos da fachada (1992):** Romeu Pradela Buzon Filho, o “Grilo” — ver o episódio [O restauro](/restauracao).
 
-[A fachada que fala](./a-fachada-que-fala) · [Ver o restauro em detalhes](./restauracao) · [A história completa](./historia)
-
 <!-- Fontes principais: Falconi (Revista da ASBRAP nº 18); livro "Theatro Municipal, 100 anos" (Menezes, 2014); relato de Cézar Roberto Olandim. -->

@@ -47,7 +47,6 @@ A obra avançou sob a fiscalização do construtor espanhol Antônio Lanzac. Sob
 
 O custo superou o capital inicial. Empréstimos e debêntures foram necessários, e as dívidas acompanharam a Companhia por anos. O Theatro nasceu, portanto, de entusiasmo, mas também de uma engenharia financeira difícil.
 
-
 ![A fachada eclética do Theatro em registro antigo — o edifício nas primeiras décadas.](/fotos/hr8-fachada-antiga2.jpg)
 
 *A fachada eclética do Theatro em registro antigo — o edifício nas primeiras décadas.*
@@ -57,7 +56,6 @@ O custo superou o capital inicial. Empréstimos e debêntures foram necessários
 Em **31 de outubro de 1914**, depois de anos de leis, ações e obras, a cidade entrou pela primeira vez na sala que construíra para si. A Companhia Santos Silva apresentou *Uma Causa Célebre*, e o público ocupou plateia, frisas, camarotes e galeria — uma noite recebida como sinal de progresso coletivo. (A data aparece como 8 de novembro em páginas institucionais; adotamos 31 de outubro, conforme o jornal da época.)
 
 **Aprofunde-se** — quem fez a noite acontecer, a peça e a estreia: [A noite de inauguração →](/a-noite-de-inauguracao).
-
 
 ![A plateia vista do palco, em registro histórico — a sala original, com a curva das galerias.](/fotos/hr-sala-47.jpg)
 
@@ -83,7 +81,6 @@ Em determinado momento, a sala chegou a funcionar como rinque de patinação. A 
 
 > **Você sabia?** O comandante Romão Gomes tinha seu quartel em Águas da Prata, então distrito de São João da Boa Vista, e ficou muito querido na cidade — de sua corporação fez parte a heroína sanjoanense Maria Sguassábia. Por isso, em 1933, os sanjoanenses promoveram em sua honra uma noite festiva no Theatro.
 
-
 ### Crises e retomadas
 
 A Primeira Guerra Mundial, a epidemia de gripe, a geada e a crise de 1929 afetaram a economia e o público. Locais de aglomeração foram fechados durante a epidemia.
@@ -92,13 +89,11 @@ Na própria casa, em 1º de novembro de 1918, autoridades se reuniram para discu
 
 Em 1930, o conjunto de Heitor Villa-Lobos passou pela cidade, e Souza Lima apresentou-se ao piano. Em 1932, a cidade chegou a **compor a sua própria ópera**: a opereta *Branca de Neve*, do padre Nicolau Miranda, com músicos, cenários e artistas locais — uma história à parte, com partituras que sobrevivem no Museu de Arte Sacra: [A opereta Branca de Neve →](/a-opereta-branca-de-neve).
 
-
 > **Voz do filme** · “Quando a cortina abre, você entra num mundo de fantasia, você viaja pelo tempo. Essa foi a minha primeira experiência em teatro.” — [ouvir no documentário (02:11) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=131s)
 
 ## 5. Do palco à tela — 1937 a 1980
 
 Em 1937, o prédio, já deteriorado, foi fechado temporariamente. Joaquim José de Oliveira Neto adquiriu a maioria das ações da Companhia. Poltronas e equipamentos de projeção foram renovados, e o cinema passou a dominar o cotidiano do edifício.
-
 
 ![O Theatro Municipal em cartão-postal antigo — “S. João da Boa Vista, Estado de S. Paulo”.](/fotos/hr8-fachada-postal.jpg)
 
@@ -114,11 +109,9 @@ Mesmo virado cinema, o edifício seguiu recebendo apresentações: em 1945 uma p
 
 Em fevereiro de 1967, frisas e camarotes foram retirados para dar mais assentos ao cinema — a intervenção que mais descaracterizou a sala antes do restauro. Ainda subiram ao palco nomes como Roberto Carlos (1968), Dercy Gonçalves e Agnaldo Rayol (1982), mas a concorrência de cinemas mais novos, a televisão e o desgaste do prédio aceleraram o declínio, até o fechamento de 1982.
 
-
 ![A biblioteca abrigada no edifício — o Theatro também como casa de leitura.](/fotos/hr-eventos-12.jpg)
 
 *A biblioteca abrigada no edifício — o Theatro também como casa de leitura.*
-
 
 ## 6. O prédio que a cidade se recusou a perder — 1981 a 1987
 
@@ -134,11 +127,9 @@ Artistas e moradores transformaram a ameaça em causa pública — manifestaçõ
 
 A Prefeitura adquiriu o imóvel em duas etapas — a porção frontal em janeiro de 1984, o palco e os fundos em 1985 —, porque um teatro funcional exigia o conjunto completo. O tombamento estadual foi **aprovado por unanimidade pelo CONDEPHAAT em dezembro de 1985** e **formalizado pela resolução de 19 de janeiro de 1987**, reconhecendo o valor histórico do edifício.
 
-
 ![A sala vista da plateia — a boca de cena, o forro decorado e a curva das galerias.](/fotos/hr3-sala-01.jpg)
 
 *A sala vista da plateia — a boca de cena, o forro decorado e a curva das galerias.*
-
 
 ## 7. Uma restauração longa — 1986 a 2002
 
@@ -155,7 +146,6 @@ A imagem de uma retroescavadeira dentro da sala resume a escala do desafio. Para
 O foyer foi inaugurado em dezembro de 1992. Mesmo incompleto, o Theatro voltou a receber exposições, música e eventos em áreas possíveis. Em 1995, o show *Relembranças* ocupou um palco ainda cercado por sinais de obra. Em 1996, a Semana Guiomar Novaes voltou ao edifício com cadeiras emprestadas.
 
 A Fundação Oliveira Neto, criada em 1998, ajudou a captar recursos por incentivos e campanhas. Em setembro de 2002, durante a 25ª Semana Guiomar Novaes, o público reencontrou a sala principal.
-
 
 ![O palco logo após a retirada da tela de cinema, em 1984 — reaparecendo a caixa cênica original.](/fotos/hr-restauro-33.jpg)
 
@@ -175,10 +165,7 @@ O reencontro com a sala traduziu-se em uso intenso: levantamentos acadêmicos co
 
 *Jazz Sinfônica no palco — o repertório contemporâneo na casa centenária.*
 
-
 > **A história permanece aberta:** cada novo espetáculo acrescenta uma data à linha do tempo e uma lembrança à cidade.
-
-[Explorar a linha do tempo](./linha-do-tempo) · [Conhecer as pessoas](./pessoas) · [Ver a restauração em detalhes](./restauracao)
 
 <!-- Fontes principais: Menezes, 2014, pp. 29–178, 245–298; periódicos de 1913–1914 citados no livro e na dissertação de Luis Pedro Dragão Jeronimo; CONDEPHAAT; Prefeitura. -->
 

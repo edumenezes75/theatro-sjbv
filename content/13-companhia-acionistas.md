@@ -279,6 +279,4 @@ Este episódio combina fonte primária e pesquisa acadêmica, e registra abertam
 - **Diretor-técnico.** O livro do centenário registra *Gabriel Emílio Pacheco de Melo*; parte da bibliografia grafa o nome de forma diferente. Mantemos a forma do livro.
 - **Valores financeiros.** Capital, debêntures e o total estimado (~290 contos) seguem a leitura das fontes primárias pela pesquisa; não há prestação de contas consolidada que feche o número com precisão.
 
-[Ver como a casa era de fato usada](./o-politeama) · [A noite de inauguração](./a-noite-de-inauguracao) · [Conhecer as pessoas](./pessoas)
-
 <!-- Fontes principais: livro "Theatro Municipal, 100 anos" (Menezes, 2014), com a lei de 1912, os estatutos e a relação de acionistas; dissertação de Luis Pedro Dragão Jeronimo (USP, 2020), com base no Livro de Accionistas e na ata de constituição da Companhia Teatral Sanjoanense. Composição social, percentuais e valores seguem a leitura acadêmica das fontes primárias. -->

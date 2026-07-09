@@ -68,6 +68,4 @@ Mas aqui o livro é honesto, e nós também devemos ser: "não obstante a boa qu
 - **Orador.** O livro nomeia "Dr. Antônio Cândido de Oliveira"; parte da bibliografia grafa "Antônio Cândido de Oliveira Filho".
 - **Finanças e arrendamento** (debêntures de 1915, consórcio dos cinemas Ideal e Bijou) são tratados em detalhe no episódio [Quem pagou o Theatro](/companhia-teatral-sanjoanense).
 
-[Quem pagou o Theatro](./companhia-teatral-sanjoanense) · [Theatro ou politeama?](./o-politeama) · [A história completa](./historia)
-
 <!-- Fontes principais: livro "Theatro Municipal, 100 anos" (Menezes, 2014), seções Inauguração, Arrendamento, Entidades promovem festivais e Companhias artísticas; periódicos de 1914–1915 citados no livro. -->

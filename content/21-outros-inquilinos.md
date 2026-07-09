@@ -33,7 +33,6 @@ Era um ambiente de saraus — declamação, canto, instrumentos — mas também 
 
 Pelos saraus passaram nomes de primeira grandeza: no documentário, um frequentador lembra que "a apresentação mais impressionante foi a de Heitor Villa-Lobos". Quando o cinema deixou de ser mudo, foi para essa sala que subiu o piano que antes acompanhava as fitas. E, para mais de um de seus herdeiros, a Sociedade foi "o núcleo formador da nossa Academia de Letras".
 
-
 ## Debates e o Teatro-Escola
 
 Em 1951 surgiu a **Sociedade Cultural de Debates**, que dividia o mesmo pavimento — e que foi a fundadora do **Teatro-Escola**, em 1950. A escola chegou a ter mais de 200 associados, piano de cauda e uma biblioteca de 3.000 volumes. Reuniu os amadores da cidade e formou gente de palco; em 1957, sua peça *Transviados* foi um sucesso, e dali nasceu o grupo **GAMA**. Em visita a São João, em 1961, o ator Procópio Ferreira elogiou o grupo; entre os que passaram pelo Theatro destacou-se Atílio Eduardo Gallo Lopes, que viria a brilhar em palcos da Europa.
@@ -75,8 +74,6 @@ E, no térreo, na frente do edifício, havia o **Bar Theatro** — ponto de enco
 Esses usos podem parecer laterais, mas são decisivos para entender a sobrevivência do Theatro. Mesmo quando o palco perdia força, o edifício continuava presente na rotina: era onde se ia ao cinema, se ouvia rádio, se entrava no bar, se buscava um livro, se debatia, se aprendia teatro.
 
 Um prédio que faz parte do cotidiano de tanta gente não vira facilmente entulho. Quando a demolição rondou, nos anos 1980, foi essa memória acumulada — de mil pequenos usos, no térreo e no segundo andar — que a cidade se recusou a perder.
-
-[A história completa](./historia) · [O tempo do CineTheatro](./o-tempo-do-cinetheatro) · [As mulheres do Theatro](./as-mulheres-do-theatro)
 
 ## Fontes e notas
 

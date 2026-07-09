@@ -59,18 +59,15 @@ A sala curva distribui o público ao redor da plateia e aproxima os níveis supe
 
 Historicamente, essa disposição também organizava diferenças sociais. Os setores tinham preços, acessos e experiências distintas. A galeria podia receber grande público; frisas e camarotes ofereciam visibilidade e representação social; a plateia concentrava cadeiras classificadas por categoria. Os preços traduziam a hierarquia: num benefício de 1916, a galeria custava 500 réis, a plateia 1$000, o camarote 5$000 e a frisa 6$000 — mais de dez vezes de diferença entre o lugar mais alto e o mais distinto.
 
-
 ![O palco e a boca de cena, com a cortina fechada.](/fotos/hr5-sala-02.jpg)
 
 *O palco e a boca de cena, com a cortina fechada.*
-
 
 > **Voz do filme** · “Toda essa ferradura é feita de estrutura metálica; ela veio da Bélgica, de navio, e toda numerada para ser montada aqui.” — [ouvir no documentário (15:55) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=955s)
 
 ![Medalhão pintado com retrato, na faixa decorativa sobre os camarotes.](/fotos/hr5-ornamentos-08.jpg)
 
 *Medalhão pintado com retrato, na faixa decorativa que percorre a sala sobre os camarotes.*
-
 
 ## Madeira, metal e som
 
@@ -82,7 +79,6 @@ No documentário, técnicos do restauro arriscam uma explicação: a sala seria 
 
 *Capitel coríntio restaurado, com folhas de acanto — o apuro ornamental recuperado na obra.*
 
-
 O Theatro acumulou elogios de músicos ao longo de gerações. Vale distinguir o que é **observável** — forma, materiais, volume e a proximidade entre palco e plateia —, o que são **testemunhos de artistas** e o que dependeria de **medições acústicas** para se afirmar com rigor. Mas os testemunhos, por si, já dizem muito:
 
 > Descobri, quase atrás de casa, uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.
@@ -90,7 +86,6 @@ O Theatro acumulou elogios de músicos ao longo de gerações. Vale distinguir o
 > — **Emmanuele Baldini**, spalla da Osesp, após concerto no Theatro (2014)
 
 Não é voz isolada: a cantora **Mônica Salmaso** também chamou a casa de “uma joia”, dizendo que poucas vezes se apresentara em lugar tão especial.
-
 
 ## O palco e a caixa cênica
 
@@ -122,7 +117,5 @@ A intervenção de **fevereiro de 1967** foi especialmente importante: frisas e 
 Edifícios de espetáculo exigem manutenção constante. Instalações elétricas, prevenção contra incêndio, acessibilidade, som, luz, climatização e segurança evoluem. Cada atualização precisa respeitar o valor histórico sem impedir o uso.
 
 Por isso, convém separar duas leituras: a **arquitetura e a história**, de caráter permanente, e uma **ficha técnica para produção**, com medidas, capacidades e equipamentos que mudam com o tempo.
-
-[Conhecer o restauro](./restauracao) · [Consultar a ficha de visita](./visite)
 
 <!-- Fontes principais: Menezes, 2014, pp. 36–39, 96–100, 121–150, 289–298; notícias de 1913; projetos e processo de tombamento. -->

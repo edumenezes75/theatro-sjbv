@@ -57,8 +57,6 @@ O mais bonito é que, mesmo em ruínas, o Theatro nunca parou de produzir cultur
 
 Antes mesmo de estar pronto, o Theatro já era palco de sua própria salvação — a cultura acontecendo no canteiro para garantir que a cultura voltasse a acontecer. Quando a sala principal reabriu, em setembro de 2002, na 25ª Semana Guiomar Novaes, o resultado não era só de governos: era de uma cidade que, duas vezes, decidiu não perder seu Theatro — primeiro com a voz, depois com o bolso.
 
-[A luta contra a demolição](./luta-contra-a-demolicao) · [Ver o restauro em detalhes](./restauracao) · [Conhecer as pessoas](./pessoas)
-
 ## Fontes e notas
 
 - **Estado do prédio, FON, diretoria executiva, Lei Rouanet e Quarteto Davi:** depoimentos reunidos no livro *Theatro Municipal, 100 anos* (Menezes, 2014).

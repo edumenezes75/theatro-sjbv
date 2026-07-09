@@ -30,7 +30,6 @@ const MENU: Grupo[] = [
   { label: 'Visite', items: [
     { href: '/programacao', label: 'Programação' },
     { href: '/visite', label: 'Como visitar' },
-    { href: '/visita-guiada', label: 'Visita guiada' },
   ] },
   { label: 'O projeto', items: [
     { href: '/sobre', label: 'Sobre o projeto' },

@@ -27,7 +27,6 @@ Circularam notícias de venda para empreendimentos que poderiam eliminar o edif�
 
 Em 1981, o município declarou o imóvel de utilidade pública. A decisão criou um primeiro bloqueio contra a descaracterização, mas ainda faltavam compra, projeto, recursos e proteção patrimonial.
 
-
 ![Inscrições a lápis reveladas sob as camadas de tinta durante o restauro.](/fotos/hr5-restauro-05.jpg)
 
 *Inscrições a lápis reveladas sob as camadas de tinta durante o restauro.*
@@ -97,16 +96,13 @@ As intervenções incluíram:
 
 *A cobertura em obras, vista do alto — ao fundo, o casario e a torre da igreja.*
 
-
 O rebaixamento das fundações foi executado lentamente. Relatos técnicos registram controle rigoroso do recalque e a necessidade de laudos para responder ao temor de que a escavação pudesse comprometer o edifício.
 
 No documentário, a tensão daqueles dias aparece inteira: "a cidade inteira falava: vai cair, vai cair", com a máquina vibrando lá dentro. Mas os cálculos se confirmaram — o recalque (o afundamento da terra) previsto chegava a seis centímetros e, concluída a obra, mediu-se menos de meio.
 
-
 ![A escavação do fosso da orquestra, sob o palco, durante as obras.](/fotos/hr-restauro-23.jpg)
 
 *A escavação do fosso da orquestra, sob o palco, durante as obras.*
-
 
 ## Restauro artístico
 
@@ -116,11 +112,9 @@ A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos.
 
 *Prospecção estratigráfica — pequenas janelas abertas na parede revelam, camada a camada, as cores de cada época. Era assim que se descobria o tom original.*
 
-
 Na boca de cena, o medalhão de Carlos Gomes — pintura original de Ettore Adriano Fabri — foi revelado sob sucessivas camadas de tinta; Romeu Pradela Buzon Filho, o “Grilo”, atuou na recuperação dos ornamentos da fachada, em 1992. A história completa do medalhão tem episódio próprio: [O medalhão de Carlos Gomes →](/o-medalhao-de-carlos-gomes).
 
 Algumas decisões foram interpretativas, e a honestidade pede registrá-las como tais: seis espelhos no foyer e as pinturas de ramos de café nas tabeiras foram acréscimos do restauro, inspirados em casas como o Theatro Municipal de São Paulo e o São Pedro — não remanescentes comprovados de 1914.
-
 
 ## Uma obra atravessada por governos e gerações
 
@@ -152,9 +146,7 @@ Reportagens locais entre 2023 e 2024 registraram pontos a enfrentar — entre el
 
 *A escavação do fosso da orquestra, sob o palco, com a boca de cena ao fundo, durante as obras.*
 
-
 Esse é o estágio honesto de um edifício de mais de cem anos: vivo e em uso, mas exigindo atenção contínua. A própria história do Theatro mostra que sua conservação sempre dependeu de vontade pública e mobilização — e segue dependendo.
-
 
 ![Acrotério da platibanda restaurado, recortado contra o céu.](/fotos/hr5-ornamentos-01.jpg)
 
@@ -167,7 +159,5 @@ A recuperação do Theatro demonstra que preservar é escolher coletivamente. Ex
 Essa história pertence tanto a autoridades e especialistas quanto aos trabalhadores de obra, desenhistas, eletricistas, carpinteiros, restauradores, funcionários, artistas, doadores e voluntários.
 
 > **O restauro devolveu a forma. A programação devolveu a vida.**
-
-[Conhecer as pessoas do restauro](./pessoas#preservacao-e-restauro) · [Ver documentos no acervo](./acervo)
 
 <!-- Fontes principais: Menezes, 2014, pp. 113–170; Processo CONDEPHAAT 23.125/84; depoimentos de Ana Laura Zenun e Nilson Zenun; estudos de Luis Pedro Dragão Jeronimo. Conservação recente: jornal O Município (2024) e comunicações da Prefeitura (2021–2024). -->

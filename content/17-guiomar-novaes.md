@@ -55,6 +55,4 @@ Não foi por acaso que a reabertura do Theatro restaurado, em setembro de 2002, 
 
 Guiomar no Theatro é, no fim, a cidade escutando a si mesma — e o mundo, por um momento, voltando ao palco de onde ela saiu.
 
-[Conhecer as pessoas do Theatro](./pessoas) · [A história da casa](./historia) · [Percorrer a linha do tempo](./linha-do-tempo)
-
 <!-- Fontes principais: Menezes, "Theatro Municipal, 100 anos", 2014; Prefeitura de São João da Boa Vista; dissertação de Luis Pedro Dragão Jeronimo (USP, 2020). Detalhes do recital de 1946 dependem de confirmação documental. -->

@@ -13,7 +13,6 @@ const ROUTES: [string, number, MetadataRoute.Sitemap[number]['changeFrequency']]
   ['/pessoas', 0.7, 'monthly'],
   ['/documentario', 0.7, 'monthly'],
   ['/linha-do-tempo', 0.7, 'monthly'],
-  ['/visita-guiada', 0.7, 'yearly'],
   ['/programacao', 0.7, 'weekly'],
   ['/visite', 0.7, 'yearly'],
   ['/memorias', 0.6, 'monthly'],

@@ -57,7 +57,6 @@ A curva em ferradura distribui o público em diferentes níveis e oferece visõe
 
 A sala também revelava as hierarquias sociais de sua época. Os preços e os setores distinguiam frisas, camarotes, cadeiras e “gerais”. Ao longo dos anos, esses lugares mudaram. Em 1967, frisas e camarotes foram retirados para ampliar o número de assentos do cinema; décadas depois, o restauro procurou reconstruir a leitura espacial original.
 
-
 ![A curva das galerias em ferradura, com as frisas e o gradil de ferro.](/fotos/hr7-galerias.jpg)
 
 *A curva em ferradura distribui o público em diferentes níveis e aproxima palco e plateia.*
@@ -76,38 +75,18 @@ Durante mais de cem anos, o Theatro recebeu:
 
 Esse caráter múltiplo ajuda a explicar a força de suas lembranças. Muitas pessoas não conheceram o Theatro da mesma forma — e todas essas experiências fazem parte de sua história.
 
-
 ![A sala lotada vista do palco, durante um concerto.](/fotos/hr7-sala-concerto.jpg)
 
 *A sala cheia num concerto: depois de mais de cem anos, o Theatro segue sendo, antes de tudo, um lugar de encontro.*
 
-## A acústica: reputação e experiência
-
-Músicos e regentes deixaram comentários entusiasmados sobre a acústica da sala. A forma em ferradura, a madeira e a proximidade entre público e palco são frequentemente associadas à qualidade sonora.
-
-São impressões de quem tocou ali, não um laudo técnico — o que não as torna menos verdadeiras. A fama da acústica é parte do que a casa é; dizer que é a melhor do país, isso sim exigiria medição especializada.
-
-> **Voz do Theatro:** em 2014, o violinista e maestro Emmanuele Baldini descreveu a sala como uma joia bem cuidada e destacou sua acústica entre as melhores que encontrara no país.
-
-## Patrimônio não é apenas pedra
-
-O tombamento protege o edifício e reconhece seu valor histórico. Mas o patrimônio do Theatro também é imaterial: repertórios, modos de frequentar, histórias de bastidores, redes de ensino, hábitos de cinema, campanhas de preservação e conhecimentos técnicos.
-
-A restauração salvou paredes, estruturas e ornamentos. A programação, por sua vez, devolveu sentido a esses elementos. Um teatro vazio pode ser um monumento; um teatro ocupado volta a ser encontro.
-
-Por isso, a preservação não termina na pedra: completa-se quando o edifício é apropriado por públicos diversos. Estudos e crônicas entre 2012 e 2014 discutiram a baixa frequência em certas atrações e o risco de o prédio se tornar um “elefante branco” — e apontaram barreiras concretas: distância dos bairros periféricos, preço, comunicação, transporte e hábitos culturais. Reconhecer essas tensões é parte de cuidar do Theatro: o desafio contemporâneo é menos salvar o prédio do que torná-lo, de fato, de toda a cidade.
-
 ## O Theatro hoje
 
 O edifício permanece ativo e integrado à programação cultural de São João da Boa Vista. Em 2024, recebeu nova etapa de revitalização, com intervenções anunciadas no palco, foyer e pintura externa. Em 2025 e 2026, continuou a sediar música, teatro, dança e eventos públicos.
-
 
 ![A fachada iluminada à noite, em noite de evento.](/fotos/hr7-fachada-noite.jpg)
 
 *A fachada iluminada em noite de evento — o Theatro restaurado e em pleno uso.*
 
 Para horários, contato, ingressos e visita guiada, consulte as páginas **Visite** e **Programação** — ali essas informações ficam sempre atualizadas, separadas da narrativa histórica.
-
-[Conheça a história completa](./historia) · [Veja como ele foi restaurado](./restauracao) · [Consulte informações de visita](./visite)
 
 <!-- Fontes principais: Menezes, 2014, pp. 29–41, 69–111, 113–178; Prefeitura de São João da Boa Vista; CONDEPHAAT. -->

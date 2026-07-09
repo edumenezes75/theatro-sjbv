@@ -28,7 +28,7 @@ const nextConfig = {
   eslint: { ignoreDuringBuilds: true },
   productionBrowserSourceMaps: false,
   async redirects() {
-    return [{ source: '/dossies', destination: '/episodios', permanent: true }, { source: '/contribua', destination: '/livro-de-memorias', permanent: true }];
+    return [{ source: '/dossies', destination: '/episodios', permanent: true }, { source: '/contribua', destination: '/livro-de-memorias', permanent: true }, { source: '/visita-guiada', destination: '/visite', permanent: true }];
   },
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];

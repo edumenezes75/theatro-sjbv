@@ -73,8 +73,6 @@ Nos anos finais, já disputando público com o Cine Avenida (hoje Casas Pernambu
 
 E há uma justiça poética no fechamento: ao parar de ser cinema, o edifício pôde voltar a ser teatro. A decadência do Cine Theatro foi o fundo do poço de onde nasceu a mobilização que o salvou.
 
-[A luta contra a demolição](./luta-contra-a-demolicao) · [Theatro ou politeama?](./o-politeama) · [Conhecer as pessoas](./pessoas)
-
 ## Fontes e notas
 
 - **Memória do cinema, sessões e bombons:** depoimento de Clineida Andrade Junqueira Jacomini, no livro *Theatro Municipal, 100 anos* (2014).

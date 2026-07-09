@@ -59,8 +59,6 @@ Havia ainda um elemento que hoje passa despercebido, mas que em 1914 era puro es
 
 E a fachada se impunha mesmo num lote "encravado": destacava-se pela cor (o corpo amarelo, a fachada branca), pelas dimensões e pela ornamentação, plantada ao lado da Câmara, do Fórum e da Catedral — no coração cívico da cidade. Ler essa frente é, no fim, ler um desejo: o de uma São João que, em 1914, quis se ver moderna o bastante para gravar música, café e luz na própria testa.
 
-[O medalhão de Carlos Gomes](./o-medalhao-de-carlos-gomes) · [Conhecer a arquitetura](./arquitetura) · [Ver o acervo de imagens](./acervo)
-
 ## Fontes e notas
 
 - **Análise da arquitetura eclética, águia, medalhões, lâmpadas e o café no ornamento:** dissertação de Luis Pedro Dragão Jeronimo (USP, 2020), cap. II.3.3, com base em Reis Filho (2000), Lemos (1987) e no *Annuário Estatístico de São Paulo*.
