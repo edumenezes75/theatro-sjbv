@@ -95,9 +95,7 @@ Uma casa endividada precisa de receita. Por isso o **arrendamento** foi central 
 
 ## Para além do mito dos "jovens da Europa"
 
-Uma versão difundida diz que jovens sanjoanenses voltaram da Europa com a ideia de construir um teatro. A imagem é elegante — juventude culta, viagem, inspiração cosmopolita —, mas insuficiente. A documentação mostra Câmara Municipal, leis de garantia de juros, estatutos, capital, empréstimos, debêntures, arrendamento e expectativa de lucro.
-
-A história fica melhor quando se abandona a origem heroica simplificada. A cidade queria um teatro porque ele dava status; os acionistas, rendimento; o poder público, melhoramento; o público, diversão; os jornais, narrar progresso. Essa soma de interesses — e não um sonho isolado — é o que ergueu o Theatro. Décadas depois, sem atividade e endividada, a própria Companhia chegaria ao fim: entre 1977 e 1978, a Justiça conduziu sua liquidação, e as ações, de acionistas em sua maioria já falecidos, foram partilhadas.
+Uma versão difundida diz que jovens sanjoanenses voltaram da Europa com a ideia de construir um teatro. A imagem é elegante, mas insuficiente: a documentação mostra Câmara, leis de garantia de juros, estatutos, capital, empréstimos, debêntures e expectativa de lucro. O Theatro não nasceu de um sonho isolado, e sim de uma soma de interesses — status para a cidade, rendimento para os acionistas, melhoramento para o poder público, diversão para o público, progresso para os jornais. Décadas depois, sem atividade e endividada, a própria Companhia chegaria ao fim: entre 1977 e 1978, a Justiça conduziu sua liquidação, e as ações, de acionistas em sua maioria já falecidos, foram partilhadas.
 
 ## A cidade, nome a nome
 
@@ -275,7 +273,7 @@ Victor Manoel de Andrade Dias
 
 Este episódio combina fonte primária e pesquisa acadêmica, e registra abertamente o que ainda está em disputa:
 
-- **Número de acionistas.** Tradição local e fonte oficial: 113. Ata de constituição: 103 presentes/representados (677 ações). Livro de Accionistas (leitura de Jeronimo): 191 a 196 acionistas até 1914.
+- **Número de acionistas.** As três contagens — 113 (tradição/fonte oficial), 103 (ata de constituição) e 191–196 (Livro de Accionistas) — estão discutidas na seção *“113, 103 ou 196?”*, acima.
 - **Diretor-técnico.** O livro do centenário registra *Gabriel Emílio Pacheco de Melo*; parte da bibliografia grafa o nome de forma diferente. Mantemos a forma do livro.
 - **Valores financeiros.** Capital, debêntures e o total estimado (~290 contos) seguem a leitura das fontes primárias pela pesquisa; não há prestação de contas consolidada que feche o número com precisão.
 
