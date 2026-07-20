@@ -51,7 +51,7 @@ Apesar de tudo, havia um problema persistente, e o livro do centenário não o e
 
 Essa é a tensão central da vida do Theatro: um prédio grandioso, pensado para mil e tantos lugares, diante de um público real mais modesto. É essa distância — entre a ambição de 1914 e a renda de cada noite — que explica o arrendamento, o peso do cinema e, mais tarde, a decadência.
 
-![A sala lotada em todos os pavimentos, em registro antigo.](/fotos/hr8-sala-lotada.jpg)
+![A plateia lotada de espectadores nas grandes noites, em registro de outra época.](/fotos/sl-35.jpg)
 
 *A casa cheia nas grandes noites — a exceção festiva que contrastava com a frequência irregular do dia a dia.*
 
