@@ -22,7 +22,8 @@ jobs:
             https://www.theatromunicipalsjbv.com.br/historia
             https://www.theatromunicipalsjbv.com.br/acervo
             https://www.theatromunicipalsjbv.com.br/documentario
+            https://www.theatromunicipalsjbv.com.br/programacao
             https://www.theatromunicipalsjbv.com.br/livro-de-memorias
           numberOfRuns: 2
-          uploadArtifacts: true
-          temporaryPublicStorage: true
+          uploadArtifacts: true   # relatorios ficam como artefato baixavel da run
+          # temporaryPublicStorage removido: era o passo que fazia a run falhar (servidor LHCI instavel)
