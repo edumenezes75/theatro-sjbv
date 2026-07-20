@@ -83,9 +83,9 @@ Esse caráter múltiplo ajuda a explicar a força de suas lembranças. Muitas pe
 
 O edifício permanece ativo e integrado à programação cultural de São João da Boa Vista. Em 2024, recebeu nova etapa de revitalização, com intervenções anunciadas no palco, foyer e pintura externa. Em 2025 e 2026, continuou a sediar música, teatro, dança e eventos públicos.
 
-![A fachada iluminada à noite, em noite de evento.](/fotos/hr7-fachada-noite.jpg)
+![O Duo Assad — os irmãos Sérgio e Odair, de raízes na região — no palco do Theatro restaurado.](/fotos/hr6-eventos-01.jpg)
 
-*A fachada iluminada em noite de evento — o Theatro restaurado e em pleno uso.*
+*O Duo Assad no palco do Theatro restaurado — hoje, a casa segue recebendo arte de primeira linha.*
 
 Para horários, contato, ingressos e visita guiada, consulte as páginas **Visite** e **Programação** — ali essas informações ficam sempre atualizadas, separadas da narrativa histórica.
 
