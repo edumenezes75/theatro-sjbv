@@ -1,0 +1,54 @@
+---
+slug: "/visite"
+title: "Visite"
+eyebrow: "Informações para conhecer o Theatro"
+seo_title: "Visite o Theatro Municipal de São João da Boa Vista"
+seo_description: "Endereço, horários administrativos e orientações para visitar o Theatro Municipal de São João da Boa Vista."
+hero_image: "/fotos/hr-fachada-27.jpg"
+hero_alt: "Fachada histórica do Theatro Municipal."
+status: "informação de serviço"
+last_verified: "2026-06-19"
+---
+
+# Visite
+
+O Theatro Municipal está no centro histórico de São João da Boa Vista, diante da Praça da Catedral.
+
+> **Importante:** horários de espetáculo, bilheteria, visita guiada e acesso aos ambientes internos variam conforme a programação. Confirme diretamente com a organização antes de se deslocar.
+
+## Antes de ir
+
+Para espetáculos, confirme antes de sair de casa:
+
+- a programação e a venda de ingressos;
+- o horário da bilheteria e as regras de entrada;
+- estacionamento, embarque e desembarque;
+- a política para fotografias.
+
+Para visitas escolares e guiadas, produção ou locação, fale com o Departamento de Cultura.
+
+[Ver a programação](./programacao)
+
+## Acessibilidade
+
+A administração pode orientar sobre:
+
+- o percurso sem degraus até a sala;
+- sanitários acessíveis e lugares reservados para cadeiras de rodas e acompanhantes;
+- os recursos de comunicação disponíveis em cada evento;
+- o acesso aos ambientes — foyer, plateia, frisas, camarotes, galeria e Sala de Múltiplo Uso.
+
+Vale combinar o atendimento com antecedência.
+
+## Visita histórica
+
+Uma visita interpretativa pode ser organizada em seis paradas:
+
+1. **Praça e fachada** — implantação e linguagem arquitetônica;
+2. **Foyer** — antigo bar, bilheteria e primeira etapa da restauração;
+3. **Sala** — ferradura, setores e mudanças do cinema;
+4. **Boca de cena** — medalhão de Carlos Gomes;
+5. **Bastidores** — palco, camarins e mecânica cênica;
+6. **Segundo andar** — sociedades culturais, rádio, biblioteca e Sala de Múltiplo Uso.
+
+<!-- Fontes de serviço: Prefeitura de São João da Boa Vista, páginas do Theatro Municipal e Departamento de Cultura, verificadas em 19/06/2026. -->
