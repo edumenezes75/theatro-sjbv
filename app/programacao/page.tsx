@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { getEventos } from '@/lib/content';
 import { getEventosPrefeitura } from '@/lib/agendaPrefeitura';
 import { getNoticiasTheatro } from '@/lib/noticiasTheatro';
+import { getInstagramTheatro } from '@/lib/instagramTheatro';
 import ChapterHero from '@/components/ChapterHero';
 
 export const revalidate = 21600; // 6h — agenda se renova sozinha
@@ -48,6 +49,7 @@ export default async function ProgramacaoPage() {
   const manuais = getEventos().filter((e) => !e.exemplo);
   const oficiais = await getEventosPrefeitura();
   const noticias = await getNoticiasTheatro();
+  const posts = await getInstagramTheatro();
   // Eventos cadastrados à mão (CMS) têm prioridade; os da Prefeitura entram se não duplicarem
   const vistos = new Set(manuais.map(chave));
   const reais = [...manuais, ...oficiais.filter((e) => (vistos.has(chave(e)) ? false : (vistos.add(chave(e)), true)))];
@@ -83,6 +85,28 @@ export default async function ProgramacaoPage() {
         <div className="mt-4">
           {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="max-w-reading py-6 font-sans text-ink/70 dark:text-cream/70">O Theatro segue ativo. Quando há eventos com data confirmada, eles aparecem aqui automaticamente. Para a agenda mais recente, consulte os canais oficiais abaixo.</p>}
         </div>
+
+        {posts.length > 0 && (
+          <section className="mt-14">
+            <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Direto do Instagram do Theatro</h2>
+            <p className="mt-2 max-w-reading font-sans text-sm text-ink/75 dark:text-cream/75">As publicações mais recentes do <a href="https://www.instagram.com/theatro_municipal_sjbv/" target="_blank" rel="noopener noreferrer" className="underline decoration-gold/40 underline-offset-2 hover:text-curtain dark:hover:text-gold">@theatro_municipal_sjbv</a> — atualizadas automaticamente. Datas e ingressos: confirme sempre na própria publicação.</p>
+            <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {posts.map((p) => (
+                <a key={p.id} href={p.permalink} target="_blank" rel="noopener noreferrer" className="card-lift flex flex-col overflow-hidden rounded-sm border border-ink/10 hover:border-gold/50 dark:border-cream/10">
+                  {p.image && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img src={p.image} alt="" loading="lazy" className="aspect-square w-full object-cover" />
+                  )}
+                  <div className="flex flex-1 flex-col p-4">
+                    {p.date && <p className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{new Date(p.date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric' })}{p.isVideo ? ' · vídeo' : ''}</p>}
+                    {p.titulo && <p className="mt-1 font-display text-base leading-snug">{p.titulo}</p>}
+                    <span className="mt-2 font-sans text-xs text-ink/65 dark:text-cream/75">Ver no Instagram →</span>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
 
         {noticias.length > 0 && (
           <section className="mt-14">
