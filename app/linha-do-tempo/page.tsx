@@ -26,7 +26,7 @@ export default function LinhaDoTempoPage() {
           <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Ano a ano</p>
           <h2 className="mt-2 font-display text-3xl leading-tight">A história completa, com fontes</h2>
           <p className="mt-3 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            Filtre por era, busque por tema ou pessoa e leia cada marco com sua fonte e seu selo de evidência.
+            Da pedra fundamental aos dias de hoje: cada marco com sua fonte e seu selo de evidência.
           </p>
         </div>
         <TimelineExplorer eventos={eventosRede} />
