@@ -87,6 +87,10 @@ O edifício permanece ativo e integrado à programação cultural de São João 
 
 *O Duo Assad no palco do Theatro restaurado — hoje, a casa segue recebendo arte de primeira linha.*
 
+![A sala em ferradura restaurada com a tela de cinema montada sobre o palco.](/fotos/hr8-sala-lotada.jpg)
+
+*Com a tela montada sobre o palco, a sala restaurada volta a receber sessões de cinema — o Cine Theatro de outras gerações reaparece na casa de hoje.*
+
 Para horários, contato, ingressos e visita guiada, consulte as páginas **Visite** e **Programação** — ali essas informações ficam sempre atualizadas, separadas da narrativa histórica.
 
 <!-- Fontes principais: Menezes, 2014, pp. 29–41, 69–111, 113–178; Prefeitura de São João da Boa Vista; CONDEPHAAT. -->
