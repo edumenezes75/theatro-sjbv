@@ -128,6 +128,9 @@ html.lenis, html.lenis body { height: auto; }
 }
 .dark .prose-theatro > p:first-of-type::first-letter { color: theme('colors.gold'); }
 
+/* exceção: cards/agenda não usam capitular (recurso de prosa longa) */
+.prose-theatro.no-capitular > p:first-of-type::first-letter { float: none; font-family: inherit; font-size: inherit; line-height: inherit; padding: 0; color: inherit; font-weight: inherit; }
+
 /* links com sublinhado que cresce (sutil, caro) */
 .prose-theatro a {
   background-image: linear-gradient(currentColor, currentColor);
