@@ -16,12 +16,6 @@ const MARCOS: [string, string, string][] = [
   ['2002', 'O renascimento', 'Restaurado, reabre na Semana Guiomar Novaes e volta a ser palco vivo.'],
 ];
 
-const PILLARS = [
-  { t: 'Construído por uma rede local', d: 'A Companhia Teatral Sanjoanense reuniu mais de uma centena de acionistas — comerciantes, profissionais e famílias — em torno de um projeto ousado.' },
-  { t: 'Uma sala de tradição italiana', d: 'Plateia, frisas, camarotes e galerias formam a curva em ferradura, que aproxima palco e público e muda conforme o lugar ocupado.' },
-  { t: 'Quase desapareceu', d: 'No início dos anos 1980, a deterioração e a possibilidade de venda alimentaram o temor da demolição. A cidade reagiu.' },
-  { t: 'Voltou a viver', d: 'A compra pelo município, o tombamento e a restauração por etapas devolveram o edifício à cidade — e ao palco.' },
-];
 
 const GUIA = [
   { href: '/historia', tag: 'História', t: 'A história completa', d: 'Da ideia de 1911 ao patrimônio vivo de hoje, década a década.', cta: 'Ler a história' },
@@ -152,22 +146,6 @@ export default function Home() {
               <figcaption className="mt-3 font-sans text-sm italic leading-relaxed text-ink/70 dark:text-cream/70">Um baile ocupando a plateia, sob as galerias e os camarotes — o Theatro como ponto de encontro da cidade.</figcaption>
             </figure>
           </Reveal>
-        </div>
-      </section>
-
-      {/* PILARES */}
-      <section className="bg-ink text-cream dark:bg-black">
-        <div className="mx-auto max-w-6xl px-5 py-24">
-          <Reveal><h2 className="font-display text-3xl sm:text-4xl">O que torna este Theatro especial</h2></Reveal>
-          <div className="mt-12 grid gap-px overflow-hidden rounded-sm border border-cream/10 bg-cream/10 sm:grid-cols-2">
-            {PILLARS.map((p, i) => (
-              <Reveal key={p.t} delay={i * 80} className="bg-ink p-8 dark:bg-black">
-                <span className="font-display text-2xl text-gold">0{i + 1}</span>
-                <h3 className="mt-3 font-display text-xl">{p.t}</h3>
-                <p className="mt-3 font-sans text-sm leading-relaxed text-cream/75">{p.d}</p>
-              </Reveal>
-            ))}
-          </div>
         </div>
       </section>
 
