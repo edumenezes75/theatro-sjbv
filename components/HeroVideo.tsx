@@ -5,7 +5,14 @@ import Image from 'next/image';
 export default function HeroVideo() {
   const [play, setPlay] = useState(false);
   useEffect(() => {
-    setPlay(!window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    // O vídeo só entra depois do load + um respiro: o download/decode não disputa
+    // CPU com a renderização inicial (o poster segura a cena até lá).
+    let t: ReturnType<typeof setTimeout>;
+    const arm = () => { t = setTimeout(() => setPlay(true), 2500); };
+    if (document.readyState === 'complete') arm();
+    else window.addEventListener('load', arm, { once: true });
+    return () => { clearTimeout(t); window.removeEventListener('load', arm); };
   }, []);
   return (
     <>
