@@ -34,7 +34,7 @@ function Card({ e }: { e: ReturnType<typeof getEventos>[number] }) {
       <div>
         <h3 className="font-display text-xl leading-tight">{e.title}</h3>
         {e.local && <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">{e.local}</p>}
-        {e.html && <div className="prose-theatro mt-2 max-w-none text-sm" dangerouslySetInnerHTML={{ __html: e.html }} />}
+        {e.html && <div className="prose-theatro no-capitular mt-2 max-w-none text-sm" dangerouslySetInnerHTML={{ __html: e.html }} />}
         {e.ingresso && <a href={e.ingresso} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block rounded-full bg-curtain px-4 py-1.5 font-sans text-xs font-medium text-cream hover:opacity-90">Ingressos ↗</a>}
       </div>
     </article>
