@@ -100,9 +100,9 @@ As intervenções incluíram:
 - reconstrução de frisas, camarotes, portas e janelas;
 - recuperação de fachadas, ornatos e pinturas.
 
-![A cobertura do Theatro em obras, com o casario e a torre da igreja ao fundo.](/fotos/hr5-restauro-01.jpg)
+![Paredes internas despidas durante o restauro, com eletrodutos e uma caixa metálica presos à alvenaria nua.](/fotos/hr4-restauro-12.jpg)
 
-*A cobertura em obras, vista do alto — ao fundo, o casario e a torre da igreja.*
+*Sem o reboco, o edifício mostra o que o tempo havia empilhado: eletrodutos e caixas presos à alvenaria nua, instalações remendadas década após década. Tudo foi refeito — das redes elétricas ao esgoto.*
 
 O rebaixamento das fundações foi executado lentamente. Relatos técnicos registram controle rigoroso do recalque e a necessidade de laudos para responder ao temor de que a escavação pudesse comprometer o edifício.
 
