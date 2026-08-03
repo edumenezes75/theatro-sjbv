@@ -15,7 +15,20 @@ export type Pessoa = {
 export type Curiosidade = { id: string; title: string; text: string; type: string; source: string; filme?: { s: number; t: string }; tema?: string };
 export type Imagem = { file: string; alt: string; source: string; page: number; rights_note: string };
 
-export const eventos = linhaDoTempo as Evento[];
+// Chave de ordenação da linha do tempo: aceita "1915", "2023-10-01" e intervalos
+// como "2025/2026" (nesse caso ordena pelo ano final, para o resumo ficar por último).
+function _tlKey(date: string): string {
+  const s = String(date);
+  const range = s.includes('/');
+  const parts = s.match(/\d{4}(?:-\d{2})?(?:-\d{2})?/g) || [];
+  const chosen = range ? parts[parts.length - 1] : parts[0];
+  if (!chosen) return '9999-99-99';
+  const [y, mo, da] = chosen.split('-');
+  if (range && !mo) return `${y}-12-31`;
+  return `${y}-${mo ?? '00'}-${da ?? '00'}`;
+}
+// Sempre cronológica: entradas novas entram no lugar certo, na ordem em que forem escritas.
+export const eventos = [...(linhaDoTempo as Evento[])].sort((a, b) => _tlKey(a.date).localeCompare(_tlKey(b.date)));
 export const pessoasList = (pessoas as { items: Pessoa[] }).items;
 const _pslug = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export const pessoaSlug = (p: Pessoa) => _pslug(p.name);
