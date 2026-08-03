@@ -44,10 +44,12 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
         idNum(a.id) - idNum(b.id),
       );
     }
+    // Ordem de catálogo: assunto → época → destaque → id.
+    // (Antes ordenava por tom de cor, o que embaralhava fachada, sala, eventos e pessoas.)
     return filtered.slice().sort((a, b) =>
-      ((a.tone ?? 99) - (b.tone ?? 99)) ||
-      (a.rank ?? 2) - (b.rank ?? 2) ||
+      gidx(a.category) - gidx(b.category) ||
       (EP_RANK[a.epoca ?? ''] ?? 9) - (EP_RANK[b.epoca ?? ''] ?? 9) ||
+      (a.rank ?? 2) - (b.rank ?? 2) ||
       idNum(a.id) - idNum(b.id),
     );
   }, [cat, ep, fotos, withFilter, colorLast, grouped]);
@@ -106,7 +108,7 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
       <Image
         src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h}
         placeholder="blur" blurDataURL={BLUR}
-        className="gimg-fade h-auto w-full object-cover transition-transform duration-[1.1s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.05]"
+        className="gimg-fade aspect-[4/3] h-full w-full object-cover transition-transform duration-[1.1s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.05]"
         sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
       />
       <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent p-2 pt-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
@@ -115,8 +117,10 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
     </button>
   );
 
+  // Grade alinhada: a leitura segue da esquerda para a direita e as linhas fecham retas
+  // (nas colunas CSS a segunda foto caía embaixo da primeira, escondendo a ordem do acervo).
   const masonry = (fs: Foto[], offset = 0) => (
-    <div className="columns-2 gap-3 sm:gap-4 md:columns-3 lg:columns-4 [&>*]:mb-3 sm:[&>*]:mb-4">
+    <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-4">
       {fs.map((f, k) => tile(f, offset + k))}
     </div>
   );
