@@ -130,9 +130,9 @@ A restauração durou mais que um mandato. Diferentes administrações contribu�
 
 Em dezembro de 1992, o foyer foi inaugurado. O espaço passou a receber exposições e recitais, mesmo enquanto o restante permanecia em obra.
 
-![A visita do governador Franco Montoro ao Theatro, em 1986.](/fotos/hr4-historicas-14.jpg)
+![O governador Franco Montoro e o prefeito Sidney Beraldo no Theatro, em 1986, na cerimônia oficial de tombamento.](/fotos/hr4-historicas-14.jpg)
 
-*A visita do governador Franco Montoro ao Theatro, em 1986 — o apoio estadual que ajudou a destravar o restauro, ao lado do prefeito Nelson Nicolau e do engenheiro João Merlin.*
+*Na cerimônia oficial de tombamento do Theatro, organizada pelo engenheiro João Merlin, o governador Franco Montoro visita a casa ao lado do prefeito Sidney Beraldo — o apoio estadual que ajudou a destravar o restauro.*
 
 A partir de 1998, a **Fundação Oliveira Neto** e campanhas comunitárias passaram a captar recursos e a mobilizar a cidade para concluir a obra — fase que tem episódio próprio: [A cidade financia seu restauro →](/a-cidade-financia-seu-restauro). As somas publicadas variam entre cerca de R$ 695,7 mil e R$ 732,2 mil, conforme o recorte contábil — componentes estaduais, federais, da Fundação e municipais somados ao longo de quase dezessete anos, sem prestação de contas consolidada que permita fechar o total com precisão. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
 
