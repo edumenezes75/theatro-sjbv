@@ -8,6 +8,8 @@ status: "agendado"
 destaque: false
 exemplo: false
 ---
-O humorista **Fábio Rabin** apresenta seu novo show de stand-up no Theatro Municipal. Ingressos pela Bilheteria Express (www.bilheteriaexpress.com), pelo WhatsApp (11) 2771-0016 e nos pontos de venda da cidade — Wizard São João, Óticas Mercadão dos Óculos e FoodPark Dom Pedro.
+O humorista Fábio Rabin apresenta seu novo show de stand-up, uma noite de comédia com o material mais recente do comediante.
 
-*Evento divulgado no Instagram do Theatro (@theatro_municipal_sjbv).*
+Ingressos pela Bilheteria Express, pelo WhatsApp (11) 2771-0016 e nos pontos de venda da cidade — Wizard São João, Óticas Mercadão dos Óculos e FoodPark Dom Pedro.
+
+<!-- fonte: Instagram @theatro_municipal_sjbv -->
