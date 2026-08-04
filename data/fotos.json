@@ -26,20 +26,6 @@
     "tone": 0.409485
   },
   {
-    "id": "h049",
-    "file": "fotos/hr-fachada-49.jpg",
-    "category": "fachada",
-    "categoryLabel": "Fachada e edifício",
-    "w": 1800,
-    "h": 1160,
-    "alt": "Registro antigo da fachada, ainda com a pintura original — uma das muitas camadas de tempo do edifício.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Histórico",
-    "rank": 1,
-    "tone": 0.409573,
-    "hideAcervo": true
-  },
-  {
     "id": "h055",
     "file": "fotos/hr-fachada-55.jpg",
     "category": "documentos",
@@ -832,19 +818,6 @@
     "epoca": "Restauro",
     "rank": 1,
     "tone": 2.148595
-  },
-  {
-    "id": "h033",
-    "file": "fotos/hr-restauro-33.jpg",
-    "category": "restauro",
-    "categoryLabel": "Restauro",
-    "w": 1800,
-    "h": 1259,
-    "alt": "O palco logo após a retirada da tela de cinema, em 1984 — reaparecendo a caixa cênica original.",
-    "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
-    "epoca": "Restauro",
-    "rank": 1,
-    "tone": 2.096531
   },
   {
     "id": "h041",
