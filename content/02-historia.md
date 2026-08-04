@@ -151,9 +151,9 @@ O foyer foi inaugurado em dezembro de 1992. Mesmo incompleto, o Theatro voltou a
 
 A Fundação Oliveira Neto, criada em 1998, ajudou a captar recursos por incentivos e campanhas. Em setembro de 2002, durante a 25ª Semana Guiomar Novaes, o público reencontrou a sala principal.
 
-![O palco logo após a retirada da tela de cinema, em 1984 — reaparecendo a caixa cênica original.](/fotos/hr-restauro-33.jpg)
+![A colocação das poltronas na sala, durante o restauro — operários trabalham sob as galerias recuperadas.](/fotos/hr6-restauro-03.jpg)
 
-*O palco logo após a retirada da tela de cinema, em 1984 — reaparecendo a caixa cênica original.*
+*As poltronas voltam à sala, uma a uma — depois de anos de obra, o Theatro se prepara para receber gente de novo.*
 
 ## 8. O Theatro volta a pertencer ao cotidiano — 2003 em diante
 
