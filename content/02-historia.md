@@ -15,7 +15,7 @@ Dá para contar a história do Theatro como uma peça de teatro: um primeiro ato
 
 > **Em um minuto:** a vontade de construir uma grande casa de espetáculos ganhou forma entre 1911 e 1913. O prédio abriu em 1914, tornou-se palco de muitas artes e depois cinema. Descaracterizado e ameaçado, foi defendido pela população, adquirido pelo município, tombado e restaurado. Em 2002, a plateia voltou a ocupar a sala.
 
-## 1. Antes da primeira cortina — 1911 a 1913
+## 1. Antes da primeira cortina — 1911 a 1913 {#cap-antes-da-primeira-cortina}
 
 No início do século XX, São João da Boa Vista já possuía salões, cinemas e grupos dramáticos. O crescimento econômico, a circulação de imigrantes e o contato de moradores com grandes centros alimentavam, porém, o desejo de uma casa de espetáculos maior e mais preparada.
 
@@ -37,7 +37,9 @@ Esses números pertencem ao projeto anunciado e não devem ser confundidos com a
 
 O terreno escolhido — atrás da abside da Matriz, com frente para a Rua Marechal Deodoro e ao lado da praça Coronel Joaquim José — já tinha história. A pesquisa em cartório mostra que ali se erguia um **sobrado antigo da família Tavares** (de Misael Tavares Coimbra), no qual chegara a funcionar a **primeira sessão de júri da vila**. A Companhia comprou o lote **da própria Câmara Municipal, por 14 contos de réis** (escritura de abril de 1913) e demoliu o velho sobrado para erguer o Theatro — não houve, como diz a tradição, uma “permuta” a partir de um primeiro terreno na Rua Oscar Janson.
 
-## 2. Pedra, metal e memória — 1913 a 1914
+*[Percorrer estes anos na Grande Linha →](/linha-do-tempo#era-origem)*
+
+## 2. Pedra, metal e memória — 1913 a 1914 {#cap-pedra-metal-e-memoria}
 
 A pedra fundamental foi assentada em 13 de maio de 1913. A cerimônia reuniu cerca de mil pessoas — autoridades, dirigentes da Companhia, profissionais e moradores — e contou com a bênção do padre Manoel José Marques; o jornal *A Cidade de São João* dedicou-lhe número especial, e um discurso associou a obra à grandeza simbólica do 13 de Maio, data da Abolição. Sob a entrada principal, uma caixa recebeu documentos e objetos de seu tempo: ata de fundação, estatutos, jornais, revistas, dinheiro e cartões de visita.
 
@@ -51,6 +53,8 @@ O custo superou o capital inicial. Empréstimos e debêntures foram necessários
 
 *A fachada eclética do Theatro em registro antigo — o edifício nas primeiras décadas.*
 
+*[Percorrer estes anos na Grande Linha →](/linha-do-tempo#era-construcao)*
+
 ## 3. Uma noite de gala — 31 de outubro de 1914 {#uma-noite-de-gala}
 
 Em **31 de outubro de 1914**, depois de anos de leis, ações e obras, a cidade entrou pela primeira vez na sala que construíra para si. A Companhia Santos Silva apresentou *Uma Causa Célebre*, e o público ocupou plateia, frisas, camarotes e galeria — uma noite recebida como sinal de progresso coletivo. (A data aparece como 8 de novembro em páginas institucionais; adotamos 31 de outubro, conforme o jornal da época.)
@@ -61,7 +65,9 @@ Em **31 de outubro de 1914**, depois de anos de leis, ações e obras, a cidade 
 
 *A plateia vista do palco, em registro histórico — a sala original, com a curva das galerias.*
 
-## 4. A cidade inteira encontra um palco — 1914 a 1936
+*[Percorrer estes anos na Grande Linha →](/linha-do-tempo#era-inauguracao)*
+
+## 4. A cidade inteira encontra um palco — 1914 a 1936 {#cap-a-cidade-inteira-encontra-um-palco}
 
 Nos primeiros anos, o Theatro recebeu companhias que percorriam circuitos entre São Paulo, cidades do interior e Poços de Caldas. Algumas permaneciam por vários dias e apresentavam repertórios extensos. Teatro, opereta, concertos e cinema dividiam a programação. Um levantamento do jornal *O Município* entre 1913 e 1925 examinou 576 edições — e encontrou o Theatro em três de cada quatro, entre anúncios, notas, crônicas e dezenas de espetáculos ao vivo. O edifício não era atração episódica: era parte da rotina da cidade.
 
@@ -91,7 +97,9 @@ Em 1930, o conjunto de Heitor Villa-Lobos passou pela cidade, e Souza Lima apres
 
 > **Voz do filme** · “Quando a cortina abre, você entra num mundo de fantasia, você viaja pelo tempo. Essa foi a minha primeira experiência em teatro.” — [ouvir no documentário (02:11) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=131s)
 
-## 5. Do palco à tela — 1937 a 1980
+*[Percorrer estes anos na Grande Linha →](/linha-do-tempo#era-primeiras-decadas)*
+
+## 5. Do palco à tela — 1937 a 1980 {#cap-do-palco-a-tela}
 
 Em 1937, o prédio — com apenas vinte e três anos, e já deteriorado — foi fechado temporariamente. Joaquim José de Oliveira Neto adquiriu a maioria das ações da Companhia. Poltronas e equipamentos de projeção foram renovados, e o cinema passou a dominar o cotidiano do edifício.
 
@@ -113,7 +121,9 @@ Em fevereiro de 1967, frisas e camarotes foram retirados para dar mais assentos 
 
 *A biblioteca abrigada no edifício — o Theatro também como casa de leitura.*
 
-## 6. O prédio que a cidade se recusou a perder — 1981 a 1987
+*[Percorrer estes anos na Grande Linha →](/linha-do-tempo#era-cine-theatro)*
+
+## 6. O prédio que a cidade se recusou a perder — 1981 a 1987 {#cap-o-predio-que-a-cidade-se-recusou-a-perder}
 
 No início dos anos 1980, a possibilidade de venda e demolição deixou de ser boato distante. O prédio era particular, estava degradado e recebia propostas incompatíveis com sua preservação.
 
@@ -131,7 +141,9 @@ A Prefeitura adquiriu o imóvel em duas etapas — a porção frontal em janeiro
 
 *A sala vista da plateia — a boca de cena, o forro decorado e a curva das galerias.*
 
-## 7. Uma restauração longa — 1986 a 2002
+*[Percorrer estes anos na Grande Linha →](/linha-do-tempo#era-ameaca)*
+
+## 7. Uma restauração longa — 1986 a 2002 {#cap-uma-restauracao-longa}
 
 A restauração não foi uma simples pintura. O prédio apresentava rachaduras, madeira atacada por cupins, alterações acumuladas, infiltrações e limitações técnicas. A equipe precisou estudar o que conservar, o que reconstruir e como adaptar uma casa do início do século XX às exigências contemporâneas.
 
@@ -155,7 +167,9 @@ A Fundação Oliveira Neto, criada em 1998, ajudou a captar recursos por incenti
 
 *As poltronas voltam à sala, uma a uma — depois de anos de obra, o Theatro se prepara para receber gente de novo.*
 
-## 8. O Theatro volta a pertencer ao cotidiano — 2003 em diante
+*[Percorrer estes anos na Grande Linha →](/linha-do-tempo#era-restauro)*
+
+## 8. O Theatro volta a pertencer ao cotidiano — 2003 em diante {#cap-o-theatro-volta-a-pertencer-ao-cotidiano}
 
 A reabertura trouxe um novo desafio: não bastava conservar o edifício; era necessário ocupá-lo com qualidade e continuidade.
 
@@ -176,4 +190,6 @@ O reencontro com a sala traduziu-se em uso intenso: entre 2004 e 2014, levantame
 ![A plateia em ferradura vista de um camarote, hoje.](/fotos/hr5-sala-01.jpg)
 
 *A plateia em ferradura vista de um camarote — o Theatro restaurado, de volta ao uso.*
+
+*[Percorrer estes anos na Grande Linha →](/linha-do-tempo#era-hoje)*
 

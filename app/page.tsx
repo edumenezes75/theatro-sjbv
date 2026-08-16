@@ -105,7 +105,7 @@ export default function Home() {
             <p className="mt-6 font-sans text-sm text-ink/60 dark:text-cream/60">
               <Link href="/historia" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Ler a história completa</Link>
               {' · '}
-              <Link href="/linha-do-tempo" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Ver a linha do tempo</Link>
+              <Link href="/linha-do-tempo" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Percorrer a Grande Linha</Link>
             </p>
           </Reveal>
         </div>
