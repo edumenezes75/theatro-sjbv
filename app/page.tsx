@@ -7,6 +7,9 @@ import Vozes from '@/components/Vozes';
 import { vozesList } from '@/lib/data';
 import Mark from '@/components/Mark';
 import Reveal from '@/components/Reveal';
+import ProximoEvento from '@/components/ProximoEvento';
+
+export const revalidate = 21600; // 6h — acompanha a agenda de /programacao
 
 const MARCOS: [string, string, string][] = [
   ['1911–1913', 'A cidade ergue o seu palco', 'Por subscrição popular, sanjoanenses compram ações para construir o Theatro.'],
@@ -62,6 +65,7 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link href="/historia" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03]">Explorar a história</Link>
+                <Link href="/programacao" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Programação</Link>
                 <Link href="/documentario" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Documentário</Link>
                 <Link href="/visite" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Visitar</Link>
               </div>
@@ -75,8 +79,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* PRÓXIMO EVENTO — a agenda a um toque, sem rolar a home inteira */}
+      <ProximoEvento />
+
       {/* EM 1 MINUTO */}
-      <section className="border-y border-gold/25 bg-cream dark:bg-night">
+      <section className="border-t-0 border-b border-gold/25 bg-cream dark:bg-night">
         <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
           <Reveal>
             <div className="flex items-center gap-3">

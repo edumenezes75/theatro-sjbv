@@ -130,7 +130,7 @@ export default function FotoPage({ params }: { params: { id: string } }) {
         </section>
       )}
 
-      <Comentarios tipo="foto" refId={f.id} titulo="Comentários sobre esta foto" intro="Reconhece alguém, sabe a data ou tem uma lembrança ligada a esta imagem? Conte aqui." placeholder="Escreva um comentário sobre esta foto…" vazio="Ainda não há comentários nesta foto. Seja o primeiro." />
+      <Comentarios tipo="foto" refId={f.id} titulo="Comentários sobre esta foto" intro="Reconhece alguém, sabe a data ou tem uma lembrança ligada a esta imagem? Conte aqui." placeholder="Escreva um comentário sobre esta foto…" />
 
       <div className="mt-12 border-t border-gold/20 pt-6">
         <Link href="/acervo" className="font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 dark:text-gold">← Voltar ao acervo</Link>

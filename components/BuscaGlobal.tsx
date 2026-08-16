@@ -17,6 +17,8 @@ const norm = (s: string) =>
 
 const ORDEM: ItemBusca['tipo'][] = ['Pessoa', 'Foto', 'Linha do tempo', 'Curiosidade'];
 
+const SUGESTOES = ['Guiomar Novaes', 'bailes', 'cinema', '1914', 'restauro', 'fachada'];
+
 export default function BuscaGlobal({ itens, initialQ = '' }: { itens: ItemBusca[]; initialQ?: string }) {
   const [q, setQ] = useState(initialQ);
   const ref = useRef<HTMLInputElement>(null);
@@ -68,10 +70,28 @@ export default function BuscaGlobal({ itens, initialQ = '' }: { itens: ItemBusca
         />
       </form>
 
-      {q.trim().length >= 2 && (
+      {q.trim().length >= 2 ? (
         <p className="mt-3 font-sans text-sm text-ink/60 dark:text-cream/60">
           {resultados.length === 0 ? 'Nada encontrado. Tente outro termo.' : `${resultados.length} resultado${resultados.length > 1 ? 's' : ''}.`}
         </p>
+      ) : (
+        // Campo vazio não deve ser meia tela em branco: quem não sabe o que
+        // perguntar descobre do que o site é feito com um toque.
+        <div className="mt-5">
+          <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Comece por aqui</p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {SUGESTOES.map((s) => (
+              <button
+                key={s}
+                type="button"
+                onClick={() => { setQ(s); ref.current?.focus(); }}
+                className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-sm text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/20 dark:text-cream/75 dark:hover:border-gold dark:hover:text-gold"
+              >
+                {s}
+              </button>
+            ))}
+          </div>
+        </div>
       )}
 
       <div className="mt-6 space-y-10">

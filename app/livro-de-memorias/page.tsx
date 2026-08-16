@@ -26,7 +26,6 @@ export default function LivroDeMemoriasPage() {
           titulo="Escreva a sua memória"
           intro="Conte uma lembrança ligada ao Theatro: o que aconteceu, quando, com quem. Toda memória é bem-vinda."
           placeholder="Era uma noite de…"
-          vazio="Ainda não há memórias publicadas. Seja a primeira pessoa a escrever no livro."
         />
       </div>
     </article>

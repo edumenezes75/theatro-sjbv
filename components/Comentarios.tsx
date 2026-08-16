@@ -8,14 +8,13 @@ const dtfmt = (s: string) => {
 };
 
 export default function Comentarios({
-  tipo, refId, titulo, intro, placeholder, vazio,
+  tipo, refId, titulo, intro, placeholder,
 }: {
   tipo: TipoMensagem;
   refId?: string;
   titulo?: string;
   intro?: string;
   placeholder?: string;
-  vazio?: string;
 }) {
   const [msgs, setMsgs] = useState<Mensagem[] | null>(null);
   const [nome, setNome] = useState('');
@@ -80,9 +79,9 @@ export default function Comentarios({
 
       <div className="mt-8 space-y-4">
         {msgs === null && <p className="font-sans text-sm text-ink/50 dark:text-cream/50">Carregando…</p>}
-        {msgs !== null && msgs.length === 0 && (
-          <p className="font-sans text-sm italic text-ink/65 dark:text-cream/75">{vazio || 'Seja o primeiro a deixar uma memória.'}</p>
-        )}
+        {/* Quando ainda não há mensagens publicadas, o silêncio é melhor que o
+            anúncio do vazio: "ainda não há memórias" lê-se como abandono e
+            inibe justamente quem ia escrever. O convite acima já basta. */}
         {msgs?.map((m) => (
           <article key={m.id} className="rounded-sm border border-ink/10 bg-ink/[0.02] px-4 py-3 dark:border-cream/10 dark:bg-cream/[0.03]">
             <div className="flex items-baseline justify-between gap-3">

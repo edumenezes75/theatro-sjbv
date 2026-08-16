@@ -7,8 +7,10 @@ import Mark from './Mark';
 import { IconChevron, IconMenu, IconClose } from './Icons';
 
 type Item = { href: string; label: string };
-type Grupo = { label: string; items: Item[] };
+type Grupo = { label: string; items?: Item[]; href?: string };
 
+// 'Programação' e 'Visite' são links diretos (sem submenu): são o que o público
+// mais procura e não podem custar três toques no celular.
 const MENU: Grupo[] = [
   { label: 'O Theatro', items: [
     { href: '/o-theatro', label: 'Visão geral' },
@@ -27,10 +29,8 @@ const MENU: Grupo[] = [
     { href: '/memorias', label: 'Curiosidades' },
     { href: '/livro-de-memorias', label: 'Livro de Memórias' },
   ] },
-  { label: 'Visite', items: [
-    { href: '/programacao', label: 'Programação' },
-    { href: '/visite', label: 'Como visitar' },
-  ] },
+  { label: 'Programação', href: '/programacao' },
+  { label: 'Visite', href: '/visite' },
   { label: 'O projeto', items: [
     { href: '/sobre', label: 'Sobre o projeto' },
     { href: '/fontes', label: 'Pesquisa e fontes' },
@@ -69,7 +69,7 @@ export default function Nav() {
   }, []);
 
   const solid = scrolled || open;
-  const naSecao = (g: Grupo) => g.items.some((i) => i.href === pathname);
+  const naSecao = (g: Grupo) => (g.href ? g.href === pathname : !!g.items?.some((i) => i.href === pathname));
 
   const topCls = (active: boolean) =>
     solid
@@ -86,13 +86,28 @@ export default function Nav() {
           <Mark className={`transition-colors group-hover:text-gold ${solid ? 'text-curtain dark:text-gold' : 'text-cream'}`} size={30} />
           <span className="flex flex-col">
             <span className={`font-display text-lg font-medium tracking-tight ${solid ? '' : '[text-shadow:0_1px_2px_rgba(0,0,0,0.45)]'}`}>Theatro Municipal</span>
-            <span className={`font-sans text-[0.7rem] uppercase tracking-eyebrow ${solid ? 'text-ink/70 dark:text-cream/70' : 'text-cream/85 [text-shadow:0_1px_2px_rgba(0,0,0,0.45)]'}`}>São João da Boa Vista</span>
+            {/* até 359px o subtítulo sai (o cabeçalho ficava com 106px de altura);
+                entre 360 e 639px vai menor e mais fechado, para caber numa linha só */}
+            <span className={`whitespace-nowrap font-sans text-[0.58rem] uppercase tracking-[0.16em] max-[359px]:hidden sm:text-[0.7rem] sm:tracking-eyebrow ${solid ? 'text-ink/70 dark:text-cream/70' : 'text-cream/85 [text-shadow:0_1px_2px_rgba(0,0,0,0.45)]'}`}>São João da Boa Vista</span>
           </span>
         </Link>
 
         <nav ref={navRef} className="hidden items-center gap-5 lg:flex" aria-label="Navegação principal">
           {MENU.map((g) => {
             const ativo = aberto === g.label;
+            if (g.href) {
+              return (
+                <Link
+                  key={g.label}
+                  href={g.href}
+                  aria-current={pathname === g.href ? 'page' : undefined}
+                  className={`relative py-1 ${topCls(naSecao(g))}`}
+                >
+                  {g.label}
+                  <span className={`pointer-events-none absolute -bottom-0.5 left-0 h-px bg-current transition-all duration-300 ${naSecao(g) ? 'w-full opacity-70' : 'w-0 opacity-0'}`} />
+                </Link>
+              );
+            }
             return (
               <div key={g.label} className="relative" onMouseEnter={() => abrir(g.label)} onMouseLeave={agendarFechar}>
                 <button
@@ -107,7 +122,7 @@ export default function Nav() {
                 {ativo && (
                   <div className="absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3" onMouseEnter={() => abrir(g.label)} onMouseLeave={agendarFechar}>
                     <div className="w-56 origin-top animate-[menupop_.16s_ease-out] overflow-hidden rounded-sm border border-gold/25 bg-cream shadow-xl dark:bg-nightsoft" role="menu">
-                      {g.items.map((l) => (
+                      {g.items!.map((l) => (
                         <Link
                           key={l.href}
                           href={l.href}
@@ -139,19 +154,30 @@ export default function Nav() {
 
       {open && (
         <nav className="relative max-h-[82vh] overflow-y-auto border-t border-gold/20 bg-cream px-5 pb-8 pt-3 dark:bg-night lg:hidden" aria-label="Navegação móvel">
-          {MENU.map((g) => (
-            <details key={g.label} open={naSecao(g)} className="group border-b border-ink/8 dark:border-cream/10">
-              <summary className="flex cursor-pointer list-none items-center justify-between py-3.5 font-sans text-[0.72rem] uppercase tracking-eyebrow text-curtain/80 dark:text-gold/80">
+          {MENU.map((g) =>
+            g.href ? (
+              <Link
+                key={g.label}
+                href={g.href}
+                aria-current={pathname === g.href ? 'page' : undefined}
+                className={`block border-b border-ink/8 py-3.5 font-sans text-[0.72rem] uppercase tracking-eyebrow dark:border-cream/10 ${pathname === g.href ? 'text-curtain dark:text-gold' : 'text-curtain/80 dark:text-gold/80'}`}
+              >
                 {g.label}
-                <IconChevron size={14} className="transition-transform duration-200 group-open:rotate-90" />
-              </summary>
-              <div className="pb-2">
-                {g.items.map((l) => (
-                  <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className={`block rounded-sm py-2.5 pl-3 font-sans text-base ${pathname === l.href ? 'text-curtain dark:text-gold' : 'text-ink/80 dark:text-cream/80'}`}>{l.label}</Link>
-                ))}
-              </div>
-            </details>
-          ))}
+              </Link>
+            ) : (
+              <details key={g.label} open={naSecao(g)} className="group border-b border-ink/8 dark:border-cream/10">
+                <summary className="flex cursor-pointer list-none items-center justify-between py-3.5 font-sans text-[0.72rem] uppercase tracking-eyebrow text-curtain/80 dark:text-gold/80">
+                  {g.label}
+                  <IconChevron size={14} className="transition-transform duration-200 group-open:rotate-90" />
+                </summary>
+                <div className="pb-2">
+                  {g.items!.map((l) => (
+                    <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className={`block rounded-sm py-2.5 pl-3 font-sans text-base ${pathname === l.href ? 'text-curtain dark:text-gold' : 'text-ink/80 dark:text-cream/80'}`}>{l.label}</Link>
+                  ))}
+                </div>
+              </details>
+            ),
+          )}
         </nav>
       )}
     </header>
