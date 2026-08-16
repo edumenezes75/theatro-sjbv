@@ -3,7 +3,8 @@ title: "Fábio Rabin — novo show de stand-up"
 date: "2026-09-09T20:30:00"
 local: "Theatro Municipal"
 categoria: "Humor"
-ingresso: "https://www.bilheteriaexpress.com"
+ingresso: "https://www.bilheteriaexpress.com.br/ingressos/sao-joao-da-boa-vista/theatro-municipal-s-o-jo-o-da-boa-vista.html"
+ingresso_tipo: "canal"
 status: "agendado"
 destaque: false
 exemplo: false

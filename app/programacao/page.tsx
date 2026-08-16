@@ -22,12 +22,15 @@ const fmt = (iso: string) => {
   return { data, hora, dia };
 };
 
-// Quando o link de ingresso aponta só para a home da bilheteria (e não para a
-// página do evento), o rótulo "Ingressos" promete mais do que entrega: quem
-// clica cai num catálogo e precisa caçar. "Onde comprar" é honesto.
-const linkGenerico = (url: string) => {
+// Quando o link não abre a página do próprio evento — e sim a home da
+// bilheteria, uma busca ou a página do local —, o rótulo "Ingressos" promete
+// mais do que entrega: quem clica cai num catálogo e precisa caçar.
+// O campo ingresso_tipo="canal" (marcável no /admin) manda; na falta dele,
+// um link sem caminho nenhum já se denuncia como genérico.
+const linkGenerico = (e: { ingresso?: string; ingresso_tipo?: string }) => {
+  if (e.ingresso_tipo) return e.ingresso_tipo === 'canal';
   try {
-    const u = new URL(url);
+    const u = new URL(e.ingresso || '');
     return u.pathname.replace(/\/+$/, '') === '' && !u.search;
   } catch {
     return false;
@@ -47,7 +50,7 @@ function Card({ e }: { e: ReturnType<typeof getEventos>[number] }) {
         <h3 className="font-display text-xl leading-tight">{e.title}</h3>
         {e.local && <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">{e.local}</p>}
         {e.html && <div className="prose-theatro no-capitular mt-2 max-w-none text-sm" dangerouslySetInnerHTML={{ __html: e.html }} />}
-        {e.ingresso && <a href={e.ingresso} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block rounded-full bg-curtain px-4 py-1.5 font-sans text-xs font-medium text-cream hover:opacity-90">{linkGenerico(e.ingresso) ? 'Onde comprar ↗' : 'Ingressos ↗'}</a>}
+        {e.ingresso && <a href={e.ingresso} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block rounded-full bg-curtain px-4 py-1.5 font-sans text-xs font-medium text-cream hover:opacity-90">{linkGenerico(e) ? 'Onde comprar ↗' : 'Ingressos ↗'}</a>}
       </div>
     </article>
   );

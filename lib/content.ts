@@ -94,7 +94,7 @@ export function getEditorialSlugs(): string[] {
 
 export type Evento = {
   slug: string; title: string; date: string; local?: string; categoria?: string;
-  ingresso?: string; status?: string; destaque?: boolean; exemplo?: boolean; html: string;
+  ingresso?: string; ingresso_tipo?: 'evento' | 'canal'; status?: string; destaque?: boolean; exemplo?: boolean; html: string;
 };
 
 export function getEventos(): Evento[] {

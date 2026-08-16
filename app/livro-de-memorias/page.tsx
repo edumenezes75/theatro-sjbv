@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import ChapterHero from '@/components/ChapterHero';
 import Comentarios from '@/components/Comentarios';
+import MemoriasDoFilme from '@/components/MemoriasDoFilme';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/livro-de-memorias' },
@@ -21,6 +22,7 @@ export default function LivroDeMemoriasPage() {
         <p className="max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
           O Theatro é feito também de lembranças. A primeira sessão de cinema, um baile de Carnaval, uma estreia, um nome no palco, a emoção de entrar pela primeira vez. Se você viveu o Theatro — ou ouviu histórias de quem viveu —, deixe aqui o seu registro. Aos poucos, estas páginas se tornam a memória viva da cidade.
         </p>
+        <MemoriasDoFilme />
         <Comentarios
           tipo="memoria"
           titulo="Escreva a sua memória"

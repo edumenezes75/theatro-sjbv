@@ -4,6 +4,7 @@ date: "2026-07-22T20:00:00"
 local: "Theatro Municipal"
 categoria: "Festival"
 ingresso: "https://www.sympla.com.br/eventos?s=festival+assad"
+ingresso_tipo: "canal"
 status: "agendado"
 destaque: false
 exemplo: false

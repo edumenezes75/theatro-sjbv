@@ -24,7 +24,8 @@ collections:
       - { label: "Data e hora", name: "date", widget: "datetime", date_format: "DD/MM/YYYY", time_format: "HH:mm" }
       - { label: "Local", name: "local", widget: "string", required: false, default: "Sala principal — Theatro Municipal" }
       - { label: "Categoria", name: "categoria", widget: "select", options: ["Música", "Dança", "Teatro", "Cinema", "Festival", "Palestra", "Outro"] }
-      - { label: "Link de ingressos", name: "ingresso", widget: "string", required: false }
+      - { label: "Link de ingressos", name: "ingresso", widget: "string", required: false, hint: "De preferência a página do próprio evento, não a home da bilheteria." }
+      - { label: "O link leva a quê?", name: "ingresso_tipo", widget: "select", required: false, options: [{ label: "A página do evento", value: "evento" }, { label: "Só ao canal de venda (home, busca, bilheteria)", value: "canal" }], default: "evento", hint: "Se for só o canal, o botão dirá \"Onde comprar\" em vez de \"Ingressos\"." }
       - { label: "Status", name: "status", widget: "select", options: ["agendado", "realizado"], default: "agendado" }
       - { label: "Destaque na home", name: "destaque", widget: "boolean", default: false, required: false }
       - { label: "Descrição", name: "body", widget: "markdown", required: false }
