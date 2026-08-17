@@ -9,18 +9,39 @@
       "titulo": "Antes da primeira cortina",
       "abre": "Antes do edifício, houve uma decisão. Moradores e lideranças de São João da Boa Vista resolveram que a cidade merecia uma casa de espetáculos à altura do seu crescimento — e, em vez de esperar pelo poder público, fundaram uma companhia por ações e compraram, eles mesmos, o direito de sonhar um teatro.",
       "capAnchor": "cap-antes-da-primeira-cortina",
-      "erasLinha": ["origem"],
+      "erasLinha": [
+        "origem"
+      ],
       "fotos": [
-        { "id": "h054", "pos": 1 }
+        {
+          "id": "h054",
+          "pos": 1
+        }
       ],
       "vozes": [
-        { "quote": "Foi a vontade popular, liderada pela classe artística, junto com o empenho dos governantes, que transformou um sonho em realidade.", "autor": "Neusa Maria Soares de Menezes", "papel": "Historiadora e editora do livro do centenário", "pos": 2 }
+        {
+          "quote": "Foi a vontade popular, liderada pela classe artística, junto com o empenho dos governantes, que transformou um sonho em realidade.",
+          "autor": "Neusa Maria Soares de Menezes",
+          "papel": "Historiadora e editora do livro do centenário",
+          "pos": 2
+        }
       ],
       "dossies": [
-        { "slug": "/companhia-teatral-sanjoanense", "titulo": "Quem pagou o Theatro", "desc": "A sociedade de acionistas que financiou a construção — nome a nome, ação a ação." },
-        { "slug": "/o-politeama", "titulo": "Theatro ou politeama?", "desc": "O que a cidade encomendou quando encomendou um teatro." }
+        {
+          "slug": "/companhia-teatral-sanjoanense",
+          "titulo": "Quem pagou o Theatro",
+          "desc": "A sociedade de acionistas que financiou a construção — nome a nome, ação a ação."
+        },
+        {
+          "slug": "/o-politeama",
+          "titulo": "Theatro ou politeama?",
+          "desc": "O que a cidade encomendou quando encomendou um teatro."
+        }
       ],
-      "pessoas": ["p001", "p002"]
+      "pessoas": [
+        "p001",
+        "p002"
+      ]
     },
     {
       "id": "construcao",
@@ -30,16 +51,32 @@
       "titulo": "Pedra, metal e memória",
       "abre": "Em maio de 1913, a pedra fundamental. Nos meses seguintes, o projeto de J. Pucci sobe pelas mãos do construtor espanhol Antônio Lanzac: a fachada eclética, o ferro fundido vindo de longe, as 250 lâmpadas elétricas, os quatro compositores na fachada — um discurso de modernidade financiado pelo café.",
       "capAnchor": "cap-pedra-metal-e-memoria",
-      "erasLinha": ["construção"],
+      "erasLinha": [
+        "construção"
+      ],
       "fotos": [
-        { "id": "h281", "pos": 2 }
+        {
+          "id": "h281",
+          "pos": 2
+        }
       ],
       "vozes": [],
       "dossies": [
-        { "slug": "/a-fachada-que-fala", "titulo": "A fachada que fala", "desc": "Uma águia de cimento, ferro de além-mar e quatro compositores sem hierarquia: a fachada lida como um discurso." },
-        { "slug": "/o-medalhao-de-carlos-gomes", "titulo": "O medalhão de Carlos Gomes", "desc": "O compositor que preside a boca de cena — e por quê." }
+        {
+          "slug": "/a-fachada-que-fala",
+          "titulo": "A fachada que fala",
+          "desc": "Uma águia de cimento, ferro de além-mar e quatro compositores sem hierarquia: a fachada lida como um discurso."
+        },
+        {
+          "slug": "/o-medalhao-de-carlos-gomes",
+          "titulo": "O medalhão de Carlos Gomes",
+          "desc": "O compositor que preside a boca de cena — e por quê."
+        }
       ],
-      "pessoas": ["p003", "p004"]
+      "pessoas": [
+        "p003",
+        "p004"
+      ]
     },
     {
       "id": "inauguracao",
@@ -50,15 +87,29 @@
       "abre": "Na noite de 31 de outubro de 1914, a casa abre as portas como o maior teatro do interior paulista. A cidade que pagou o Theatro entra nele pela primeira vez — e a data vira fundação: tudo o que o site conta começa ou termina nesta noite.",
       "capAnchor": "uma-noite-de-gala",
       "erasLinha": [],
-      "eventosIds": ["t005"],
+      "eventosIds": [
+        "t005"
+      ],
       "fotos": [
-        { "id": "h257", "pos": 1 }
+        {
+          "id": "h257",
+          "pos": 1
+        }
       ],
       "vozes": [
-        { "quote": "Quantas imagens imorredouras a recordar! Onde estarão guardadas tantas histórias? Em que baús? Em que páginas amarelecidas?", "autor": "Do prefácio", "papel": "“Casa de Sonhos” — Theatro Municipal, 100 anos", "pos": 2 }
+        {
+          "quote": "Quantas imagens imorredouras a recordar! Onde estarão guardadas tantas histórias? Em que baús? Em que páginas amarelecidas?",
+          "autor": "Do prefácio",
+          "papel": "“Casa de Sonhos” — Theatro Municipal, 100 anos",
+          "pos": 2
+        }
       ],
       "dossies": [
-        { "slug": "/a-noite-de-inauguracao", "titulo": "A noite de inauguração", "desc": "O programa, o público e o que os jornais registraram da primeira noite." }
+        {
+          "slug": "/a-noite-de-inauguracao",
+          "titulo": "A noite de inauguração",
+          "desc": "O programa, o público e o que os jornais registraram da primeira noite."
+        }
       ],
       "pessoas": []
     },
@@ -70,21 +121,53 @@
       "titulo": "A cidade inteira encontra um palco",
       "abre": "O Theatro nasceu para companhias dramáticas e grandes espetáculos — e logo passou a servir a quase tudo que mobilizava a cidade: operetas, festivais beneficentes, comícios, bailes, formaturas, sociedades culturais no segundo andar. Não era só um palco; era o endereço da vida pública sanjoanense.",
       "capAnchor": "cap-a-cidade-inteira-encontra-um-palco",
-      "erasLinha": ["primeiras décadas"],
-      "excluirEventosIds": ["t005"],
+      "erasLinha": [
+        "primeiras décadas"
+      ],
+      "excluirEventosIds": [
+        "t005"
+      ],
       "fotos": [
-        { "id": "h168", "pos": 4 },
-        { "id": "h250", "pos": 16 }
+        {
+          "id": "h168",
+          "pos": 7
+        },
+        {
+          "id": "h250",
+          "pos": 21
+        }
       ],
       "vozes": [
-        { "quote": "Havia um professor de música chamado seu Nascipe Atalla Murr, um sírio. Ele era muito alegre, um senhor muito bonito — então ele montava as óperas com os artistas da cidade.", "autor": "Do documentário", "papel": "Sobre os espetáculos feitos pela própria cidade", "segundo": 1205, "pos": 10 }
+        {
+          "quote": "Havia um professor de música chamado seu Nascipe Atalla Murr, um sírio. Ele era muito alegre, um senhor muito bonito — então ele montava as óperas com os artistas da cidade.",
+          "autor": "Do documentário",
+          "papel": "Sobre os espetáculos feitos pela própria cidade",
+          "segundo": 1205,
+          "pos": 18
+        }
       ],
       "dossies": [
-        { "slug": "/as-mulheres-do-theatro", "titulo": "As mulheres do Theatro", "desc": "Beloca, Anésia e as produtoras que sustentaram a vida artística da casa." },
-        { "slug": "/os-outros-inquilinos", "titulo": "Os outros inquilinos", "desc": "Rádio, biblioteca e sociedades culturais: o segundo andar que poucos conhecem." },
-        { "slug": "/a-opereta-branca-de-neve", "titulo": "A opereta Branca de Neve", "desc": "Um espetáculo da cidade, reconstituído em detalhe." }
+        {
+          "slug": "/as-mulheres-do-theatro",
+          "titulo": "As mulheres do Theatro",
+          "desc": "Beloca, Anésia e as produtoras que sustentaram a vida artística da casa."
+        },
+        {
+          "slug": "/os-outros-inquilinos",
+          "titulo": "Os outros inquilinos",
+          "desc": "Rádio, biblioteca e sociedades culturais: o segundo andar que poucos conhecem."
+        },
+        {
+          "slug": "/a-opereta-branca-de-neve",
+          "titulo": "A opereta Branca de Neve",
+          "desc": "Um espetáculo da cidade, reconstituído em detalhe."
+        }
       ],
-      "pessoas": ["p005", "p006", "p010"]
+      "pessoas": [
+        "p005",
+        "p006",
+        "p010"
+      ]
     },
     {
       "id": "cine-theatro",
@@ -94,19 +177,46 @@
       "titulo": "Do palco à tela",
       "abre": "Por mais de quarenta anos, o Theatro foi o Cine Theatro — a matinê de domingo de gerações inteiras. O footing antes da sessão, o bar do seu Arnaldo, o “galinheiro” mais barato lá no alto. Foi o tempo em que a cidade mais viveu dentro dele; e também o começo do desgaste que quase o levou.",
       "capAnchor": "cap-do-palco-a-tela",
-      "erasLinha": ["cine theatro", "declínio"],
+      "erasLinha": [
+        "cine theatro",
+        "declínio"
+      ],
       "fotos": [
-        { "id": "h111", "pos": 5 },
-        { "id": "h297", "pos": 12 }
+        {
+          "id": "h297",
+          "pos": 10
+        },
+        {
+          "id": "h111",
+          "pos": 22
+        }
       ],
       "vozes": [
-        { "quote": "Ela ouviu eu tocar o concerto de Tchaikovsky e, no dia seguinte, me deu uma aula de três horas.", "autor": "Do documentário", "papel": "Sobre a passagem de Guiomar Novaes pelo Theatro, em 1946", "segundo": 2527, "pos": 8 }
+        {
+          "quote": "Ela ouviu eu tocar o concerto de Tchaikovsky e, no dia seguinte, me deu uma aula de três horas.",
+          "autor": "Do documentário",
+          "papel": "Sobre a passagem de Guiomar Novaes pelo Theatro, em 1946",
+          "segundo": 2527,
+          "pos": 5
+        }
       ],
       "dossies": [
-        { "slug": "/o-tempo-do-cinetheatro", "titulo": "O tempo do CineTheatro", "desc": "O ritual das sessões, a fileira em que ninguém sentava e o que o cinema fez com o palco." },
-        { "slug": "/guiomar-novaes-e-o-theatro", "titulo": "Guiomar Novaes e o Theatro", "desc": "A pianista da cidade, o recital de 1946 e o nome que voltaria na reabertura." }
+        {
+          "slug": "/o-tempo-do-cinetheatro",
+          "titulo": "O tempo do CineTheatro",
+          "desc": "O ritual das sessões, a fileira em que ninguém sentava e o que o cinema fez com o palco."
+        },
+        {
+          "slug": "/guiomar-novaes-e-o-theatro",
+          "titulo": "Guiomar Novaes e o Theatro",
+          "desc": "A pianista da cidade, o recital de 1946 e o nome que voltaria na reabertura."
+        }
       ],
-      "pessoas": ["p008", "p010", "p051"]
+      "pessoas": [
+        "p008",
+        "p010",
+        "p051"
+      ]
     },
     {
       "id": "ameaca",
@@ -116,18 +226,40 @@
       "titulo": "O prédio que a cidade se recusou a perder",
       "abre": "Decadente e ameaçado de demolição, o Theatro virou causa. A greve de fome anunciada de Ronaldo Marin, os 1.026 abaixo-assinados, a consulta popular, a compra pelo poder público e o tombamento pelo CONDEPHAAT: a mesma cidade que o construiu por ações o salvou por mobilização.",
       "capAnchor": "cap-o-predio-que-a-cidade-se-recusou-a-perder",
-      "erasLinha": ["preservação"],
+      "erasLinha": [
+        "preservação"
+      ],
       "fotos": [
-        { "id": "h009", "pos": 2 },
-        { "id": "h072", "pos": 5 }
+        {
+          "id": "h072",
+          "pos": 5
+        },
+        {
+          "id": "h009",
+          "pos": 6
+        }
       ],
       "vozes": [
-        { "quote": "A gente passa e vê: aquilo não é meu, mas eu não quero que desmanche, porque é nosso — é um pouquinho meu também.", "autor": "Sidney Estanislau Beraldo", "papel": "Prefeito na aquisição do Theatro pelo município", "segundo": 2790, "pos": 4 }
+        {
+          "quote": "A gente passa e vê: aquilo não é meu, mas eu não quero que desmanche, porque é nosso — é um pouquinho meu também.",
+          "autor": "Sidney Estanislau Beraldo",
+          "papel": "Prefeito na aquisição do Theatro pelo município",
+          "segundo": 2790,
+          "pos": 3
+        }
       ],
       "dossies": [
-        { "slug": "/luta-contra-a-demolicao", "titulo": "A luta contra a demolição", "desc": "Da retroescavadeira anunciada ao tombamento: a mobilização que salvou o edifício, passo a passo." }
+        {
+          "slug": "/luta-contra-a-demolicao",
+          "titulo": "A luta contra a demolição",
+          "desc": "Da retroescavadeira anunciada ao tombamento: a mobilização que salvou o edifício, passo a passo."
+        }
       ],
-      "pessoas": ["p012", "p013", "p026"]
+      "pessoas": [
+        "p012",
+        "p013",
+        "p026"
+      ]
     },
     {
       "id": "restauro",
@@ -137,18 +269,42 @@
       "titulo": "Uma restauração longa",
       "abre": "Salvar não bastava: era preciso pagar e saber restaurar. Foram quinze anos — a Fundação Oliveira Neto, a Lei Rouanet, a arte ocupando o canteiro de obras, a decapagem revelando as pinturas escondidas — até setembro de 2002, quando o Theatro reabriu na Semana Guiomar Novaes.",
       "capAnchor": "cap-uma-restauracao-longa",
-      "erasLinha": ["restauro", "reabertura"],
+      "erasLinha": [
+        "restauro",
+        "reabertura"
+      ],
       "fotos": [
-        { "id": "h084", "pos": 6 },
-        { "id": "h209", "pos": 13 }
+        {
+          "id": "h084",
+          "pos": 13
+        },
+        {
+          "id": "h209",
+          "pos": 16
+        }
       ],
       "vozes": [
-        { "quote": "Ele sabia que sozinho não poderia fazer nada, mas era um líder carismático que sabia envolver as pessoas.", "autor": "Do documentário", "papel": "Sobre João Batista Merlin, mentor técnico do restauro", "segundo": 3200, "pos": 9 }
+        {
+          "quote": "Ele sabia que sozinho não poderia fazer nada, mas era um líder carismático que sabia envolver as pessoas.",
+          "autor": "Do documentário",
+          "papel": "Sobre João Batista Merlin, mentor técnico do restauro",
+          "segundo": 3200,
+          "pos": 2
+        }
       ],
       "dossies": [
-        { "slug": "/a-cidade-financia-seu-restauro", "titulo": "A cidade financia seu restauro", "desc": "Fundação, leis de incentivo e o “Vestindo a Camisa”: como se pagou a obra." }
+        {
+          "slug": "/a-cidade-financia-seu-restauro",
+          "titulo": "A cidade financia seu restauro",
+          "desc": "Fundação, leis de incentivo e o “Vestindo a Camisa”: como se pagou a obra."
+        }
       ],
-      "pessoas": ["p014", "p015", "p016", "p030"]
+      "pessoas": [
+        "p014",
+        "p015",
+        "p016",
+        "p030"
+      ]
     },
     {
       "id": "hoje",
@@ -158,18 +314,39 @@
       "titulo": "O Theatro volta a pertencer ao cotidiano",
       "abre": "Restaurado, o Theatro voltou a ser o que sempre foi: palco vivo. Semanas Guiomar Novaes, festivais Assad, teatro, cinema de volta à sala em ferradura — e, desde 2015, o documentário Música & Drama guardando as vozes de quem viveu tudo isso.",
       "capAnchor": "cap-o-theatro-volta-a-pertencer-ao-cotidiano",
-      "erasLinha": ["contemporâneo"],
+      "erasLinha": [
+        "contemporâneo"
+      ],
       "fotos": [
-        { "id": "h213", "pos": 4 },
-        { "id": "h249", "pos": 12 }
+        {
+          "id": "h248",
+          "pos": 10
+        },
+        {
+          "id": "h249",
+          "pos": 12
+        }
       ],
       "vozes": [
-        { "quote": "É um teatro vivo e que teve, como a vida de qualquer pessoa, seus altos e baixos.", "autor": "Badi Assad", "papel": "Violonista e cantora, da família Assad", "segundo": 2248, "pos": 8 }
+        {
+          "quote": "É um teatro vivo e que teve, como a vida de qualquer pessoa, seus altos e baixos.",
+          "autor": "Badi Assad",
+          "papel": "Violonista e cantora, da família Assad",
+          "segundo": 2248,
+          "pos": 13
+        }
       ],
       "dossies": [
-        { "slug": "/documentario", "titulo": "Música & Drama — o filme", "desc": "Um século do Theatro contado por quem o viveu: assista com transcrição navegável, minuto a minuto." }
+        {
+          "slug": "/documentario",
+          "titulo": "Música & Drama — o filme",
+          "desc": "Um século do Theatro contado por quem o viveu: assista com transcrição navegável, minuto a minuto."
+        }
       ],
-      "pessoas": ["p046", "p048"]
+      "pessoas": [
+        "p046",
+        "p048"
+      ]
     }
   ]
 }
