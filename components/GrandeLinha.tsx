@@ -108,7 +108,7 @@ function PassoNode({ passo }: { passo: Passo }) {
           <p className="font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Para se aprofundar</p>
           <p className="mt-1.5 font-display text-xl leading-tight">{d.titulo}</p>
           <p className="mt-1.5 font-sans text-sm leading-relaxed text-ink/75 dark:text-cream/75">{d.desc}</p>
-          <span className="mt-2 inline-block font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 dark:text-gold">Ler o dossiê →</span>
+          <span className="mt-2 inline-block font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 dark:text-gold">{d.slug === '/documentario' ? 'Assistir com transcrição →' : 'Ler o episódio →'}</span>
         </Link>
       </Reveal>
     </li>

@@ -21,7 +21,7 @@ const MARCOS: [string, string, string][] = [
 
 
 const GUIA = [
-  { href: '/historia', tag: 'História', t: 'A história completa', d: 'Da ideia de 1911 ao patrimônio vivo de hoje, década a década.', cta: 'Ler a história' },
+  { href: '/linha-do-tempo', tag: 'A História', t: 'A Grande Linha', d: 'Um século numa rolagem só: capítulos, marcos, fotos e vozes — de 1911 a hoje.', cta: 'Percorrer a linha' },
   { href: '/arquitetura', tag: 'Arquitetura', t: 'A sala em ferradura', d: 'Fachada, plateia, frisas, camarotes, palco e ornamentos.', cta: 'Conhecer o edifício' },
   { href: '/restauracao', tag: 'Restauro', t: 'A luta contra a demolição', d: 'Da retroescavadeira no palco à reabertura, pela mobilização da cidade.', cta: 'Ver a restauração' },
   { href: '/documentario', tag: 'Documentário', t: 'Música & Drama', d: 'A memória do Theatro contada por quem a viveu.', cta: 'Assistir ao filme' },
@@ -64,7 +64,7 @@ export default function Home() {
                 Em 1914, São João da Boa Vista não inaugurou apenas um edifício. Inaugurou uma ambição: colocar a arte no centro da vida da cidade.
               </p>
               <div className="flex flex-wrap gap-3">
-                <Link href="/historia" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03]">Explorar a história</Link>
+                <Link href="/linha-do-tempo" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03]">Explorar a história</Link>
                 <Link href="/programacao" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Programação</Link>
                 <Link href="/documentario" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Documentário</Link>
                 <Link href="/visite" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Visitar</Link>

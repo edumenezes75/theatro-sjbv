@@ -9,22 +9,21 @@ import { IconChevron, IconMenu, IconClose } from './Icons';
 type Item = { href: string; label: string };
 type Grupo = { label: string; items?: Item[]; href?: string };
 
-// 'Programação' e 'Visite' são links diretos (sem submenu): são o que o público
-// mais procura e não podem custar três toques no celular.
+// Dois eixos de conteúdo — a história contada e a memória guardada — mais os
+// dois destinos de serviço como links diretos (Programação e Visite não podem
+// custar três toques no celular). URLs intocadas; só rótulos e agrupamento.
 const MENU: Grupo[] = [
-  { label: 'O Theatro', items: [
-    { href: '/o-theatro', label: 'Visão geral' },
-    { href: '/historia', label: 'História' },
+  { label: 'A História', items: [
+    { href: '/linha-do-tempo', label: 'A Grande Linha' },
+    { href: '/historia', label: 'História completa' },
+    { href: '/episodios', label: 'Episódios' },
     { href: '/arquitetura', label: 'Arquitetura' },
     { href: '/restauracao', label: 'Restauro' },
-    { href: '/linha-do-tempo', label: 'A Grande Linha' },
-    { href: '/episodios', label: 'Episódios' },
+    { href: '/o-theatro', label: 'Visão geral' },
   ] },
-  { label: 'Acervo', items: [
+  { label: 'Memória viva', items: [
     { href: '/acervo', label: 'Acervo de imagens' },
     { href: '/documentario', label: 'Documentário' },
-  ] },
-  { label: 'Memória', items: [
     { href: '/pessoas', label: 'Pessoas' },
     { href: '/memorias', label: 'Curiosidades' },
     { href: '/livro-de-memorias', label: 'Livro de Memórias' },
