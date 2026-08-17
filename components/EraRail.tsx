@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 
-// Régua fixa das eras da Grande Linha: mostra onde se está no século
+// Régua fixa das eras da linha do tempo: mostra onde se está no século
 // e permite saltar. Fica logo abaixo do cabeçalho do site.
 export default function EraRail({ eras }: { eras: { id: string; rail: string }[] }) {
   const [active, setActive] = useState('');

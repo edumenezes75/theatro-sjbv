@@ -21,7 +21,7 @@ const MARCOS: [string, string, string][] = [
 
 
 const GUIA = [
-  { href: '/linha-do-tempo', tag: 'A História', t: 'A Grande Linha', d: 'Um século numa rolagem só: capítulos, marcos, fotos e vozes — de 1911 a hoje.', cta: 'Percorrer a linha' },
+  { href: '/linha-do-tempo', tag: 'A História', t: 'Linha do tempo', d: 'Um século numa rolagem só: capítulos, marcos, fotos e vozes — de 1911 a hoje.', cta: 'Percorrer a linha' },
   { href: '/arquitetura', tag: 'Arquitetura', t: 'A sala em ferradura', d: 'Fachada, plateia, frisas, camarotes, palco e ornamentos.', cta: 'Conhecer o edifício' },
   { href: '/restauracao', tag: 'Restauro', t: 'A luta contra a demolição', d: 'Da retroescavadeira no palco à reabertura, pela mobilização da cidade.', cta: 'Ver a restauração' },
   { href: '/documentario', tag: 'Documentário', t: 'Música & Drama', d: 'A memória do Theatro contada por quem a viveu.', cta: 'Assistir ao filme' },
@@ -105,7 +105,7 @@ export default function Home() {
             <p className="mt-6 font-sans text-sm text-ink/60 dark:text-cream/60">
               <Link href="/historia" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Ler a história completa</Link>
               {' · '}
-              <Link href="/linha-do-tempo" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Percorrer a Grande Linha</Link>
+              <Link href="/linha-do-tempo" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Percorrer a linha do tempo</Link>
             </p>
           </Reveal>
         </div>

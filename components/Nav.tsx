@@ -6,33 +6,35 @@ import ThemeToggle from './ThemeToggle';
 import Mark from './Mark';
 import { IconChevron, IconMenu, IconClose } from './Icons';
 
-type Item = { href: string; label: string };
+type Item = { href: string; label: string; hint?: string };
 type Grupo = { label: string; items?: Item[]; href?: string };
 
 // Dois eixos de conteúdo — a história contada e a memória guardada — mais os
 // dois destinos de serviço como links diretos (Programação e Visite não podem
 // custar três toques no celular). URLs intocadas; só rótulos e agrupamento.
+// As `hint` aparecem só no desktop: são a diferença entre escolher e adivinhar
+// quando dois itens vizinhos prometem a mesma coisa (a linha e o texto corrido).
 const MENU: Grupo[] = [
   { label: 'A História', items: [
-    { href: '/linha-do-tempo', label: 'A Grande Linha' },
-    { href: '/historia', label: 'História completa' },
-    { href: '/episodios', label: 'Episódios' },
-    { href: '/arquitetura', label: 'Arquitetura' },
-    { href: '/restauracao', label: 'Restauro' },
-    { href: '/o-theatro', label: 'Visão geral' },
+    { href: '/o-theatro', label: 'O Theatro', hint: 'Em resumo, para começar' },
+    { href: '/linha-do-tempo', label: 'Linha do tempo', hint: 'Um século numa rolagem' },
+    { href: '/historia', label: 'História completa', hint: 'O texto corrido, em 8 capítulos' },
+    { href: '/episodios', label: 'Episódios', hint: 'Leituras longas, uma por tema' },
+    { href: '/arquitetura', label: 'Arquitetura', hint: 'A fachada e a sala em ferradura' },
+    { href: '/restauracao', label: 'Restauro', hint: 'Da ameaça de demolição à reabertura' },
   ] },
   { label: 'Memória viva', items: [
-    { href: '/acervo', label: 'Acervo de imagens' },
-    { href: '/documentario', label: 'Documentário' },
-    { href: '/pessoas', label: 'Pessoas' },
-    { href: '/memorias', label: 'Curiosidades' },
-    { href: '/livro-de-memorias', label: 'Livro de Memórias' },
+    { href: '/acervo', label: 'Acervo de imagens', hint: '276 fotografias catalogadas' },
+    { href: '/documentario', label: 'Documentário', hint: 'O filme, com transcrição navegável' },
+    { href: '/pessoas', label: 'Pessoas', hint: 'Quem fez o Theatro acontecer' },
+    { href: '/memorias', label: 'Curiosidades', hint: 'Histórias miúdas da casa' },
+    { href: '/livro-de-memorias', label: 'Livro de Memórias', hint: 'Deixe a sua lembrança' },
   ] },
   { label: 'Programação', href: '/programacao' },
   { label: 'Visite', href: '/visite' },
   { label: 'O projeto', items: [
-    { href: '/sobre', label: 'Sobre o projeto' },
-    { href: '/fontes', label: 'Pesquisa e fontes' },
+    { href: '/sobre', label: 'Sobre o projeto', hint: 'O que é este site — e o que não é' },
+    { href: '/fontes', label: 'Pesquisa e fontes', hint: 'De onde vem cada afirmação' },
   ] },
 ];
 
@@ -120,16 +122,19 @@ export default function Nav() {
                 </button>
                 {ativo && (
                   <div className="absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3" onMouseEnter={() => abrir(g.label)} onMouseLeave={agendarFechar}>
-                    <div className="w-56 origin-top animate-[menupop_.16s_ease-out] overflow-hidden rounded-sm border border-gold/25 bg-cream shadow-xl dark:bg-nightsoft" role="menu">
+                    <div className="w-72 origin-top animate-[menupop_.16s_ease-out] overflow-hidden rounded-sm border border-gold/25 bg-cream shadow-xl dark:bg-nightsoft" role="menu">
                       {g.items!.map((l) => (
                         <Link
                           key={l.href}
                           href={l.href}
                           role="menuitem"
                           aria-current={pathname === l.href ? 'page' : undefined}
-                          className={`block border-l-2 px-3.5 py-2.5 font-sans text-sm transition-colors hover:bg-gold/10 ${pathname === l.href ? 'border-curtain text-curtain dark:border-gold dark:text-gold' : 'border-transparent text-ink/80 dark:text-cream/80'}`}
+                          className={`block border-l-2 px-3.5 py-2.5 font-sans transition-colors hover:bg-gold/10 ${pathname === l.href ? 'border-curtain text-curtain dark:border-gold dark:text-gold' : 'border-transparent text-ink/80 dark:text-cream/80'}`}
                         >
-                          {l.label}
+                          <span className="block text-sm">{l.label}</span>
+                          {l.hint && (
+                            <span className="mt-0.5 block text-[0.72rem] leading-snug text-ink/50 dark:text-cream/45">{l.hint}</span>
+                          )}
                         </Link>
                       ))}
                     </div>
@@ -155,17 +160,21 @@ export default function Nav() {
         <nav className="relative max-h-[82vh] overflow-y-auto border-t border-gold/20 bg-cream px-5 pb-8 pt-3 dark:bg-night lg:hidden" aria-label="Navegação móvel">
           {MENU.map((g) =>
             g.href ? (
+              // Destino direto: tem de PARECER destino. Antes usava o mesmo estilo
+              // dos títulos de grupo e, sem a seta dos acordeões, lia-se como um
+              // rótulo morto. Agora vem no corpo dos itens navegáveis, com seta.
               <Link
                 key={g.label}
                 href={g.href}
                 aria-current={pathname === g.href ? 'page' : undefined}
-                className={`block border-b border-ink/8 py-3.5 font-sans text-[0.72rem] uppercase tracking-eyebrow dark:border-cream/10 ${pathname === g.href ? 'text-curtain dark:text-gold' : 'text-curtain/80 dark:text-gold/80'}`}
+                className={`flex items-center justify-between border-b border-ink/8 py-4 font-sans text-base font-medium dark:border-cream/10 ${pathname === g.href ? 'text-curtain dark:text-gold' : 'text-ink/85 dark:text-cream/85'}`}
               >
                 {g.label}
+                <span aria-hidden className="text-curtain/70 dark:text-gold/70">→</span>
               </Link>
             ) : (
               <details key={g.label} open={naSecao(g)} className="group border-b border-ink/8 dark:border-cream/10">
-                <summary className="flex cursor-pointer list-none items-center justify-between py-3.5 font-sans text-[0.72rem] uppercase tracking-eyebrow text-curtain/80 dark:text-gold/80">
+                <summary className="flex cursor-pointer list-none items-center justify-between py-3.5 font-sans text-[0.78rem] uppercase tracking-[0.2em] text-curtain/75 dark:text-gold/75">
                   {g.label}
                   <IconChevron size={14} className="transition-transform duration-200 group-open:rotate-90" />
                 </summary>

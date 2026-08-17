@@ -26,7 +26,7 @@ export default function Footer() {
           <div>
             <h3 className="font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold">A História</h3>
             <ul className="mt-3 space-y-1.5 text-sm">
-              {[['/linha-do-tempo','A Grande Linha'],['/historia','História completa'],['/episodios','Episódios'],['/arquitetura','Arquitetura'],['/restauracao','Restauro'],['/o-theatro','Visão geral'],['/programacao','Programação'],['/visite','Visite']].map(([h,l]) => (
+              {[['/o-theatro','O Theatro'],['/linha-do-tempo','Linha do tempo'],['/historia','História completa'],['/episodios','Episódios'],['/arquitetura','Arquitetura'],['/restauracao','Restauro'],['/programacao','Programação'],['/visite','Visite']].map(([h,l]) => (
                 <li key={h}><Link href={h} className="text-cream/80 hover:text-gold">{l}</Link></li>
               ))}
             </ul>
