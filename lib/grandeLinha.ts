@@ -54,11 +54,12 @@ export function getGrandeLinha(): Era[] {
 // Intercala eventos e recheio numa sequência única, ordenada pela posição `pos`
 // (o índice do evento após o qual cada peça entra). Assim o baile dos anos 1930
 // aparece entre os eventos dos anos 1930, e a voz sobre 1946 perto de 1946.
+// Os episódios NÃO entram aqui: eram 13 cartões dourados repetindo o mesmo
+// rótulo. Agora saem como uma lista única no fim da era, montada em EraBloco.
 export type Passo =
   | { tipo: 'evento'; evento: Evento }
   | { tipo: 'foto'; foto: Foto }
-  | { tipo: 'voz'; voz: VozEra }
-  | { tipo: 'dossie'; dossie: DossieEra };
+  | { tipo: 'voz'; voz: VozEra };
 
 export function passosDaEra(era: Era): Passo[] {
   const out: Passo[] = [];
@@ -77,6 +78,5 @@ export function passosDaEra(era: Era): Passo[] {
   const n = era.eventos.length;
   for (const f of era.fotos) if (f.pos > n) out.push({ tipo: 'foto', foto: f.foto });
   for (const v of era.vozes) if (v.pos > n) out.push({ tipo: 'voz', voz: v });
-  for (const dz of era.dossies) out.push({ tipo: 'dossie', dossie: dz });
   return out;
 }
