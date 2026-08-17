@@ -16,7 +16,7 @@ export default function LivroDeMemoriasPage() {
         eyebrow="A cidade escreve sua própria história"
         title="Livro de Memórias"
         image="/fotos/sl-03.jpg"
-        alt="A plateia em ferradura do Theatro restaurado, vista do palco."
+        alt="A sala em ferradura durante o restauro, vista do palco."
       />
       <div className="mx-auto max-w-3xl px-5 py-16 sm:py-20">
         <p className="max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
