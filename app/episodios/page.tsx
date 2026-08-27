@@ -30,7 +30,7 @@ export default function DossiesPage() {
             href={d.meta.slug}
             className="card-lift group flex flex-col rounded-sm border border-gold/30 bg-cream p-6 transition-colors hover:border-gold dark:bg-nightsoft"
           >
-            <span className="font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{d.meta.eyebrow}</span>
+            <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{d.meta.eyebrow}</span>
             <h2 className="mt-2 font-display text-2xl font-normal text-ink dark:text-cream">
               {d.meta.title} <span className="text-curtain transition-transform group-hover:translate-x-0.5 dark:text-gold">→</span>
             </h2>

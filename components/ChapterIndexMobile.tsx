@@ -23,14 +23,14 @@ export default function ChapterIndexMobile() {
   };
   return (
     <details ref={ref} className="group mb-8 rounded-sm border border-gold/30 bg-cream/50 dark:bg-nightsoft/50 lg:hidden">
-      <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">
+      <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-3 font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">
         <span>Neste capítulo · {items.length} seções</span>
         <span className="text-base transition-transform group-open:rotate-180" aria-hidden>⌄</span>
       </summary>
-      <ul className="border-t border-gold/20 px-4 py-3 space-y-2">
+      <ul className="border-t border-gold/20 px-4 py-2">
         {items.map((it) => (
           <li key={it.id}>
-            <button onClick={() => go(it.id)} className="block text-left font-sans text-sm leading-snug text-ink/75 dark:text-cream/75">
+            <button onClick={() => go(it.id)} className="block w-full py-2 text-left font-sans text-sm leading-snug text-ink/75 dark:text-cream/75">
               {it.text}
             </button>
           </li>

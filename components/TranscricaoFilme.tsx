@@ -18,7 +18,7 @@ export default function TranscricaoFilme({ segs, youtubeId }: { segs: Seg[]; you
           onChange={(e) => setQ(e.target.value)}
           placeholder="Busque por palavra, nome ou tema…"
           aria-label="Buscar na transcrição do documentário"
-          className="w-full rounded-sm border border-ink/20 bg-transparent px-4 py-3 font-sans text-sm text-ink/90 placeholder:text-ink/45 focus-visible:border-curtain dark:border-cream/20 dark:text-cream/90 dark:placeholder:text-cream/45 dark:focus-visible:border-gold"
+          className="w-full rounded-sm border border-ink/20 bg-transparent px-4 py-3 font-sans text-sm text-ink/90 placeholder:text-ink/45 focus-visible:border-curtain dark:border-cream/20 dark:text-cream/90 dark:placeholder:text-cream/65 dark:focus-visible:border-gold"
         />
         {nq.length >= 2 && (
           <p className="mt-2 px-1 font-sans text-xs text-ink/75 dark:text-cream/75">
@@ -42,7 +42,7 @@ export default function TranscricaoFilme({ segs, youtubeId }: { segs: Seg[]; you
             <div className="min-w-0">
               <p className="font-sans text-[0.97rem] leading-relaxed text-ink/85 dark:text-cream/85">{x.text}</p>
               {x.link && (
-                <a href={x.link.href} className="mt-1.5 inline-block font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain hover:text-gold dark:text-gold">ver: {x.link.label} →</a>
+                <a href={x.link.href} className="mt-1.5 inline-block font-sans text-xs uppercase tracking-eyebrow text-curtain hover:text-gold dark:text-gold">ver: {x.link.label} →</a>
               )}
             </div>
           </li>

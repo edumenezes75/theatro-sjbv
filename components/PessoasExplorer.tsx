@@ -47,11 +47,11 @@ function Card({ p }: { p: Pessoa }) {
         <Avatar p={p} />
         <div className="min-w-0 flex-1">
           <div className="flex items-center justify-between gap-2">
-            <span className="font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
+            <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
             <SeloEvidencia status={p.status} />
           </div>
           <h3 className="mt-1.5 font-display text-lg leading-tight">{p.name}</h3>
-          <p className="mt-0.5 font-sans text-[0.82rem] font-medium leading-snug text-ink/70 dark:text-cream/70">{p.role}</p>
+          <p className="mt-0.5 font-sans text-sm font-medium leading-snug text-ink/70 dark:text-cream/70">{p.role}</p>
         </div>
       </div>
       <p className="mt-3 line-clamp-3 font-sans text-sm leading-relaxed text-ink/75 dark:text-cream/75">{p.summary || p.bio}</p>

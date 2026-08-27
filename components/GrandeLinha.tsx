@@ -92,13 +92,13 @@ function PassoNode({ passo }: { passo: Passo }) {
         />
         <Reveal>
           <div className="flex flex-wrap items-baseline gap-x-3">
-            <span className="font-sans text-[0.72rem] uppercase tracking-[0.1em] text-curtain dark:text-gold">{e.display}</span>
+            <span className="font-sans text-xs uppercase tracking-[0.1em] text-curtain dark:text-gold">{e.display}</span>
             <SeloEvidencia status={e.status} />
           </div>
           <h3 className="mt-0.5 font-display text-[1.12rem] font-medium leading-snug">{e.title}</h3>
           <p className="mt-1 max-w-reading font-sans text-[0.88rem] leading-relaxed text-ink/70 dark:text-cream/70">
             {resumo}
-            {restantes.length > 0 && <> <span className="text-ink/45 dark:text-cream/45">Com {ligarNomes(restantes)}.</span></>}
+            {restantes.length > 0 && <> <span className="text-ink/45 dark:text-cream/65">Com {ligarNomes(restantes)}.</span></>}
           </p>
         </Reveal>
       </li>
@@ -122,7 +122,7 @@ function PassoNode({ passo }: { passo: Passo }) {
                   className="h-auto w-full transition-transform duration-500 group-hover:scale-[1.02]"
                 />
               </span>
-              <figcaption className="mt-2 block max-w-xl font-sans text-[0.76rem] italic leading-relaxed text-ink/52 dark:text-cream/50">
+              <figcaption className="mt-2 block max-w-xl font-sans text-sm italic leading-relaxed text-ink/52 dark:text-cream/65">
                 {f.alt}{' '}
                 <span className="whitespace-nowrap not-italic text-curtain underline decoration-gold/40 underline-offset-2 dark:text-gold">
                   Ver no acervo →
@@ -143,13 +143,13 @@ function PassoNode({ passo }: { passo: Passo }) {
           <blockquote className="font-display text-[1.22rem] italic leading-snug text-ink/90 dark:text-cream/90">
             “{v.quote}”
           </blockquote>
-          <figcaption className="mt-2 font-sans text-[0.74rem] leading-relaxed text-ink/50 dark:text-cream/45">
+          <figcaption className="mt-2 font-sans text-sm leading-relaxed text-ink/50 dark:text-cream/65">
             {v.autor} · {v.papel}
           </figcaption>
           {typeof v.segundo === 'number' && (
             <a
               href={`https://www.youtube.com/watch?v=${VID}&t=${v.segundo}s`}
-              className="mt-1.5 inline-block font-sans text-[0.78rem] text-curtain underline decoration-gold/45 underline-offset-4 transition-colors hover:decoration-current dark:text-gold"
+              className="mt-1.5 inline-block font-sans text-sm text-curtain underline decoration-gold/45 underline-offset-4 transition-colors hover:decoration-current dark:text-gold"
             >
               Ouvir em Música &amp; Drama ({mmss(v.segundo)})
             </a>
@@ -166,7 +166,7 @@ function EraBloco({ era, ultima }: { era: Era; ultima: boolean }) {
     <section aria-labelledby={`era-${era.id}`}>
       <header id={`era-${era.id}`} className="scroll-mt-32 pt-2">
         <Reveal>
-          <p className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-ink/40 dark:text-cream/40">
+          <p className="font-sans text-xs uppercase tracking-eyebrow text-ink/40 dark:text-cream/65">
             Capítulo {era.capitulo} de 8
           </p>
           <p className="mt-1.5 font-display text-[2.1rem] font-medium leading-[1.05] text-curtain dark:text-gold sm:text-4xl">
@@ -178,7 +178,7 @@ function EraBloco({ era, ultima }: { era: Era; ultima: boolean }) {
           </p>
           <Link
             href={`/historia#${era.capAnchor}`}
-            className="mt-2 inline-block font-sans text-[0.8rem] text-curtain underline decoration-gold/45 underline-offset-4 transition-colors hover:decoration-current dark:text-gold"
+            className="mt-2 inline-block font-sans text-sm text-curtain underline decoration-gold/45 underline-offset-4 transition-colors hover:decoration-current dark:text-gold"
           >
             Ler o capítulo completo →
           </Link>
@@ -194,7 +194,7 @@ function EraBloco({ era, ultima }: { era: Era; ultima: boolean }) {
         {era.dossies.length > 0 && (
           <li className="my-[34px] max-w-xl border-y border-gold/30 py-4">
             <Reveal>
-              <p className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-ink/45 dark:text-cream/45">
+              <p className="font-sans text-xs uppercase tracking-eyebrow text-ink/45 dark:text-cream/65">
                 Para se aprofundar nesta era
               </p>
               <ul className="mt-2">
@@ -219,7 +219,7 @@ function EraBloco({ era, ultima }: { era: Era; ultima: boolean }) {
         {era.pessoas.length > 0 && (
           <li className="mt-[22px] max-w-xl">
             <Reveal>
-              <p className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-ink/45 dark:text-cream/45">
+              <p className="font-sans text-xs uppercase tracking-eyebrow text-ink/45 dark:text-cream/65">
                 Quem viveu esta era
               </p>
               <p className="mt-1 font-sans text-[0.86rem] leading-loose text-ink/60 dark:text-cream/60">

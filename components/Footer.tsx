@@ -12,7 +12,7 @@ export default function Footer() {
         </p>
         <div className="mt-12 grid gap-10 sm:grid-cols-3">
           <div>
-            <h3 className="font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold">Visite</h3>
+            <h3 className="font-sans text-xs uppercase tracking-eyebrow text-gold">Visite</h3>
             <p className="mt-3 text-sm leading-relaxed text-cream/80">
               Praça da Catedral, 22 — Centro<br />São João da Boa Vista — SP
             </p>
@@ -24,7 +24,7 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <h3 className="font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold">A História</h3>
+            <h3 className="font-sans text-xs uppercase tracking-eyebrow text-gold">A História</h3>
             <ul className="mt-3 space-y-1.5 text-sm">
               {[['/o-theatro','O Theatro'],['/linha-do-tempo','Linha do tempo'],['/historia','História completa'],['/episodios','Episódios'],['/arquitetura','Arquitetura'],['/restauracao','Restauro'],['/programacao','Programação'],['/visite','Visite']].map(([h,l]) => (
                 <li key={h}><Link href={h} className="text-cream/80 hover:text-gold">{l}</Link></li>
@@ -32,7 +32,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="font-sans text-[0.72rem] uppercase tracking-eyebrow text-gold">Memória viva</h3>
+            <h3 className="font-sans text-xs uppercase tracking-eyebrow text-gold">Memória viva</h3>
             <ul className="mt-3 space-y-1.5 text-sm">
               {[['/acervo','Acervo de imagens'],['/documentario','Documentário Música & Drama'],['/pessoas','Pessoas'],['/memorias','Curiosidades'],['/livro-de-memorias','Livro de Memórias'],['/fontes','Pesquisa e fontes'],['/sobre','Sobre o projeto']].map(([h,l]) => (
                 <li key={h}><Link href={h} className="text-cream/80 hover:text-gold">{l}</Link></li>
@@ -40,7 +40,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-12 border-t border-cream/15 pt-6 text-[0.7rem] leading-relaxed text-cream/75">
+        <div className="mt-12 border-t border-cream/15 pt-6 text-sm leading-relaxed text-cream/75">
           <p className="max-w-2xl text-cream/70">
             Projeto independente de memória e divulgação histórica. <strong className="font-medium text-cream/90">Este não é o site oficial do Theatro Municipal nem da Prefeitura de São João da Boa Vista.</strong> Para programação, bilheteria e informações oficiais, consulte os{' '}
             <a href="https://saojoao.sp.gov.br/cultura/equipamentos-culturais/theatro-municipal" target="_blank" rel="noopener noreferrer" className="underline decoration-gold/40 underline-offset-2 hover:text-gold">canais da Prefeitura</a>.

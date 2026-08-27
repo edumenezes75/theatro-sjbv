@@ -55,7 +55,7 @@ export default function BuscaGlobal({ itens, initialQ = '' }: { itens: ItemBusca
     <div>
       <form role="search" className="relative" onSubmit={(e) => e.preventDefault()}>
         <label htmlFor="busca-input" className="sr-only">Buscar no site</label>
-        <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink/40 dark:text-cream/40">
+        <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink/40 dark:text-cream/65">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
         </span>
         <input
@@ -114,7 +114,7 @@ export default function BuscaGlobal({ itens, initialQ = '' }: { itens: ItemBusca
                     <span className="min-w-0">
                       <span className="block font-display text-lg leading-snug text-ink group-hover:text-curtain dark:text-cream dark:group-hover:text-gold">{it.titulo}</span>
                       {it.sub && <span className="block font-sans text-sm text-ink/65 dark:text-cream/65">{it.sub}</span>}
-                      {it.texto && <span className="mt-0.5 block max-w-2xl font-sans text-sm leading-relaxed text-ink/55 dark:text-cream/55 line-clamp-2">{it.texto}</span>}
+                      {it.texto && <span className="mt-0.5 block max-w-2xl font-sans text-sm leading-relaxed text-ink/55 dark:text-cream/65 line-clamp-2">{it.texto}</span>}
                     </span>
                   </Link>
                 </li>

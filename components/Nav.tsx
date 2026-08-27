@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import ThemeToggle from './ThemeToggle';
 import Mark from './Mark';
 import { IconChevron, IconMenu, IconClose } from './Icons';
 
@@ -73,8 +72,8 @@ export default function Nav() {
 
   const topCls = (active: boolean) =>
     solid
-      ? `font-sans text-[0.82rem] transition-colors hover:text-curtain dark:hover:text-gold ${active ? 'text-curtain dark:text-gold' : 'text-ink/75 dark:text-cream/75'}`
-      : `font-sans text-[0.82rem] transition-colors hover:text-gold [text-shadow:0_1px_2px_rgba(0,0,0,0.45)] ${active ? 'text-gold' : 'text-cream/90'}`;
+      ? `font-sans text-sm transition-colors hover:text-curtain dark:hover:text-gold ${active ? 'text-curtain dark:text-gold' : 'text-ink/75 dark:text-cream/75'}`
+      : `font-sans text-sm transition-colors hover:text-gold [text-shadow:0_1px_2px_rgba(0,0,0,0.45)] ${active ? 'text-gold' : 'text-cream/90'}`;
 
   return (
     <header className={`fixed top-0 z-50 w-full transition-colors duration-500 ${solid ? 'border-b border-gold/20 bg-cream/90 backdrop-blur-md dark:bg-night/90' : 'bg-transparent'}`}>
@@ -88,7 +87,7 @@ export default function Nav() {
             <span className={`font-display text-lg font-medium tracking-tight ${solid ? '' : '[text-shadow:0_1px_2px_rgba(0,0,0,0.45)]'}`}>Theatro Municipal</span>
             {/* até 359px o subtítulo sai (o cabeçalho ficava com 106px de altura);
                 entre 360 e 639px vai menor e mais fechado, para caber numa linha só */}
-            <span className={`whitespace-nowrap font-sans text-[0.58rem] uppercase tracking-[0.16em] max-[359px]:hidden sm:text-[0.7rem] sm:tracking-eyebrow ${solid ? 'text-ink/70 dark:text-cream/70' : 'text-cream/85 [text-shadow:0_1px_2px_rgba(0,0,0,0.45)]'}`}>São João da Boa Vista</span>
+            <span className={`whitespace-nowrap font-sans text-[0.65rem] uppercase tracking-[0.16em] max-[359px]:hidden sm:text-xs sm:tracking-eyebrow ${solid ? 'text-ink/70 dark:text-cream/70' : 'text-cream/85 [text-shadow:0_1px_2px_rgba(0,0,0,0.45)]'}`}>São João da Boa Vista</span>
           </span>
         </Link>
 
@@ -132,7 +131,7 @@ export default function Nav() {
                         >
                           <span className="block text-sm">{l.label}</span>
                           {l.hint && (
-                            <span className="mt-0.5 block text-[0.72rem] leading-snug text-ink/50 dark:text-cream/45">{l.hint}</span>
+                            <span className="mt-0.5 block text-xs leading-snug text-ink/50 dark:text-cream/65">{l.hint}</span>
                           )}
                         </Link>
                       ))}
@@ -143,12 +142,10 @@ export default function Nav() {
             );
           })}
           <Link href="/busca" aria-label="Buscar no site" className={`flex items-center ${topCls(pathname === '/busca')}`}><Lupa /></Link>
-          <ThemeToggle />
         </nav>
 
         <div className="flex items-center gap-2 lg:hidden">
           <Link href="/busca" aria-label="Buscar no site" className="p-2 text-ink/75 dark:text-cream/85"><Lupa /></Link>
-          <ThemeToggle />
           <button onClick={() => setOpen(!open)} aria-label={open ? 'Fechar menu' : 'Abrir menu'} aria-expanded={open} className="p-2">
             {open ? <IconClose size={22} /> : <IconMenu size={22} />}
           </button>
@@ -173,7 +170,7 @@ export default function Nav() {
               </Link>
             ) : (
               <details key={g.label} open={naSecao(g)} className="group border-b border-ink/8 dark:border-cream/10">
-                <summary className="flex cursor-pointer list-none items-center justify-between py-3.5 font-sans text-[0.78rem] uppercase tracking-[0.2em] text-curtain/75 dark:text-gold/75">
+                <summary className="flex cursor-pointer list-none items-center justify-between py-3.5 font-sans text-sm uppercase tracking-[0.2em] text-curtain/75 dark:text-gold/75">
                   {g.label}
                   <IconChevron size={14} className="transition-transform duration-200 group-open:rotate-90" />
                 </summary>

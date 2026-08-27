@@ -20,7 +20,7 @@ export default function VisitaInfo() {
           return (
             <div key={c.t} className="flex flex-col rounded-sm border border-ink/10 p-5 dark:border-cream/10">
               <Icon size={20} className="text-curtain dark:text-gold" />
-              <h3 className="mt-3 font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{c.t}</h3>
+              <h3 className="mt-3 font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">{c.t}</h3>
               <div className="mt-1.5 flex-1 font-sans text-[0.9rem] leading-snug text-ink/80 dark:text-cream/80">
                 {c.lines.map((l) => <p key={l}>{l}</p>)}
               </div>

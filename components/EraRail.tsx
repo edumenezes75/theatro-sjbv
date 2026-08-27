@@ -37,9 +37,9 @@ export default function EraRail({ eras }: { eras: { id: string; rail: string }[]
   return (
     <nav
       aria-label="Eras da história"
-      className="sticky top-[3.9rem] z-30 -mx-5 overflow-x-auto border-b border-gold/25 bg-cream/95 px-5 backdrop-blur-sm [scrollbar-width:none] dark:bg-night/95 sm:top-[4.1rem]"
+      className="era-rail sticky top-[3.9rem] z-30 -mx-5 overflow-x-auto border-b border-gold/25 bg-cream/95 px-5 backdrop-blur-sm [scrollbar-width:none] dark:bg-night/95 sm:top-[4.1rem]"
     >
-      <div className="flex gap-5 whitespace-nowrap py-2.5">
+      <div className="flex gap-5 whitespace-nowrap py-1">
         {eras.map((e) => {
           const on = active === `era-${e.id}`;
           return (
@@ -47,7 +47,7 @@ export default function EraRail({ eras }: { eras: { id: string; rail: string }[]
               key={e.id}
               data-rail={`era-${e.id}`}
               onClick={() => go(e.id)}
-              className={`border-b-2 pb-0.5 font-sans text-[0.68rem] uppercase tracking-[0.14em] transition-colors ${on ? 'border-gold font-semibold text-curtain dark:text-gold' : 'border-transparent text-ink/55 hover:text-curtain dark:text-cream/55 dark:hover:text-gold'}`}
+              className={`border-b-2 py-2.5 font-sans text-xs uppercase tracking-[0.14em] transition-colors ${on ? 'border-gold font-semibold text-curtain dark:text-gold' : 'border-transparent text-ink/55 hover:text-curtain dark:text-cream/65 dark:hover:text-gold'}`}
             >
               {e.rail}
             </button>

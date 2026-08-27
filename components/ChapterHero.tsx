@@ -17,7 +17,7 @@ export default function ChapterHero({ eyebrow, title, image, alt, status, typewr
         {eyebrow && (
           <div className="flex items-center gap-3">
             <span className={`h-6 w-px ${image ? 'bg-gold' : 'bg-curtain dark:bg-gold'}`} />
-            <p className={`font-sans text-[0.7rem] font-medium uppercase tracking-eyebrow ${image ? 'text-gold' : 'text-curtain dark:text-gold'}`}>{eyebrow}</p>
+            <p className={`font-sans text-xs font-medium uppercase tracking-eyebrow ${image ? 'text-gold' : 'text-curtain dark:text-gold'}`}>{eyebrow}</p>
           </div>
         )}
         {typewriter

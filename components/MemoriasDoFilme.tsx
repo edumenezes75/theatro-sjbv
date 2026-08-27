@@ -38,7 +38,7 @@ export default function MemoriasDoFilme() {
               {m.texto}
             </p>
             <p className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1">
-              <span className="rounded-full border border-gold/40 px-2.5 py-0.5 font-sans text-[0.62rem] uppercase tracking-eyebrow text-curtain dark:text-gold">
+              <span className="rounded-full border border-gold/40 px-2.5 py-0.5 font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">
                 Do documentário
               </span>
               <a
@@ -52,7 +52,7 @@ export default function MemoriasDoFilme() {
         ))}
       </div>
 
-      <p className="mt-8 max-w-reading font-sans text-xs leading-relaxed text-ink/50 dark:text-cream/50">
+      <p className="mt-8 max-w-reading font-sans text-xs leading-relaxed text-ink/50 dark:text-cream/65">
         Transcrito do documentário <em>Música &amp; Drama</em> (2015), com pontuação acrescentada para
         leitura. As falas não foram alteradas.
       </p>

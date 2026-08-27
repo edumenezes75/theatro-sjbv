@@ -196,7 +196,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
 
         {params.slug === 'restauracao' && antesDepoisList.length > 0 && (
           <section className="mt-16 rounded-sm border-2 border-gold/40 bg-curtain/[0.04] p-6 shadow-sm dark:bg-gold/[0.05] sm:p-8">
-            <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Destaque do restauro</p>
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Destaque do restauro</p>
             <h2 className="mt-2 font-display text-3xl">O medalhão de Carlos Gomes</h2>
             <p className="mb-8 mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/75 dark:text-cream/75">
               Passo a passo do restauro: a fotografia do comício de 1919 guiou a decapagem; sob a tinta, o retrato surgiu danificado; recuperado o rosto, os ornamentos em volta foram repintados. Toque em cada imagem para ampliar e ver o detalhe.
@@ -278,7 +278,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
                 if (!d) return null;
                 return (
                   <a key={href} href={href} className="card-lift group rounded-sm border border-gold/30 bg-cream p-5 transition-colors hover:border-gold dark:bg-nightsoft">
-                    <span className="font-sans text-[0.64rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{d.meta.eyebrow}</span>
+                    <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{d.meta.eyebrow}</span>
                     <span className="mt-1 block font-display text-xl text-ink dark:text-cream">{d.meta.title} <span className="text-curtain transition-transform group-hover:translate-x-0.5 dark:text-gold">→</span></span>
                     <span className="mt-2 block font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">{d.meta.seo_description}</span>
                   </a>
@@ -292,7 +292,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         {nextHref && (
           <a href={nextHref} className="card-lift group mt-16 flex items-center justify-between gap-4 rounded-sm border border-gold/30 bg-cream px-6 py-5 transition-colors hover:border-gold dark:bg-nightsoft">
             <span>
-              <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Próxima página</span>
+              <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Próxima página</span>
               <span className="mt-1 block font-display text-xl text-ink dark:text-cream">{LABELS[nextHref] ?? nextHref}</span>
             </span>
             <span className="font-display text-2xl text-curtain transition-transform group-hover:translate-x-1 dark:text-gold">→</span>

@@ -59,12 +59,12 @@ export default function Home() {
                 <Link href="/programacao" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Programação</Link>
               </div>
             </div>
-            <p className="mt-7 max-w-xl font-sans text-[0.78rem] leading-relaxed text-cream/55">
+            <p className="mt-7 max-w-xl font-sans text-sm leading-relaxed text-cream/65">
               Projeto independente de memória histórica.{' '}
               <Link href="/sobre" className="whitespace-nowrap underline decoration-cream/30 underline-offset-2 transition-colors hover:text-gold">Sobre o projeto →</Link>
             </p>
           </Reveal>
-          <span className="pointer-events-none absolute right-6 top-44 hidden font-display text-sm italic tracking-wide text-cream/40 lg:block">desde 1914</span>
+          <span className="pointer-events-none absolute right-6 top-44 hidden font-display text-sm italic tracking-wide text-cream/65 lg:block">desde 1914</span>
         </div>
       </section>
 
@@ -78,13 +78,13 @@ export default function Home() {
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Comece por aqui</p>
           </div>
-          <h2 className="mt-3 max-w-2xl font-display text-3xl leading-tight sm:text-4xl">Quatro caminhos para conhecer o Theatro</h2>
+          <h2 className="mt-3 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Quatro caminhos para conhecer o Theatro</h2>
         </Reveal>
         <Reveal delay={120}>
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {GUIA.map((g) => (
               <Link key={g.href} href={g.href} className="card-lift group flex flex-col rounded-sm border border-ink/10 p-6 hover:border-gold/50 dark:border-cream/10">
-                <span className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{g.tag}</span>
+                <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">{g.tag}</span>
                 <h3 className="mt-2 font-display text-xl leading-tight">{g.t}</h3>
                 <p className="mt-2 flex-1 font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">{g.d}</p>
                 <span className="mt-4 font-sans text-sm text-curtain dark:text-gold">{g.cta} →</span>
@@ -99,7 +99,7 @@ export default function Home() {
         <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Uma casa de muitas vidas</p>
-            <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">Teatro, cinema, baile, rádio, escola e ponto de encontro</h2>
+            <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Teatro, cinema, baile, rádio, escola e ponto de encontro</h2>
             <div className="mt-6 max-w-reading space-y-4 font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
               <p>O Theatro nasceu para receber companhias dramáticas, música e grandes espetáculos. Logo passou a servir a quase tudo o que mobilizava a cidade: festivais beneficentes, formaturas, comícios, bailes, festas juninas, sessões de cinema, aulas e programas de rádio.</p>
               <p>Para algumas gerações, foi sobretudo teatro. Para outras, o Cine Theatro, com matinês e bomboniere. Para quem viveu o abandono, uma presença ameaçada. Para quem restaurou, a prova de que uma comunidade pode salvar aquilo que reconhece como seu.</p>
@@ -149,7 +149,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-6xl gap-12 px-5 py-24 md:grid-cols-2">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Uma história contada por pessoas</p>
-            <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">Quem afinou instrumentos, vendeu ingressos, pintou cenários e ocupou uma poltrona</h2>
+            <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Quem afinou instrumentos, vendeu ingressos, pintou cenários e ocupou uma poltrona</h2>
             <Link href="/pessoas" className="mt-7 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Conhecer as pessoas do Theatro →</Link>
           </Reveal>
           <Reveal delay={120}>
@@ -178,7 +178,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-5 py-24">
         <Reveal>
           <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">O Theatro em imagens</p>
-          <h2 className="mt-4 max-w-2xl font-display text-3xl leading-tight sm:text-4xl">Da fachada eclética à sala em ferradura</h2>
+          <h2 className="mt-4 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Da fachada eclética à sala em ferradura</h2>
         </Reveal>
         <Reveal delay={120}>
           <div className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
@@ -186,7 +186,7 @@ export default function Home() {
               <Link key={f.id} href="/acervo" className="group relative block overflow-hidden rounded-sm">
                 <Image src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h} className="aspect-[4/3] h-auto w-full object-cover transition-transform duration-500 group-hover:scale-[1.05]" sizes="(max-width:768px) 50vw, 33vw" />
                 <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/85 to-transparent p-3 pt-10">
-                  <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-gold">{STRIP_LABELS[f.id] ?? f.categoryLabel}</span>
+                  <span className="font-sans text-xs uppercase tracking-eyebrow text-gold">{STRIP_LABELS[f.id] ?? f.categoryLabel}</span>
                 </span>
               </Link>
             ))}
@@ -197,11 +197,12 @@ export default function Home() {
 
       {/* LIVRO DE MEMÓRIAS — convite à participação */}
       <section className="border-t border-gold/20 bg-curtain text-cream dark:bg-gold/10">
-        <div className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
+        {/* faixa de convite: texto centrado, para a tarja não ficar com a metade direita vazia */}
+        <div className="mx-auto max-w-3xl px-5 py-20 text-center sm:py-24">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">Livro de Memórias</p>
-            <h2 className="mt-4 max-w-3xl font-display text-3xl leading-tight sm:text-4xl">Esta história é da cidade — e está incompleta sem a sua lembrança.</h2>
-            <p className="mt-5 max-w-reading font-sans text-base leading-relaxed text-cream/85">
+            <h2 className="mx-auto mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Esta história é da cidade — e está incompleta sem a sua lembrança.</h2>
+            <p className="mx-auto mt-5 max-w-reading font-sans text-base leading-relaxed text-cream/85">
               Você assistiu a uma sessão de cinema de domingo, dançou num baile de Carnaval, subiu a escada da galeria, reconheceu um rosto numa foto antiga? Deixe a sua memória no livro aberto do Theatro. Cada lembrança ajuda a identificar imagens e a guardar a casa para quem vem depois.
             </p>
             <div className="mt-8">
@@ -216,7 +217,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-5 py-24">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Vozes do Theatro</p>
-            <h2 className="mt-4 mb-12 max-w-2xl font-display text-3xl leading-tight sm:text-4xl">Quem passou pelo palco e pela plateia</h2>
+            <h2 className="mt-4 mb-12 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Quem passou pelo palco e pela plateia</h2>
           </Reveal>
           <Reveal delay={100}><Vozes vozes={vozesList} /></Reveal>
         </div>
@@ -228,7 +229,7 @@ export default function Home() {
           <div className="grid gap-10 md:grid-cols-2 md:items-center">
             <Reveal>
               <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Visite</p>
-              <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl">No centro histórico, diante da Praça da Catedral</h2>
+              <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">No centro histórico, diante da Praça da Catedral</h2>
               <p className="mt-5 max-w-reading font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
                 O Theatro fica na Praça da Catedral, 22 — Centro, São João da Boa Vista (SP). O atendimento administrativo é de segunda a sexta, das 7h às 11h e das 13h às 17h; horários de espetáculo, bilheteria e visita guiada variam conforme a programação.
               </p>

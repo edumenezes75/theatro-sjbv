@@ -112,7 +112,7 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
         sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
       />
       <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent p-2 pt-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-        <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-gold">{f.categoryLabel}</span>
+        <span className="font-sans text-xs uppercase tracking-eyebrow text-gold">{f.categoryLabel}</span>
       </span>
     </button>
   );
@@ -150,7 +150,7 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
           {blocos.map((b) => (
             <section key={b.cat + b.start}>
               <h3 className="mb-4 flex items-baseline gap-2 font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">
-                {b.label}<span className="font-normal tabular-nums text-ink/40 dark:text-cream/40">{b.fotos.length}</span>
+                {b.label}<span className="font-normal tabular-nums text-ink/40 dark:text-cream/65">{b.fotos.length}</span>
               </h3>
               {masonry(b.fotos, b.start)}
             </section>
@@ -182,21 +182,21 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
             </figure>
             <button onClick={(e) => { e.stopPropagation(); setPlaying(false); setZoom(false); next(); }} aria-label="Próxima" className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-night/50 p-3 text-cream/85 transition-colors hover:bg-night/70 hover:text-gold sm:right-4"><IconChevron size={30} /></button>
           </div>
-          <figcaption className="border-t border-cream/10 bg-night px-6 pb-6 pt-3.5 text-center font-sans text-[0.8rem] leading-relaxed text-cream/90">
+          <figcaption className="border-t border-cream/10 bg-night px-6 pb-6 pt-3.5 text-center font-sans text-sm leading-relaxed text-cream/90">
             <span className="mx-auto block max-w-2xl"><span className="font-semibold text-gold">{open.categoryLabel}.</span> {open.alt}</span>
             {(() => {
               const na = _normLB(open.alt || '');
               const pes = pessoasIndex.filter((pe) => pe.name.length >= 6 && na.includes(_normLB(pe.name)));
               return pes.length ? (
                 <span className="mx-auto mt-2.5 flex max-w-2xl flex-wrap items-center justify-center gap-2">
-                  <span className="font-sans text-[0.6rem] uppercase tracking-eyebrow text-cream/40">Pessoas nesta imagem</span>
+                  <span className="font-sans text-xs uppercase tracking-eyebrow text-cream/65">Pessoas nesta imagem</span>
                   {pes.map((pe) => (
-                    <Link key={pe.slug} href={`/pessoas/${pe.slug}`} onClick={close} className="rounded-full border border-cream/20 px-2.5 py-0.5 font-sans text-[0.72rem] text-cream/85 transition-colors hover:border-gold hover:text-gold">{pe.name} →</Link>
+                    <Link key={pe.slug} href={`/pessoas/${pe.slug}`} onClick={close} className="rounded-full border border-cream/20 px-2.5 py-0.5 font-sans text-xs text-cream/85 transition-colors hover:border-gold hover:text-gold">{pe.name} →</Link>
                   ))}
                 </span>
               ) : null;
             })()}
-            <span className="mt-2 block font-sans text-[0.66rem] uppercase tracking-eyebrow text-cream/45">Toque na imagem para ampliar</span>
+            <span className="mt-2 block font-sans text-xs uppercase tracking-eyebrow text-cream/65">Toque na imagem para ampliar</span>
           </figcaption>
         </div>
       )}

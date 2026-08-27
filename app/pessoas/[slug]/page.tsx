@@ -73,7 +73,7 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
 
       <header className="mt-6 border-b border-gold/25 pb-7">
         <div className="flex flex-wrap items-center gap-3">
-          <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
+          <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">{p.category}</span>
           <SeloEvidencia status={p.status} />
         </div>
         <h1 className="mt-3 font-display text-4xl leading-[1.05] sm:text-5xl">{p.name}</h1>
@@ -92,7 +92,7 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
       {p.vozFilme && (
         <blockquote className="mt-8 border-l-2 border-gold/40 pl-5">
           <p className="font-display text-xl italic leading-snug text-ink/90 dark:text-cream/90">“{p.vozFilme.quote}”</p>
-          <a href={`https://www.youtube.com/watch?v=e2stgoHtlAQ&t=${p.vozFilme.s}s`} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block font-sans text-[0.66rem] uppercase tracking-eyebrow text-curtain hover:text-gold dark:text-gold">No documentário Música &amp; Drama · {p.vozFilme.t} ↗</a>
+          <a href={`https://www.youtube.com/watch?v=e2stgoHtlAQ&t=${p.vozFilme.s}s`} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block font-sans text-xs uppercase tracking-eyebrow text-curtain hover:text-gold dark:text-gold">No documentário Música &amp; Drama · {p.vozFilme.t} ↗</a>
         </blockquote>
       )}
 
@@ -115,7 +115,7 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
             {fotosRel.slice(0, 6).map((f) => (
               <Link key={f.id} href={`/acervo/${f.id}`} className="card-lift group relative aspect-[4/3] overflow-hidden rounded-sm bg-ink" aria-label={fotoTitulo(f.alt)}>
                 <Image src={`/${f.file}`} alt={f.alt} fill className="object-cover transition-transform duration-700 ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-105" sizes="(max-width:640px) 50vw, 240px" />
-                <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/85 to-transparent p-2.5 font-sans text-[0.66rem] leading-snug text-cream/90">{fotoTitulo(f.alt)}</span>
+                <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/85 to-transparent p-2.5 font-sans text-xs leading-snug text-cream/90">{fotoTitulo(f.alt)}</span>
               </Link>
             ))}
           </div>

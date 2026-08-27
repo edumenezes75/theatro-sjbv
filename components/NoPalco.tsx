@@ -17,7 +17,7 @@ export default function NoPalco() {
         <span className="h-6 w-px bg-curtain dark:bg-gold" />
         <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">No palco</p>
       </div>
-      <h2 className="mt-3 max-w-2xl font-display text-3xl leading-tight sm:text-4xl">Grandes nomes que pisaram aqui</h2>
+      <h2 className="mt-3 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Grandes nomes que pisaram aqui</h2>
       <p className="mt-3 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
         Mais de um século de companhias, mestres e ídolos. Um recorte dos nomes que fizeram deste palco um ponto de encontro da cidade com a arte.
       </p>

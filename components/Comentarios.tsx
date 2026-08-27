@@ -71,14 +71,14 @@ export default function Comentarios({
             <button type="submit" disabled={estado === 'enviando'} className="rounded-full bg-curtain px-5 py-2 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] disabled:opacity-60 dark:bg-gold dark:text-ink">
               {estado === 'enviando' ? 'Enviando…' : 'Enviar'}
             </button>
-            <span className="font-sans text-xs text-ink/50 dark:text-cream/50">As mensagens passam por revisão antes de aparecer.</span>
+            <span className="font-sans text-xs text-ink/50 dark:text-cream/65">As mensagens passam por revisão antes de aparecer.</span>
           </div>
           {estado === 'erro' && <p className="font-sans text-sm text-curtain dark:text-gold">{erroMsg}</p>}
         </form>
       )}
 
       <div className="mt-8 space-y-4">
-        {msgs === null && <p className="font-sans text-sm text-ink/50 dark:text-cream/50">Carregando…</p>}
+        {msgs === null && <p className="font-sans text-sm text-ink/50 dark:text-cream/65">Carregando…</p>}
         {/* Quando ainda não há mensagens publicadas, o silêncio é melhor que o
             anúncio do vazio: "ainda não há memórias" lê-se como abandono e
             inibe justamente quem ia escrever. O convite acima já basta. */}
@@ -86,7 +86,7 @@ export default function Comentarios({
           <article key={m.id} className="rounded-sm border border-ink/10 bg-ink/[0.02] px-4 py-3 dark:border-cream/10 dark:bg-cream/[0.03]">
             <div className="flex items-baseline justify-between gap-3">
               <span className="font-display text-base text-ink/90 dark:text-cream/90">{m.nome}</span>
-              <span className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-ink/45 dark:text-cream/45">{dtfmt(m.created_at)}</span>
+              <span className="font-sans text-xs uppercase tracking-eyebrow text-ink/45 dark:text-cream/65">{dtfmt(m.created_at)}</span>
             </div>
             <p className="mt-1.5 whitespace-pre-line font-read text-[1.02rem] leading-relaxed text-ink/85 dark:text-cream/85">{m.texto}</p>
           </article>

@@ -23,7 +23,7 @@ function Card({ c }: { c: Curiosidade }) {
   return (
     <article className="card-lift flex flex-col rounded-sm border border-ink/10 p-6 hover:border-gold/50 dark:border-cream/10">
       <div className="flex items-center justify-between gap-2">
-        <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Você sabia?</span>
+        <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Você sabia?</span>
         <SeloEvidencia status={c.type} />
       </div>
       <h3 className="mt-3 font-display text-lg font-medium leading-tight">{c.title}</h3>

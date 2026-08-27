@@ -34,7 +34,7 @@ export default async function ProximoEvento() {
         {proximo ? (
           <>
             <p className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-              <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">
+              <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">
                 No palco
               </span>
               <span className="font-display text-base leading-tight text-ink dark:text-cream">
@@ -55,7 +55,7 @@ export default async function ProximoEvento() {
         ) : (
           <>
             <p className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-              <span className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">
+              <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">
                 Visite o Theatro
               </span>
               <span className="font-sans text-sm text-ink/75 dark:text-cream/75">

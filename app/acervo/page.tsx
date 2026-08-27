@@ -54,7 +54,7 @@ export default function AcervoPage() {
         </p>
 
         <nav aria-label="Saltar para um capítulo" className="mt-12 flex flex-wrap items-center gap-2 border-y border-gold/20 py-4">
-          <span className="mr-1 font-sans text-[0.68rem] uppercase tracking-eyebrow text-ink/65 dark:text-cream/75">Saltar para</span>
+          <span className="mr-1 font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/75">Saltar para</span>
           <a href="#cap-historico" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O Theatro histórico</a>
           <a href="#cap-restauro" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">Da decadência ao restauro</a>
           <a href="#cap-hoje" className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">O Theatro hoje</a>
@@ -120,7 +120,7 @@ export default function AcervoPage() {
                   <div key={key}>
                     <div className="mb-5 border-l-2 border-gold/50 pl-4">
                       <h3 className="font-display text-xl leading-tight text-ink dark:text-cream">{titulo}</h3>
-                      <p className="mt-1 max-w-reading font-sans text-[0.82rem] italic text-ink/60 dark:text-cream/60">{sub}</p>
+                      <p className="mt-1 max-w-reading font-sans text-sm italic text-ink/60 dark:text-cream/60">{sub}</p>
                     </div>
                     <GaleriaReal fotos={grupo} pessoasIndex={pessoasIndexMin} withFilter={false} showEpoca={false} />
                   </div>

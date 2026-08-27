@@ -27,7 +27,7 @@ export default function Monograma({ name }: { name: string }) {
       >
         {iniciais(name)}
       </div>
-      <figcaption className="mt-4 font-sans text-[0.72rem] uppercase tracking-eyebrow text-ink/45 dark:text-cream/45">
+      <figcaption className="mt-4 font-sans text-xs uppercase tracking-eyebrow text-ink/45 dark:text-cream/65">
         Retrato ainda não localizado
       </figcaption>
     </figure>

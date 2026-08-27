@@ -98,7 +98,7 @@ export default function DocumentarioPage() {
               ['Imagens adicionais', 'Leonardo Nogueira e Leonardo Beraldo'],
             ].map(([k, v]) => (
               <div key={k} className="flex items-baseline justify-between gap-3 border-b border-gold/15 py-2">
-                <dt className="font-sans text-[0.7rem] uppercase tracking-eyebrow text-curtain dark:text-gold">{k}</dt>
+                <dt className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">{k}</dt>
                 <dd className="text-right font-sans text-[0.95rem] text-ink/85 dark:text-cream/85">{v}</dd>
               </div>
             ))}
@@ -138,7 +138,7 @@ export default function DocumentarioPage() {
                   {`${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`}
                 </a>
                 <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener noreferrer" className="font-sans text-[0.95rem] text-ink/85 hover:text-curtain dark:text-cream/85 dark:hover:text-gold">{name}</a>
-                <Link href={tema} className="ml-auto shrink-0 self-center rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-[0.68rem] uppercase tracking-eyebrow text-ink/65 hover:border-curtain hover:text-curtain dark:text-cream/75 dark:hover:border-gold dark:hover:text-gold" title={`Ir para ${TEMA[tema]}`}>{TEMA[tema]}</Link>
+                <Link href={tema} className="ml-auto shrink-0 self-center rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-xs uppercase tracking-eyebrow text-ink/65 hover:border-curtain hover:text-curtain dark:text-cream/75 dark:hover:border-gold dark:hover:text-gold" title={`Ir para ${TEMA[tema]}`}>{TEMA[tema]}</Link>
               </li>
             ))}
           </ol>
@@ -152,7 +152,7 @@ export default function DocumentarioPage() {
               {citados.map(({ pessoa, t, s: sec }) => (
                 <li key={pessoa.id} className="flex flex-wrap items-baseline gap-x-3 gap-y-1 py-3">
                   <Link href={`/pessoas/${pessoaSlug(pessoa)}`} className="font-display text-lg text-ink/90 hover:text-curtain dark:text-cream/90 dark:hover:text-gold">{pessoa.name}</Link>
-                  <span className="font-sans text-[0.82rem] text-ink/55 dark:text-cream/55">{pessoa.role}</span>
+                  <span className="font-sans text-sm text-ink/55 dark:text-cream/65">{pessoa.role}</span>
                   <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener noreferrer" className="ml-auto shrink-0 font-display text-sm tabular-nums text-curtain hover:opacity-70 dark:text-gold" title="Abrir o filme neste momento">{t} ↗</a>
                 </li>
               ))}

@@ -50,7 +50,7 @@ export default function DocPlayer() {
             allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowFullScreen />
         </div>
         <a href={`https://www.youtube.com/watch?v=${VID}&t=${start}s`} target="_blank" rel="noopener noreferrer"
-          className="mt-2 inline-block font-sans text-xs text-cream/55 underline decoration-gold/30 underline-offset-2 hover:text-gold">Abrir no YouTube ↗</a>
+          className="mt-2 inline-block font-sans text-xs text-cream/65 underline decoration-gold/30 underline-offset-2 hover:text-gold">Abrir no YouTube ↗</a>
       </div>
     </div>
   );

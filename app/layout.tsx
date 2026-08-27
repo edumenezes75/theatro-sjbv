@@ -24,12 +24,8 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1, 'max-video-preview': -1 } },
 };
 
-export const viewport = {
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: '#F5EFE3' },
-    { media: '(prefers-color-scheme: dark)', color: '#14110E' },
-  ],
-};
+// O site tem uma versão só: a escura — a sala às escuras, que é como se vê um espetáculo.
+export const viewport = { themeColor: '#14110E', colorScheme: 'dark' };
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -76,9 +72,8 @@ const jsonLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${display.variable} ${sans.variable} ${read.variable}`} suppressHydrationWarning>
+    <html lang="pt-BR" className={`dark ${display.variable} ${sans.variable} ${read.variable}`} suppressHydrationWarning>
       <head>
-        <script dangerouslySetInnerHTML={{ __html: "try{var t=localStorage.getItem('theatro-theme');var d=t?t==='dark':matchMedia('(prefers-color-scheme: dark)').matches;if(d)document.documentElement.classList.add('dark');}catch(e){}" }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </head>
       <body className="font-sans antialiased">
