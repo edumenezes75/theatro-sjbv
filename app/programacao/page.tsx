@@ -124,7 +124,7 @@ export default async function ProgramacaoPage() {
         <section className="mt-14">
           <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Canais oficiais</h2>
           <p className="mt-2 max-w-reading font-sans text-sm text-ink/75 dark:text-cream/75">Onde encontrar a programação atualizada e falar com a organização do Theatro.</p>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <a href="https://www.instagram.com/theatro_municipal_sjbv/" target="_blank" rel="noopener noreferrer" className="card-lift rounded-sm border border-gold/40 bg-gold/[0.04] p-5 hover:border-gold/70 dark:border-gold/40">
               <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Instagram do Theatro</p>
               <p className="mt-2 break-words font-display text-base leading-tight [overflow-wrap:anywhere]">@theatro_municipal_sjbv</p>
@@ -134,11 +134,6 @@ export default async function ProgramacaoPage() {
               <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Prefeitura</p>
               <p className="mt-2 font-display text-lg leading-tight">Agenda cultural oficial</p>
               <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Programação de eventos do município →</p>
-            </a>
-            <a href="https://www.instagram.com/prefeitura.saojoao" target="_blank" rel="noopener noreferrer" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
-              <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">Instagram</p>
-              <p className="mt-2 font-display text-lg leading-tight">@prefeitura.saojoao</p>
-              <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Divulgações e estreias do dia a dia →</p>
             </a>
             <a href="https://wa.me/5519997195719?text=Ol%C3%A1!%20Gostaria%20de%20saber%20a%20programa%C3%A7%C3%A3o%20do%20Theatro%20Municipal." target="_blank" rel="noopener noreferrer" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
               <p className="font-sans text-[0.68rem] uppercase tracking-eyebrow text-curtain dark:text-gold">WhatsApp</p>

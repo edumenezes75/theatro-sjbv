@@ -66,8 +66,6 @@ export default function Home() {
               <div className="flex flex-wrap gap-3">
                 <Link href="/linha-do-tempo" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03]">Explorar a história</Link>
                 <Link href="/programacao" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Programação</Link>
-                <Link href="/documentario" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Documentário</Link>
-                <Link href="/visite" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Visitar</Link>
               </div>
             </div>
             <p className="mt-7 max-w-xl font-sans text-[0.78rem] leading-relaxed text-cream/55">
@@ -82,27 +80,24 @@ export default function Home() {
       {/* PRÓXIMO EVENTO — a agenda a um toque, sem rolar a home inteira */}
       <ProximoEvento />
 
-      {/* EM 1 MINUTO */}
+      {/* EM 1 MINUTO — os cinco tempos numa linha, sem virar um segundo menu */}
       <section className="border-t-0 border-b border-gold/25 bg-cream dark:bg-night">
-        <div className="mx-auto max-w-6xl px-5 py-16 sm:py-20">
+        <div className="mx-auto max-w-6xl px-5 py-14">
           <Reveal>
             <div className="flex items-center gap-3">
               <span className="h-6 w-px bg-curtain dark:bg-gold" />
               <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Em 1 minuto</p>
             </div>
-            <h2 className="mt-3 max-w-2xl font-display text-3xl leading-tight sm:text-4xl">A história do Theatro em cinco tempos</h2>
-          </Reveal>
-          <ol className="mt-10 grid gap-px overflow-hidden rounded-sm border border-gold/20 bg-gold/20 sm:grid-cols-3 lg:grid-cols-5">
-            {MARCOS.map(([periodo, titulo, linha], i) => (
-              <Reveal key={periodo} delay={i * 80} className="flex flex-col bg-cream p-5 dark:bg-night">
-                <span className="font-display text-2xl text-curtain dark:text-gold">{periodo}</span>
-                <span className="mt-2 font-display text-base font-medium leading-tight text-ink dark:text-cream">{titulo}</span>
-                <span className="mt-2 font-sans text-[0.82rem] leading-relaxed text-ink/65 dark:text-cream/65">{linha}</span>
-              </Reveal>
-            ))}
-          </ol>
-          <Reveal delay={120}>
-            <p className="mt-6 font-sans text-sm text-ink/60 dark:text-cream/60">
+            <p className="mt-4 max-w-4xl font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
+              {MARCOS.map(([periodo, titulo], i) => (
+                <span key={periodo}>
+                  {i > 0 && <span className="text-gold"> · </span>}
+                  <strong className="font-display text-[1.15rem] font-normal not-italic text-curtain dark:text-gold">{periodo}</strong>{' '}
+                  {titulo.charAt(0).toLowerCase() + titulo.slice(1)}
+                </span>
+              ))}.
+            </p>
+            <p className="mt-5 font-sans text-sm text-ink/60 dark:text-cream/60">
               <Link href="/historia" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Ler a história completa</Link>
               {' · '}
               <Link href="/linha-do-tempo" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Percorrer a linha do tempo</Link>
@@ -244,9 +239,8 @@ export default function Home() {
             <p className="mt-5 max-w-reading font-sans text-base leading-relaxed text-cream/85">
               Você assistiu a uma sessão de cinema de domingo, dançou num baile de Carnaval, subiu a escada da galeria, reconheceu um rosto numa foto antiga? Deixe a sua memória no livro aberto do Theatro. Cada lembrança ajuda a identificar imagens e a guardar a casa para quem vem depois.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/livro-de-memorias" className="rounded-full bg-gold px-7 py-3.5 font-sans text-sm font-semibold text-ink transition-transform hover:scale-[1.03]">Deixar a minha lembrança</Link>
-              <Link href="/livro-de-memorias" className="rounded-full border border-cream/40 px-7 py-3.5 font-sans text-sm text-cream transition-colors hover:border-gold hover:text-gold">Ler as memórias</Link>
+            <div className="mt-8">
+              <Link href="/livro-de-memorias" className="inline-block rounded-full bg-gold px-7 py-3.5 font-sans text-sm font-semibold text-ink transition-transform hover:scale-[1.03]">Deixar a minha lembrança</Link>
             </div>
           </Reveal>
         </div>

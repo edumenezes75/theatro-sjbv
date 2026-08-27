@@ -5,7 +5,6 @@ import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
 import LiteYouTube from '@/components/LiteYouTube';
 import TranscricaoFilme from '@/components/TranscricaoFilme';
-import Comentarios from '@/components/Comentarios';
 import transcricao from '@/data/transcricao.json';
 import { pessoasNoDocumentario, pessoaSlug } from '@/lib/data';
 
@@ -26,8 +25,6 @@ const CAPS = [
   'Restauro e reabertura',
   'O Theatro vivo',
 ];
-const ACESS_OK = ['Legendas em português (YouTube)', 'Transcrição integral e navegável', 'Busca por palavra, nome ou tema', 'Salto para o minuto exato no filme', 'Controle de velocidade (YouTube)', 'Navegação por teclado'];
-const ACESS_PREP = ['Audiodescrição das imagens'];
 
 export default function DocumentarioPage() {
   const page = getPageBySlug('/documentario');
@@ -172,28 +169,6 @@ export default function DocumentarioPage() {
             <TranscricaoFilme segs={transcricao} youtubeId="e2stgoHtlAQ" />
           </div>
         </section>
-
-        <section className="mt-16">
-          <h2 className="font-display text-3xl">Acessibilidade</h2>
-          <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">A transcrição navegável já está disponível acima; legendas e controles de reprodução vêm do player do YouTube.</p>
-          <ul className="mt-5 grid gap-2 sm:grid-cols-2">
-            {ACESS_OK.map((a) => (
-              <li key={a} className="flex items-center gap-2.5 font-sans text-[0.95rem] text-ink/80 dark:text-cream/80">
-                <span className="h-1.5 w-1.5 rotate-45 bg-gold" aria-hidden /> {a}
-              </li>
-            ))}
-          </ul>
-          <p className="mt-6 font-sans text-[0.82rem] uppercase tracking-eyebrow text-ink/55 dark:text-cream/55">Em preparação</p>
-          <ul className="mt-2 grid gap-2 sm:grid-cols-2">
-            {ACESS_PREP.map((a) => (
-              <li key={a} className="flex items-center gap-2.5 font-sans text-[0.95rem] text-ink/55 dark:text-cream/55">
-                <span className="h-1.5 w-1.5 rotate-45 border border-ink/40 dark:border-cream/40" aria-hidden /> {a}
-              </li>
-            ))}
-          </ul>
-        </section>
-
-        <Comentarios tipo="filme" titulo="Comentários sobre o filme" intro="O que este documentário despertou em você? Deixe sua impressão, corrija um detalhe ou complete uma história." placeholder="Escreva um comentário sobre o documentário…" />
 
         <FontesDaPagina fontes={page?.fontes ?? null} />
       </div>

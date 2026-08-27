@@ -5,7 +5,6 @@ import { fotosList, antesDepoisList, curiosidadesList } from '@/lib/data';
 import ChapterHero from '@/components/ChapterHero';
 import MapaVisita from '@/components/MapaVisita';
 import FontesDaPagina from '@/components/FontesDaPagina';
-import ReconheceuAlguem from '@/components/ReconheceuAlguem';
 import GaleriaReal from '@/components/GaleriaReal';
 import AntesDepois from '@/components/AntesDepois';
 import Curiosidades from '@/components/Curiosidades';
@@ -313,7 +312,6 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           </section>
         )}
 
-        {(params.slug === 'historia' || params.slug === 'memorias') && <ReconheceuAlguem />}
 
         <FontesDaPagina fontes={page.fontes} />
       </div>

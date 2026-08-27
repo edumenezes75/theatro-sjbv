@@ -18,8 +18,7 @@ const MENU: Grupo[] = [
   { label: 'A História', items: [
     { href: '/o-theatro', label: 'O Theatro', hint: 'Em resumo, para começar' },
     { href: '/linha-do-tempo', label: 'Linha do tempo', hint: 'Um século numa rolagem' },
-    { href: '/historia', label: 'História completa', hint: 'O texto corrido, em 8 capítulos' },
-    { href: '/episodios', label: 'Episódios', hint: 'Leituras longas, uma por tema' },
+    { href: '/historia', label: 'História completa', hint: 'O texto corrido, em 8 capítulos e episódios' },
     { href: '/arquitetura', label: 'Arquitetura', hint: 'A fachada e a sala em ferradura' },
     { href: '/restauracao', label: 'Restauro', hint: 'Da ameaça de demolição à reabertura' },
   ] },

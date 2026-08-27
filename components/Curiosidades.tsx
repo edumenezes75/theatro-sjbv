@@ -1,3 +1,5 @@
+'use client';
+import { useState } from 'react';
 import type { Curiosidade } from '@/lib/data';
 import SeloEvidencia from './SeloEvidencia';
 
@@ -32,6 +34,11 @@ function Card({ c }: { c: Curiosidade }) {
 }
 
 export default function Curiosidades({ itens, agrupar = true }: { itens: Curiosidade[]; agrupar?: boolean }) {
+  // A página mostra três cartões por tema; o resto fica a um clique.
+  // Cinquenta "Você sabia?" em fila dobravam o tamanho da página e ninguém
+  // chegava ao fim — quem quer o baú inteiro pede.
+  const POR_TEMA = 3;
+  const [tudo, setTudo] = useState(false);
   const temTemas = agrupar && itens.some((c) => c.tema);
   if (!temTemas) {
     return (
@@ -42,10 +49,14 @@ export default function Curiosidades({ itens, agrupar = true }: { itens: Curiosi
   }
   const temas = ORDEM.filter((t) => itens.some((c) => c.tema === t));
   const extras = Array.from(new Set(itens.map((c) => c.tema).filter((t): t is string => !!t && !ORDEM.includes(t))));
+  const escondidas = tudo ? 0 : itens.filter((c) => c.tema).length - [...temas, ...extras].reduce((n, t) => n + Math.min(POR_TEMA, itens.filter((c) => c.tema === t).length), 0);
   return (
     <div className="space-y-14">
       {[...temas, ...extras].map((tema) => {
         const grupo = itens.filter((c) => c.tema === tema);
+        // Todos os cartões vão para o HTML (buscadores e a busca do site
+        // continuam enxergando os 50); os excedentes ficam ocultos no CSS até
+        // o clique. `contents` preserva a grade.
         return (
           <section key={tema} aria-label={tema}>
             <div className="mb-6 border-l-2 border-gold/60 pl-4">
@@ -53,11 +64,26 @@ export default function Curiosidades({ itens, agrupar = true }: { itens: Curiosi
               {LEGENDA[tema] && <p className="mt-1 max-w-reading font-sans text-sm italic text-ink/65 dark:text-cream/65">{LEGENDA[tema]}</p>}
             </div>
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-              {grupo.map((c) => <Card key={c.id} c={c} />)}
+              {grupo.map((c, i) => (
+                <div key={c.id} className={!tudo && i >= POR_TEMA ? 'hidden' : 'contents'}>
+                  <Card c={c} />
+                </div>
+              ))}
             </div>
           </section>
         );
       })}
+      {escondidas > 0 && (
+        <div className="border-t border-gold/25 pt-8 text-center">
+          <button
+            type="button"
+            onClick={() => setTudo(true)}
+            className="rounded-full border border-curtain/40 px-7 py-3 font-sans text-sm font-medium text-curtain transition-colors hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink"
+          >
+            Ver mais {escondidas} curiosidades
+          </button>
+        </div>
+      )}
     </div>
   );
 }
