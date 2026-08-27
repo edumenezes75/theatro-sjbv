@@ -11,15 +11,6 @@ import ProximoEvento from '@/components/ProximoEvento';
 
 export const revalidate = 21600; // 6h — acompanha a agenda de /programacao
 
-const MARCOS: [string, string, string][] = [
-  ['1911–1913', 'A cidade ergue o seu palco', 'Por subscrição popular, sanjoanenses compram ações para construir o Theatro.'],
-  ['1914', 'A inauguração', 'Em 31 de outubro, a casa abre as portas como o maior teatro do interior paulista.'],
-  ['1937–1980', 'O Cine Theatro', 'Por décadas, vira cinema — a matinê de domingo de gerações inteiras.'],
-  ['1981–1987', 'A cidade impede a perda', 'Ameaçado de demolição, é comprado pelo poder público e tombado.'],
-  ['2002', 'O renascimento', 'Restaurado, reabre na Semana Guiomar Novaes e volta a ser palco vivo.'],
-];
-
-
 const GUIA = [
   { href: '/linha-do-tempo', tag: 'A História', t: 'Linha do tempo', d: 'Um século numa rolagem só: capítulos, marcos, fotos e vozes — de 1911 a hoje.', cta: 'Percorrer a linha' },
   { href: '/arquitetura', tag: 'Arquitetura', t: 'A sala em ferradura', d: 'Fachada, plateia, frisas, camarotes, palco e ornamentos.', cta: 'Conhecer o edifício' },
@@ -79,32 +70,6 @@ export default function Home() {
 
       {/* PRÓXIMO EVENTO — a agenda a um toque, sem rolar a home inteira */}
       <ProximoEvento />
-
-      {/* EM 1 MINUTO — os cinco tempos numa linha, sem virar um segundo menu */}
-      <section className="border-t-0 border-b border-gold/25 bg-cream dark:bg-night">
-        <div className="mx-auto max-w-6xl px-5 py-14">
-          <Reveal>
-            <div className="flex items-center gap-3">
-              <span className="h-6 w-px bg-curtain dark:bg-gold" />
-              <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Em 1 minuto</p>
-            </div>
-            <p className="mt-4 max-w-4xl font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
-              {MARCOS.map(([periodo, titulo], i) => (
-                <span key={periodo}>
-                  {i > 0 && <span className="text-gold"> · </span>}
-                  <strong className="font-display text-[1.15rem] font-normal not-italic text-curtain dark:text-gold">{periodo}</strong>{' '}
-                  {titulo.charAt(0).toLowerCase() + titulo.slice(1)}
-                </span>
-              ))}.
-            </p>
-            <p className="mt-5 font-sans text-sm text-ink/60 dark:text-cream/60">
-              <Link href="/historia" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Ler a história completa</Link>
-              {' · '}
-              <Link href="/linha-do-tempo" className="underline decoration-gold/40 underline-offset-2 transition-colors hover:text-curtain dark:hover:text-gold">Percorrer a linha do tempo</Link>
-            </p>
-          </Reveal>
-        </div>
-      </section>
 
       {/* COMECE POR AQUI */}
       <section className="mx-auto max-w-6xl px-5 py-24">
