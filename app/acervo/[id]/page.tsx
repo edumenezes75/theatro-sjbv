@@ -83,7 +83,7 @@ export default function FotoPage({ params }: { params: { id: string } }) {
           <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">{f.categoryLabel}</span>
           {f.epoca && <span className="rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/75">{f.epoca}</span>}
         </div>
-        <h1 className="mt-3 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">{titulo}</h1>
+        <h1 className="mt-3 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">{titulo}</h1>
         <p className="mt-3 max-w-reading font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">{f.alt}</p>
         <p className="mt-4 font-sans text-xs italic text-ink/65 dark:text-cream/75">{f.credit}</p>
         <div className="mt-5 flex flex-wrap items-center gap-2.5">

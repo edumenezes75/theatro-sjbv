@@ -22,6 +22,13 @@ const config: Config = {
         sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
         read: ['var(--font-read)', 'Georgia', 'serif'],
       },
+      // Escada fina: os dois degraus de apoio ficam um pouco menores que o
+      // padrão do Tailwind (12/14px). É a diferença entre um rótulo que se
+      // impõe e um que acompanha — e vale para o site inteiro de uma vez.
+      fontSize: {
+        xs: ['0.72rem', { lineHeight: '1.5' }],
+        sm: ['0.83rem', { lineHeight: '1.62' }],
+      },
       maxWidth: { reading: '36rem' },
       letterSpacing: { eyebrow: '0.28em' },
       keyframes: {

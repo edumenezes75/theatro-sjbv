@@ -17,12 +17,12 @@ export default function ChapterHero({ eyebrow, title, image, alt, status, typewr
         {eyebrow && (
           <div className="flex items-center gap-3">
             <span className={`h-6 w-px ${image ? 'bg-gold' : 'bg-curtain dark:bg-gold'}`} />
-            <p className={`font-sans text-xs font-medium uppercase tracking-eyebrow ${image ? 'text-gold' : 'text-curtain dark:text-gold'}`}>{eyebrow}</p>
+            <p className={`font-sans text-xs uppercase tracking-eyebrow ${image ? 'text-gold' : 'text-curtain dark:text-gold'}`}>{eyebrow}</p>
           </div>
         )}
         {typewriter
-          ? <TypewriterTitle text={title} className="mt-5 max-w-3xl font-display text-5xl font-semibold leading-[1.02] sm:text-7xl" />
-          : <h1 className="mt-5 max-w-3xl font-display text-5xl font-semibold leading-[1.02] sm:text-7xl">{title}</h1>}
+          ? <TypewriterTitle text={title} className="mt-5 max-w-3xl font-display text-[2.6rem] font-normal leading-[1.06] sm:text-6xl" />
+          : <h1 className="mt-5 max-w-3xl font-display text-[2.6rem] font-normal leading-[1.06] sm:text-6xl">{title}</h1>}
         {status && temSelo(status) && <div className="mt-6"><SeloEvidencia status={status} /></div>}
       </div>
     </header>

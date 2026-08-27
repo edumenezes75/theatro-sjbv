@@ -47,7 +47,7 @@ export default function Home() {
               <span className="h-7 w-px bg-gold" />
               <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">História, arte e memória</p>
             </div>
-            <h1 className="kinetic-title mt-6 max-w-5xl font-display text-[clamp(2.4rem,12vw,3.4rem)] font-medium leading-[0.96] sm:text-8xl md:text-[8.5rem]">
+            <h1 className="kinetic-title mt-6 max-w-5xl font-display text-[clamp(2.3rem,11vw,3.2rem)] font-normal leading-[0.98] sm:text-7xl md:text-[7.5rem]">
               Um palco construído<br /><em className="line-2 font-normal italic text-gold">pela cidade</em>
             </h1>
             <div className="mt-10 flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
@@ -78,7 +78,7 @@ export default function Home() {
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Comece por aqui</p>
           </div>
-          <h2 className="mt-3 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Quatro caminhos para conhecer o Theatro</h2>
+          <h2 className="mt-3 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">Quatro caminhos para conhecer o Theatro</h2>
         </Reveal>
         <Reveal delay={120}>
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -99,7 +99,7 @@ export default function Home() {
         <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Uma casa de muitas vidas</p>
-            <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Teatro, cinema, baile, rádio, escola e ponto de encontro</h2>
+            <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">Teatro, cinema, baile, rádio, escola e ponto de encontro</h2>
             <div className="mt-6 max-w-reading space-y-4 font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
               <p>O Theatro nasceu para receber companhias dramáticas, música e grandes espetáculos. Logo passou a servir a quase tudo o que mobilizava a cidade: festivais beneficentes, formaturas, comícios, bailes, festas juninas, sessões de cinema, aulas e programas de rádio.</p>
               <p>Para algumas gerações, foi sobretudo teatro. Para outras, o Cine Theatro, com matinês e bomboniere. Para quem viveu o abandono, uma presença ameaçada. Para quem restaurou, a prova de que uma comunidade pode salvar aquilo que reconhece como seu.</p>
@@ -149,7 +149,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-6xl gap-12 px-5 py-24 md:grid-cols-2">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Uma história contada por pessoas</p>
-            <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Quem afinou instrumentos, vendeu ingressos, pintou cenários e ocupou uma poltrona</h2>
+            <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">Quem afinou instrumentos, vendeu ingressos, pintou cenários e ocupou uma poltrona</h2>
             <Link href="/pessoas" className="mt-7 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Conhecer as pessoas do Theatro →</Link>
           </Reveal>
           <Reveal delay={120}>
@@ -178,7 +178,7 @@ export default function Home() {
       <section className="mx-auto max-w-6xl px-5 py-24">
         <Reveal>
           <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">O Theatro em imagens</p>
-          <h2 className="mt-4 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Da fachada eclética à sala em ferradura</h2>
+          <h2 className="mt-4 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">Da fachada eclética à sala em ferradura</h2>
         </Reveal>
         <Reveal delay={120}>
           <div className="mt-10 grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
@@ -201,7 +201,7 @@ export default function Home() {
         <div className="mx-auto max-w-3xl px-5 py-20 text-center sm:py-24">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">Livro de Memórias</p>
-            <h2 className="mx-auto mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Esta história é da cidade — e está incompleta sem a sua lembrança.</h2>
+            <h2 className="mx-auto mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">Esta história é da cidade — e está incompleta sem a sua lembrança.</h2>
             <p className="mx-auto mt-5 max-w-reading font-sans text-base leading-relaxed text-cream/85">
               Você assistiu a uma sessão de cinema de domingo, dançou num baile de Carnaval, subiu a escada da galeria, reconheceu um rosto numa foto antiga? Deixe a sua memória no livro aberto do Theatro. Cada lembrança ajuda a identificar imagens e a guardar a casa para quem vem depois.
             </p>
@@ -217,7 +217,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-5 py-24">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Vozes do Theatro</p>
-            <h2 className="mt-4 mb-12 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">Quem passou pelo palco e pela plateia</h2>
+            <h2 className="mt-4 mb-12 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">Quem passou pelo palco e pela plateia</h2>
           </Reveal>
           <Reveal delay={100}><Vozes vozes={vozesList} /></Reveal>
         </div>
@@ -229,7 +229,7 @@ export default function Home() {
           <div className="grid gap-10 md:grid-cols-2 md:items-center">
             <Reveal>
               <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Visite</p>
-              <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.75rem]">No centro histórico, diante da Praça da Catedral</h2>
+              <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">No centro histórico, diante da Praça da Catedral</h2>
               <p className="mt-5 max-w-reading font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
                 O Theatro fica na Praça da Catedral, 22 — Centro, São João da Boa Vista (SP). O atendimento administrativo é de segunda a sexta, das 7h às 11h e das 13h às 17h; horários de espetáculo, bilheteria e visita guiada variam conforme a programação.
               </p>
