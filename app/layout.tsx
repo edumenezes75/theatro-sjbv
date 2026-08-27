@@ -8,8 +8,8 @@ import DocPlayer from '@/components/DocPlayer';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
-const display = Fraunces({ subsets: ['latin'], weight: ['400', '500', '600', '700'], style: ['normal', 'italic'], variable: '--font-display', display: 'swap' });
-const sans = Hanken_Grotesk({ subsets: ['latin'], weight: ['400', '500', '600'], variable: '--font-sans', display: 'swap' });
+const display = Fraunces({ subsets: ['latin'], weight: ['300', '400', '500', '600'], style: ['normal', 'italic'], variable: '--font-display', display: 'swap' });
+const sans = Hanken_Grotesk({ subsets: ['latin'], weight: ['300', '400', '500'], variable: '--font-sans', display: 'swap' });
 const read = Literata({ subsets: ['latin'], weight: ['400', '600'], style: ['normal', 'italic'], variable: '--font-read', display: 'swap' });
 
 const SITE = 'https://www.theatromunicipalsjbv.com.br';

@@ -183,7 +183,7 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
             <button onClick={(e) => { e.stopPropagation(); setPlaying(false); setZoom(false); next(); }} aria-label="Próxima" className="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-night/50 p-3 text-cream/85 transition-colors hover:bg-night/70 hover:text-gold sm:right-4"><IconChevron size={30} /></button>
           </div>
           <figcaption className="border-t border-cream/10 bg-night px-6 pb-6 pt-3.5 text-center font-sans text-sm leading-relaxed text-cream/90">
-            <span className="mx-auto block max-w-2xl"><span className="font-semibold text-gold">{open.categoryLabel}.</span> {open.alt}</span>
+            <span className="mx-auto block max-w-2xl"><span className="font-medium text-gold">{open.categoryLabel}.</span> {open.alt}</span>
             {(() => {
               const na = _normLB(open.alt || '');
               const pes = pessoasIndex.filter((pe) => pe.name.length >= 6 && na.includes(_normLB(pe.name)));

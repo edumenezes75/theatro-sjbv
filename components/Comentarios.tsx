@@ -68,7 +68,7 @@ export default function Comentarios({
           <textarea className={`${input} min-h-[110px] resize-y`} placeholder={placeholder || 'Escreva sua memória, lembrança ou comentário…'} value={texto} maxLength={4000} onChange={(e) => setTexto(e.target.value)} aria-label="Sua mensagem" required />
           <input type="text" tabIndex={-1} autoComplete="off" value={hp} onChange={(e) => setHp(e.target.value)} className="hidden" aria-hidden />
           <div className="flex flex-wrap items-center gap-3">
-            <button type="submit" disabled={estado === 'enviando'} className="rounded-full bg-curtain px-5 py-2 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] disabled:opacity-60 dark:bg-gold dark:text-ink">
+            <button type="submit" disabled={estado === 'enviando'} className="rounded-full bg-curtain px-5 py-2 font-sans text-sm text-cream transition-transform hover:scale-[1.03] disabled:opacity-60 dark:bg-gold dark:text-ink">
               {estado === 'enviando' ? 'Enviando…' : 'Enviar'}
             </button>
             <span className="font-sans text-xs text-ink/50 dark:text-cream/65">As mensagens passam por revisão antes de aparecer.</span>

@@ -78,7 +78,7 @@ export default function Curiosidades({ itens, agrupar = true }: { itens: Curiosi
           <button
             type="button"
             onClick={() => setTudo(true)}
-            className="rounded-full border border-curtain/40 px-7 py-3 font-sans text-sm font-medium text-curtain transition-colors hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink"
+            className="rounded-full border border-curtain/40 px-7 py-3 font-sans text-sm text-curtain transition-colors hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink"
           >
             Ver mais {escondidas} curiosidades
           </button>

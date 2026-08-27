@@ -47,7 +47,7 @@ export default function Moderacao() {
         <p className="mt-2 font-sans text-sm text-ink/70 dark:text-cream/70">Digite a senha para revisar as mensagens enviadas pelo público.</p>
         <form onSubmit={(e) => { e.preventDefault(); carregar(senha); }} className="mt-6 flex gap-2">
           <input type="password" value={senha} onChange={(e) => setSenha(e.target.value)} placeholder="Senha" className="flex-1 rounded-sm border border-ink/15 bg-cream/60 px-3 py-2 font-sans text-sm dark:border-cream/15 dark:bg-night/40 dark:text-cream" />
-          <button className="rounded-full bg-curtain px-5 py-2 font-sans text-sm font-medium text-cream dark:bg-gold dark:text-ink">Entrar</button>
+          <button className="rounded-full bg-curtain px-5 py-2 font-sans text-sm text-cream dark:bg-gold dark:text-ink">Entrar</button>
         </form>
         {estado === 'erro' && <p className="mt-3 font-sans text-sm text-curtain dark:text-gold">{erro}</p>}
       </div>
