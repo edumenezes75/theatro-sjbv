@@ -47,7 +47,7 @@ export default function EraRail({ eras }: { eras: { id: string; rail: string }[]
               key={e.id}
               data-rail={`era-${e.id}`}
               onClick={() => go(e.id)}
-              className={`border-b-2 py-2.5 font-sans text-xs uppercase tracking-[0.14em] transition-colors ${on ? 'border-gold font-medium text-curtain dark:text-gold' : 'border-transparent text-ink/55 hover:text-curtain dark:text-cream/65 dark:hover:text-gold'}`}
+              className={`border-b-2 py-2.5 font-sans text-xs uppercase tracking-[0.14em] transition-colors ${on ? 'border-gold font-semibold text-curtain dark:text-gold' : 'border-transparent text-ink/55 hover:text-curtain dark:text-cream/65 dark:hover:text-gold'}`}
             >
               {e.rail}
             </button>

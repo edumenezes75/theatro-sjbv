@@ -21,8 +21,8 @@ export default function ChapterHero({ eyebrow, title, image, alt, status, typewr
           </div>
         )}
         {typewriter
-          ? <TypewriterTitle text={title} className="mt-5 max-w-3xl display-leve font-display text-[2.4rem] leading-[1.08] tracking-[-0.012em] sm:text-[3.4rem]" />
-          : <h1 className="mt-5 max-w-3xl display-leve font-display text-[2.4rem] leading-[1.08] tracking-[-0.012em] sm:text-[3.4rem]">{title}</h1>}
+          ? <TypewriterTitle text={title} className="mt-5 max-w-3xl font-display text-[2.6rem] font-normal leading-[1.06] sm:text-6xl" />
+          : <h1 className="mt-5 max-w-3xl font-display text-[2.6rem] font-normal leading-[1.06] sm:text-6xl">{title}</h1>}
         {status && temSelo(status) && <div className="mt-6"><SeloEvidencia status={status} /></div>}
       </div>
     </header>

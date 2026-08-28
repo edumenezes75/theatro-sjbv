@@ -47,7 +47,7 @@ export default async function ProximoEvento() {
             </p>
             <Link
               href="/programacao"
-              className="shrink-0 self-start font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 hover:decoration-current dark:text-gold sm:self-auto"
+              className="shrink-0 self-start font-sans text-sm font-medium text-curtain underline decoration-gold/40 underline-offset-4 hover:decoration-current dark:text-gold sm:self-auto"
             >
               Ver programação →
             </Link>
@@ -67,13 +67,13 @@ export default async function ProximoEvento() {
                 href={WPP}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 hover:decoration-current dark:text-gold"
+                className="font-sans text-sm font-medium text-curtain underline decoration-gold/40 underline-offset-4 hover:decoration-current dark:text-gold"
               >
                 WhatsApp ↗
               </a>
               <Link
                 href="/programacao"
-                className="font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 hover:decoration-current dark:text-gold"
+                className="font-sans text-sm font-medium text-curtain underline decoration-gold/40 underline-offset-4 hover:decoration-current dark:text-gold"
               >
                 Programação →
               </Link>

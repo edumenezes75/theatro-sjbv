@@ -51,7 +51,7 @@ function Card({ p }: { p: Pessoa }) {
             <SeloEvidencia status={p.status} />
           </div>
           <h3 className="mt-1.5 font-display text-lg leading-tight">{p.name}</h3>
-          <p className="mt-0.5 font-sans text-sm leading-snug text-ink/70 dark:text-cream/70">{p.role}</p>
+          <p className="mt-0.5 font-sans text-sm font-medium leading-snug text-ink/70 dark:text-cream/70">{p.role}</p>
         </div>
       </div>
       <p className="mt-3 line-clamp-3 font-sans text-sm leading-relaxed text-ink/75 dark:text-cream/75">{p.summary || p.bio}</p>

@@ -11,7 +11,7 @@ export default function ReconheceuAlguem() {
         </p>
         <Link
           href="/livro-de-memorias"
-          className="mt-6 inline-flex items-center gap-2 rounded-full bg-curtain px-5 py-2.5 font-sans text-sm text-cream transition-colors hover:bg-curtain/90 dark:bg-gold dark:text-night dark:hover:bg-gold/90"
+          className="mt-6 inline-flex items-center gap-2 rounded-full bg-curtain px-5 py-2.5 font-sans text-sm font-medium text-cream transition-colors hover:bg-curtain/90 dark:bg-gold dark:text-night dark:hover:bg-gold/90"
         >
           Deixar uma lembrança
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
