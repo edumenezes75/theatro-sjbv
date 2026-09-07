@@ -23,13 +23,13 @@ Ter um teatro era, naquele momento, um atestado de civilização. A cidade do ca
 
 ## A engenharia pública: a lei de 1912
 
-O mecanismo decisivo veio em **20 de setembro de 1912**, por lei municipal. A Câmara concedeu favores e **garantia de juros** a José Evangelista de Almeida — ou à empresa que organizasse a construção de um teatro ou politeama. A garantia foi de **8% ao ano** (reduzida de uma proposta anterior de 9%), por dez anos, sobre o capital aplicado. Ao incorporador coube ainda o direito a um percentual sobre a exploração do negócio nos primeiros anos.
+O mecanismo decisivo veio em **30 de setembro de 1912**, por lei municipal. A Câmara concedeu favores e **garantia de juros** a José Evangelista de Almeida — ou à empresa que organizasse a construção de um teatro ou politeama. A garantia foi de **8% ao ano** (reduzida de uma proposta anterior de 9%), por dez anos, sobre o capital aplicado. Ao incorporador coube ainda o direito a um percentual sobre a exploração do negócio nos primeiros anos.
 
 É um detalhe que muda a leitura da obra: o Theatro **não foi só iniciativa privada nem só obra pública** — foi um cruzamento dos dois. O capital seria de acionistas, em busca de renda; mas a Câmara criou as condições para que o investimento parecesse seguro e desejável. Sem essa engenharia, a sociedade por ações dificilmente teria saído do papel.
 
 ![A lei municipal de 1912 que concedia incentivos a quem construísse um teatro.](/fotos/hr8-doc-lei-1912.jpg)
 
-*A lei municipal de 20 de setembro de 1912 — a garantia de juros que tornou o empreendimento viável.*
+*A lei municipal de 30 de setembro de 1912 — a garantia de juros que tornou o empreendimento viável.*
 
 ## Uma sociedade por ações
 
@@ -274,6 +274,7 @@ Victor Manoel de Andrade Dias
 Este episódio combina fonte primária e pesquisa acadêmica, e registra abertamente o que ainda está em disputa:
 
 - **Número de acionistas.** As três contagens — 113 (tradição/fonte oficial), 103 (ata de constituição) e 191–196 (Livro de Accionistas) — estão discutidas na seção *“113, 103 ou 196?”*, acima.
+- **Data da lei.** O livro do centenário registra, na cronologia, a **lei de 30 de setembro de 1912**, publicada em 06/10/1912. Adotamos essa data.
 - **Diretor-técnico.** O livro do centenário registra *Gabriel Emílio Pacheco de Melo*; parte da bibliografia grafa o nome de forma diferente. Mantemos a forma do livro.
 - **Valores financeiros.** Capital, debêntures e o total estimado (~290 contos) seguem a leitura das fontes primárias pela pesquisa; não há prestação de contas consolidada que feche o número com precisão.
 

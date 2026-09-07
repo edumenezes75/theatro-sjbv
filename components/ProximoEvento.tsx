@@ -24,6 +24,10 @@ export default async function ProximoEvento() {
   const now = new Date().toISOString();
   const proximo = reais.filter((e) => e.date >= now).sort((a, b) => (a.date > b.date ? 1 : -1))[0];
 
+  // Quando o evento tem página própria (hotsite), a faixa leva direto para ela.
+  const destino = proximo?.link || '/programacao';
+  const externo = /^https?:\/\//.test(destino);
+
   const d = proximo ? new Date(proximo.date) : null;
   const data = d?.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long' });
   const hora = d?.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
@@ -45,12 +49,23 @@ export default async function ProximoEvento() {
                 {hora ? ` · ${hora}` : ''}
               </span>
             </p>
-            <Link
-              href="/programacao"
-              className="shrink-0 self-start font-sans text-sm font-medium text-curtain underline decoration-gold/40 underline-offset-4 hover:decoration-current dark:text-gold sm:self-auto"
-            >
-              Ver programação →
-            </Link>
+            {externo ? (
+              <a
+                href={destino}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 self-start font-sans text-sm font-medium text-curtain underline decoration-gold/40 underline-offset-4 hover:decoration-current dark:text-gold sm:self-auto"
+              >
+                Ver o evento ↗
+              </a>
+            ) : (
+              <Link
+                href={destino}
+                className="shrink-0 self-start font-sans text-sm font-medium text-curtain underline decoration-gold/40 underline-offset-4 hover:decoration-current dark:text-gold sm:self-auto"
+              >
+                Ver programação →
+              </Link>
+            )}
           </>
         ) : (
           <>
