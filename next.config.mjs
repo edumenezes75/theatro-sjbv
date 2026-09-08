@@ -30,6 +30,10 @@ const nextConfig = {
   async redirects() {
     return [{ source: '/dossies', destination: '/episodios', permanent: true }, { source: '/contribua', destination: '/livro-de-memorias', permanent: true }, { source: '/visita-guiada', destination: '/visite', permanent: true }];
   },
+  async rewrites() {
+    // hotsite estático do espetáculo, servido de public/evento/
+    return [{ source: '/evento', destination: '/evento/index.html' }];
+  },
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];
   },
