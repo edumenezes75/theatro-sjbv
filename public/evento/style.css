@@ -51,6 +51,10 @@ section{padding:clamp(52px,8vh,104px) 0}
 main>section+section{border-top:1px solid var(--line)}
 #elenco+section{border-top:0}
 .gal-sec{padding:0}
+.gal-lead{padding-top:clamp(52px,8vh,104px);padding-bottom:clamp(26px,4vh,44px)}
+.gal-lead p{margin:0;max-width:58ch;font-size:.95rem;color:var(--mute)}
+.gal-lead .kicker{margin-bottom:10px}
+.gal-lead a{color:var(--gold);text-decoration:none;border-bottom:1px solid var(--gl)}
 
 .sec-head{margin-bottom:clamp(28px,5vh,54px)}
 .kicker{font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
