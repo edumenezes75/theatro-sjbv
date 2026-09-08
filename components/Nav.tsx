@@ -22,7 +22,7 @@ const MENU: Grupo[] = [
     { href: '/restauracao', label: 'Restauro', hint: 'Da ameaça de demolição à reabertura' },
   ] },
   { label: 'Memória viva', items: [
-    { href: '/acervo', label: 'Acervo de imagens', hint: '276 fotografias catalogadas' },
+    { href: '/acervo', label: 'Acervo de imagens', hint: '275 fotografias catalogadas' },
     { href: '/documentario', label: 'Documentário', hint: 'O filme, com transcrição navegável' },
     { href: '/pessoas', label: 'Pessoas', hint: 'Quem fez o Theatro acontecer' },
     { href: '/memorias', label: 'Curiosidades', hint: 'Histórias miúdas da casa' },

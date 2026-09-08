@@ -24,13 +24,13 @@ a{color:inherit}img{max-width:100%;display:block}
 @media(max-width:620px){.topbar .long{display:none}.topbar{justify-content:flex-end}}
 
 .hero{position:relative;isolation:isolate;text-align:center;padding:clamp(36px,7vh,80px) var(--pad) clamp(34px,6vh,64px);background:var(--wine);overflow:hidden}
-.hero::before{content:"";position:absolute;inset:-10%;z-index:-2;background:url("https://theatromunicipalsjbv.com.br/evento/pattern.png") 50% 0/clamp(280px,42vw,520px) repeat;opacity:.05;pointer-events:none}
+.hero::before{content:"";position:absolute;inset:-10%;z-index:-2;background:url("https://www.theatromunicipalsjbv.com.br/evento/pattern.png") 50% 0/clamp(280px,42vw,520px) repeat;opacity:.05;pointer-events:none}
 .lockup{max-width:960px;margin:0 auto}
 h1.lockup-t{margin:0;font-family:var(--disp);font-weight:700;text-transform:uppercase;font-size:clamp(1.55rem,9.4vw,6rem);line-height:1.08}
 h1.lockup-t .l1{display:block;color:var(--gold)}
 h1.lockup-t .l2{display:block;color:var(--white)}
 .l3{font-family:var(--sub);font-weight:500;text-transform:uppercase;color:var(--white);font-size:clamp(1.15rem,3vw,1.85rem);letter-spacing:.03em;margin:clamp(10px,1.8vh,20px) 0 0}
-.outline{width:min(430px,64%);aspect-ratio:1498/795;margin:clamp(18px,3.2vh,36px) auto clamp(14px,2.4vh,26px);background:url("https://theatromunicipalsjbv.com.br/evento/fachada.png") 50% 0/100% auto no-repeat}
+.outline{width:min(430px,64%);aspect-ratio:1498/795;margin:clamp(18px,3.2vh,36px) auto clamp(14px,2.4vh,26px);background:url("https://www.theatromunicipalsjbv.com.br/evento/fachada.png") 50% 0/100% auto no-repeat}
 .when{font-family:var(--disp);font-weight:700;color:var(--gold);font-size:clamp(1.2rem,7.4vw,3.1rem);line-height:1.2;margin:0;white-space:nowrap}
 .free{font-family:var(--sans);font-weight:700;text-transform:uppercase;color:var(--gold);font-size:clamp(.82rem,2.7vw,1.05rem);letter-spacing:.14em;margin:clamp(16px,2.4vh,24px) 0 0}
 .where{margin:clamp(18px,2.6vh,26px) auto 0;max-width:min(100%,880px);font-size:.95rem;color:var(--mute)}
