@@ -7,3 +7,8 @@ next-env.d.ts
 .ghtoken
 .vtoken
 .ghsecret
+
+# lixo e arquivos de sistema
+.DS_Store
+public/evento/_to_delete/
+public/evento/rs.jpg
