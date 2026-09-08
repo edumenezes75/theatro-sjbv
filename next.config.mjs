@@ -32,7 +32,10 @@ const nextConfig = {
   },
   async rewrites() {
     // hotsite estático do espetáculo, servido de public/evento/
-    return [{ source: '/evento', destination: '/evento/index.html' }];
+    return [
+      { source: '/evento', destination: '/evento/index.html' },
+      { source: '/evento/publicar', destination: '/evento/publicar/index.html' },
+    ];
   },
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];
