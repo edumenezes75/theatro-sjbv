@@ -10,6 +10,9 @@ html { scroll-behavior: smooth; }
   *, *::before, *::after { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
 }
 
+/* Em telas grandes o corpo inteiro sobe 6%: tudo é rem, então tipografia e espaços escalam juntos. */
+@media (min-width: 1280px) { html { font-size: 17px; } }
+
 body {
   background-color: theme('colors.night');
   color: #ECE6DA;
@@ -22,12 +25,12 @@ body {
 
 /* Editorial prose */
 .prose-theatro { max-width: 38rem; font-family: var(--font-read); }
-.prose-theatro p { margin: 1.1rem 0; line-height: 1.75; font-size: 1.075rem; }
+.prose-theatro p { margin: 1.1rem 0; line-height: 1.75; font-size: 1.125rem; }
 .prose-theatro h2 {
   font-family: var(--font-display); font-size: clamp(1.6rem, 3vw, 2.35rem);
   line-height: 1.15; margin: 2.6rem 0 0.9rem; letter-spacing: -0.01em;
 }
-.prose-theatro h3 { font-family: var(--font-display); font-size: 1.36rem; line-height: 1.3; margin: 2.4rem 0 0.7rem; }
+.prose-theatro h3 { font-family: var(--font-display); font-size: 1.42rem; line-height: 1.3; margin: 2.4rem 0 0.7rem; }
 .prose-theatro h2 + p { margin-top: 0.5rem; }
 .prose-theatro a { color: theme('colors.curtain'); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .dark .prose-theatro a { color: theme('colors.gold'); }
@@ -39,18 +42,18 @@ body {
 .prose-theatro ul li::before { content: ''; position: absolute; left: 0; top: 0.7rem; width: 7px; height: 7px; background: theme('colors.gold'); transform: rotate(45deg); }
 .prose-theatro blockquote {
   margin: 2rem 0; padding: 1.4rem 1.6rem; border-left: 3px solid theme('colors.curtain');
-  background: rgba(142,43,32,0.05); font-family: var(--font-display); font-size: 1.25rem; line-height: 1.5; font-style: italic;
+  background: rgba(107,16,33,0.05); font-family: var(--font-display); font-size: 1.32rem; line-height: 1.5; font-style: italic;
 }
-.dark .prose-theatro blockquote { background: rgba(176,141,76,0.10); border-color: theme('colors.gold'); }
+.dark .prose-theatro blockquote { background: rgba(199,156,110,0.10); border-color: theme('colors.gold'); }
 .prose-theatro blockquote p { margin: 0.3rem 0; }
 .prose-theatro img { width: 100%; height: auto; margin: 2rem 0 0.6rem; border-radius: 2px; }
 .prose-theatro p:has(> img) { margin-bottom: 0.2rem; }
-.prose-theatro p:has(> img) + p { font-size: 0.9rem; color: #5F564C; font-style: italic; margin-top: 0.2rem; margin-bottom: 1.5rem; }
+.prose-theatro p:has(> img) + p { font-size: 0.95rem; color: #5F564C; font-style: italic; margin-top: 0.2rem; margin-bottom: 1.5rem; }
 .dark .prose-theatro p:has(> img) + p { color: #C2B8A8; }
-.prose-theatro table { width: 100%; border-collapse: collapse; margin: 1.8rem 0; font-size: 0.95rem; }
+.prose-theatro table { width: 100%; border-collapse: collapse; margin: 1.8rem 0; font-size: 1rem; }
 .prose-theatro th, .prose-theatro td { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 1px solid rgba(26,23,20,0.12); }
 .dark .prose-theatro th, .dark .prose-theatro td { border-color: rgba(236,230,218,0.14); }
-.prose-theatro th { font-family: var(--font-sans); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: theme('colors.curtain'); }
+.prose-theatro th { font-family: var(--font-sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; color: theme('colors.curtain'); }
 .dark .prose-theatro th { color: theme('colors.gold'); }
 .prose-theatro hr { border: 0; height: 1px; background: theme('colors.gold'); opacity: 0.4; margin: 2.5rem auto; max-width: 6rem; }
 
@@ -73,7 +76,7 @@ article[id]:target { box-shadow: 0 0 0 2px theme('colors.curtain'); border-radiu
 /* tipografia display (Bodoni Moda) — mais drama, sem perder leitura */
 .prose-theatro h2 { letter-spacing: -0.005em; line-height: 1.08; font-weight: 500; }
 .prose-theatro h3 { letter-spacing: 0; font-weight: 500; line-height: 1.3; }
-.prose-theatro p { font-size: 1.06rem; line-height: 1.78; }
+.prose-theatro p { font-size: 1.125rem; line-height: 1.78; }
 
 /* blockquote mais leve e editorial (menos moldura) */
 .prose-theatro blockquote {
@@ -111,7 +114,7 @@ html.lenis, html.lenis body { height: auto; }
 .lenis.lenis-stopped { overflow: hidden; }
 
 /* leitura: medida confortável, ritmo generoso */
-.prose-theatro { font-size: 1.09rem; line-height: 1.82; }
+.prose-theatro { font-size: 1.15rem; line-height: 1.82; }
 .prose-theatro p { margin: 1.25rem 0; }
 .prose-theatro p + p { text-indent: 0; }
 
@@ -183,8 +186,8 @@ html, body { overflow-x: clip; }
 /* ===== Ajustes de leitura por dispositivo ===== */
 /* Laptop/desktop: corpo um pouco maior para leitura longa confortável */
 @media (min-width: 1024px) {
-  .prose-theatro { font-size: 1.13rem; }
-  .prose-theatro p { font-size: 1.13rem; }
+  .prose-theatro { font-size: 1.19rem; }
+  .prose-theatro p { font-size: 1.19rem; }
 }
 /* Celular estreito: capitular menor para não apertar as primeiras linhas */
 @media (max-width: 480px) {

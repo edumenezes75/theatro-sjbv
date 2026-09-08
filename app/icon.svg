@@ -5,7 +5,7 @@
     <path d="M2.5 34 H49.5" stroke-width="3.34"/>
     <path d="M18 9.5 H34"/>
     <path d="M18 13 H34"/>
-    <circle cx="26" cy="8" r="1.4" fill="#8E2B20" stroke="none"/>
+    <circle cx="26" cy="8" r="1.4" fill="#8A1A2C" stroke="none"/>
     <path d="M18 9.5 V7"/>
     <path d="M34 9.5 V7"/>
     <path d="M26 5.8 V3.2"/>

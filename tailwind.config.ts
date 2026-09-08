@@ -6,13 +6,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: '#F5EFE3',     // ivory quente
+        cream: '#F4EDE4',     // ivory quente — o mesmo creme do hotsite do evento
         bone: '#EBE2D0',      // painéis sutis
         ink: '#1C1815',       // texto
-        curtain: '#6E1B22',   // granada (acento principal, contraste AA no creme)
-        curtainbright: '#8E2B20',
-        curtaindark: '#4E1219',
-        gold: '#A9863F',      // ornamento (fios, detalhes) — não usar como texto sobre creme
+        curtain: '#6B1021',   // vinho (acento principal; o mesmo do hotsite do evento; 10.5:1 no creme)
+        curtainbright: '#8A1A2C',
+        curtaindark: '#3B0912',
+        gold: '#C79C6E',      // dourado do hotsite (7.5:1 sobre night) — nunca como texto sobre creme (1.9:1)
         moss: '#54624A',
         night: '#14110E',     // "palco às escuras"
         nightsoft: '#211B16',
@@ -22,12 +22,12 @@ const config: Config = {
         sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
         read: ['var(--font-read)', 'Georgia', 'serif'],
       },
-      // Escada fina: os dois degraus de apoio ficam um pouco menores que o
-      // padrão do Tailwind (12/14px). É a diferença entre um rótulo que se
-      // impõe e um que acompanha — e vale para o site inteiro de uma vez.
+      // Escada de apoio: xs 12.8px (rótulos em caixa alta, com tracking) e
+      // sm 15.2px (texto de cards, legendas, nav, rodapé). Antes eram 11.5/13.3px
+      // — pequeno demais para texto corrido. Vale para o site inteiro de uma vez.
       fontSize: {
-        xs: ['0.72rem', { lineHeight: '1.5' }],
-        sm: ['0.83rem', { lineHeight: '1.62' }],
+        xs: ['0.8rem', { lineHeight: '1.5' }],
+        sm: ['0.95rem', { lineHeight: '1.6' }],
       },
       maxWidth: { reading: '36rem' },
       letterSpacing: { eyebrow: '0.28em' },

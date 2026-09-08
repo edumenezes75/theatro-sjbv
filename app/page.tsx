@@ -39,7 +39,7 @@ export default function Home() {
           <HeroVideo />
           <div className="absolute inset-0 bg-gradient-to-t from-night via-night/40 to-night/10" />
           <div className="absolute inset-0 bg-gradient-to-r from-night/65 via-night/20 to-transparent" />
-          <div className="absolute inset-0" style={{ background: 'radial-gradient(130% 90% at 70% 10%, rgba(110,27,34,0.28), transparent 55%)' }} />
+          <div className="absolute inset-0" style={{ background: 'radial-gradient(130% 90% at 70% 10%, rgba(107,16,33,0.28), transparent 55%)' }} />
         </div>
         <div className="relative mx-auto flex min-h-[100svh] max-w-6xl flex-col justify-end px-5 pb-20 pt-40 text-cream">
           <Reveal>

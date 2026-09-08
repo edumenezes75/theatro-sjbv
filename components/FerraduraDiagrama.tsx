@@ -14,7 +14,7 @@ const SETORES: Setor[] = [
 export default function FerraduraDiagrama() {
   const [act, setAct] = useState('plateia');
   const cur = SETORES.find((s) => s.id === act)!;
-  const fill = (id: string) => (act === id ? 'rgba(169,134,63,0.55)' : 'rgba(169,134,63,0.16)');
+  const fill = (id: string) => (act === id ? 'rgba(199,156,110,0.55)' : 'rgba(199,156,110,0.16)');
   const props = (id: string) => ({
     onMouseEnter: () => setAct(id), onFocus: () => setAct(id), onClick: () => setAct(id),
     tabIndex: 0, role: 'button', 'aria-label': SETORES.find((s) => s.id === id)!.nome,

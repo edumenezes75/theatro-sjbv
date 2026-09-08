@@ -18,13 +18,13 @@ export default async function Image({ params }: { params: { slug: string } }) {
       <div
         style={{
           width: '100%', height: '100%', display: 'flex', flexDirection: 'column',
-          justifyContent: 'flex-end', background: '#14110E', color: '#F5EFE3',
+          justifyContent: 'flex-end', background: '#14110E', color: '#F4EDE4',
           padding: '70px', fontFamily: 'serif',
         }}
       >
-        <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(120% 90% at 75% 8%, rgba(110,27,34,0.55), transparent 60%)' }} />
+        <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(120% 90% at 75% 8%, rgba(107,16,33,0.55), transparent 60%)' }} />
         <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-          <div style={{ width: 4, height: 34, background: '#A9863F' }} />
+          <div style={{ width: 4, height: 34, background: '#C79C6E' }} />
           <div style={{ fontSize: 26, letterSpacing: 2, textTransform: 'uppercase', color: '#D8C089', fontFamily: 'sans-serif' }}>
             Theatro Municipal · São João da Boa Vista
           </div>
