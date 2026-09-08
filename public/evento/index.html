@@ -27,7 +27,9 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg width='48' height='48' viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='48' height='48' fill='%236B1021'/%3E%3Cg transform='translate(0.8,7.4) scale(0.894)' fill='none' stroke='%23C79C6E' stroke-width='2.2' stroke-linejoin='round' stroke-linecap='round'%3E%3Cpath d='M4 34 V14 H18 V9.5 Q26 2.5 34 9.5 V14 H48 V34 Z' stroke-width='2.64'/%3E%3Cpath d='M2.5 34 H49.5' stroke-width='3.34'/%3E%3Cpath d='M18 9.5 H34'/%3E%3Cpath d='M18 13 H34'/%3E%3Ccircle cx='26' cy='8' r='1.4' fill='%238E2B20' stroke='none'/%3E%3Cpath d='M18 9.5 V7'/%3E%3Cpath d='M34 9.5 V7'/%3E%3Cpath d='M26 5.8 V3.2'/%3E%3Cpath d='M4 23 H48'/%3E%3Cpath d='M22.5 22 V17 C22.5 14 29.5 14 29.5 17 V22'/%3E%3Cpath d='M22 22 H30' stroke-width='1.76'/%3E%3Cpath d='M7.5 21.5 V16.5 H10.5 V21.5'/%3E%3Cpath d='M12.5 21.5 V16.5 H15.5 V21.5'/%3E%3Cpath d='M36.5 21.5 V16.5 H39.5 V21.5'/%3E%3Cpath d='M41.5 21.5 V16.5 H44.5 V21.5'/%3E%3Cpath d='M23 34 V26 C23 23.4 29 23.4 29 26 V34'/%3E%3Cpath d='M7.5 34 V27 H10.5 V34'/%3E%3Cpath d='M12.5 34 V27 H15.5 V34'/%3E%3Cpath d='M36.5 34 V27 H39.5 V34'/%3E%3Cpath d='M41.5 34 V27 H44.5 V34'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="stylesheet" href="/evento/style.css">
 <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments)};</script>
-<script defer src="/_vercel/insights/script.js"></script></head>
+<script defer src="/_vercel/insights/script.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0YHHEHSFKE"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-0YHHEHSFKE');</script></head>
 <body>
 <a class="skip" href="#conteudo">Ir para o conteúdo</a>
 <div class="frame"></div>
@@ -198,7 +200,7 @@ var sh=document.getElementById('share');
   if(el){el.href=wa;el.target='_blank';el.rel='noopener';}
 });
 
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('[data-ev]');if(a)window.va('event',{name:a.getAttribute('data-ev')});},{capture:true});
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('[data-ev]');if(a){var n=a.getAttribute('data-ev');window.va('event',{name:n});if(window.gtag)gtag('event',n);}},{capture:true});
 
 var hero=document.querySelector('.hero');
 if(sh&&hero&&'IntersectionObserver' in window){
