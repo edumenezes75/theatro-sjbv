@@ -189,6 +189,8 @@ footer a:hover,footer a:focus-visible{color:var(--white);border-bottom-color:var
 .sig{background:var(--cream);padding:clamp(30px,5vw,48px) var(--pad);text-align:center}
 .sig p{margin:0 0 22px;font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8A5A2B}
 .sig img{width:min(760px,100%);height:auto;margin:0 auto}
+.sig p.apoio{margin-top:clamp(28px,4vw,40px)}
+.sig img.apoio-logo{width:min(150px,38%);mix-blend-mode:multiply}
 
 .share{position:fixed;left:0;right:0;bottom:0;z-index:70;display:none;background:var(--gold);color:var(--wine);text-align:center;text-decoration:none;font-size:.88rem;font-weight:700;padding:16px 16px calc(16px + env(safe-area-inset-bottom));transform:translateY(105%);transition:transform .28s ease}
 .share.on{transform:none}
