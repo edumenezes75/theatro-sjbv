@@ -36,6 +36,7 @@ main{padding:8px 16px 40px;max-width:720px;margin:0 auto}
 .dia.e-hoje{border:2px solid var(--wine);box-shadow:0 4px 18px rgba(107,16,33,.15)}
 .dia.e-hoje header::before{content:"HOJE";display:inline-block;background:var(--wine);color:#fff;font-size:11px;letter-spacing:.14em;padding:3px 8px;border-radius:4px;margin-bottom:8px}
 .dia header{margin-bottom:12px;position:relative;cursor:pointer;padding-right:34px}
+.chev{display:none}
 .chev{position:absolute;right:4px;top:50%;width:12px;height:12px;border-right:2px solid var(--gl);border-bottom:2px solid var(--gl);transform:translateY(-70%) rotate(45deg);transition:transform .15s}
 .dia.fechado .chev{transform:translateY(-30%) rotate(-135deg)}
 .dia.fechado header{margin-bottom:0}
@@ -490,7 +491,6 @@ arts.forEach(function(a){var iso=a.getAttribute('data-iso');
   if(iso===h){if(!alvo)alvo=a;a.classList.add('e-hoje');}
   if(!prox&&iso>h)prox=a;});
 function nome(a){return a.querySelector('.quando').textContent;}
-arts.forEach(function(a){if(a!==(alvo||prox))a.classList.add('fechado');});
 function abrir(id){var a=document.getElementById(id);if(a){a.classList.remove('fechado');}}
 if(location.hash)abrir(location.hash.slice(1));
 window.addEventListener('hashchange',function(){abrir(location.hash.slice(1));});
