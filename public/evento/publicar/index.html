@@ -24,6 +24,9 @@ a{color:var(--wine)}
 .regra{background:var(--wd);color:var(--cream);padding:18px 20px;font-size:16px}
 .regra p{margin:0 0 8px}.regra p:last-child{margin:0}
 .regra b{color:var(--gold);font-weight:600}
+.passos{margin:0;padding:0 0 0 22px;font-size:17px;line-height:1.4}
+.passos li{margin:0 0 8px}.passos li:last-child{margin:0}
+.regra .mini{margin:12px 0 0;font-size:14px;color:var(--mute);color:#D8BCA6}
 .hoje{position:sticky;top:0;z-index:5;background:var(--gold);color:var(--wd);padding:10px 20px;font-size:15px;line-height:1.3;display:flex;justify-content:space-between;align-items:center;gap:12px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
 .hoje a{color:var(--wd);font-weight:700;white-space:nowrap}
 main{padding:8px 16px 40px;max-width:720px;margin:0 auto}
@@ -32,7 +35,15 @@ main{padding:8px 16px 40px;max-width:720px;margin:0 auto}
 .dia.passado{opacity:.55}
 .dia.e-hoje{border:2px solid var(--wine);box-shadow:0 4px 18px rgba(107,16,33,.15)}
 .dia.e-hoje header::before{content:"HOJE";display:inline-block;background:var(--wine);color:#fff;font-size:11px;letter-spacing:.14em;padding:3px 8px;border-radius:4px;margin-bottom:8px}
-.dia header{margin-bottom:12px}
+.dia header{margin-bottom:12px;position:relative;cursor:pointer;padding-right:34px}
+.chev{position:absolute;right:4px;top:50%;width:12px;height:12px;border-right:2px solid var(--gl);border-bottom:2px solid var(--gl);transform:translateY(-70%) rotate(45deg);transition:transform .15s}
+.dia.fechado .chev{transform:translateY(-30%) rotate(-135deg)}
+.dia.fechado header{margin-bottom:0}
+.dia.fechado .corpo{display:none}
+.dia.fechado{padding-bottom:16px}
+.dia.fechado.feito-ok .quando::after{content:" · publicado";color:var(--ok);font-weight:600}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.btns.um{grid-template-columns:1fr}
 .quando{display:block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
 .dia h2{font-family:var(--disp);font-weight:400;font-size:21px;line-height:1.25;margin:4px 0 0;color:var(--wd)}
 .aviso{margin:8px 0 0;padding:8px 10px;background:#FFF4D6;border-left:3px solid var(--gold);font-size:15px}
@@ -45,11 +56,11 @@ main{padding:8px 16px 40px;max-width:720px;margin:0 auto}
 .card{display:block;text-decoration:none;color:var(--ink);font-size:13px;text-align:center}
 .card img{width:100%;height:auto;display:block;border-radius:6px;border:1px solid #E6D6C4;background:#eee}
 .card span{display:block;margin-top:4px}
-.leg{position:relative;margin-top:6px}
+.leg{position:relative;margin-top:14px}
 .leg pre{white-space:pre-wrap;word-wrap:break-word;font-family:inherit;font-size:15px;line-height:1.5;margin:0;padding:12px 12px 14px;background:var(--cream);border-radius:8px;border:1px solid #E6D6C4}
 .copiar{margin-top:8px;width:100%;padding:12px;border:0;border-radius:8px;background:var(--wine);color:#fff;font:inherit;font-size:16px;font-weight:600;cursor:pointer}
 .copiar.ok{background:var(--ok)}
-.enviar{margin-top:8px;width:100%;padding:11px;border:1px solid var(--wine);border-radius:8px;background:#fff;color:var(--wine);font:inherit;font-size:15px;font-weight:600;cursor:pointer}
+.enviar{margin:0;width:100%;padding:11px 8px;border:1px solid var(--wine);border-radius:8px;background:#fff;color:var(--wine);font:inherit;font-size:15px;font-weight:600;cursor:pointer}
 .enviar .ico{width:18px;height:18px;vertical-align:-4px;margin-right:8px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .enviar.busy{opacity:.6}
 .enviar.ok{background:var(--ok);border-color:var(--ok);color:#fff}
@@ -84,103 +95,62 @@ main{padding:8px 16px 40px;max-width:720px;margin:0 auto}
 <body>
 <div class="topo"><p class="k">As Histórias do Theatro · 2 de outubro</p><h1>O que publicar hoje</h1></div>
 <div class="regra">
-<p><b>Todo post são três imagens</b>, sempre nesta ordem: a peça, a arte, o apoio.</p>
-<p><b>Instagram:</b> no feed, as três num carrossel; nos stories, as três em sequência. <b>Facebook:</b> as três fotos num post só.</p>
-<p><b>A legenda</b> vai no feed e no Facebook. Copie e cole como está.</p>
-<p>Os quatro perfis — Prefeitura, Academia de Letras, CLAC e Theatro — publicam o mesmo post no mesmo dia, e marcam uns aos outros.</p>
-<p><b>WhatsApp:</b> não escreva mensagem nova. O botão "Convide alguém" na <a href="/evento" style="color:var(--gold)">página do evento</a> abre o WhatsApp com o texto e o link prontos. Nos grupos, só em 14/09 e 28/09.</p>
+<ol class="passos">
+<li><b>Enviar</b> — salve as três imagens no celular.</li>
+<li><b>Postar</b> as três, nesta ordem. Feed: carrossel. Stories: em sequência. Facebook: num post só.</li>
+<li><b>Colar a legenda</b> no feed e no Facebook.</li>
+</ol>
+<p class="mini">No computador, “Enviar” baixa as três imagens.</p>
 </div>
 <div class="hoje" id="hoje"><span>Carregando…</span></div>
 <main>
 <h3 class="fase">Fase 1 — Teaser</h3>
 <article class="dia" id="d11-09" data-iso="2026-09-11">
-<header><span class="quando">sexta, 11 de setembro</span><h2>Hoje faz 80 anos que Guiomar Novaes tocou neste palco.</h2></header>
-<p class="nota">Data fixa: 11/09/2026 são exatos 80 anos do concerto. Não mudar de dia.</p>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/oitenta-anos-de-guiomar_feed.jpg" download="11-09 feed 1 oitenta-anos-de-guiomar.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/oitenta-anos-de-guiomar_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="11-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="11-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">sexta, 11 de setembro</span><h2>Hoje faz 80 anos que Guiomar Novaes tocou neste palco.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/oitenta-anos-de-guiomar_feed.jpg" download="11-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/oitenta-anos-de-guiomar_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="11-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="11-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/oitenta-anos-de-guiomar_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="11-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/oitenta-anos-de-guiomar_story.jpg" download="11-09 story 1 oitenta-anos-de-guiomar.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/oitenta-anos-de-guiomar_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="11-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="11-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/oitenta-anos-de-guiomar_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="11-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/oitenta-anos-de-guiomar_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="11-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/oitenta-anos-de-guiomar_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="11-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>11 de setembro de 1946. Guiomar Novaes, nascida em São João da Boa Vista e uma das maiores pianistas do século XX, deu um concerto no Theatro em benefício da Casa da Criança. Este é o programa daquela noite. No dia 2 de outubro, a noite termina com uma homenagem a ela.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="11-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="11-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d12-09" data-iso="2026-09-12">
-<header><span class="quando">sábado, 12 de setembro</span><h2>Este prédio quase virou estacionamento.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/quase-virou-estacionamento_feed.jpg" download="12-09 feed 1 quase-virou-estacionamento.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quase-virou-estacionamento_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="12-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="12-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">sábado, 12 de setembro</span><h2>Este prédio quase virou estacionamento.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/quase-virou-estacionamento_feed.jpg" download="12-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quase-virou-estacionamento_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="12-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="12-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/quase-virou-estacionamento_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="12-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/quase-virou-estacionamento_story.jpg" download="12-09 story 1 quase-virou-estacionamento.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quase-virou-estacionamento_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="12-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="12-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/quase-virou-estacionamento_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="12-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/quase-virou-estacionamento_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="12-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/quase-virou-estacionamento_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="12-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>Nos anos 1980 o Theatro era propriedade particular, estava em decadência e o dono recebia ofertas de quem queria comprar e derrubar. Falava-se em loja de produtos agropecuários, estacionamento, prédio de apartamentos.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="12-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="12-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d13-09" data-iso="2026-09-13">
-<header><span class="quando">domingo, 13 de setembro</span><h2>Não virou estacionamento. E quem impediu sobe ao palco para contar como foi.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/quem-impediu-sobe-ao-palco_feed.jpg" download="13-09 feed 1 quem-impediu-sobe-ao-palco.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quem-impediu-sobe-ao-palco_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="13-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="13-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">domingo, 13 de setembro</span><h2>Não virou estacionamento. E quem impediu sobe ao palco para contar como foi.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/quem-impediu-sobe-ao-palco_feed.jpg" download="13-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quem-impediu-sobe-ao-palco_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="13-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="13-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/quem-impediu-sobe-ao-palco_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="13-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/quem-impediu-sobe-ao-palco_story.jpg" download="13-09 story 1 quem-impediu-sobe-ao-palco.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quem-impediu-sobe-ao-palco_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="13-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="13-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/quem-impediu-sobe-ao-palco_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="13-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/quem-impediu-sobe-ao-palco_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="13-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/quem-impediu-sobe-ao-palco_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="13-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>As Histórias do Theatro — um palco e suas memórias. Uma noite de conversas, música ao vivo, imagens do acervo e teatro, com as pessoas que pesquisaram, defenderam e reergueram o Theatro Municipal.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="13-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="13-09"> Publiquei</label>
+</div></article>
 <h3 class="fase">Fase 2 — Anúncio e Você sabia?</h3>
 <article class="dia" id="d14-09" data-iso="2026-09-14">
-<header><span class="quando">segunda, 14 de setembro</span><h2>Quem pesquisou, defendeu e reergueu o Theatro sobe ao palco para contar como foi.</h2></header>
-<p class="nota">PEÇA PRINCIPAL. Os quatro perfis publicam no mesmo dia e fixam no topo.</p>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/anuncio-oficial_feed.jpg" download="14-09 feed 1 anuncio-oficial.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/anuncio-oficial_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="14-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="14-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">segunda, 14 de setembro</span><h2>Quem pesquisou, defendeu e reergueu o Theatro sobe ao palco para contar como foi.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/anuncio-oficial_feed.jpg" download="14-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/anuncio-oficial_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="14-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="14-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/anuncio-oficial_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="14-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/anuncio-oficial_story.jpg" download="14-09 story 1 anuncio-oficial.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/anuncio-oficial_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="14-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="14-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/anuncio-oficial_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="14-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/anuncio-oficial_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="14-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/anuncio-oficial_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="14-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>As Histórias do Theatro — um palco e suas memórias
 
 Em 1914 São João da Boa Vista inaugurou o seu teatro, pago por mais de cem moradores que compraram ações para construí-lo. Foi teatro, foi rinque de patinação, foi cinema, escapou da demolição nos anos 1980 e reabriu restaurado em 2002.
@@ -193,208 +163,126 @@ No dia 2 de outubro, esses 112 anos cabem numa noite só — conversas, música 
 🔗 Programa completo em theatromunicipalsjbv.com.br/evento
 
 Produção: Prefeitura de São João da Boa Vista — Departamento de Cultura e Economia Criativa, Academia de Letras e CLAC. Apoio: Isabela Flores.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="14-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="14-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d15-09" data-iso="2026-09-15">
-<header><span class="quando">terça, 15 de setembro</span><h2>A ferradura da sala veio da Bélgica, de navio, numerada peça por peça.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/veio-da-belgica_feed.jpg" download="15-09 feed 1 veio-da-belgica.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/veio-da-belgica_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="15-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="15-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">terça, 15 de setembro</span><h2>A ferradura da sala veio da Bélgica, de navio, numerada peça por peça.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/veio-da-belgica_feed.jpg" download="15-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/veio-da-belgica_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="15-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="15-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/veio-da-belgica_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="15-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/veio-da-belgica_story.jpg" download="15-09 story 1 veio-da-belgica.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/veio-da-belgica_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="15-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="15-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/veio-da-belgica_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="15-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/veio-da-belgica_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="15-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/veio-da-belgica_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="15-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>Toda a estrutura metálica da sala em ferradura foi fabricada e numerada na Bélgica, e montada aqui sob a fiscalização do construtor Antônio Lanzac. As paredes em volta não levam uma gota de cimento — tijolo e barro. Na foto, as colunas e a balaustrada de ferro da galeria, durante o restauro.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="15-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="15-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d16-09" data-iso="2026-09-16">
-<header><span class="quando">quarta, 16 de setembro</span><h2>O Cine Theatro recebia mais de três mil pessoas por dia, em quatro sessões, para ver Flash Gordon.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/tres-mil-por-dia_feed.jpg" download="16-09 feed 1 tres-mil-por-dia.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/tres-mil-por-dia_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="16-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="16-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">quarta, 16 de setembro</span><h2>O Cine Theatro recebia mais de três mil pessoas por dia, em quatro sessões, para ver Flash Gordon.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/tres-mil-por-dia_feed.jpg" download="16-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/tres-mil-por-dia_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="16-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="16-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/tres-mil-por-dia_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="16-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/tres-mil-por-dia_story.jpg" download="16-09 story 1 tres-mil-por-dia.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/tres-mil-por-dia_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="16-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="16-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/tres-mil-por-dia_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="16-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/tres-mil-por-dia_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="16-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/tres-mil-por-dia_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="16-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>Matinê, vesperal e duas noturnas. Era o auge do cinema na casa, depois de 1937. Na imagem, um fotograma do seriado Flash Gordon, de 1936.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="16-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="16-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d17-09" data-iso="2026-09-17">
-<header><span class="quando">quinta, 17 de setembro</span><h2>Uma retroescavadeira entrou no Theatro. A cidade dizia que o prédio ia cair.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/a-maquina-la-dentro_feed.jpg" download="17-09 feed 1 a-maquina-la-dentro.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-maquina-la-dentro_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="17-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="17-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">quinta, 17 de setembro</span><h2>Uma retroescavadeira entrou no Theatro. A cidade dizia que o prédio ia cair.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/a-maquina-la-dentro_feed.jpg" download="17-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-maquina-la-dentro_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="17-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="17-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/a-maquina-la-dentro_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="17-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/a-maquina-la-dentro_story.jpg" download="17-09 story 1 a-maquina-la-dentro.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-maquina-la-dentro_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="17-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="17-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/a-maquina-la-dentro_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="17-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/a-maquina-la-dentro_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="17-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/a-maquina-la-dentro_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="17-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>Agosto de 1986. Para rebaixar o piso sob o palco e corrigir a inclinação da plateia, a máquina entrou pela porta. “A cidade inteira falava: vai cair esse teatro, vai cair, porque a máquina está lá dentro e vibra”, conta quem estava na obra. Diante das críticas, a comissão chamou o diretor técnico do Condephaat, que atestou o trabalho. O afundamento previsto era de até seis centímetros. Foi de meio centímetro.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="17-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="17-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d18-09" data-iso="2026-09-18">
-<header><span class="quando">sexta, 18 de setembro</span><h2>Havia uma fileira que ninguém ocupava: de cima, cuspiam em quem sentasse ali.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/a-fileira-vazia_feed.jpg" download="18-09 feed 1 a-fileira-vazia.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-fileira-vazia_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="18-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="18-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">sexta, 18 de setembro</span><h2>Havia uma fileira que ninguém ocupava: de cima, cuspiam em quem sentasse ali.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/a-fileira-vazia_feed.jpg" download="18-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-fileira-vazia_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="18-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="18-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/a-fileira-vazia_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="18-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/a-fileira-vazia_story.jpg" download="18-09 story 1 a-fileira-vazia.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-fileira-vazia_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="18-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="18-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/a-fileira-vazia_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="18-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/a-fileira-vazia_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="18-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/a-fileira-vazia_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="18-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>Do camarote de cima, cuspiam em quem sentasse naquela fileira. A cidade aprendeu, e ela ficava vazia — mesmo nas noites de casa cheia, como nesta foto, de 22 de novembro de 1940.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="18-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="18-09"> Publiquei</label>
+</div></article>
 <article class="dia so-story" id="d19-09-s" data-iso="2026-09-19">
-<header><span class="quando">sábado, 19 de setembro</span><h2>Funcionou uma rádio no segundo andar do Theatro.</h2><p class="aviso">Hoje é só nos stories. Não vai no feed.</p></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/a-radio-no-segundo-andar_story.jpg" download="19-09 story 1 a-radio-no-segundo-andar.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-radio-no-segundo-andar_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="19-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="19-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">sábado, 19 de setembro</span><h2>Funcionou uma rádio no segundo andar do Theatro.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<p class="aviso">Só stories hoje. Sem legenda.</p>
+<div class="tres">
+<a class="card" href="/evento/publicar/img/a-radio-no-segundo-andar_story.jpg" download="19-09 story 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-radio-no-segundo-andar_story.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_story.jpg" download="19-09 story 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="19-09 story 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/a-radio-no-segundo-andar_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="19-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Publique as três nos stories, em sequência. Sem legenda.</p>
-<label class="feito"><input type="checkbox" data-k="19-09-s"> Publiquei no meu perfil</label>
-</article>
+<div class="btns um"><button class="enviar" type="button" data-files="/evento/publicar/img/a-radio-no-segundo-andar_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="19-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
+<label class="feito"><input type="checkbox" data-k="19-09-s"> Publiquei</label>
+</div></article>
 <article class="dia so-story" id="d20-09-s" data-iso="2026-09-20">
-<header><span class="quando">domingo, 20 de setembro</span><h2>Uma banda de rock ensaiava no Theatro nos anos 1960.</h2><p class="aviso">Hoje é só nos stories. Não vai no feed.</p></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/nin-e-seus-roquetes_story.jpg" download="20-09 story 1 nin-e-seus-roquetes.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/nin-e-seus-roquetes_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="20-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="20-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">domingo, 20 de setembro</span><h2>Uma banda de rock ensaiava no Theatro nos anos 1960.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<p class="aviso">Só stories hoje. Sem legenda.</p>
+<div class="tres">
+<a class="card" href="/evento/publicar/img/nin-e-seus-roquetes_story.jpg" download="20-09 story 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/nin-e-seus-roquetes_story.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_story.jpg" download="20-09 story 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="20-09 story 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/nin-e-seus-roquetes_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="20-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Publique as três nos stories, em sequência. Sem legenda.</p>
-<label class="feito"><input type="checkbox" data-k="20-09-s"> Publiquei no meu perfil</label>
-</article>
+<div class="btns um"><button class="enviar" type="button" data-files="/evento/publicar/img/nin-e-seus-roquetes_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="20-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
+<label class="feito"><input type="checkbox" data-k="20-09-s"> Publiquei</label>
+</div></article>
 <article class="dia" id="d21-09" data-iso="2026-09-21">
-<header><span class="quando">segunda, 21 de setembro</span><h2>Roberto Carlos cantou aqui no auge da Jovem Guarda.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/roberto-carlos_feed.jpg" download="21-09 feed 1 roberto-carlos.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/roberto-carlos_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="21-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="21-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">segunda, 21 de setembro</span><h2>Roberto Carlos cantou aqui no auge da Jovem Guarda.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/roberto-carlos_feed.jpg" download="21-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/roberto-carlos_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="21-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="21-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/roberto-carlos_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="21-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/roberto-carlos_story.jpg" download="21-09 story 1 roberto-carlos.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/roberto-carlos_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="21-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="21-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/roberto-carlos_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="21-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/roberto-carlos_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="21-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/roberto-carlos_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="21-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>Ele veio de carro de São Paulo e atrasou. O Theatro estava lotado e ninguém arredou o pé; tinha gente tentando arrombar as portas laterais. Quando o som falhou numa música, ele voltou e cantou de novo.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="21-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="21-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d22-09" data-iso="2026-09-22">
-<header><span class="quando">terça, 22 de setembro</span><h2>O Theatro ficou dezoito anos fechado para o restauro.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/dezoito-anos-fechado_feed.jpg" download="22-09 feed 1 dezoito-anos-fechado.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/dezoito-anos-fechado_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="22-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="22-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">terça, 22 de setembro</span><h2>O Theatro ficou dezoito anos fechado para o restauro.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/dezoito-anos-fechado_feed.jpg" download="22-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/dezoito-anos-fechado_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="22-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="22-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/dezoito-anos-fechado_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="22-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/dezoito-anos-fechado_story.jpg" download="22-09 story 1 dezoito-anos-fechado.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/dezoito-anos-fechado_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="22-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="22-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/dezoito-anos-fechado_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="22-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/dezoito-anos-fechado_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="22-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/dezoito-anos-fechado_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="22-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>A Prefeitura comprou a primeira parte do prédio em 1984. A reabertura ao público foi em 2002. No meio: o tombamento, o projeto, a captação, a obra — e uma casa vazia no centro da cidade, com o comércio funcionando em volta. Na foto, a fachada atrás dos andaimes, no início do restauro.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="22-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="22-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d23-09" data-iso="2026-09-23">
-<header><span class="quando">quarta, 23 de setembro</span><h2>Campinas e Amparo demoliram os seus. O nosso Theatro continua de pé.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/campinas-e-amparo_feed.jpg" download="23-09 feed 1 campinas-e-amparo.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/campinas-e-amparo_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="23-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="23-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">quarta, 23 de setembro</span><h2>Campinas e Amparo demoliram os seus. O nosso Theatro continua de pé.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/campinas-e-amparo_feed.jpg" download="23-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/campinas-e-amparo_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="23-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="23-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/campinas-e-amparo_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="23-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/campinas-e-amparo_story.jpg" download="23-09 story 1 campinas-e-amparo.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/campinas-e-amparo_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="23-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="23-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/campinas-e-amparo_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="23-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/campinas-e-amparo_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="23-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/campinas-e-amparo_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="23-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>Restam no Brasil poucos teatros desse porte e desse período. Em Campinas, muitos foram derrubados sem cerimônia. Em Amparo, um teatro da mesma época foi demolido — tinha pinturas de teto que hoje não existem em lugar nenhum. Aqui a demolição chegou a ser cogitada nos anos 1980 e não aconteceu.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="23-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="23-09"> Publiquei</label>
+</div></article>
 <h3 class="fase">Fase 3 — O evento</h3>
 <article class="dia" id="d24-09" data-iso="2026-09-24">
-<header><span class="quando">quinta, 24 de setembro</span><h2>O programa da noite.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/o-programa_feed.jpg" download="24-09 feed 1 o-programa.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-programa_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="24-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="24-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">quinta, 24 de setembro</span><h2>O programa da noite.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/o-programa_feed.jpg" download="24-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-programa_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="24-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="24-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/o-programa_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="24-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/o-programa_story.jpg" download="24-09 story 1 o-programa.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-programa_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="24-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="24-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/o-programa_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="24-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/o-programa_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="24-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/o-programa_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="24-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>O programa da noite.
 
 Três rodadas de conversa com quem viveu a história do Theatro, um trecho do documentário *Música &amp; Drama*, o texto de Ronaldo Marin, “O Sole Mio” com Vânia Noronha, o esquete “Esperando Guiomar” com Helena Gonçalves e a homenagem a Guiomar Novaes, com Cláudio Richerme ao piano e Zabella Dragão no balé.
@@ -402,28 +290,17 @@ Três rodadas de conversa com quem viveu a história do Theatro, um trecho do do
 130 minutos, sem intervalo. Classificação livre.
 
 📅 Sexta, 2 de outubro, 19h30 · Entrada franca</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="24-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="24-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d25-09" data-iso="2026-09-25">
-<header><span class="quando">sexta, 25 de setembro</span><h2>Quem conta as histórias.</h2></header>
-<p class="nota">Substituir por retratos assim que a tarde de fotos acontecer.</p>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/quem-sobe-ao-palco_feed.jpg" download="25-09 feed 1 quem-sobe-ao-palco.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quem-sobe-ao-palco_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="25-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="25-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">sexta, 25 de setembro</span><h2>Quem conta as histórias.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/quem-sobe-ao-palco_feed.jpg" download="25-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quem-sobe-ao-palco_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="25-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="25-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/quem-sobe-ao-palco_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="25-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/quem-sobe-ao-palco_story.jpg" download="25-09 story 1 quem-sobe-ao-palco.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quem-sobe-ao-palco_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="25-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="25-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/quem-sobe-ao-palco_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="25-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/quem-sobe-ao-palco_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="25-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/quem-sobe-ao-palco_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="25-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>Quem conta as histórias.
 
 Arquitetos, historiadores, gestores, artistas e moradores que pesquisaram a construção do edifício, viram de perto as sessões de cinema e o abandono, barraram a demolição, acompanharam a obra e hoje mantêm a casa aberta.
@@ -431,27 +308,17 @@ Arquitetos, historiadores, gestores, artistas e moradores que pesquisaram a cons
 Nenhum deles vem comentar de fora. E é a primeira vez que dividem o mesmo palco.
 
 📅 Sexta, 2 de outubro, 19h30 · Entrada franca</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="25-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="25-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d26-09" data-iso="2026-09-26">
-<header><span class="quando">sábado, 26 de setembro</span><h2>Uma das maiores pianistas do século XX nasceu aqui. A noite termina com uma homenagem para ela.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/chopin-para-guiomar_feed.jpg" download="26-09 feed 1 chopin-para-guiomar.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/chopin-para-guiomar_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="26-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="26-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">sábado, 26 de setembro</span><h2>Uma das maiores pianistas do século XX nasceu aqui. A noite termina com uma homenagem para ela.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/chopin-para-guiomar_feed.jpg" download="26-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/chopin-para-guiomar_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="26-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="26-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/chopin-para-guiomar_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="26-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/chopin-para-guiomar_story.jpg" download="26-09 story 1 chopin-para-guiomar.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/chopin-para-guiomar_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="26-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="26-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/chopin-para-guiomar_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="26-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/chopin-para-guiomar_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="26-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/chopin-para-guiomar_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="26-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>A noite termina com Guiomar Novaes.
 
 Ela nasceu em São João da Boa Vista e tocou neste palco em 11 de setembro de 1946, num concerto em benefício da Casa da Criança. O programa daquela noite está no acervo.
@@ -459,40 +326,29 @@ Ela nasceu em São João da Boa Vista e tocou neste palco em 11 de setembro de 1
 No dia 2, Cláudio Richerme toca o Scherzo nº 2 de Chopin e Zabella Dragão dança.
 
 📅 Sexta, 2 de outubro, 19h30 · Entrada franca</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="26-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="26-09"> Publiquei</label>
+</div></article>
 <article class="dia so-story" id="d27-09-s" data-iso="2026-09-27">
-<header><span class="quando">domingo, 27 de setembro</span><h2>Um senhor com insônia pagava por mês um lugar no Theatro só para dormir.</h2><p class="aviso">Hoje é só nos stories. Não vai no feed.</p></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/o-homem-que-vinha-dormir_story.jpg" download="27-09 story 1 o-homem-que-vinha-dormir.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-homem-que-vinha-dormir_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="27-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="27-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">domingo, 27 de setembro</span><h2>Um senhor com insônia pagava por mês um lugar no Theatro só para dormir.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<p class="aviso">Só stories hoje. Sem legenda.</p>
+<div class="tres">
+<a class="card" href="/evento/publicar/img/o-homem-que-vinha-dormir_story.jpg" download="27-09 story 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-homem-que-vinha-dormir_story.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_story.jpg" download="27-09 story 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="27-09 story 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/o-homem-que-vinha-dormir_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="27-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Publique as três nos stories, em sequência. Sem legenda.</p>
-<label class="feito"><input type="checkbox" data-k="27-09-s"> Publiquei no meu perfil</label>
-</article>
+<div class="btns um"><button class="enviar" type="button" data-files="/evento/publicar/img/o-homem-que-vinha-dormir_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="27-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
+<label class="feito"><input type="checkbox" data-k="27-09-s"> Publiquei</label>
+</div></article>
 <article class="dia" id="d28-09" data-iso="2026-09-28">
-<header><span class="quando">segunda, 28 de setembro</span><h2>Ele ameaçou greve de fome no telhado. Agora sobe ao palco.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/o-mundo-todo-e-um-palco_feed.jpg" download="28-09 feed 1 o-mundo-todo-e-um-palco.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-mundo-todo-e-um-palco_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="28-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="28-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">segunda, 28 de setembro</span><h2>Ele ameaçou greve de fome no telhado. Agora sobe ao palco.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/o-mundo-todo-e-um-palco_feed.jpg" download="28-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-mundo-todo-e-um-palco_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="28-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="28-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/o-mundo-todo-e-um-palco_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="28-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/o-mundo-todo-e-um-palco_story.jpg" download="28-09 story 1 o-mundo-todo-e-um-palco.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-mundo-todo-e-um-palco_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="28-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="28-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/o-mundo-todo-e-um-palco_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="28-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/o-mundo-todo-e-um-palco_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="28-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/o-mundo-todo-e-um-palco_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="28-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>“O mundo todo é um palco.”
 
 A frase é de Shakespeare. E quem sobe ao palco com esse título no dia 2 de outubro dirige há mais de cinquenta anos a companhia shakespeariana da cidade.
@@ -502,27 +358,17 @@ Ronaldo Marin cofundou a Cena IV — Shakespeare Cia. em 1975. Doutor pela Unica
 No dia 2 ele volta ao palco que ajudou a salvar, com um texto seu.
 
 📅 Sexta, 2 de outubro, 19h30 · Entrada franca</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="28-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="28-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d29-09" data-iso="2026-09-29">
-<header><span class="quando">terça, 29 de setembro</span><h2>A história inteira do Theatro agora tem endereço. O lançamento oficial é no dia 2.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/o-lancamento-do-site_feed.jpg" download="29-09 feed 1 o-lancamento-do-site.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-lancamento-do-site_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="29-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="29-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">terça, 29 de setembro</span><h2>A história inteira do Theatro agora tem endereço. O lançamento oficial é no dia 2.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/o-lancamento-do-site_feed.jpg" download="29-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-lancamento-do-site_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="29-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="29-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/o-lancamento-do-site_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="29-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/o-lancamento-do-site_story.jpg" download="29-09 story 1 o-lancamento-do-site.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-lancamento-do-site_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="29-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="29-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/o-lancamento-do-site_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="29-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/o-lancamento-do-site_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="29-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/o-lancamento-do-site_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="29-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>O acervo do Theatro, reunido num site.
 
 theatromunicipalsjbv.com.br tem 275 imagens organizadas em quatro capítulos — do Histórico ao Theatro de hoje —, os documentos originais e o documentário *Música &amp; Drama* na íntegra, navegável por episódios. O lançamento oficial acontece na noite de 2 de outubro, no palco.
@@ -531,28 +377,18 @@ São fotos que a cidade reconhece: a fachada com cartazes de cinema, o Bar Theat
 
 📅 Sexta, 2 de outubro, 19h30 · Entrada franca
 🔗 theatromunicipalsjbv.com.br</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="29-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="29-09"> Publiquei</label>
+</div></article>
 <h3 class="fase">Fase 4 — Contagem</h3>
 <article class="dia" id="d30-09" data-iso="2026-09-30">
-<header><span class="quando">quarta, 30 de setembro</span><h2>Sexta.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/sexta_feed.jpg" download="30-09 feed 1 sexta.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/sexta_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="30-09 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="30-09 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">quarta, 30 de setembro</span><h2>Sexta.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/sexta_feed.jpg" download="30-09 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/sexta_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="30-09 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="30-09 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/sexta_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="30-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/sexta_story.jpg" download="30-09 story 1 sexta.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/sexta_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="30-09 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="30-09 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/sexta_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="30-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/sexta_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="30-09 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/sexta_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="30-09 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>Sexta.
 
 As Histórias do Theatro — um palco e suas memórias. Uma noite de conversas, música ao vivo, imagens do acervo e teatro, com quem pesquisou, defendeu e reergueu o Theatro Municipal.
@@ -561,27 +397,17 @@ A casa abre às 19h. Entrada franca, sem ingresso e sem retirada antecipada — 
 
 📅 Sexta, 2 de outubro, 19h30
 🔗 theatromunicipalsjbv.com.br/evento</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="30-09"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="30-09"> Publiquei</label>
+</div></article>
 <article class="dia" id="d01-10" data-iso="2026-10-01">
-<header><span class="quando">quinta, 1 de outubro</span><h2>É amanhã.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/e-amanha_feed.jpg" download="01-10 feed 1 e-amanha.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/e-amanha_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="01-10 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="01-10 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">quinta, 1 de outubro</span><h2>É amanhã.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/e-amanha_feed.jpg" download="01-10 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/e-amanha_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="01-10 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="01-10 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/e-amanha_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="01-10 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/e-amanha_story.jpg" download="01-10 story 1 e-amanha.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/e-amanha_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="01-10 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="01-10 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/e-amanha_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="01-10 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/e-amanha_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="01-10 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/e-amanha_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="01-10 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>É amanhã.
 
 Sexta, 19h30, no Theatro Municipal. A casa abre às 19h.
@@ -589,27 +415,17 @@ Sexta, 19h30, no Theatro Municipal. A casa abre às 19h.
 Entrada franca, sem ingresso e sem retirada antecipada — os lugares vão sendo ocupados conforme as pessoas chegam, então vale chegar com folga.
 
 Marque nos comentários quem você vai levar. 👇</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="01-10"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="01-10"> Publiquei</label>
+</div></article>
 <article class="dia" id="d02-10" data-iso="2026-10-02">
-<header><span class="quando">sexta, 2 de outubro</span><h2>É hoje. 19h30.</h2></header>
-<p class="passo"><b>1.</b> Salve as três imagens, nesta ordem. No celular, “Enviar os 3 de uma vez” abre o menu de compartilhar: dá para salvar as três nas Fotos ou mandar direto no WhatsApp.</p>
-<div class="fmt"><span class="fl">Feed</span><div class="tres">
-<a class="card" href="/evento/publicar/img/e-hoje_feed.jpg" download="02-10 feed 1 e-hoje.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/e-hoje_feed.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="02-10 feed 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="02-10 feed 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
+<header><span class="quando">sexta, 2 de outubro</span><h2>É hoje. 19h30.</h2><span class="chev" aria-hidden="true"></span></header>
+<div class="corpo">
+<div class="tres">
+<a class="card" href="/evento/publicar/img/e-hoje_feed.jpg" download="02-10 feed 1.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/e-hoje_feed.jpg" alt="" loading="lazy"><span>1</span></a>
+<a class="card" href="/evento/publicar/img/arte_feed.jpg" download="02-10 feed 2.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_feed.jpg" alt="" loading="lazy"><span>2</span></a>
+<a class="card" href="/evento/publicar/img/apoio_feed.jpg" download="02-10 feed 3.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_feed.jpg" alt="" loading="lazy"><span>3</span></a>
 </div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/e-hoje_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="02-10 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<div class="fmt"><span class="fl">Stories</span><div class="tres">
-<a class="card" href="/evento/publicar/img/e-hoje_story.jpg" download="02-10 story 1 e-hoje.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/e-hoje_story.jpg" alt="" loading="lazy"><span>1 · A peça</span></a>
-<a class="card" href="/evento/publicar/img/arte_story.jpg" download="02-10 story 2 arte.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/arte_story.jpg" alt="" loading="lazy"><span>2 · A arte</span></a>
-<a class="card" href="/evento/publicar/img/apoio_story.jpg" download="02-10 story 3 apoio.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>3 · O apoio</span></a>
-</div>
-<button class="enviar" type="button" data-files="/evento/publicar/img/e-hoje_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="02-10 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar os 3 de uma vez</button>
-</div>
-<p class="passo"><b>2.</b> Instagram: no feed, as três num carrossel, nesta ordem; nos stories, as três em sequência. Facebook: as três fotos num post só.</p>
-<p class="passo"><b>3.</b> A legenda vai no feed e no Facebook. Copie e cole como está.</p>
+<div class="btns"><button class="enviar" type="button" data-files="/evento/publicar/img/e-hoje_feed.jpg|/evento/publicar/img/arte_feed.jpg|/evento/publicar/img/apoio_feed.jpg" data-name="02-10 feed"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (feed)</button><button class="enviar" type="button" data-files="/evento/publicar/img/e-hoje_story.jpg|/evento/publicar/img/arte_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="02-10 stories"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar as 3 (stories)</button></div>
 <div class="leg"><pre>É hoje. 19h30.
 
 Casa aberta às 19h. Theatro Municipal de São João da Boa Vista — Praça da Catedral, 22.
@@ -617,17 +433,17 @@ Casa aberta às 19h. Theatro Municipal de São João da Boa Vista — Praça da 
 Entrada franca.
 
 Vem.</pre><button class="copiar" type="button">Copiar legenda</button></div>
-<label class="feito"><input type="checkbox" data-k="02-10"> Publiquei no meu perfil</label>
-</article>
+<label class="feito"><input type="checkbox" data-k="02-10"> Publiquei</label>
+</div></article>
 <section class="reels">
-<h3>Reels</h3>
-<p>No fim de cada fase, junte as peças num reel, nesta ordem, fechando com o apoio. Uma imagem a cada 2 segundos. Sem legenda longa: só “As Histórias do Theatro · 2 de outubro · Entrada franca”.</p>
+<h3>Reels (opcional)</h3>
+<p>No fim de cada fase, um reel com as peças nesta ordem, 2 segundos cada. Legenda: “As Histórias do Theatro · 2 de outubro · Entrada franca”.</p>
 <div class="reel"><h4>Fase 1 — Teaser</h4><div class="seq">
 <a href="/evento/publicar/img/oitenta-anos-de-guiomar_story.jpg" download="reel fase 1 01.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/oitenta-anos-de-guiomar_story.jpg" alt="" loading="lazy"><span>1</span></a>
 <a href="/evento/publicar/img/quase-virou-estacionamento_story.jpg" download="reel fase 1 02.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quase-virou-estacionamento_story.jpg" alt="" loading="lazy"><span>2</span></a>
 <a href="/evento/publicar/img/quem-impediu-sobe-ao-palco_story.jpg" download="reel fase 1 03.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quem-impediu-sobe-ao-palco_story.jpg" alt="" loading="lazy"><span>3</span></a>
 <a href="/evento/publicar/img/apoio_story.jpg" download="reel fase 1 04 fecho.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>4 · fecho</span></a>
-</div><button class="enviar" type="button" data-files="/evento/publicar/img/oitenta-anos-de-guiomar_story.jpg|/evento/publicar/img/quase-virou-estacionamento_story.jpg|/evento/publicar/img/quem-impediu-sobe-ao-palco_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 1"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência de uma vez</button></div>
+</div><button class="enviar" type="button" data-files="/evento/publicar/img/oitenta-anos-de-guiomar_story.jpg|/evento/publicar/img/quase-virou-estacionamento_story.jpg|/evento/publicar/img/quem-impediu-sobe-ao-palco_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 1"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência</button></div>
 <div class="reel"><h4>Fase 2 — Anúncio e Você sabia?</h4><div class="seq">
 <a href="/evento/publicar/img/anuncio-oficial_story.jpg" download="reel fase 2 01.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/anuncio-oficial_story.jpg" alt="" loading="lazy"><span>1</span></a>
 <a href="/evento/publicar/img/veio-da-belgica_story.jpg" download="reel fase 2 02.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/veio-da-belgica_story.jpg" alt="" loading="lazy"><span>2</span></a>
@@ -638,7 +454,7 @@ Vem.</pre><button class="copiar" type="button">Copiar legenda</button></div>
 <a href="/evento/publicar/img/dezoito-anos-fechado_story.jpg" download="reel fase 2 07.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/dezoito-anos-fechado_story.jpg" alt="" loading="lazy"><span>7</span></a>
 <a href="/evento/publicar/img/campinas-e-amparo_story.jpg" download="reel fase 2 08.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/campinas-e-amparo_story.jpg" alt="" loading="lazy"><span>8</span></a>
 <a href="/evento/publicar/img/apoio_story.jpg" download="reel fase 2 09 fecho.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>9 · fecho</span></a>
-</div><button class="enviar" type="button" data-files="/evento/publicar/img/anuncio-oficial_story.jpg|/evento/publicar/img/veio-da-belgica_story.jpg|/evento/publicar/img/tres-mil-por-dia_story.jpg|/evento/publicar/img/a-maquina-la-dentro_story.jpg|/evento/publicar/img/a-fileira-vazia_story.jpg|/evento/publicar/img/roberto-carlos_story.jpg|/evento/publicar/img/dezoito-anos-fechado_story.jpg|/evento/publicar/img/campinas-e-amparo_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 2"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência de uma vez</button></div>
+</div><button class="enviar" type="button" data-files="/evento/publicar/img/anuncio-oficial_story.jpg|/evento/publicar/img/veio-da-belgica_story.jpg|/evento/publicar/img/tres-mil-por-dia_story.jpg|/evento/publicar/img/a-maquina-la-dentro_story.jpg|/evento/publicar/img/a-fileira-vazia_story.jpg|/evento/publicar/img/roberto-carlos_story.jpg|/evento/publicar/img/dezoito-anos-fechado_story.jpg|/evento/publicar/img/campinas-e-amparo_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 2"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência</button></div>
 <div class="reel"><h4>Fase 3 — O evento</h4><div class="seq">
 <a href="/evento/publicar/img/o-programa_story.jpg" download="reel fase 3 01.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-programa_story.jpg" alt="" loading="lazy"><span>1</span></a>
 <a href="/evento/publicar/img/quem-sobe-ao-palco_story.jpg" download="reel fase 3 02.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quem-sobe-ao-palco_story.jpg" alt="" loading="lazy"><span>2</span></a>
@@ -646,16 +462,17 @@ Vem.</pre><button class="copiar" type="button">Copiar legenda</button></div>
 <a href="/evento/publicar/img/o-mundo-todo-e-um-palco_story.jpg" download="reel fase 3 04.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-mundo-todo-e-um-palco_story.jpg" alt="" loading="lazy"><span>4</span></a>
 <a href="/evento/publicar/img/o-lancamento-do-site_story.jpg" download="reel fase 3 05.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-lancamento-do-site_story.jpg" alt="" loading="lazy"><span>5</span></a>
 <a href="/evento/publicar/img/apoio_story.jpg" download="reel fase 3 06 fecho.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>6 · fecho</span></a>
-</div><button class="enviar" type="button" data-files="/evento/publicar/img/o-programa_story.jpg|/evento/publicar/img/quem-sobe-ao-palco_story.jpg|/evento/publicar/img/chopin-para-guiomar_story.jpg|/evento/publicar/img/o-mundo-todo-e-um-palco_story.jpg|/evento/publicar/img/o-lancamento-do-site_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 3"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência de uma vez</button></div>
+</div><button class="enviar" type="button" data-files="/evento/publicar/img/o-programa_story.jpg|/evento/publicar/img/quem-sobe-ao-palco_story.jpg|/evento/publicar/img/chopin-para-guiomar_story.jpg|/evento/publicar/img/o-mundo-todo-e-um-palco_story.jpg|/evento/publicar/img/o-lancamento-do-site_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 3"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência</button></div>
 <div class="reel"><h4>Fase 4 — Contagem</h4><div class="seq">
 <a href="/evento/publicar/img/sexta_story.jpg" download="reel fase 4 01.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/sexta_story.jpg" alt="" loading="lazy"><span>1</span></a>
 <a href="/evento/publicar/img/e-amanha_story.jpg" download="reel fase 4 02.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/e-amanha_story.jpg" alt="" loading="lazy"><span>2</span></a>
 <a href="/evento/publicar/img/e-hoje_story.jpg" download="reel fase 4 03.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/e-hoje_story.jpg" alt="" loading="lazy"><span>3</span></a>
 <a href="/evento/publicar/img/apoio_story.jpg" download="reel fase 4 04 fecho.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>4 · fecho</span></a>
-</div><button class="enviar" type="button" data-files="/evento/publicar/img/sexta_story.jpg|/evento/publicar/img/e-amanha_story.jpg|/evento/publicar/img/e-hoje_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 4"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência de uma vez</button></div>
+</div><button class="enviar" type="button" data-files="/evento/publicar/img/sexta_story.jpg|/evento/publicar/img/e-amanha_story.jpg|/evento/publicar/img/e-hoje_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 4"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência</button></div>
 </section>
 <p class="pe"><a class="zip" href="/evento/publicar/campanha.zip">Baixar a campanha inteira (zip, 30 MB)</a><br>Todas as imagens por fase, as legendas e o release — para quem prefere trabalhar no computador.</p>
-<p class="pe">A marcação "publiquei" fica só no seu celular. · Dúvida? Fale com o Edu no WhatsApp. · <a href="/evento">Página do evento</a></p>
+<p class="pe">Prefeitura, Academia de Letras, CLAC e Theatro publicam o mesmo post no mesmo dia e marcam uns aos outros.<br>WhatsApp: use o botão “Convide alguém” da <a href="/evento">página do evento</a> — texto e link prontos. Nos grupos, só em 14/09 e 28/09.</p>
+<p class="pe">Dúvida? Fale com o Edu no WhatsApp. · A marcação “publiquei” fica só neste aparelho.</p>
 </main>
 <div class="lb" id="lb"><div class="nav l" id="lbl">‹</div><img id="lbimg" alt=""><div class="nav r" id="lbr">›</div><div class="cap" id="lbcap"></div><div class="bar"><a class="sv" id="lbsave" href="#" download>Salvar imagem</a><button type="button" id="lbclose">Fechar</button></div></div>
 <script>
@@ -670,6 +487,11 @@ arts.forEach(function(a){var iso=a.getAttribute('data-iso');
   if(iso===h){if(!alvo)alvo=a;a.classList.add('e-hoje');}
   if(!prox&&iso>h)prox=a;});
 function nome(a){return a.querySelector('.quando').textContent;}
+arts.forEach(function(a){if(a!==(alvo||prox))a.classList.add('fechado');});
+function abrir(id){var a=document.getElementById(id);if(a){a.classList.remove('fechado');}}
+if(location.hash)abrir(location.hash.slice(1));
+window.addEventListener('hashchange',function(){abrir(location.hash.slice(1));});
+document.querySelectorAll('.dia header').forEach(function(hd){hd.addEventListener('click',function(){hd.parentNode.classList.toggle('fechado');});});
 if(alvo){bar.innerHTML='<span>Post de hoje: '+nome(alvo)+'</span><a href="#'+alvo.id+'">ver</a>';
   setTimeout(function(){alvo.scrollIntoView({block:'start'});},50);}
 else if(prox){bar.innerHTML='<span>Hoje não tem post. Próximo: '+nome(prox)+'</span><a href="#'+prox.id+'">ver</a>';}
@@ -714,19 +536,20 @@ document.querySelectorAll('.enviar').forEach(function(b){
   function aquecer(){urls.forEach(pega);}
   b.addEventListener('pointerdown',aquecer);b.addEventListener('touchstart',aquecer,{passive:true});
   b.addEventListener('click',async function(){
+    if(nome.slice(-4)==='feed'){var pre=b.closest('.corpo').querySelector('.leg pre');if(pre&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(pre.textContent).then(function(){var c=b.closest('.corpo').querySelector('.copiar');if(c){c.textContent='Legenda copiada';c.classList.add('ok');setTimeout(function(){c.textContent='Copiar legenda';c.classList.remove('ok');},3000);}},function(){});}}
     b.classList.add('busy');var files=[];
     for(var i=0;i<urls.length;i++){var u=urls[i];files.push(new File([await pega(u)],(i+1)+' '+u.split('/').pop(),{type:'image/jpeg'}));}
     b.classList.remove('busy');
     if(navigator.canShare&&navigator.canShare({files:files})){
-      try{await navigator.share({files:files,title:'As Histórias do Theatro · '+nome});b.classList.add('ok');b.textContent='Enviado';setTimeout(function(){b.classList.remove('ok');b.innerHTML=ICO+(urls.length>3?'Enviar a sequência de uma vez':'Enviar os 3 de uma vez');},2500);}catch(e){}
+      try{await navigator.share({files:files,title:'As Histórias do Theatro · '+nome});b.classList.add('ok');b.textContent='Enviado';setTimeout(function(){b.classList.remove('ok');b.innerHTML=ICO+(urls.length>3?'Enviar a sequência':nome.slice(-4)==='feed'?'Enviar as 3 (feed)':'Enviar as 3 (stories)');},2500);}catch(e){}
       return;}
     var blob=await zipar(files),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='As Historias do Theatro '+nome+'.zip';document.body.appendChild(a);a.click();document.body.removeChild(a);
   });
 });
 // publicado
 document.querySelectorAll('.feito input').forEach(function(c){var k='pub-'+c.getAttribute('data-k');
-  try{if(localStorage.getItem(k)){c.checked=true;c.parentNode.classList.add('on');}}catch(e){}
-  c.addEventListener('change',function(){c.parentNode.classList.toggle('on',c.checked);try{c.checked?localStorage.setItem(k,'1'):localStorage.removeItem(k);}catch(e){}});
+  try{if(localStorage.getItem(k)){c.checked=true;c.parentNode.classList.add('on');c.closest('.dia').classList.add('feito-ok');}}catch(e){}
+  c.addEventListener('change',function(){c.parentNode.classList.toggle('on',c.checked);c.closest('.dia').classList.toggle('feito-ok',c.checked);try{c.checked?localStorage.setItem(k,'1'):localStorage.removeItem(k);}catch(e){}});
 });
 })();
 </script>
