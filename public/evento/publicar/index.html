@@ -93,6 +93,28 @@ main{padding:8px 16px 40px;max-width:720px;margin:0 auto}
 .lb .cap{color:var(--mute);font-size:14px;margin-top:8px;text-align:center}
 .lb .nav{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:64px;display:flex;align-items:center;justify-content:center;color:var(--cream);font-size:34px;cursor:pointer;user-select:none;opacity:.8}
 .lb .nav.l{left:4px}.lb .nav.r{right:4px}
+
+button,a,label,.card{-webkit-tap-highlight-color:transparent}
+.enviar,.copiar,.lb .bar a,.lb .bar button,.zip{touch-action:manipulation}
+.enviar,.copiar{min-height:52px;transition:transform .08s,background .15s,color .15s}
+.enviar:active,.copiar:active{transform:scale(.98)}
+.enviar.busy{opacity:1;background:var(--cream)}
+.enviar.pronto{background:var(--wine);color:#fff;border-color:var(--wine)}
+.enviar .msg{display:block;font-size:15px}
+.feito{min-height:44px;margin-top:8px}
+.hoje a{padding:8px 4px;margin:-8px -4px}
+.toast{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom));transform:translate(-50%,16px);background:var(--wd);color:var(--cream);padding:13px 18px;border-radius:12px;font-size:15px;line-height:1.35;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:60;width:max-content;max-width:calc(100% - 32px);text-align:center;box-shadow:0 8px 28px rgba(0,0,0,.35)}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.toast.alto{bottom:auto;top:calc(18px + env(safe-area-inset-top))}
+.iab{background:#FFF4D6;color:var(--ink);padding:14px 20px;font-size:16px;line-height:1.4;border-bottom:2px solid var(--gold)}
+.iab b{color:var(--wine)}
+.lb{padding:calc(12px + env(safe-area-inset-top)) 12px calc(12px + env(safe-area-inset-bottom));touch-action:pan-y}
+.lb img{max-height:calc(100% - 120px);-webkit-touch-callout:default;-webkit-user-select:auto}
+.lb .nav{width:56px;height:96px;font-size:40px}
+.lb .bar{width:100%;max-width:420px;justify-content:center}
+.lb .bar a.sv{flex:1;text-align:center}
+.lb .cap{color:#D8BCA6}
+
 @media(min-width:600px){body{font-size:16px}.topo{padding:40px 24px 28px}.topo h1{font-size:32px}.dia{padding:22px 22px 16px}}
 </style>
 </head>
@@ -438,45 +460,12 @@ Entrada franca.
 Vem.</pre><button class="copiar" type="button">Copiar legenda</button></div>
 <label class="feito"><input type="checkbox" data-k="02-10"> Publiquei</label>
 </div></article>
-<section class="reels">
-<h3>Reels (opcional)</h3>
-<p>No fim de cada fase, um reel com as peças nesta ordem, 2 segundos cada. Legenda: “As Histórias do Theatro · 2 de outubro · Entrada franca”.</p>
-<div class="reel"><h4>Fase 1 — Teaser</h4><div class="seq">
-<a href="/evento/publicar/img/em-breve_story.jpg" download="reel fase 1 01.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/em-breve_story.jpg" alt="" loading="lazy"><span>1</span></a>
-<a href="/evento/publicar/img/quase-virou-estacionamento_story.jpg" download="reel fase 1 02.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quase-virou-estacionamento_story.jpg" alt="" loading="lazy"><span>2</span></a>
-<a href="/evento/publicar/img/a-cidade-foi-para-a-rua_story.jpg" download="reel fase 1 03.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-cidade-foi-para-a-rua_story.jpg" alt="" loading="lazy"><span>3</span></a>
-<a href="/evento/publicar/img/apoio_story.jpg" download="reel fase 1 04 fecho.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>4 · fecho</span></a>
-</div><button class="enviar" type="button" data-files="/evento/publicar/img/em-breve_story.jpg|/evento/publicar/img/quase-virou-estacionamento_story.jpg|/evento/publicar/img/a-cidade-foi-para-a-rua_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 1"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência</button></div>
-<div class="reel"><h4>Fase 2 — Anúncio e Você sabia?</h4><div class="seq">
-<a href="/evento/publicar/img/anuncio-oficial_story.jpg" download="reel fase 2 01.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/anuncio-oficial_story.jpg" alt="" loading="lazy"><span>1</span></a>
-<a href="/evento/publicar/img/veio-da-belgica_story.jpg" download="reel fase 2 02.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/veio-da-belgica_story.jpg" alt="" loading="lazy"><span>2</span></a>
-<a href="/evento/publicar/img/tres-mil-por-dia_story.jpg" download="reel fase 2 03.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/tres-mil-por-dia_story.jpg" alt="" loading="lazy"><span>3</span></a>
-<a href="/evento/publicar/img/a-maquina-la-dentro_story.jpg" download="reel fase 2 04.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-maquina-la-dentro_story.jpg" alt="" loading="lazy"><span>4</span></a>
-<a href="/evento/publicar/img/a-fileira-vazia_story.jpg" download="reel fase 2 05.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/a-fileira-vazia_story.jpg" alt="" loading="lazy"><span>5</span></a>
-<a href="/evento/publicar/img/roberto-carlos_story.jpg" download="reel fase 2 06.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/roberto-carlos_story.jpg" alt="" loading="lazy"><span>6</span></a>
-<a href="/evento/publicar/img/dezoito-anos-fechado_story.jpg" download="reel fase 2 07.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/dezoito-anos-fechado_story.jpg" alt="" loading="lazy"><span>7</span></a>
-<a href="/evento/publicar/img/campinas-e-amparo_story.jpg" download="reel fase 2 08.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/campinas-e-amparo_story.jpg" alt="" loading="lazy"><span>8</span></a>
-<a href="/evento/publicar/img/apoio_story.jpg" download="reel fase 2 09 fecho.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>9 · fecho</span></a>
-</div><button class="enviar" type="button" data-files="/evento/publicar/img/anuncio-oficial_story.jpg|/evento/publicar/img/veio-da-belgica_story.jpg|/evento/publicar/img/tres-mil-por-dia_story.jpg|/evento/publicar/img/a-maquina-la-dentro_story.jpg|/evento/publicar/img/a-fileira-vazia_story.jpg|/evento/publicar/img/roberto-carlos_story.jpg|/evento/publicar/img/dezoito-anos-fechado_story.jpg|/evento/publicar/img/campinas-e-amparo_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 2"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência</button></div>
-<div class="reel"><h4>Fase 3 — O evento</h4><div class="seq">
-<a href="/evento/publicar/img/o-programa_story.jpg" download="reel fase 3 01.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-programa_story.jpg" alt="" loading="lazy"><span>1</span></a>
-<a href="/evento/publicar/img/quem-sobe-ao-palco_story.jpg" download="reel fase 3 02.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/quem-sobe-ao-palco_story.jpg" alt="" loading="lazy"><span>2</span></a>
-<a href="/evento/publicar/img/chopin-para-guiomar_story.jpg" download="reel fase 3 03.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/chopin-para-guiomar_story.jpg" alt="" loading="lazy"><span>3</span></a>
-<a href="/evento/publicar/img/o-mundo-todo-e-um-palco_story.jpg" download="reel fase 3 04.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-mundo-todo-e-um-palco_story.jpg" alt="" loading="lazy"><span>4</span></a>
-<a href="/evento/publicar/img/o-lancamento-do-site_story.jpg" download="reel fase 3 05.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/o-lancamento-do-site_story.jpg" alt="" loading="lazy"><span>5</span></a>
-<a href="/evento/publicar/img/apoio_story.jpg" download="reel fase 3 06 fecho.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>6 · fecho</span></a>
-</div><button class="enviar" type="button" data-files="/evento/publicar/img/o-programa_story.jpg|/evento/publicar/img/quem-sobe-ao-palco_story.jpg|/evento/publicar/img/chopin-para-guiomar_story.jpg|/evento/publicar/img/o-mundo-todo-e-um-palco_story.jpg|/evento/publicar/img/o-lancamento-do-site_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 3"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência</button></div>
-<div class="reel"><h4>Fase 4 — Contagem</h4><div class="seq">
-<a href="/evento/publicar/img/sexta_story.jpg" download="reel fase 4 01.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/sexta_story.jpg" alt="" loading="lazy"><span>1</span></a>
-<a href="/evento/publicar/img/e-amanha_story.jpg" download="reel fase 4 02.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/e-amanha_story.jpg" alt="" loading="lazy"><span>2</span></a>
-<a href="/evento/publicar/img/e-hoje_story.jpg" download="reel fase 4 03.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/e-hoje_story.jpg" alt="" loading="lazy"><span>3</span></a>
-<a href="/evento/publicar/img/apoio_story.jpg" download="reel fase 4 04 fecho.jpg" target="_blank" rel="noopener"><img src="/evento/publicar/th/apoio_story.jpg" alt="" loading="lazy"><span>4 · fecho</span></a>
-</div><button class="enviar" type="button" data-files="/evento/publicar/img/sexta_story.jpg|/evento/publicar/img/e-amanha_story.jpg|/evento/publicar/img/e-hoje_story.jpg|/evento/publicar/img/apoio_story.jpg" data-name="reel fase 4"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>Enviar a sequência</button></div>
-</section>
+
 <p class="pe"><a class="zip" href="/evento/publicar/campanha.zip">Baixar a campanha inteira (zip, 30 MB)</a><br>Todas as imagens por fase, as legendas e o release — para quem prefere trabalhar no computador.</p>
 <p class="pe">Prefeitura, Academia de Letras, CLAC e Theatro publicam o mesmo post no mesmo dia e marcam uns aos outros.<br>WhatsApp: use o botão “Convide alguém” da <a href="/evento">página do evento</a> — texto e link prontos. Nos grupos, só em 14/09 e 28/09.</p>
 <p class="pe">Dúvida? Fale com o Edu no WhatsApp. · A marcação “publiquei” fica só neste aparelho.</p>
 </main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 <div class="lb" id="lb"><div class="nav l" id="lbl">‹</div><img id="lbimg" alt=""><div class="nav r" id="lbr">›</div><div class="cap" id="lbcap"></div><div class="bar"><a class="sv" id="lbsave" href="#" download>Salvar imagem</a><button type="button" id="lbclose">Fechar</button></div></div>
 <script>
 (function(){
@@ -500,29 +489,45 @@ else if(prox){bar.innerHTML='<span>Hoje não tem post. Próximo: '+nome(prox)+'<
 else{bar.innerHTML='<span>A campanha terminou. Obrigado.</span>';}
 
 // ampliar
+var TOQUE=window.matchMedia&&matchMedia('(pointer:coarse)').matches;
 var LB=document.getElementById('lb'),LBI=document.getElementById('lbimg'),LBS=document.getElementById('lbsave'),LBC=document.getElementById('lbcap');
-var cur=[],idx=0;
-function show(i){idx=(i+cur.length)%cur.length;var a=cur[idx];LBI.src=a.getAttribute('href');LBS.href=a.getAttribute('href');LBS.setAttribute('download',a.getAttribute('download')||'');LBC.textContent=a.querySelector('span')?a.querySelector('span').textContent:'';}
-document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a.card, .seq a');if(!a)return;e.preventDefault();
-  var grp=a.closest('.tres')||a.closest('.seq');cur=[].slice.call(grp.querySelectorAll('a'));show(cur.indexOf(a));LB.classList.add('on');document.body.style.overflow='hidden';});
+var cur=[],idx=0,scrollY0=0;
+function item(a){return {src:a.getAttribute('href'),name:a.getAttribute('download')||a.getAttribute('href').split('/').pop(),label:a.querySelector('span')?a.querySelector('span').textContent:''};}
+function podeCompartilhar(){try{return !!(navigator.canShare&&navigator.canShare({files:[new File([new Blob(['x'])],'x.jpg',{type:'image/jpeg'})]}));}catch(e){return false;}}
+var SHARE=podeCompartilhar();
+function show(i){idx=(i+cur.length)%cur.length;var it=cur[idx];LBI.src=it.src;LBS.href=it.src;LBS.setAttribute('download',it.name);
+  var n=cur.length>1?(idx+1)+' de '+cur.length:'';
+  LBC.textContent=TOQUE&&!SHARE?(n?n+' · ':'')+'toque e segure a imagem para salvar':n;
+  LBS.style.display=(TOQUE&&!SHARE)?'none':'';
+  if(SHARE)pega(it.src);}
+function abrirLB(lista,i){cur=lista;show(i||0);LB.classList.add('on');scrollY0=window.scrollY;document.body.style.overflow='hidden';}
 function close(){LB.classList.remove('on');document.body.style.overflow='';}
+document.addEventListener('click',function(e){var a=e.target.closest&&e.target.closest('a.card, .seq a');if(!a)return;e.preventDefault();
+  var grp=a.closest('.tres')||a.closest('.seq');var as=[].slice.call(grp.querySelectorAll('a'));abrirLB(as.map(item),as.indexOf(a));});
 document.getElementById('lbclose').addEventListener('click',close);
-LB.addEventListener('click',function(e){if(e.target===LB||e.target===LBI)close();});
+LB.addEventListener('click',function(e){if(e.target===LB)close();});
 document.getElementById('lbl').addEventListener('click',function(e){e.stopPropagation();show(idx-1);});
 document.getElementById('lbr').addEventListener('click',function(e){e.stopPropagation();show(idx+1);});
 document.addEventListener('keydown',function(e){if(!LB.classList.contains('on'))return;if(e.key==='Escape')close();if(e.key==='ArrowLeft')show(idx-1);if(e.key==='ArrowRight')show(idx+1);});
-var tx=null;LB.addEventListener('touchstart',function(e){tx=e.changedTouches[0].clientX;},{passive:true});
-LB.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx;if(Math.abs(dx)>50)show(idx+(dx<0?1:-1));tx=null;},{passive:true});
+var tx=null,ty=null;LB.addEventListener('touchstart',function(e){tx=e.changedTouches[0].clientX;ty=e.changedTouches[0].clientY;},{passive:true});
+LB.addEventListener('touchend',function(e){if(tx===null)return;var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;
+  if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy))show(idx+(dx<0?1:-1));else if(dy>90&&Math.abs(dy)>Math.abs(dx))close();tx=null;},{passive:true});
+LBS.addEventListener('click',function(e){if(!SHARE||!TOQUE)return;e.preventDefault();var it=cur[idx];
+  if(!PRONTO[it.src]){LBS.textContent='Preparando…';pega(it.src).then(function(){LBS.textContent='Toque para salvar';},function(){LBS.textContent='Salvar imagem';toast('Sem conexão. Tente de novo.');});return;}
+  navigator.share({files:[new File([PRONTO[it.src]],it.name.replace(/\.jpg$/,'')+'.jpg',{type:'image/jpeg'})]}).then(function(){LBS.textContent='Salvar imagem';},function(){LBS.textContent='Salvar imagem';});});
 // copiar
+var toastEl=document.getElementById('toast'),tt;
+function toast(m){toastEl.classList.toggle('alto',LB.classList.contains('on'));toastEl.textContent=m;toastEl.classList.add('on');clearTimeout(tt);tt=setTimeout(function(){toastEl.classList.remove('on');},3400);}
+function copiar(t,ok){
+  function fb(){var ta=document.createElement('textarea');ta.value=t;ta.setAttribute('readonly','');ta.style.cssText='position:fixed;top:0;left:0;opacity:0;font-size:16px';document.body.appendChild(ta);ta.focus();ta.select();try{ta.setSelectionRange(0,t.length);}catch(e){}var r=false;try{r=document.execCommand('copy');}catch(e){}document.body.removeChild(ta);if(r)ok();}
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,fb);}else fb();}
+function marcaCopiada(c,txt){if(!c)return;c.textContent=txt||'Legenda copiada';c.classList.add('ok');setTimeout(function(){c.textContent='Copiar legenda';c.classList.remove('ok');},2500);}
 document.querySelectorAll('.copiar').forEach(function(b){b.addEventListener('click',function(){
-  var t=b.parentNode.querySelector('pre').textContent;
-  function ok(){b.textContent='Copiada';b.classList.add('ok');setTimeout(function(){b.textContent='Copiar legenda';b.classList.remove('ok');},2000);}
-  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,function(){fallback();});}else fallback();
-  function fallback(){var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand('copy');ok();}catch(e){}document.body.removeChild(ta);}
-});});
-// enviar os 3 de uma vez (menu de compartilhar do celular; no computador baixa um zip)
-var CACHE={},ICO='<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12" /><path d="M8 7l4-4 4 4" /><path d="M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7" /></svg>';
-function pega(u){if(!CACHE[u])CACHE[u]=fetch(u).then(function(r){return r.blob();});return CACHE[u];}
+  copiar(b.parentNode.querySelector('pre').textContent,function(){marcaCopiada(b,'Copiada');toast('Legenda copiada. É só colar no post.');});});});
+// enviar: abre o menu de compartilhar do celular com as imagens do dia; no computador baixa um zip
+var CACHE={},PRONTO={};
+function pega(u){if(!CACHE[u])CACHE[u]=fetch(u).then(function(r){if(!r.ok)throw new Error('http');return r.blob();}).then(function(b){PRONTO[u]=b;return b;},function(e){delete CACHE[u];throw e;});return CACHE[u];}
+function arquivos(urls){return urls.map(function(u,i){return new File([PRONTO[u]],(i+1)+' '+u.split('/').pop(),{type:'image/jpeg'});});}
 function crc32(b){var c,t=crc32.t;if(!t){t=crc32.t=[];for(var n=0;n<256;n++){c=n;for(var k=0;k<8;k++)c=c&1?(0xEDB88320^(c>>>1)):(c>>>1);t[n]=c;}}c=-1;for(var i=0;i<b.length;i++)c=(c>>>8)^t[(c^b[i])&255];return (c^-1)>>>0;}
 async function zipar(files){var parts=[],cd=[],off=0;var enc=new TextEncoder();
   for(var i=0;i<files.length;i++){var f=files[i],name=enc.encode(f.name),data=new Uint8Array(await f.arrayBuffer()),crc=crc32(data);
@@ -534,20 +539,33 @@ async function zipar(files){var parts=[],cd=[],off=0;var enc=new TextEncoder();
   var e=new DataView(new ArrayBuffer(22));e.setUint32(0,0x06054b50,true);e.setUint16(8,files.length,true);e.setUint16(10,files.length,true);e.setUint32(12,cdlen,true);e.setUint32(16,off,true);
   return new Blob(parts.concat(cd,[e.buffer]),{type:'application/zip'});}
 document.querySelectorAll('.enviar').forEach(function(b){
-  var urls=b.getAttribute('data-files').split('|'),nome=b.getAttribute('data-name'),rotulo=b.innerHTML;
-  function aquecer(){urls.forEach(pega);}
-  b.addEventListener('pointerdown',aquecer);b.addEventListener('touchstart',aquecer,{passive:true});
-  b.addEventListener('click',async function(){
-    if(nome.slice(-4)==='feed'){var pre=b.closest('.corpo').querySelector('.leg pre');if(pre&&navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(pre.textContent).then(function(){var c=b.closest('.corpo').querySelector('.copiar');if(c){c.textContent='Legenda copiada';c.classList.add('ok');setTimeout(function(){c.textContent='Copiar legenda';c.classList.remove('ok');},3000);}},function(){});}}
-    b.classList.add('busy');var files=[];
-    for(var i=0;i<urls.length;i++){var u=urls[i];files.push(new File([await pega(u)],(i+1)+' '+u.split('/').pop(),{type:'image/jpeg'}));}
-    b.classList.remove('busy');
-    if(navigator.canShare&&navigator.canShare({files:files})){
-      try{await navigator.share({files:files,title:'As Histórias do Theatro · '+nome});b.classList.add('ok');b.textContent='Enviado';setTimeout(function(){b.classList.remove('ok');b.innerHTML=rotulo;},2500);}catch(e){}
+  var urls=b.getAttribute('data-files').split('|'),nome=b.getAttribute('data-name'),rotulo=b.innerHTML,feed=nome.slice(-4)==='feed';
+  var corpo=b.closest('.corpo')||b.parentNode;
+  function volta(){b.classList.remove('busy','pronto','ok');b.innerHTML=rotulo;}
+  function msg(t,cls){b.classList.remove('busy','pronto','ok');if(cls)b.classList.add(cls);b.innerHTML='<span class="msg">'+t+'</span>';}
+  function aquecer(){urls.forEach(function(u){pega(u).catch(function(){});});}
+  b.addEventListener('pointerdown',aquecer);
+  b.addEventListener('click',function(){
+    if(b.classList.contains('busy'))return;
+    if(feed){var pre=corpo.querySelector('.leg pre');if(pre)copiar(pre.textContent,function(){marcaCopiada(corpo.querySelector('.copiar'));});}
+    if(!SHARE){
+      if(TOQUE){abrirLB(urls.map(function(u,i){return {src:u,name:(i+1)+' '+u.split('/').pop(),label:''};}),0);toast(feed?'Legenda copiada. Agora salve as imagens: toque e segure cada uma.':'Toque e segure cada imagem para salvar.');}
+      else{Promise.all(urls.map(pega)).then(function(){return zipar(arquivos(urls));}).then(function(blob){var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='As Historias do Theatro '+nome+'.zip';document.body.appendChild(a);a.click();document.body.removeChild(a);});}
       return;}
-    var blob=await zipar(files),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='As Historias do Theatro '+nome+'.zip';document.body.appendChild(a);a.click();document.body.removeChild(a);
+    function envia(){var fs=arquivos(urls);
+      navigator.share({files:fs}).then(function(){msg('Enviado ✓','ok');setTimeout(volta,2500);},
+        function(e){if(e&&e.name==='AbortError'){volta();}else{msg('Pronto — toque para enviar','pronto');}});
+      if(feed)toast('A legenda já está copiada. É só colar no post.');}
+    if(urls.every(function(u){return PRONTO[u];})){envia();return;}
+    msg('Preparando…','busy');
+    Promise.all(urls.map(pega)).then(function(){msg('Pronto — toque para enviar','pronto');},function(){volta();toast('Sem conexão. Tente de novo.');});
   });
 });
+// pré-carrega as imagens dos dias perto da tela (o envio sai na hora)
+if(SHARE){var io=('IntersectionObserver' in window)?new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.querySelectorAll('.enviar').forEach(function(b){b.getAttribute('data-files').split('|').forEach(function(u){pega(u).catch(function(){});});});io.unobserve(en.target);}});},{rootMargin:'300px 0px'}):null;
+  if(io)arts.forEach(function(a){io.observe(a);});}
+// aberto dentro do Instagram/Facebook: avisa para abrir no navegador
+if(/Instagram|FBAN|FBAV|FB_IAB|FBIOS|Line\//i.test(navigator.userAgent||'')){var d=document.createElement('div');d.className='iab';d.innerHTML='<b>Abra no navegador.</b> Dentro do Instagram ou do Facebook o botão de enviar não funciona. Toque em <b>•••</b> e escolha “Abrir no navegador”.';var tp=document.querySelector('.topo');tp.parentNode.insertBefore(d,tp.nextSibling);}
 // publicado
 document.querySelectorAll('.feito input').forEach(function(c){var k='pub-'+c.getAttribute('data-k');
   try{if(localStorage.getItem(k)){c.checked=true;c.parentNode.classList.add('on');c.closest('.dia').classList.add('feito-ok');}}catch(e){}
