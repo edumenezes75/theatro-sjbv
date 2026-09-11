@@ -12,7 +12,7 @@ link: "https://historias-do-theatro-lumen-class.vercel.app"
 ---
 Uma noite de conversa, música ao vivo e imagens do acervo sobre a história desta casa, com quem a pesquisou, viu de perto e ajudou a reerguê-la. Direção de Eduardo Menezes.
 
-O programa alterna três rodadas de conversa com música ao vivo, projeção de imagens do acervo, um trecho do documentário *Música & Drama*, a esquete "Esperando Guiomar" pela Cia. Artes Insanes e uma homenagem a Guiomar Novaes, com Cláudio Richerme ao piano e Isabella Dragão no balé. Clóvis Vieira é o mestre de cerimônias; Ronaldo Marin faz participação especial.
+O programa alterna três rodadas de conversa com música ao vivo, projeção de imagens do acervo, um trecho do documentário *Música & Drama*, a esquete "Esperando Guiomar" pela Cia. Artes Insanes e uma homenagem a Guiomar Novaes, com Cláudio Richerme ao piano e Zabella Dragão no balé. Clóvis Vieira é o mestre de cerimônias; Ronaldo Marin faz participação especial.
 
 Sexta-feira, 2 de outubro, às 19h30. A casa abre às 19h. 130 minutos, sem intervalo, classificação livre. **Entrada franca**, sem ingresso e sem retirada antecipada — os lugares são por ordem de chegada.
 
