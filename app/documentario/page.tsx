@@ -4,9 +4,6 @@ import { getPageBySlug } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
 import LiteYouTube from '@/components/LiteYouTube';
-import TranscricaoFilme from '@/components/TranscricaoFilme';
-import transcricao from '@/data/transcricao.json';
-import { pessoasNoDocumentario, pessoaSlug } from '@/lib/data';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/documentario' },
@@ -30,7 +27,6 @@ export default function DocumentarioPage() {
   const page = getPageBySlug('/documentario');
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const YT = 'e2stgoHtlAQ';
-  const citados = pessoasNoDocumentario();
   const TEMA: Record<string, string> = { '/historia': 'História', '/arquitetura': 'Arquitetura', '/restauracao': 'Restauro', '/linha-do-tempo': 'Linha do tempo', '/memorias': 'Memórias', '/pessoas': 'Pessoas' };
   const momentos: [number, string, string][] = [
     [34, 'A primeira ida ao teatro', '/memorias'],
@@ -142,32 +138,6 @@ export default function DocumentarioPage() {
               </li>
             ))}
           </ol>
-        </section>
-
-        {citados.length > 0 && (
-          <section className="mt-16">
-            <h2 className="font-display text-3xl">Quem aparece no documentário</h2>
-            <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">Pessoas citadas nos depoimentos — abra a página de cada uma ou pule direto para o minuto em que são mencionadas.</p>
-            <ul className="mt-6 divide-y divide-gold/15 border-y border-gold/15">
-              {citados.map(({ pessoa, t, s: sec }) => (
-                <li key={pessoa.id} className="flex flex-wrap items-baseline gap-x-3 gap-y-1 py-3">
-                  <Link href={`/pessoas/${pessoaSlug(pessoa)}`} className="font-display text-lg text-ink/90 hover:text-curtain dark:text-cream/90 dark:hover:text-gold">{pessoa.name}</Link>
-                  <span className="font-sans text-sm text-ink/55 dark:text-cream/65">{pessoa.role}</span>
-                  <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener noreferrer" className="ml-auto shrink-0 font-display text-sm tabular-nums text-curtain hover:opacity-70 dark:text-gold" title="Abrir o filme neste momento">{t} ↗</a>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        <section className="mt-16">
-          <h2 className="font-display text-3xl">Transcrição navegável</h2>
-          <p className="mt-3 max-w-reading font-sans text-[0.97rem] leading-relaxed text-ink/80 dark:text-cream/80">
-            Transcrição do documentário gerada a partir das legendas e revisada nos nomes próprios. Busque por palavra, nome ou tema — e clique no minuto para abrir o filme exatamente naquele ponto.
-          </p>
-          <div className="mt-7">
-            <TranscricaoFilme segs={transcricao} youtubeId="e2stgoHtlAQ" />
-          </div>
         </section>
 
         <FontesDaPagina fontes={page?.fontes ?? null} />
