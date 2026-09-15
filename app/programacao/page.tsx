@@ -91,12 +91,12 @@ export default async function ProgramacaoPage() {
       <ChapterHero eyebrow="Agenda de espetáculos, concertos e eventos" title="Programação" />
       <div className="mx-auto max-w-4xl px-5 py-14">
         <p className="mb-10 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
-          O Theatro continua vivo. Aqui estão os próximos eventos e os canais oficiais para confirmar a agenda — datas, horários e ingressos podem mudar, então confirme sempre antes de ir. Para tudo o que já passou pelo palco, percorra a <Link href="/linha-do-tempo" className="underline decoration-gold/40 underline-offset-2 hover:text-curtain dark:hover:text-gold">linha do tempo</Link>.
+          O Theatro continua vivo. Aqui estão os próximos eventos — datas, horários e ingressos podem mudar, então confirme sempre antes de ir. Para tudo o que já passou pelo palco, percorra a <Link href="/linha-do-tempo" className="underline decoration-gold/40 underline-offset-2 hover:text-curtain dark:hover:text-gold">linha do tempo</Link>.
         </p>
 
         <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Próximos eventos</h2>
         <div className="mt-4">
-          {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="max-w-reading py-6 font-sans text-ink/70 dark:text-cream/70">O Theatro segue ativo. Quando há eventos com data confirmada, eles aparecem aqui automaticamente. Para a agenda mais recente, consulte os canais oficiais abaixo.</p>}
+          {futuros.length ? futuros.map((e) => <Card key={e.slug} e={e} />) : <p className="max-w-reading py-6 font-sans text-ink/70 dark:text-cream/70">O Theatro segue ativo. Quando há eventos com data confirmada, eles aparecem aqui automaticamente.</p>}
         </div>
 
         {noticias.length > 0 && (
@@ -120,23 +120,6 @@ export default async function ProgramacaoPage() {
             </div>
           </section>
         )}
-
-        <section className="mt-14">
-          <h2 className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Canais oficiais</h2>
-          <p className="mt-2 max-w-reading font-sans text-sm text-ink/75 dark:text-cream/75">Onde encontrar a programação atualizada e falar com a organização do Theatro.</p>
-          <div className="mt-5 grid gap-4 sm:grid-cols-2">
-            <a href="https://www.saojoao.sp.gov.br/eventos" target="_blank" rel="noopener noreferrer" className="card-lift rounded-sm border border-gold/40 bg-gold/[0.04] p-5 hover:border-gold/70 dark:border-gold/40">
-              <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Prefeitura</p>
-              <p className="mt-2 font-display text-lg leading-tight">Agenda cultural oficial</p>
-              <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Programação de eventos do município →</p>
-            </a>
-            <a href="https://wa.me/5519997195719?text=Ol%C3%A1!%20Gostaria%20de%20saber%20a%20programa%C3%A7%C3%A3o%20do%20Theatro%20Municipal." target="_blank" rel="noopener noreferrer" className="card-lift rounded-sm border border-ink/10 p-5 hover:border-gold/50 dark:border-cream/10">
-              <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">WhatsApp</p>
-              <p className="mt-2 font-display text-lg leading-tight">Falar com o Theatro</p>
-              <p className="mt-1 font-sans text-sm text-ink/70 dark:text-cream/70">Informações, agendamentos e visitas →</p>
-            </a>
-          </div>
-        </section>
 
         {temOficiais && (
           <p className="mt-4 font-sans text-xs text-ink/50 dark:text-cream/65">
