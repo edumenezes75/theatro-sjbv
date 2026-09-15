@@ -8,7 +8,7 @@ ingresso_tipo: "canal"
 status: "agendado"
 destaque: true
 exemplo: false
-link: "https://historias-do-theatro-lumen-class.vercel.app"
+link: "/evento"
 ---
 Uma noite de conversa, música ao vivo e imagens do acervo sobre a história desta casa, com quem a pesquisou, viu de perto e ajudou a reerguê-la. Direção de Eduardo Menezes.
 
@@ -16,6 +16,6 @@ O programa alterna três rodadas de conversa com música ao vivo, projeção de 
 
 Sexta-feira, 2 de outubro, às 19h30. A casa abre às 19h. 130 minutos, sem intervalo, classificação livre. **Entrada franca**, sem ingresso e sem retirada antecipada — os lugares são por ordem de chegada.
 
-Programa completo, acervo de imagens e serviço no [site do espetáculo ↗](https://historias-do-theatro-lumen-class.vercel.app).
+Programa completo, acervo de imagens e serviço na [página do espetáculo →](/evento).
 
 Realização: Prefeitura Municipal de São João da Boa Vista — Departamento de Cultura e Economia Criativa, Academia de Letras de São João da Boa Vista e CLAC — Centro Livre de Arte e Cultura.
