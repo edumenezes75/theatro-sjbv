@@ -20,4 +20,4 @@ Programa completo, acervo de imagens e serviço na [página do espetáculo →](
 
 Realização: Prefeitura Municipal de São João da Boa Vista — Departamento de Cultura e Economia Criativa, Academia de Letras de São João da Boa Vista e CLAC — Centro Livre de Arte e Cultura.
 
-Apoio: Isabela Flores e TV União.
+Apoio: Isabela Flores, TV União e Celegato Móveis.
