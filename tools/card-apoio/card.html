@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../public/evento/fonts.css">
+<style>
+:root{
+  --cream:#F4EDE3; --border:#A87D52; --wine:#4C1113;
+  --label:#8A5A2B; --rule:#98826A; --venue:#6B5232;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:var(--cream)}
+.card{position:relative;overflow:hidden;background:var(--cream);
+      border:var(--bw) solid var(--border)}
+.card::before{content:"";position:absolute;inset:0;
+  background:url("pattern-tint.png") 50% 0/var(--pat) repeat;opacity:0.095;pointer-events:none}
+.card>*{position:absolute;left:0;right:0;text-align:center}
+
+.title{font-family:"Libre Baskerville",Georgia,serif;font-weight:700;
+  color:var(--wine);text-transform:uppercase;letter-spacing:.02em;
+  font-size:var(--fs-title);line-height:var(--lh-title);top:var(--y-title)}
+
+.label{font-family:Cabin,"Gill Sans",sans-serif;font-weight:600;
+  color:var(--label);text-transform:uppercase;letter-spacing:.34em;
+  font-size:var(--fs-label);top:var(--y-lab)}
+.label.apoio{top:var(--y-lab2)}
+
+.sig{top:var(--y-sig)}
+.sig img{width:var(--w-sig);height:auto;mix-blend-mode:multiply}
+
+.apoios{top:var(--y-apoio);display:flex;align-items:center;
+  justify-content:center;gap:var(--gap)}
+.apoios img{height:var(--h-apoio);width:auto;mix-blend-mode:multiply}
+.apoios img.tv{height:calc(var(--h-apoio)*.88)}
+
+.rule{top:var(--y-rule)}
+.rule::after{content:"";display:block;width:var(--w-rule);height:1px;background:var(--rule);margin:0 auto}
+
+.date{font-family:"Libre Baskerville",Georgia,serif;font-weight:700;
+  color:var(--wine);font-size:var(--fs-date);top:var(--y-date)}
+.venue{font-family:Cabin,"Gill Sans",sans-serif;font-weight:500;
+  color:var(--venue);font-size:var(--fs-venue);top:var(--y-venue)}
+
+/* ---- FEED 1080x1350 ---- */
+.feed{width:1080px;height:1350px;
+  --bw:12px; --pat:520px;
+  --fs-title:29px; --lh-title:32px; --y-title:47px;
+  --fs-label:19px; --y-lab:373px; --y-lab2:651px;
+  --y-sig:443px; --w-sig:855px;
+  --y-apoio:702px; --h-apoio:142px; --gap:64px;
+  --y-rule:897px; --w-rule:186px;
+  --fs-date:34px; --y-date:951px;
+  --fs-venue:24px; --y-venue:1008px;}
+
+/* ---- STORY 1080x1920 ---- */
+.story{width:1080px;height:1920px;
+  --bw:12px; --pat:520px;
+  --fs-title:33px; --lh-title:37px; --y-title:229px;
+  --fs-label:21px; --y-lab:593px; --y-lab2:914px;
+  --y-sig:678px; --w-sig:855px;
+  --y-apoio:974px; --h-apoio:162px; --gap:72px;
+  --y-rule:1203px; --w-rule:212px;
+  --fs-date:42px; --y-date:1269px;
+  --fs-venue:27px; --y-venue:1340px;}
+</style></head><body>
+<div class="card CLS">
+  <div class="title">As Histórias<br>do Theatro</div>
+  <div class="label">Produção</div>
+  <div class="sig"><img src="../../public/evento/assinaturas.png" alt=""></div>
+  <div class="label apoio">Apoio</div>
+  <div class="apoios">
+    <img src="../../public/evento/apoio-isabela-flores.png" alt="">
+    <img class="tv" src="../../public/evento/apoio-tv-uniao-dark.png" alt="">
+  </div>
+  <div class="rule"></div>
+  <div class="date">Sexta, 2 de outubro, 19h30</div>
+  <div class="venue">Theatro Municipal de São João da Boa Vista · Entrada franca</div>
+</div>
+</body></html>
