@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../../public/evento/fonts.css">
+<style>
+:root{--wine:#560C19;--wd:#38060F;--gold:#C79C6E;--gl:#A87D52;--cream:#F4EDE4;--mute:#D8BCA6;--border:#A87D52}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#333}
+.card{position:relative;overflow:hidden;background:var(--wine);border:var(--bw) solid var(--border);
+  display:flex;flex-direction:column}
+.card::before{content:"";position:absolute;inset:0;
+  background:url("../../public/evento/pattern.png") 50% 0/var(--pat) repeat;opacity:.11;pointer-events:none}
+
+.top{position:relative;flex:1;display:flex;flex-direction:column;align-items:center;
+  text-align:center;padding:var(--pt) var(--px) var(--pbTop)}
+.top .frame{position:absolute;inset:var(--fr);border:1px solid rgba(199,156,110,.38);pointer-events:none}
+.top>*{position:relative;width:100%}
+
+.kicker{font-family:Cabin,sans-serif;font-weight:600;color:var(--gold);text-transform:uppercase;
+  letter-spacing:.34em;font-size:var(--fs-kick)}
+.title{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;text-transform:uppercase;
+  letter-spacing:.02em;font-size:var(--fs-title);line-height:1.13;margin-top:var(--g1);color:var(--cream)}
+.title span{color:var(--gold)}
+.sub{font-family:'Libre Baskerville',Georgia,serif;font-style:italic;color:var(--mute);
+  font-size:var(--fs-sub);margin-top:var(--g2)}
+
+.lead{font-family:'Noto Sans',sans-serif;color:var(--mute);font-size:var(--fs-lead);
+  line-height:1.5;margin:var(--g3) auto 0;max-width:var(--w-lead);text-wrap:balance}
+
+.items{margin-top:auto;padding-top:var(--g4);width:var(--w-items);margin-left:auto;margin-right:auto}
+.items div{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;color:var(--cream);
+  text-transform:uppercase;letter-spacing:.14em;font-size:var(--fs-item);line-height:1}
+.items div+div{margin-top:var(--g5);padding-top:var(--g5);border-top:1px solid rgba(199,156,110,.3)}
+
+.fach{margin-top:auto;padding-top:var(--g6)}
+.fach img{width:var(--w-fach);height:auto;opacity:.92}
+
+.date{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;color:var(--gold);
+  font-size:var(--fs-date);margin-top:var(--g7)}
+.venue{font-family:Cabin,sans-serif;font-weight:500;color:var(--cream);font-size:var(--fs-venue);
+  line-height:1.45;margin-top:var(--g8)}
+
+.band{position:relative;background:var(--cream);text-align:center;padding:var(--bpt) 0 var(--bpb)}
+.label{font-family:Cabin,sans-serif;font-weight:600;color:#8A5A2B;text-transform:uppercase;
+  letter-spacing:.34em;font-size:var(--fs-label)}
+.sig{margin-top:var(--g9)}
+.sig img{width:var(--w-sig);height:auto;mix-blend-mode:multiply}
+.label.ap{margin-top:var(--g10)}
+.apoios{margin-top:var(--g11);display:flex;align-items:center;justify-content:center;gap:var(--gap-a)}
+.apoios img{width:auto;mix-blend-mode:multiply}
+.apoios img.iso{height:calc(var(--h-apoio)*.73)}
+.apoios img.tv{height:calc(var(--h-apoio)*.64)}
+.apoios img.cel{height:auto;width:calc(var(--h-apoio)*1.22)}
+.apoios img.cim{height:auto;width:var(--w-cim)}
+
+/* ---------- FEED 1080x1350 ---------- */
+.feed{width:1080px;height:1350px;--bw:12px;--pat:500px;--px:80px;--pt:58px;--pbTop:50px;--fr:26px;
+  --fs-kick:15px;--fs-title:46px;--fs-sub:20px;--g1:18px;--g2:13px;
+  --fs-lead:17px;--w-lead:600px;--g3:26px;
+  --g4:30px;--w-items:520px;--fs-item:23px;--g5:19px;
+  --g6:28px;--w-fach:330px;--g7:26px;--fs-date:28px;--g8:10px;--fs-venue:18px;
+  --bpt:30px;--bpb:30px;--fs-label:14px;--g9:14px;--w-sig:520px;--g10:22px;--g11:14px;
+  --h-apoio:66px;--gap-a:40px;--w-cim:86px}
+
+/* ---------- STORY 1080x1920 ---------- */
+.story{width:1080px;height:1920px;--bw:12px;--pat:500px;--px:90px;--pt:120px;--pbTop:80px;--fr:32px;
+  --fs-kick:19px;--fs-title:58px;--fs-sub:26px;--g1:24px;--g2:17px;
+  --fs-lead:21px;--w-lead:700px;--g3:36px;
+  --g4:44px;--w-items:660px;--fs-item:30px;--g5:27px;
+  --g6:40px;--w-fach:440px;--g7:40px;--fs-date:37px;--g8:14px;--fs-venue:23px;
+  --bpt:44px;--bpb:44px;--fs-label:17px;--g9:20px;--w-sig:660px;--g10:32px;--g11:20px;
+  --h-apoio:84px;--gap-a:50px;--w-cim:110px}
+</style></head><body>
+<div class="card CLS">
+  <div class="top">
+    <div class="frame"></div>
+    <div class="kicker">Espetáculo cênico-musical</div>
+    <div class="title"><span>As Histórias</span><br>do Theatro</div>
+    <div class="sub">um palco e suas memórias</div>
+    <p class="lead">Quem pesquisou, defendeu e reergueu este Theatro sobe ao palco para contar como foi.</p>
+    <div class="items">
+      <div>Entrevistas</div>
+      <div>Teatro</div>
+      <div>Música</div>
+      <div>Documentário</div>
+      <div>Fotos</div>
+    </div>
+    <div class="fach"><img src="../../public/evento/fachada.png" alt=""></div>
+    <div class="date">Sexta, 2 de outubro, 19h30</div>
+    <div class="venue">Theatro Municipal de São João da Boa Vista<br>Praça da Catedral, 22 · Entrada franca</div>
+  </div>
+  <div class="band">
+    <div class="label">Produção</div>
+    <div class="sig"><img src="../../public/evento/assinaturas.png" alt=""></div>
+    <div class="label ap">Apoio</div>
+    <div class="apoios">
+      <img class="iso" src="../../public/evento/apoio-isabela-flores.png" alt="">
+      <img class="tv" src="../../public/evento/apoio-tv-uniao-dark.png" alt="">
+      <img class="cel" src="../../public/evento/apoio-celegato.png" alt="">
+      <img class="cim" src="../../public/evento/apoio-cimentolandia.png" alt="">
+    </div>
+  </div>
+</div>
+</body></html>

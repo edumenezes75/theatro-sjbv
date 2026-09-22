@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Cabin;font-weight:400 600;src:url(../../public/evento/f/002.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:Cabin;font-weight:400 600;src:url(../../public/evento/f/000.woff2) format('woff2')}
+@font-face{font-family:'Libre Baskerville';font-weight:400 700;src:url(../../public/evento/f/004.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:'Libre Baskerville';font-weight:400 700;src:url(../../public/evento/f/003.woff2) format('woff2')}
+@font-face{font-family:'Noto Sans';font-weight:400 700;src:url(../../public/evento/f/006.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+2000-206F,U+20AC,U+2122}
+@font-face{font-family:'Noto Sans';font-weight:400 700;src:url(../../public/evento/f/007.woff2) format('woff2')}
+:root{--cream:#F4EDE3;--border:#A87D52;--wine:#4C1113;--label:#8A5A2B;--rule:#98826A;--venue:#6B5232;--num:#A87D52}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:#333}
+.card{position:relative;overflow:hidden;background:var(--cream);border:var(--bw) solid var(--border);
+  display:flex;flex-direction:column;align-items:center;padding:var(--pt) var(--px) var(--pb)}
+.card::before{content:"";position:absolute;inset:0;background:url("../card-apoio/pattern-tint.png") 50% 0/var(--pat) repeat;opacity:.095;pointer-events:none}
+.card>*{position:relative;width:100%;text-align:center}
+.card>ol{text-align:left}
+
+.kicker{font-family:Cabin,sans-serif;font-weight:600;color:var(--label);text-transform:uppercase;
+  letter-spacing:.34em;font-size:var(--fs-kick)}
+.title{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;color:var(--wine);
+  text-transform:uppercase;letter-spacing:.02em;font-size:var(--fs-title);line-height:1.14;margin-top:var(--g1)}
+.sub{font-family:'Libre Baskerville',Georgia,serif;font-style:italic;color:var(--venue);
+  font-size:var(--fs-sub);margin-top:var(--g2)}
+
+.hr{height:1px;background:var(--rule);opacity:.55;width:var(--w-rule);margin:var(--g3) auto 0}
+
+.label{font-family:Cabin,sans-serif;font-weight:600;color:var(--label);text-transform:uppercase;
+  letter-spacing:.34em;font-size:var(--fs-label);margin-top:var(--g4)}
+
+ol{list-style:none;margin:var(--g5) auto 0;width:var(--w-prog);text-align:left}
+li{display:flex;gap:var(--gap-n);align-items:baseline;padding:var(--pad-li) 0}
+li+li{border-top:1px solid rgba(152,130,106,.32)}
+.n{font-family:Cabin,sans-serif;font-weight:600;color:var(--num);font-size:var(--fs-n);
+  letter-spacing:.06em;width:var(--w-n);flex:none;font-variant-numeric:tabular-nums}
+.t{font-family:'Libre Baskerville',Georgia,serif;color:var(--wine);font-size:var(--fs-t);line-height:1.3}
+.t em{font-style:italic}
+.who{font-family:'Noto Sans',sans-serif;color:var(--venue);font-size:var(--fs-w);line-height:1.35;margin-top:var(--g6)}
+.note{font-family:'Noto Sans',sans-serif;color:var(--venue);font-size:var(--fs-note);margin-top:var(--g7);opacity:.95}
+
+.sig{margin-top:var(--g8)}
+.sig img{width:var(--w-sig);height:auto;mix-blend-mode:multiply}
+.apoios{margin-top:var(--g9);display:flex;align-items:center;justify-content:center;gap:var(--gap-a)}
+.apoios img{width:auto;mix-blend-mode:multiply}
+.apoios img.iso{height:calc(var(--h-apoio)*.73)}
+.apoios img.tv{height:calc(var(--h-apoio)*.64)}
+.apoios img.cel{height:auto;width:calc(var(--h-apoio)*1.22)}
+.apoios img.cim{height:auto;width:calc(var(--h-apoio)*1.28)}
+
+.date{font-family:'Libre Baskerville',Georgia,serif;font-weight:700;color:var(--wine);font-size:var(--fs-date);margin-top:var(--g10)}
+.venue{font-family:Cabin,sans-serif;font-weight:500;color:var(--venue);font-size:var(--fs-venue);line-height:1.45;margin-top:var(--g11)}
+.label.prod{margin-top:var(--g12)}
+
+/* ---------- FEED 1080x1350 ---------- */
+.feed{width:1080px;height:1350px;--bw:12px;--pat:520px;--px:74px;--pt:40px;--pb:36px;
+  --fs-kick:15px;--fs-title:40px;--fs-sub:19px;--fs-label:16px;
+  --g1:14px;--g2:11px;--g3:20px;--w-rule:150px;--g4:20px;--g5:10px;
+  --w-prog:880px;--pad-li:6px;--gap-n:20px;--w-n:34px;--fs-n:17px;--fs-t:21px;--fs-w:16px;--g6:4px;
+  --g7:14px;--fs-note:15px;
+  --g8:14px;--w-sig:560px;--g9:18px;--h-apoio:84px;--gap-a:40px;
+  --g10:22px;--fs-date:26px;--g11:9px;--fs-venue:17px;--g12:26px}
+
+/* ---------- STORY 1080x1920 ---------- */
+.story{width:1080px;height:1920px;--bw:12px;--pat:520px;--px:84px;--pt:88px;--pb:76px;
+  --fs-kick:19px;--fs-title:54px;--fs-sub:25px;--fs-label:20px;
+  --g1:20px;--g2:15px;--g3:32px;--w-rule:190px;--g4:34px;--g5:16px;
+  --w-prog:900px;--pad-li:11px;--gap-n:24px;--w-n:42px;--fs-n:21px;--fs-t:26px;--fs-w:20px;--g6:6px;
+  --g7:22px;--fs-note:19px;
+  --g8:24px;--w-sig:740px;--g9:30px;--h-apoio:116px;--gap-a:52px;
+  --g10:30px;--fs-date:34px;--g11:12px;--fs-venue:22px;--g12:40px}
+</style></head><body>
+<div class="card CLS">
+  <div class="kicker">Espetáculo cênico-musical</div>
+  <div class="title">As Histórias<br>do Theatro</div>
+  <div class="sub">um palco e suas memórias</div>
+  <div class="date">Sexta, 2 de outubro · 19h30</div>
+  <div class="venue">Theatro Municipal de São João da Boa Vista<br>Praça da Catedral, 22 · Entrada franca</div>
+  <div class="hr"></div>
+
+  <div class="label">O programa</div>
+  <ol>
+    <li><span class="n">01</span><div><div class="t">Abertura</div><div class="who">Clóvis Vieira</div></div></li>
+    <li><span class="n">02</span><div><div class="t">Primeira conversa: como a cidade ganhou um teatro</div><div class="who">Antônio Carlos Lorette · Neusa Menezes</div></div></li>
+    <li><span class="n">03</span><div><div class="t">Trecho do documentário <em>Música &amp; Drama</em></div><div class="who">“Cine Theatro”</div></div></li>
+    <li><span class="n">04</span><div><div class="t">Segunda conversa: quando o palco virou tela</div><div class="who">José Marcondes · Maria Célia Marcondes</div></div></li>
+    <li><span class="n">05</span><div><div class="t">“O mundo todo é um palco”</div><div class="who">Ronaldo Marin</div></div></li>
+    <li><span class="n">06</span><div><div class="t">Terceira conversa: como o prédio foi salvo</div><div class="who">José Márcio Carioca · Fafá Noronha · Vânia Noronha</div></div></li>
+    <li><span class="n">07</span><div><div class="t">“O Sole Mio”</div><div class="who">Vânia Noronha, piano · Julia Paiva, violino</div></div></li>
+    <li><span class="n">08</span><div><div class="t">Esquete “Esperando Guiomar”</div><div class="who">Helena Gonçalves</div></div></li>
+    <li><span class="n">09</span><div><div class="t">Homenagem a Guiomar Novaes — Scherzo nº 2 de Chopin</div><div class="who">Cláudio Richerme, piano · Zabella Dragão, balé</div></div></li>
+  </ol>
+  <div class="note">Duração: 130 minutos, sem intervalo</div>
+
+  <div class="label prod">Produção</div>
+  <div class="sig"><img src="../../public/evento/assinaturas.png" alt=""></div>
+  <div class="label">Apoio</div>
+  <div class="apoios">
+    <img class="iso" src="../../public/evento/apoio-isabela-flores.png" alt="">
+    <img class="tv" src="../../public/evento/apoio-tv-uniao-dark.png" alt="">
+    <img class="cel" src="../../public/evento/apoio-celegato.png" alt="">
+    <img class="cim" src="../../public/evento/apoio-cimentolandia.png" alt="">
+  </div>
+</div>
+</body></html>
