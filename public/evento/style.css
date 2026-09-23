@@ -235,3 +235,14 @@ body.paper-page{background:var(--cream);color:#3E2C24}
 .paper-page footer a{color:var(--wine)}
 .paper-page footer a:hover{color:#3E0810;border-bottom-color:#3E0810}
 .paper-page .frame{display:none}
+
+/* Você sabia? — capas da série das redes */
+.vs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,1.6vw,20px)}
+.vs button{position:relative;display:block;margin:0;padding:0;border:0;background:var(--wd);cursor:pointer;overflow:hidden;aspect-ratio:4/5;-webkit-tap-highlight-color:transparent}
+.vs img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .5s ease,opacity .3s ease}
+.vs button:hover img{transform:scale(1.04);opacity:.86}
+.vs button:focus-visible{outline:none}
+.vs button::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 0 var(--gold);transition:box-shadow .18s ease;pointer-events:none}
+.vs button:focus-visible::after{box-shadow:inset 0 0 0 3px var(--gold)}
+@media(max-width:760px){.vs{display:flex;gap:12px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding:0 var(--pad);margin:0 calc(-1*var(--pad));padding:0 var(--pad) 4px;scrollbar-width:none;-webkit-overflow-scrolling:touch}.vs::-webkit-scrollbar{display:none}.vs button{flex:0 0 72%;scroll-snap-align:start}}
+@media(prefers-reduced-motion:reduce){.vs img{transition:none}}
