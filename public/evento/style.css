@@ -136,6 +136,10 @@ h2{font-family:var(--disp);font-weight:400;font-size:clamp(1.55rem,5vw,2.8rem);l
 .band .cta{border-color:var(--wd);color:var(--wd)}
 .band .cta:hover,.band .cta:focus-visible{background:var(--wd);color:var(--gold);border-color:var(--wd)}
 .band .cta.solid{background:var(--wine);color:var(--gold);border-color:var(--wine)}
+.band .social{margin:clamp(22px,3vh,30px) auto 0;max-width:44ch;font-size:.95rem;line-height:1.5;color:var(--wd)}
+.band .social strong{font-weight:700}
+.band .social a{color:var(--wd);font-weight:700;text-decoration:none;border-bottom:1px solid var(--wd)}
+.band .social a:hover,.band .social a:focus-visible{border-bottom-width:2px}
 .band .cta.solid:hover,.band .cta.solid:focus-visible{background:var(--wd);color:var(--gold);border-color:var(--wd)}
 
 .poster{display:grid;grid-template-columns:minmax(0,290px) minmax(0,460px);justify-content:start;gap:clamp(20px,4vw,48px);align-items:start}
