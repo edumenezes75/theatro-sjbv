@@ -26,10 +26,7 @@
           "desc": "O que a cidade encomendou quando encomendou um teatro."
         }
       ],
-      "pessoas": [
-        "p001",
-        "p002"
-      ]
+      "pessoas": []
     },
     {
       "id": "construcao",
@@ -56,10 +53,7 @@
           "desc": "O compositor que preside a boca de cena — e por quê."
         }
       ],
-      "pessoas": [
-        "p003",
-        "p004"
-      ]
+      "pessoas": []
     },
     {
       "id": "inauguracao",
@@ -117,11 +111,7 @@
           "desc": "Um espetáculo da cidade, reconstituído em detalhe."
         }
       ],
-      "pessoas": [
-        "p005",
-        "p006",
-        "p010"
-      ]
+      "pessoas": []
     },
     {
       "id": "cine-theatro",
@@ -149,11 +139,7 @@
           "desc": "A pianista da cidade, o recital de 1946 e o nome que voltaria na reabertura."
         }
       ],
-      "pessoas": [
-        "p008",
-        "p010",
-        "p051"
-      ]
+      "pessoas": []
     },
     {
       "id": "ameaca",
@@ -175,11 +161,7 @@
           "desc": "Da retroescavadeira anunciada ao tombamento: a mobilização que salvou o edifício, passo a passo."
         }
       ],
-      "pessoas": [
-        "p012",
-        "p013",
-        "p026"
-      ]
+      "pessoas": []
     },
     {
       "id": "restauro",
@@ -202,12 +184,7 @@
           "desc": "Fundação, leis de incentivo e o “Vestindo a Camisa”: como se pagou a obra."
         }
       ],
-      "pessoas": [
-        "p014",
-        "p015",
-        "p016",
-        "p030"
-      ]
+      "pessoas": []
     },
     {
       "id": "hoje",
@@ -229,10 +206,7 @@
           "desc": "Um século do Theatro contado por quem o viveu: assista com transcrição navegável, minuto a minuto."
         }
       ],
-      "pessoas": [
-        "p046",
-        "p048"
-      ]
+      "pessoas": []
     }
   ]
 }
