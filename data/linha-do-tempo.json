@@ -890,7 +890,7 @@
   },
   {
     "id": "t024",
-    "date": "1983/1984",
+    "date": "1983-12-31",
     "display": "1983–1984",
     "title": "Abaixo-assinados pela preservação",
     "summary": "Quatro abaixo-assinados reúnem 1.026 assinaturas; uma consulta popular mobiliza 1.651 participantes em defesa do prédio.",
@@ -923,26 +923,29 @@
     "id": "t025",
     "date": "1984-01-05",
     "display": "5 jan. 1984",
-    "title": "Primeira etapa da compra",
-    "summary": "O município adquire a porção frontal do imóvel.",
+    "title": "A Prefeitura compra o Theatro",
+    "summary": "Pressionado pela mobilização, o prefeito Sidney Beraldo compra do Dr. Oliveira Neto a metade da frente do edifício — foyer, plateia e parte do palco. O Theatro passa a ser público; o fundo do palco, os camarins e o terreno dos fundos ficam, por ora, com o antigo proprietário.",
     "era": "preservação",
     "tags": [
-      "aquisição"
+      "aquisição",
+      "Prefeitura"
     ],
     "status": "documentado",
     "sources": [
-      "Escritura; Menezes 2014, p. 119"
+      "Escritura; Menezes 2014, p. 119",
+      "Jeronimo 2020"
     ]
   },
   {
     "id": "t027",
     "date": "1985-05",
     "display": "28 mai. 1985",
-    "title": "Compra do palco e dos fundos",
-    "summary": "Pela Lei nº 241, o município adquire a segunda parte do edifício — palco e fundos —, antes desmembrada. Sem ela, uma casa de espetáculos funcional seria impossível.",
+    "title": "A compra se completa: palco e fundos",
+    "summary": "Pela Lei nº 241, a Prefeitura compra a segunda parte do edifício — fundo do palco, camarins e terreno posterior. Sem ela não haveria caixa cênica: só então o Theatro volta a ser um conjunto inteiro, e público.",
     "era": "preservação",
     "tags": [
-      "aquisição"
+      "aquisição",
+      "Prefeitura"
     ],
     "status": "documentado",
     "sources": [
