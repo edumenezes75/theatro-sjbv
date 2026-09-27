@@ -18,14 +18,7 @@
           "pos": 1
         }
       ],
-      "vozes": [
-        {
-          "quote": "Foi a vontade popular, liderada pela classe artística, junto com o empenho dos governantes, que transformou um sonho em realidade.",
-          "autor": "Neusa Maria Soares de Menezes",
-          "papel": "Historiadora e editora do livro do centenário",
-          "pos": 2
-        }
-      ],
+      "vozes": [],
       "dossies": [
         {
           "slug": "/companhia-teatral-sanjoanense",
@@ -96,14 +89,7 @@
           "pos": 1
         }
       ],
-      "vozes": [
-        {
-          "quote": "Quantas imagens imorredouras a recordar! Onde estarão guardadas tantas histórias? Em que baús? Em que páginas amarelecidas?",
-          "autor": "Do prefácio",
-          "papel": "“Casa de Sonhos” — Theatro Municipal, 100 anos",
-          "pos": 2
-        }
-      ],
+      "vozes": [],
       "dossies": [
         {
           "slug": "/a-noite-de-inauguracao",
@@ -137,15 +123,7 @@
           "pos": 21
         }
       ],
-      "vozes": [
-        {
-          "quote": "Havia um professor de música chamado seu Nascipe Atalla Murr, um sírio. Ele era muito alegre, um senhor muito bonito — então ele montava as óperas com os artistas da cidade.",
-          "autor": "Do documentário",
-          "papel": "Sobre os espetáculos feitos pela própria cidade",
-          "segundo": 1205,
-          "pos": 18
-        }
-      ],
+      "vozes": [],
       "dossies": [
         {
           "slug": "/as-mulheres-do-theatro",
@@ -191,15 +169,7 @@
           "pos": 22
         }
       ],
-      "vozes": [
-        {
-          "quote": "Ela ouviu eu tocar o concerto de Tchaikovsky e, no dia seguinte, me deu uma aula de três horas.",
-          "autor": "Do documentário",
-          "papel": "Sobre a passagem de Guiomar Novaes pelo Theatro, em 1946",
-          "segundo": 2527,
-          "pos": 5
-        }
-      ],
+      "vozes": [],
       "dossies": [
         {
           "slug": "/o-tempo-do-cinetheatro",
@@ -239,15 +209,7 @@
           "pos": 4
         }
       ],
-      "vozes": [
-        {
-          "quote": "A gente passa e vê: aquilo não é meu, mas eu não quero que desmanche, porque é nosso — é um pouquinho meu também.",
-          "autor": "Sidney Estanislau Beraldo",
-          "papel": "Prefeito na aquisição do Theatro pelo município",
-          "segundo": 2790,
-          "pos": 6
-        }
-      ],
+      "vozes": [],
       "dossies": [
         {
           "slug": "/luta-contra-a-demolicao",
@@ -283,15 +245,7 @@
           "pos": 16
         }
       ],
-      "vozes": [
-        {
-          "quote": "Ele sabia que sozinho não poderia fazer nada, mas era um líder carismático que sabia envolver as pessoas.",
-          "autor": "Do documentário",
-          "papel": "Sobre João Batista Merlin, mentor técnico do restauro",
-          "segundo": 3200,
-          "pos": 2
-        }
-      ],
+      "vozes": [],
       "dossies": [
         {
           "slug": "/a-cidade-financia-seu-restauro",
@@ -327,15 +281,7 @@
           "pos": 12
         }
       ],
-      "vozes": [
-        {
-          "quote": "É um teatro vivo e que teve, como a vida de qualquer pessoa, seus altos e baixos.",
-          "autor": "Badi Assad",
-          "papel": "Violonista e cantora, da família Assad",
-          "segundo": 2248,
-          "pos": 13
-        }
-      ],
+      "vozes": [],
       "dossies": [
         {
           "slug": "/documentario",
