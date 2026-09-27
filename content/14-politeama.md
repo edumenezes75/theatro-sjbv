@@ -13,8 +13,6 @@ status: "dossiê"
 
 Há uma imagem fácil do Theatro: a casa nobre onde a elite assistia a óperas, até "cair" no cinema. As páginas dos jornais da época contam outra história — mais democrática, e mais interessante. Desde a primeira temporada, o Theatro funcionou menos como teatro lírico e mais como **politeama**: um espaço de muitos usos, em que filme, opereta, baile e festival dividiam o mesmo palco.
 
-> **Em um minuto:** entre 1913 e 1925, a pesquisa de Luis Pedro Dragão Jeronimo no jornal *O Município* encontrou o Theatro presente em **75% das edições** examinadas — e o que predominava eram os filmes, seguidos de atrações ao vivo, bailes e festivais. A Companhia, que não entendia do ramo, **arrendava** a casa para se proteger do risco. Grandes óperas completas foram exceção; o politeama era a regra. E o cinema, longe de decadência, foi o que manteve a casa funcionando.
-
 ## Um nome de teatro, um corpo de politeama
 
 A vocação múltipla estava prevista desde a lei. O incentivo municipal de 1912 falava em quem construísse "um theatro **ou polytheama**" — a palavra já admitia uma casa flexível, para teatro, cinema e diversões variadas. E os estatutos da Companhia, no ano seguinte, listavam entre seus fins "explorar diversões, inclusive o cinematógrafo".

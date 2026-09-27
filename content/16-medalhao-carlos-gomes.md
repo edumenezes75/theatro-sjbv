@@ -13,8 +13,6 @@ status: "dossiê"
 
 Sobre a boca de cena, o rosto de um compositor observa a plateia há mais de um século. Mas ele já esteve desaparecido — escondido sob camadas de tinta, a ponto de ninguém saber se ainda existia — e só voltou graças a uma fotografia tirada por acaso, num comício, e ao trabalho quase arqueológico de um restaurador. Esta é a história do retrato mais simbólico do Theatro.
 
-> **Em um minuto:** o medalhão de Carlos Gomes é obra original do pintor acadêmico Ettore Adriano Fabri, executada em 1914 no alto do proscênio. Reformas o cobriram com sucessivas pinturas. Uma foto de um comício de 1919, que registrara seus arabescos, serviu de referência; e o restaurador Cézar Roberto Olandim, "como um arqueólogo", o reencontrou sob a tinta e o devolveu à boca de cena.
-
 ## Um retrato no lugar de honra
 
 Carlos Gomes, o campineiro de *O Guarani*, era o nome brasileiro do Theatro. Enquanto Verdi, Wagner e Gounod apareciam em medalhões na fachada, a Carlos Gomes coube o ponto mais nobre do interior: o alto da **boca de cena**, sobre o palco, de frente para todos. Pôr um brasileiro ali, no eixo do olhar de toda a plateia, era uma declaração — o país no centro da casa, e não apenas a Europa.

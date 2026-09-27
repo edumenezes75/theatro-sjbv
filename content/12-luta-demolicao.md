@@ -13,8 +13,6 @@ status: "dossiê"
 
 No início dos anos 1980, o Theatro Municipal não era o patrimônio restaurado de hoje. Era um prédio particular, fechado, degradado — e sob risco real de virar pó. Que ele esteja de pé não foi obra do acaso nem de uma decisão tranquila de gabinete: foi resultado de uma disputa pública, com um ator ameaçando greve de fome, mais de mil assinaturas, uma consulta popular e até a oposição de quem achava tudo aquilo um desperdício. Este episódio reconstrói essa batalha.
 
-> **Em um minuto:** declarado de utilidade pública em 1981, o Theatro continuava ameaçado. O ator Ronaldo Marin anunciou que faria greve de fome acorrentado ao telhado; com Zeza Freitas e outros jovens, reuniu 1.026 assinaturas. Houve oposição — o cronista "JPC" acusava o movimento de querer "tomar o alheio". O prefeito Sidney Beraldo comprou o prédio em duas etapas (1984 e 1985), a cidade votou pelo restauro numa consulta com 1.651 participantes, e o CONDEPHAAT tombou o edifício, formalmente, em 1987.
-
 ## Um prédio que parecia sobrar
 
 O Theatro nascera, em 1914, de uma sociedade por ações — a Companhia Teatral Sanjoanense. Décadas depois, sem atividade e endividada, a empresa foi à liquidação judicial entre 1977 e 1978, e o edifício, sob controle do Dr. Joaquim José de Oliveira Neto, virou um problema: caro de manter, deteriorado, fora de uso.

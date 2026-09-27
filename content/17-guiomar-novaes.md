@@ -13,8 +13,6 @@ status: "texto público"
 
 De todas as ligações entre o Theatro e a música, a mais forte tem nome de mulher. Guiomar Novaes nasceu em São João da Boa Vista e levou o nome da cidade aos maiores palcos do mundo — e voltou para tocar em casa.
 
-> **Em um minuto:** Guiomar Novaes, uma das maiores pianistas brasileiras do século XX, era sanjoanense. Em 1946 apresentou-se no Theatro para seus conterrâneos. Décadas depois, a Semana Guiomar Novaes tornou-se o eixo da agenda cultural da casa — e foi durante ela, em 2002, que o Theatro restaurado reabriu.
-
 ## A filha que o mundo aplaudiu
 
 Guiomar Novaes projetou-se internacionalmente como uma intérprete de rara sensibilidade, aplaudida em salas da Europa e dos Estados Unidos. Para uma cidade do interior paulista, ter dado ao mundo uma artista desse porte é parte central da própria identidade.

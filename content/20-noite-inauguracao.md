@@ -13,8 +13,6 @@ status: "dossiê"
 
 Depois de três anos de leis, ações, dívidas e obras, chegou a noite. Em 31 de outubro de 1914, a cidade entrou pela primeira vez na sala que havia construído para si — e se viu em gala. Mas a estreia trazia também uma ausência melancólica e um problema que assombraria o Theatro por décadas: o público, que lotou a inauguração, nem sempre voltaria.
 
-> **Em um minuto:** o Theatro foi inaugurado em 31 de outubro de 1914, com casa lotada, banda, discurso e a peça *Uma Causa Célebre*, da Companhia Santos Silva. Faltou à festa, porém, o idealizador José Evangelista de Almeida, já mudado para Santos. Na primeira temporada desfilaram grandes companhias em turnê — mas a bilheteria logo começou a minguar, e a casa precisou ser arrendada.
-
 ## 31 de outubro de 1914
 
 Com "grande público lotando todas as suas dependências — da plateia às frisas, camarotes e galeria", deu-se na noite de **31 de outubro de 1914**, às 20h30, a festiva inauguração. A abertura coube à banda do maestro **Joaquim Azevedo**. Em seguida, o orador **Dr. Antônio Cândido de Oliveira** proferiu, do camarote ocupado pela Diretoria da Companhia, um discurso que exaltava o trabalho dos fundadores e a obra como "afirmação de progresso cultural" da cidade.

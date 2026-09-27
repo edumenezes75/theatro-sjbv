@@ -13,8 +13,6 @@ status: "dossiê"
 
 Todo prédio bonito esconde uma planilha. Antes da fachada eclética e dos medalhões dos compositores, o Theatro foi uma decisão econômica difícil: como reunir, numa cidade do interior paulista, o dinheiro para erguer uma casa de espetáculos do tamanho da ambição local. A resposta envolveu a Câmara, uma sociedade por ações, quase duzentos investidores, empréstimos, debêntures e anos de dívida. Este episódio reconstitui essa engenharia — e mostra que ela é mais plural, e mais interessante, do que o mito de origem costuma contar.
 
-> **Em um minuto:** o Theatro nasceu de um arranjo público-privado. A Câmara ofereceu garantia de juros a quem o construísse; em 1913 formou-se a Companhia Teatral Sanjoanense, sociedade por ações com capital de 100 contos de réis e fins que já incluíam o cinema. A ata de constituição registra pouco mais de cem sócios, mas a pesquisa nos livros da empresa revela quase duzentos acionistas — fazendeiros, comerciantes, imigrantes e oito mulheres. Mesmo assim, o dinheiro não bastou: vieram empréstimos e debêntures, e a obra terminou custando perto de 290 contos.
-
 ## A cidade que queria um teatro
 
 No começo do século XX, São João da Boa Vista já tinha cinemas, salões e grupos dramáticos — mas queria mais. Queria um símbolo. O Theatro entrou na agenda municipal não como capricho isolado, e sim como peça de um plano de melhoramentos urbanos: em 1911, a Câmara autorizou um empréstimo de mil contos de réis para quitar dívidas e financiar obras — abertura de ruas, praças, mercado e, no mesmo pacote, um teatro municipal.

@@ -13,8 +13,6 @@ status: "dossiê"
 
 Quase todo teatro do interior recebeu, um dia, uma companhia de fora montando um clássico. Poucos podem dizer que a cidade **compôs a sua própria ópera** — letra, música, cenário e elenco feitos em casa. São João pode. Em 1932, sobre o palco do Theatro Municipal, estreou uma *Branca de Neve* escrita por um padre napolitano e cantada por professoras, alunos e amadores da terra. Quase um século depois, as partituras ainda existem.
 
-> **Em um minuto:** o padre Nicolau Fulgêncio Miranda, capelão da Santa Casa e diplomado pela Real Academia de Nápoles, viveu em São João de 1928 a 1933 e compôs uma versão operística da *Branca de Neve*. A obra estreou em 1932, com cenários de Herculano de Almeida e direção partilhada com Dona Beloca e Zilah Mattos; voltou ao cartaz nos anos 1950 sob Nascipe Murr. Suas partituras estão guardadas, em bom estado, no Museu de Arte Sacra.
-
 ## Um padre-músico vindo de Nápoles
 
 O autor não era um diletante. **Nicolau Fulgêncio Miranda**, de origem italiana, era **diplomado em música pela Real Academia de Nápoles** — excelente organista e compositor de peças sacras e eruditas. Chegou a São João da Boa Vista no fim dos anos 1920, designado **capelão da Santa Casa de Misericórdia Dona Carolina Malheiros**, no tempo do padre Josué. Morou na cidade de **1928 a 1933** — cinco anos apenas, mas suficientes para, nas palavras do livro do centenário, deixar "marcas inapagáveis no enriquecimento do nosso meio musical e artístico".

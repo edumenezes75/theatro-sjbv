@@ -13,8 +13,6 @@ status: "dossiê"
 
 As versões oficiais guardam os holofotes para coronéis, diretores e engenheiros. Mas, ano após ano, foram **mulheres** — quase sempre professoras — que encheram o palco do Theatro: ensaiando crianças, montando festivais, dirigindo corais e transformando arte em mobilização social. Sem elas, a casa teria ficado escura em boa parte do século XX. Este episódio reúne quatro delas, e a rede que vem antes e depois.
 
-> **Em um minuto:** por cerca de 25 anos, Dona Beloca liderou os espetáculos beneficentes do Theatro; nos anos 1920, Anésia Mattos montou ali o primeiro Dia da Criança do Brasil; Jaçanã Altair, escritora e criadora do teatro de bonecos local, dá nome à biblioteca que funcionou no prédio; e Miriam Pipano, vinda de Tel Aviv, formou gerações de músicos na sala da Sociedade de Cultura Artística. Some-se a elas as oito acionistas de 1913 e as professoras que, nos anos 1990, levaram estudantes às ruas pelo restauro.
-
 ## Dona Beloca e os 25 anos de palco
 
 Nos anos 1930, em pleno tempo áureo da arte na cidade, o Theatro era o centro das manifestações artísticas — e, à frente delas, **Gabriela de Oliveira Costa, a Dona Beloca**. Por aproximadamente **25 anos**, ao longo das décadas de 1930, 40 e 50, ela montou inúmeros espetáculos de teatro, música e canto, quase sempre em prol da Casa da Criança, do Asilo e da Santa Casa. As peças, muitas do professor Herculano de Almeida, "envolviam passagens da vida da cidade", e os festivais reuniam canto, bailado, declamação e solos — sempre com intérpretes "saídos da vocação artística da comunidade".

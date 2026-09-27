@@ -15,8 +15,6 @@ A primeira impressão vem da fachada. A experiência inteira, porém, só chega 
 
 Essa relação entre cena e espectadores é uma das marcas da tradição teatral italiana que orientou o projeto do Theatro.
 
-> **Em um minuto:** o edifício combina linguagem eclética, implantação monumental diante da praça e sala em ferradura. Ao longo do século XX, adaptações para o cinema alteraram o interior. A restauração recuperou a leitura dos setores históricos e atualizou palco, camarins e sistemas técnicos.
-
 ## A fachada como anúncio
 
 O projeto de 1913 apresenta uma composição simétrica e eclética, com eixo central destacado, frontão, ornamentos e as inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*. O edifício foi feito para se impor diante da praça e anunciar a que veio antes de o público entrar. É uma fachada que se lê: cada relevo ali diz alguma coisa.

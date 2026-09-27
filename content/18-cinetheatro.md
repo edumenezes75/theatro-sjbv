@@ -13,8 +13,6 @@ status: "dossiê"
 
 Para a maior parte dos sanjoanenses vivos, o Theatro não é a casa de ópera de 1914 — é a sala de cinema do centro, com seus domingos de matinê, os heróis de bang-bang e o cheiro de bombom na entrada. Essa fase, mais cotidiana e menos solene, durou quatro décadas e deixou a memória afetiva mais funda do edifício. Ela merece um episódio próprio.
 
-> **Em um minuto:** em 1937 o Theatro, já deteriorado aos 23 anos, foi fechado e teve a maioria das ações comprada por Joaquim José de Oliveira Neto, que o reequipou como cinema. Vieram quatro sessões diárias, os filmes de Hollywood e os seriados de Flash Gordon que enchiam a casa. Mas o cinema nunca foi lucrativo; a concorrência de salas novas e a televisão levaram o Cine Theatro à decadência e ao fechamento, abrindo caminho para a quase-demolição dos anos 1980.
-
 ## 1937: a tela vence o palco
 
 O cinema já dividia o palco do Theatro desde 1914. Mas foi em **1937** que ele virou a vocação dominante. Naquele ano, o prédio — "já bastante deteriorado", segundo o livro do centenário, com apenas vinte e três anos — foi fechado, e a maioria das ações da Companhia Teatral Sanjoanense foi comprada pelo **Dr. Joaquim José de Oliveira Neto**. Compraram-se poltronas novas e modernos equipamentos cinematográficos da Philips.

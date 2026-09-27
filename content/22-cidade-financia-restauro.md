@@ -13,8 +13,6 @@ status: "dossiê"
 
 Nos anos 1980, a cidade salvou o Theatro da demolição com abaixo-assinados e ameaça de greve de fome. Mas salvar não bastava: alguém tinha de **pagar a obra**. A segunda mobilização — menos lembrada e igualmente decisiva — foi a do dinheiro, e durou pelos anos 1990 afora, com a Lei Rouanet, estudantes nas ruas e artistas tocando no meio do canteiro.
 
-> **Em um minuto:** comprado e tombado, o Theatro seguia em ruínas — no lugar das poltronas, "bocas de lobo"; nos fundos, uma fábrica de vassouras. Em 1998 nasceu a Fundação Oliveira Neto, para captar recursos via Lei Rouanet e complementar as verbas públicas. Campanhas como "Vestindo a Camisa" e "Dê para São João parte do Leão" mobilizaram estudantes e moradores, e a arte continuou acontecendo no prédio em obras — até a reabertura, em 2002.
-
 ## Da rua ao caixa
 
 A luta dos anos 1980 fora de protesto; a dos anos 1990 foi de gestão e captação. E o quadro era desanimador. Quem entrou na obra descreveu o estado do prédio: os mezaninos não existiam mais; onde deveriam estar as poltronas, havia "bocas de lobo"; nos fundos, fora instalada uma **fábrica de vassouras de bambu**; na lateral, guardavam-se carrinhos de pipoca; a pintura havia desaparecido. Só as obras estruturais estavam prontas. Restaurar tudo aquilo exigiria muito dinheiro — mais do que o orçamento público dava, sobretudo com a inflação corroendo as verbas.

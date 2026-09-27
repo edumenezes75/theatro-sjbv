@@ -13,8 +13,6 @@ status: "texto público"
 
 Dá para contar a história do Theatro como uma peça de teatro: um primeiro ato empolgado, um longo meio de crise e silêncio, e uma virada no fim, quando a cidade se recusa a deixá-lo cair. E, do começo ao desfecho, São João nunca fica só na plateia — sobe ao palco como personagem.
 
-> **Em um minuto:** a vontade de construir uma grande casa de espetáculos ganhou forma entre 1911 e 1913. O prédio abriu em 1914, tornou-se palco de muitas artes e depois cinema. Descaracterizado e ameaçado, foi defendido pela população, adquirido pelo município, tombado e restaurado. Em 2002, a plateia voltou a ocupar a sala.
-
 ## 1. Antes da primeira cortina — 1911 a 1913 {#cap-antes-da-primeira-cortina}
 
 No início do século XX, São João da Boa Vista já possuía salões, cinemas e grupos dramáticos. O crescimento econômico, a circulação de imigrantes e o contato de moradores com grandes centros alimentavam, porém, o desejo de uma casa de espetáculos maior e mais preparada.

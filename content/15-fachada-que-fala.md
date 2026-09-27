@@ -13,8 +13,6 @@ status: "dossiê"
 
 Antes de a cortina subir, a fachada já fala. Ela foi composta para anunciar, na própria pedra, o que se esperava encontrar lá dentro — e o que a cidade queria que pensassem dela. Lê-la com atenção, como faz a pesquisa acadêmica, é entender São João no auge do café: uma cidade do interior negociando, no estuque e no ferro, o seu lugar no mundo.
 
-> **Em um minuto:** a fachada é eclética — mistura barroco, clássico e Art Nouveau — e usa estrutura de ferro fundido para erguer um edifício alto e monumental. No alto, uma águia de cimento e vasos coroam a platibanda. Quatro medalhões alinham Wagner, Gounod, Verdi e Carlos Gomes, lado a lado, sem hierarquia. E, por toda parte, ramos de café lembram de quem veio o dinheiro. Era um discurso de modernidade — iluminado, em 1914, por 250 lâmpadas elétricas.
-
 ## Uma alegoria de época
 
 Segundo a leitura de Luis Pedro Dragão Jeronimo, a fachada do Theatro "se transforma numa alegoria de toda uma época". Ela apresenta uma **arquitetura eclética**, com marcantes elementos barrocos e clássicos, somados aos motivos florais em **ferro fundido típicos do Art Nouveau** — uma leitura livre dos cânones acadêmicos. Por trás da ornamentação, o que sustenta tudo é a técnica nova: altos pés-direitos erguidos com alvenaria e estruturas de ferro fundido, a junção "entre tradição e modernidade, entre aquilo que merece ficar e aquilo que é necessário incorporar".
