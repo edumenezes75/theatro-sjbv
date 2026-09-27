@@ -12,12 +12,7 @@
       "erasLinha": [
         "origem"
       ],
-      "fotos": [
-        {
-          "id": "h054",
-          "pos": 1
-        }
-      ],
+      "fotos": [],
       "vozes": [],
       "dossies": [
         {
@@ -47,12 +42,7 @@
       "erasLinha": [
         "construção"
       ],
-      "fotos": [
-        {
-          "id": "h281",
-          "pos": 2
-        }
-      ],
+      "fotos": [],
       "vozes": [],
       "dossies": [
         {
@@ -83,12 +73,7 @@
       "eventosIds": [
         "t005"
       ],
-      "fotos": [
-        {
-          "id": "h257",
-          "pos": 1
-        }
-      ],
+      "fotos": [],
       "vozes": [],
       "dossies": [
         {
@@ -113,16 +98,7 @@
       "excluirEventosIds": [
         "t005"
       ],
-      "fotos": [
-        {
-          "id": "h168",
-          "pos": 7
-        },
-        {
-          "id": "h250",
-          "pos": 21
-        }
-      ],
+      "fotos": [],
       "vozes": [],
       "dossies": [
         {
@@ -159,16 +135,7 @@
         "cine theatro",
         "declínio"
       ],
-      "fotos": [
-        {
-          "id": "h297",
-          "pos": 10
-        },
-        {
-          "id": "h111",
-          "pos": 22
-        }
-      ],
+      "fotos": [],
       "vozes": [],
       "dossies": [
         {
@@ -199,16 +166,7 @@
       "erasLinha": [
         "preservação"
       ],
-      "fotos": [
-        {
-          "id": "h072",
-          "pos": 6
-        },
-        {
-          "id": "h009",
-          "pos": 4
-        }
-      ],
+      "fotos": [],
       "vozes": [],
       "dossies": [
         {
@@ -235,16 +193,7 @@
         "restauro",
         "reabertura"
       ],
-      "fotos": [
-        {
-          "id": "h084",
-          "pos": 13
-        },
-        {
-          "id": "h209",
-          "pos": 16
-        }
-      ],
+      "fotos": [],
       "vozes": [],
       "dossies": [
         {
@@ -271,16 +220,7 @@
       "erasLinha": [
         "contemporâneo"
       ],
-      "fotos": [
-        {
-          "id": "h248",
-          "pos": 10
-        },
-        {
-          "id": "h249",
-          "pos": 12
-        }
-      ],
+      "fotos": [],
       "vozes": [],
       "dossies": [
         {
