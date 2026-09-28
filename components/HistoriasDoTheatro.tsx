@@ -12,6 +12,34 @@ const CANAIS: { nome: string; href?: string }[] = [
   { nome: 'Spotify' },
 ];
 
+// Ícones de traço, uma cor (currentColor), no mesmo peso das linhas do site.
+const ICONES: Record<string, JSX.Element> = {
+  Instagram: (
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden>
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4.2" />
+      <circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none" />
+    </svg>
+  ),
+  TikTok: (
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden>
+      <path d="M16.6 3c.3 2.2 1.7 3.9 4 4.1v3a7.2 7.2 0 0 1-4-1.3v6.4A5.8 5.8 0 1 1 10.8 9.5v3.1a2.8 2.8 0 1 0 2.8 2.8V3h3Z" />
+    </svg>
+  ),
+  YouTube: (
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden>
+      <rect x="2.5" y="5.5" width="19" height="13" rx="4" />
+      <path d="M10 9.2v5.6l4.8-2.8L10 9.2Z" fill="currentColor" stroke="none" />
+    </svg>
+  ),
+  Spotify: (
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" aria-hidden>
+      <circle cx="12" cy="12" r="9.5" />
+      <path d="M7 9.6c3.6-1 7.4-.7 10.3.9M7.6 12.7c3-.8 6-.5 8.4.8M8.3 15.6c2.3-.5 4.5-.3 6.3.6" />
+    </svg>
+  ),
+};
+
 // Depois da noite de estreia, o convite vira registro.
 const FIM_DA_ESTREIA = new Date('2026-10-02T23:59:00-03:00');
 
@@ -61,13 +89,18 @@ export default function HistoriasDoTheatro() {
                           href={c.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-cream underline decoration-gold/50 underline-offset-4 transition-colors hover:text-gold hover:decoration-current"
+                          aria-label={`${c.nome} de As Histórias do Theatro`}
+                          className="inline-flex items-center gap-2 text-cream transition-colors hover:text-gold"
                         >
-                          {c.nome} ↗
+                          {ICONES[c.nome]}
+                          <span className="underline decoration-gold/50 underline-offset-4">{c.nome}</span>
                         </a>
                       ) : (
-                        <span className="text-cream/50">
-                          {c.nome} <span className="text-xs">· em breve</span>
+                        <span className="inline-flex items-center gap-2 text-cream/45">
+                          {ICONES[c.nome]}
+                          <span>
+                            {c.nome} <span className="text-xs">· em breve</span>
+                          </span>
                         </span>
                       )}
                     </li>
