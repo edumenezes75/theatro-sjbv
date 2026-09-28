@@ -1,0 +1,5564 @@
+{
+ "fonte": "AMITE, “Theatro Municipal — 100 anos: Histórico”, dossiê do projeto do centenário, agosto de 2014, p. 11–29.",
+ "nota": "Relação da programação levantada pela AMITE entre a reabertura, em 2002, e 2013. Os títulos estão como no documento original.",
+ "resumos": {
+  "2010": {
+   "linhas": [
+    "23 peças de teatro adulto",
+    "10 peças de teatro infantil",
+    "25 eventos musicais",
+    "10 espetáculos de dança",
+    "9 eventos culturais variados",
+    "7 eventos da Virada Cultural Paulista",
+    "7 eventos da Semana do Theatro – 96 anos",
+    "5 eventos - 100 anos - Pagu da Serra ao Mar",
+    "8 eventos da 33ª Semana Guiomar Novaes",
+    "36 filmes exibidos no Cineclube Beloca"
+   ],
+   "total": 130
+  },
+  "2011": {
+   "linhas": [
+    "25 peças teatrais adultas",
+    "7 peças infantis",
+    "35 eventos musicais",
+    "12 espetáculos de dança",
+    "7 eventos na 34ª Semana Guiomar Novaes",
+    "6 eventos na Virada Cultural Paulista",
+    "6 eventos na Semana do Theatro",
+    "41 filmes pelo Cineclube Beloca",
+    "15 outros eventos variados"
+   ],
+   "total": 152
+  },
+  "2012": {
+   "linhas": [
+    "16 peças de teatro adulto",
+    "10 peças de teatro infantil",
+    "24 eventos musicais",
+    "9 espetáculos de dança",
+    "10 eventos variados",
+    "9 eventos da Virada Cultural Paulista",
+    "6 eventos da 1ª Semana Assad",
+    "10 eventos da 35ª Semana Guiomar Novaes",
+    "36 filmes exibido no Cineclube Beloca"
+   ],
+   "total": 130
+  },
+  "2013": {
+   "linhas": [
+    "12 peças de teatro adulto",
+    "14 peças de teatro infantil",
+    "22 eventos musicais",
+    "9 espetáculos de dança",
+    "14 eventos variados",
+    "16 eventos do 1º Festival de Teatro “Leilah Assunção”",
+    "6 eventos da 2ª Semana Assad",
+    "10 eventos da 36ª Semana Guiomar Novaes",
+    "7 eventos Semana de Aniversário do Theatro",
+    "7 eventos na Programação de Natal",
+    "39 filmes apresentados no Cineclube Beloca"
+   ],
+   "total": 150
+  }
+ },
+ "itens": [
+  {
+   "ano": 2002,
+   "cat": "Música",
+   "t": "25ª Semana Guiomar Novaes – 2002",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2002,
+   "cat": "Outros",
+   "t": "Reabertura do Theatro após a restauração"
+  },
+  {
+   "ano": 2002,
+   "cat": "Música",
+   "t": "Dias de Paz – Beto Guedes e Banda"
+  },
+  {
+   "ano": 2002,
+   "cat": "Música",
+   "t": "Performance “Semana de 22” - Ana Vieira – Piano"
+  },
+  {
+   "ano": 2002,
+   "cat": "Música",
+   "t": "Piano & Gaita – Clayber de Souza e Tatto Andreatta"
+  },
+  {
+   "ano": 2002,
+   "cat": "Música",
+   "t": "Duo Carrasqueira – Piano e flauta"
+  },
+  {
+   "ano": 2002,
+   "cat": "Música",
+   "t": "Grupo Divina Café"
+  },
+  {
+   "ano": 2002,
+   "cat": "Música",
+   "t": "Verdades e Mentiras – Quarteto em CY"
+  },
+  {
+   "ano": 2002,
+   "cat": "Música",
+   "t": "Árias de Óperas – Orquestra Sinfônica Jovem do Estado de São Paulo"
+  },
+  {
+   "ano": 2002,
+   "cat": "Formação",
+   "t": "A Música Brasileira no Século XX – Zuza Homem de Mello - Workshop"
+  },
+  {
+   "ano": 2002,
+   "cat": "Dança",
+   "t": "Tangamente – Ballet Stagium e Amelita Baltar"
+  },
+  {
+   "ano": 2002,
+   "cat": "Música",
+   "t": "Cláudio Richerme - Pianista"
+  },
+  {
+   "ano": 2003,
+   "cat": "Música",
+   "t": "26ª Semana Guiomar Novaes - 2003",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2003,
+   "cat": "Música",
+   "t": "Opereta de Noel Rosa, “A Noiva do Condutor”, composta entre 1935 e 1936, para o Radioclube do Brasil"
+  },
+  {
+   "ano": 2003,
+   "cat": "Música",
+   "t": "Leny Andrade, Zé Luis Mazziotti & Fábio Torres Trio"
+  },
+  {
+   "ano": 2003,
+   "cat": "Cinema",
+   "t": "Nelson Freire – documentário de João Moreira Sales"
+  },
+  {
+   "ano": 2003,
+   "cat": "Música",
+   "t": "Piano a Quatro Mãos com Diva Reale e Sheila Miguel"
+  },
+  {
+   "ano": 2003,
+   "cat": "Música",
+   "t": "Miúcha & Leandro Braga"
+  },
+  {
+   "ano": 2003,
+   "cat": "Formação",
+   "t": "Cláudio Richerme e de Fabiane de Castro – vencedora do 3º Concurso de Piano"
+  },
+  {
+   "ano": 2003,
+   "cat": "Formação",
+   "t": "Na 26ª Semana Guiomar Novaes foi realizado o 3º Concurso de Piano, destinado a pianistas brasileiros natos ou naturalizados, com idade entre 16 e 28 anos completos. O primeiro colocado no 3º Concurso de Piano Semana Guiomar Novaes recebeu R$ 3.000,00 e participou de um recital que fez parte da programação da 26ª Semana Guiomar Novaes em nossa cidade. Os classificados entre segundo e quinto lugares receberam certificados de participação",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "27ª Semana Guiomar Novaes – 2004",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "Camerata de Violões – Regente João Batista Rodrigues Jr"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "Sopro Brasileiro – MPB"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "Reginaldo Mordenti – Piano"
+  },
+  {
+   "ano": 2004,
+   "cat": "Formação",
+   "t": "A Música na Escola – Seminário –Maria Zei Biagioni- Márcia Visconti –Neide R. Gomes"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "Orquestra de Sopros – Regente Henrique Borges"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "Cláudio Richerme – Piano"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "Coral Boca Livre – Regente Eduardo Estevão Ferreira e tecladista Sara Ramos"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "Duo Brasil América – Terão Chebl – Piano – e Júlio Cerezo Ortiz – Violoncelo"
+  },
+  {
+   "ano": 2004,
+   "cat": "Dança",
+   "t": "Momentos – Cia. Alongue-se de Dança"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "Jane Duboc e Piano – MPB"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "Banda Sinfônica Jovem do Centro de Estudos Musicais Tom Jobim - Regente Mônica Giardini"
+  },
+  {
+   "ano": 2004,
+   "cat": "Música",
+   "t": "Festival dos Festivais – Regente Adylson Godoy"
+  },
+  {
+   "ano": 2005,
+   "cat": "Teatro",
+   "t": "Pe. Vieira e João Merlin (Grupo EntreCantos e Coral Elohin)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Teatro",
+   "t": "O Pequeno Príncipe (adaptação de Zeza Freitas)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Teatro",
+   "t": "Romeu e Julieta (adaptação de Zeza Freitas)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Teatro",
+   "t": "O Mundo e um Palco de Sheakspeare – Cena IV"
+  },
+  {
+   "ano": 2005,
+   "cat": "Teatro",
+   "t": "Agnes de Deus—de John Peilmeir – Cena IV"
+  },
+  {
+   "ano": 2005,
+   "cat": "Teatro",
+   "t": "Cristo Proclamado – Grupo Anjos Pornográficos"
+  },
+  {
+   "ano": 2005,
+   "cat": "Teatro",
+   "t": "Santa Luzia passou por aqui e seu Cavalinho comendo capim"
+  },
+  {
+   "ano": 2005,
+   "cat": "Teatro",
+   "t": "Núcleo Teatral Popular do SESI"
+  },
+  {
+   "ano": 2005,
+   "cat": "Teatro",
+   "t": "Donana – Ronaldo Ciambrone e Patricia Rinaldi"
+  },
+  {
+   "ano": 2005,
+   "cat": "Comédia",
+   "t": "O Analista de Bagé e a Super Fêmea"
+  },
+  {
+   "ano": 2005,
+   "cat": "Comédia",
+   "t": "Trair e Coçar e só Começar"
+  },
+  {
+   "ano": 2005,
+   "cat": "Comédia",
+   "t": "Pra cima todo santo ajuda"
+  },
+  {
+   "ano": 2005,
+   "cat": "Comédia",
+   "t": "Aconteceu com Shirley Taylor"
+  },
+  {
+   "ano": 2005,
+   "cat": "Comédia",
+   "t": "Dialogo do Pênis"
+  },
+  {
+   "ano": 2005,
+   "cat": "Infantil",
+   "t": "As aventuras do Rei Leão (Cia Teatral Rick & Kelly)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Infantil",
+   "t": "O Pequeno Príncipe"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Caipira Clássico (Maestro Carlos Lima & Quarteto de Cordas)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Coral Municipal de Aguai"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Gabriel Faria Andery – pianista"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "De Mães para Mães – Silvia Ferrante e convidados"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Boleros – Angelina Oliveira, Marcio Pereira, Rubinho Freitas e Raphael Valle"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Elaine Seixas"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Noite Flamenca (musica e dança)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Chasky – Grupo de Folclore"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "As canções que você fez pra mim"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Minha Voz Minha Vida"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Um Canto de País – com Silvia Ferrante e Lima – Heleno Montanhani, João Bota, Rodolfo Peres Ronaldo"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Gião e Salles Marcos - Concertos Matinais",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Orquestra Asperggione – Maestro James Brooks-Bruzzese"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Carolina Cachola, Gustavo Bussi, Waldran Reggio e João Victor - Concertos Matinais",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Noite de Choro e Samba - Josiane e Trio Tira Poeira"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Black Singers – Grupo de canto à capela e percussão vocal – Concertos Matinais",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Trajetória – Só Kaká"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Tributo à Carmen Miranda – Priscila Rehder, Beto Amik, Micael Chaves e Jorge Assad"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Ica Assad e Micael Chaves – com Cito Assad – Concertos Matinais",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Algumas Melodias – com Júlio Lima, Luis Cláudio e Baltazar"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Musas - Show Mulheres – (bis) Direção de Vânia e Fafá Noronha (CLAC)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Trio Chorinho Sulfuroso"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Um dia de domingo (Mario Pereira, Raphael Du Valle, Rubinho Freitas)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Certas Canções (Silvia Ferrante e Marcio Pereira)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Conversas de Bar (Carioca e Waldran)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Coral Vozes de Águas da Prata"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Missa Theresa - de Haydn"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Festa de Arromba (sucessos da jovem guarda)"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "28ª Semana Guiomar Novaes – 2005",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Big Band do Conservatório de Tatuí"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Bachiana Chamber – Regente João Carlos Martins – Solista Juliana D`Agostini – piano"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Grupo de Percussão GaiaGruv"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Cláudio Richerme – Piano"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Felipe Scagliusi – Piano"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Pedro e o Lobo – Teatro Infantil"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Cantores do Rádio"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Quebra Nozes – teatro Infantil"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Heloisa Fernandes - Piano – Trio"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Orquestra Paulista de Viola Caipira"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Paixão Segundo Martins – DVD João Carlos Martins"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Canções Brasileiras – Consuelo de Paula"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Relembrando Guiomar Novaes – Conferência de Ciro G. Dias"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Gilberto Tinetti – Piano"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Cia. De Dança"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Guiomar – filme de Norma Benguel"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Mulheres de Vinícius – Alaíde Costa e Claudete Soares"
+  },
+  {
+   "ano": 2005,
+   "cat": "Música",
+   "t": "Banda Sinfônica Jovem do Centro de Estudos Musicais Tom Jobim - Regente Mônica Giardini"
+  },
+  {
+   "ano": 2005,
+   "cat": "Formação",
+   "t": "Historia das culturas Africana e afro-brasileiras"
+  },
+  {
+   "ano": 2005,
+   "cat": "Formação",
+   "t": "Workshop de Ulisses Rocha – Estudos e outras Ideias"
+  },
+  {
+   "ano": 2005,
+   "cat": "Outros",
+   "t": "Festival Estudantil de Teatro"
+  },
+  {
+   "ano": 2006,
+   "cat": "Teatro",
+   "t": "O mundo e um palco"
+  },
+  {
+   "ano": 2006,
+   "cat": "Teatro",
+   "t": "Amigas para Sempre – de Maria Adelaide Amaral"
+  },
+  {
+   "ano": 2006,
+   "cat": "Teatro",
+   "t": "A Farsa de Inês Pereira de Gil Vicente. Direção de João Guilherme de Oliveira Pelegrini - Grupo Namarca"
+  },
+  {
+   "ano": 2006,
+   "cat": "Comédia",
+   "t": "Pra Cima todo Santo ajuda – com João Camargo e Roberto Battaglin"
+  },
+  {
+   "ano": 2006,
+   "cat": "Comédia",
+   "t": "Entrando numa fria"
+  },
+  {
+   "ano": 2006,
+   "cat": "Comédia",
+   "t": "Uma Empregada quase Perfeita – Direção Miriam Lins, com Hilton Have, Carlos Denoni e Bruma Spinola"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Tributo à Guiomar Novaes – Júlio César Huertas – Piano – Ulrich - Barítono"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Uma noite de Tango (musica e danca)"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Orquestra Sinfônica de Vozes Sanjoanenses – regência de Agenor Ribeiro"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Serginho Convida"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Jovens Talentos – Lucas Nogara e Ariel Sanches - piano e violino – Concertos Matinais",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Concerto de Samba - José Márcio Carioca e grupo de samba"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "O samba, a seresta – Samir Nassur- violão e voz e Renata Melo -voz"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Tributo a Cartola (Rubinho na percussão e Fredinho Blasi no violão"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Show de Luis Braido - MPB"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Coração Leviano – com Silvia Ferrante, Luis Cláudio e Beto Amiki"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Recital de Flauta e Piano – Villa Lobos e Mozart - alunos de Márcia Zan"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Certas Canções – Alunos CLAC"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Os Trovadores Urbanos - com Maída, Juca, Eduardo e Valéria"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "29ª Semana Guiomar Novaes",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Orquestra Sinfônica Paulista – Regência de Juliano de Arruda"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Campos – Piano Mirian Braga"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Orquestra Jazz Sinfônica – Regente Cyro Pereira"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Beatles lado B – Grupo Quartier latin"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "João e Maria – Teatro Infantil"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Recital de Canto e Piano – Rita Sampaio e Cláudio Richerme"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Cida Moreira canta Chico Buarque"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Banda Sinfônica do estado de São Paulo – Regente Abel Rocha"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Memória Musical: De Guiomar Novaes a Geraldo Filme – Maria Alcina"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "O Barbeiro de Sevilha – Giacomo Rossini – Trechos da Ópera"
+  },
+  {
+   "ano": 2006,
+   "cat": "Música",
+   "t": "Cantinho de Nóis – Dança – Grupo Jorge Garcia e Cia"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Recital de Flauta, Canto e Piano Grupo de Flautas da profa. Mirian Pipano (Soprano Neusa Menezes Tenor"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Iremilio Caslini Tenor Euclides Dotta Jr. Barítono Paulo Edson Alves)"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Garotas Da Bossa"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Águas de Março Silvia Ferrante e Beto (percussão) e Lima (violão)"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Zimbo Trio"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Nenê Trio"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Beatles Cover"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Coral Nestlé"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Cinema Cia. Filarmônica"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Movimento Musical Recital de Trompete e piano com Anor Luciano Jr (trompete), Cláudia Marques (piano) e o grupo de Trompetes Weril"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Banda de Música Dona Gabriela e Grupo de Trompetes Weril"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "TODO SENTIMENTO Apresentação Musical Do Coral Canto Na Boca Da Santa Casa, Coral Vida Ativa Da Sociedade Esportiva Sanjoanense E Alunos Do CLAC"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Conexão Alpha Bandas: Aloha, Atitude 05, Loucur@.Com e o Grupo É O Balanço"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Cantares Grupo Canto e Corda"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Alegria Fernanda E Fabiana"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Bate Coração 2 Banda Clac"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Corais Infanto Juvenil Vozes De São João, Boca Livre E Elohi"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Comida - (Bom Apetite)"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Banda Alta Estação"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Fausto Moretti - My Way"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Festival dos Festivais"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Recital de Piano E Violino"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Nô Stopa e o cantor e compositor de São João da Boa Vista RogériO Camargo"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Apresentação Projetos Canto Livre - Meninos de São João -Percussão – Arcos e Cordas"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Pedro Mariano"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Apresentação Dos Corais Vozes de São João e Boca Livre - Alunos do Projeto Teclado"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Banda Infanto Juvenil - Maestro Eymard Gonçalves"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Apresentação Orquestra Municipal De Sopro - Professor Henrique Borges"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Show Badi Assad"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Piano a quatro mãos – Cristiane Buosi e Alan Barcelos Ribeiro"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Faz parte do meu show – Paulinho Sguassábia (voz) e Henrique Mérida (bateria e percussão"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Show Bate Coração"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Divina Caipira – Vera Guarita - obra musical de Edvina Noronha Andrade"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Eu e minhas composições Gustavo Bussi"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Rancho Folclórico Português Cantares e Dançares do Minho"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Fernanda Vieira e Eduardo Lobo"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Carol Cachola e Gustavo Bussi"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Um Canto de Pais – Silvia Ferrante"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Micael e Dona Ica Assad"
+  },
+  {
+   "ano": 2007,
+   "cat": "Música",
+   "t": "Círculo Zezinho Só reúne cantores, cantoras e coral em um passeio pela música em geral"
+  },
+  {
+   "ano": 2007,
+   "cat": "Cinema",
+   "t": "Nelson Freire -2003, Dirigido Por João Moreira Salles",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2003
+  },
+  {
+   "ano": 2007,
+   "cat": "Cinema",
+   "t": "Família Assad - A Moment Of Pure Love + O Documentário Curta",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2007,
+   "cat": "Cinema",
+   "t": "Metragem Suíte Assad",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2007,
+   "cat": "Cinema",
+   "t": "Blow Up – Depois Daquele Beijo -1966, Michelangelo Antonioni",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1966
+  },
+  {
+   "ano": 2007,
+   "cat": "Cinema",
+   "t": "Passageiro: Profissão Reporter -1975, Michelangelo Antonioni",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1975
+  },
+  {
+   "ano": 2007,
+   "cat": "Cinema",
+   "t": "Fanny & Alexander (1982, Ingmar Bergman",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1982
+  },
+  {
+   "ano": 2007,
+   "cat": "Teatro",
+   "t": "Dom Casmurro"
+  },
+  {
+   "ano": 2007,
+   "cat": "Teatro",
+   "t": "O Rouxinol E A Rosa"
+  },
+  {
+   "ano": 2007,
+   "cat": "Teatro",
+   "t": "Laços Eternos - Annamaria Dias Do Romance Psicografado por Zibia Gasparetto"
+  },
+  {
+   "ano": 2007,
+   "cat": "Teatro",
+   "t": "São João: Novos Velhos Olhares"
+  },
+  {
+   "ano": 2007,
+   "cat": "Teatro",
+   "t": "O Boi , O Burro e o Menino No Caminho de Belém - Farsa de Natal"
+  },
+  {
+   "ano": 2007,
+   "cat": "Teatro",
+   "t": "Cristo Proclamado Grupo Teatral Anjos Pornográficos"
+  },
+  {
+   "ano": 2007,
+   "cat": "Teatro",
+   "t": "Donana Ronaldo Ciambroni, Boleros"
+  },
+  {
+   "ano": 2007,
+   "cat": "Teatro",
+   "t": "Santa Luzia Passou Por Aqui Com Seu Cavalinho Comendo Capim"
+  },
+  {
+   "ano": 2007,
+   "cat": "Infantil",
+   "t": "Gasparzinho, o Fantasminha Atrapalhado Troupe Teatral Paulistana"
+  },
+  {
+   "ano": 2007,
+   "cat": "Infantil",
+   "t": "O Leão e o Ratinho"
+  },
+  {
+   "ano": 2007,
+   "cat": "Infantil",
+   "t": "O Pequeno Príncipe"
+  },
+  {
+   "ano": 2007,
+   "cat": "Comédia",
+   "t": "Musikiriso"
+  },
+  {
+   "ano": 2007,
+   "cat": "Comédia",
+   "t": "As Mentiras que os Homens Contam - Luis Fernando Veríssimo"
+  },
+  {
+   "ano": 2007,
+   "cat": "Comédia",
+   "t": "Entrando Numa Fria"
+  },
+  {
+   "ano": 2007,
+   "cat": "Comédia",
+   "t": "A Todo Vapor - Ari Toledo"
+  },
+  {
+   "ano": 2007,
+   "cat": "Comédia",
+   "t": "Querido Mundo - Miguel Falabella e Maria Carmem Barbosa"
+  },
+  {
+   "ano": 2007,
+   "cat": "Comédia",
+   "t": "Doce Traição"
+  },
+  {
+   "ano": 2007,
+   "cat": "Comédia",
+   "t": "É Tudo Piada"
+  },
+  {
+   "ano": 2007,
+   "cat": "Dança",
+   "t": "VII Mostra de Dança de São João da Boa Vista"
+  },
+  {
+   "ano": 2007,
+   "cat": "Dança",
+   "t": "Espetáculo De Ballet Quebra Nozes - Studium Joellem De Ballet"
+  },
+  {
+   "ano": 2007,
+   "cat": "Dança",
+   "t": "‘'Suíte Clássica'' Studium Joelen de Ballet Clássico"
+  },
+  {
+   "ano": 2007,
+   "cat": "Dança",
+   "t": "8º Festival Anual de Ballet Clássico Do Studium Joelen"
+  },
+  {
+   "ano": 2007,
+   "cat": "Dança",
+   "t": "Cidade De Ouro – A Cia. Newton Moraes Dance Theatre"
+  },
+  {
+   "ano": 2007,
+   "cat": "Dança",
+   "t": "18º Festival Regional de Rítmica e Dança"
+  },
+  {
+   "ano": 2007,
+   "cat": "Formação",
+   "t": "O piano de Amilton Godoy - Workshop"
+  },
+  {
+   "ano": 2007,
+   "cat": "Formação",
+   "t": "Palestra “A Paixão e o Crime Palestra com a escritora e Procuradora de Justiça do Ministério Público de São Paulo”"
+  },
+  {
+   "ano": 2007,
+   "cat": "Formação",
+   "t": "Socorro! Preciso Cantar - Workshop de canto"
+  },
+  {
+   "ano": 2007,
+   "cat": "Formação",
+   "t": "A Guitarra de Michel Leme"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "XI Semana da Educação"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "III Feira de Integração Cultural"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Prêmio Alpha"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "II Monofest – Festival Amador De Monólogos",
+   "proj": "Monofest"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Festival Estudantil de Teatro e Festival de Teatro Amador de S. J. Da Boa Vista"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "30a SEMANA GUIOMAR NOVAES",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Concerto Banda Sinfônica do Estado de São Paulo - Regência: Érica Hindrikson, Solistas André Mehmari"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "(Piano) e Cláudio Richerme (Piano)"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Recital de Piano - Eudóxia de Barros"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Corporação Musical Dona Gabriela De Oliveira"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Cisne Negro Cia De Dança"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Teatro Infantil – Le Cirque Magique"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Guinga e Paula Santoro"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Recital de Música Italiana"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Sujeito a Guincho – Quinteto de Clarinetes"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Tango e Paixão – Música e Dança"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Show Izaias e Seus Chorões"
+  },
+  {
+   "ano": 2007,
+   "cat": "Outros",
+   "t": "Wagner Tiso"
+  },
+  {
+   "ano": 2008,
+   "cat": "Teatro",
+   "t": "A Megera Domada"
+  },
+  {
+   "ano": 2008,
+   "cat": "Teatro",
+   "t": "Pe. Vieira, arquiteto dos sonhos, João, Engenheiro da Paixões - Grupo EntreCantos e a Academia de Letras"
+  },
+  {
+   "ano": 2008,
+   "cat": "Teatro",
+   "t": "Universo do Santos"
+  },
+  {
+   "ano": 2008,
+   "cat": "Teatro",
+   "t": "Espetáculo Teatral Quebra Nozes - Cia Art & Expressão"
+  },
+  {
+   "ano": 2008,
+   "cat": "Infantil",
+   "t": "A bruxinha que era boa (Maria Clara Machado)"
+  },
+  {
+   "ano": 2008,
+   "cat": "Infantil",
+   "t": "Branca de Neve"
+  },
+  {
+   "ano": 2008,
+   "cat": "Infantil",
+   "t": "A Bela e a Fera"
+  },
+  {
+   "ano": 2008,
+   "cat": "Infantil",
+   "t": "Pluft, o Fantasminha - de Maria Clara Machado"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Zévaristo & Convidados - Clésio R. Tardelli"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "O Amante Do Meu Marido - Com Matheus Carrieri"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Humor De Quinta - Sergio Rabello E Os Fundadores do Terça Insana Octávio Mendes e Ângela Dip"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Mãos Ao Alto São Paulo"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Hoje Me Chamo Dinorá - de Janete Clair Adaptado - Por Maria Carmem Barbosa, Direção de Cininha De"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Paula, Cenário e Figurino:Cláudio Tovar"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Humor De 3"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Hora De Rir"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "A Mulher do Candidato -de Walcyr Carrasco. Direção De Cininha De Paula. Com: Giuseppe Oristânio, Andréa Avancini, Anselmo Vasconcellos, Laura Proença e Rogério Fabiano"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "O Pai da Noiva"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Dó Ré Mi Fafy"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "O Auto da Compadecida Cia. Teatral Etc. & Tal"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Diogo Portugal stand up comedy"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Trair e Coçar"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "De Malas Prontas comedia"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Ladra que furta ladra não merece pancada"
+  },
+  {
+   "ano": 2008,
+   "cat": "Comédia",
+   "t": "Hoje temos previsão de... pancadas (comedia)"
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Amarcord (Federico Fellini)",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Ladrões de Bicicletas (Vittorio de Sica)",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Zabriskie Point - 1970 - Direção: Michelangelo Antonioni",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1970
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Selvagem da Motocicleta - 1983 - Direção: Francis Ford Coppola",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1983
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Nós Que nos Amávamos Tanto - 1974 - Ettore Scola",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1974
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "A Marvada Carne - 1985 - André Klotzel",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1985
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "A Pantera Cor de Rosa - 1963 - Blake Edwards",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1963
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Um Peixe chamado Wanda - 1988 - Charles Crichton",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1988
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Cafundó - 2005 - Paulo Betti / Clóvis Bueno",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2005
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Dias Selvagens- 1991 - Wong Kar-Wai",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1991
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Felizes Juntos - 1997 - Wong Kar-Wai",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1997
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Amor à Flor da Pele - 2000 - Wong Kar-Wai",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2000
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Butch Cassidy - 1969 - George Roy Hill",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1969
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Golpe de Mestre - 1973 - George Roy Hill",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1973
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Buffalo Bill - 1976 - Robert Altman",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1976
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Buenos Aires 100 KM - 2004 – Argentina - Pablo José Meza",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2004
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "A Honra e outras Dores em comemoração aos 100 anos da imigração japonesa no Brasil:",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "A Balada de Narayama - 1983 - Shohei Imamura - Japão",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1983
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Dolls - 2002- 114 MIN - Tadeshi Kitano - Japão",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2002
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Vital - 2005 - Shinya Tsukamoto - Japão",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2005
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "“Homossexualidade - Pessoal e Intransferível”",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Je T'aime Moi Non Plus (Paixão Selvagem) - 1976 - Serge Gainsburg - França",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1976
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Furyo - Em nome da honra - 1983 - Nagisa Ishima - GB/Japão",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1983
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Spider Lillies (Lírios Aranha) - 2007- Zero Chou - Taiwan",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Nove Rainhas - 2000 – Argentina - Fabián Bielinsky – Spider Lillies (Lírios Aranha) - 2007 - Taiwan",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2000
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Macunaíma - 1969 – Brasil - Joaquim Pedro de Andrade",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1969
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Um Filme Falado - 2003 - Portugal - Manoel de Oliveira",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2003
+  },
+  {
+   "ano": 2008,
+   "cat": "Cinema",
+   "t": "Silvestre- 1982 - Portugal - João Cesar Monteiro",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1982
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Show Mulher ( Luciana Guimarães, acompanhada pelos músicos Márcio Pereira -piano e Henrique Borges -sax e flauta transversal"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Írio Jr. - Pianista, compositor e arranjador"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Bossa sempre nova -alunos CLAC"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Cantores de Deus"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Banda Roubber Soul -Beatles cover"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Camerata Municipal -Regência de Carlos Henrique Toni Silva"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Show Cristal de Nós - Zézinho Só e Convidados"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Canto E Percussão"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "CLAC em todos os Sons"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Prêmio Alpha"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "São João Encanta 2008 - Encontro Regional De Corais"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Circo Dos Sonhos"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Orquestra Municipal De Sopro"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Couvert Artístico -Homenagem a Raul Seixas, Tim Maia e Legião Urbana"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Tributo A Elizeth - Renata Melo e Convidados"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Quinteto de Violões da Prefeitura Municipal"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Grupo Roda de Samba"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Camerata Municipal de Sopro"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Amigo é Prá Essas Coisas - Luiz Carlos Moreira - Violonista, cantor"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "“Relembrando Adoniran Barbosa”"
+  },
+  {
+   "ano": 2008,
+   "cat": "Música",
+   "t": "Samblujazz"
+  },
+  {
+   "ano": 2008,
+   "cat": "Dança",
+   "t": "7º Encontro Regional de Danças do Mundo"
+  },
+  {
+   "ano": 2008,
+   "cat": "Dança",
+   "t": "Espetáculo de dança com flamenco, cigana, dança de salão, rumba, danças árabes, dança de rua e muito mais!"
+  },
+  {
+   "ano": 2008,
+   "cat": "Dança",
+   "t": "As 12 Princesas Bailarinas de Barbie Studium Joelen"
+  },
+  {
+   "ano": 2008,
+   "cat": "Outros",
+   "t": "Literatura Percussiva - espetáculo multimídia, com predominância de aspecto musical e da arte cênica"
+  },
+  {
+   "ano": 2009,
+   "cat": "Teatro",
+   "t": "Kama-sutra André Gonçalves dos Santos"
+  },
+  {
+   "ano": 2009,
+   "cat": "Teatro",
+   "t": "Vergonha dos Pés,de Fernanda Young Com Juliana Knust e Danton Mello"
+  },
+  {
+   "ano": 2009,
+   "cat": "Teatro",
+   "t": "Qual a cor do nosso leite Uma peça afro, que homenageia a Lei Áurea"
+  },
+  {
+   "ano": 2009,
+   "cat": "Teatro",
+   "t": "“Eu, Ídolo”"
+  },
+  {
+   "ano": 2009,
+   "cat": "Teatro",
+   "t": "A Noviça Rebelde Direção geral: Silene Michelazzo"
+  },
+  {
+   "ano": 2009,
+   "cat": "Teatro",
+   "t": "A Máquina do Tempo - Tiago Couto Ansani"
+  },
+  {
+   "ano": 2009,
+   "cat": "Teatro",
+   "t": "Rita de Cássia - Mulher, Esposa, Mãe, Consagrada e Santa"
+  },
+  {
+   "ano": 2009,
+   "cat": "Teatro",
+   "t": "Direção: Fred Melo"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "O Mercador de Veneza - Uma Comédia de William Shakespeare"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Musik e Riso"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "O Amante do meu Marido Texto - Rodolfo da Rocha Carvalho (Carvalhinho)"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Adaptação / Direção - Miriam Lins"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Elenco - Milton Levy / Mateus Carrieri / Miriam Lins / Adelita Del Sent"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "O Mercador de Veneza - de William Shakespeare"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Lisístrata ou A Greve do Sexo - O Colégio Integral São João"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Velório à brasileira"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "De Malas Prontas"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Descascando o Abacaxi"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Os Pândegos - Dig Dutra e Wagner Trindade"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "O que mata é a espera - Giovani Bras (Caixeiro) e Paulo Pioli fazem parte do nosso grupo Benigno Gaiga fundado ha 50 anos"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Marco Luque - Stand Up Comedy"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Juca Chaves – Jubileu De Ouro"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Don Juan - Grupo Tic Tac"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "Robótico - ator e diretor Carlos Augusto Sopran"
+  },
+  {
+   "ano": 2009,
+   "cat": "Comédia",
+   "t": "O Caixeiro do Riso – Resista se for capaz - Giovani Braz"
+  },
+  {
+   "ano": 2009,
+   "cat": "Infantil",
+   "t": "O Pequeno Príncipe - Antoine de Saint Exupèry"
+  },
+  {
+   "ano": 2009,
+   "cat": "Infantil",
+   "t": "A Princesa do Lago dos Cisnes"
+  },
+  {
+   "ano": 2009,
+   "cat": "Infantil",
+   "t": "Conto De Natal de Dickens -Um Clássico Da Literatura"
+  },
+  {
+   "ano": 2009,
+   "cat": "Infantil",
+   "t": "A Bruxinha Boa"
+  },
+  {
+   "ano": 2009,
+   "cat": "Infantil",
+   "t": "A Ilha do Ouro - Cia de Teatro"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Nossas canções preferidas dupla sanjoanense -Sena e Suez"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Cia Tango e Paixão - musica e dança"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Audição Clac - Concertos Matinais - Afinando as Cordas 8 Anos",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Certas Canções"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "A Viola do Brasil - Mazinho Quevedo- Encontro de Corais de SJBVista"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Cantata de Natal - Grupo Namarca e Convidados"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Audição musical alunos clac"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Orquestra Municipal de Sopro & Alunos Escola Municipal Iniciação Musical"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Lançamento DVD Caminho da Fé - Show Walgra Maria & Vinicius Alves"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Um piano,sua história,seus estilos e seus mestres,com o Maestro Adylson Godoy"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Austrália cai no Choro - Helô Mc Millan"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Drinks & Vertigens Show com o músico Adilson Olea"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Cinquentenário de Villa Lobos"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Orquestra de Violas de Tapiratiba"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Cortina Lírica A Escola Vivace - Movimento Artístico Musical de Poços de Caldas – MG"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Sambando e chorando – Flávia Soares e Edu Luciano"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Grupo Samba de Roda: Show Geraldo Filme, uma história no samba"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Nossas canções preferidas - Sena e Suez"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Show Banda Pecado Capital – gravação de DVD"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Micael Chaves - Violão Solo - Participação Especial: Dona Ica Assad"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Banda Radicais Livres Show Acústico"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Show Musical “Encontro “"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Venha Antes que Eu Acabe - Márcio Ribeiro:"
+  },
+  {
+   "ano": 2009,
+   "cat": "Dança",
+   "t": "8° Encontro de Danças do Mundo"
+  },
+  {
+   "ano": 2009,
+   "cat": "Dança",
+   "t": "III Festival de Dança Profa. Claudia Jesus Silva Silveira - Academias de São João"
+  },
+  {
+   "ano": 2009,
+   "cat": "Dança",
+   "t": "Espetáculo Ballet Clássico Studium Joellen"
+  },
+  {
+   "ano": 2009,
+   "cat": "Outros",
+   "t": "Feira De Integração Cultural - Núcleo de Dança"
+  },
+  {
+   "ano": 2009,
+   "cat": "Outros",
+   "t": "Virada Cultural Paulista 2009",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2009,
+   "cat": "Outros",
+   "t": "Cidadania E Responsabilidade Social – Prêmio Alpha 2009"
+  },
+  {
+   "ano": 2009,
+   "cat": "Outros",
+   "t": "21º Festival de Teatro de São João Da Boa Vista Atilio Eduardo Gallo Lopes"
+  },
+  {
+   "ano": 2009,
+   "cat": "Outros",
+   "t": "Festival de Dança Da Escola da Família Santos Cabral E Cia De Teatro E Dança ArtExpressão"
+  },
+  {
+   "ano": 2009,
+   "cat": "Outros",
+   "t": "4º Encontro de Bateristas de São João e Região"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Uma Noite Na Ópera - Orquestra Jovem Municipal De Guarulhos e Coral Vozes de São Paulo e Solistas",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Show Trivial Jazz",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Cláudio Richerme – Piano -Ariel Sanches –Violino e Paulo Henrique Almeida –Baixo )",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Teatro Infantil – Beterrabas,Segredos e Pataquadas",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Show De Salsa – Orquestra Lyra Latina",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Teatro Adulto – O Papa e a Bruxa - Os Parlapatões",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Jazz Sinfônica Do Estado de São Paulo",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2009,
+   "cat": "Música",
+   "t": "Quaternaglia - Quarteto de Violões",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Vicky Cristina Barcelona - 2008 - Woody Allen",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "O Signo da Cidade - 2007 - Carlos Alberto Riccelli",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Leonera - 2008 - Pablo Trapero",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Na Natureza Selvagem - 2007 - Sean Penn",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Leon Hirszman - Militância e Poesia",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "São Bernardo - 1971 - Leon Hirszman",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1971
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Eles Não Usam Black Tie - 1981 - Leon Hirszman",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1981
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Documentários: ABC da Greve - 1979 - Leon Hirszman",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1979
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Pedreira de São Diogo - 1962- Leon Hirszman",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1962
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Maioria Absoluta - 1964 - Leon Hirszman",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1964
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Caravaggio (Caravaggio) -1986 - Derek Jarman",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1986
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "O Carteiro e o Poeta (Il Postino) - 1994 - Michael Radford",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1994
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Verdades e Mentiras (F for Fake) - 1973 - Orson Wells",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1973
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Basquiat, Traços de uma Vida - (Basquiat) - 1996 - Julian Schnabel",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1996
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Sem Destino (Easy Rider) - 1969 - Dennis Hopper",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1969
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Hair (Hair) -1979 - Milos Forman",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1979
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "The Doors (Doors) - 1991- Oliver Stone",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1991
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Woodstock (Woodstock) - 1970 - Michael Wadleigh",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1970
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Chinatown - 1974 - Roman Polanski - A Honra do Poderoso Prizzi – 1985",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1974
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Os Infiltrados - 2006 - Martin Scorcese",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2006
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "O Homem da Linha (De Wisselwachter) - 1986 - Jos Stelling",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1986
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Feios, Sujos e Malvados (Brutti, Sporchi e Cattivi) - 1976 - Ettore Scola",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1976
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "A Dança com Lobos (Dances with Wolves) - 1990 - Kevin Costner",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1990
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Taxi Driver (Taxi Driver) - 1976 - Martin Scorsece",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1976
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Um Corpo que Cai (Vertigo) - 1958 - Alfred Hitchcock",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1958
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Coração Selvagem (Wild in Heart) -1990 - David Linch",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1990
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Amantes Constantes (Les Amants réguliers) - 2005 - Philippe Garrel",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2005
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "A Via Láctea - 2007 - Lina Chamie",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Buble - (Há-buah) - 2006 - Eytan Fox",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2006
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Confissões de um Incandescente - Domingos de Oliveira",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Todas as Mulheres do Mundo -1968 - Domingos de Oliveira",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1968
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Edu, Coração de Ouro -1968 - Domingos de Oliveira",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1968
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Amores - 1998 - Domingos de Oliveira",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1998
+  },
+  {
+   "ano": 2009,
+   "cat": "Cinema",
+   "t": "Separações - 2002 - Domingos de Oliveira",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2002
+  },
+  {
+   "ano": 2010,
+   "cat": "Teatro",
+   "t": "Usufruto - Lúcia Veríssimo e Raphael Viana"
+  },
+  {
+   "ano": 2010,
+   "cat": "Teatro",
+   "t": "Mão na luva - Oduvaldo Vianna Filho - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Teatro",
+   "t": "O Mercador de Veneza - Cena IV Shakespeare e Cia"
+  },
+  {
+   "ano": 2010,
+   "cat": "Teatro",
+   "t": "O Cortiço - Grupo Trapiche"
+  },
+  {
+   "ano": 2010,
+   "cat": "Teatro",
+   "t": "Pequenas Cenas"
+  },
+  {
+   "ano": 2010,
+   "cat": "Teatro",
+   "t": "Dom Casmurro - Cia Realce Produções Culturais"
+  },
+  {
+   "ano": 2010,
+   "cat": "Teatro",
+   "t": "Auto de Natal Nascimento de Jesus - Grupo Teatro Artes Sacra"
+  },
+  {
+   "ano": 2010,
+   "cat": "Teatro",
+   "t": "Além da Vida - Psicografado por Chico Xavier e Divaldo Franco"
+  },
+  {
+   "ano": 2010,
+   "cat": "Teatro",
+   "t": "Romeu & Julieta a MacBeth – Encontro com Shakespeare - Cena IV Shakespeare e Cia"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Fantom O Fantasma de Ópera - Grupo NAMARCA - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Vem comigo - Moacyr Borner"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "O fantasma da minha sogra = Mamma Bruschetta"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Cia. de Teatro e Mímica Eagle - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "A todo vapor - Ary Toledo"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Deu no que Deu - Nany People"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Terça Insana - Grace Gianoukas, Agnes Zuliani, Renato Caldas e Artur Kohl"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Tá nervoso, vai pescar - Paulo Pioli e Miguelzinho"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Má Companhia - Marcelo Mansfield e Carlos Fariello"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Os Patrões - Grupo Namarca"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Guerra dos Sexos – Cia. Comédia ao Cubo"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Até que a crise nos separe - Di Carlo Araújo"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Oscar Filho - Stand-up comedy - Petrucci Produções Artísticas"
+  },
+  {
+   "ano": 2010,
+   "cat": "Comédia",
+   "t": "Proibido não rir - humoristas: Matheus Ceará - Dinho Santana - Antonio Celso Jr. e Marco Barreto"
+  },
+  {
+   "ano": 2010,
+   "cat": "Infantil",
+   "t": "Piro Liz Plin em uma viagem no tempo – Cena IV - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Infantil",
+   "t": "Os Saltimbancos - Cia Realce Produções Culturais"
+  },
+  {
+   "ano": 2010,
+   "cat": "Infantil",
+   "t": "O Treco da Pata Choca - Concertos Matinais",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2010,
+   "cat": "Infantil",
+   "t": "A Bela e a Fera - Silene Michelazzo - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Infantil",
+   "t": "O rapto dos principezinhos - Cena IV"
+  },
+  {
+   "ano": 2010,
+   "cat": "Infantil",
+   "t": "O Pequeno Príncipe - Mídia Produções Artísticas"
+  },
+  {
+   "ano": 2010,
+   "cat": "Infantil",
+   "t": "Piro, Liz e Plin em O Velho Scrooge e os Três Fantasmas do Natal - Cena IV"
+  },
+  {
+   "ano": 2010,
+   "cat": "Infantil",
+   "t": "Marcelo, Marmelo, Martelo - Grupo Trapiche"
+  },
+  {
+   "ano": 2010,
+   "cat": "Infantil",
+   "t": "Capitães da Areia - Grupo Trapiche"
+  },
+  {
+   "ano": 2010,
+   "cat": "Infantil",
+   "t": "Piro, Liz e Plin - Cena IV"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Revivendo a Jovem - Guarda Participação de artistas sanjoanenses - Projeto ALPHA",
+   "proj": "Projeto Alpha"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Banda da Polícia Militar"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "De repente colorido - amigos e fãs de Luis Antônio Ricci"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Cem anos de Adoniran Barbosa - Grupo Samba de Roda"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Viva Dalva - homenagem à Dalva de Oliveira - Vilma Faggioli e banda com Peri Ribeiro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Clarice Assad – pianista, arranjadora, cantora e compositora"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Micael Chaves – Violão - Música instrumental"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Os Imprevisíveis - Flávia Jorge & Waldran Réggio - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Tango...Uma Paixão – De Gardel a Piazzolla - Cia. Tango e Paixão"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Cem anos de Noel - Silvia Ferrante e Tuca Michelazzo - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Show “Anos 80” - Projeto Alpha",
+   "proj": "Projeto Alpha"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Fábrica de Sonhos' Paulo Cesar Torres e Thadeu Tavares - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Banda Fatal 7 - Pedro Cipollini - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Piano - Pablo Lapidusas - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Moacyr Franco"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Anos 80 - Sucessos Nacionais - Solenidade de entrega do Prêmio Alpha 2010"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "São João Encanta 2010 – Encontro de Corais"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Alunos da Escola Municipal de Iniciação Musical"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Banda Dona Gabriela"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Orquestra Francisco Dornelles"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Audição musical CLAC - Concertos Matinais",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Coral Vozes e Coral Boca Livre - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Quarteto Abayomi - Adriano Paes, Patrícia Nogueira, Juliana Oliveira e Josiane Gonçalves – Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Camerata Barroca Sanjoanense - Concerto de Estréia - Concertos Matinais",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2010,
+   "cat": "Música",
+   "t": "Recital de Flauta e Piano - músicos do Conservatório de Tatuí - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Dança",
+   "t": "Espetáculo de Dança – Semíramis Lins - Horus"
+  },
+  {
+   "ano": 2010,
+   "cat": "Dança",
+   "t": "Dança da Cia Estável Promodança"
+  },
+  {
+   "ano": 2010,
+   "cat": "Dança",
+   "t": "Experimentações Cinematográficas - Núcleo Cinematográfico de Dança - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Dança",
+   "t": "9º Encontro de Danças do Mundo – Estúdio HORUS"
+  },
+  {
+   "ano": 2010,
+   "cat": "Dança",
+   "t": "Mostra de Dança Studio Impacto Company - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Dança",
+   "t": "II Festival de Dança - Profa. Claudia Jesus Silva Silveira"
+  },
+  {
+   "ano": 2010,
+   "cat": "Dança",
+   "t": "I Mostra de Dança do Studio Elaine Juliari"
+  },
+  {
+   "ano": 2010,
+   "cat": "Dança",
+   "t": "Ballet Coppélia - Studio Joellen de Ballet Clássico"
+  },
+  {
+   "ano": 2010,
+   "cat": "Dança",
+   "t": "Musical Dança Brasil a evolução da dança"
+  },
+  {
+   "ano": 2010,
+   "cat": "Dança",
+   "t": "Divertissiment – Studium Joelen de Ballet Clássico"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "IV Monofest Festival Amador de Monólogos de São João da Boa Vista e região",
+   "proj": "Monofest"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Feira de Integração Cultural - Projeto ALPHA",
+   "proj": "Projeto Alpha"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "5º Encontro de Bateristas de São João e Região"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Mostra Premiativa Festival onde as melhores bailarinas receberão notas para o grande festival da cidade de Santos"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "22º Festival de Teatro de São João da Boa Vista Atílio Eduardo Gallo Lopes"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Pagu, 100 Anos de História - Premiação aos vencedores do Concurso Nacional “Pagu Cem anos de História”. “40 anos de Academia de Letras de S. J. da Boa Vista"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Pequenas Cenas - Ensaio Aberto apresenta: “OFICINAS” - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "II Mostra de Arte Espírita - Paris - Grupo Nova Geração"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Carmem – Pocket Ópera",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Diários De Viagem – Dança",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Carlinhos Antunes e Quinteto Mundano",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Trixmix Cabaret – Circo/Teatro",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Histórias De Chuva – Teatro Infantil",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Gizelle- Studium Joellen de Ballet Clássico",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Yann Tiersen – Atração Internacional",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Corais de São João – música",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Filme: Aurora -Sunrise: A SONG of Two Humans) com trilha sonora executada ao vivo pelo músico Gustavo Mérida",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Cia de Teatro – Grupo Ensaio Aberto com cenas curtas",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Orquestra Jazz Sinfônica de São João da Boa Vista",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Studio Joellen de Ballet",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Camerata Barroca Sanjoanense e Academia de Letras",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Coral USP",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "100 anos - PAGU DA SERRA AO MAR",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Apresentação Monólogo pelo ator Carlos Castilho “(Im) Possível Diálogo - Diálogo Entre Pagu e Clarice”",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Lispector – de Maria Célia Marcondes",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Apresentação Série de Reportagens da EPTV Central - PAGU DA SERRA AO MAR",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Apresentação curta-metragem “Pagu Livre na Imaginação, no Espaço e no Tempo” – 20 minutos. Direção:",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Marcelo Tassara e Rudá Andrade",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Debate Pagu e o Jornalismo. Apresentação e Mediação Jornalista EPTV Hebe Rios",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Lançamento Fotobiografia Viva Pagu",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "33ª SEMANA GUIOMAR NOVAES",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Pequenas Coisas - Grupo Divinadança",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "João e o Pé De Feijão - Teatro Infantil",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Claudio Richerme e Eudóxia De Barros - Recital de Piano",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Quatro a Zero - Grupo De Choro",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Elisa Fukuda e Vera Astrachan - Recital de Piano e Violino",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Soltando os Cachorros - Teatro Adulto",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Outros",
+   "t": "Sem Descanso - Show MPB André Mastro",
+   "proj": "Semana do Theatro"
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Luz Silenciosa (Stellet licht) - 2007 - Carlos Reygadas",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Loki, Arnaldo Baptista - 2008 - Paulo Henrique Fontenelle",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Herói (Ying Xiong) - 2002 - Zhang Yimou",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2002
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "A Teta Assustada (La Teta Asustada) - 2009 - Claudia Llosa",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Guerra ao Terror - (The Hurt Locker) - 2008 - Kathryn Bigelow",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Nas Garras do Vício (Le beau Serge) - 1958 - Claude Chabrol",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1958
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "O Acossado (À Bout de Souffle) - 1959 - Jean-Luc Godard",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1959
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Hiroshima, Meu Amor - (Hiroshima, mon amour) - 1959- 2008 - Alain Resnais",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1959
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Uma Mulher para Dois - (Jules et Jim) - 1962 - François Truffaut",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1962
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Maria Antonieta - (Marie Antoinette) - 2006 - Sofia Coppola",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2006
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Eternamente Pagu - 1988 - Norma Benguell",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1988
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Caótica Ana - (Caótica Ana) - 2007 - Julio Medem",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Julie e Julia - (Julie &Julia) - 2009 - Nora Ephron",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Trono Manchado de Sangue (Kumonosu Jô ) - 1957 - Akira Kurosawa",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1957
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Juventude Transviada (Rebel without a Cause) - 1955 - Nicholas Ray",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1955
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Eh Pagu Eh - 1982 - Edith Siqueira",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1982
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "O Último Filme (The Last Movie) - 1971 - Dennis Hopper",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1971
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Anos de Rebeldia - (Out of the Blue) - 1981 - Dennis Hopper",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1981
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Veludo Azul - (Blue Velvet) - 1986 - David Lynch",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1986
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Shirley Valentine (Shiley Valentine) - 1989 - Lewis Gilbert",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1989
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Aurora (Sunrise: A Song of Two Humans) - 1927 do diretor F.W. Murnau",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1927
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Os Brutos Também Comem Spaghetti (Tampopo) - 1985 - Juzo Itami",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1985
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "O Encouraçado Potenkim (Bronenosets Potyomkin) - 1925 - Sergei Eisenstein",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1925
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "O Cozinheiro, o Ladrão, sua Mulher e seu Amante - 1989 - Peter Greenaway",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1989
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Delicatessen (Delicatessen) - 1991 -Marc Caro/Jean Pierre Jeunet",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1991
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "O Cheiro do Papaya Verde (L'Odeur de la Papaye Verte) - 1993 - Tran Anh Hung",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1993
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Elza e Fred ( Elza y Fred) - 2005 - Marcos Carnevale",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2005
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "A Partida (Okuribito) - 2008 - Yojiro Takita",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Turista Espacial (La Belle Verte) - 1996 - Coline Serreau",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1996
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Tartarugas Podem Voar ( Lakposhta Ham Parvaz Mikonand) - 1988 - Bahman Ghobadi",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1988
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Ensina-me a Viver (Harold & Maud) - 1971 - Hal Ashbay",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1971
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Cidadão Kane - (Citizen Kane) -1941 - Orson Welles",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1941
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "As Duas Faces da Felicidade - (Le Bonheur) - 1964 - Agnès Varda",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1964
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Um Namorado para Minha Esposa (Un Novio para Mi Mujer) - 2009 - Juan Taratuta",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Abraços Partidos (Los abrazos rotos) - 2009 - Pedro Almódovar",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2010,
+   "cat": "Cinema",
+   "t": "Gran Torino - 2008 - Clint Eastwood",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Rascunhos de João e Teresa - O Amor é F... Cia. Beira Corpo de Teatro"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Memórias de um Sargento de Milícias – Cia. Realce"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Os Terezinhas – Cia. de Comédia Os Terezinhas"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "O Primeiro Dia Depois de Tudo"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Vidas Secas – Cia. Realce"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Os Terezinhas – Show de Improviso - Cia de Comédia Os Terezinhas"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Bilon, Não é Mole Não - Grupo Namarca - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Mamãe não quer que eu case - Rodrigues Cruz Produções e Eventos"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "De Tudo um Pouco - Rafael Cortez - Stand Up"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "A Tempestade - Cena IV Shakespeare e Cia"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "As Pontes de Madison - Charge Produções Artísticas e AMITE"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Espia Só - Evandro Santo - “Christian Pior” - Stand Up"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Encontros com Shakespeare - Cena IV Shakespeare e Cia"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "O Navio Negreiro - Benedito Irivaldo de Souza (VADO)"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Dom Casmurro – Cia. Condoreira de Teatro"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Até que a Crise nos Separe - Di Carlo Araújo"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "O Agente do Riso - Claudio Cunha - Stand Up Comedy"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Marco Luque - NG Eventos - Stand Up Comedy"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "O Apocalipse ou O Capeta de Caruaru - Teatro do Largo"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "O Nascimento de Jesus - Auto de Natal - inspirado em literatura de cordel - Renata Cabrera"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "Matheus Ceará - Stand Up Comedy"
+  },
+  {
+   "ano": 2011,
+   "cat": "Teatro",
+   "t": "As Garotas do 111 - Jade Matei"
+  },
+  {
+   "ano": 2011,
+   "cat": "Infantil",
+   "t": "Pinóquio - Cia Realce"
+  },
+  {
+   "ano": 2011,
+   "cat": "Infantil",
+   "t": "Branca de Neve e os Sete Anões - Cena IV"
+  },
+  {
+   "ano": 2011,
+   "cat": "Infantil",
+   "t": "Amigos do Planeta – Cia. da Alegria"
+  },
+  {
+   "ano": 2011,
+   "cat": "Infantil",
+   "t": "O Bruxinho Que Era Bom - Rodrigues Cruz Produções e Eventos"
+  },
+  {
+   "ano": 2011,
+   "cat": "Infantil",
+   "t": "Maria, Maria - Grupo Tic TAC - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Infantil",
+   "t": "Piro, Liz E Plin e as Malas Encantadas! - Cena IV - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Infantil",
+   "t": "Cindi Cinderela - Proarte Projetos e Eventos Culturais"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Renato Teixeira e Banda"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Revivendo a Jovem Guarda - Projeto ALPHA",
+   "proj": "Projeto Alpha"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Por Causa de Você - Marcê Porena canta Dolores Duran"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Crepúsculo Cigano - Grupo Coração Cigano"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Erudysom - Adylson Godoy - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Encontro Sagrado Em Canto e Cordas - Walgra Maria e Ricardo Rocha Lessa"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "O Feminino nas Canções de Chico Buarque – Célia Bertoldo e Silvia Ferrante – Sala Múltiplo Uso",
+   "proj": "Sala de Múltiplo Uso"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Jair Rodrigues"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Orquestra Mojimiriana de Viola Caipira"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Banda Fatal 7"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Walgra canta Edvina e Fábio Noronha - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Praça Joaquim - Grupo Canto & Corda"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Ópera La Traviata - Núcleo de Ópera Curta - Projeto Circuito Cultural Paulista de Ópera"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Audição Musical CLAC - Concertos Matinais",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Apresentação Alunos do CLAC - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Concerto Brasileiríssimo - Banda Filarmônica Cardeal Leme"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Música Instrumental - Micael Chaves"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "A Era dos Festivais - Projeto Alpha",
+   "proj": "Projeto Alpha"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Grupo Água Nova - Estudantes do Conservatório De Tatuí - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Tributo a Simonal - Marcelo Gregório - Du Corbano - Grupo Toca do Pagode"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Duo de Piano e Flauta Transversal - Concertos Matinais",
+   "proj": "Concertos Matinais"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Era Uma Vez... – Temas de Novela - Projeto Alpha",
+   "proj": "Projeto Alpha"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Banda Shaut - Waldran Reggio"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Alma Lírica Brasileira - Mônica Salmaso"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Gabriel Marques - música sertaneja raiz - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Ênio – 50 Anos Depois - José Enio Herrera"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Banda Shaut - Waldran Reggio Pereira"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Luiz Ayrão"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Orquestra Jovem de Vargem Grande do Sul - César Augusto Cunha, Seir Piage Dias e Andre Multini - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "África Friends (Amigos da África) - Grupo Rios Ministério de Louvor"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Canções de Maria Rita - Lia Michelazzo, Gustavo Mérida, Henrique Mérida e Paulinho Figueira - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Peninha"
+  },
+  {
+   "ano": 2011,
+   "cat": "Música",
+   "t": "Clarice Assad, Ica Assad & Micael Chaves"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "O Casamento da Dona Baratinha – Studium Joellen Ballet Clássico - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Feira de Integração Cultural - grupos de dança da cidade - Projeto ALPHA",
+   "proj": "Projeto Alpha"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Studio Elaine Juliari - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Grupo de Dança Mantiqueira - Fernanda Docema"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Divertissiment - Studium Joelen"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Ginástica Rítmica e Dança da Prefeitura de S. J. Boa Vista - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Mostra de Dança - Estudio Impacto Company"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Buenos Aires es Tango – Cia. Alma de Tango"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Soy Loco por ti América – Cia. de Dança Theo & Monica"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Filmes – Estúdio de dança Fernanda Docema"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Contos e Clássicos - Mostra de Dança do Studio de Ballet"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Elaine Juliari"
+  },
+  {
+   "ano": 2011,
+   "cat": "Dança",
+   "t": "Espetáculo Circense - Studium Joellen Ballet Clássico"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "VI Encontro de Bateristas de São João e Região – Coord. Henrique Mérida Bussi"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Lançamento do “Álbum de Figurinhas - Linha do Tempo” - Academia de Letras"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "23º Festival De Teatro de São João da Boa Vista “Atílio Eduardo Gallo Lopes”"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Festival Regional de Dança - Projeto ALPHA",
+   "proj": "Projeto Alpha"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "97 Anos do Theatro Municipal"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Prêmio Alpha 2011"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Encontro de Corais de São João da Boa Vista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Apresentação de Alunos dos Professores Micael Chaves, Gustavo Mérida e José Henrique Mérida Bussi, da Escola Municipal de Iniciação Musical Geraldo Filme"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "V Festival de Dança Profa. Claudia Jesus Silva Silveira"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "XIII Encontro de Dança e Ginástica Rítmica da SES “Um Natal Em Vermelho e Preto”"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Apresentação dos Alunos do Projeto Música, Cidadania E Integração, da Orquestra Jazz Sinfônica De"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Sjbvista/ Professores - Iris De Castro Goulart, Ivan Trevisan Lopes, Ângelo Eduardo Destro Cyrino, Israel"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Cristiano Angeli E Henrique Borges"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Audição Musical CLAC (Centro Livre de Arte e Cultura)"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "34ª SEMANA GUIOMAR NOVAES",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Recital de Piano - Cláudio Richerme"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Recital Trio Cantábile de Poços De Caldas"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Orquestra Brasileira de Música Jamaicana"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Quarteto As Choronas"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Apresentação São Paulo Cia. de Dança"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Big Band da Santa de São Paulo"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Orquestra Jazz Sinfônica de São João Da Boa Vista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Barbatuques",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Oras Bolas - Cia Noz de Teatro, Dança e Animação",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Gaiola das Moscas – Grupo Peleja",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Encontro de Dois - Quase9 Teatro",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Como Ser Uma Pessoa Pior",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "SEMANA DO THEATRO - 97 ANOS DO THEATRO MUNICIPAL",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Alice no País das Maravilhas - (Alice in Wonderland) – 2010 – Tim Burton",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Noite de MPB - José Márcio Carioca",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Studium Joelen de Ballet Clássico - O Mercado de Escravos",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Auto de Natal “O Nascimento de Jesus”",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "A História de Um Valente - Uma Homenagem aos 100 Anos de Nelson Cavaquinho Regina Dias acompanhada de Murilo Barbosa no piano, Thiago Carreri no violão, Carrapicho no bandolim, Fabiano Nunes no baixo acústico, Paulo Almeida na bateria e Larissa Nalini na percussão",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Outros",
+   "t": "Duo Voz e Piano - Pedro Martins e Osvaldo Andrade",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Cabra Marcado para Morrer –Eduardo Coutinho -1984",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1984
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Pan-cinema Permanente -Carlos Nader - 2007",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Jogo de Cena -Eduardo Coutinho - 2007",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Pacific -Marcelo Pedroso – 2009",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Zeitgeist: O Filme (Zeitgeist: The Movie) - 2007 - Peter Joseph",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Zeitgeist: Addendum (Zeitgeist: Adendum) 2008 - Peter Joseph",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Zeitgeist : O Avanço (Zeitgeist : Moving Foward) - 2011- Peter Joseph",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2011
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Ouro Azul: A Guerra Mundial pela Água - 2009 – Sam Bozzo",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "O Alimento é Importante (Food Matters) - 2008 - James C. e Carlos Ledesma",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "O Alimento é Importante (Food Matters) - 2008 - James C. e Carlos Ledesma - O Escritor Fantasma (The Ghost Writer) 2010 - Roman Polanski – O Segredo dos seus Olhos - 2009 - Juan José Campanella",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Biutiful (Biutiful) -2010 - Alejandro González Iñárritu",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Cópia Fiel (Copie Conforme) - 2010 - Abbas Kiarostami",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Palavra (En) Cantada - 2009 - Helena Solberg",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Lixo Extraordinário – 2009 - Karen Harley, João Jardim, Lucy Walker",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Nascidos em Bordéis (Born in Brothels) - 2010 - Zana Briski",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "O Espectro da Esperança (The Spectre of Hope) - 2002 - Paul Carlin 05-07-11 -Gainsbourg - O Homem que",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2002
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Amava as Mulheres - 2010 - Joann Sfar",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Exit Through the Gift Shop - 2009 - Bansky",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Tio Boommee que pode se recordar de sua vidas passadas - 2010 - Apichatpong Weerasethakul",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "O Mágico (L'illusionniste) - 2010 - Sylvain Chomet",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Mistérios e Paixões (Naked Lunch) - 1991 - David Cronenberg",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1991
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "O Mundo Imaginário do Dr Parnasssus (The Imaginarium of Dr. Parnassus) -2009-Terry Gilliama",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Malpertuis (Malpertuis) - 1974 - Harry Kümel",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1974
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Atanarjuat - O Corredor (The Fast Runner) - 2001- Zacharias Kunuk",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2001
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Labirinto - A Magia do Tempo (Labyrinth) -1986 - Jim Henson",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1986
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Budapeste - 2009 - Walter Carvalho",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Durval Discos - 2002 - Anna Muylaert",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2002
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Viajo porque preciso, volto porque te amo - 2010 - Marcelo Gomes e Karim Aïnouz",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Uma Noite em 67 - 2010 - Renato Terra/Renato Calil",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Titãs, a vida até parece uma festa - 2008 - Branco Mello/Oscar Rodrigues Alves",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "O Milagre de Santa Luzia - 2008- Sergio Roizenblit",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Titãs , a vida até parece uma festa - 2008 - Branco Mello/Oscar Rodrigues Alves",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Os Desafinados - 2008 -Walter Lima Jr",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Fabricando Tom Zé - 2007 - Décio Matos Jr",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Alice no País das Maravilhas (Alice in Wonderland) – 2010 – Tim Burton",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "A Árvore dos Tamancos (L'álbero degli zoccoli)- 1978 - Ermanno Olmi",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1978
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "O Concerto (Le concert) - 2009 - Radu Mihaileanu",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2011,
+   "cat": "Cinema",
+   "t": "Filme Surpresa",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Viúva, Porém Honesta - Grupo Teatral Arte e Expressão e Artes Insanes -Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "O Caixeiro do Riso – Resista se for capaz - Giovani Braz"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Istrandápi Comy do Paulinho Gogó"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "John Vaz em: Jacques de Molay – O Fim da Ordem do Templo"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Então... Deu no que Deu - Nany People - Stand Up Comedy"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "O Jardim do Inimigo"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Comédia Ponto Com"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Jogando no Quintal"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Descontroladas - Di Carlo Araújo"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Alexandre Porpetone (Cabrito Téves) - Stand Up Comedy"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "A Insanidade Continua - Scott Sherman e Marco Barreto - Stand Up Comedy"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Pioli (Êta fuminho bão) e Miguelzinho"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Acidentes de Cama e Mesa"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Santos - Iran Thieme - Stand Up Comedy"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Eu mexxxmo!!! - Evandro Santo"
+  },
+  {
+   "ano": 2012,
+   "cat": "Teatro",
+   "t": "Deus, o artista por excelência Colégio El Shadai"
+  },
+  {
+   "ano": 2012,
+   "cat": "Infantil",
+   "t": "Piro, Liz e Plin Em: Uma a Aventura Mágica na Escola – Cena IV - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Infantil",
+   "t": "Cocoricó - 4 Segundos Produções Artísticas"
+  },
+  {
+   "ano": 2012,
+   "cat": "Infantil",
+   "t": "Dudinha e a Galinha Pintadinha - Os Smurfs"
+  },
+  {
+   "ano": 2012,
+   "cat": "Infantil",
+   "t": "Piro, Liz e Plin em: A Ilha de Próspero – Cena IV - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Infantil",
+   "t": "Os Três Porquinhos"
+  },
+  {
+   "ano": 2012,
+   "cat": "Infantil",
+   "t": "Dudinha e a Galinha Pintadinha"
+  },
+  {
+   "ano": 2012,
+   "cat": "Infantil",
+   "t": "Pinóquio"
+  },
+  {
+   "ano": 2012,
+   "cat": "Infantil",
+   "t": "Sid o Cientista e Angelina Bailarina"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Trio Atlântica - pianista Eduardo Monteiro"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "106 Anos Jornal O Município - Banda Clac - direção musical de Célia Bertoldo"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Banda Stella - Pop Rock e Rock Alternativo - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Badi para Maiores - Cantora, compositora e violonista Badi Assad - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Loucur@.com - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Raízes do Samba - Beto Amiki e Newton Val - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Samba de Roda"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Banda Shaut - Waldranzinho, Biga, Chico, Renan, Davi e Gabriel - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Camerata de Cordas 1º Movimento e Orquestra Jovem de Vargem Grande do Sul -Projeto Seis Da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Cantares de São João - Lia Michelazzo, Silvia Ferrante e Tuca Michelazzo - Grupo Canto & Corda"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "“100 Anos de Luiz Gonzaga - A Beleza do Baião e dos Versos de Cordel” – Sala Múltiplo Uso",
+   "proj": "Sala de Múltiplo Uso"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Nina - Um Show “Nada a ver”"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Orquestra Jovem Filarmônica da Colômbia Paulinho Tó – Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Grupo Folclórico da Casa de Portugal de São Paulo - Projeto Andorinhas"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "La Bohème – A Ópera Contada e Cantada - Projeto ‘Ópera Curta - Cléber Papa e Rosana Caramaschi"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Eduardo Araújo"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Grupo É o Balanço - Fernandinho, Felipe, Cesão, Gustavo, Rodrigo Valim, Leandrinho e Joana"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Naquela Mesa - Chorinho com discípulos de Jorge Assad -Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "The Platters - “Rock and Roll”"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Trilha Sonora ao Vivo - grupos de música de câmara do Brasil como Osesp e Quintal Brasileiro"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Concerto com a Orquestra e o Coral de Vargem Grande do Sul - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Camerata de Cordas Primeiro Movimento e Convidados – Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "Nos tempos do Ie Ie Ie - Banda Sixtiers"
+  },
+  {
+   "ano": 2012,
+   "cat": "Música",
+   "t": "São João Encanta 2012 – Festival de Corais"
+  },
+  {
+   "ano": 2012,
+   "cat": "Dança",
+   "t": "O aniversário da Sra. Leoa - Studium Joelen de Ballet Clássico - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Dança",
+   "t": "Elaine Juliari/ Studio de Ballet Clássico e Dança – Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Dança",
+   "t": "Estúdio de Dança Fernanda Docema - Projeto Seis Da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Dança",
+   "t": "Divertissiment - Studium Joelen de Ballet Clássico - Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2012,
+   "cat": "Dança",
+   "t": "Festival da Primavera “Som, Luz e Dança”"
+  },
+  {
+   "ano": 2012,
+   "cat": "Dança",
+   "t": "Elevador Blackout - Danças Urbanas, Jazz, Ballet, Livre"
+  },
+  {
+   "ano": 2012,
+   "cat": "Dança",
+   "t": "Don Quixote (suíte) – Studio de Ballet Clássico e Dança Elaine Juliari"
+  },
+  {
+   "ano": 2012,
+   "cat": "Dança",
+   "t": "O Rei Leão- Grupo Garra de Dança/ Palmeiras F. Clube"
+  },
+  {
+   "ano": 2012,
+   "cat": "Dança",
+   "t": "Um Dia do Campo - Studio Joelen de Ballet Clássico"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "10° Encontro de Danças do Mundo - Dança do Ventre Egípcia e Faraônica, da Dança de Salão, Flamenco, Ballet, Dança Cigana, Jazz e do Hip Hop"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "VI Monofest - Festival Amador de Monólogos de São João da Boa Vista",
+   "proj": "Monofest"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Feira de Integração Cultural – Projeto Alpha",
+   "proj": "Projeto Alpha"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "III Encontros com Shakespeare - Cena IV Shakespeare e Cia"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "24º Festival de Teatro de São João da Boa Vista – Atílio Eduardo Gallo Lopes"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "III Mostra de Talentos do Colégio Integral"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "14º Encontro de Dança e Ginástica Rítmica da SES"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Apresentação dos alunos do Projeto Cidadania e Integração da Orquestra Jazz Sinfônica de São João da Boa Vista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Apresentação dos alunos da Escola Municipal de Iniciação Musical ‘Geraldo Filme' e do Projeto1º Movimento",
+   "proj": "1º Movimento"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Apresentação dos Alunos do CLAC – Centro Livre de Arte e Cultura"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Romeu & Julieta De Shakespeare Juventude Interrompida -Direção João Fonseca - Teatro",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "The Amazing Cat Party - música",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Teatro em Pílulas Quadrilha de Teatro Notívagos Burlescos - intervenção",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Marcelo Jeneci - multi-instrumentista",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Banda Pitanga em Pé de Amora – Música",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Medicina do Riso - Grupo Malabarismo Místico - circo",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Andersen sem Palavras – Cia. Caleidoscópio - teatro infantil",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Show Ithamara Koorax - bossa-jazz - música",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Show Thiago Pethit - música",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "1ª SEMANA ASSAD 2012",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Badi Assad - participação especial do Duo Assad",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Barbatuques - Percussão Corporal",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Camerata Fukuda - Orquestra de Câmara",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Choro Rasgado - Rodrigo Y Castro, Zé Barbeiro, Roberta Valente e Alessandro Penezzi",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Duo Assad - Sérgio Simão Assad e Odair Simão Assad - participação especial de Carolina Assad e Dona Ica",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Carlinhos Antunes – violão, viola, charango, cuatro, kora n'goni, saz e percussão variada",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "35ª SEMANA GUIOMAR NOVAES",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Marcelo Bratke (piano) Mariannita Luzzati",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Todos os Sons – alunos e professores da Escola Municipal de Iniciação Musical Geraldo Filme e Projeto 1º Movimento",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Walgra Canta Edivina e Fabio Noronha",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Teatro Infantil: O Trenzinho Villa Lobos - Cia Articularte",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Recital De Piano Claudio Richerme/ Recital Trio Em Pauta – Violino – Viola e Violoncelo",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "O Trenzinho Villa Lobos - Cia Articularte - Teatro Infantil",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Orquestra Jazz Sinfônica de São João da Boa Vista - Regência: Maestro Agenor Ribeiro Neto",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Camerata de Violões do Conservatório de Tatuí",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Grupo Algaravia – Música Instrumental",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "35 Anos de Dança - Cisne Negro Cia. de Dança",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "SEMANA DO THEATRO MUNICIPAL - 98 anos",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Boca Livre, Infanto Juvenil Vozes de São João e Elohim",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Projeto Ensaio Aberto",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Ensaio Aberto da Orquestra Jazz Sinfônica de São João",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Cuba Livre Jazz ‘Do Brasil a Cuba' - Micael Chaves, Gustavo Mérida, José Roberto Vital, Fabinho Guido, Rubinho Freitas e com as vozes de Renata Mello, Lia Figueiredo e Samir Nassur, La Fille Mal Gardée - (Ballet de Repertório Completo)-Studium Joelen de Ballet Clássico",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Cia Tango & Paixão – ‘Uma Noite de Tango - Bem Vido a Buenos Aires!'",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Outros",
+   "t": "Coral Ziper na Boca",
+   "proj": "Virada Cultural Paulista"
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Encontros e Desencontros – 2003 - Direção Sofia Coppola",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2003
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Um Conto Chinês – 2011 - Direção: Sebastian Boresztein",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2011
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "O Palhaço – 2011 – Direção Selton Melo",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2011
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "MicMacs -Comédia – 2009 - Jean Pierre Jeunet",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "A pele que habito -Espanha – Drama - 2011 - Direção: Pedro Almodóvar",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2011
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Centenário do Nascimento de Amácio Mazzaropi",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Sai da Frente - Brasil – Comédia – 1952 - Abílio Pereira de Almeida",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1952
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Jeca Tatu - Brasil – 1959 - Milton Amaral",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1959
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Tristeza do Jeca -Brasil – 1961 - Amácio Mazzaropi",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1961
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Tapete Vermelho/ 2005 – Luiz Alberto Pereira",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2005
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Os homens que não amavam as mulheres / 2008 –Niels Arden Oplev",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "A menina que brincava com fogo / 2009 - Daniel Alfredson - O Mestre do Suspense: Alfred Hitchcock",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Festim Diabólico - Ano: 1948",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1948
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Janela Indiscreta - Ano: 1954",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1954
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Psicose - Ano: 1960",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1960
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Sessão Hitchcock à Escolha",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Os intocáveis (The Untouchacles), 1987",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1987
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Estrada para Perdição (Road to Perdition), 2002 - Direção Sam Mendes",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2002
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Fúria Sanguinária (White Heat), 1949 - Direção: Raoul Walsh",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1949
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Scarface,1932 - Direção Howard Hawks",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1932
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "A Noite Americana - 1973, França – Dir. François Truffaut",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1973
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Cinema Paradiso - 1988, Itália – Dir. Giuseppe Tornatore",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1988
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Saneamento Básico, o filme - 2008, Brasil – Dir. Jorge Furtado",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2008
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "O Artista – 2011, França – Dir. Michel Hazanavicius",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2011
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "A Invenção de Hugo Cabret - 2011, EUA – Dir. Martin Scorcese",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2011
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Flores do Oriente - 2011. China - Dir: Zang Youmou",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2011
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Millennium : A Rainha do Castelo de Ar - 2010, Dinamarca/ Suécia - Dir: Daniel Alfredson",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Memórias Póstumas de Brás Cubas – Brasil, 2001, Dir: André Klotzel",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2001
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Abril Despedaçado – Brasil/ Suiça/ França, 2001, Dir: Walter Salles",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2001
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Ed Wood, EUA, 2004, Dir: Tim Burton",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2004
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Nosferatu, Alemanha, 1922, Dir: F.W. Murnau",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1922
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "O Exorcista – Versão do Diretor, EUA, 1973, Dir: Willian Friedklin",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1973
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Mostra de curtas-metragens filmados na região e papo com os diretores",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "O Garoto, 1920 – 60 min. Direção: Charlie Chaplin",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1920
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Filme à escolha do Público – Serão apresentados três longas de Chaplin realizados entre 1925 e 1931, para que a plateia possa escolher qual será exibido",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1925
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "Tempos Modernos, 1936 – 90 Min. Direção: Charlie Chaplin",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1936
+  },
+  {
+   "ano": 2012,
+   "cat": "Cinema",
+   "t": "O Grande Ditador, 1940 – 118 min. Direção: Charlie Chaplin (Primeiro filme totalmente falado de Chaplin)",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1940
+  },
+  {
+   "ano": 2013,
+   "cat": "Teatro",
+   "t": "Terra Nos Olhos"
+  },
+  {
+   "ano": 2013,
+   "cat": "Teatro",
+   "t": "Monólogo: Resíduo Drummond - com Maurício Soares Filho"
+  },
+  {
+   "ano": 2013,
+   "cat": "Teatro",
+   "t": "Almeida e coreografia de Adriano Delehãn"
+  },
+  {
+   "ano": 2013,
+   "cat": "Teatro",
+   "t": "A Mistureba (Projeto Teatro de Quinta)",
+   "proj": "Teatro de Quinta"
+  },
+  {
+   "ano": 2013,
+   "cat": "Teatro",
+   "t": "Cia de Teatro e Mímica Eagle (Projeto Seis da Tarde)",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2013,
+   "cat": "Teatro",
+   "t": "“7 Vinténs” (Projeto Teatro de Quinta)",
+   "proj": "Teatro de Quinta"
+  },
+  {
+   "ano": 2013,
+   "cat": "Teatro",
+   "t": "A Febre da Família Moderna - Cia Artes Insanes"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "Branca de Neve e os Sete Anões - Cena IV – Shakespeare Cia"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "Os Três Porquinhos"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "Estória de Brinquedo - As Aventuras de Toy Story"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "A Bela e a Fera"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "Monster High"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "Dora a Aventureira"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "Emília: A Boneca gente"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "O Pequeno Príncipe"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "Backyardigans"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "A Bela Adormecida—Projeto “A Escola Vai ao Theatro”"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "Til de José de Alencar -Projeto “A Escola Vai ao Theatro”"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "A Cigarra e a Formiga - Projeto “A Escola Vai ao Theatro”"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "O Natal encantado da Bela e a Fera"
+  },
+  {
+   "ano": 2013,
+   "cat": "Infantil",
+   "t": "Dora a Aventureira – Uma Aventura de Natal"
+  },
+  {
+   "ano": 2013,
+   "cat": "Comédia",
+   "t": "‘Socando a Bucha' com Matheus Ceará - Stand Up Comedy"
+  },
+  {
+   "ano": 2013,
+   "cat": "Comédia",
+   "t": "O Amante do Meu Marido"
+  },
+  {
+   "ano": 2013,
+   "cat": "Comédia",
+   "t": "Os Bobos de Shakespeare - Centro de Pesquisas Teatrais do Cena IV – Shakespeare Cia"
+  },
+  {
+   "ano": 2013,
+   "cat": "Comédia",
+   "t": "Eu Mexxxmo — Evandro Santo - Stand Up Comedy"
+  },
+  {
+   "ano": 2013,
+   "cat": "Comédia",
+   "t": "PQP A Vida é Uma Comédia – Stand up comedy"
+  },
+  {
+   "ano": 2013,
+   "cat": "Dança",
+   "t": "Corpos em Chamas - Spaço das Artes Souza Lima"
+  },
+  {
+   "ano": 2013,
+   "cat": "Dança",
+   "t": "11° Encontro de Danças do Mundo"
+  },
+  {
+   "ano": 2013,
+   "cat": "Dança",
+   "t": "Studio de Ballet Clássico e Dança – Elaine Juliare"
+  },
+  {
+   "ano": 2013,
+   "cat": "Dança",
+   "t": "Divertissiment - Studium Joelen de Ballet Clássico"
+  },
+  {
+   "ano": 2013,
+   "cat": "Dança",
+   "t": "Cia Flamenca—Luís Santiago -Projeto Seis da Tarde",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2013,
+   "cat": "Dança",
+   "t": "Estudio de Dança Fernanda Docema -PROJETO SEIS DA TARDE",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2013,
+   "cat": "Dança",
+   "t": "A Bela Adormecida (Ballet Clássico de Repertorio)"
+  },
+  {
+   "ano": 2013,
+   "cat": "Dança",
+   "t": "O Natal Brasileiro—Studium Joelen de Ballet Clássico"
+  },
+  {
+   "ano": 2013,
+   "cat": "Dança",
+   "t": "Grupo Garra Dança Beyoncé—Adaptação do coreografo Agenor Adriano Delehan"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Embarque nesse Show com Gustavo Daneluz"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Schubert Quinteto in C major opus 163"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Simplesmente Aconteceu' - com Marcos Pirajá e Convidados—Som do Sábado",
+   "proj": "Som do Sábado"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Quinteto de Mozart para Clarineta e Quarteto de Cordas / Quarteto Americano de Dvorak"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Tango: “Ser Al Sur” - Abertura com o cantor Marcos Pirajá"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Beatles 4ever - O sonho não acabou"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Camerata de Cordas de Vargem Grande do Sul e Projeto 1º Movimento",
+   "proj": "1º Movimento"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Orquestra Jazz Sinfônica de SJBV"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Elvis Las Vegas Concert com Adam Presley"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Micael Chaves - violão"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Rabo de Saia— Grupo Folclórico de Tambores —Walgra -Som do Sábado",
+   "proj": "Som do Sábado"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Orquestra de Cordas Stravaganza"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Poetinha: Poesia, Música e Paixão /Centenário de Vinícius de Moraes - Academia de Letras (Projeto Seis da Tarde)",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Black Moah e Banda Fina Mistura ‘Show Eletro Acústico Eclético"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Projeto 1º Movimento e Orquestra de Vargem Grande do Sul PROJETO SEIS DA TARDE",
+   "proj": "Seis da Tarde"
+  },
+  {
+   "ano": 2013,
+   "cat": "Música",
+   "t": "Musical Cats"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "VII Festival Amador de Monólogos de São João da Boa Vista e Região"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Encontro de Bateristas"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Encontro de Artes—Encontro de Guitarristas"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Master Class Duo Assad"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Master Class Fábio Zanon"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "O Processo de Criação - Grupo Pau Brasil"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Oficina de Instrumentos - Grupo Choro das 3"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "17ª Semana da Educação"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "25º Festival de Teatro de São João da Boa Vista – Atílio Eduardo Gallo Lopes"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "1ª Mostra de Danças da Associação das Escolas de Dança de S. João e região AED/SJ"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "V Mostra de Talentos do Colégio Integral"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Audição dos alunos do Clac - Centro Livre de Arte e Cultura"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "15º Encontro de Dança e Ginástica Rítmica da SES"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Escola Municipal de Iniciação Musical “Geraldo Filme”"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "2ª SEMANA ASSAD",
+   "proj": "Semana Assad"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Quintet Assad"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Yamandu Costa"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Fábio Zanon"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Grupo Choro das 3"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Hamilton De Holanda e André Mehmari"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Grupo Pau Brasil"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "36ª SEMANA GUIOMAR NOVAES",
+   "proj": "Semana Guiomar Novaes"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Encontro Operístico com suas influências musicais (Ópera) - Direção: Cleber Papa"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Alma Lírica Brasileira (Música) Nelson Ayres e do flautista e saxofonista Teco Cardoso e a cantora Mônica Salmaso"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "O Imprevisível Circo da Lua (Circo) Cia. Paraladosanjos"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Operilda na Orquestra Amazônica (Teatro Infantil) Andréa Bassitt"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Homenagem a Guiomar Novaes (Concertos de Piano) Claudio Richerme/ Eudóxia de Barros"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Uma Viagem por Tempos e Estilos - Jazz Sinfônica de São João da Boa Vista"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Hercules Gomes – Pianismo (Música)"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Cabarecht (Música/Teatro) de Humberto Vieira, com direção musical de Cida Moreira"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Cia Brasileira de Danças Clássicas (Ballet)"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Luiza Possi"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "1º FESTIVAL REGIONAL DE TEATRO AMADOR “LEILAH ASSUMPÇÃO”"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "A Febre da Família Moderna - Cia. Teatral Insanes de São João da Boa Vista"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Quem Casa Quer Folga - Cia. Viravolta de Teatro de São João da Boa Vista"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "O Casamento de Maria Feia - Grupo Nova Geração de São João da Boa Vista"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "A Corrida das Flores - Teatro Popular de Mococa"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Os Limites da Liberdade - Teatro Popular de Mococa"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "A Compadre Cida de Suassuna - Grupo Espalhafatos de Divinolândia"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Eles não Usam Black-Tie - Grupo Espalhafatos de Divinolândia"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "A Boa Vizinhança - Grupo Vivendo e Aprendendo de Caconde"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Arrancados de Lá - Grupo Vivendo e Aprendendo de Caconde"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Eu Chovo, Tu Choves, Ele Chove - Grupo Mambembe de Teatro e Dança de Caconde"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "A Cidade Morena da Vaquinha Mococa - Grupo Mambembe de Teatro e Dança de Caconde"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Floresta do Raio Vermelho - Cia. Teatro e Dança Art'Expressão de São João da Boa Vista"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Jubileu e Sua Romieta - Cia. Teatro e Dança Art'Expressão de São João da Boa Vista"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Alagados - Cia Estapafúrdia de Teatro Comunitário de Caconde"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Um Bonde Chamado Desejo - Grupo NaMarca - IFSP de São João da Boa Vista"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Sabe, Aquele Dia... - Cia. Cênica Aruanã de São José do Rio Pardo"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "SEMANA DE ANIVERSÁRIO DO THEATRO"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Corais Boca Livre, Infanto Juvenil Vozes de São João e Elohim"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Tistu, O Menino do Polegar Verde (Teatro Musical)"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Orquestra Jazz Sinfônica de São João da Boa Vista"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "A Era de Ouro da Música Popular Brasileira - Marcelo Manzano"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Coral Unicamp Zíper na Boca"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "AED Associação das Escolas de Dança-A Historia de São João"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Projeto Instrumental Clássico no Estado de São Paulo"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Coral da Igreja Prebisteriana apresentando “Cantata Jesus com Jazz” sob a regência de Vivian Sabino da Silva",
+   "proj": "Programação de Natal"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Escola de Música Geraldo Filme",
+   "proj": "Programação de Natal"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "“Vozes em Sintonia - Encontro de Corais”",
+   "proj": "Programação de Natal"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Projeto Música, Cidadania e Integração",
+   "proj": "Programação de Natal"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "“Noite de Gala da Dança”",
+   "proj": "Programação de Natal"
+  },
+  {
+   "ano": 2013,
+   "cat": "Outros",
+   "t": "Homenagem à Dona Beloca com a Banda Dona Gabriela",
+   "proj": "Programação de Natal"
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Na Natureza Selvagem (Into the Wild) - 2007, EUA. Dir: Sean Penn",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "E Sua Mãe Também (Y tu mamá también) - 2001, Mexico. Dir: Alfonso Cuarón",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2001
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "O Mágico de Oz - Diretor: Victor Fleming - Ano:1939",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1939
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Cantando na Chuva - Diretor: Stanley Donen, Gene Kelly - Ano: 1952",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1952
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Sete noivas para sete irmãos - Diretor: Stanley Donen - Ano: 1954",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1954
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Grease: Nos tempos da brilhantina - Diretor: Randal Kleiser - Ano: 1978",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1978
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Across the Universe - Diretor: Julie Taymor - Ano: 2007",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2007
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Donnie Darko, EUA, 2001- Dir: Richard Kelly",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2001
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "O Silêncio dos Inocentes, EUA, 1991- Dir: Jonathan Demme",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1991
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Garota Interrompida, EUA, 1999 – Dir: James Mangold",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1999
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Estranho no Ninho, EUA, 1975",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1975
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "No tempo das Diligências, 1939. 96 min. Dir: John Ford",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1939
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Rastros de Ódio, 1956, 120 min. Dir. John Ford",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1956
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Matar ou Morrer, 1952, 90 min. Dir. Fred Zinnemann",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1952
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Era uma vez no Oeste, 1968, 140 min. Dir. Sérgio Leone",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1968
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Mistérios e Paixões (Naked Lunch) - 1991 - David Cronenberg",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1991
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "O Mundo Imaginário do Dr Parnasssus (The Imaginarium of Dr. Parnassus) -2009-Terry Gilliam",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2009
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Malpertuis (Malpertuis) - 1974 - Harry Kümel",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1974
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Atanarjuat - O Corredor (The Fast Runner) - 2001- Zacharias Kunuk",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2001
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Labirinto - A Magia do Tempo (Labyrinth) -1986 - Jim Henson",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1986
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "A Rosa Púrpura do Cairo, EUA, 88 min, 1985- Dir: Woody Allen",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1985
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Hollywoodland, EUA, 120 min, 2006 - Dir: Alen Couter",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2006
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Hitchcock, EUA, 120 min, 2012 – Dir: Sacha Gervasi",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2012
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Homenagem aos 110 anos de Gabriella de Oliveira Costa, a “Dona Beloca”",
+   "proj": "Cineclube Beloca"
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "João Negrinho, 1958, Brasil, 80 minutos. Dir: Oswaldo Censoni",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1958
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Bodas de Sangue, 1981, Espanha, 80 minutos. Dir. Carlos Saura",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1981
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "A Viagem de Chihiro, 2001, Japão, 110 min. Direção: Hayao Miyazaki",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2001
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "O Mágico, 2010, França, 90 min. Direção: Silvain Chomet",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2010
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "O Gabinete do Dr. Caligari, 1919, 76 min - Direção: Robert Wiene",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1919
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "O bebê de Rosemary,1968, 142 min - Direção: Roman Polanski",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1968
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "O Iluminado,1980, 140 min - Direção: Stanley Kubrick",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1980
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "ET, o Extraterreste (1982, EUA, 110 minutos, Direção de Steven Spielberg)",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1982
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "Conta Comigo (1986, EUA, 87 min, Direção de Rob Reiner)",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 1986
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "As Vantagens de Ser Invisível (2012, EUA, 100 min , Direção de Stephen Chbosky)",
+   "proj": "Cineclube Beloca",
+   "filmeAno": 2012
+  },
+  {
+   "ano": 2013,
+   "cat": "Cinema",
+   "t": "2ª Mostra de Curtas do Cineclube Beloca",
+   "proj": "Cineclube Beloca"
+  }
+ ]
+}

@@ -198,8 +198,27 @@
         "contemporâneo"
       ],
       "fotos": [],
-      "vozes": [],
-      "dossies": [],
+      "vozes": [
+        {
+          "quote": "Há dez anos no Brasil, viajando, tocando e regendo pelo País inteiro, descobri quase atrás de casa uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.",
+          "autor": "Emmanuele Baldini",
+          "papel": "spalla da Osesp, depois do concerto de 19 de fevereiro de 2014",
+          "pos": 16
+        },
+        {
+          "quote": "Eu achava que a melhor acústica do Brasil era a da Sala São Paulo — e esta é igual.",
+          "autor": "Arthur Nestrovski",
+          "papel": "diretor artístico da Osesp, na mesma noite",
+          "pos": 16
+        }
+      ],
+      "dossies": [
+        {
+          "slug": "/repertorio",
+          "titulo": "O que passou pelo palco, 2002–2013",
+          "desc": "A relação completa da programação nos doze anos seguintes à reabertura — 980 títulos."
+        }
+      ],
       "pessoas": []
     }
   ]

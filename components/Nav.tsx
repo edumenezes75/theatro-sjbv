@@ -22,7 +22,8 @@ const MENU: Grupo[] = [
     { href: '/restauracao', label: 'Restauro', hint: 'Da ameaça de demolição à reabertura' },
   ] },
   { label: 'Memória viva', items: [
-    { href: '/acervo', label: 'Acervo de imagens', hint: '275 fotografias catalogadas' },
+    { href: '/acervo', label: 'Acervo de imagens', hint: '279 fotografias catalogadas' },
+    { href: '/repertorio', label: 'O que passou pelo palco', hint: 'A programação de 2002 a 2013' },
     { href: '/documentario', label: 'Documentário', hint: 'O filme, com transcrição navegável' },
     { href: '/pessoas', label: 'Pessoas', hint: 'Quem fez o Theatro acontecer' },
     { href: '/memorias', label: 'Curiosidades', hint: 'Histórias miúdas da casa' },

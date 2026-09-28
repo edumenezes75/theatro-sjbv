@@ -81,7 +81,15 @@ O Theatro acumulou elogios de músicos ao longo de gerações. Vale distinguir o
 
 > Descobri, quase atrás de casa, uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.
 >
-> — **Emmanuele Baldini**, spalla da Osesp, após concerto no Theatro (2014)
+> — **Emmanuele Baldini**, spalla da Osesp, depois do concerto de **19 de fevereiro de 2014**
+
+Na mesma noite, o diretor artístico da orquestra deixou o seu recado, e ele é o mais direto de todos:
+
+> Este Theatro foi uma agradável surpresa. Não imaginávamos um teatro com esta acústica. É perfeita. Eu achava que a melhor acústica do Brasil era a da Sala São Paulo — e esta é igual.
+>
+> — **Arthur Nestrovski**, diretor artístico da Osesp
+
+A comparação é generosa e vinda de quem tem ouvido para fazê-la; ainda assim, ela continua sendo testemunho, não medição.
 
 Não é voz isolada: a cantora **Mônica Salmaso** também chamou a casa de “uma joia”, dizendo que poucas vezes se apresentara em lugar tão especial.
 

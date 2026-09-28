@@ -1373,10 +1373,10 @@
   },
   {
     "id": "t081",
-    "date": "2013",
-    "display": "2013",
+    "date": "2013-06-01",
+    "display": "1º jun. 2013",
     "title": "Som do Sábado e Teatro de Quinta",
-    "summary": "Nascem dois projetos de incentivo a músicos e grupos amadores locais, com apresentações gratuitas.",
+    "summary": "Nascem dois projetos de incentivo a músicos e grupos amadores locais, com apresentações gratuitas. O Som de Sábado estreia em 1º de junho, às 20h30, com o show “Simplesmente Aconteceu” — os primeiros sábados de cada mês ficam reservados a artistas da cidade, sem custo de aluguel da sala.",
     "era": "contemporâneo",
     "tags": [
       "programação",
@@ -1384,7 +1384,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, pp. 177–178"
+      "Menezes 2014, pp. 177–178",
+      "O Município, 1º jun. 2013, p. 3 (clipagem AMITE)"
     ]
   },
   {
@@ -1588,6 +1589,72 @@
     "status": "corroborado",
     "sources": [
       "Jeronimo 2020, p. 214"
+    ]
+  },
+  {
+    "id": "t204",
+    "date": "2010",
+    "display": "2010",
+    "title": "A Virada Cultural Paulista chega ao Theatro",
+    "summary": "A casa entra no circuito estadual da Virada Cultural Paulista, que passa a ocupar sua programação de 2010 a 2012 — em 2010 são sete eventos num fim de semana só.",
+    "era": "contemporâneo",
+    "tags": [
+      "programação",
+      "estado"
+    ],
+    "status": "documentado",
+    "sources": [
+      "AMITE, “Theatro Municipal — 100 anos: Histórico”, ago. 2014, pp. 2–3, 10 e 11–29"
+    ]
+  },
+  {
+    "id": "t205",
+    "date": "2011",
+    "display": "2011",
+    "title": "O ano mais cheio",
+    "summary": "A AMITE contabiliza 152 eventos culturais em doze meses: 25 peças adultas, 7 infantis, 35 eventos musicais, 12 espetáculos de dança e 41 filmes no Cineclube Beloca. É o maior número registrado no levantamento do centenário.",
+    "era": "contemporâneo",
+    "tags": [
+      "programação",
+      "público"
+    ],
+    "status": "documentado",
+    "sources": [
+      "AMITE, “Theatro Municipal — 100 anos: Histórico”, ago. 2014, pp. 2–3, 10 e 11–29"
+    ]
+  },
+  {
+    "id": "t206",
+    "date": "2013",
+    "display": "2013",
+    "title": "1º Festival Regional de Teatro Amador “Leilah Assumpção”",
+    "summary": "Iniciativa do Departamento de Cultura da cidade, o festival reúne sobretudo grupos das escolas de ensino médio da região — dezesseis eventos na primeira edição.",
+    "era": "contemporâneo",
+    "tags": [
+      "teatro",
+      "festival",
+      "juventude"
+    ],
+    "status": "documentado",
+    "sources": [
+      "AMITE, “Theatro Municipal — 100 anos: Histórico”, ago. 2014, pp. 2–3, 10 e 11–29"
+    ]
+  },
+  {
+    "id": "t207",
+    "date": "2014-02-19",
+    "display": "19 fev. 2014",
+    "title": "A Osesp no palco",
+    "summary": "A Orquestra Sinfônica do Estado de São Paulo se apresenta no Theatro, no ano do centenário. O spalla Emmanuele Baldini e o diretor artístico Arthur Nestrovski deixam por escrito, ao diretor de Cultura João Roberto Simões, o espanto com a acústica da sala.",
+    "era": "contemporâneo",
+    "tags": [
+      "música",
+      "acústica",
+      "osesp"
+    ],
+    "status": "documentado",
+    "sources": [
+      "AMITE, “Theatro Municipal — 100 anos: Histórico”, ago. 2014, pp. 2–3, 10 e 11–29"
     ]
   }
 ]

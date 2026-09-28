@@ -3570,5 +3570,61 @@
   "rank": 5,
   "tone": 0.0,
   "docgrupo": "programas"
+ },
+ {
+  "id": "h299",
+  "file": "fotos/hr8-jornal-som-de-sabado-2013.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 918,
+  "h": 1461,
+  "alt": "“Amite estreia hoje o ‘Som de Sábado’” — O Município, 1º de junho de 2013, p. 3, na estreia do projeto que reserva os primeiros sábados do mês a músicos e grupos da cidade, sem custo de aluguel da sala. A foto mostra o Grupo Ser Al Sur, de tango.",
+  "credit": "Clipagem da AMITE, reproduzida no dossiê do centenário (2014). Acervo Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Atual",
+  "rank": 5,
+  "cor": true,
+  "docgrupo": "imprensa"
+ },
+ {
+  "id": "h300",
+  "file": "fotos/hr8-jornal-semana-assad-2013.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1488,
+  "h": 921,
+  "alt": "“AMITE reúne alguns dos melhores músicos do mundo na Semana Assad” — Gazeta de São João, 29 de junho de 2013, 2º Caderno, anunciando a 2ª Semana Assad, de 26 a 30 de julho, com o Quintet Assad, Yamandu Costa, Fábio Zanon, o Grupo Choro das 3, Hamilton de Holanda e André Mehmari. Na foto, Badi, Carolina e Clarice entre Odair e Sérgio Assad.",
+  "credit": "Clipagem da AMITE, reproduzida no dossiê do centenário (2014). Acervo Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Atual",
+  "rank": 5,
+  "cor": true,
+  "docgrupo": "imprensa"
+ },
+ {
+  "id": "h301",
+  "file": "fotos/hr8-jornal-infantil-2013.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1533,
+  "h": 921,
+  "alt": "“Amite destaca programação infantil no mês de outubro” — O Município, 28 de setembro de 2013, Segundo Caderno. Entre as atrações, a sessão de A Viagem de Chihiro no Cineclube Beloca e o espetáculo Backyardigans; a reportagem noticia também a indicação ao Grammy Latino de artistas da Semana Assad.",
+  "credit": "Clipagem da AMITE, reproduzida no dossiê do centenário (2014). Acervo Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Atual",
+  "rank": 5,
+  "cor": true,
+  "docgrupo": "imprensa"
+ },
+ {
+  "id": "h302",
+  "file": "fotos/hr8-jornal-99-anos-2013.jpg",
+  "category": "documentos",
+  "categoryLabel": "Documentos",
+  "w": 1408,
+  "h": 921,
+  "alt": "“Aniversário do Theatro: hoje tem Orquestra Jazz Sinfônica” — A Gazeta, 6 de novembro de 2013, p. 2, sobre a semana gratuita dos 99 anos do prédio, com direção geral e musical da sanjoanense Vívian Nogueira e direção cênica de Beatriz Coimbra.",
+  "credit": "Clipagem da AMITE, reproduzida no dossiê do centenário (2014). Acervo Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Atual",
+  "rank": 5,
+  "cor": true,
+  "docgrupo": "imprensa"
  }
 ]
