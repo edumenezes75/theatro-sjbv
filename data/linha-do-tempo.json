@@ -12,7 +12,8 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, pp. 29–30"
+      "Menezes 2014, pp. 29–30",
+      "Jeronimo 2020, p. 65"
     ]
   },
   {
@@ -28,7 +29,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, p. 31"
+      "Menezes 2014, pp. 31 e 249",
+      "Jeronimo 2020, pp. 65–66"
     ]
   },
   {
@@ -44,7 +46,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Estatutos; Menezes 2014, pp. 31–35"
+      "Ata de constituição da Companhia (in Jeronimo 2020, pp. 68–69)",
+      "Menezes 2014, pp. 31–34 e 249"
     ]
   },
   {
@@ -52,7 +55,7 @@
     "date": "1913-05",
     "display": "mai. 1913",
     "title": "Projeto de José Pucci",
-    "summary": "O arquiteto e escultor paulista José Pucci apresenta o projeto da sala em ferradura, modelo italiano de galerias superpostas.",
+    "summary": "O projeto de José Pucci, projetista de origem italiana radicado em São Paulo, prevê sala em ferradura, no modelo italiano de galerias superpostas.",
     "era": "construção",
     "tags": [
       "projeto",
@@ -60,7 +63,9 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 36–37",
+      "Jeronimo 2020, pp. 91–92",
+      "Jeronimo 2021, p. 241"
     ]
   },
   {
@@ -76,7 +81,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "A Cidade de São João, 18 maio 1913; Menezes 2014, pp. 38–39"
+      "A Cidade de São João, 13 maio 1913 (in Jeronimo 2020, p. 92)",
+      "Menezes 2014, p. 38"
     ]
   },
   {
@@ -92,7 +98,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 44"
     ]
   },
   {
@@ -108,7 +114,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "O Município, 31 out. e 7 nov. 1914; Menezes 2014, pp. 40–41"
+      "O Município, 31 out. e 7 nov. 1914 (in Jeronimo 2020, pp. 115–116)",
+      "Menezes 2014, pp. 40–41"
     ]
   },
   {
@@ -125,13 +132,13 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, pp. 42–69"
+      "Menezes 2014, pp. 69 e 250"
     ]
   },
   {
     "id": "t044",
-    "date": "1915-01-24",
-    "display": "24 jan. 1915",
+    "date": "1915-01",
+    "display": "jan. 1915",
     "title": "Espetáculos em benefício da Matriz",
     "summary": "Três peças de artistas locais — “A Gota D’Água”, “A Terra das Maravilhas” e “Capricho Feminino” — em benefício da Igreja Matriz.",
     "era": "primeiras décadas",
@@ -141,15 +148,16 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "A Cidade de São João, 23 jan. 1915 (in Menezes 2014, p. 44)",
+      "Menezes 2014, p. 250"
     ]
   },
   {
     "id": "t045",
     "date": "1916-01-16",
     "display": "16 jan. 1916",
-    "title": "Primeiro cinema: O Estojo dos Milhões",
-    "summary": "Exibição do filme “O Estojo dos Milhões”, em benefício da Cruz Vermelha Italiana — uma das primeiras sessões de cinema na casa.",
+    "title": "O Estojo dos Milhões",
+    "summary": "Exibição do filme “O Estojo dos Milhões”, em benefício da Cruz Vermelha Italiana.",
     "era": "primeiras décadas",
     "tags": [
       "cinema",
@@ -157,7 +165,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 250"
     ]
   },
   {
@@ -173,15 +181,16 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 251",
+      "Jeronimo 2020, p. 131"
     ]
   },
   {
     "id": "t007",
-    "date": "1918",
-    "display": "1918",
+    "date": "1918-10-25",
+    "display": "25 out. 1918",
     "title": "Epidemia de gripe",
-    "summary": "Locais de aglomeração são fechados, afetando a atividade cultural.",
+    "summary": "Com a gripe espanhola, o Theatro é fechado e só reabre em dezembro; a sala chega a sediar reunião de emergência das autoridades.",
     "era": "primeiras décadas",
     "tags": [
       "crise",
@@ -189,7 +198,8 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, p. 55"
+      "Jeronimo 2020, pp. 119–123",
+      "Menezes 2014, pp. 55 e 252"
     ]
   },
   {
@@ -205,7 +215,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, p. 52"
+      "Menezes 2014, pp. 52 e 253"
     ]
   },
   {
@@ -221,7 +231,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 253"
     ]
   },
   {
@@ -237,15 +247,15 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 46 e 253"
     ]
   },
   {
     "id": "t085",
-    "date": "1924",
-    "display": "1924",
+    "date": "1924-07",
+    "display": "jul. 1924",
     "title": "Rádio e guarda no edifício",
-    "summary": "Durante a Revolução de 1924, os pavimentos superiores abrigam a Rádio Cultura e a Guarda Municipal Provisória — o teatro como infraestrutura pública em tempo de crise.",
+    "summary": "Na Revolução de 1924, o salão superior, sede da Rádio Cultura desde abril, vira quartel da Guarda Municipal Provisória, criada em 13 de julho.",
     "era": "primeiras décadas",
     "tags": [
       "rádio",
@@ -253,15 +263,15 @@
     ],
     "status": "documentado",
     "sources": [
-      "Jeronimo, 2020, pp. 130–149"
+      "O Município, 13 abr. e 19 jul. 1924 (in Jeronimo 2020, pp. 124–125)"
     ]
   },
   {
     "id": "t009",
-    "date": "1926-03-09",
-    "display": "9 mar. 1926",
+    "date": "1926",
+    "display": "c. 1926",
     "title": "Guerra aos Homens",
-    "summary": "Festival com elenco feminino torna-se sucesso do teatro amador local.",
+    "summary": "Moças encenam, sem homens no elenco, a comédia Guerra aos Homens, de Afrânio Peixoto; o sucesso provoca a reação do Grupo da Meia Noite.",
     "era": "primeiras décadas",
     "tags": [
       "teatro amador",
@@ -269,7 +279,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, pp. 56–57"
+      "Menezes 2014, p. 57"
     ]
   },
   {
@@ -285,7 +295,7 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 65"
     ]
   },
   {
@@ -301,7 +311,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 254"
     ]
   },
   {
@@ -317,13 +327,13 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 254"
     ]
   },
   {
     "id": "t010",
-    "date": "1929",
-    "display": "1929",
+    "date": "1929-08-03",
+    "display": "3 ago. 1929",
     "title": "Rinque de patinação",
     "summary": "A sala é adaptada para uma forma de diversão muito diferente do teatro.",
     "era": "primeiras décadas",
@@ -333,7 +343,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Cronologia em Menezes 2014"
+      "Menezes 2014, pp. 69, 240 e 254",
+      "Jeronimo 2020, p. 148"
     ]
   },
   {
@@ -349,7 +360,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 103"
     ]
   },
   {
@@ -365,7 +376,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 254"
     ]
   },
   {
@@ -381,13 +392,13 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 254"
     ]
   },
   {
     "id": "t011",
-    "date": "1930-06",
-    "display": "ago. 1930",
+    "date": "1930-08-10",
+    "display": "10 ago. 1930",
     "title": "Villa-Lobos e Souza Lima",
     "summary": "A passagem do conjunto de Villa-Lobos, com Souza Lima ao piano. Em 10 de agosto de 1930, a Sociedade de Cultura Artística — no segundo andar do Theatro — promoveu uma hora litero-musical em homenagem ao maestro e à comitiva, segundo a imprensa da época.",
     "era": "primeiras décadas",
@@ -396,22 +407,24 @@
     ],
     "status": "documentado",
     "sources": [
-      "A Cidade de São João, 10 ago. 1930 (folheto); Menezes 2014, pp. 68 e 102"
+      "A Cidade de São João, 10 ago. 1930 (folheto)",
+      "Menezes 2014, pp. 68, 103 e 254"
     ]
   },
   {
     "id": "t087",
-    "date": "1931",
-    "display": "1931",
+    "date": "1931-10-04",
+    "display": "4 out. 1931",
     "title": "Conferência de Guilherme de Almeida",
-    "summary": "O poeta modernista realiza conferência no Theatro.",
+    "summary": "O poeta modernista Guilherme de Almeida, o “Príncipe dos Poetas Brasileiros”, faz conferência literária no Theatro.",
     "era": "primeiras décadas",
     "tags": [
       "literatura"
     ],
     "status": "documentado",
     "sources": [
-      "Jeronimo, 2020"
+      "Menezes 2014, pp. 72 e 255",
+      "Jeronimo 2020, p. 296"
     ]
   },
   {
@@ -427,7 +440,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 254"
     ]
   },
   {
@@ -443,7 +456,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 72 e 254"
     ]
   },
   {
@@ -459,15 +472,15 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, pp. 66–67"
+      "Menezes 2014, pp. 66 e 255"
     ]
   },
   {
     "id": "t057",
-    "date": "1932-06-04",
-    "display": "4 jun. 1932",
+    "date": "1933",
+    "display": "1933",
     "title": "Homenagem a Romão Gomes",
-    "summary": "Noite festiva em homenagem ao comandante Romão Gomes, da Revolução Constitucionalista de 1932.",
+    "summary": "Noite festiva em homenagem ao comandante Romão Gomes, cuja coluna, aquartelada em Águas da Prata, não perdeu nenhuma batalha na Revolução Constitucionalista de 1932.",
     "era": "primeiras décadas",
     "tags": [
       "cidade",
@@ -475,7 +488,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 71 e 255"
     ]
   },
   {
@@ -491,7 +504,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 255"
     ]
   },
   {
@@ -499,7 +512,7 @@
     "date": "1937",
     "display": "1937",
     "title": "Predomínio do cinema",
-    "summary": "O prédio é fechado para reformas; Oliveira Neto adquire a maioria das ações e moderniza a projeção.",
+    "summary": "Joaquim José de Oliveira Neto compra a maioria das ações da Companhia Teatral Sanjoanense; com poltronas novas e equipamentos Philips, o Theatro passa a funcionar quase só como cinema. Já deteriorado, fecha em 30 de novembro.",
     "era": "cine theatro",
     "tags": [
       "cinema",
@@ -507,7 +520,8 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, p. 73"
+      "Menezes 2014, pp. 73 e 255",
+      "Jeronimo 2020, pp. 149–150"
     ]
   },
   {
@@ -523,22 +537,24 @@
     ],
     "status": "documentado",
     "sources": [
-      "Jeronimo, 2020"
+      "Jeronimo 2020, p. 152",
+      "Jeronimo 2023, p. 3"
     ]
   },
   {
     "id": "t014",
-    "date": "1945",
-    "display": "1945",
+    "date": "1945-04-12",
+    "display": "12 abr. 1945",
     "title": "Nova reabertura",
-    "summary": "A peça Um Retrato de Mulher marca a retomada de atividades.",
+    "summary": "O Theatro reabre, agora como cinema; poucas são as apresentações teatrais.",
     "era": "cine theatro",
     "tags": [
       "teatro"
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, p. 83"
+      "Menezes 2014, pp. 83 e 255",
+      "Jeronimo 2020, p. 150"
     ]
   },
   {
@@ -570,7 +586,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Programa; Menezes 2014, pp. 82–83"
+      "Programa",
+      "Menezes 2014, pp. 82–83 e 256"
     ]
   },
   {
@@ -586,7 +603,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 85–86 e 256"
     ]
   },
   {
@@ -602,7 +619,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 256"
     ]
   },
   {
@@ -618,7 +635,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, pp. 103–105"
+      "Menezes 2014, pp. 103–105",
+      "Jeronimo 2020, p. 150"
     ]
   },
   {
@@ -634,7 +652,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 88 e 256"
     ]
   },
   {
@@ -649,7 +667,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, p. 90"
+      "Menezes 2014, pp. 90 e 256"
     ]
   },
   {
@@ -657,7 +675,7 @@
     "date": "1953-05-10",
     "display": "10 mai. 1953",
     "title": "Os Contos de Hoffmann",
-    "summary": "A Sociedade Cultural de Debates apresenta o ballet “Os Contos de Hoffmann”, com a bailarina Moira Shear.",
+    "summary": "A Sociedade Cultural de Debates promove conferência e sessão de “Os Contos de Hoffmann”, com a bailarina Moira Shearer.",
     "era": "cine theatro",
     "tags": [
       "dança",
@@ -665,7 +683,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 256"
     ]
   },
   {
@@ -681,22 +699,22 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 62 e 256"
     ]
   },
   {
     "id": "t065",
-    "date": "1957",
-    "display": "1957",
+    "date": "1957-10-30",
+    "display": "30 out. 1957",
     "title": "Transviados e o grupo GAMA",
-    "summary": "A peça “Transviados” é um dos grandes sucessos do Teatro-Escola, ano em que se forma o grupo GAMA.",
+    "summary": "O grupo GAMA, formado naquele ano por ex-integrantes do Teatro-Escola, encena “Transviados”, de Amaral Gurgel — um dos grandes sucessos de 1957.",
     "era": "cine theatro",
     "tags": [
       "teatro amador"
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 107 e 257"
     ]
   },
   {
@@ -704,15 +722,16 @@
     "date": "1957-06-05",
     "display": "anos 1950",
     "ano": 1957,
-    "title": "Os recitais do Conservatório Guiomar Novais",
-    "summary": "Ao longo dos anos 1950 e 1960, o Conservatório Musical Guiomar Novais — que levava o nome da pianista sanjoanense — apresentava no palco do Theatro recitais anuais de ballet, piano, canto, violino e acordeon, formando gerações de músicos da cidade.",
+    "title": "Os recitais do Conservatório Guiomar Novaes",
+    "summary": "Nos anos 1950 e 1960, o Conservatório Musical Guiomar Novaes, dirigido pela professora Miriam Pipano, apresenta no Theatro — no palco e na sala do segundo andar — recitais de ballet, piano, canto, violino e acordeon, formando gerações de músicos da cidade.",
     "era": "cine theatro",
     "tags": [
       "Música"
     ],
     "status": "documentado",
     "sources": [
-      "Programas do Conservatório Guiomar Novais, 1956–1962 (folhetos)"
+      "Programas do Conservatório, 1956–1962 (folhetos)",
+      "Menezes 2014, pp. 92, 97 e 256–257"
     ]
   },
   {
@@ -728,22 +747,23 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, pp. 109–111"
+      "Menezes 2014, pp. 109–111",
+      "Jeronimo 2020, pp. 150–151"
     ]
   },
   {
     "id": "t066",
     "date": "1961-06-10",
     "display": "10 jun. 1961",
-    "title": "Procópio Ferreira retorna",
-    "summary": "Em nova visita a São João da Boa Vista, o ator Procópio Ferreira volta ao Theatro.",
+    "title": "Procópio Ferreira elogia o GAMA",
+    "summary": "Em visita a São João da Boa Vista, o ator Procópio Ferreira elogia o grupo amador GAMA.",
     "era": "cine theatro",
     "tags": [
       "teatro profissional"
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 108"
     ]
   },
   {
@@ -759,7 +779,8 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, p. 110"
+      "Menezes 2014, p. 110",
+      "Jeronimo 2020, p. 151"
     ]
   },
   {
@@ -775,22 +796,22 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 97 e 236"
     ]
   },
   {
     "id": "t086",
-    "date": "1966",
-    "display": "1966",
+    "date": "1966-07-20",
+    "display": "20 jul. 1966",
     "title": "Cacilda Becker e Walmor Chagas",
-    "summary": "Dois grandes nomes do teatro brasileiro sobem ao palco sanjoanense.",
+    "summary": "Walmor Chagas e Cacilda Becker apresentam a peça “O Homem e a Mulher” no palco sanjoanense.",
     "era": "declínio",
     "tags": [
       "teatro"
     ],
     "status": "documentado",
     "sources": [
-      "Jeronimo, 2020"
+      "Menezes 2014, p. 257"
     ]
   },
   {
@@ -806,7 +827,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, p. 98"
+      "Menezes 2014, p. 98",
+      "Jeronimo 2020, p. 152"
     ]
   },
   {
@@ -821,23 +843,23 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, p. 98"
+      "Menezes 2014, pp. 98 e 257"
     ]
   },
   {
     "id": "t093",
-    "date": "1977-06-01",
-    "display": "1977–1978",
+    "date": "1977-05",
+    "display": "maio 1977",
     "ano": 1977,
-    "title": "A Companhia Teatral Sanjoanense em liquidação",
-    "summary": "Endividada e sem atividade, a antiga Companhia Teatral Sanjoanense entra em liquidação judicial — os acionistas, em sua maioria já falecidos, têm suas ações partilhadas. O desfecho jurídico da sociedade que erguera o Theatro abre caminho para o impasse sobre o destino do prédio.",
+    "title": "O fim da Companhia Teatral Sanjoanense",
+    "summary": "É extinta a Companhia Teatral Sanjoanense, já quase toda nas mãos do Dr. Joaquim José de Oliveira Neto. O cinema segue no prédio até 1982; o fim da sociedade que erguera o Theatro abre o impasse sobre o destino do edifício.",
     "era": "preservação",
     "tags": [
       "Cidade"
     ],
     "status": "documentado",
     "sources": [
-      "A Cidade de São João, 13 mai. 1978 — edital judicial (folheto)"
+      "Jeronimo 2020, p. 159"
     ]
   },
   {
@@ -853,7 +875,9 @@
     ],
     "status": "documentado",
     "sources": [
-      "Lei Municipal nº 219/1981; Menezes 2014, p. 115"
+      "Lei Municipal nº 219/1981",
+      "Menezes 2014, p. 115",
+      "Jeronimo 2020, p. 160"
     ]
   },
   {
@@ -869,12 +893,12 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 98 e 257"
     ]
   },
   {
     "id": "t023",
-    "date": "1982/1983",
+    "date": "1983",
     "display": "1982–1983",
     "title": "Mobilização contra a demolição",
     "summary": "Artistas, imprensa e moradores pressionam pela preservação.",
@@ -885,7 +909,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, pp. 115–120"
+      "Menezes 2014, pp. 115–120",
+      "Jeronimo 2020, pp. 159–162"
     ]
   },
   {
@@ -893,14 +918,15 @@
     "date": "1983-12-31",
     "display": "1983–1984",
     "title": "Abaixo-assinados pela preservação",
-    "summary": "Quatro abaixo-assinados reúnem 1.026 assinaturas; uma consulta popular mobiliza 1.651 participantes em defesa do prédio.",
+    "summary": "Quatro abaixo-assinados reúnem 1.026 assinaturas; em abril de 1984, uma consulta popular no foyer recolhe 1.651 questionários em defesa do prédio.",
     "era": "preservação",
     "tags": [
       "abaixo-assinado"
     ],
     "status": "documentado",
     "sources": [
-      "Jeronimo 2020; Menezes 2014, p. 116"
+      "Jeronimo 2020, pp. 161 e 167–168",
+      "Jeronimo 2023, p. 8"
     ]
   },
   {
@@ -932,13 +958,14 @@
     ],
     "status": "documentado",
     "sources": [
-      "Escritura; Menezes 2014, p. 119",
-      "Jeronimo 2020"
+      "Escritura",
+      "Menezes 2014, p. 119",
+      "Jeronimo 2020, p. 165"
     ]
   },
   {
     "id": "t027",
-    "date": "1985-05",
+    "date": "1985-05-28",
     "display": "28 mai. 1985",
     "title": "A compra se completa: palco e fundos",
     "summary": "Pela Lei nº 241, a Prefeitura compra a segunda parte do edifício — fundo do palco, camarins e terreno posterior. Sem ela não haveria caixa cênica: só então o Theatro volta a ser um conjunto inteiro, e público.",
@@ -949,7 +976,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Lei municipal nº 241/1985; Jeronimo, 2020"
+      "Lei municipal nº 241/1985",
+      "Jeronimo 2020, p. 170"
     ]
   },
   {
@@ -957,7 +985,7 @@
     "date": "1986",
     "display": "1986",
     "title": "Projetos e início das obras",
-    "summary": "Equipe multidisciplinar revisa soluções e busca recursos. Na exposição dos projetos no foyer, o governador Franco Montoro e o secretário José Serra visitaram o Theatro e prometeram recursos para a restauração.",
+    "summary": "Equipe multidisciplinar revisa soluções e busca recursos. Em 13 de abril de 1986, na exposição dos projetos no foyer, o governador Franco Montoro e o secretário José Serra visitam o Theatro e prometem recursos para a restauração.",
     "era": "restauro",
     "tags": [
       "projeto",
@@ -965,7 +993,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, pp. 126–145"
+      "Menezes 2014, pp. 126–133 e 148–149",
+      "Jeronimo 2020, p. 176"
     ]
   },
   {
@@ -980,7 +1009,9 @@
     ],
     "status": "documentado",
     "sources": [
-      "Resolução SC nº 03/1987"
+      "Resolução SC nº 03/1987",
+      "Jeronimo 2020, pp. 178–181",
+      "Menezes 2014, p. 131"
     ]
   },
   {
@@ -996,7 +1027,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Jeronimo, 2020; Beraldo, 2004"
+      "Jeronimo 2020, p. 196",
+      "Menezes 2014, p. 132"
     ]
   },
   {
@@ -1012,7 +1044,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, p. 163"
+      "Menezes 2014, pp. 133 e 163",
+      "Jeronimo 2020, p. 197"
     ]
   },
   {
@@ -1028,7 +1061,7 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 163"
     ]
   },
   {
@@ -1059,14 +1092,15 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 166",
+      "Jeronimo 2020, p. 208"
     ]
   },
   {
     "id": "t032",
     "date": "1996-09-07",
     "display": "7 set. 1996",
-    "title": "Semana Guiomar Novaes em obras",
+    "title": "19ª Semana Guiomar Novaes em obras",
     "summary": "O festival ocupa o edifício antes da conclusão da sala.",
     "era": "restauro",
     "tags": [
@@ -1075,7 +1109,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, p. 133"
+      "Menezes 2014, p. 133",
+      "Jeronimo 2020, p. 208"
     ]
   },
   {
@@ -1090,7 +1125,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 165 e 258"
     ]
   },
   {
@@ -1106,7 +1141,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, p. 133"
+      "Menezes 2014, p. 133",
+      "Jeronimo 2020, pp. 197–198"
     ]
   },
   {
@@ -1122,7 +1158,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 167 e 258"
     ]
   },
   {
@@ -1138,14 +1174,14 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 165 e 258"
     ]
   },
   {
     "id": "t074",
     "date": "2000",
     "display": "2000",
-    "title": "Sala de Múltiplo Uso Dilo Gianelli",
+    "title": "A Sala de Múltiplo Uso",
     "summary": "É inaugurada a Sala de Múltiplo Uso, com poltronas e equipamentos multimídia, hoje sede do Cineclube Beloca.",
     "era": "restauro",
     "tags": [
@@ -1154,7 +1190,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 157 e 161"
     ]
   },
   {
@@ -1170,7 +1206,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 169 e 258"
     ]
   },
   {
@@ -1186,13 +1222,13 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 169 e 258"
     ]
   },
   {
     "id": "t034",
-    "date": "2002-09",
-    "display": "set. 2002",
+    "date": "2002-09-23",
+    "display": "23 set. 2002",
     "title": "Reabertura da sala",
     "summary": "A 25ª Semana Guiomar Novaes marca o reencontro com o público.",
     "era": "reabertura",
@@ -1200,9 +1236,10 @@
       "reabertura",
       "festival"
     ],
-    "status": "data em revisão",
+    "status": "documentado",
     "sources": [
-      "Menezes 2014, pp. 162, 175, 238 e 258"
+      "Menezes 2014, pp. 238 e 240",
+      "Jeronimo 2020, pp. 208 e 296"
     ]
   },
   {
@@ -1218,7 +1255,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Lei municipal nº 1.194/2003; Menezes 2014, p. 175"
+      "Lei municipal nº 1.194, de 1º out. 2003",
+      "Menezes 2014, p. 175"
     ]
   },
   {
@@ -1233,13 +1271,13 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 185"
     ]
   },
   {
     "id": "t078",
-    "date": "2007",
-    "display": "2007",
+    "date": "2007-07-17",
+    "display": "17 jul. 2007",
     "title": "Nasce o Cineclube Beloca",
     "summary": "Criado para levar ao público filmes fora do circuito comercial, na Sala de Múltiplo Uso.",
     "era": "contemporâneo",
@@ -1249,7 +1287,8 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "O Município, 21 jul. 2007 (in Jeronimo 2020, pp. 272–273)",
+      "Menezes 2014, pp. 161 e 178"
     ]
   },
   {
@@ -1265,7 +1304,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 179"
     ]
   },
   {
@@ -1281,13 +1320,13 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 161"
     ]
   },
   {
     "id": "t089",
-    "date": "2009",
-    "display": "2009",
+    "date": "2009-05-05",
+    "display": "5 maio 2009",
     "title": "AMITE de utilidade pública",
     "summary": "A associação é declarada de utilidade pública municipal pela Lei nº 2.537.",
     "era": "contemporâneo",
@@ -1297,7 +1336,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Lei municipal nº 2.537/2009"
+      "Lei municipal nº 2.537, de 5 maio 2009 (Câmara Municipal)"
     ]
   },
   {
@@ -1313,7 +1352,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, pp. 176–177"
+      "Menezes 2014, p. 176"
     ]
   },
   {
@@ -1329,7 +1368,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, pp. 177 e 204–206"
+      "Menezes 2014, pp. 177 e 206"
     ]
   },
   {
@@ -1345,7 +1384,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, pp. 177–178"
     ]
   },
   {
@@ -1377,13 +1416,13 @@
     ],
     "status": "documentado",
     "sources": [
-      "Menezes 2014, \"Theatro Municipal, 100 anos\""
+      "Menezes 2014, p. 206"
     ]
   },
   {
     "id": "t039",
-    "date": "2015",
-    "display": "2015",
+    "date": "2015-10",
+    "display": "out. 2015",
     "title": "Música & Drama",
     "summary": "O documentário leva a história do Theatro para a linguagem audiovisual.",
     "era": "contemporâneo",
@@ -1392,7 +1431,7 @@
     ],
     "status": "documentado",
     "sources": [
-      "YouTube e arquivo de produção"
+      "Jeronimo 2020, p. 309"
     ]
   },
   {
@@ -1400,7 +1439,7 @@
     "date": "2021-09-23",
     "display": "23 set. 2021",
     "title": "Gestão volta a ser municipal",
-    "summary": "A Lei nº 4.898 encerra o convênio com a AMITE, e a administração passa ao Departamento de Cultura.",
+    "summary": "A Lei nº 4.898 revoga a lei de 2003 que autorizava o convênio com a AMITE, e a gestão do Theatro volta à Prefeitura.",
     "era": "contemporâneo",
     "tags": [
       "gestão",
@@ -1408,12 +1447,12 @@
     ],
     "status": "documentado",
     "sources": [
-      "Lei municipal nº 4.898/2021"
+      "Lei municipal nº 4.898, de 23 set. 2021 (Câmara Municipal)"
     ]
   },
   {
     "date": "2023-05-17",
-    "display": "2023",
+    "display": "17 maio 2023",
     "title": "Em busca de recursos",
     "summary": "A Prefeitura vai a São Paulo pedir verba à Secretaria de Cultura e Economia Criativa (SEC-SP) para reformar o Theatro e a sala Dilo Gianelli.",
     "era": "contemporâneo",
@@ -1427,8 +1466,8 @@
     "id": "t090"
   },
   {
-    "date": "2023-10-01",
-    "display": "2023",
+    "date": "2023-10",
+    "display": "out. 2023",
     "title": "As chuvas e as portas laterais",
     "summary": "Fortes chuvas expõem a precariedade do prédio: a água invade pelas portas laterais, na rua Antonina Junqueira, e um vídeo do episódio viraliza na cidade.",
     "era": "contemporâneo",
@@ -1442,15 +1481,15 @@
     "id": "t091"
   },
   {
-    "date": "2024-08-07",
-    "display": "2024",
+    "date": "2024-08",
+    "display": "ago. 2024",
     "title": "A reforma começa pela fachada",
     "summary": "Após cerca de vinte anos sem manutenção, a reforma começa de fora para dentro — pintura das fachadas, do interior, troca de carpetes e cuidados no palco, portas e janelas —, viabilizada por uma emenda estadual de R$ 170 mil.",
     "era": "contemporâneo",
     "tags": [
       "manutenção"
     ],
-    "status": "oficial",
+    "status": "documentado",
     "sources": [
       "O Município, 7 ago. 2024"
     ],
@@ -1459,14 +1498,14 @@
   {
     "id": "t040",
     "date": "2024-10-15",
-    "display": "2024",
+    "display": "15 out. 2024",
     "title": "Nova revitalização",
-    "summary": "Obras anunciadas alcançam palco, foyer e pintura externa.",
+    "summary": "Em andamento, as obras de revitalização alcançam o palco, o foyer e a pintura externa.",
     "era": "contemporâneo",
     "tags": [
       "manutenção"
     ],
-    "status": "oficial",
+    "status": "documentado",
     "sources": [
       "Prefeitura de São João da Boa Vista, 15 out. 2024"
     ]
@@ -1474,9 +1513,9 @@
   {
     "id": "t083",
     "date": "2025-09-12",
-    "display": "set. 2025",
+    "display": "12 set. 2025",
     "title": "48ª Semana Guiomar Novaes",
-    "summary": "O festival anual que homenageia a pianista sanjoanense abre com Renato Teixeira no Theatro Municipal e leva mais de 40 atrações gratuitas à cidade — sinal de um palco plenamente vivo.",
+    "summary": "O festival anual que homenageia a pianista sanjoanense vai de 12 a 21 de setembro, abre com Renato Teixeira no Theatro e leva mais de 40 atrações gratuitas à cidade.",
     "era": "contemporâneo",
     "tags": [
       "festival",
@@ -1485,29 +1524,28 @@
     ],
     "status": "documentado",
     "sources": [
-      "Prefeitura de São João da Boa Vista, 2025",
-      "Agência SP, 2025"
+      "Prefeitura de São João da Boa Vista, 8 set. 2025"
     ]
   },
   {
     "id": "t041",
-    "date": "2025/2026",
-    "display": "2025–2026",
-    "title": "Um palco ativo",
-    "summary": "Festivais e eventos confirmam a continuidade do uso cultural.",
+    "date": "2026-09-11",
+    "display": "11 set. 2026",
+    "title": "49ª Semana Guiomar Novaes",
+    "summary": "A 49ª edição, de 11 a 20 de setembro, abre com a Orquestra Brasil Jazz Sinfônica no Theatro, com programação gratuita pela cidade.",
     "era": "contemporâneo",
     "tags": [
       "programação"
     ],
-    "status": "oficial",
+    "status": "documentado",
     "sources": [
-      "Agenda cultural municipal"
+      "Associação Paulista dos Amigos da Arte, 2026"
     ]
   },
   {
     "id": "t201",
-    "date": "1915",
-    "display": "1915",
+    "date": "1915-10",
+    "display": "out. 1915",
     "title": "Debêntures para fechar a conta",
     "summary": "Mesmo após a inauguração, a Companhia recorre a debêntures — 100 contos de réis, a 6% ao ano, por dez anos — para cobrir o custo da obra, que superou o capital inicial.",
     "era": "primeiras décadas",
@@ -1516,13 +1554,14 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Jeronimo (USP, 2020)"
+      "Menezes 2014, pp. 42 e 250",
+      "Jeronimo 2020, pp. 95–96"
     ]
   },
   {
     "id": "t202",
-    "date": "1970",
-    "display": "1970",
+    "date": "1970-03-11",
+    "display": "11 mar. 1970",
     "title": "Cine Ouro Branco acirra a concorrência",
     "summary": "A abertura de mais uma sala moderna divide o público com o antigo CineTheatro, já desgastado, acelerando o seu declínio.",
     "era": "declínio",
@@ -1532,7 +1571,8 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Jeronimo (USP, 2020)"
+      "Jeronimo 2020, p. 154",
+      "Jeronimo 2023, p. 3"
     ]
   },
   {
@@ -1547,7 +1587,7 @@
     ],
     "status": "corroborado",
     "sources": [
-      "Jeronimo (USP, 2020)"
+      "Jeronimo 2020, p. 214"
     ]
   }
 ]
