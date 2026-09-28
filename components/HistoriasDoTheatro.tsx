@@ -3,13 +3,12 @@ import Link from 'next/link';
 
 // Banner da série "As Histórias do Theatro" na home, com a arte do evento
 // (letreiro, fachada em traço e padrão sobre o vinho). Os canais ficam
-// numa lista só: quando YouTube e Spotify existirem, basta pôr o href.
+// numa lista só: quando YouTube e Spotify existirem, basta acrescentá-los
+// aqui com o href (os ícones já estão prontos em ICONES).
 
 const CANAIS: { nome: string; href?: string }[] = [
   { nome: 'Instagram', href: 'https://www.instagram.com/ashistoriasdotheatro/' },
   { nome: 'TikTok', href: 'https://www.tiktok.com/@ashistoriasdotheatro' },
-  { nome: 'YouTube' },
-  { nome: 'Spotify' },
 ];
 
 // Ícones de traço, uma cor (currentColor), no mesmo peso das linhas do site.
