@@ -8,6 +8,7 @@ import { vozesList } from '@/lib/data';
 import Mark from '@/components/Mark';
 import Reveal from '@/components/Reveal';
 import ProximoEvento from '@/components/ProximoEvento';
+import HistoriasDoTheatro from '@/components/HistoriasDoTheatro';
 
 export const revalidate = 21600; // 6h — acompanha a agenda de /programacao
 
@@ -143,6 +144,9 @@ export default function Home() {
           </figure>
         </Reveal>
       </section>
+
+      {/* AS HISTÓRIAS DO THEATRO — série: evento + canais */}
+      <HistoriasDoTheatro />
 
       {/* PESSOAS */}
       <section className="border-t border-gold/20 bg-cream dark:bg-night">

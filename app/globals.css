@@ -222,3 +222,9 @@ html, body { overflow-x: clip; }
 
 /* rótulos em versalete: peso leve — o que os destaca é o espacejamento, não a força */
 .tracking-eyebrow { font-weight: 400; }
+
+/* As Histórias do Theatro — fontes da marca do evento (mesmos arquivos do hotsite) */
+@font-face { font-family: 'Libre Baskerville'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/evento/f/004.woff2) format('woff2'); }
+@font-face { font-family: 'Cabin'; font-style: normal; font-weight: 400 700; font-display: swap; src: url(/evento/f/002.woff2) format('woff2'); }
+.historias-lockup { font-family: 'Libre Baskerville', Georgia, serif; font-weight: 700; font-size: clamp(1.9rem, 8.6vw, 3.5rem); }
+.historias-sub { font-family: 'Cabin', 'Gill Sans', sans-serif; font-weight: 500; font-size: clamp(1rem, 2.4vw, 1.4rem); }
