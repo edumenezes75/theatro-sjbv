@@ -45,7 +45,7 @@ export default function LivroCentenario() {
             <em className="italic text-gold">100 anos</em>
           </h2>
           <p className="mt-7 max-w-reading font-read text-lg leading-relaxed text-cream/85">
-            Um século de palco em 302 páginas: a construção, o Cine Theatro, a luta pela restauração, os programas, as crônicas e a cronologia da casa. O livro de Neusa Menezes, lançado em 2014, agora está aberto a todos, por inteiro.
+            Um século de palco em 302 páginas: a construção, o Cine Theatro, a luta pela restauração, os programas, as crônicas e a cronologia da casa. Neusa Menezes oferece aqui a edição completa de 2014, para baixar, ler e guardar.
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-6">
