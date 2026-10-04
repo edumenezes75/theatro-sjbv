@@ -8,7 +8,6 @@ export default function NotFound() {
     ['/', 'Início'],
     ['/historia', 'A história'],
     ['/acervo', 'O acervo de fotos'],
-    ['/livro-de-memorias', 'O Livro de Memórias'],
   ];
   return (
     <div className="mx-auto flex min-h-[60vh] max-w-2xl flex-col items-center justify-center px-5 py-40 text-center">

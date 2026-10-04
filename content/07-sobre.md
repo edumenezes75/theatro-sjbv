@@ -37,7 +37,7 @@ As imagens do acervo passaram por curadoria e tratamento fiel — sem alterar co
 
 Esta história não está fechada. Muitas fotografias ainda guardam rostos sem nome, datas aproximadas e episódios que só a memória de quem viveu pode esclarecer.
 
-Se você reconheceu alguém em uma foto, lembra de uma sessão de cinema, de um baile, de um espetáculo ou de uma história de família ligada ao Theatro, [deixe sua lembrança no Livro de Memórias](./livro-de-memorias). Cada contribuição ajuda a completar o registro.
+Se você reconheceu alguém em uma foto, lembra de uma sessão de cinema, de um baile, de um espetáculo ou de uma história de família ligada ao Theatro, abra a foto no [acervo](./acervo) e deixe um comentário. Cada contribuição ajuda a completar o registro.
 
 ## Créditos
 

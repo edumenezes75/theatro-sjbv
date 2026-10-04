@@ -27,7 +27,6 @@ const MENU: Grupo[] = [
     { href: '/documentario', label: 'Documentário', hint: 'O filme, com transcrição navegável' },
     { href: '/pessoas', label: 'Pessoas', hint: 'Quem fez o Theatro acontecer' },
     { href: '/memorias', label: 'Curiosidades', hint: 'Histórias miúdas da casa' },
-    { href: '/livro-de-memorias', label: 'Livro de Memórias', hint: 'Deixe a sua lembrança' },
   ] },
   { label: 'Programação', href: '/programacao' },
   { label: 'Visite', href: '/visite' },

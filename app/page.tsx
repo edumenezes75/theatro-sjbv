@@ -202,23 +202,6 @@ export default function Home() {
         </Reveal>
       </section>
 
-      {/* LIVRO DE MEMÓRIAS — convite à participação */}
-      <section className="border-t border-gold/20 bg-curtain text-cream dark:bg-gold/10">
-        {/* faixa de convite: texto centrado, para a tarja não ficar com a metade direita vazia */}
-        <div className="mx-auto max-w-3xl px-5 py-20 text-center sm:py-24">
-          <Reveal>
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">Livro de Memórias</p>
-            <h2 className="mx-auto mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">Esta história é da cidade — e está incompleta sem a sua lembrança.</h2>
-            <p className="mx-auto mt-5 max-w-reading font-sans text-base leading-relaxed text-cream/85">
-              Você assistiu a uma sessão de cinema de domingo, dançou num baile de Carnaval, subiu a escada da galeria, reconheceu um rosto numa foto antiga? Deixe a sua memória no livro aberto do Theatro. Cada lembrança ajuda a identificar imagens e a guardar a casa para quem vem depois.
-            </p>
-            <div className="mt-8">
-              <Link href="/livro-de-memorias" className="inline-block rounded-full bg-gold px-7 py-3.5 font-sans text-sm font-semibold text-ink transition-transform hover:scale-[1.03]">Deixar a minha lembrança</Link>
-            </div>
-          </Reveal>
-        </div>
-      </section>
-
       {/* VOZES DO THEATRO */}
       <section className="border-t border-gold/20 bg-cream dark:bg-night">
         <div className="mx-auto max-w-6xl px-5 py-24">
