@@ -9,6 +9,7 @@ import Mark from '@/components/Mark';
 import Reveal from '@/components/Reveal';
 import ProximoEvento from '@/components/ProximoEvento';
 import HistoriasDoTheatro from '@/components/HistoriasDoTheatro';
+import LivroCentenario from '@/components/LivroCentenario';
 
 export const revalidate = 21600; // 6h — acompanha a agenda de /programacao
 
@@ -177,6 +178,9 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
+
+      {/* O LIVRO DO CENTENÁRIO — download autorizado */}
+      <LivroCentenario />
 
       {/* O THEATRO EM IMAGENS */}
       <section className="mx-auto max-w-6xl px-5 py-24">
