@@ -37,7 +37,23 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-12 border-t border-cream/15 pt-6 text-sm leading-relaxed text-cream/75">
+        <div className="mt-12 flex items-center gap-4 border-t border-cream/15 pt-6">
+          <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">Contato do projeto</p>
+          <a
+            href="https://wa.me/5519983016060"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Falar com Edu Menezes, autor do projeto, pelo WhatsApp"
+            title="Falar com o autor do projeto pelo WhatsApp"
+            className="grid h-10 w-10 place-items-center rounded-full border border-cream/25 text-cream/85 transition-colors hover:border-gold hover:text-gold"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+              <path d="M12 3.5a8.5 8.5 0 0 0-7.3 12.9L3.5 20.5l4.2-1.1A8.5 8.5 0 1 0 12 3.5Z" />
+              <path d="M9.2 8.6c-.5 1.6.3 3.3 1.8 4.7 1.5 1.400 3.100 2.100 4.600 1.500" />
+            </svg>
+          </a>
+        </div>
+        <div className="mt-6 text-sm leading-relaxed text-cream/75">
           <p className="max-w-2xl text-cream/70">
             Projeto independente de memória e divulgação histórica. <strong className="font-medium text-cream/90">Este não é o site oficial do Theatro Municipal nem da Prefeitura de São João da Boa Vista.</strong> Para programação, bilheteria e informações oficiais, consulte os{' '}
             <a href="https://saojoao.sp.gov.br/cultura/equipamentos-culturais/theatro-municipal" target="_blank" rel="noopener noreferrer" className="underline decoration-gold/40 underline-offset-2 hover:text-gold">canais da Prefeitura</a>.
