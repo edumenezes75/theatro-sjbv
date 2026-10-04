@@ -85,9 +85,10 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-const GALLERIES: Record<string, { title: string; cats: string[] }> = {
+const GALLERIES: Record<string, { title: string; cats: string[]; ids?: string[] }> = {
   'o-theatro': { title: 'O Theatro em imagens', cats: ['fachada', 'sala'] },
-  arquitetura: { title: 'A arquitetura em imagens', cats: ['sala', 'ornamentos'] },
+  // curadoria fixa: por fora, por dentro e os ornamentos — só fotos que não aparecem em outra página
+  arquitetura: { title: 'A arquitetura em imagens', cats: [], ids: ['h166', 'h051', 'h144', 'h152', 'h200', 'h103', 'h305', 'h025', 'h306', 'h185', 'h186', 'h187', 'h057', 'h263', 'h264'] },
   restauracao: { title: 'O restauro em imagens', cats: ['restauro', 'ornamentos'] },
 };
 const ANTES_DEPOIS = new Set(['restauracao', 'arquitetura']);
@@ -99,7 +100,9 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
   const words = page.html.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
   const readMin = Math.max(1, Math.round(words / 200));
   const gal = GALLERIES[params.slug];
-  const galFotos = gal ? fotosList.filter((f) => gal.cats.includes(f.category)).slice(0, 16) : [];
+  const galFotos = !gal ? [] : gal.ids
+    ? (gal.ids.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList)
+    : fotosList.filter((f) => gal.cats.includes(f.category)).slice(0, 16);
   const showAD = ANTES_DEPOIS.has(params.slug);
   const h2count = (page.html.match(/<h2/g) || []).length;
   const longRead = h2count >= 4;

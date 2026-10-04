@@ -133,13 +133,6 @@
    "kind": "dossiê"
   }
  ],
- "h036": [
-  {
-   "slug": "/arquitetura",
-   "title": "Arquitetura",
-   "kind": "página"
-  }
- ],
  "h039": [
   {
    "slug": "/a-noite-de-inauguracao",
@@ -349,6 +342,13 @@
    "kind": "página"
   }
  ],
+ "h181": [
+  {
+   "slug": "/arquitetura",
+   "title": "Arquitetura",
+   "kind": "página"
+  }
+ ],
  "h182": [
   {
    "slug": "/restauracao",
@@ -410,6 +410,20 @@
    "kind": "página"
   }
  ],
+ "h204": [
+  {
+   "slug": "/arquitetura",
+   "title": "Arquitetura",
+   "kind": "página"
+  }
+ ],
+ "h205": [
+  {
+   "slug": "/arquitetura",
+   "title": "Arquitetura",
+   "kind": "página"
+  }
+ ],
  "h206": [
   {
    "slug": "/a-noite-de-inauguracao",
@@ -417,11 +431,25 @@
    "kind": "dossiê"
   }
  ],
+ "h213": [
+  {
+   "slug": "/arquitetura",
+   "title": "Arquitetura",
+   "kind": "página"
+  }
+ ],
  "h235": [
   {
    "slug": "/as-mulheres-do-theatro",
    "title": "As mulheres do Theatro",
    "kind": "dossiê"
+  }
+ ],
+ "h257": [
+  {
+   "slug": "/arquitetura",
+   "title": "Arquitetura",
+   "kind": "página"
   }
  ],
  "h259": [
@@ -599,6 +627,20 @@
   {
    "slug": "/guiomar-novaes-e-o-theatro",
    "title": "Guiomar Novaes e o Theatro",
+   "kind": "página"
+  }
+ ],
+ "h303": [
+  {
+   "slug": "/arquitetura",
+   "title": "Arquitetura",
+   "kind": "página"
+  }
+ ],
+ "h304": [
+  {
+   "slug": "/arquitetura",
+   "title": "Arquitetura",
    "kind": "página"
   }
  ]

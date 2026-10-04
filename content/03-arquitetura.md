@@ -4,8 +4,8 @@ title: "Arquitetura"
 eyebrow: "Uma sala em ferradura, muitas camadas de tempo"
 seo_title: "Arquitetura do Theatro Municipal de São João da Boa Vista"
 seo_description: "Explore a fachada, a sala em ferradura, o palco e as transformações arquitetônicas do Theatro Municipal."
-hero_image: "/fotos/hr-sala-36.jpg"
-hero_alt: "Interior histórico do Theatro com plateia e galerias sobrepostas em forma de ferradura."
+hero_image: "/fotos/sl-39.jpg"
+hero_alt: "A sala em ferradura vista do alto, com a plateia vazia, em registro antigo."
 status: "texto público"
 ---
 
@@ -18,6 +18,14 @@ Essa relação entre cena e espectadores é uma das marcas da tradição teatral
 ## A fachada como anúncio
 
 O projeto de 1913 apresenta uma composição simétrica e eclética, com eixo central destacado, frontão, ornamentos e as inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*. O edifício foi feito para se impor diante da praça e anunciar a que veio antes de o público entrar. É uma fachada que se lê: cada relevo ali diz alguma coisa.
+
+![Desenho do projeto da fachada do Theatro.](/fotos/hr5-historicas-02.jpg)
+
+*O projeto da fachada apresentado pelo arquiteto J. Pucci (José Pucci).*
+
+![A fachada eclética do Theatro, voltada para a Praça da Catedral.](/fotos/hr4-fachada-08.jpg)
+
+*A fachada restaurada, voltada para a Praça da Catedral: o eixo central com o frontão e, na lateral, o corpo comprido que abriga a sala e o palco.*
 
 ![A fachada do Theatro em registro antigo, com a faixa de inscrições no alto da cornija.](/fotos/hr7-fachada-historica.jpg)
 
@@ -55,17 +63,25 @@ A mesma crônica de 1913 deixa ver o orgulho com a modernidade técnica do edif�
 
 A sala curva distribui o público ao redor da plateia e aproxima os níveis superiores do palco. Em vez de uma caixa retangular simples, o espaço cria continuidade visual entre frisas, camarotes e galerias.
 
+![Pranchas de levantamento arquitetônico: planta em ferradura e cortes.](/fotos/hr5-historicas-03.jpg)
+
+*A ferradura em planta — pranchas do levantamento arquitetônico, com os dois pavimentos da sala.*
+
 Historicamente, essa disposição também organizava diferenças sociais. Os setores tinham preços, acessos e experiências distintas. A galeria podia receber grande público; frisas e camarotes ofereciam visibilidade e representação social; a plateia concentrava cadeiras classificadas por categoria. Os preços traduziam a hierarquia: num benefício de 1916, a galeria custava 500 réis, a plateia 1$000, o camarote 5$000 e a frisa 6$000 — mais de dez vezes de diferença entre o lugar mais alto e o mais distinto.
 
-![O palco e a boca de cena, com o medalhão de Carlos Gomes ao alto.](/fotos/hr5-sala-02.jpg)
+![A sala depois do restauro, vista do palco: plateia, frisas, camarotes e galeria.](/fotos/hr10-sala-vista-geral.jpg)
 
-*O palco e a boca de cena, coroada pelo medalhão de Carlos Gomes — vista da plateia em ferradura.*
+*A sala depois do restauro, vista do palco: plateia, frisas, camarotes e galeria, um nível sobre o outro.*
 
 > **Voz do filme** · “Toda essa ferradura é feita de estrutura metálica; ela veio da Bélgica, de navio, e toda numerada para ser montada aqui.” — [ouvir no documentário (15:55) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=955s)
 
 ![Medalhão pintado com retrato, na faixa decorativa sobre os camarotes.](/fotos/hr5-ornamentos-08.jpg)
 
 *Medalhão pintado com retrato, na faixa decorativa que percorre a sala sobre os camarotes.*
+
+![A curva das frisas e dos camarotes depois do restauro.](/fotos/hr10-frisas-curva.jpg)
+
+*A curva das frisas e dos camarotes, com as divisórias em onda e o gradil de ferro.*
 
 ## Madeira, metal e som
 
@@ -97,6 +113,10 @@ Não é voz isolada: a cantora **Mônica Salmaso** também chamou a casa de “u
 
 O palco original foi pensado para receber companhias, cenários e orquestra. Com o tempo, a instalação da tela de cinema e outras adaptações reduziram ou esconderam parte de sua função teatral.
 
+![O palco e a boca de cena, com o medalhão de Carlos Gomes ao alto.](/fotos/hr5-sala-02.jpg)
+
+*O palco e a boca de cena, coroada pelo medalhão de Carlos Gomes — vista da plateia em ferradura.*
+
 A restauração criou nova estrutura metálica, áreas de manobra, contrapesos, módulos de piso, camarins em pavimentos e espaços sob o palco. Os projetos precisaram conciliar preservação e funcionamento contemporâneo.
 
 ### Glossário rápido
@@ -113,6 +133,10 @@ A restauração criou nova estrutura metálica, áreas de manobra, contrapesos, 
 ## As alterações do cinema
 
 A adaptação para cinema não ocorreu em um único momento. Tela, cabine de projeção, poltronas, iluminação e circulação foram modificadas conforme as necessidades e os recursos disponíveis.
+
+![A tela do Cine Theatro montada na sala em ferradura.](/fotos/hr6-sala-01.jpg)
+
+*A tela do Cine Theatro montada diante da ferradura — a galeria superior vazia, no tempo do cinema.*
 
 A intervenção de **fevereiro de 1967** foi especialmente importante: frisas e camarotes desapareceram para abrir espaço a mais cadeiras — o gesto que mais descaracterizou a sala antes do restauro. Fotografias anteriores ao restauro mostram o interior esvaziado e a curva sustentada por estruturas aparentes.
 

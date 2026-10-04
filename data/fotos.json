@@ -3626,5 +3626,53 @@
   "rank": 5,
   "cor": true,
   "docgrupo": "imprensa"
+ },
+ {
+  "id": "h303",
+  "file": "fotos/hr10-sala-vista-geral.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
+  "w": 1280,
+  "h": 960,
+  "alt": "A sala depois do restauro, vista do palco: plateia, frisas, camarotes e galeria, um nível sobre o outro.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Atual",
+  "tone": 2.1
+ },
+ {
+  "id": "h304",
+  "file": "fotos/hr10-frisas-curva.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
+  "w": 1280,
+  "h": 960,
+  "alt": "A curva das frisas e dos camarotes depois do restauro, com as divisórias em onda e o gradil de ferro.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Atual",
+  "tone": 2.1
+ },
+ {
+  "id": "h305",
+  "file": "fotos/hr10-camarotes-frente.jpg",
+  "category": "sala",
+  "categoryLabel": "Sala e plateia",
+  "w": 1280,
+  "h": 960,
+  "alt": "Frisas e camarotes vistos de frente, depois do restauro — as portas em arco de cada compartimento e as cadeiras vermelhas.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Atual",
+  "tone": 2.1
+ },
+ {
+  "id": "h306",
+  "file": "fotos/hr10-gradil-galeria.jpg",
+  "category": "ornamentos",
+  "categoryLabel": "Ornamentos",
+  "w": 1280,
+  "h": 960,
+  "alt": "O gradil de ferro e a faixa pintada com ramos, na curva de um dos níveis da sala.",
+  "credit": "Acervo Música & Drama — Theatro Municipal de São João da Boa Vista.",
+  "epoca": "Atual",
+  "tone": 2.1
  }
 ]
