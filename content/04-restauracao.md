@@ -102,6 +102,10 @@ As intervenções incluíram:
 
 *Sem o reboco, o edifício mostra o que o tempo havia empilhado: eletrodutos e caixas presos à alvenaria nua, instalações remendadas década após década. Tudo foi refeito — das redes elétricas ao esgoto.*
 
+![Operários montam a estrutura do piso da plateia, sob a curva das galerias.](/fotos/hr13-obra-piso-plateia.jpg)
+
+*A plateia sem assoalho: operários montam a estrutura do piso, sob a curva das galerias.*
+
 O rebaixamento das fundações foi executado lentamente. Relatos técnicos registram controle rigoroso do recalque e a necessidade de laudos para responder ao temor de que a escavação pudesse comprometer o edifício.
 
 No documentário, a tensão daqueles dias aparece inteira: "a cidade inteira falava: vai cair, vai cair", com a máquina vibrando lá dentro. Mas os cálculos se confirmaram — o recalque (o afundamento da terra) previsto chegava a seis centímetros e, concluída a obra, mediu-se menos de meio.
@@ -109,6 +113,10 @@ No documentário, a tensão daqueles dias aparece inteira: "a cidade inteira fal
 ![A escavação do fosso da orquestra, sob o palco, durante as obras.](/fotos/hr-restauro-23.jpg)
 
 *A escavação do fosso da orquestra, sob o palco, durante as obras.*
+
+![O porão do Theatro em 2008: as vigas metálicas e o assoalho visto por baixo.](/fotos/hr13-porao-vigas-2008.jpg)
+
+*O resultado, visto por baixo: o porão em 2008, com as vigas metálicas e o assoalho novo.*
 
 ## Restauro artístico
 
@@ -118,9 +126,21 @@ A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos.
 
 *Prospecção estratigráfica — pequenas janelas abertas na parede revelam, camada a camada, as cores de cada época. Era assim que se descobria o tom original.*
 
+![O desenho dos arabescos marcado na parede, à espera da pintura.](/fotos/hr13-arabescos-marcados.jpg)
+
+*O desenho dos arabescos marcado na parede, à espera da pintura — à direita, a coroa de louros do medalhão.*
+
 Na boca de cena, o medalhão de Carlos Gomes — pintura original de Ettore Adriano Fabri — foi revelado sob sucessivas camadas de tinta; Romeu Pradela Buzon Filho, o “Grilo”, atuou na recuperação dos ornamentos da fachada, em 1992. A história completa do medalhão tem episódio próprio: [O medalhão de Carlos Gomes →](/o-medalhao-de-carlos-gomes).
 
+![Um restaurador repinta os ramos em volta do medalhão de Carlos Gomes.](/fotos/hr13-restaurador-ramos.jpg)
+
+*Um restaurador repinta os ramos em volta do medalhão.*
+
 Algumas decisões foram interpretativas, e a honestidade pede registrá-las como tais: seis espelhos no foyer e as pinturas de ramos de café nas tabeiras foram acréscimos do restauro, inspirados em casas como o Theatro Municipal de São Paulo e o São Pedro — não remanescentes comprovados de 1914.
+
+![Os espelhos do foyer, com as molduras douradas.](/fotos/hr13-foyer-espelhos.jpg)
+
+*Os espelhos do foyer, um dos acréscimos do restauro.*
 
 ## Uma obra atravessada por governos e gerações
 

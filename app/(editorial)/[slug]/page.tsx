@@ -89,7 +89,8 @@ const GALLERIES: Record<string, { title: string; cats: string[]; ids?: string[] 
   'o-theatro': { title: 'O Theatro em imagens', cats: ['fachada', 'sala'] },
   // curadoria fixa: por fora, por dentro e os ornamentos — só fotos que não aparecem em outra página
   arquitetura: { title: 'A arquitetura em imagens', cats: [], ids: ['h181', 'h320', 'h166', 'h051', 'h144', 'h152', 'h315', 'h316', 'h317', 'h318', 'h200', 'h103', 'h305', 'h313', 'h025', 'h306', 'h185', 'h186', 'h187', 'h057', 'h263', 'h264'] },
-  restauracao: { title: 'O restauro em imagens', cats: ['restauro', 'ornamentos'] },
+  // a obra em ordem: estrutura, frisas, piso, forro, pintura, arabescos, poltronas, foyer
+  restauracao: { title: 'A obra, etapa por etapa', cats: [], ids: ['h353', 'h354', 'h355', 'h356', 'h357', 'h368', 'h358', 'h359', 'h360', 'h361', 'h362', 'h363', 'h364', 'h365', 'h366', 'h367'] },
 };
 const ANTES_DEPOIS = new Set(['restauracao', 'arquitetura']);
 
