@@ -30,7 +30,8 @@
     "s": 1846,
     "t": "30:46"
    },
-   "tema": "A casa de muitos usos"
+   "tema": "A casa de muitos usos",
+   "foto": "h309"
   },
   {
    "id": "c004",
@@ -38,7 +39,8 @@
    "text": "Uma memória local registra que o cão alimentado no Bar Theatro acompanhava cortejos fúnebres até o cemitério. De tanto ganhar pedaços de Bauru de quem comia no Bar Theatro, conta-se que morreu diabético.",
    "type": "memória",
    "source": "Menezes 2014, p. 118",
-   "tema": "O tempo do cinema"
+   "tema": "O tempo do cinema",
+   "foto": "h112"
   },
   {
    "id": "c005",
@@ -62,7 +64,8 @@
    "text": "Em 1995, Relembranças lotou a sala ainda inacabada, com cadeiras emprestadas.",
    "type": "documentado",
    "source": "Menezes 2014, pp. 162 e 243–244",
-   "tema": "Ameaça, restauro e mistérios"
+   "tema": "Ameaça, restauro e mistérios",
+   "foto": "h139"
   },
   {
    "id": "guerra-dos-sexos",
@@ -70,7 +73,8 @@
    "type": "documentado",
    "text": "Nos anos 1920, um grupo de adolescentes encenou no Theatro a peça “Guerra aos Homens”, de Afrânio Peixoto, com tanto sucesso que o público não queria ir embora. Em resposta, os rapazes se uniram no “Grupo da Meia Noite” — assim chamado por ser o horário em que se reuniam para escrever — e a rixa teatral entre moças e rapazes durou um bom tempo.",
    "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 55.",
-   "tema": "Grandes nomes, grandes noites"
+   "tema": "Grandes nomes, grandes noites",
+   "foto": "h310"
   },
   {
    "id": "capsula-do-tempo",
@@ -78,7 +82,8 @@
    "type": "documentado",
    "text": "No lançamento da pedra fundamental, sob a porta principal foi enterrada uma caixa de concreto com a ata de fundação, os estatutos da Companhia Teatral Sanjoanense, jornais da época (O Estado de São Paulo, Correio Paulistano), dinheiro em mil-réis e cartões de visita.",
    "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 36–37.",
-   "tema": "Fundação e inauguração"
+   "tema": "Fundação e inauguração",
+   "foto": "h281"
   },
   {
    "id": "villa-lobos",
@@ -86,7 +91,8 @@
    "type": "documentado",
    "text": "A sala da Sociedade de Cultura Artística, no segundo andar do Theatro, recebeu um recital ligado ao maestro Villa-Lobos, com o pianista Souza Lima executando a “Dança dos Negros”. Pelo mesmo palco passaram companhias líricas e orquestras vindas de São Paulo.",
    "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 66.",
-   "tema": "Grandes nomes, grandes noites"
+   "tema": "Grandes nomes, grandes noites",
+   "foto": "h307"
   },
   {
    "id": "lei-de-1912",
@@ -102,7 +108,8 @@
    "type": "documentado",
    "text": "A professora Jaçanã Altair, ligada à vida artística da cidade, escreveu o romance “João Negrinho”, transformado em filme na década de 1950. Hoje ela dá nome à Biblioteca Municipal.",
    "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 56–59.",
-   "tema": "Grandes nomes, grandes noites"
+   "tema": "Grandes nomes, grandes noites",
+   "foto": "h308"
   },
   {
    "id": "medalhao-escondido",
@@ -118,7 +125,8 @@
    "type": "documentado",
    "text": "Em 1952, o Theatro recebeu o grande ator brasileiro Procópio Ferreira, com as peças “Deus lhe Pague” e “Esta Mulher é Minha”, e uma aplaudida audição do pianista Souza Lima — sinal de que a casa do interior atraía nomes de primeira grandeza.",
    "source": "Menezes, Theatro Municipal, 100 anos, 2014, p. 90.",
-   "tema": "Grandes nomes, grandes noites"
+   "tema": "Grandes nomes, grandes noites",
+   "foto": "h297"
   },
   {
    "id": "piano-bechstein",
@@ -238,7 +246,8 @@
     "s": 1712,
     "t": "28:32"
    },
-   "tema": "O tempo do cinema"
+   "tema": "O tempo do cinema",
+   "foto": "h111"
   },
   {
    "id": "cinema-de-segunda-classe",
@@ -266,7 +275,8 @@
    "text": "A Semana Guiomar Novaes, criada em 1977 pelo prefeito Nelson Nicolau em homenagem à pianista sanjoanense, tornou-se referência nacional: é considerada o segundo maior evento cultural do estado de São Paulo, atrás apenas do Festival de Inverno de Campos do Jordão.",
    "type": "documentado",
    "source": "Prefeitura de São João da Boa Vista (Theatro Municipal); Wikipédia.",
-   "tema": "Grandes nomes, grandes noites"
+   "tema": "Grandes nomes, grandes noites",
+   "foto": "h312"
   },
   {
    "id": "cento-e-treze-acionistas",
@@ -338,7 +348,8 @@
    "text": "A restauração se arrastou por quase dezessete anos, atravessando crises e mandatos. Diante da lentidão e dos custos, parte da cidade passou a chamar a obra, com ironia, de “a Ferrovia Norte-Sul de São João” — comparando-a à célebre ferrovia federal que vivia anunciada e nunca ficava pronta. O apelido virou termômetro da impaciência popular com o canteiro que não acabava.",
    "type": "crônica",
    "source": "Jeronimo, 2020.",
-   "tema": "Ameaça, restauro e mistérios"
+   "tema": "Ameaça, restauro e mistérios",
+   "foto": "h154"
   },
   {
    "id": "ideal-bijou-arrendaram",
@@ -354,7 +365,8 @@
    "text": "No Festival Artístico de 11 de junho de 1947, em prol do novo prédio da Santa Casa, o canto orfeônico foi conduzido por um coral de 120 vozes, sob a regência do professor Nascipe Atalla Murr. A casa virou caixa de ressonância para a cidade inteira cantar junto.",
    "type": "documentado",
    "source": "Programa do Theatro Municipal, 11 jun. 1947 (folheto).",
-   "tema": "Grandes nomes, grandes noites"
+   "tema": "Grandes nomes, grandes noites",
+   "foto": "h287"
   },
   {
    "id": "grupo-tudo-preto",
@@ -362,7 +374,8 @@
    "text": "Em 5 de fevereiro de 1929, o grupo “Tudo Preto”, ligado à Conferência de São Vicente de Paulo, montou no Theatro um “festival de caridade” — uma revista com quadros e a peça típica “Na Cosinha”. A renda ajudou a erguer a igreja de São Benedito da cidade: o palco do Theatro financiando, cena a cena, um novo templo.",
    "type": "documentado",
    "source": "Programa do Theatro Municipal, 5 fev. 1929 (folheto).",
-   "tema": "A casa de muitos usos"
+   "tema": "A casa de muitos usos",
+   "foto": "h311"
   },
   {
    "id": "apelido-pulgueiro",

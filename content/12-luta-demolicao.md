@@ -61,7 +61,7 @@ A divisão tinha uma razão concreta: logo se percebeu que era impossível resta
 
 ![Registro da compra do Theatro pela Prefeitura, nos anos 1980.](/fotos/hr9-compra-theatro.jpg)
 
-*A compra do Theatro pela Prefeitura, nos anos 1980 — o passo que tornou o edifício público e viabilizou o restauro.*
+*A compra do Theatro pela Prefeitura, nos anos 1980, com Gastão Michelazzo, o tabelião Jayme Peretti, Sidney Beraldo e Oliveira Neto — o passo que tornou o edifício público e viabilizou o restauro.*
 
 ## A cidade vota — e doa suas fotos
 

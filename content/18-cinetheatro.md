@@ -49,7 +49,7 @@ Foi numa dessas conferências que nasceu uma pequena lenda. Um filme sobre um gr
 
 ![A bilheteria — porta de entrada para as noites de espetáculo e cinema.](/fotos/hr-eventos-13.jpg)
 
-*A bilheteria embutida na parede — o posto de Flávio Nogueira, o "faz-tudo" do Cine Theatro.*
+*A bilheteria embutida na parede, em 1985, já deteriorada — o posto de Flávio Nogueira, o "faz-tudo" do Cine Theatro.*
 
 ## O calcanhar de Aquiles
 
@@ -61,9 +61,9 @@ Nos anos finais, já disputando público com o Cine Avenida (hoje Casas Pernambu
 
 *A porta do antigo Bar Theatro, em avançada decadência — o prédio nos seus anos finais de cinema.*
 
-![A retirada da tela de cinema no palco.](/fotos/hr9-tela-cinema.jpg)
+![O palco depois da retirada da tela de cinema, em 1984.](/fotos/hr9-tela-cinema.jpg)
 
-*A tela de cinema sendo retirada do palco — ao parar de ser cinema, o edifício pôde voltar a ser teatro.*
+*O palco depois da retirada da tela de cinema, em 1984 — ao parar de ser cinema, o edifício pôde voltar a ser teatro.*
 
 ## O que o cinema deixou
 

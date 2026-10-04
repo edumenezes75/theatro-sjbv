@@ -88,7 +88,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
 const GALLERIES: Record<string, { title: string; cats: string[]; ids?: string[] }> = {
   'o-theatro': { title: 'O Theatro em imagens', cats: ['fachada', 'sala'] },
   // curadoria fixa: por fora, por dentro e os ornamentos — só fotos que não aparecem em outra página
-  arquitetura: { title: 'A arquitetura em imagens', cats: [], ids: ['h166', 'h051', 'h144', 'h152', 'h200', 'h103', 'h305', 'h025', 'h306', 'h185', 'h186', 'h187', 'h057', 'h263', 'h264'] },
+  arquitetura: { title: 'A arquitetura em imagens', cats: [], ids: ['h166', 'h051', 'h144', 'h152', 'h200', 'h103', 'h305', 'h313', 'h025', 'h306', 'h185', 'h186', 'h187', 'h057', 'h263', 'h264'] },
   restauracao: { title: 'O restauro em imagens', cats: ['restauro', 'ornamentos'] },
 };
 const ANTES_DEPOIS = new Set(['restauracao', 'arquitetura']);

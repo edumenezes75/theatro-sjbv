@@ -12,7 +12,7 @@ export type Pessoa = {
   id: string; name: string; category: string; role: string; summary: string;
   related: string[]; status: string; bio?: string; source?: string; born?: string; image?: string; imageAlt?: string; vozFilme?: { quote: string; t: string; s: number };
 };
-export type Curiosidade = { id: string; title: string; text: string; type: string; source: string; filme?: { s: number; t: string }; tema?: string };
+export type Curiosidade = { id: string; title: string; text: string; type: string; source: string; filme?: { s: number; t: string }; tema?: string; foto?: string; fotoInfo?: { id: string; file: string; alt: string; w: number; h: number; doc: boolean } };
 export type Imagem = { file: string; alt: string; source: string; page: number; rights_note: string };
 
 // Chave de ordenação da linha do tempo: aceita "1915", "2023-10-01" e intervalos
@@ -34,7 +34,13 @@ const _pslug = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-
 export const pessoaSlug = (p: Pessoa) => _pslug(p.name);
 export const pessoaBySlug = (slug: string) => pessoasList.find((p) => _pslug(p.name) === slug);
 export const pessoaById = (id: string) => pessoasList.find((p) => p.id === id);
-export const curiosidadesList = (curiosidades as { items: Curiosidade[] }).items;
+// A foto de cada curiosidade é resolvida aqui, no servidor: o cartão recebe
+// só o que precisa (arquivo, legenda, medidas), sem carregar o acervo inteiro.
+export const curiosidadesList: Curiosidade[] = (curiosidades as { items: Curiosidade[] }).items.map((c) => {
+  if (!c.foto) return c;
+  const f = (fotos as Foto[]).find((x) => x.id === c.foto);
+  return f ? { ...c, fotoInfo: { id: f.id, file: f.file, alt: f.alt, w: f.w, h: f.h, doc: f.category === 'documentos' } } : c;
+});
 export const imagensList = imagens as Imagem[];
 
 import fotos from '@/data/fotos.json';

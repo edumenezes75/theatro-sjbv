@@ -1,5 +1,7 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 import type { Curiosidade } from '@/lib/data';
 import SeloEvidencia from './SeloEvidencia';
 
@@ -21,14 +23,30 @@ const LEGENDA: Record<string, string> = {
 
 function Card({ c }: { c: Curiosidade }) {
   return (
-    <article className="card-lift flex flex-col rounded-sm border border-ink/10 p-6 hover:border-gold/50 dark:border-cream/10">
+    <article className="card-lift flex flex-col overflow-hidden rounded-sm border border-ink/10 hover:border-gold/50 dark:border-cream/10">
+      {c.fotoInfo && (
+        <Link href={`/acervo/${c.fotoInfo.id}`} className="group block" aria-label={`Ver a foto no acervo: ${c.fotoInfo.alt}`}>
+          <Image
+            src={`/${c.fotoInfo.file}`}
+            alt={c.fotoInfo.alt}
+            width={c.fotoInfo.w}
+            height={c.fotoInfo.h}
+            sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
+            className={`aspect-[4/3] w-full object-cover transition-transform duration-500 group-hover:scale-[1.03] ${c.fotoInfo.doc ? 'object-top' : ''}`}
+          />
+        </Link>
+      )}
+      <div className="flex flex-1 flex-col p-6">
       <div className="flex items-center justify-between gap-2">
         <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Você sabia?</span>
         <SeloEvidencia status={c.type} />
       </div>
       <h3 className="mt-3 font-display text-lg font-medium leading-tight">{c.title}</h3>
       <p className="mt-2 flex-1 font-sans text-sm leading-relaxed text-ink/80 dark:text-cream/80">{c.text}</p>
-      
+      {c.fotoInfo && (
+        <p className="mt-4 border-t border-ink/10 pt-3 font-sans text-xs italic leading-relaxed text-ink/70 dark:border-cream/10 dark:text-cream/65">{c.fotoInfo.alt}</p>
+      )}
+      </div>
     </article>
   );
 }
@@ -53,7 +71,9 @@ export default function Curiosidades({ itens, agrupar = true }: { itens: Curiosi
   return (
     <div className="space-y-14">
       {[...temas, ...extras].map((tema) => {
-        const grupo = itens.filter((c) => c.tema === tema);
+        // Quem tem foto vem primeiro: são os três cartões que aparecem antes do clique.
+        const doTema = itens.filter((c) => c.tema === tema);
+        const grupo = [...doTema.filter((c) => c.fotoInfo), ...doTema.filter((c) => !c.fotoInfo)];
         // Todos os cartões vão para o HTML (buscadores e a busca do site
         // continuam enxergando os 50); os excedentes ficam ocultos no CSS até
         // o clique. `contents` preserva a grade.

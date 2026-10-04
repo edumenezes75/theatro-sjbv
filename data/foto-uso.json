@@ -286,6 +286,27 @@
    "kind": "dossiê"
   }
  ],
+ "h111": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
+ "h112": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
+ "h113": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
  "h121": [
   {
    "slug": "/companhia-teatral-sanjoanense",
@@ -307,10 +328,24 @@
    "kind": "página"
   }
  ],
+ "h139": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
  "h150": [
   {
    "slug": "/o-theatro",
    "title": "O Theatro",
+   "kind": "página"
+  }
+ ],
+ "h154": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
    "kind": "página"
   }
  ],
@@ -445,6 +480,13 @@
    "kind": "dossiê"
   }
  ],
+ "h250": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
  "h257": [
   {
    "slug": "/arquitetura",
@@ -534,6 +576,13 @@
    "kind": "dossiê"
   }
  ],
+ "h281": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
  "h282": [
   {
    "slug": "/a-noite-de-inauguracao",
@@ -571,6 +620,13 @@
   {
    "slug": "/guiomar-novaes-e-o-theatro",
    "title": "Guiomar Novaes e o Theatro",
+   "kind": "página"
+  }
+ ],
+ "h287": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
    "kind": "página"
   }
  ],
@@ -630,6 +686,13 @@
    "kind": "página"
   }
  ],
+ "h297": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
  "h303": [
   {
    "slug": "/arquitetura",
@@ -641,6 +704,48 @@
   {
    "slug": "/arquitetura",
    "title": "Arquitetura",
+   "kind": "página"
+  }
+ ],
+ "h307": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
+ "h308": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
+ "h309": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
+ "h310": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
+ "h311": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
+   "kind": "página"
+  }
+ ],
+ "h312": [
+  {
+   "slug": "/memorias",
+   "title": "Memórias e curiosidades",
    "kind": "página"
   }
  ]

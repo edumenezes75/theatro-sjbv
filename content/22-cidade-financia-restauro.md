@@ -5,7 +5,7 @@ eyebrow: "Episódio · Da rua ao caixa (1995–2002)"
 seo_title: "A cidade financia o restauro — Fundação Oliveira Neto e Vestindo a Camisa"
 seo_description: "Salvar o Theatro não bastava: era preciso pagar a obra. A Fundação Oliveira Neto, a Lei Rouanet, o Vestindo a Camisa e a arte no canteiro de obras — como a cidade custeou o próprio restauro."
 hero_image: "/fotos/hr4-pessoas-01.jpg"
-hero_alt: "Acompanhamento das obras de restauração do Theatro Municipal."
+hero_alt: "A arquiteta Ana Laura Zenun, o engenheiro Nilson Zenun e o arquiteto Flávio Moraes, no acompanhamento das obras de restauração."
 status: "dossiê"
 ---
 
@@ -27,9 +27,9 @@ Em **1998** criou-se a **Fundação Oliveira Neto (FON)**, com objetivo, nas pal
 
 Cerca de **60 pessoas ligadas às artes e à cultura** foram convidadas a integrar a entidade, sob a diretoria de José Rubens Blasi Carvalho Rosas (1998–2000). A diretoria executiva — com **José Márcio Carioca** e **Vera Adib**, e o apoio de João Batista Ciaco nas primeiras lições sobre a recém-criada **Lei Rouanet** — punha a mão na massa. Às terças-feiras, reuniam-se no Clube Palmeiras para estudar orçamentos e decidir sobre o ar-condicionado e o madeiramento das janelas. Era captação de recursos, mas também gestão fina de uma obra complexa.
 
-![Jorge Cunha Lima, Oliveira Neto e Sidney Beraldo e a equipe ligada à preservação do Theatro.](/fotos/hr4-pessoas-03.jpg)
+![Fernando Nagib, João Merlin, o secretário Jorge Cunha Lima, Oliveira Neto, Sidney Beraldo e Jair Morgabel.](/fotos/hr4-pessoas-03.jpg)
 
-*A equipe da FON e da Prefeitura reunida em torno do restauro — Jorge Cunha Lima, Oliveira Neto e Sidney Beraldo entre eles.*
+*Fernando Nagib, João Merlin, o secretário Jorge Cunha Lima, Oliveira Neto, Sidney Beraldo e Jair Morgabel, na visita do secretário da Cultura ao Theatro.*
 
 ![A posse da Fundação Oliveira Neto, em 1998.](/fotos/hr4-pessoas-07.jpg)
 

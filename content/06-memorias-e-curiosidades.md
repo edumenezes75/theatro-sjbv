@@ -21,6 +21,10 @@ Esta página reúne episódios apoiados em documentos e lembranças pessoais. Qu
 
 Mesas, decoração, música e dança ocupavam o lugar das cadeiras. As galerias permaneciam cheias, e a sala inteira funcionava como cenário social.
 
+![Um baile na plateia do Theatro — a sala decorada e cheia, em registro de outras décadas.](/fotos/sl-32.jpg)
+
+*Um baile na plateia — a sala decorada e cheia, com as galerias tomadas.*
+
 As imagens dos bailes recompensam o olhar atento: as roupas, os músicos, a decoração, as luzes, as galerias cheias — nos detalhes, contam como a cidade vivia o Theatro.
 
 ## O cinema tinha seu próprio ritual
@@ -30,6 +34,10 @@ As imagens dos bailes recompensam o olhar atento: as roupas, os músicos, a deco
 As sessões começavam antes de a tela acender. Jovens passeavam pela praça, encontravam namorados, compravam doces e guardavam lugares. Matinês e seriados atraíam crianças; sessões noturnas reuniam famílias e casais.
 
 A bomboniere oferecia chocolates, drops e balas que aparecem com nitidez nas lembranças. A pipoca era comprada do lado de fora. O bar, instalado na frente do edifício, prolongava a conversa antes e depois do filme.
+
+![O Bar Theatro, na frente do edifício, onde hoje é o foyer.](/fotos/hr4-eventos-08.jpg)
+
+*O Bar Theatro, na frente do edifício, onde hoje é o foyer.*
 
 > **Voz do Theatro:** para uma geração, o prédio não era “um antigo teatro que virou cinema”. Era simplesmente o cinema de sua infância.
 

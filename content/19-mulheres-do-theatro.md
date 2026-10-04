@@ -5,7 +5,7 @@ eyebrow: "Episódio · O trabalho cultural feminino que sustentou a casa"
 seo_title: "As mulheres do Theatro Municipal de São João da Boa Vista"
 seo_description: "Dona Beloca, Anésia Mattos, Jaçanã Altair e Miriam Pipano: as professoras e organizadoras que, por décadas, encheram o palco do Theatro Municipal — uma história de trabalho cultural feminino quase sempre apagada."
 hero_image: "/fotos/hr3-eventos-01.jpg"
-hero_alt: "Recital ao piano com a pianista Vânia Noronha, aos seis anos, no palco do Theatro."
+hero_alt: "Vânia Noronha, aos sete anos, ao piano no Theatro Municipal, em 9 de outubro de 1963."
 status: "dossiê"
 ---
 
@@ -49,9 +49,9 @@ Nascida em **Tel Aviv, em 1926**, e mudada para São João ainda menina, **Miria
 
 > "Nunca suportou a rotina de dona de casa. (...) Uma mulher moderna e atuante — a música sempre falou mais alto em seu coração."
 
-![A professora Miriam Pipano (à esquerda) e alunos, no Theatro.](/fotos/hr-pessoas-30.jpg)
+![A professora Miriam Pipano (sentada, à direita) e alunos, em 24 de maio de 1954.](/fotos/hr-pessoas-30.jpg)
 
-*Miriam Pipano e seus alunos — décadas de formação musical na sala da Sociedade de Cultura Artística.*
+*Miriam Pipano (sentada, à direita) e seus alunos, em 24 de maio de 1954 — décadas de formação musical na sala da Sociedade de Cultura Artística.*
 
 ## Oito acionistas — e as gerações seguintes
 

@@ -109,9 +109,9 @@ export default function Home() {
           <Reveal delay={120}>
             <figure>
               <div className="overflow-hidden rounded-sm">
-                <Image src="/fotos/hr-sala-01.jpg" alt="O interior em ferradura num baile histórico, com a plateia ocupada sob as galerias e os camarotes." width={1800} height={1140} className="aspect-[4/3] h-auto w-full object-cover" sizes="(max-width:768px) 100vw, 48vw" />
+                <Image src="/fotos/hr-sala-01.jpg" alt="O interior em ferradura numa festa junina, com a plateia ocupada sob as galerias e os camarotes." width={1800} height={1140} className="aspect-[4/3] h-auto w-full object-cover" sizes="(max-width:768px) 100vw, 48vw" />
               </div>
-              <figcaption className="mt-3 font-sans text-sm italic leading-relaxed text-ink/70 dark:text-cream/70">Um baile ocupando a plateia, sob as galerias e os camarotes — o Theatro como ponto de encontro da cidade.</figcaption>
+              <figcaption className="mt-3 font-sans text-sm italic leading-relaxed text-ink/70 dark:text-cream/70">Uma festa junina ocupando a plateia, sob as galerias e os camarotes — o Theatro como ponto de encontro da cidade.</figcaption>
             </figure>
           </Reveal>
         </div>

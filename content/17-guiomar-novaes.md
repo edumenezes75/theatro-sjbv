@@ -41,9 +41,9 @@ O vínculo entre Guiomar e o Theatro foi além de uma noite. A **Semana Guiomar 
 
 *Concerto da Semana Guiomar Novaes — a tradição que reabriu o Theatro restaurado.*
 
-![Guiomar Novaes no Theatro, durante a 2ª Semana Guiomar Novaes, em 1978.](/fotos/hr9-guiomar-1978.jpg)
+![Guiomar Novaes em São João da Boa Vista para a 2ª Semana Guiomar Novaes, em 1978.](/fotos/hr9-guiomar-1978.jpg)
 
-*Guiomar Novaes no Theatro durante a 2ª Semana Guiomar Novaes, em 1978 — um ano antes de sua morte.*
+*Guiomar Novaes em São João para a 2ª Semana Guiomar Novaes, em 1978 — realizada ainda no Cine Ouro Branco —, um ano antes de sua morte.*
 
 > **Voz do filme** · “Ela me chamou e me deu uma aula que era quase uma bronca: eu tinha tocado o concerto de Tchaikovsky, quarenta e cinco minutos, e ela lembrava cada detalhe do que eu fizera — algo que eu mesmo não seria capaz de lembrar. Foi uma aula formidável, de três, quatro horas.” — [ouvir no documentário (42:54) →](https://www.youtube.com/watch?v=e2stgoHtlAQ&t=2574s)
 

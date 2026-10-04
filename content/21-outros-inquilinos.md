@@ -49,9 +49,9 @@ O rádio, aliás, chegou ao prédio bem antes. Já em **1921**, o engenheiro **N
 
 Por ali passaram nomes de fora e de dentro: em 1959, o cantor e compositor **Dorival Caymmi** apresentou-se e deixou registrada sua impressão — "Sua cidade é deveras acolhedora, tanto quanto simpática". E foi nesse auditório que uma menina de seis anos, **Vânia Noronha**, tocou piano — a mesma que, décadas depois, dirigiria a cultura da cidade.
 
-![Nos anos em que o Theatro abrigou uma emissora de rádio no segundo andar.](/fotos/hr4-eventos-20.jpg)
+![Operadores de som da Rádio Difusora, em fevereiro de 1961.](/fotos/hr4-eventos-20.jpg)
 
-*O auditório da Rádio Difusora, no segundo andar — o Theatro também como lugar de transmitir.*
+*Os operadores de som da Rádio Difusora, em fevereiro de 1961: os meninos Celso Augusto Lemos, o Celsinho (sentado), e Fábio Aparecido da Silva, o Fábio Silveira — o Theatro também como lugar de transmitir.*
 
 ![Nin e seus Roquetes no auditório da Rádio Difusora ZYJ-6, no Theatro.](/fotos/hr9-nin-roquetes.jpg)
 
