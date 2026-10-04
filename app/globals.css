@@ -46,7 +46,8 @@ body {
 }
 .dark .prose-theatro blockquote { background: rgba(199,156,110,0.10); border-color: theme('colors.gold'); }
 .prose-theatro blockquote p { margin: 0.3rem 0; }
-.prose-theatro img { width: 100%; height: auto; margin: 2rem 0 0.6rem; border-radius: 2px; }
+.prose-theatro img { width: 100%; height: auto; margin: 2rem 0 0.6rem; border-radius: 2px; cursor: zoom-in; }
+.prose-theatro a img { cursor: pointer; }
 .prose-theatro p:has(> img) { margin-bottom: 0.2rem; }
 .prose-theatro p:has(> img) + p { font-size: 0.95rem; color: #5F564C; font-style: italic; margin-top: 0.2rem; margin-bottom: 1.5rem; }
 .dark .prose-theatro p:has(> img) + p { color: #C2B8A8; }

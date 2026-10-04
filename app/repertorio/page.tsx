@@ -81,7 +81,7 @@ export default function RepertorioPage() {
             <p className="mb-8 mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
               Fotografias de espetáculos entre 2003 e 2014, com as legendas do livro do centenário.
             </p>
-            <GaleriaReal fotos={emCena} withFilter={false} />
+            <GaleriaReal fotos={emCena} withFilter={false} legendas />
           </section>
         )}
 

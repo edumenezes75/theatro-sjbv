@@ -19,10 +19,6 @@ Essa relação entre cena e espectadores é uma das marcas da tradição teatral
 
 O projeto de 1913 apresenta uma composição simétrica e eclética, com eixo central destacado, frontão, ornamentos e as inscrições *MVSICA*, *THEATRO*, *MVNICIPAL* e *DRAMA*. O edifício foi feito para se impor diante da praça e anunciar a que veio antes de o público entrar. É uma fachada que se lê: cada relevo ali diz alguma coisa.
 
-![Desenho do projeto da fachada do Theatro.](/fotos/hr5-historicas-02.jpg)
-
-*O projeto da fachada apresentado pelo arquiteto J. Pucci (José Pucci).*
-
 ![A fachada e a lateral do Theatro ao anoitecer, em 2006.](/fotos/hr12-fachada-lateral-2006.jpg)
 
 *A fachada restaurada e a lateral inteira: o eixo central com o frontão e, atrás dele, o corpo comprido que abriga a sala e o palco.*
@@ -38,6 +34,10 @@ O projeto de 1913 apresenta uma composição simétrica e eclética, com eixo ce
 **Aprofunde-se** — os medalhões dos compositores, os ramos de café e a águia da platibanda, decifrados um a um: [A fachada que fala →](/a-fachada-que-fala).
 
 ## O programa anunciado em 1913
+
+![Desenho do projeto da fachada do Theatro.](/fotos/hr5-historicas-02.jpg)
+
+*O projeto da fachada apresentado pelo arquiteto J. Pucci (José Pucci).*
 
 A notícia publicada por ocasião da pedra fundamental descreveu:
 
@@ -140,7 +140,7 @@ A adaptação para cinema não ocorreu em um único momento. Tela, cabine de pro
 
 A intervenção de **fevereiro de 1967** foi especialmente importante: frisas e camarotes desapareceram para abrir espaço a mais cadeiras — o gesto que mais descaracterizou a sala antes do restauro. Fotografias anteriores ao restauro mostram o interior esvaziado e a curva sustentada por estruturas aparentes.
 
-É possível acompanhar essas camadas na comparação **antes e depois** do restauro, logo adiante nesta página.
+É possível acompanhar essas camadas na comparação **antes e depois**, na página da [restauração](./restauracao).
 
 ## A arquitetura continua mudando
 

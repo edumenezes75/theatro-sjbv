@@ -8,6 +8,7 @@ import FontesDaPagina from '@/components/FontesDaPagina';
 import GaleriaReal from '@/components/GaleriaReal';
 import AntesDepois from '@/components/AntesDepois';
 import Curiosidades from '@/components/Curiosidades';
+import ProseZoom from '@/components/ProseZoom';
 import Reveal from '@/components/Reveal';
 import ReadingProgress from '@/components/ReadingProgress';
 import ChapterIndex from '@/components/ChapterIndex';
@@ -90,7 +91,7 @@ const GALLERIES: Record<string, { title: string; cats: string[]; ids?: string[] 
   // curadoria fixa: por fora, por dentro e os ornamentos — só fotos que não aparecem em outra página
   arquitetura: { title: 'A arquitetura em imagens', cats: [], ids: ['h181', 'h320', 'h166', 'h051', 'h144', 'h152', 'h315', 'h316', 'h317', 'h318', 'h200', 'h103', 'h305', 'h313', 'h025', 'h306', 'h185', 'h186', 'h187', 'h057', 'h263', 'h264'] },
   // a obra em ordem: estrutura, frisas, piso, forro, pintura, arabescos, poltronas, foyer
-  restauracao: { title: 'A obra, etapa por etapa', cats: [], ids: ['h353', 'h354', 'h355', 'h356', 'h357', 'h368', 'h358', 'h359', 'h360', 'h361', 'h362', 'h363', 'h364', 'h365', 'h366', 'h367'] },
+  restauracao: { title: 'A obra, etapa por etapa', cats: [], ids: ['h353', 'h354', 'h355', 'h356', 'h357', 'h349', 'h368', 'h358', 'h359', 'h360', 'h361', 'h362', 'h363', 'h364', 'h365', 'h366', 'h367'] },
 };
 const ANTES_DEPOIS = new Set(['restauracao', 'arquitetura']);
 
@@ -317,6 +318,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         )}
 
 
+        <ProseZoom />
         <FontesDaPagina fontes={page.fontes} />
       </div>
     </article>

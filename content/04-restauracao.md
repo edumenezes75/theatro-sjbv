@@ -114,10 +114,6 @@ No documentário, a tensão daqueles dias aparece inteira: "a cidade inteira fal
 
 *A escavação do fosso da orquestra, sob o palco, durante as obras.*
 
-![O porão do Theatro em 2008: as vigas metálicas e o assoalho visto por baixo.](/fotos/hr13-porao-vigas-2008.jpg)
-
-*O resultado, visto por baixo: o porão em 2008, com as vigas metálicas e o assoalho novo.*
-
 ## Restauro artístico
 
 A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos. Para reencontrar a cor original, uma amostra do reboco antigo foi enviada aos laboratórios da Sherwin-Williams, que reproduziram o pigmento gratuitamente: latas de látex branco foram compradas e devolvidas já tingidas no tom histórico. Capitéis e detalhes receberam tratamento e douração.

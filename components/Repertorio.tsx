@@ -102,7 +102,7 @@ export default function Repertorio() {
             </button>
           )}
         </div>
-        <p aria-live="polite" className="mt-3 font-sans text-xs text-ink/55 dark:text-cream/55">
+        <p aria-live="polite" className="mt-3 font-sans text-xs text-ink/65 dark:text-cream/65">
           {filtrados.length === 0
             ? 'Nada encontrado com esses filtros.'
             : `${filtrados.length} ${filtrados.length === 1 ? 'título' : 'títulos'}${filtrando ? ' nesta seleção' : ' no total'}.`}
@@ -115,7 +115,7 @@ export default function Repertorio() {
           <section key={a} aria-labelledby={`ano-${a}`} className="mt-12 scroll-mt-28">
             <header id={`ano-${a}`} className="flex flex-wrap items-baseline gap-x-4">
               <h2 className="font-display text-3xl font-medium leading-none text-curtain dark:text-gold sm:text-4xl">{a}</h2>
-              <p className="font-sans text-xs text-ink/50 dark:text-cream/50">
+              <p className="font-sans text-xs text-ink/65 dark:text-cream/65">
                 {lista.length} {lista.length === 1 ? 'título' : 'títulos'} nesta relação
                 {r?.total ? ` · a AMITE contabilizou ${r.total} eventos culturais no ano` : ''}
               </p>
@@ -125,7 +125,7 @@ export default function Repertorio() {
               {lista.map((i, n) => (
                 <li key={`${a}-${n}`} className="border-b border-ink/8 py-2.5 dark:border-cream/10">
                   <span className="font-read text-[0.95rem] leading-relaxed text-ink/85 dark:text-cream/85">{i.t}</span>
-                  <span className="ml-2 whitespace-nowrap font-sans text-[0.68rem] uppercase tracking-[0.12em] text-ink/40 dark:text-cream/40">
+                  <span className="ml-2 whitespace-nowrap font-sans text-xs uppercase tracking-[0.1em] text-ink/60 dark:text-cream/65">
                     {i.cat}
                     {i.proj ? ` · ${i.proj}` : ''}
                   </span>

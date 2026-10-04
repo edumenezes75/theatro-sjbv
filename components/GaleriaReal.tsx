@@ -13,7 +13,7 @@ const gidx = (c: string) => { const k = GCAT.indexOf(c); return k < 0 ? 99 : k; 
 
 const _normLB = (x: string) => x.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
-export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true, colorLast = false, grouped = false, pessoasIndex = [] }: { fotos: Foto[]; withFilter?: boolean; showEpoca?: boolean; colorLast?: boolean; grouped?: boolean; pessoasIndex?: { slug: string; name: string }[] }) {
+export default function GaleriaReal({ fotos, withFilter = true, legendas = false, showEpoca = true, colorLast = false, grouped = false, pessoasIndex = [] }: { fotos: Foto[]; withFilter?: boolean; legendas?: boolean; showEpoca?: boolean; colorLast?: boolean; grouped?: boolean; pessoasIndex?: { slug: string; name: string }[] }) {
   const CAT_ORDER = ['fachada', 'sala', 'ornamentos', 'restauro', 'eventos', 'pessoas'];
   const EP_ORDER = ['Histórico', 'Pré-restauro', 'Restauro', 'Atual'];
   const cats = useMemo(() => {
@@ -104,17 +104,20 @@ export default function GaleriaReal({ fotos, withFilter = true, showEpoca = true
   const open = idx !== null ? list[idx] : null;
 
   const tile = (f: Foto, i: number) => (
-    <button key={f.id} onClick={() => setIdx(i)} className="group relative block w-full overflow-hidden rounded-sm bg-ink/20 ring-1 ring-inset ring-ink/10 dark:ring-cream/10">
+    <div key={f.id}>
+    <button onClick={() => setIdx(i)} className="group relative block w-full overflow-hidden rounded-sm bg-ink/20 ring-1 ring-inset ring-ink/10 dark:ring-cream/10">
       <Image
         src={`/${f.file}`} alt={f.alt} width={f.w} height={f.h}
         placeholder="blur" blurDataURL={BLUR}
-        className="gimg-fade aspect-[4/3] h-full w-full object-cover transition-transform duration-[1.1s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.05]"
+        className={`gimg-fade aspect-[4/3] h-full w-full object-cover ${f.h > f.w ? 'object-top' : ''} transition-transform duration-[1.1s] ease-[cubic-bezier(.22,1,.36,1)] group-hover:scale-[1.05]`}
         sizes="(max-width:640px) 50vw, (max-width:1024px) 33vw, 25vw"
       />
       <span className="pointer-events-none absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/80 to-transparent p-2 pt-8 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
         <span className="font-sans text-xs uppercase tracking-eyebrow text-gold">{f.categoryLabel}</span>
       </span>
     </button>
+    {legendas && <p className="mt-2 font-sans text-xs leading-snug text-ink/70 dark:text-cream/70">{f.alt}</p>}
+    </div>
   );
 
   // Grade alinhada: a leitura segue da esquerda para a direita e as linhas fecham retas
