@@ -5,6 +5,11 @@ import ChapterHero from '@/components/ChapterHero';
 import FontesDaPagina from '@/components/FontesDaPagina';
 import Repertorio from '@/components/Repertorio';
 import rep from '@/data/repertorio.json';
+import GaleriaReal from '@/components/GaleriaReal';
+import { fotosList } from '@/lib/data';
+
+// Em cena: fotos de espetáculos da casa reaberta, com as legendas do livro do centenário.
+const EM_CENA = ['h321', 'h343', 'h344', 'h341', 'h342', 'h336', 'h335', 'h328', 'h324', 'h325', 'h326', 'h329', 'h327', 'h330', 'h331', 'h334', 'h347', 'h332', 'h346', 'h345', 'h340', 'h333', 'h337', 'h338', 'h339'];
 
 export const metadata: Metadata = {
   alternates: { canonical: '/repertorio' },
@@ -34,6 +39,7 @@ const PROJETOS: { nome: string; texto: string }[] = [
 export default function RepertorioPage() {
   const page = getPageBySlug('/repertorio');
   const dados = rep as { itens: unknown[] };
+  const emCena = EM_CENA.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList;
   return (
     <article>
       <ChapterHero
@@ -64,6 +70,20 @@ export default function RepertorioPage() {
           </Link>
           .
         </p>
+
+        {emCena.length > 0 && (
+          <section className="mt-14 border-t border-gold/25 pt-12">
+            <div className="flex items-center gap-3">
+              <span className="h-6 w-px bg-curtain dark:bg-gold" />
+              <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Em cena</p>
+            </div>
+            <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Alguns dos que passaram pelo palco</h2>
+            <p className="mb-8 mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+              Fotografias de espetáculos entre 2003 e 2014, com as legendas do livro do centenário.
+            </p>
+            <GaleriaReal fotos={emCena} withFilter={false} />
+          </section>
+        )}
 
         <div className="mt-12">
           <Repertorio />

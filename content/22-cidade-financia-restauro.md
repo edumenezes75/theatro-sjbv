@@ -57,6 +57,14 @@ O mais bonito é que, mesmo em ruínas, o Theatro nunca parou de produzir cultur
 
 *A I Bienal de Artes Visuais, 1998, montada na plateia ainda em obras — arte no canteiro.*
 
+![Exposição montada na sala ainda em obras, no fim dos anos 1990.](/fotos/hr12-exposicao-obras-01.jpg)
+
+*A sala em obras tomada por uma exposição: obras nas galerias e uma instalação no lugar da plateia.*
+
+![Obras de arte expostas na curva das galerias, com a sala ainda em restauro.](/fotos/hr12-exposicao-obras-02.jpg)
+
+*Quadros pendurados na curva das galerias, entre o tapume e o gradil.*
+
 Antes mesmo de estar pronto, o Theatro já era palco de sua própria salvação — a cultura acontecendo no canteiro para garantir que a cultura voltasse a acontecer. Quando a sala principal reabriu, em setembro de 2002, na 25ª Semana Guiomar Novaes, o resultado não era só de governos: era de uma cidade que, duas vezes, decidiu não perder seu Theatro — primeiro com a voz, depois com o bolso.
 
 ## Fontes e notas

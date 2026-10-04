@@ -16,6 +16,10 @@ O Theatro Municipal está no centro histórico de São João da Boa Vista, diant
 
 > **Importante:** horários de espetáculo, bilheteria, visita guiada e acesso aos ambientes internos variam conforme a programação. Confirme diretamente com a organização antes de se deslocar.
 
+![A fachada e a lateral do Theatro, em dia claro.](/fotos/hr12-fachada-dia.jpg)
+
+*O Theatro na esquina da Praça da Catedral.*
+
 ## Antes de ir
 
 Para espetáculos, confirme antes de sair de casa:

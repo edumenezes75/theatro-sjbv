@@ -23,9 +23,9 @@ O projeto de 1913 apresenta uma composição simétrica e eclética, com eixo ce
 
 *O projeto da fachada apresentado pelo arquiteto J. Pucci (José Pucci).*
 
-![A fachada eclética do Theatro, voltada para a Praça da Catedral.](/fotos/hr4-fachada-08.jpg)
+![A fachada e a lateral do Theatro ao anoitecer, em 2006.](/fotos/hr12-fachada-lateral-2006.jpg)
 
-*A fachada restaurada, voltada para a Praça da Catedral: o eixo central com o frontão e, na lateral, o corpo comprido que abriga a sala e o palco.*
+*A fachada restaurada e a lateral inteira: o eixo central com o frontão e, atrás dele, o corpo comprido que abriga a sala e o palco.*
 
 ![A fachada do Theatro em registro antigo, com a faixa de inscrições no alto da cornija.](/fotos/hr7-fachada-historica.jpg)
 
