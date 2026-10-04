@@ -8,7 +8,6 @@ import { vozesList } from '@/lib/data';
 import Mark from '@/components/Mark';
 import Reveal from '@/components/Reveal';
 import ProximoEvento from '@/components/ProximoEvento';
-import HistoriasDoTheatro from '@/components/HistoriasDoTheatro';
 import LivroCentenario from '@/components/LivroCentenario';
 
 export const revalidate = 21600; // 6h — acompanha a agenda de /programacao
@@ -146,8 +145,8 @@ export default function Home() {
         </Reveal>
       </section>
 
-      {/* AS HISTÓRIAS DO THEATRO — série: evento + canais */}
-      <HistoriasDoTheatro />
+      {/* O banner As Histórias do Theatro saiu da home por enquanto.
+          Para voltar: importar components/HistoriasDoTheatro e pôr <HistoriasDoTheatro /> aqui. */}
 
       {/* PESSOAS */}
       <section className="border-t border-gold/20 bg-cream dark:bg-night">
