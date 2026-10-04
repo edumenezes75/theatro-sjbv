@@ -66,7 +66,13 @@ export function getAllPages(): Page[] {
     html = html.replace(/<img /g, '<img loading="lazy" decoding="async" ');
     html = html.replace(/<img ([^>]*?)src="([^"]+)"([^>]*?)>/g, (m, a, src, b) => {
       const d = fotosDims[src];
-      return d && !/width=/.test(m) ? `<img ${a}src="${src}"${b} width="${d.w}" height="${d.h}" style="height:auto">` : m;
+      if (!d || /width=/.test(m)) return m;
+      // As fotos do texto passam pelo otimizador do Next: o navegador escolhe a
+      // largura (a coluna de leitura tem ~650px) em vez de baixar o arquivo de 1.800px.
+      const opt = (w: number) => `/_next/image?url=${encodeURIComponent(src)}&w=${w}&q=75`;
+      const larguras = [640, 828, 1080, 1200].filter((w, i) => i === 0 || w <= d.w * 1.2);
+      const srcset = larguras.map((w) => `${opt(w)} ${w}w`).join(', ');
+      return `<img ${a}src="${opt(larguras[larguras.length - 1])}" srcset="${srcset}" sizes="(max-width: 700px) 100vw, 650px"${b} width="${d.w}" height="${d.h}" style="height:auto">`;
     });
     // converte sintaxe {#id} ao fim de titulos em atributo id real (marked nao faz isso)
     html = html.replace(/<(h[1-6])([^>]*)>([\s\S]*?)\s*\{#([\w-]+)\}\s*<\/\1>/g, '<$1$2 id="$4">$3</$1>');

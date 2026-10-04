@@ -28,7 +28,9 @@ function Avatar({ p }: { p: Pessoa }) {
   const base = 'h-14 w-14 shrink-0 rounded-full border border-gold/30 object-cover';
   if (p.image && !err) {
     // eslint-disable-next-line @next/next/no-img-element
-    return <img src={p.image} alt="" onError={() => setErr(true)} loading="lazy" className={base} />;
+    // retrato de 56px: pede ao otimizador uma versão pequena em vez do arquivo original
+    const src = p.image.startsWith('/') ? `/_next/image?url=${encodeURIComponent(p.image)}&w=128&q=75` : p.image;
+    return <img src={src} alt="" onError={() => setErr(true)} loading="lazy" className={base} />;
   }
   return (
     <div className={`${base} flex items-center justify-center bg-cream font-display text-lg text-curtain dark:bg-nightsoft dark:text-gold`} aria-hidden>
