@@ -129,6 +129,7 @@ export default function Nav() {
                           key={l.href}
                           href={l.href}
                           role="menuitem"
+                          onClick={() => setAberto(null)}
                           aria-current={pathname === l.href ? 'page' : undefined}
                           className={`block border-l-2 px-3.5 py-2.5 font-sans transition-colors hover:bg-gold/10 ${pathname === l.href ? 'border-curtain text-curtain dark:border-gold dark:text-gold' : 'border-transparent text-ink/80 dark:text-cream/80'}`}
                         >
@@ -179,7 +180,7 @@ export default function Nav() {
                 </summary>
                 <div className="pb-2">
                   {g.items!.map((l) => (
-                    <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className={`block rounded-sm py-2.5 pl-3 font-sans text-base ${pathname === l.href ? 'text-curtain dark:text-gold' : 'text-ink/80 dark:text-cream/80'}`}>
+                    <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} onClick={() => setOpen(false)} className={`block rounded-sm py-2.5 pl-3 font-sans text-base ${pathname === l.href ? 'text-curtain dark:text-gold' : 'text-ink/80 dark:text-cream/80'}`}>
                       {l.label}
                       {l.hintNoCelular && l.hint && <span className="mt-0.5 block text-xs leading-snug text-ink/60 dark:text-cream/65">{l.hint}</span>}
                     </Link>
