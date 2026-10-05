@@ -265,13 +265,6 @@
    "kind": "página"
   }
  ],
- "h094": [
-  {
-   "slug": "/o-theatro",
-   "title": "O Theatro",
-   "kind": "página"
-  }
- ],
  "h095": [
   {
    "slug": "/as-mulheres-do-theatro",
@@ -332,13 +325,6 @@
   {
    "slug": "/memorias",
    "title": "Memórias e curiosidades",
-   "kind": "página"
-  }
- ],
- "h150": [
-  {
-   "slug": "/o-theatro",
-   "title": "O Theatro",
    "kind": "página"
   }
  ],
@@ -494,24 +480,10 @@
    "kind": "página"
   }
  ],
- "h259": [
-  {
-   "slug": "/o-theatro",
-   "title": "O Theatro",
-   "kind": "página"
-  }
- ],
  "h260": [
   {
    "slug": "/arquitetura",
    "title": "Arquitetura",
-   "kind": "página"
-  }
- ],
- "h261": [
-  {
-   "slug": "/o-theatro",
-   "title": "O Theatro",
    "kind": "página"
   }
  ],
@@ -525,13 +497,6 @@
    "slug": "/o-politeama",
    "title": "Theatro ou politeama?",
    "kind": "dossiê"
-  }
- ],
- "h266": [
-  {
-   "slug": "/o-theatro",
-   "title": "O Theatro",
-   "kind": "página"
   }
  ],
  "h267": [

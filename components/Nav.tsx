@@ -13,13 +13,12 @@ type Grupo = { label: string; items?: Item[]; href?: string };
 // no celular). URLs intocadas; só rótulos e agrupamento.
 // As `hint` aparecem só no desktop: são a diferença entre escolher e adivinhar
 // quando dois itens vizinhos prometem a mesma coisa (a linha e o texto corrido).
-// No celular a lista é compacta: só as três portas da história levam a linha de
+// No celular a lista é compacta: só as duas portas da história levam a linha de
 // apoio (`hintNoCelular`), porque é ali que a escolha virava chute.
 const MENU: Grupo[] = [
   { label: 'A História', items: [
-    { href: '/o-theatro', label: 'O Theatro', hint: 'Em resumo, para começar', hintNoCelular: true },
+    { href: '/historia', label: 'História', hint: 'O texto corrido, em 8 capítulos', hintNoCelular: true },
     { href: '/linha-do-tempo', label: 'Linha do tempo', hint: 'Um século numa rolagem', hintNoCelular: true },
-    { href: '/historia', label: 'História completa', hint: 'O texto corrido, em 8 capítulos e episódios', hintNoCelular: true },
     { href: '/arquitetura', label: 'Arquitetura', hint: 'A fachada e a sala em ferradura' },
     { href: '/restauracao', label: 'Restauro', hint: 'Da ameaça de demolição à reabertura' },
   ] },

@@ -191,3 +191,26 @@ O reencontro com a sala traduziu-se em uso intenso: entre 2004 e 2014, levantame
 
 *[Percorrer estes anos na linha do tempo →](/linha-do-tempo#era-hoje)*
 
+## Ficha essencial
+
+| Informação | Síntese |
+|---|---|
+| Nome | Theatro Municipal de São João da Boa Vista |
+| Localização | Praça da Catedral, 22, Centro, São João da Boa Vista, SP |
+| Construção | 1913–1914; pedra fundamental em 13 de maio de 1913 |
+| Área | cerca de 1.130 m² (cadastro patrimonial posterior: 1.136,78 m²) |
+| Projeto | Assinado por J. Pucci (Giuseppe/José Pucci) |
+| Execução | Construtor espanhol Antônio Lanzac (também grafado Lansac) |
+| Inauguração | 31 de outubro de 1914 |
+| Espetáculo inaugural | *Uma Causa Célebre*, pela Companhia Santos Silva |
+| Tipologia | Sala de tradição italiana, em ferradura, com galerias sobrepostas |
+| Proteção | Tombamento estadual pelo CONDEPHAAT, 19 de janeiro de 1987; proteção municipal |
+| Proteção federal | Não tombado pelo IPHAN — processo federal arquivado em 2017 |
+| Administração atual | Departamento Municipal de Cultura (convênio com a AMITE revogado em 2021) |
+| Reabertura | Setembro de 2002, durante a 25ª Semana Guiomar Novaes |
+
+## Por que “Theatro”, com h?
+
+A grafia preserva a forma histórica usada nos documentos, programas e na própria identidade da casa. No início do século XX, “theatro” era a grafia corrente em português. A reforma ortográfica substituiu essa forma por “teatro”, mas o nome próprio do edifício manteve a memória gráfica de sua época.
+
+Neste site, **Theatro** designa a instituição e o edifício. A palavra **teatro**, em minúscula, continua a ser usada para a arte, o gênero ou outros espaços.
