@@ -4,8 +4,8 @@ title: "Quem pagou o Theatro"
 eyebrow: "Episódio · A Companhia Teatral Sanjoanense (1911–1915)"
 seo_title: "Quem pagou o Theatro Municipal de São João da Boa Vista — a Companhia Teatral Sanjoanense"
 seo_description: "Leis de garantia de juros, uma sociedade por ações, quase duzentos acionistas, debêntures e dívida: a engenharia financeira — pública e privada — que ergueu o Theatro Municipal em 1914."
-hero_image: "/fotos/hr8-doc-lei-1912.jpg"
-hero_alt: "A lei municipal de 1912 que concedia incentivos a quem construísse um teatro em São João da Boa Vista."
+hero_image: "/fotos/hr-pessoas-03.jpg"
+hero_alt: "Acionistas da Companhia Teatral Sanjoanense, que financiou a construção do Theatro."
 status: "dossiê"
 ---
 
@@ -62,10 +62,6 @@ Quem eram esses quase duzentos nomes? O levantamento de Jeronimo desfaz o atalho
 - havia **oito mulheres** entre os acionistas — presença feminina rara num mundo público quase todo masculino, e sinal de que havia mulheres com patrimônio próprio.
 
 Havia, ao mesmo tempo, **forte concentração de capital**: apenas **27 acionistas**, com investimento superior a um conto de réis, detinham cerca de **596 ações — perto de 60%** do total levantado. A base era plural; o peso financeiro, não. O Theatro expressa, na própria estrutura societária, a São João daquele tempo: uma cidade que se ampliava sem deixar de ser desigual.
-
-![Acionistas da Companhia Teatral Sanjoanense — a rede de cidadãos que financiou a obra.](/fotos/hr-pessoas-03.jpg)
-
-*Acionistas da Companhia Teatral Sanjoanense — a rede de mais de cem cidadãos que financiou a obra.*
 
 ## A diretoria: poucos no comando
 

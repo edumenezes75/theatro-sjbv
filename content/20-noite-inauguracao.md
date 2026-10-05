@@ -59,9 +59,9 @@ Pelo palco passaram, nos primeiros anos, companhias de prestígio: além da Sant
 
 Mas aqui o livro é honesto, e nós também devemos ser: "não obstante a boa qualidade das apresentações, era acentuada a indiferença do público e o crescente declínio da bilheteria". A casa fora pensada para uma escala que o público nem sempre sustentou. Essa tensão — entre a grandiosidade do prédio e a renda real — marcaria toda a sua história, e explica por que, tão cedo, o Theatro precisou recorrer ao arrendamento e ao cinema para sobreviver.
 
-![O público de época, em traje a rigor, diante do palco.](/fotos/hr-historicas-39.jpg)
+![O público na plateia, visto do alto, em registro de meados do século XX.](/fotos/hr-historicas-39.jpg)
 
-*O público de gala — a plateia que lotava as grandes noites, mas que nem sempre voltava no cotidiano.*
+*A plateia tomada, em registro de décadas depois — a casa enchia nas grandes ocasiões, mas nem sempre no cotidiano.*
 
 ## Fontes e notas
 

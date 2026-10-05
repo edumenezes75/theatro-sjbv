@@ -4,8 +4,8 @@ title: "Arquitetura"
 eyebrow: "Uma sala em ferradura, muitas camadas de tempo"
 seo_title: "Arquitetura do Theatro Municipal de São João da Boa Vista"
 seo_description: "Explore a fachada, a sala em ferradura, o palco e as transformações arquitetônicas do Theatro Municipal."
-hero_image: "/fotos/sl-39.jpg"
-hero_alt: "A sala em ferradura vista do alto, com a plateia vazia, em registro antigo."
+hero_image: "/fotos/hr4-fachada-02.jpg"
+hero_alt: "A fachada restaurada do Theatro, em vista frontal, com o frontão e as pilastras."
 status: "texto público"
 ---
 
@@ -89,10 +89,6 @@ Fotografias e relatos destacam a presença de madeira na sala e estruturas metá
 
 No documentário, técnicos do restauro arriscam uma explicação: a sala seria uma cópia fiel — "deslavada", diz um deles — do Teatro Scala, de Milão, e é justamente essa filiação que lhe garantiria a acústica reconhecida. Do centro do palco, garantem, basta a plateia em silêncio para que uma voz sem microfone chegue nítida a qualquer ponto da casa. Conta-se até que um diretor técnico da Osesp, depois de percorrer grandes teatros da Europa — o último, em Berlim —, parou para bater palmas, só de ouvir como o som se comportava ali. A isso soma-se uma explicação mais terrena: o empreiteiro espanhol **Antônio Lanzac**, à frente da execução, era especialista em **abóbadas** — e, segundo a bisneta Eliana Malheiros, foi essa técnica que “deu uma acústica linda” à sala.
 
-![Capitel coríntio restaurado, com folhas de acanto.](/fotos/hr5-ornamentos-02.jpg)
-
-*Capitel coríntio restaurado, com folhas de acanto — o apuro ornamental recuperado na obra.*
-
 O Theatro acumulou elogios de músicos ao longo de gerações. Vale distinguir o que é **observável** — forma, materiais, volume e a proximidade entre palco e plateia —, o que são **testemunhos de artistas** e o que dependeria de **medições acústicas** para se afirmar com rigor. Mas os testemunhos, por si, já dizem muito:
 
 > Descobri, quase atrás de casa, uma joia de cidade, com um teatro maravilhoso, bem cuidado e com uma acústica entre as melhores do Brasil.
@@ -145,6 +141,10 @@ A intervenção de **fevereiro de 1967** foi especialmente importante: frisas e 
 ## A arquitetura continua mudando
 
 Edifícios de espetáculo exigem manutenção constante. Instalações elétricas, prevenção contra incêndio, acessibilidade, som, luz, climatização e segurança evoluem. Cada atualização precisa respeitar o valor histórico sem impedir o uso.
+
+![Capitel coríntio restaurado, com folhas de acanto, no alto do edifício.](/fotos/hr5-ornamentos-02.jpg)
+
+*Capitel coríntio restaurado, no alto do edifício — ornamento exposto ao tempo, que só a manutenção contínua preserva.*
 
 Por isso, convém separar duas leituras: a **arquitetura e a história**, de caráter permanente, e uma **ficha técnica para produção**, com medidas, capacidades e equipamentos que mudam com o tempo.
 

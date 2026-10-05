@@ -53,7 +53,7 @@ O **Projeto de Restauração e Reciclagem**, datado de janeiro de 1986, foi coor
 
 ![O engenheiro e restaurador João Batista Merlin — mentor técnico da recuperação — com José Marcondes e Maria Célia.](/fotos/hr4-pessoas-04.jpg)
 
-*O engenheiro e restaurador João Batista Merlin, mentor técnico da recuperação, com José Marcondes e Maria Célia.*
+*O engenheiro e restaurador João Batista Merlin, mentor técnico da recuperação, com José Marcondes e Maria Célia, entre outros integrantes do grupo.*
 
 A equipe não partiu da ideia de que já sabia tudo. Visitou teatros no Rio de Janeiro e em outras cidades, conheceu áreas técnicas, acompanhou espetáculos e conversou com especialistas em cenotecnia, acústica, estrutura e equipamentos.
 
@@ -122,9 +122,9 @@ A recuperação da fachada exigiu pesquisa de cores, ornamentos e revestimentos.
 
 *Prospecção estratigráfica — pequenas janelas abertas na parede revelam, camada a camada, as cores de cada época. Era assim que se descobria o tom original.*
 
-![O desenho dos arabescos marcado na parede, à espera da pintura.](/fotos/hr13-arabescos-marcados.jpg)
+![Arabescos antigos reaparecem na parede, sob as camadas de tinta removidas.](/fotos/hr13-arabescos-marcados.jpg)
 
-*O desenho dos arabescos marcado na parede, à espera da pintura — à direita, a coroa de louros do medalhão.*
+*Sob as camadas de tinta, os arabescos antigos reaparecem — à direita, a coroa de louros do medalhão.*
 
 Na boca de cena, o medalhão de Carlos Gomes — pintura original de Ettore Adriano Fabri — foi revelado sob sucessivas camadas de tinta; Romeu Pradela Buzon Filho, o “Grilo”, atuou na recuperação dos ornamentos da fachada, em 1992. A história completa do medalhão tem episódio próprio: [O medalhão de Carlos Gomes →](/o-medalhao-de-carlos-gomes).
 
@@ -142,11 +142,11 @@ Algumas decisões foram interpretativas, e a honestidade pede registrá-las como
 
 A restauração durou mais que um mandato. Diferentes administrações contribuíram para etapas específicas, com recursos municipais, estaduais, federais, campanhas e incentivos.
 
-Em dezembro de 1992, o foyer foi inaugurado. O espaço passou a receber exposições e recitais, mesmo enquanto o restante permanecia em obra.
-
 ![O governador Franco Montoro e o prefeito Sidney Beraldo no Theatro, em 1986, na cerimônia oficial de tombamento.](/fotos/hr4-historicas-14.jpg)
 
 *Na cerimônia oficial de tombamento do Theatro, organizada pelo engenheiro João Merlin, o governador Franco Montoro visita a casa ao lado do prefeito Sidney Beraldo — o apoio estadual que ajudou a destravar o restauro.*
+
+Em dezembro de 1992, o foyer foi inaugurado. O espaço passou a receber exposições e recitais, mesmo enquanto o restante permanecia em obra.
 
 A partir de 1998, a **Fundação Oliveira Neto** e campanhas comunitárias passaram a captar recursos e a mobilizar a cidade para concluir a obra — fase que tem episódio próprio: [A cidade financia seu restauro →](/a-cidade-financia-seu-restauro). As somas publicadas variam entre cerca de R$ 695,7 mil e R$ 732,2 mil, conforme o recorte contábil — componentes estaduais, federais, da Fundação e municipais somados ao longo de quase dezessete anos, sem prestação de contas consolidada que permita fechar o total com precisão. Em setembro de 2002, a 25ª Semana Guiomar Novaes marcou o reencontro da população com a sala principal.
 
@@ -163,10 +163,6 @@ Em 1995, o show *Relembranças* reuniu público em uma sala com piso bruto e cad
 Preservar não termina com a reabertura. A própria obra continuou depois de 2002 — o subsolo, por exemplo, só foi concluído em 2010, e parte dos equipamentos cenotécnicos foi sendo completada mais tarde. Desde então, a casa recebeu sobretudo manutenções pontuais. Em 2021, a Prefeitura contratou um estudo técnico de preservação e pintura — conduzido por Lorette Arquitetos, com Antonio Carlos Lorette e Alisson Tavares —, reconhecendo a necessidade de retomar um cuidado mais amplo. Notícias do período registraram, ainda, emendas destinadas à reforma, como R$ 170 mil e, em 2024, R$ 200 mil.
 
 Reportagens locais entre 2023 e 2024 registraram pontos a enfrentar — entre eles a entrada de água da chuva por portas laterais e a fragilidade de esquadrias — e listaram demandas de pintura, palco, camarins, instalações, acessibilidade, som e luz. Em 2024, obras externas e internas avançaram com pintura de fachada, palco e foyer; parte das intervenções, porém, ficou inacabada, e a manutenção preventiva permanece como agenda aberta.
-
-![A escavação do fosso da orquestra, sob o palco, com a boca de cena ao fundo, durante as obras.](/fotos/hr3-restauro-05.jpg)
-
-*A escavação do fosso da orquestra, sob o palco, com a boca de cena ao fundo, durante as obras.*
 
 Esse é o estágio honesto de um edifício de mais de cem anos: vivo e em uso, mas exigindo atenção contínua. A própria história do Theatro mostra que sua conservação sempre dependeu de vontade pública e mobilização — e segue dependendo.
 

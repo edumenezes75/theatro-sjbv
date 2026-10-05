@@ -111,13 +111,17 @@ A partir daí vieram as matinês, os seriados e o ritual do domingo no cinema �
 
 Mesmo virado cinema, o edifício seguiu recebendo apresentações: em 1945 uma peça reabriu a casa; em 1946, **Guiomar Novaes** tocou para os seus conterrâneos ([a pianista e o Theatro →](/guiomar-novaes-e-o-theatro)); em 1952, Procópio Ferreira passou pelo palco. E havia muito mais que cinema sob aquele teto — rádio, biblioteca, bar e sociedades culturais, reunidos em [Os outros inquilinos →](/os-outros-inquilinos).
 
+![A biblioteca abrigada no edifício — o Theatro também como casa de leitura.](/fotos/hr-eventos-12.jpg)
+
+*A biblioteca abrigada no edifício — o Theatro também como casa de leitura.*
+
 ### A reforma de 1967
 
 Em fevereiro de 1967, frisas e camarotes foram retirados para dar mais assentos ao cinema — a intervenção que mais descaracterizou a sala antes do restauro. Ainda subiram ao palco nomes como Roberto Carlos (1968), Dercy Gonçalves e Agnaldo Rayol (1982), mas a concorrência de cinemas mais novos, a televisão e o desgaste do prédio aceleraram o declínio, até o fechamento de 1982.
 
-![A biblioteca abrigada no edifício — o Theatro também como casa de leitura.](/fotos/hr-eventos-12.jpg)
+![A sala antes do restauro, vista do palco: as galerias sem frisas nem camarotes e a cabine de projeção ao centro.](/fotos/hr3-sala-01.jpg)
 
-*A biblioteca abrigada no edifício — o Theatro também como casa de leitura.*
+*A sala como o cinema a deixou: sem frisas nem camarotes, com a cabine de projeção no centro da galeria — registro anterior ao restauro.*
 
 *[Percorrer estes anos na linha do tempo →](/linha-do-tempo#era-cine-theatro)*
 
@@ -135,19 +139,15 @@ Artistas e moradores transformaram a ameaça em causa pública — manifestaçõ
 
 A Prefeitura adquiriu o imóvel em duas etapas — a porção frontal em janeiro de 1984, o palco e os fundos em 1985 —, porque um teatro funcional exigia o conjunto completo. O tombamento estadual foi **aprovado por unanimidade pelo CONDEPHAAT em dezembro de 1985** e **formalizado pela resolução de 19 de janeiro de 1987**, reconhecendo o valor histórico do edifício.
 
-![A sala vista da plateia — a boca de cena, o forro decorado e a curva das galerias.](/fotos/hr3-sala-01.jpg)
-
-*A sala vista da plateia — a boca de cena, o forro decorado e a curva das galerias.*
-
 *[Percorrer estes anos na linha do tempo →](/linha-do-tempo#era-ameaca)*
 
 ## 7. Uma restauração longa — 1986 a 2002 {#cap-uma-restauracao-longa}
 
 A restauração não foi uma simples pintura. O prédio apresentava rachaduras, madeira atacada por cupins, alterações acumuladas, infiltrações e limitações técnicas. A equipe precisou estudar o que conservar, o que reconstruir e como adaptar uma casa do início do século XX às exigências contemporâneas.
 
-![O edifício durante as obras de restauração, com andaimes na fachada.](/fotos/hr2-restauro-09.jpg)
+![A lateral do edifício durante as obras de restauração, com andaime e uma pá carregadeira.](/fotos/hr2-restauro-09.jpg)
 
-*O edifício em obras, coberto de andaimes — anos de restauro que atravessaram governos e gerações.*
+*A lateral do edifício em obras, com andaime e máquina no canteiro — anos de restauro que atravessaram governos e gerações.*
 
 Arquitetos, engenheiros, artistas e técnicos visitaram teatros no Rio de Janeiro, conversaram com especialistas em cenotecnia, acústica, estrutura e segurança e refizeram projetos. Em um esforço concentrado, dezenas de pranchas foram produzidas para buscar recursos e orientar as intervenções.
 

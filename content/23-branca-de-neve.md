@@ -25,13 +25,13 @@ A *Branca de Neve* não nasceu do nada. Ela é o ponto alto de toda uma cultura 
 
 O tamanho da ambição aparece num programa anterior, de **31 de março de 1931**: um Festival Artístico organizado pelo padre Nicolau Miranda, com comédia na primeira parte e, na segunda, trechos de *Il Trovatore*, *La Traviata* e *Favorita*, mais composições do próprio padre, sob cenários de Herculano de Almeida. Não era pouca coisa pedir que cantores e instrumentistas locais enfrentassem Verdi e Donizetti numa cidade do interior. Foi nesse caldo — orquestra organizada, sopranos formados, um cenógrafo de casa e um compositor diplomado — que uma ópera inteiramente sanjoanense se tornou possível.
 
-![O programa de uma noite dirigida pelo padre Nicolau Miranda e por Dona Beloca, com a relação dos músicos da orquestra.](/fotos/hr8-doc-festival-1932.jpg)
-
-*O programa de uma das noites dirigidas pelo padre Nicolau Miranda e por Dona Beloca — com a relação nominal dos músicos da orquestra. A cidade levava a sério a própria música.*
-
 ## 1932: a estreia
 
 O **principal evento** da passagem do padre por São João foi a opereta **Branca de Neve, de sua composição** — uma versão musical da história dos irmãos Grimm, com **cenários do professor Herculano de Almeida**. Estreou em **1932**, com a direção partilhada entre o padre Nicolau Miranda, Herculano de Almeida e as senhoras **Beloca Oliveira Costa e Zilah Mattos**.
+
+![O programa da estreia de Branca de Neve, em 31 de março de 1932, com elenco e orquestra.](/fotos/hr8-doc-festival-1932.jpg)
+
+*O programa da estreia, 31 de março de 1932, em benefício da Santa Casa: Branca de Neve na primeira parte, com Lourdinha Rehder no papel-título, e árias de Verdi e Donizetti na segunda — com os nomes de toda a orquestra.*
 
 A escolha do conto não era ingênua. Montar *Branca de Neve* como ópera permitia reunir num só espetáculo tudo o que a cidade tinha de melhor: coro, solistas, orquestra, dança, figurino e a cenografia ilusionista de que Herculano era mestre — o espelho que fala, a floresta, o castelo. Era teatro total feito com gente da terra, e dava ao público popular um enredo que todos já conheciam, cantado pela primeira vez em música original. O Theatro deixava, por uma noite, de ser a casa onde se via o que vinha de fora: passava a ser a casa onde a cidade se ouvia.
 

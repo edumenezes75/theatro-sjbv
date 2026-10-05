@@ -5,7 +5,7 @@ eyebrow: "O Theatro visto por quem esteve lá"
 seo_title: "Curiosidades do Theatro Municipal"
 seo_description: "Descubra histórias de cinema, bailes, rádio, biblioteca, bar, bastidores e personagens do Theatro Municipal."
 hero_image: "/fotos/hr-eventos-11.jpg"
-hero_alt: "Salão do Theatro ocupado por um grande baile, com público na plateia e galerias."
+hero_alt: "A fachada do Theatro no tempo do cinema, com os letreiros do Cine Theatro e do Bar Theatro no térreo."
 status: "texto público"
 ---
 
@@ -21,9 +21,9 @@ Esta página reúne episódios apoiados em documentos e lembranças pessoais. Qu
 
 Mesas, decoração, música e dança ocupavam o lugar das cadeiras. As galerias permaneciam cheias, e a sala inteira funcionava como cenário social.
 
-![Um baile na plateia do Theatro — a sala decorada e cheia, em registro de outras décadas.](/fotos/sl-32.jpg)
+![A plateia do Theatro em noite de festa, enfeitada de bandeirolas, com um balão no teto.](/fotos/sl-32.jpg)
 
-*Um baile na plateia — a sala decorada e cheia, com as galerias tomadas.*
+*A plateia em noite de festa — bandeirolas, um balão no teto e as galerias tomadas.*
 
 As imagens dos bailes recompensam o olhar atento: as roupas, os músicos, a decoração, as luzes, as galerias cheias — nos detalhes, contam como a cidade vivia o Theatro.
 

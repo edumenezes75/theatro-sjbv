@@ -5,7 +5,7 @@ eyebrow: "Informações para conhecer o Theatro"
 seo_title: "Visite o Theatro Municipal de São João da Boa Vista"
 seo_description: "Endereço, horários administrativos e orientações para visitar o Theatro Municipal de São João da Boa Vista."
 hero_image: "/fotos/hr-fachada-27.jpg"
-hero_alt: "Fachada histórica do Theatro Municipal."
+hero_alt: "O Theatro visto da praça, entre as palmeiras, em registro antigo."
 status: "informação de serviço"
 last_verified: "2026-06-19"
 ---
