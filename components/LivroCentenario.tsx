@@ -10,7 +10,7 @@ const PDF = '/livro/theatro-municipal-100-anos.pdf';
 
 export default function LivroCentenario() {
   return (
-    <section aria-labelledby="livro-centenario-titulo" className="livro-palco relative isolate overflow-hidden border-t border-gold/20 bg-night text-cream">
+    <section id="livro" aria-labelledby="livro-centenario-titulo" className="livro-palco scroll-mt-16 relative isolate overflow-hidden border-t border-gold/20 bg-night text-cream">
       <div aria-hidden className="livro-luz pointer-events-none absolute inset-0 -z-10" />
       <div aria-hidden className="grain pointer-events-none absolute inset-0 -z-10" />
 

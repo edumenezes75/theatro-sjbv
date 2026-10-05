@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from 'react';
 import Mark from './Mark';
 import { IconChevron, IconMenu, IconClose } from './Icons';
 
-type Item = { href: string; label: string; hint?: string };
+type Item = { href: string; label: string; hint?: string; hintNoCelular?: boolean };
 type Grupo = { label: string; items?: Item[]; href?: string };
 
 // Dois eixos de conteúdo — a história contada e a memória guardada — mais os
@@ -13,11 +13,13 @@ type Grupo = { label: string; items?: Item[]; href?: string };
 // custar três toques no celular). URLs intocadas; só rótulos e agrupamento.
 // As `hint` aparecem só no desktop: são a diferença entre escolher e adivinhar
 // quando dois itens vizinhos prometem a mesma coisa (a linha e o texto corrido).
+// No celular a lista é compacta: só as três portas da história levam a linha de
+// apoio (`hintNoCelular`), porque é ali que a escolha virava chute.
 const MENU: Grupo[] = [
   { label: 'A História', items: [
-    { href: '/o-theatro', label: 'O Theatro', hint: 'Em resumo, para começar' },
-    { href: '/linha-do-tempo', label: 'Linha do tempo', hint: 'Um século numa rolagem' },
-    { href: '/historia', label: 'História completa', hint: 'O texto corrido, em 8 capítulos e episódios' },
+    { href: '/o-theatro', label: 'O Theatro', hint: 'Em resumo, para começar', hintNoCelular: true },
+    { href: '/linha-do-tempo', label: 'Linha do tempo', hint: 'Um século numa rolagem', hintNoCelular: true },
+    { href: '/historia', label: 'História completa', hint: 'O texto corrido, em 8 capítulos e episódios', hintNoCelular: true },
     { href: '/arquitetura', label: 'Arquitetura', hint: 'A fachada e a sala em ferradura' },
     { href: '/restauracao', label: 'Restauro', hint: 'Da ameaça de demolição à reabertura' },
   ] },
@@ -27,6 +29,7 @@ const MENU: Grupo[] = [
     { href: '/documentario', label: 'Documentário', hint: 'O filme, com transcrição navegável' },
     { href: '/pessoas', label: 'Pessoas', hint: 'Quem fez o Theatro acontecer' },
     { href: '/memorias', label: 'Curiosidades', hint: 'Histórias miúdas da casa' },
+    { href: '/#livro', label: 'O livro do centenário', hint: 'Para baixar, em PDF' },
   ] },
   { label: 'Programação', href: '/programacao' },
   { label: 'Visite', href: '/visite' },
@@ -176,7 +179,10 @@ export default function Nav() {
                 </summary>
                 <div className="pb-2">
                   {g.items!.map((l) => (
-                    <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className={`block rounded-sm py-2.5 pl-3 font-sans text-base ${pathname === l.href ? 'text-curtain dark:text-gold' : 'text-ink/80 dark:text-cream/80'}`}>{l.label}</Link>
+                    <Link key={l.href} href={l.href} aria-current={pathname === l.href ? 'page' : undefined} className={`block rounded-sm py-2.5 pl-3 font-sans text-base ${pathname === l.href ? 'text-curtain dark:text-gold' : 'text-ink/80 dark:text-cream/80'}`}>
+                      {l.label}
+                      {l.hintNoCelular && l.hint && <span className="mt-0.5 block text-xs leading-snug text-ink/60 dark:text-cream/65">{l.hint}</span>}
+                    </Link>
                   ))}
                 </div>
               </details>
