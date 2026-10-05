@@ -9,8 +9,8 @@ type Item = { href: string; label: string; hint?: string; hintNoCelular?: boolea
 type Grupo = { label: string; items?: Item[]; href?: string };
 
 // Dois eixos de conteúdo — a história contada e a memória guardada — mais os
-// dois destinos de serviço como links diretos (Programação e Visite não podem
-// custar três toques no celular). URLs intocadas; só rótulos e agrupamento.
+// destino de serviço como link direto (Visite não pode custar três toques
+// no celular). URLs intocadas; só rótulos e agrupamento.
 // As `hint` aparecem só no desktop: são a diferença entre escolher e adivinhar
 // quando dois itens vizinhos prometem a mesma coisa (a linha e o texto corrido).
 // No celular a lista é compacta: só as três portas da história levam a linha de
@@ -31,7 +31,6 @@ const MENU: Grupo[] = [
     { href: '/memorias', label: 'Curiosidades', hint: 'Histórias miúdas da casa' },
     { href: '/#livro', label: 'O livro do centenário', hint: 'Para baixar, em PDF' },
   ] },
-  { label: 'Programação', href: '/programacao' },
   { label: 'Visite', href: '/visite' },
   { label: 'O projeto', items: [
     { href: '/sobre', label: 'Sobre o projeto', hint: 'O que é este site — e o que não é' },

@@ -91,6 +91,6 @@ O edifício permanece ativo e integrado à programação cultural de São João 
 
 *Com a tela montada sobre o palco, a sala restaurada volta a receber sessões de cinema — o Cine Theatro de outras gerações reaparece na casa de hoje.*
 
-Para horários, contato, ingressos e visita guiada, consulte as páginas **Visite** e **Programação** — ali essas informações ficam sempre atualizadas, separadas da narrativa histórica.
+Para horários, contato, ingressos e visita guiada, consulte a página **Visite** — ali essas informações ficam sempre atualizadas, separadas da narrativa histórica.
 
 <!-- Fontes principais: Menezes, 2014, pp. 29–41, 69–111, 113–178; Prefeitura de São João da Boa Vista; CONDEPHAAT. -->

@@ -60,11 +60,7 @@ export default function RepertorioPage() {
           importante.
         </p>
         <p className="mt-4 max-w-reading font-sans text-sm italic leading-relaxed text-ink/65 dark:text-cream/65">
-          A relação termina em 2013, às vésperas do centenário. Para o que está em cartaz agora, veja a{' '}
-          <Link href="/programacao" className="text-curtain underline decoration-gold/45 underline-offset-2 dark:text-gold">
-            programação
-          </Link>
-          ; para a história da casa, a{' '}
+          A relação termina em 2013, às vésperas do centenário. Para a história da casa, veja a{' '}
           <Link href="/linha-do-tempo" className="text-curtain underline decoration-gold/45 underline-offset-2 dark:text-gold">
             linha do tempo
           </Link>

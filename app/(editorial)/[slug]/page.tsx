@@ -23,7 +23,7 @@ import LiteYouTube from '@/components/LiteYouTube';
 const LABELS: Record<string, string> = {
   '/o-theatro': 'O Theatro', '/historia': 'História', '/arquitetura': 'Arquitetura',
   '/restauracao': 'Restauro', '/pessoas': 'Pessoas', '/acervo': 'Acervo',
-  '/documentario': 'Documentário', '/programacao': 'Programação', '/linha-do-tempo': 'Linha do tempo',
+  '/documentario': 'Documentário', '/linha-do-tempo': 'Linha do tempo',
   '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Curiosidades do Theatro', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição', '/companhia-teatral-sanjoanense': 'Quem pagou o Theatro', '/o-politeama': 'Theatro ou politeama?', '/episodios': 'Episódios', '/a-fachada-que-fala': 'A fachada que fala', '/o-medalhao-de-carlos-gomes': 'O medalhão de Carlos Gomes', '/guiomar-novaes-e-o-theatro': 'Guiomar Novaes e o Theatro', '/o-tempo-do-cinetheatro': 'O tempo do CineTheatro', '/as-mulheres-do-theatro': 'As mulheres do Theatro', '/a-noite-de-inauguracao': 'A noite de inauguração', '/os-outros-inquilinos': 'Os outros inquilinos', '/a-cidade-financia-seu-restauro': 'A cidade financia seu restauro', '/a-opereta-branca-de-neve': 'A opereta Branca de Neve',
 };
 const RELATED: Record<string, string[]> = {
@@ -32,7 +32,7 @@ const RELATED: Record<string, string[]> = {
   arquitetura: ['/acervo', '/restauracao', '/historia'],
   restauracao: ['/pessoas', '/acervo', '/documentario', '/fontes'],
   memorias: ['/historia', '/pessoas', '/acervo'],
-  visite: ['/programacao', '/acervo', '/historia'],
+  visite: ['/acervo', '/historia'],
   fontes: ['/acervo', '/pessoas', '/documentario'],
   'luta-contra-a-demolicao': ['/restauracao', '/historia', '/linha-do-tempo'],
   'companhia-teatral-sanjoanense': ['/o-politeama', '/historia', '/luta-contra-a-demolicao'],
@@ -108,7 +108,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
   const showAD = ANTES_DEPOIS.has(params.slug);
   const h2count = (page.html.match(/<h2/g) || []).length;
   const longRead = h2count >= 4;
-  const JOURNEY = ['/o-theatro', '/historia', '/arquitetura', '/restauracao', '/pessoas', '/acervo', '/documentario', '/memorias', '/visita-guiada', '/linha-do-tempo', '/programacao', '/visite', '/fontes'];
+  const JOURNEY = ['/o-theatro', '/historia', '/arquitetura', '/restauracao', '/pessoas', '/acervo', '/documentario', '/memorias', '/visita-guiada', '/linha-do-tempo', '/visite', '/fontes'];
   const ji = JOURNEY.indexOf('/' + params.slug);
   const nextHref = ji >= 0 && ji < JOURNEY.length - 1 ? JOURNEY[ji + 1] : null;
 

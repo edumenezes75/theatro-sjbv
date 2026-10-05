@@ -14,7 +14,6 @@ const ROUTES: [string, number, MetadataRoute.Sitemap[number]['changeFrequency']]
   ['/documentario', 0.7, 'monthly'],
   ['/linha-do-tempo', 0.7, 'monthly'],
   ['/repertorio', 0.7, 'yearly'],
-  ['/programacao', 0.7, 'weekly'],
   ['/visite', 0.7, 'yearly'],
   ['/memorias', 0.6, 'monthly'],
   ['/o-theatro', 0.6, 'yearly'],

@@ -31,8 +31,6 @@ Para espetáculos, confirme antes de sair de casa:
 
 Para visitas escolares e guiadas, produção ou locação, fale com o Departamento de Cultura.
 
-[Ver a programação](./programacao)
-
 ## Acessibilidade
 
 A administração pode orientar sobre:

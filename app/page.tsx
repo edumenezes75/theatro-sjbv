@@ -7,11 +7,9 @@ import Vozes from '@/components/Vozes';
 import { vozesList } from '@/lib/data';
 import Mark from '@/components/Mark';
 import Reveal from '@/components/Reveal';
-import ProximoEvento from '@/components/ProximoEvento';
 import HistoriasDoTheatro from '@/components/HistoriasDoTheatro';
 import LivroCentenario from '@/components/LivroCentenario';
 
-export const revalidate = 21600; // 6h — acompanha a agenda de /programacao
 
 const GUIA = [
   { href: '/linha-do-tempo', tag: 'A História', t: 'Linha do tempo', d: 'Um século numa rolagem só: capítulos, marcos, fotos e vozes — de 1911 a hoje.', cta: 'Percorrer a linha' },
@@ -58,7 +56,6 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-3">
                 <Link href="/linha-do-tempo" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03]">Explorar a história</Link>
-                <Link href="/programacao" className="rounded-full border border-cream/40 px-6 py-3 font-sans text-sm font-medium text-cream transition-colors hover:border-gold hover:text-gold">Programação</Link>
               </div>
             </div>
             <p className="mt-7 max-w-xl font-sans text-sm leading-relaxed text-cream/65">
@@ -69,9 +66,6 @@ export default function Home() {
           <span className="pointer-events-none absolute right-6 top-44 hidden font-display text-sm italic tracking-wide text-cream/65 lg:block">desde 1914</span>
         </div>
       </section>
-
-      {/* PRÓXIMO EVENTO — a agenda a um toque, sem rolar a home inteira */}
-      <ProximoEvento />
 
       {/* COMECE POR AQUI */}
       <section className="mx-auto max-w-6xl px-5 py-24">
@@ -230,7 +224,6 @@ export default function Home() {
                 <div className="flex flex-wrap gap-3">
                   <a href={MAPS} target="_blank" rel="noopener noreferrer" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Como chegar ↗</a>
                   <a href={WPP} target="_blank" rel="noopener noreferrer" className="rounded-full border border-curtain/40 px-6 py-3 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">WhatsApp</a>
-                  <Link href="/programacao" className="rounded-full border border-curtain/40 px-6 py-3 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">Programação</Link>
                 </div>
                 <Link href="/visite" className="self-start border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Planeje sua visita →</Link>
               </div>
