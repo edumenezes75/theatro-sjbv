@@ -63,7 +63,9 @@ export default function HistoriasDoTheatro() {
               <p className="historias-sub mt-3 uppercase tracking-[0.04em] text-white">Um palco e suas memórias</p>
 
               <p className="mt-7 max-w-md font-read text-lg leading-relaxed text-cream/85">
-                Quem pesquisou, viveu e salvou o Theatro conta como foi. A primeira noite é no palco. Depois, as histórias seguem em vídeo e em áudio.
+                {antes
+                  ? 'Quem pesquisou, viveu e salvou o Theatro conta como foi. A primeira noite é no palco. Depois, as histórias seguem em vídeo e em áudio.'
+                  : 'Quem pesquisou, viveu e salvou o Theatro subiu ao palco para contar como foi. A primeira noite foi em 2 de outubro. Agora, as histórias seguem em vídeo.'}
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-6">
