@@ -190,7 +190,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           </div>
         ) : (
           <>
-            <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>
+            {params.slug !== 'memorias' && <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>}
             <Reveal>
               <div className="prose-theatro mx-auto" dangerouslySetInnerHTML={{ __html: page.html }} />
             </Reveal>
@@ -261,11 +261,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         {params.slug === 'visite' && <MapaVisita />}
 
         {params.slug === 'memorias' && curiosidadesList.length > 0 && (
-          <section className="mt-16 border-t border-gold/25 pt-12">
-            <h2 className="font-display text-3xl">Curiosidades, por tema</h2>
-            <p className="mb-10 mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-              Episódios apoiados em documentos e lembranças, reunidos em cinco capítulos — da fundação aos mistérios da casa.
-            </p>
+          <section className="mt-12">
             <Curiosidades itens={curiosidadesList} />
           </section>
         )}
