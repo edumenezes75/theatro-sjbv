@@ -63,49 +63,33 @@ export default function AcervoPage() {
         </nav>
 
         <section id="cap-historico" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
-          <div className="flex items-center gap-3">
-            <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 1 · o Theatro de outras décadas</p>
-          </div>
-          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">O Theatro histórico</h2>
+          <h2 className="font-display text-2xl leading-tight sm:text-3xl">O Theatro histórico</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            Da era do cinema aos bailes, da rádio à biblioteca e à ameaça de demolição — o edifício e a cidade em registros de outras décadas. <span className="text-curtain dark:text-gold">{hist.length} imagens.</span> Filtre por tema; clique para ampliar ou use o modo apresentação.
+            Da era do cinema aos bailes, da rádio à biblioteca e à ameaça de demolição — o edifício e a cidade em registros de outras décadas. <span className="text-curtain dark:text-gold">{hist.length} imagens.</span>
           </p>
           <GaleriaReal fotos={hist} pessoasIndex={pessoasIndexMin} showEpoca={false} colorLast />
         </section>
 
         <section id="cap-restauro" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
-          <div className="flex items-center gap-3">
-            <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 2 · da ruína à recuperação</p>
-          </div>
-          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Da decadência ao restauro</h2>
+          <h2 className="font-display text-2xl leading-tight sm:text-3xl">Da decadência ao restauro</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            O abandono, as goteiras e os ornatos perdidos — e, depois, os andaimes, a escavação do fosso da orquestra, a decapagem, os artistas devolvendo cor à sala — e os primeiros eventos na sala ainda em obras (a Bienal de Artes, a Semana Furlanetto). <span className="text-curtain dark:text-gold">{decRest.length} imagens.</span> Use o filtro de época e de tema para separar a obra dos eventos.
+            O abandono, as goteiras e os ornatos perdidos — e, depois, os andaimes, a escavação do fosso da orquestra, a decapagem, os artistas devolvendo cor à sala — e os primeiros eventos na sala ainda em obras (a Bienal de Artes, a Semana Furlanetto). <span className="text-curtain dark:text-gold">{decRest.length} imagens.</span>
           </p>
           <LazyMount><GaleriaReal fotos={decRest} pessoasIndex={pessoasIndexMin} showEpoca /></LazyMount>
         </section>
 
         <section id="cap-hoje" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
-          <div className="flex items-center gap-3">
-            <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 3 · o edifício recuperado e o palco vivo</p>
-          </div>
-          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">O Theatro hoje</h2>
+          <h2 className="font-display text-2xl leading-tight sm:text-3xl">O Theatro hoje</h2>
           <p className="mt-2 mb-8 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            A sala em ferradura recuperada, os ornamentos e a fachada eclética — e o palco em uso: concertos, festivais, teatro e dança que ocupam o Theatro desde a reabertura, em 2002. <span className="text-curtain dark:text-gold">{hoje.length} imagens.</span> Filtre por tema; clique para ampliar.
+            A sala em ferradura recuperada, os ornamentos e a fachada eclética — e o palco em uso: concertos, festivais, teatro e dança que ocupam o Theatro desde a reabertura, em 2002. <span className="text-curtain dark:text-gold">{hoje.length} imagens.</span>
           </p>
           <LazyMount><GaleriaReal fotos={hoje} pessoasIndex={pessoasIndexMin} showEpoca /></LazyMount>
         </section>
 
         <section id="cap-documentos" className="mt-16 scroll-mt-24 border-t border-gold/25 pt-12">
-          <div className="flex items-center gap-3">
-            <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Capítulo 4 · papéis que contam a história</p>
-          </div>
-          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Documentos</h2>
+          <h2 className="font-display text-2xl leading-tight sm:text-3xl">Documentos</h2>
           <p className="mt-2 mb-10 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            Estatutos, escrituras, projetos, programas e o abaixo-assinado que salvou o edifício — os papéis que registram, em cartório e na imprensa, cada etapa da história do Theatro. <span className="text-curtain dark:text-gold">{docs.length} itens.</span> Clique para ampliar e ler.
+            Estatutos, escrituras, projetos, programas e o abaixo-assinado que salvou o edifício — os papéis que registram, em cartório e na imprensa, cada etapa da história do Theatro. <span className="text-curtain dark:text-gold">{docs.length} itens.</span>
           </p>
           <LazyMount>
             <div className="space-y-12">

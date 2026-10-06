@@ -129,13 +129,12 @@ export default function DocumentarioPage() {
           <h2 className="font-display text-3xl">Momentos do filme</h2>
           <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">Pontos-chave do documentário — clique para abrir cada momento no YouTube.</p>
           <ol className="mt-6 grid gap-x-8 gap-y-1 sm:grid-cols-2">
-            {momentos.map(([sec, name, tema]) => (
+            {momentos.map(([sec, name]) => (
               <li key={sec} className="flex items-baseline gap-3 border-b border-gold/15 py-2.5">
                 <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener noreferrer" title="Abrir o filme neste momento" className="shrink-0 font-display text-sm tabular-nums text-curtain hover:opacity-70 dark:text-gold">
                   {`${Math.floor(sec / 60)}:${String(sec % 60).padStart(2, '0')}`}
                 </a>
                 <a href={`https://www.youtube.com/watch?v=${YT}&t=${sec}s`} target="_blank" rel="noopener noreferrer" className="font-sans text-[0.95rem] text-ink/85 hover:text-curtain dark:text-cream/85 dark:hover:text-gold">{name}</a>
-                <Link href={tema} className="ml-auto shrink-0 self-center rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-xs uppercase tracking-eyebrow text-ink/65 hover:border-curtain hover:text-curtain dark:text-cream/75 dark:hover:border-gold dark:hover:text-gold" title={`Ir para ${TEMA[tema]}`}>{TEMA[tema]}</Link>
               </li>
             ))}
           </ol>

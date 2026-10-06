@@ -109,8 +109,7 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
 
       {fotosRel.length > 0 && (
         <section className="mt-12 border-t border-gold/20 pt-8">
-          <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">No acervo</p>
-          <h2 className="mt-2 font-display text-2xl leading-tight">Em {fotosRel.length} {fotosRel.length === 1 ? 'imagem' : 'imagens'} do acervo</h2>
+          <h2 className="font-display text-2xl leading-tight">Em {fotosRel.length} {fotosRel.length === 1 ? 'imagem' : 'imagens'} do acervo</h2>
           <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
             {fotosRel.slice(0, 6).map((f) => (
               <Link key={f.id} href={`/acervo/${f.id}`} className="card-lift group relative aspect-[4/3] overflow-hidden rounded-sm bg-ink" aria-label={fotoTitulo(f.alt)}>
@@ -127,28 +126,19 @@ export default function PessoaPage({ params }: { params: { slug: string } }) {
 
       {eventosRel.length > 0 && (
         <section className="mt-12 border-t border-gold/20 pt-8">
-          <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Na linha do tempo</p>
-          <ul className="mt-4 space-y-3">
+          <h2 className="font-display text-2xl leading-tight">Na linha do tempo</h2>
+          <ul className="mt-4 divide-y divide-gold/15 border-y border-gold/15">
             {eventosRel.map((e) => (
               <li key={e.id}>
-                <Link href={`/linha-do-tempo#${e.id}`} className="card-lift block rounded-sm border border-ink/12 px-5 py-3.5 hover:border-gold/50 dark:border-cream/12">
-                  <span className="font-display text-base font-medium text-curtain dark:text-gold">{e.display}</span>
-                  <span className="mt-0.5 block font-sans text-sm text-ink/80 dark:text-cream/80">{e.title}</span>
+                <Link href={`/linha-do-tempo#${e.id}`} className="flex items-baseline gap-4 py-3 transition-colors hover:text-curtain dark:hover:text-gold">
+                  <span className="w-28 shrink-0 font-display text-base font-medium text-curtain dark:text-gold">{e.display}</span>
+                  <span className="font-sans text-sm text-ink/80 dark:text-cream/80">{e.title}</span>
                 </Link>
               </li>
             ))}
           </ul>
         </section>
       )}
-
-      <section className="mt-12 border-t border-gold/20 pt-8">
-        <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Continue explorando</p>
-        <div className="mt-3 flex flex-wrap gap-3">
-          <a href="/pessoas" className="card-lift rounded-sm border border-ink/12 px-5 py-3 font-sans text-sm text-ink/80 hover:border-gold/50 hover:text-curtain dark:border-cream/12 dark:text-cream/80 dark:hover:text-gold">Todas as pessoas →</a>
-          <a href="/acervo" className="card-lift rounded-sm border border-ink/12 px-5 py-3 font-sans text-sm text-ink/80 hover:border-gold/50 hover:text-curtain dark:border-cream/12 dark:text-cream/80 dark:hover:text-gold">Acervo de imagens →</a>
-          <a href="/linha-do-tempo" className="card-lift rounded-sm border border-ink/12 px-5 py-3 font-sans text-sm text-ink/80 hover:border-gold/50 hover:text-curtain dark:border-cream/12 dark:text-cream/80 dark:hover:text-gold">Linha do tempo →</a>
-        </div>
-      </section>
 
       <div className="mt-12 border-t border-gold/20 pt-6">
         <Link href="/pessoas" className="font-sans text-sm text-curtain underline decoration-gold/40 underline-offset-4 hover:text-curtain dark:text-gold">← Todas as pessoas</Link>

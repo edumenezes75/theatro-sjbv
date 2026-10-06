@@ -47,11 +47,7 @@ export default function Comentarios({
 
   return (
     <section className="mt-12 border-t border-gold/25 pt-8">
-      <div className="flex items-center gap-3">
-        <span className="h-6 w-px bg-curtain dark:bg-gold" />
-        <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Memórias do público</p>
-      </div>
-      <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">{titulo || 'Deixe sua memória'}</h2>
+      <h2 className="font-display text-2xl leading-tight sm:text-3xl">{titulo || 'Deixe sua memória'}</h2>
       {intro && <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">{intro}</p>}
 
       {estado === 'ok' ? (

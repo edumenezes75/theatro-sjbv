@@ -68,8 +68,13 @@ export default function RepertorioPage() {
           .
         </p>
 
+
+        <div className="mt-12">
+          <Repertorio />
+        </div>
+
         {emCena.length > 0 && (
-          <section className="mt-14 border-t border-gold/25 pt-12">
+          <section className="mt-20 border-t border-gold/25 pt-12">
             <div className="flex items-center gap-3">
               <span className="h-6 w-px bg-curtain dark:bg-gold" />
               <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Em cena</p>
@@ -81,10 +86,6 @@ export default function RepertorioPage() {
             <GaleriaReal fotos={emCena} withFilter={false} legendas />
           </section>
         )}
-
-        <div className="mt-12">
-          <Repertorio />
-        </div>
 
         <section className="mt-20 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">

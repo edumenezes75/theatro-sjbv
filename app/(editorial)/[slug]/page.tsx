@@ -92,8 +92,6 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
   const page = getPageBySlug('/' + params.slug);
   if (!page) notFound();
   const isDossie = page.meta.status === 'dossiê';
-  const words = page.html.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
-  const readMin = Math.max(1, Math.round(words / 200));
   const gal = GALLERIES[params.slug];
   const galFotos = !gal ? [] : gal.ids
     ? (gal.ids.map((id) => fotosList.find((f) => f.id === id)).filter(Boolean) as typeof fotosList)
@@ -165,7 +163,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
     <article className={isDossie ? 'dossie' : undefined}>
       {longRead && <ReadingProgress />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
-      <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={page.meta.status} typewriter={isDossie} />
+      <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={params.slug === 'visite' ? undefined : page.meta.status} typewriter={isDossie} />
       <div className={`mx-auto max-w-6xl px-5 py-16 sm:py-24${isDossie ? ' dossie-paper' : ''}`}>
         {isDossie && <DossieArt />}
         {params.slug === 'visite' && <VisitaInfo />}
@@ -174,7 +172,6 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
             <aside className="hidden lg:block">{isDossie ? <DossieIndex /> : <ChapterIndex />}</aside>
             <div className="min-w-0">
               <ChapterIndexMobile />
-              {readMin >= 3 && <p className="read-meta mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>}
               <Reveal>
                 <div className="prose-theatro" dangerouslySetInnerHTML={{ __html: page.html }} />
               </Reveal>
@@ -182,7 +179,6 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           </div>
         ) : (
           <>
-            {params.slug !== 'memorias' && readMin >= 3 && <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>}
             <Reveal>
               <div className="prose-theatro mx-auto" dangerouslySetInnerHTML={{ __html: page.html }} />
             </Reveal>

@@ -18,7 +18,6 @@ const GUIA = [
 ];
 
 const MAPS = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Theatro Municipal de São João da Boa Vista, Praça da Catedral, 22 - Centro, São João da Boa Vista - SP');
-const WPP = 'https://wa.me/5519997195719?text=' + encodeURIComponent('Olá! Gostaria de informações para visitar o Theatro Municipal.');
 
 export default function Home() {
   // tira curada (exclusiva da home, sem repetir outras páginas): fachada · sala em ferradura · escadaria · ornamento · restauro · baile de 1930
@@ -62,7 +61,6 @@ export default function Home() {
               <Link href="/sobre" className="whitespace-nowrap underline decoration-cream/30 underline-offset-2 transition-colors hover:text-gold">Sobre o projeto →</Link>
             </p>
           </Reveal>
-          <span className="pointer-events-none absolute right-6 top-44 hidden font-display text-sm italic tracking-wide text-cream/65 lg:block">desde 1914</span>
         </div>
       </section>
 
@@ -79,8 +77,7 @@ export default function Home() {
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {GUIA.map((g) => (
               <Link key={g.href} href={g.href} className="card-lift group flex flex-col rounded-sm border border-ink/10 p-6 hover:border-gold/50 dark:border-cream/10">
-                <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">{g.tag}</span>
-                <h3 className="mt-2 font-display text-xl leading-tight">{g.t}</h3>
+                <h3 className="font-display text-xl leading-tight">{g.t}</h3>
                 <p className="mt-2 flex-1 font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">{g.d}</p>
                 <span className="mt-4 font-sans text-sm text-curtain dark:text-gold">{g.cta} →</span>
               </Link>
@@ -213,7 +210,6 @@ export default function Home() {
               <div className="flex flex-col gap-4">
                 <div className="flex flex-wrap gap-3">
                   <a href={MAPS} target="_blank" rel="noopener noreferrer" className="rounded-full bg-curtain px-6 py-3 font-sans text-sm font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Como chegar ↗</a>
-                  <a href={WPP} target="_blank" rel="noopener noreferrer" className="rounded-full border border-curtain/40 px-6 py-3 font-sans text-sm text-curtain transition-colors hover:border-curtain hover:bg-curtain hover:text-cream dark:border-gold/40 dark:text-gold dark:hover:bg-gold dark:hover:text-ink">WhatsApp</a>
                 </div>
                 <Link href="/visite" className="self-start border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Planeje sua visita →</Link>
               </div>

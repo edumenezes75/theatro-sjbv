@@ -1,6 +1,6 @@
 ---
 slug: "/restauracao"
-title: "Preservação e restauro"
+title: "Restauro"
 eyebrow: "A cidade que decidiu não perder seu Theatro"
 seo_title: "Restauração do Theatro Municipal de São João da Boa Vista"
 seo_description: "Conheça a mobilização popular, o tombamento e a longa restauração que salvaram o Theatro Municipal."
