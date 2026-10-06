@@ -21,17 +21,17 @@ export default function Footer() {
             </p>
           </div>
           <div>
-            <h3 className="font-sans text-xs uppercase tracking-eyebrow text-gold">A História</h3>
+            <h3 className="font-sans text-xs uppercase tracking-eyebrow text-gold">Comece por aqui</h3>
             <ul className="mt-3 space-y-1.5 text-sm">
-              {[['/historia','História'],['/linha-do-tempo','Linha do tempo'],['/episodios','Episódios'],['/arquitetura','Arquitetura'],['/restauracao','Restauro'],['/visite','Visite']].map(([h,l]) => (
+              {[['/historia','A história do Theatro'],['/linha-do-tempo','Linha do tempo'],['/acervo','Fotos'],['/documentario','Documentário'],['/pessoas','Pessoas'],['/memorias','Curiosidades'],['/visite','Visite']].map(([h,l]) => (
                 <li key={h}><Link href={h} className="text-cream/80 hover:text-gold">{l}</Link></li>
               ))}
             </ul>
           </div>
           <div>
-            <h3 className="font-sans text-xs uppercase tracking-eyebrow text-gold">Memória viva</h3>
+            <h3 className="font-sans text-xs uppercase tracking-eyebrow text-gold">Para ir mais fundo</h3>
             <ul className="mt-3 space-y-1.5 text-sm">
-              {[['/acervo','Acervo de imagens'],['/repertorio','O que passou pelo palco'],['/documentario','Documentário Música & Drama'],['/pessoas','Pessoas'],['/memorias','Curiosidades'],['/#livro','O livro do centenário'],['/fontes','Pesquisa e fontes'],['/sobre','Sobre o projeto']].map(([h,l]) => (
+              {[['/arquitetura','Arquitetura'],['/restauracao','Restauro'],['/episodios','Episódios'],['/repertorio','O que passou pelo palco'],['/#livro','O livro do centenário'],['/fontes','Pesquisa e fontes'],['/sobre','Sobre o projeto']].map(([h,l]) => (
                 <li key={h}><Link href={h} className="text-cream/80 hover:text-gold">{l}</Link></li>
               ))}
             </ul>

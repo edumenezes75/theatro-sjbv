@@ -8,32 +8,32 @@ import { IconChevron, IconMenu, IconClose } from './Icons';
 type Item = { href: string; label: string; hint?: string; hintNoCelular?: boolean };
 type Grupo = { label: string; items?: Item[]; href?: string };
 
-// Dois eixos de conteúdo — a história contada e a memória guardada — mais os
-// destino de serviço como link direto (Visite não pode custar três toques
-// no celular). URLs intocadas; só rótulos e agrupamento.
-// As `hint` aparecem só no desktop: são a diferença entre escolher e adivinhar
-// quando dois itens vizinhos prometem a mesma coisa (a linha e o texto corrido).
-// No celular a lista é compacta: só as duas portas da história levam a linha de
-// apoio (`hintNoCelular`), porque é ali que a escolha virava chute.
+// O menu vai do mais largo ao mais fundo, porque o site atende quatro públicos:
+// o leigo (História, Fotos, Visite), o curioso (Documentário, Pessoas,
+// Curiosidades), o amante do Theatro (Arquitetura, Restauro, Episódios) e o
+// pesquisador (Pesquisa: livro, repertório, fontes). No topo, só palavras que o
+// visitante já traz na cabeça, cada uma a um toque; só abrem "História", que
+// tem de fato cinco jeitos de entrar, e "Pesquisa", o material de consulta. URLs intocadas — é só rótulo
+// e agrupamento. As `hint` dizem em poucas palavras o que há atrás de cada
+// item; no celular aparecem onde o nome sozinho não basta (`hintNoCelular`).
 const MENU: Grupo[] = [
-  { label: 'A História', items: [
-    { href: '/historia', label: 'História', hint: 'O texto corrido, em 8 capítulos', hintNoCelular: true },
-    { href: '/linha-do-tempo', label: 'Linha do tempo', hint: 'Um século numa rolagem', hintNoCelular: true },
-    { href: '/arquitetura', label: 'Arquitetura', hint: 'A fachada e a sala em ferradura' },
-    { href: '/restauracao', label: 'Restauro', hint: 'Da ameaça de demolição à reabertura' },
+  { label: 'História', items: [
+    { href: '/historia', label: 'A história do Theatro', hint: 'Do começo ao fim, em 8 capítulos', hintNoCelular: true },
+    { href: '/linha-do-tempo', label: 'Linha do tempo', hint: 'As datas, uma a uma, de 1911 a hoje', hintNoCelular: true },
+    { href: '/arquitetura', label: 'Arquitetura', hint: 'O prédio, por fora e por dentro', hintNoCelular: true },
+    { href: '/restauracao', label: 'Restauro', hint: 'Como a cidade salvou o Theatro', hintNoCelular: true },
+    { href: '/episodios', label: 'Episódios', hint: 'Onze histórias contadas em detalhe', hintNoCelular: true },
   ] },
-  { label: 'Memória viva', items: [
-    { href: '/acervo', label: 'Acervo de imagens', hint: '345 fotografias catalogadas' },
-    { href: '/repertorio', label: 'O que passou pelo palco', hint: 'A programação de 2002 a 2013' },
-    { href: '/documentario', label: 'Documentário', hint: 'O filme, em capítulos e momentos' },
-    { href: '/pessoas', label: 'Pessoas', hint: 'Quem fez o Theatro acontecer' },
-    { href: '/memorias', label: 'Curiosidades', hint: 'Histórias miúdas da casa' },
-    { href: '/#livro', label: 'O livro do centenário', hint: 'Para baixar, em PDF' },
-  ] },
+  { label: 'Fotos', href: '/acervo' },
+  { label: 'Documentário', href: '/documentario' },
+  { label: 'Pessoas', href: '/pessoas' },
+  { label: 'Curiosidades', href: '/memorias' },
   { label: 'Visite', href: '/visite' },
-  { label: 'O projeto', items: [
-    { href: '/sobre', label: 'Sobre o projeto', hint: 'O que é este site — e o que não é' },
-    { href: '/fontes', label: 'Pesquisa e fontes', hint: 'De onde vem cada afirmação' },
+  { label: 'Pesquisa', items: [
+    { href: '/#livro', label: 'O livro do centenário', hint: 'As 302 páginas, para baixar em PDF', hintNoCelular: true },
+    { href: '/repertorio', label: 'O que passou pelo palco', hint: 'Todos os espetáculos de 2002 a 2013', hintNoCelular: true },
+    { href: '/fontes', label: 'Fontes', hint: 'De onde vem cada afirmação', hintNoCelular: true },
+    { href: '/sobre', label: 'Sobre o projeto', hint: 'O que é este site — e o que não é', hintNoCelular: true },
   ] },
 ];
 
@@ -120,7 +120,7 @@ export default function Nav() {
                   <span className={`pointer-events-none absolute -bottom-0.5 left-0 h-px bg-current transition-all duration-300 ${naSecao(g) || ativo ? 'w-full opacity-70' : 'w-0 opacity-0'}`} />
                 </button>
                 {ativo && (
-                  <div className="absolute left-1/2 top-full z-50 -translate-x-1/2 pt-3" onMouseEnter={() => abrir(g.label)} onMouseLeave={agendarFechar}>
+                  <div className={`absolute top-full z-50 pt-3 ${g.label === 'Pesquisa' ? 'right-0' : 'left-1/2 -translate-x-1/2'}`} onMouseEnter={() => abrir(g.label)} onMouseLeave={agendarFechar}>
                     <div className="w-72 origin-top animate-[menupop_.16s_ease-out] overflow-hidden rounded-sm border border-gold/25 bg-cream shadow-xl dark:bg-nightsoft" role="menu">
                       {g.items!.map((l) => (
                         <Link
