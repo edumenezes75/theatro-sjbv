@@ -26,15 +26,15 @@ export const metadata: Metadata = {
 };
 
 const PROJETOS: { nome: string; texto: string }[] = [
-  { nome: 'Semana Guiomar Novaes', texto: 'Anual, em homenagem à pianista sanjoanense. Reúne músicos da cidade e artistas de reconhecimento nacional. Foi ela que reabriu a casa restaurada, em 2002, na sua 25ª edição.' },
-  { nome: 'Cineclube Beloca', texto: 'Criado em 2007, exibe de graça os filmes que não chegariam ao circuito comercial, seguidos de debate. Ocupa a sala do segundo andar.' },
+  { nome: 'Semana Guiomar Novaes', texto: 'Anual, em homenagem à pianista sanjoanense. Reunia músicos da cidade e artistas de reconhecimento nacional. Foi ela que reabriu a casa restaurada, em 2002, na sua 25ª edição.' },
+  { nome: 'Cineclube Beloca', texto: 'Criado em 2007, exibia de graça os filmes que não chegariam ao circuito comercial, seguidos de debate. Ocupava a sala do segundo andar.' },
   { nome: 'Teatro de Quinta', texto: 'Apresentações nas noites de quinta-feira, abertas à cidade.' },
   { nome: 'Concertos Matinais', texto: 'Música erudita nas manhãs de domingo, para aproximar o repertório de quem nunca entrou numa sala de concerto.' },
   { nome: 'Semana do Theatro', texto: 'Em novembro, uma semana gratuita para celebrar o aniversário da casa. A média era de 600 pessoas por noite.' },
-  { nome: 'Ensaio Aberto', texto: 'Duas vezes por semana, grupos amadores da cidade podem ensaiar no próprio palco.' },
+  { nome: 'Ensaio Aberto', texto: 'Duas vezes por semana, grupos amadores da cidade podiam ensaiar no próprio palco.' },
   { nome: 'Monofest', texto: 'Desde 2007, festival de monólogos de até quinze minutos, com texto próprio. Iniciativa de Renata Cabrera e Marli Marques.' },
-  { nome: 'Festival de Teatro Amador “Atílio Gallo Lopes”', texto: 'Anual e regional, acompanha o amadurecimento dos grupos jovens ano após ano.' },
-  { nome: 'Festival Regional de Teatro Amador “Leilah Assumpção”', texto: 'Iniciativa do Departamento de Cultura da cidade, reúne sobretudo grupos das escolas de ensino médio.' },
+  { nome: 'Festival de Teatro Amador “Atílio Gallo Lopes”', texto: 'Anual e regional, acompanhava o amadurecimento dos grupos jovens ano após ano.' },
+  { nome: 'Festival Regional de Teatro Amador “Leilah Assumpção”', texto: 'Iniciativa do Departamento de Cultura da cidade, reunia sobretudo grupos das escolas de ensino médio.' },
 ];
 
 export default function RepertorioPage() {
@@ -89,12 +89,13 @@ export default function RepertorioPage() {
         <section className="mt-20 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">O que se repete todo ano</p>
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">O que se repetia todo ano</p>
           </div>
-          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Os projetos que mantêm a casa viva</h2>
+          <h2 className="mt-3 font-display text-2xl leading-tight sm:text-3xl">Os projetos que mantiveram a casa viva</h2>
           <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-            Boa parte do que está na lista acima não é evento avulso: pertence a um projeto que se repete.
-            São eles que explicam como um teatro do interior chega a cento e cinquenta eventos num ano.
+            Boa parte do que está na lista acima não era evento avulso: pertencia a um projeto que se repetia.
+            São eles que explicam como um teatro do interior chegou a cento e cinquenta eventos num ano.
+            Muitos já não existem.
           </p>
           <dl className="mt-8 max-w-3xl">
             {PROJETOS.map((p) => (
