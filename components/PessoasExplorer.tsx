@@ -80,6 +80,7 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
   const abas: Aba[] = grouped.map((g) => ({
     slug: slugify(g.title), nome: g.title, curto: g.curto, legenda: g.sub, Icon: g.Icon,
     conta: `${g.people.length} ${g.people.length === 1 ? 'pessoa' : 'pessoas'}`,
+    amostra: g.people.filter((p) => p.name.length <= 26).slice(0, 3).map((p) => p.name),
     conteudo: (
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {g.people.map((p) => <Card key={p.id} p={p} />)}

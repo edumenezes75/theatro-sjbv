@@ -1,10 +1,9 @@
 'use client';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
-import { IconArrowRight } from './Icons';
 
 // O padrão do site para páginas com grupos (Curiosidades, Pessoas): abas com
 // ícone no topo, um grupo por vez na tela, cabeçalho igual em todos os painéis
-// e, no fim, o atalho para o grupo seguinte. Os painéis fechados continuam no
+// e, no fim, os outros grupos com uma amostra do que guardam. Os painéis fechados continuam no
 // HTML (atributo `hidden`), então a busca do site e os buscadores enxergam tudo.
 export type Aba = {
   slug: string;
@@ -12,6 +11,7 @@ export type Aba = {
   curto: string;     // rótulo da aba
   legenda?: string;
   conta: string;     // "12 histórias", "8 pessoas"
+  amostra?: string[]; // dois ou três títulos do grupo, para quem ainda não abriu a aba
   Icon: (p: { size?: number; className?: string }) => JSX.Element;
   conteudo: ReactNode;
 };
@@ -61,7 +61,6 @@ export default function Abas({ abas, rotulo }: { abas: Aba[]; rotulo: string }) 
       </div>
 
       {abas.map((a, i) => {
-        const prox = abas[(i + 1) % abas.length];
         return (
           <section key={a.slug} role="tabpanel" id={`painel-${a.slug}`} aria-labelledby={`tab-${a.slug}`} hidden={i !== ativo} className="mt-10">
             <div className="mb-8 flex items-start gap-4">
@@ -73,20 +72,27 @@ export default function Abas({ abas, rotulo }: { abas: Aba[]; rotulo: string }) 
             </div>
             {a.conteudo}
             {abas.length > 1 && (
-              <button
-                type="button"
-                onClick={() => abrir((i + 1) % abas.length, true)}
-                className="group mt-6 flex w-full items-center justify-between gap-4 rounded-sm border border-gold/30 px-6 py-5 text-left transition-colors hover:border-gold"
-              >
-                <span className="flex items-center gap-4">
-                  <prox.Icon size={24} className="shrink-0 text-curtain dark:text-gold" />
-                  <span>
-                    <span className="block font-sans text-xs uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">A seguir</span>
-                    <span className="mt-1 block font-display text-xl text-ink dark:text-cream">{prox.nome}</span>
-                  </span>
-                </span>
-                <IconArrowRight size={18} className="shrink-0 text-curtain transition-transform group-hover:translate-x-1 dark:text-gold" />
-              </button>
+              <div className="mt-10 border-t border-gold/25 pt-8">
+                <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain/80 dark:text-gold/80">Também nesta página</p>
+                <div className={`mt-4 grid gap-3 sm:grid-cols-2 ${abas.length === 4 ? 'lg:grid-cols-3' : ''}`}>
+                  {abas.map((o, k) => k === i ? null : (
+                    <button
+                      key={o.slug}
+                      type="button"
+                      onClick={() => abrir(k, true)}
+                      className="group flex items-start gap-3.5 rounded-sm border border-gold/25 p-4 text-left transition-colors hover:border-gold"
+                    >
+                      <o.Icon size={22} className="mt-0.5 shrink-0 text-curtain dark:text-gold" />
+                      <span className="min-w-0">
+                        <span className="block font-display text-lg leading-tight text-ink dark:text-cream">{o.curto} <span className="font-sans text-xs text-ink/55 dark:text-cream/55">· {o.conta}</span></span>
+                        {o.amostra && o.amostra.length > 0 && (
+                          <span className="mt-1.5 block font-sans text-sm leading-snug text-ink/65 dark:text-cream/65">{o.amostra.join(' · ')}…</span>
+                        )}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
             )}
           </section>
         );

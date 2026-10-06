@@ -89,6 +89,19 @@ export default function Home() {
         </Reveal>
       </section>
 
+      {/* FRASE-EIXO sobre a sala — a frase e a foto larga, que eram dois blocos, num só */}
+      <section className="relative overflow-hidden grain">
+        <Image src="/fotos/hr2-sala-05.jpg" alt="A sala em ferradura restaurada, vista do palco." fill className="object-cover" sizes="100vw" />
+        <div className="absolute inset-0 bg-gradient-to-t from-night via-night/75 to-night/45" />
+        <div className="relative mx-auto max-w-6xl px-5 py-28 sm:py-40">
+          <Reveal>
+            <blockquote className="max-w-4xl font-display text-3xl italic leading-[1.12] text-cream sm:text-5xl md:text-[3.4rem]">
+              A cidade ergueu este Theatro, reinventou seus usos a cada geração e, diante da ameaça de demolição, recusou-se a perdê-lo. Hoje, é a arte que o mantém de pé.
+            </blockquote>
+          </Reveal>
+        </div>
+      </section>
+
       {/* AS HISTÓRIAS DO THEATRO — série: registro da estreia + canais */}
       <HistoriasDoTheatro />
 

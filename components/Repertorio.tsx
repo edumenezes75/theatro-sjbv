@@ -1,5 +1,5 @@
 'use client';
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import rep from '@/data/repertorio.json';
 
 // O repertório de 2002 a 2013, um ano por vez (os outros ficam no HTML, ocultos). A regra aqui é a mesma
@@ -61,11 +61,13 @@ export default function Repertorio() {
     return Array.from(m.entries()).sort((a, b) => a[0] - b[0]);
   }, [filtrados]);
 
+  const topo = useRef<HTMLDivElement>(null);
+  const irPara = (a: number) => { setAno(a); topo.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }); };
   const filtrando = !!cat || !!q.trim();
   const naTela = ano ? filtrados.filter((i) => i.ano === ano).length : filtrados.length;
 
   return (
-    <div>
+    <div ref={topo} className="scroll-mt-24">
       <div className="border-y border-gold/25 py-5">
         <div className="flex flex-wrap items-center gap-2">
           <span className="mr-1 font-sans text-xs uppercase tracking-eyebrow text-ink/60 dark:text-cream/60">Linguagem</span>
@@ -137,6 +139,17 @@ export default function Repertorio() {
                 </li>
               ))}
             </ul>
+
+            {ano !== null && (
+              <div className="mt-6 flex items-center justify-between gap-4 font-sans text-sm">
+                {ANOS.indexOf(a) > 0 ? (
+                  <button type="button" onClick={() => irPara(ANOS[ANOS.indexOf(a) - 1])} className="rounded-full border border-gold/30 px-5 py-2.5 text-curtain transition-colors hover:border-gold dark:text-gold">← {ANOS[ANOS.indexOf(a) - 1]}</button>
+                ) : <span />}
+                {ANOS.indexOf(a) < ANOS.length - 1 ? (
+                  <button type="button" onClick={() => irPara(ANOS[ANOS.indexOf(a) + 1])} className="rounded-full border border-gold/30 px-5 py-2.5 text-curtain transition-colors hover:border-gold dark:text-gold">{ANOS[ANOS.indexOf(a) + 1]} →</button>
+                ) : <span />}
+              </div>
+            )}
           </section>
         );
       })}

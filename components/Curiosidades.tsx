@@ -70,6 +70,7 @@ export default function Curiosidades({ itens }: { itens: Curiosidade[] }) {
     return {
       slug: g.slug, nome: g.nome, curto: g.curto, legenda: g.legenda, Icon: g.Icon,
       conta: `${g.itens.length} histórias`,
+      amostra: g.itens.filter((c) => c.title.length <= 34).slice(0, 2).map((c) => c.title),
       conteudo: (
         <div className="columns-1 gap-5 sm:columns-2 lg:columns-3">
           {g.itens.map((c, j) => <Card key={c.id} c={c} n={inicio + j + 1} />)}

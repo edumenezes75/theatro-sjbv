@@ -178,7 +178,7 @@ function EraBloco({ era, ultima }: { era: Era; ultima: boolean }) {
           </p>
           <Link
             href={`/historia#${era.capAnchor}`}
-            className="mt-2 inline-block font-sans text-sm text-curtain underline decoration-gold/45 underline-offset-4 transition-colors hover:decoration-current dark:text-gold"
+            className="mt-1 inline-block py-2 font-sans text-sm text-curtain underline decoration-gold/45 underline-offset-4 transition-colors hover:decoration-current dark:text-gold"
           >
             Ler o capítulo completo →
           </Link>
@@ -203,7 +203,7 @@ function EraBloco({ era, ultima }: { era: Era; ultima: boolean }) {
                     <Link
                       href={d.slug}
                       title={d.desc}
-                      className="flex items-baseline justify-between gap-4 py-2 transition-colors hover:text-curtain dark:hover:text-gold"
+                      className="flex items-baseline justify-between gap-4 py-3 transition-colors hover:text-curtain dark:hover:text-gold"
                     >
                       <span className="font-display text-[1.02rem] leading-snug">{d.titulo}</span>
                       <span aria-hidden className="font-sans text-gold">→</span>
