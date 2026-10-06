@@ -1,9 +1,24 @@
 'use client';
 import { useEffect, useRef } from 'react';
-import Mark from './Mark';
 
-// Line-art da fachada derivando bem de leve atrás do dossiê (duas camadas, profundidade).
+// A fachada desenhada de As Histórias do Theatro derivando bem de leve atrás do
+// episódio (duas camadas, profundidade). O PNG é traço branco sobre transparente:
+// entra como máscara, para receber a cor do tema.
 // Só desktop; off em prefers-reduced-motion. Puramente decorativo (aria-hidden) e atrás do texto.
+const ARTE = "url('/evento/fachada.png')";
+function Fachada({ largura }: { largura: number }) {
+  return (
+    <div
+      style={{
+        width: largura, height: Math.round(largura * 947 / 1498), backgroundColor: 'currentColor',
+        WebkitMaskImage: ARTE, maskImage: ARTE,
+        WebkitMaskSize: 'contain', maskSize: 'contain',
+        WebkitMaskRepeat: 'no-repeat', maskRepeat: 'no-repeat',
+      }}
+    />
+  );
+}
+
 export default function DossieArt() {
   const a = useRef<HTMLDivElement>(null);
   const b = useRef<HTMLDivElement>(null);
@@ -25,11 +40,11 @@ export default function DossieArt() {
   }, []);
   return (
     <div aria-hidden className="pointer-events-none hidden overflow-hidden lg:block" style={{ position: 'absolute', inset: 0, zIndex: 0 }}>
-      <div ref={a} className="absolute -right-32 top-[6%] text-curtain opacity-[0.05] will-change-transform dark:text-gold dark:opacity-[0.07]">
-        <Mark size={560} />
+      <div ref={a} className="absolute -right-40 top-[5%] text-curtain opacity-[0.06] will-change-transform dark:text-gold dark:opacity-[0.07]">
+        <Fachada largura={820} />
       </div>
-      <div ref={b} className="absolute -left-40 top-[52%] text-gold opacity-[0.055] will-change-transform dark:opacity-[0.08]">
-        <Mark size={680} />
+      <div ref={b} className="absolute -left-52 top-[52%] text-gold opacity-[0.06] will-change-transform dark:opacity-[0.075]">
+        <Fachada largura={980} />
       </div>
     </div>
   );
