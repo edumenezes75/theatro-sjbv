@@ -14,7 +14,7 @@ export default function LivroCentenario() {
       <div aria-hidden className="livro-luz pointer-events-none absolute inset-0 -z-10" />
       <div aria-hidden className="grain pointer-events-none absolute inset-0 -z-10" />
 
-      <div className="mx-auto grid max-w-6xl items-center gap-14 px-5 py-24 sm:py-28 md:grid-cols-[1fr_1.1fr] md:gap-10 lg:py-32">
+      <div className="mx-auto grid max-w-6xl items-center gap-14 px-5 py-16 sm:py-28 md:grid-cols-[1fr_1.1fr] md:gap-10 lg:py-32">
         {/* o livro */}
         <Reveal>
           <div className="livro-cena">

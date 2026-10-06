@@ -297,3 +297,6 @@ html, body { overflow-x: clip; }
   filter: blur(9px);
 }
 @media (prefers-reduced-motion: reduce) { .livro3d { animation: none; } }
+
+/* O texto começa na mesma altura em toda página: sem margem extra acima do primeiro bloco. */
+.prose-theatro > :first-child { margin-top: 0; }

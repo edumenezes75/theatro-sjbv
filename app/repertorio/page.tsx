@@ -49,7 +49,7 @@ export default function RepertorioPage() {
         image="/fotos/hr4-sala-05.jpg"
         alt="A sala em ferradura do Theatro Municipal, vista do palco."
       />
-      <div className="mx-auto max-w-6xl px-5 py-14">
+      <div className="mx-auto max-w-6xl px-5 py-12 sm:py-16">
         <p className="max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
           A casa reabriu em 2002. Do que veio depois, a memória guarda os nomes grandes e esquece a maior
           parte — e a maior parte é justamente o que mantém um teatro vivo: o coral da escola, o festival de
@@ -74,7 +74,7 @@ export default function RepertorioPage() {
         </div>
 
         {emCena.length > 0 && (
-          <section className="mt-20 border-t border-gold/25 pt-12">
+          <section className="mt-16 border-t border-gold/25 pt-12">
             <div className="flex items-center gap-3">
               <span className="h-6 w-px bg-curtain dark:bg-gold" />
               <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Em cena</p>
@@ -87,7 +87,7 @@ export default function RepertorioPage() {
           </section>
         )}
 
-        <section className="mt-20 border-t border-gold/25 pt-12">
+        <section className="mt-16 border-t border-gold/25 pt-12">
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">O que se repetia todo ano</p>

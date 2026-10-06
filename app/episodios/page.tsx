@@ -17,7 +17,7 @@ export default function DossiesPage() {
   return (
     <article>
       <ChapterHero eyebrow="Histórias para se aprofundar" title="Episódios" />
-      <div className="mx-auto max-w-6xl px-5 pb-24">
+      <div className="mx-auto max-w-6xl px-5 pb-12 sm:pb-16">
       <p className="mt-2 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
         Cada episódio reconstrói uma passagem da vida do Theatro com calma e fontes à mostra —
         a sociedade de acionistas que o financiou, o que a cidade de fato via no palco e a

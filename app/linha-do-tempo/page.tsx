@@ -17,7 +17,8 @@ export default function LinhaDoTempoPage() {
   return (
     <article>
       <ChapterHero eyebrow="Da pedra fundamental ao patrimônio vivo" title="Linha do tempo" />
-      <div className="mx-auto max-w-3xl px-5 pb-16 sm:pb-20">
+      <div className="mx-auto max-w-6xl px-5 pb-12 sm:pb-16">
+        <div className="max-w-3xl lg:ml-[14rem] xl:ml-[15rem]">
         <p className="mt-2 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
           A história inteira, numa rolagem só. Oito capítulos abrem as eras; entre eles correm os marcos
           datados, cada um com sua fonte — e os episódios para descer mais fundo sem sair da linha.
@@ -25,6 +26,7 @@ export default function LinhaDoTempoPage() {
         <GrandeLinha />
         <FontesDaPagina fontes={page?.fontes ?? null} />
         <ContinueNav href="/linha-do-tempo" />
+        </div>
       </div>
     </article>
   );

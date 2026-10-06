@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* COMECE POR AQUI */}
-      <section className="mx-auto max-w-6xl px-5 py-24">
+      <section className="mx-auto max-w-6xl px-5 py-16 sm:py-24">
         <Reveal>
           <div className="flex items-center gap-3">
             <span className="h-6 w-px bg-curtain dark:bg-gold" />
@@ -90,7 +90,7 @@ export default function Home() {
       <section className="relative overflow-hidden grain">
         <Image src="/fotos/hr2-sala-05.jpg" alt="A sala em ferradura restaurada, vista do palco." fill className="object-cover" sizes="100vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-night via-night/75 to-night/45" />
-        <div className="relative mx-auto max-w-6xl px-5 py-28 sm:py-40">
+        <div className="relative mx-auto max-w-6xl px-5 py-20 sm:py-40">
           <Reveal>
             <blockquote className="max-w-4xl font-display text-3xl italic leading-[1.12] text-cream sm:text-5xl md:text-[3.4rem]">
               A cidade ergueu este Theatro, reinventou seus usos a cada geração e, diante da ameaça de demolição, recusou-se a perdê-lo. Hoje, é a arte que o mantém de pé.
@@ -103,7 +103,7 @@ export default function Home() {
       <HistoriasDoTheatro />
 
       {/* CASA DE MUITAS VIDAS */}
-      <section className="mx-auto max-w-6xl px-5 py-24">
+      <section className="mx-auto max-w-6xl px-5 py-16 sm:py-24">
         <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Uma casa de muitas vidas</p>
@@ -130,7 +130,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-t from-night via-night/85 to-night/65" />
         <div className="absolute inset-0 bg-curtaindark/35 mix-blend-multiply" aria-hidden />
         <div className="absolute inset-0 grain opacity-50" aria-hidden />
-        <div className="relative mx-auto max-w-4xl px-5 py-28 text-center sm:py-32">
+        <div className="relative mx-auto max-w-4xl px-5 py-20 text-center sm:py-32">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">Documentário</p>
             <h2 className="mx-auto mt-4 font-display text-4xl leading-[1.04] sm:text-6xl">Música &amp; Drama</h2>
@@ -164,7 +164,7 @@ export default function Home() {
       </section>
 
       {/* O THEATRO EM IMAGENS */}
-      <section className="mx-auto max-w-6xl px-5 py-24">
+      <section className="mx-auto max-w-6xl px-5 py-16 sm:py-24">
         <Reveal>
           <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">O Theatro em imagens</p>
           <h2 className="mt-4 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">Da fachada eclética à sala em ferradura</h2>
@@ -186,7 +186,7 @@ export default function Home() {
 
       {/* VOZES DO THEATRO */}
       <section className="border-t border-gold/20 bg-cream dark:bg-night">
-        <div className="mx-auto max-w-6xl px-5 py-24">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:py-24">
           <Reveal>
             <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Vozes do Theatro</p>
             <h2 className="mt-4 mb-12 max-w-2xl font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">Quem passou pelo palco e pela plateia</h2>
@@ -197,7 +197,7 @@ export default function Home() {
 
       {/* VISITE */}
       <section className="border-t border-gold/20">
-        <div className="mx-auto max-w-6xl px-5 py-24">
+        <div className="mx-auto max-w-6xl px-5 py-16 sm:py-24">
           <div className="grid gap-10 md:grid-cols-2 md:items-center">
             <Reveal>
               <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Visite</p>

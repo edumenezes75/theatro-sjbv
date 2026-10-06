@@ -164,7 +164,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
       {longRead && <ReadingProgress />}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
       <ChapterHero eyebrow={page.meta.eyebrow} title={page.meta.title} image={page.meta.hero_image} alt={page.meta.hero_alt} status={params.slug === 'visite' ? undefined : page.meta.status} typewriter={isDossie} />
-      <div className={`mx-auto max-w-6xl px-5 py-16 sm:py-24${isDossie ? ' dossie-paper' : ''}`}>
+      <div className={`mx-auto max-w-6xl px-5 py-12 sm:py-16${isDossie ? ' dossie-paper' : ''}`}>
         {isDossie && <DossieArt />}
         {params.slug === 'visite' && <VisitaInfo />}
         {longRead ? (
@@ -180,7 +180,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
         ) : (
           <>
             <Reveal>
-              <div className="prose-theatro mx-auto" dangerouslySetInnerHTML={{ __html: page.html }} />
+              <div className="prose-theatro" dangerouslySetInnerHTML={{ __html: page.html }} />
             </Reveal>
           </>
         )}
