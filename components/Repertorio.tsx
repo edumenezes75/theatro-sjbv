@@ -2,7 +2,7 @@
 import { useMemo, useState } from 'react';
 import rep from '@/data/repertorio.json';
 
-// O repertório de 2002 a 2013: 966 títulos numa página só. A regra aqui é a mesma
+// O repertório de 2002 a 2013, um ano por vez (os outros ficam no HTML, ocultos). A regra aqui é a mesma
 // da linha do tempo — o ano fala alto, o título fala em tom normal, o resto sussurra.
 // Nada de cartões: uma lista longa que se lê como uma lista, com filtros que a
 // encurtam quando o visitante já sabe o que procura.
@@ -37,7 +37,9 @@ function Chip({ on, children, onClick }: { on: boolean; children: React.ReactNod
 
 export default function Repertorio() {
   const [cat, setCat] = useState<string | null>(null);
-  const [ano, setAno] = useState<number | null>(null);
+  // Um ano por vez na tela (começa em 2002). "Todos" abre a relação inteira;
+  // a busca troca para "Todos" sozinha, porque quem procura um nome não sabe o ano.
+  const [ano, setAno] = useState<number | null>(ANOS[0]);
   const [q, setQ] = useState('');
 
   const filtrados = useMemo(() => {
@@ -45,10 +47,9 @@ export default function Repertorio() {
     return ITENS.filter(
       (i) =>
         (!cat || i.cat === cat) &&
-        (!ano || i.ano === ano) &&
         (!busca || semAcento(i.t).includes(busca) || semAcento(i.proj || '').includes(busca)),
     );
-  }, [cat, ano, q]);
+  }, [cat, q]);
 
   const porAno = useMemo(() => {
     const m = new Map<number, Item[]>();
@@ -60,7 +61,8 @@ export default function Repertorio() {
     return Array.from(m.entries()).sort((a, b) => a[0] - b[0]);
   }, [filtrados]);
 
-  const filtrando = !!cat || !!ano || !!q.trim();
+  const filtrando = !!cat || !!q.trim();
+  const naTela = ano ? filtrados.filter((i) => i.ano === ano).length : filtrados.length;
 
   return (
     <div>
@@ -76,10 +78,13 @@ export default function Repertorio() {
         <div className="mt-3 flex flex-wrap items-center gap-2">
           <span className="mr-1 font-sans text-xs uppercase tracking-eyebrow text-ink/60 dark:text-cream/60">Ano</span>
           {ANOS.map((a) => (
-            <Chip key={a} on={ano === a} onClick={() => setAno(ano === a ? null : a)}>
+            <Chip key={a} on={ano === a} onClick={() => setAno(a)}>
               {a}
             </Chip>
           ))}
+          <Chip on={ano === null} onClick={() => setAno(null)}>
+            Todos
+          </Chip>
         </div>
         <div className="mt-4 flex flex-wrap items-center gap-3">
           <label className="flex-1 min-w-[16rem]">
@@ -87,7 +92,7 @@ export default function Repertorio() {
             <input
               type="search"
               value={q}
-              onChange={(e) => setQ(e.target.value)}
+              onChange={(e) => { setQ(e.target.value); if (e.target.value.trim()) setAno(null); }}
               placeholder="Procurar um título, um artista, um projeto…"
               className="w-full border-b border-ink/20 bg-transparent py-2 font-sans text-sm text-ink placeholder:text-ink/40 focus:border-curtain focus:outline-none dark:border-cream/20 dark:text-cream dark:placeholder:text-cream/40 dark:focus:border-gold"
             />
@@ -95,7 +100,7 @@ export default function Repertorio() {
           {filtrando && (
             <button
               type="button"
-              onClick={() => { setCat(null); setAno(null); setQ(''); }}
+              onClick={() => { setCat(null); setAno(ANOS[0]); setQ(''); }}
               className="font-sans text-xs text-curtain underline decoration-gold/45 underline-offset-4 transition-colors hover:decoration-current dark:text-gold"
             >
               Limpar
@@ -103,16 +108,16 @@ export default function Repertorio() {
           )}
         </div>
         <p aria-live="polite" className="mt-3 font-sans text-xs text-ink/65 dark:text-cream/65">
-          {filtrados.length === 0
+          {naTela === 0
             ? 'Nada encontrado com esses filtros.'
-            : `${filtrados.length} ${filtrados.length === 1 ? 'título' : 'títulos'}${filtrando ? ' nesta seleção' : ' no total'}.`}
+            : `${naTela} ${naTela === 1 ? 'título' : 'títulos'}${ano ? ` em ${ano}` : ''}${filtrando ? ' nesta seleção' : ano ? '' : ' no total'}.`}
         </p>
       </div>
 
       {porAno.map(([a, lista]) => {
         const r = dados.resumos[String(a)];
         return (
-          <section key={a} aria-labelledby={`ano-${a}`} className="mt-12 scroll-mt-28">
+          <section key={a} aria-labelledby={`ano-${a}`} hidden={ano !== null && ano !== a} className="mt-12 scroll-mt-28">
             <header id={`ano-${a}`} className="flex flex-wrap items-baseline gap-x-4">
               <h2 className="font-display text-3xl font-medium leading-none text-curtain dark:text-gold sm:text-4xl">{a}</h2>
               <p className="font-sans text-xs text-ink/65 dark:text-cream/65">

@@ -1,15 +1,13 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Curiosidade } from '@/lib/data';
 import SeloEvidencia from './SeloEvidencia';
-import { IconFachada, IconEstrela, IconRadio, IconFilme, IconFechadura, IconArrowRight } from './Icons';
+import { IconFachada, IconEstrela, IconRadio, IconFilme, IconFechadura } from './Icons';
+import Abas, { type Aba } from './Abas';
 
-// Uma página, um formato: cinco temas em abas, cada curiosidade num cartão
-// igual aos outros (número, título, texto). Um tema por vez na tela — os
-// outros continuam no HTML (atributo `hidden`), então a busca do site e os
-// buscadores seguem enxergando todas.
+// Uma página, um formato: cinco temas em abas (componente Abas, o mesmo de
+// Pessoas), cada curiosidade num cartão igual aos outros.
 type Tema = { nome: string; curto: string; slug: string; legenda: string; Icon: typeof IconFachada };
 const TEMAS: Tema[] = [
   { nome: 'Fundação e inauguração', curto: 'Fundação', slug: 'fundacao', legenda: 'De como uma cidade decidiu erguer o seu monumento — e a noite em que ele abriu as portas.', Icon: IconFachada },
@@ -65,84 +63,19 @@ function Card({ c, n }: { c: Curiosidade; n: number }) {
 
 export default function Curiosidades({ itens }: { itens: Curiosidade[] }) {
   const grupos = TEMAS.map((t) => ({ ...t, itens: intercalar(itens.filter((c) => c.tema === t.nome)) })).filter((g) => g.itens.length > 0);
-  const [ativo, setAtivo] = useState(0);
-  const topo = useRef<HTMLDivElement>(null);
-
-  // /memorias#cinema abre direto no tema
-  useEffect(() => {
-    const i = grupos.findIndex((g) => g.slug === window.location.hash.slice(1));
-    if (i >= 0) setAtivo(i);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  const abrir = (i: number, rolar = false) => {
-    setAtivo(i);
-    history.replaceState(null, '', `#${grupos[i].slug}`);
-    if (rolar) topo.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  };
-
   let base = 0;
-  return (
-    <div ref={topo} className="scroll-mt-24">
-      <div role="tablist" aria-label="Temas das curiosidades" className="-mx-5 flex gap-2 overflow-x-auto px-5 pb-2 sm:mx-0 sm:grid sm:grid-cols-5 sm:gap-3 sm:overflow-visible sm:px-0">
-        {grupos.map((g, i) => {
-          const on = i === ativo;
-          return (
-            <button
-              key={g.slug}
-              type="button"
-              role="tab"
-              id={`tab-${g.slug}`}
-              aria-selected={on}
-              aria-controls={`painel-${g.slug}`}
-              onClick={() => abrir(i)}
-              className={`flex shrink-0 items-center gap-3 rounded-sm border px-4 py-3 text-left transition-colors sm:flex-col sm:items-start sm:gap-4 sm:p-5 ${on ? 'border-curtain bg-curtain text-cream dark:border-gold dark:bg-gold dark:text-ink' : 'border-gold/25 text-ink/75 hover:border-gold/70 hover:text-ink dark:text-cream/75 dark:hover:text-cream'}`}
-            >
-              <g.Icon size={26} className={on ? '' : 'text-curtain dark:text-gold'} />
-              <span>
-                <span className="block whitespace-nowrap font-display text-base leading-tight sm:whitespace-normal sm:text-lg">{g.curto}</span>
-                <span className={`mt-0.5 block font-sans text-xs ${on ? 'opacity-80' : 'opacity-65'}`}>{g.itens.length} histórias</span>
-              </span>
-            </button>
-          );
-        })}
-      </div>
-
-      {grupos.map((g, i) => {
-        const inicio = base;
-        base += g.itens.length;
-        const prox = grupos[(i + 1) % grupos.length];
-        return (
-          <section key={g.slug} role="tabpanel" id={`painel-${g.slug}`} aria-labelledby={`tab-${g.slug}`} hidden={i !== ativo} className="mt-10">
-            <div className="mb-8 flex items-start gap-4">
-              <span className="mt-1 flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-gold/40 text-curtain dark:text-gold"><g.Icon size={24} /></span>
-              <div>
-                <h2 className="font-display text-3xl leading-tight text-ink dark:text-cream">{g.nome}</h2>
-                <p className="mt-1 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">{g.legenda}</p>
-              </div>
-            </div>
-            <div className="columns-1 gap-5 sm:columns-2 lg:columns-3">
-              {g.itens.map((c, j) => <Card key={c.id} c={c} n={inicio + j + 1} />)}
-            </div>
-            {grupos.length > 1 && (
-              <button
-                type="button"
-                onClick={() => abrir((i + 1) % grupos.length, true)}
-                className="group mt-6 flex w-full items-center justify-between gap-4 rounded-sm border border-gold/30 px-6 py-5 text-left transition-colors hover:border-gold"
-              >
-                <span className="flex items-center gap-4">
-                  <prox.Icon size={24} className="shrink-0 text-curtain dark:text-gold" />
-                  <span>
-                    <span className="block font-sans text-xs uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Próximo tema</span>
-                    <span className="mt-1 block font-display text-xl text-ink dark:text-cream">{prox.nome}</span>
-                  </span>
-                </span>
-                <IconArrowRight size={18} className="shrink-0 text-curtain transition-transform group-hover:translate-x-1 dark:text-gold" />
-              </button>
-            )}
-          </section>
-        );
-      })}
-    </div>
-  );
+  const abas: Aba[] = grupos.map((g) => {
+    const inicio = base;
+    base += g.itens.length;
+    return {
+      slug: g.slug, nome: g.nome, curto: g.curto, legenda: g.legenda, Icon: g.Icon,
+      conta: `${g.itens.length} histórias`,
+      conteudo: (
+        <div className="columns-1 gap-5 sm:columns-2 lg:columns-3">
+          {g.itens.map((c, j) => <Card key={c.id} c={c} n={inicio + j + 1} />)}
+        </div>
+      ),
+    };
+  });
+  return <Abas abas={abas} rotulo="Temas das curiosidades" />;
 }

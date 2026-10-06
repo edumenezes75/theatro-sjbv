@@ -16,16 +16,11 @@ import DossieIndex from '@/components/DossieIndex';
 import DossieArt from '@/components/DossieArt';
 import ChapterIndexMobile from '@/components/ChapterIndexMobile';
 import VisitaInfo from '@/components/VisitaInfo';
-import RestauroResumo from '@/components/RestauroResumo';
 import VideoOlhares from '@/components/VideoOlhares';
 import LiteYouTube from '@/components/LiteYouTube';
+import ContinueNav from '@/components/ContinueNav';
+import { LABELS } from '@/lib/rotas';
 
-const LABELS: Record<string, string> = {
-  '/historia': 'História', '/arquitetura': 'Arquitetura',
-  '/restauracao': 'Restauro', '/pessoas': 'Pessoas', '/acervo': 'Acervo',
-  '/documentario': 'Documentário', '/linha-do-tempo': 'Linha do tempo',
-  '/visite': 'Visite', '/fontes': 'Fontes', '/memorias': 'Curiosidades do Theatro', '/sobre': 'Sobre o projeto', '/visita-guiada': 'Visita guiada', '/luta-contra-a-demolicao': 'A luta contra a demolição', '/companhia-teatral-sanjoanense': 'Quem pagou o Theatro', '/o-politeama': 'Theatro ou politeama?', '/episodios': 'Episódios', '/a-fachada-que-fala': 'A fachada que fala', '/o-medalhao-de-carlos-gomes': 'O medalhão de Carlos Gomes', '/guiomar-novaes-e-o-theatro': 'Guiomar Novaes e o Theatro', '/o-tempo-do-cinetheatro': 'O tempo do CineTheatro', '/as-mulheres-do-theatro': 'As mulheres do Theatro', '/a-noite-de-inauguracao': 'A noite de inauguração', '/os-outros-inquilinos': 'Os outros inquilinos', '/a-cidade-financia-seu-restauro': 'A cidade financia seu restauro', '/a-opereta-branca-de-neve': 'A opereta Branca de Neve',
-};
 const RELATED: Record<string, string[]> = {
   historia: ['/restauracao', '/arquitetura', '/linha-do-tempo', '/fontes'],
   arquitetura: ['/acervo', '/restauracao', '/historia'],
@@ -106,9 +101,6 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
   const showAD = ANTES_DEPOIS.has(params.slug);
   const h2count = (page.html.match(/<h2/g) || []).length;
   const longRead = h2count >= 4;
-  const JOURNEY = ['/historia', '/arquitetura', '/restauracao', '/pessoas', '/acervo', '/documentario', '/memorias', '/visita-guiada', '/linha-do-tempo', '/visite', '/fontes'];
-  const ji = JOURNEY.indexOf('/' + params.slug);
-  const nextHref = ji >= 0 && ji < JOURNEY.length - 1 ? JOURNEY[ji + 1] : null;
 
   const SITE = 'https://www.theatromunicipalsjbv.com.br';
   const url = `${SITE}/${params.slug}`;
@@ -182,7 +174,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
             <aside className="hidden lg:block">{isDossie ? <DossieIndex /> : <ChapterIndex />}</aside>
             <div className="min-w-0">
               <ChapterIndexMobile />
-              <p className="read-meta mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>
+              {readMin >= 3 && <p className="read-meta mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>}
               <Reveal>
                 <div className="prose-theatro" dangerouslySetInnerHTML={{ __html: page.html }} />
               </Reveal>
@@ -190,24 +182,22 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           </div>
         ) : (
           <>
-            {params.slug !== 'memorias' && <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>}
+            {params.slug !== 'memorias' && readMin >= 3 && <p className="read-meta mx-auto mb-8 max-w-reading font-sans text-xs uppercase tracking-eyebrow text-ink/75 dark:text-cream/75">{readMin} min de leitura</p>}
             <Reveal>
               <div className="prose-theatro mx-auto" dangerouslySetInnerHTML={{ __html: page.html }} />
             </Reveal>
           </>
         )}
 
-        {params.slug === 'restauracao' && antesDepoisList.length > 0 && (
-          <section className="mt-16 rounded-sm border-2 border-gold/40 bg-curtain/[0.04] p-6 shadow-sm dark:bg-gold/[0.05] sm:p-8">
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Destaque do restauro</p>
-            <h2 className="mt-2 font-display text-3xl">O medalhão de Carlos Gomes</h2>
+        {params.slug === 'o-medalhao-de-carlos-gomes' && antesDepoisList.length > 0 && (
+          <section className="mt-16 border-t border-gold/25 pt-12">
+            <h2 className="font-display text-3xl">O restauro, passo a passo</h2>
             <p className="mb-8 mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/75 dark:text-cream/75">
-              Passo a passo do restauro: a fotografia do comício de 1919 guiou a decapagem; sob a tinta, o retrato surgiu danificado; recuperado o rosto, os ornamentos em volta foram repintados. Toque em cada imagem para ampliar e ver o detalhe.
+              A fotografia do comício de 1919 guiou a decapagem; sob a tinta, o retrato surgiu danificado; recuperado o rosto, os ornamentos em volta foram repintados. Toque em cada imagem para ampliar e ver o detalhe.
             </p>
             <AntesDepois pares={antesDepoisList} />
           </section>
         )}
-        {params.slug === 'restauracao' && <RestauroResumo />}
 
 
         {gal && galFotos.length > 0 && (
@@ -220,15 +210,19 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           </section>
         )}
 
-        {params.slug === 'restauracao' && <VideoOlhares />}
         {params.slug === 'restauracao' && (
           <section className="mt-16 border-t border-gold/25 pt-12">
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Filme</p>
-            <h2 className="mt-3 font-display text-3xl">A inauguração do foyer, em vídeo</h2>
-            <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-              A inauguração do foyer, em dezembro de 1992, com diversas apresentações musicais — o primeiro espaço do Theatro devolvido ao público durante o longo restauro. Ao piano, Vânia Noronha; ao violoncelo, Giorgio Bariolla; no canto, Neusa Menezes e Jamil Cury. Imagens gravadas em câmera VHS por Riolando Gião, no segundo semestre de 1992.
-            </p>
-            <div className="mt-6"><LiteYouTube id="tczda96slZ0" title="Inauguração do foyer do Theatro Municipal — 1992" poster="/fotos/hr6-restauro-04.jpg" /></div>
+            <h2 className="font-display text-3xl">O restauro em filme</h2>
+            <div className="mt-8 grid gap-10 md:grid-cols-2 md:gap-8">
+              <VideoOlhares />
+              <div>
+                <LiteYouTube id="tczda96slZ0" title="Inauguração do foyer do Theatro Municipal — 1992" poster="/fotos/hr6-restauro-04.jpg" />
+                <h3 className="mt-5 font-display text-xl">A inauguração do foyer, 1992</h3>
+                <p className="mt-2 font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+                  O primeiro espaço do Theatro devolvido ao público durante o longo restauro, em dezembro de 1992, com diversas apresentações musicais. Ao piano, Vânia Noronha; ao violoncelo, Giorgio Bariolla; no canto, Neusa Menezes e Jamil Cury. Imagens gravadas em câmera VHS por Riolando Gião, no segundo semestre de 1992.
+                </p>
+              </div>
+            </div>
           </section>
         )}
         {params.slug === 'historia' && (
@@ -277,7 +271,7 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
                 if (!d) return null;
                 return (
                   <a key={href} href={href} className="card-lift group rounded-sm border border-gold/30 bg-cream p-5 transition-colors hover:border-gold dark:bg-nightsoft">
-                    <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{d.meta.eyebrow}</span>
+                    <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{(d.meta.eyebrow || '').replace(/^Episódio\s*·\s*/i, '')}</span>
                     <span className="mt-1 block font-display text-xl text-ink dark:text-cream">{d.meta.title} <span className="text-curtain transition-transform group-hover:translate-x-0.5 dark:text-gold">→</span></span>
                     <span className="mt-2 block font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">{d.meta.seo_description}</span>
                   </a>
@@ -288,32 +282,10 @@ export default function EditorialPage({ params }: { params: { slug: string } }) 
           </section>
         )}
 
-        {nextHref && (
-          <a href={nextHref} className="card-lift group mt-16 flex items-center justify-between gap-4 rounded-sm border border-gold/30 bg-cream px-6 py-5 transition-colors hover:border-gold dark:bg-nightsoft">
-            <span>
-              <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">Próxima página</span>
-              <span className="mt-1 block font-display text-xl text-ink dark:text-cream">{LABELS[nextHref] ?? nextHref}</span>
-            </span>
-            <span className="font-display text-2xl text-curtain transition-transform group-hover:translate-x-1 dark:text-gold">→</span>
-          </a>
-        )}
-
-        {RELATED[params.slug] && (
-          <section className="mt-16 border-t border-gold/25 pt-10">
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Continue explorando</p>
-            <div className="mt-4 flex flex-wrap gap-3">
-              {RELATED[params.slug].map((href) => (
-                <a key={href} href={href} className="card-lift rounded-sm border border-ink/12 px-5 py-3 font-sans text-sm text-ink/80 hover:border-gold/50 hover:text-curtain dark:border-cream/12 dark:text-cream/80 dark:hover:text-gold">
-                  {LABELS[href] ?? href} →
-                </a>
-              ))}
-            </div>
-          </section>
-        )}
-
-
         <ProseZoom />
         <FontesDaPagina fontes={page.fontes} />
+
+        <ContinueNav href={'/' + params.slug} relacionadas={RELATED[params.slug]} />
       </div>
     </article>
   );

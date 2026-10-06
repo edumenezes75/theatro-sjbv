@@ -29,6 +29,11 @@ export default function FotoPage({ params }: { params: { id: string } }) {
   const f = fotoById(params.id);
   if (!f) notFound();
   const titulo = fotoTitulo(f.alt);
+  // Na página, a legenda aparece uma vez só: a primeira oração vira o título
+  // (inteira, sem reticências) e o que vem depois do travessão vira o texto.
+  const corte = f.alt.indexOf('—');
+  const cabeca = (corte > 0 ? f.alt.slice(0, corte) : f.alt).trim().replace(/[.,;:]$/, '');
+  const resto = corte > 0 ? f.alt.slice(corte + 1).trim().replace(/^./, (c) => c.toUpperCase()) : '';
   const url = `${SITE}/acervo/${f.id}`;
   const relacionadas = fotosList.filter((o) => o.category === f.category && o.id !== f.id).slice(0, 6);
   const pessoasNaFoto = pessoasNoTexto(f.alt);
@@ -83,8 +88,8 @@ export default function FotoPage({ params }: { params: { id: string } }) {
           <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">{f.categoryLabel}</span>
           {f.epoca && <span className="rounded-full border border-gold/30 px-2.5 py-0.5 font-sans text-xs uppercase tracking-eyebrow text-ink/65 dark:text-cream/75">{f.epoca}</span>}
         </div>
-        <h1 className="mt-3 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">{titulo}</h1>
-        <p className="mt-3 max-w-reading font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">{f.alt}</p>
+        <h1 className={`mt-3 font-display leading-tight ${cabeca.length > 75 ? 'text-2xl sm:text-3xl' : 'text-3xl sm:text-4xl lg:text-[2.5rem]'}`}>{cabeca}</h1>
+        {resto && <p className="mt-3 max-w-reading font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">{resto}</p>}
         <p className="mt-4 font-sans text-xs italic text-ink/65 dark:text-cream/75">{f.credit}</p>
         <div className="mt-5 flex flex-wrap items-center gap-2.5">
           <a href={`/${f.file}`} target="_blank" rel="noopener noreferrer" download className="inline-flex items-center gap-1.5 rounded-full bg-curtain px-3.5 py-1.5 font-sans text-xs font-medium text-cream transition-transform hover:scale-[1.03] dark:bg-gold dark:text-ink">Ver imagem em alta ↗</a>

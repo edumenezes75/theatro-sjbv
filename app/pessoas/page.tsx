@@ -1,3 +1,4 @@
+import ContinueNav from '@/components/ContinueNav';
 import type { Metadata } from 'next';
 import { pessoasList } from '@/lib/data';
 import { getPageBySlug } from '@/lib/content';
@@ -22,6 +23,7 @@ export default function PessoasPage() {
         </p>
         <PessoasExplorer pessoas={pessoasList} />
         <FontesDaPagina fontes={page?.fontes ?? null} />
+        <ContinueNav href="/pessoas" />
       </div>
     </article>
   );

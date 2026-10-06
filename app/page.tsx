@@ -5,7 +5,6 @@ import { fotosList } from '@/lib/data';
 import HeroVideo from '@/components/HeroVideo';
 import Vozes from '@/components/Vozes';
 import { vozesList } from '@/lib/data';
-import Mark from '@/components/Mark';
 import Reveal from '@/components/Reveal';
 import HistoriasDoTheatro from '@/components/HistoriasDoTheatro';
 import LivroCentenario from '@/components/LivroCentenario';
@@ -15,7 +14,7 @@ const GUIA = [
   { href: '/linha-do-tempo', tag: 'A História', t: 'Linha do tempo', d: 'Um século numa rolagem só: capítulos, marcos, fotos e vozes — de 1911 a hoje.', cta: 'Percorrer a linha' },
   { href: '/arquitetura', tag: 'Arquitetura', t: 'A sala em ferradura', d: 'Fachada, plateia, frisas, camarotes, palco e ornamentos.', cta: 'Conhecer o edifício' },
   { href: '/restauracao', tag: 'Restauro', t: 'A luta contra a demolição', d: 'Da retroescavadeira no palco à reabertura, pela mobilização da cidade.', cta: 'Ver a restauração' },
-  { href: '/documentario', tag: 'Documentário', t: 'Música & Drama', d: 'A memória do Theatro contada por quem a viveu.', cta: 'Assistir ao filme' },
+  { href: '/pessoas', tag: 'Pessoas', t: 'Quem fez o Theatro', d: 'Quem construiu, ocupou o palco, defendeu e restaurou a casa.', cta: 'Conhecer as pessoas' },
 ];
 
 const MAPS = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent('Theatro Municipal de São João da Boa Vista, Praça da Catedral, 22 - Centro, São João da Boa Vista - SP');
@@ -90,6 +89,9 @@ export default function Home() {
         </Reveal>
       </section>
 
+      {/* AS HISTÓRIAS DO THEATRO — série: registro da estreia + canais */}
+      <HistoriasDoTheatro />
+
       {/* CASA DE MUITAS VIDAS */}
       <section className="mx-auto max-w-6xl px-5 py-24">
         <div className="grid items-center gap-12 md:grid-cols-2 md:gap-16">
@@ -112,53 +114,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FRASE-EIXO — faixa editorial assimétrica */}
-      <section className="bg-night text-cream">
-        <div className="mx-auto max-w-6xl px-5 py-28 sm:py-36">
+      {/* DOCUMENTARIO CTA — cinematográfico */}
+      <section className="relative overflow-hidden text-cream">
+        <Image src="/fotos/hr-historicas-37.jpg" alt="" aria-hidden fill sizes="100vw" className="object-cover object-center" />
+        <div className="absolute inset-0 bg-gradient-to-t from-night via-night/85 to-night/65" />
+        <div className="absolute inset-0 bg-curtaindark/35 mix-blend-multiply" aria-hidden />
+        <div className="absolute inset-0 grain opacity-50" aria-hidden />
+        <div className="relative mx-auto max-w-4xl px-5 py-28 text-center sm:py-32">
           <Reveal>
-            <Mark className="text-gold" size={40} />
-            <blockquote className="mt-8 max-w-4xl font-display text-3xl italic leading-[1.12] sm:text-5xl md:text-[3.6rem]">
-              A cidade ergueu este Theatro, reinventou seus usos a cada geração e, diante da ameaça de demolição, recusou-se a perdê-lo. Hoje, é a arte que o mantém de pé.
-            </blockquote>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* IMAGE FEATURE — sangria com legenda deslocada */}
-      <section className="py-24">
-        <Reveal>
-          <figure>
-            <div className="relative aspect-[16/9] w-full overflow-hidden sm:aspect-[21/9] sm:rounded-sm md:mx-auto md:max-w-[88rem]">
-              <Image src="/fotos/hr2-sala-05.jpg" alt="A sala em ferradura restaurada, vista do palco." width={1800} height={704} className="h-full w-full object-cover" sizes="100vw" />
-            </div>
-            <figcaption className="mx-auto mt-4 max-w-6xl px-5 sm:flex sm:justify-end">
-              <span className="block max-w-sm font-sans text-sm italic leading-relaxed text-ink/70 dark:text-cream/70">
-                A sala em ferradura restaurada — plateia, frisas, camarotes e galeria na curva que aproxima palco e público.
+            <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">Documentário</p>
+            <h2 className="mx-auto mt-4 font-display text-4xl leading-[1.04] sm:text-6xl">Música &amp; Drama</h2>
+            <p className="mx-auto mt-5 max-w-xl font-sans text-base leading-relaxed text-cream/80 sm:text-lg">
+              A história do Theatro contada por quem a viveu. O filme completo, dividido em capítulos e momentos.
+            </p>
+            <Link href="/documentario" className="group mt-9 inline-flex items-center gap-3 rounded-full bg-gold px-7 py-3.5 font-sans text-sm font-semibold text-ink transition-transform hover:scale-[1.03]">
+              <span className="grid h-7 w-7 place-items-center rounded-full bg-ink/15">
+                <svg width="11" height="12" viewBox="0 0 11 12" fill="currentColor" aria-hidden><path d="M0 0v12l11-6z" /></svg>
               </span>
-            </figcaption>
-          </figure>
-        </Reveal>
-      </section>
-
-      {/* AS HISTÓRIAS DO THEATRO — série: registro da estreia + canais */}
-      <HistoriasDoTheatro />
-
-      {/* PESSOAS */}
-      <section className="border-t border-gold/20 bg-cream dark:bg-night">
-        <div className="mx-auto grid max-w-6xl gap-12 px-5 py-24 md:grid-cols-2">
-          <Reveal>
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Uma história contada por pessoas</p>
-            <h2 className="mt-4 font-display text-3xl leading-tight sm:text-4xl lg:text-[2.5rem]">Quem afinou instrumentos, vendeu ingressos, pintou cenários e ocupou uma poltrona</h2>
-            <Link href="/pessoas" className="mt-7 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Conhecer as pessoas do Theatro →</Link>
-          </Reveal>
-          <Reveal delay={120}>
-            <div className="max-w-reading space-y-4 font-read text-[1.05rem] leading-relaxed text-ink/85 dark:text-cream/85">
-              <p>A história do Theatro não pertence somente aos nomes famosos que passaram pelo palco. Por isso, este site não organiza o passado apenas por datas: permite seguir pessoas, objetos, ambientes e lembranças.</p>
-              <p>Uma fotografia de baile conduz à sala em ferradura. Um cartaz leva ao elenco de uma peça. Um depoimento sobre cinema se liga ao antigo bar, à bilheteria e às sessões de domingo.</p>
-            </div>
+              Assistir ao documentário
+            </Link>
           </Reveal>
         </div>
       </section>
+
+      {/* O LIVRO DO CENTENÁRIO — download autorizado */}
+      <LivroCentenario />
 
       {/* FULL-BLEED — imagem + frase */}
       <section className="relative h-[78vh] min-h-[460px] overflow-hidden grain">
@@ -172,9 +152,6 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
-
-      {/* O LIVRO DO CENTENÁRIO — download autorizado */}
-      <LivroCentenario />
 
       {/* O THEATRO EM IMAGENS */}
       <section className="mx-auto max-w-6xl px-5 py-24">
@@ -229,29 +206,6 @@ export default function Home() {
               </div>
             </Reveal>
           </div>
-        </div>
-      </section>
-
-      {/* DOCUMENTARIO CTA — cinematográfico */}
-      <section className="relative overflow-hidden text-cream">
-        <Image src="/fotos/hr-historicas-37.jpg" alt="" aria-hidden fill sizes="100vw" className="object-cover object-center" />
-        <div className="absolute inset-0 bg-gradient-to-t from-night via-night/85 to-night/65" />
-        <div className="absolute inset-0 bg-curtaindark/35 mix-blend-multiply" aria-hidden />
-        <div className="absolute inset-0 grain opacity-50" aria-hidden />
-        <div className="relative mx-auto max-w-4xl px-5 py-28 text-center sm:py-32">
-          <Reveal>
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-gold">Documentário</p>
-            <h2 className="mx-auto mt-4 font-display text-4xl leading-[1.04] sm:text-6xl">Música &amp; Drama</h2>
-            <p className="mx-auto mt-5 max-w-xl font-sans text-base leading-relaxed text-cream/80 sm:text-lg">
-              A história do Theatro contada por quem a viveu. O filme completo, dividido em capítulos e momentos, com transcrição navegável.
-            </p>
-            <Link href="/documentario" className="group mt-9 inline-flex items-center gap-3 rounded-full bg-gold px-7 py-3.5 font-sans text-sm font-semibold text-ink transition-transform hover:scale-[1.03]">
-              <span className="grid h-7 w-7 place-items-center rounded-full bg-ink/15">
-                <svg width="11" height="12" viewBox="0 0 11 12" fill="currentColor" aria-hidden><path d="M0 0v12l11-6z" /></svg>
-              </span>
-              Assistir ao documentário
-            </Link>
-          </Reveal>
         </div>
       </section>
     </>

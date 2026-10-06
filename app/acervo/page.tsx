@@ -6,6 +6,7 @@ import FontesDaPagina from '@/components/FontesDaPagina';
 import GaleriaReal from '@/components/GaleriaReal';
 import ReconheceuAlguem from '@/components/ReconheceuAlguem';
 import LazyMount from '@/components/LazyMount';
+import ContinueNav from '@/components/ContinueNav';
 
 export const metadata: Metadata = {
   alternates: { canonical: '/acervo' },
@@ -133,6 +134,7 @@ export default function AcervoPage() {
         <ReconheceuAlguem />
 
         <FontesDaPagina fontes={page?.fontes ?? null} />
+        <ContinueNav href="/acervo" />
       </div>
     </article>
   );

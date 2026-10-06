@@ -48,3 +48,11 @@ export const IconFilme = ({ size, className }: P) => (
 export const IconFechadura = ({ size, className }: P) => (
   <svg {...base(size)} className={className} aria-hidden><circle cx="12" cy="12" r="9" /><path d="M12 7.5a2.6 2.6 0 0 1 1.3 4.85L14.2 16.5H9.8l.9-4.15A2.6 2.6 0 0 1 12 7.5z" /></svg>
 );
+
+// Grupos de Pessoas
+export const IconEscudo = ({ size, className }: P) => (
+  <svg {...base(size)} className={className} aria-hidden><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z" /></svg>
+);
+export const IconLivro = ({ size, className }: P) => (
+  <svg {...base(size)} className={className} aria-hidden><path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5zM5 19.5A1.5 1.5 0 0 0 6.5 21H19M9 7.5h6M9 11h6" /></svg>
+);

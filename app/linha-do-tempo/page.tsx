@@ -1,3 +1,4 @@
+import ContinueNav from '@/components/ContinueNav';
 import type { Metadata } from 'next';
 import { getPageBySlug } from '@/lib/content';
 import ChapterHero from '@/components/ChapterHero';
@@ -23,6 +24,7 @@ export default function LinhaDoTempoPage() {
         </p>
         <GrandeLinha />
         <FontesDaPagina fontes={page?.fontes ?? null} />
+        <ContinueNav href="/linha-do-tempo" />
       </div>
     </article>
   );

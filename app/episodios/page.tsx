@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllPages } from '@/lib/content';
+import ChapterHero from '@/components/ChapterHero';
 
 export const metadata: Metadata = {
   title: 'Episódios',
@@ -14,23 +15,23 @@ export default function DossiesPage() {
     .sort((a, b) => a.meta.title.localeCompare(b.meta.title, 'pt-BR'));
 
   return (
-    <div className="mx-auto max-w-5xl px-5 pb-24 pt-32 sm:pt-36">
-      <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Episódios</p>
-      <h1 className="mt-3 font-display text-4xl sm:text-5xl">Histórias para se aprofundar</h1>
-      <p className="mt-4 max-w-reading font-sans text-base leading-relaxed text-ink/75 dark:text-cream/75">
+    <article>
+      <ChapterHero eyebrow="Histórias para se aprofundar" title="Episódios" />
+      <div className="mx-auto max-w-6xl px-5 pb-24">
+      <p className="mt-2 max-w-reading font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
         Cada episódio reconstrói uma passagem da vida do Theatro com calma e fontes à mostra —
         a sociedade de acionistas que o financiou, o que a cidade de fato via no palco e a
         mobilização que o salvou da demolição.
       </p>
 
-      <div className="mt-12 grid gap-5 sm:grid-cols-2">
+      <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {dossies.map((d) => (
           <Link
             key={d.meta.slug}
             href={d.meta.slug}
             className="card-lift group flex flex-col rounded-sm border border-gold/30 bg-cream p-6 transition-colors hover:border-gold dark:bg-nightsoft"
           >
-            <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{d.meta.eyebrow}</span>
+            <span className="font-sans text-xs uppercase tracking-eyebrow text-curtain/70 dark:text-gold/70">{(d.meta.eyebrow || '').replace(/^Episódio\s*·\s*/i, '')}</span>
             <h2 className="mt-2 font-display text-2xl font-normal text-ink dark:text-cream">
               {d.meta.title} <span className="text-curtain transition-transform group-hover:translate-x-0.5 dark:text-gold">→</span>
             </h2>
@@ -38,6 +39,7 @@ export default function DossiesPage() {
           </Link>
         ))}
       </div>
-    </div>
+      </div>
+    </article>
   );
 }

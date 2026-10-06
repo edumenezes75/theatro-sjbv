@@ -1,3 +1,4 @@
+import ContinueNav from '@/components/ContinueNav';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getPageBySlug } from '@/lib/content';
@@ -106,6 +107,7 @@ export default function RepertorioPage() {
         </section>
 
         <FontesDaPagina fontes={page?.fontes ?? null} />
+        <ContinueNav href="/repertorio" />
       </div>
     </article>
   );

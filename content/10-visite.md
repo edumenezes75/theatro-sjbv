@@ -29,6 +29,8 @@ Para espetáculos, confirme antes de sair de casa:
 - estacionamento, embarque e desembarque;
 - a política para fotografias.
 
+A agenda e a venda de ingressos ficam nos [canais oficiais da Prefeitura](https://saojoao.sp.gov.br/cultura/equipamentos-culturais/theatro-municipal).
+
 Para visitas escolares e guiadas, produção ou locação, fale com o Departamento de Cultura.
 
 ## Acessibilidade
@@ -42,9 +44,9 @@ A administração pode orientar sobre:
 
 Vale combinar o atendimento com antecedência.
 
-## Visita histórica
+## O que observar lá dentro
 
-Uma visita interpretativa pode ser organizada em seis paradas:
+Quem entra no Theatro pode percorrê-lo em seis paradas:
 
 1. **Praça e fachada** — implantação e linguagem arquitetônica;
 2. **Foyer** — antigo bar, bilheteria e primeira etapa da restauração;

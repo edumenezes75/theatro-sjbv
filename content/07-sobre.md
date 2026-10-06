@@ -29,7 +29,7 @@ Cada página importante mostra suas fontes, e informações que nascem sobretudo
 
 ## Como foi construído
 
-O conteúdo foi organizado em camadas: uma leitura rápida para quem quer entender o essencial em poucos minutos; uma leitura narrativa para quem quer se aprofundar na [história](./historia), na [arquitetura](./arquitetura) e no [restauro](./restauracao); e uma camada de pesquisa, com [acervo](./acervo), [linha do tempo](./linha-do-tempo), [pessoas](./pessoas) e a [transcrição navegável do documentário](./documentario).
+O conteúdo foi organizado em duas camadas: uma leitura narrativa, na [história](./historia), na [arquitetura](./arquitetura) e no [restauro](./restauracao); e uma camada de pesquisa, com [acervo](./acervo), [linha do tempo](./linha-do-tempo), [pessoas](./pessoas) e o [documentário](./documentario).
 
 As imagens do acervo passaram por curadoria e tratamento fiel — sem alterar cores ou conteúdo —, e as legendas foram revisadas com base nas fontes. Quando há divergência entre versões, o site procura registrar a divergência em vez de escolher um lado.
 

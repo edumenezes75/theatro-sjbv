@@ -3,6 +3,8 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import type { Pessoa } from '@/lib/data';
 import SeloEvidencia from './SeloEvidencia';
+import Abas, { type Aba } from './Abas';
+import { IconFachada, IconEstrela, IconEscudo, IconLivro } from './Icons';
 
 const slugify = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -16,11 +18,11 @@ function iniciais(nome: string): string {
   return (arr[0][0] + (arr.length > 1 ? arr[arr.length - 1][0] : '')).toUpperCase();
 }
 
-const GROUPS: { title: string; sub: string; cats: string[] }[] = [
-  { title: 'Fundação e construção', sub: 'Quem idealizou, projetou e ergueu o edifício.', cats: ['fundação', 'arquitetura', 'construção'] },
-  { title: 'Palco, música e programação', sub: 'Artistas, mestres e educadores que deram voz e vida ao Theatro.', cats: ['música', 'educação', 'cultura local', 'trabalho'] },
-  { title: 'Preservação e restauro', sub: 'A mobilização e o trabalho que salvaram a casa e a devolveram à cidade.', cats: ['preservação', 'restauro', 'artes e restauro', 'instituição'] },
-  { title: 'Pesquisa, memória e documentação', sub: 'Quem registrou, pesquisou e contou esta história.', cats: ['pesquisa', 'audiovisual'] },
+const GROUPS: { title: string; curto: string; Icon: Aba['Icon']; sub: string; cats: string[] }[] = [
+  { title: 'Fundação e construção', curto: 'Fundação', Icon: IconFachada, sub: 'Quem idealizou, projetou e ergueu o edifício.', cats: ['fundação', 'arquitetura', 'construção'] },
+  { title: 'Palco, música e programação', curto: 'Palco e música', Icon: IconEstrela, sub: 'Artistas, mestres e educadores que deram voz e vida ao Theatro.', cats: ['música', 'educação', 'cultura local', 'trabalho'] },
+  { title: 'Preservação e restauro', curto: 'Preservação', Icon: IconEscudo, sub: 'A mobilização e o trabalho que salvaram a casa e a devolveram à cidade.', cats: ['preservação', 'restauro', 'artes e restauro', 'instituição'] },
+  { title: 'Pesquisa, memória e documentação', curto: 'Pesquisa', Icon: IconLivro, sub: 'Quem registrou, pesquisou e contou esta história.', cats: ['pesquisa', 'audiovisual'] },
 ];
 
 function Avatar({ p }: { p: Pessoa }) {
@@ -43,7 +45,7 @@ function Card({ p }: { p: Pessoa }) {
   return (
     <Link
       href={`/pessoas/${slugify(p.name)}`}
-      className="card-lift flex flex-col rounded-sm border border-ink/10 p-5 transition-colors hover:border-gold/50 dark:border-cream/10"
+      className="card-lift flex flex-col rounded-sm border border-gold/20 bg-cream p-5 transition-colors hover:border-gold/60 dark:bg-nightsoft"
     >
       <div className="flex items-start gap-4">
         <Avatar p={p} />
@@ -71,29 +73,18 @@ export default function PessoasExplorer({ pessoas }: { pessoas: Pessoa[] }) {
       return { ...g, people };
     }).filter((g) => g.people.length > 0);
     const rest = pessoas.filter((p) => !used.has(p.id));
-    if (rest.length) secs.push({ title: 'Outras presenças', sub: 'Nomes ligados à vida do Theatro.', cats: [], people: rest });
+    if (rest.length) secs.push({ title: 'Outras presenças', curto: 'Outras', Icon: IconEstrela, sub: 'Nomes ligados à vida do Theatro.', cats: [], people: rest });
     return secs;
   }, [pessoas]);
 
-  return (
-    <div>
-      <nav className="mb-10 flex flex-wrap gap-2" aria-label="Seções de pessoas">
-        {grouped.map((g) => (
-          <a key={g.title} href={`#${slugify(g.title)}`} className="rounded-full border border-ink/15 px-3.5 py-1.5 font-sans text-xs text-ink/75 transition-colors hover:border-curtain hover:text-curtain dark:border-cream/15 dark:text-cream/75 dark:hover:text-gold">{g.title}</a>
-        ))}
-      </nav>
-      {grouped.map((g) => (
-        <section key={g.title} id={slugify(g.title)} className="mt-14 scroll-mt-24 first:mt-0">
-          <div className="flex items-center gap-3">
-            <span className="h-6 w-px bg-curtain dark:bg-gold" />
-            <h2 className="font-display text-2xl leading-tight sm:text-3xl">{g.title}</h2>
-          </div>
-          <p className="mt-2 max-w-reading font-sans text-sm text-ink/70 dark:text-cream/70">{g.sub}</p>
-          <div className="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {g.people.map((p) => <Card key={p.id} p={p} />)}
-          </div>
-        </section>
-      ))}
-    </div>
-  );
+  const abas: Aba[] = grouped.map((g) => ({
+    slug: slugify(g.title), nome: g.title, curto: g.curto, legenda: g.sub, Icon: g.Icon,
+    conta: `${g.people.length} ${g.people.length === 1 ? 'pessoa' : 'pessoas'}`,
+    conteudo: (
+      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {g.people.map((p) => <Card key={p.id} p={p} />)}
+      </div>
+    ),
+  }));
+  return <Abas abas={abas} rotulo="Grupos de pessoas" />;
 }

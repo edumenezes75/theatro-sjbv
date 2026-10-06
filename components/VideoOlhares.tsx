@@ -16,14 +16,8 @@ const CREDITOS: [string, string][] = [
 export default function VideoOlhares() {
   const [play, setPlay] = useState(false);
   return (
-    <section className="mt-16 border-t border-gold/25 pt-12">
-      <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain dark:text-gold">Filme</p>
-      <h2 className="mt-3 font-display text-3xl">Olhares</h2>
-      <p className="mt-2 max-w-reading font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
-        Um curta sobre o Theatro Municipal de São João da Boa Vista, realizado pela Fundação Oliveira Neto.
-      </p>
-
-      <div className="mt-8 overflow-hidden rounded-sm bg-night">
+    <div>
+      <div className="overflow-hidden rounded-sm bg-night">
         {play ? (
           <video controls autoPlay playsInline preload="auto" poster="/video/olhares-1-poster.jpg" className="aspect-video h-auto w-full">
             <source src="/video/olhares-1.mp4" type="video/mp4" />
@@ -43,14 +37,21 @@ export default function VideoOlhares() {
         )}
       </div>
 
-      <div className="mt-6 grid max-w-2xl gap-x-10 gap-y-3 sm:grid-cols-2">
-        {CREDITOS.map(([role, name]) => (
-          <div key={role}>
-            <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain/80 dark:text-gold/80">{role}</p>
-            <p className="font-sans text-sm text-ink/85 dark:text-cream/85">{name}</p>
-          </div>
-        ))}
-      </div>
-    </section>
+      <h3 className="mt-5 font-display text-xl">Olhares</h3>
+      <p className="mt-2 font-sans text-sm leading-relaxed text-ink/70 dark:text-cream/70">
+        Um curta sobre o Theatro Municipal de São João da Boa Vista, realizado pela Fundação Oliveira Neto.
+      </p>
+      <details className="group mt-3">
+        <summary className="cursor-pointer list-none font-sans text-xs uppercase tracking-eyebrow text-ink/70 transition-colors hover:text-curtain dark:text-cream/70 dark:hover:text-gold">Créditos</summary>
+        <div className="mt-4 grid gap-x-8 gap-y-3 sm:grid-cols-2">
+          {CREDITOS.map(([role, name]) => (
+            <div key={role}>
+              <p className="font-sans text-xs uppercase tracking-eyebrow text-curtain/80 dark:text-gold/80">{role}</p>
+              <p className="font-sans text-sm text-ink/85 dark:text-cream/85">{name}</p>
+            </div>
+          ))}
+        </div>
+      </details>
+    </div>
   );
 }

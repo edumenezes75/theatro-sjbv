@@ -25,7 +25,7 @@ const MENU: Grupo[] = [
   { label: 'Memória viva', items: [
     { href: '/acervo', label: 'Acervo de imagens', hint: '345 fotografias catalogadas' },
     { href: '/repertorio', label: 'O que passou pelo palco', hint: 'A programação de 2002 a 2013' },
-    { href: '/documentario', label: 'Documentário', hint: 'O filme, com transcrição navegável' },
+    { href: '/documentario', label: 'Documentário', hint: 'O filme, em capítulos e momentos' },
     { href: '/pessoas', label: 'Pessoas', hint: 'Quem fez o Theatro acontecer' },
     { href: '/memorias', label: 'Curiosidades', hint: 'Histórias miúdas da casa' },
     { href: '/#livro', label: 'O livro do centenário', hint: 'Para baixar, em PDF' },

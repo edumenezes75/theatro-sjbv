@@ -1,3 +1,4 @@
+import ContinueNav from '@/components/ContinueNav';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getPageBySlug } from '@/lib/content';
@@ -76,7 +77,7 @@ export default function DocumentarioPage() {
         <LiteYouTube id="e2stgoHtlAQ" title="Música & Drama — A História do Theatro Municipal de São João da Boa Vista" />
         <div className="mt-4 max-w-reading space-y-4 font-read text-lg leading-relaxed text-ink/85 dark:text-cream/85">
           <p>Dirigido por Eduardo Menezes e lançado em 2015, <em>Música &amp; Drama</em> reconstrói um século de vida do Theatro pela voz de quem o frequentou, defendeu e restaurou. Em pouco mais de cem minutos, costura imagens, documentos e dezenas de depoimentos — das memórias de infância no cinema à batalha contra a demolição, do projeto de 1913 à reabertura de 2002.</p>
-          <p>Mais do que a cronologia de um edifício, é o retrato da relação entre uma cidade e o lugar onde ela se reconheceu. A transcrição completa, navegável abaixo, transforma esses relatos em fonte de consulta.</p>
+          <p>Mais do que a cronologia de um edifício, é o retrato da relação entre uma cidade e o lugar onde ela se reconheceu.</p>
         </div>
         <a href="https://www.youtube.com/watch?v=e2stgoHtlAQ" target="_blank" rel="noopener noreferrer" className="mt-3 inline-block border-b border-curtain pb-0.5 font-sans text-sm text-curtain dark:border-gold dark:text-gold">Abrir no YouTube ↗</a>
 
@@ -141,6 +142,7 @@ export default function DocumentarioPage() {
         </section>
 
         <FontesDaPagina fontes={page?.fontes ?? null} />
+        <ContinueNav href="/documentario" />
       </div>
     </article>
   );
