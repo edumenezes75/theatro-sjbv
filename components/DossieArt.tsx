@@ -2,15 +2,15 @@
 import { useEffect, useRef } from 'react';
 
 // A fachada desenhada de As Histórias do Theatro derivando bem de leve atrás do
-// episódio (duas camadas, profundidade). O PNG é traço branco sobre transparente:
+// episódio (duas camadas, profundidade). O PNG (só o prédio, sem a legenda manuscrita) é traço branco sobre transparente:
 // entra como máscara, para receber a cor do tema.
 // Só desktop; off em prefers-reduced-motion. Puramente decorativo (aria-hidden) e atrás do texto.
-const ARTE = "url('/evento/fachada.png')";
+const ARTE = "url('/evento/fachada-limpa.png')";
 function Fachada({ largura }: { largura: number }) {
   return (
     <div
       style={{
-        width: largura, height: Math.round(largura * 947 / 1498), backgroundColor: 'currentColor',
+        width: largura, height: Math.round(largura * 783 / 1498), backgroundColor: 'currentColor',
         WebkitMaskImage: ARTE, maskImage: ARTE,
         WebkitMaskSize: 'contain', maskSize: 'contain',
         WebkitMaskRepeat: 'no-repeat', maskRepeat: 'no-repeat',

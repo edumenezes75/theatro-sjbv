@@ -113,10 +113,10 @@ export default function HistoriasDoTheatro() {
 
             <div className="mx-auto w-full max-w-[26rem] md:max-w-none">
               <Image
-                src="/evento/fachada.png"
+                src="/evento/fachada-limpa.png"
                 alt="A fachada do Theatro Municipal em traço branco, a arte de As Histórias do Theatro."
                 width={1498}
-                height={947}
+                height={783}
                 className="h-auto w-full"
                 priority={false}
                 loading="eager"
